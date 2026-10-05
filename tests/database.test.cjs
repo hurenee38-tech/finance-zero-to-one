@@ -1,0 +1,25 @@
+const {PGlite}=require('@electric-sql/pglite');const fs=require('node:fs'),assert=require('node:assert/strict');
+(async()=>{const db=new PGlite();await db.exec(`
+create role anon;create role authenticated;create schema auth;
+create table auth.users(id uuid primary key);
+create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$;
+grant usage on schema auth to authenticated,anon;
+grant execute on function auth.uid() to authenticated,anon;
+insert into auth.users values('11111111-1111-1111-1111-111111111111'),('22222222-2222-2222-2222-222222222222');`);
+await db.exec(fs.readFileSync(require('node:path').join(__dirname,'../cloud/schema.sql'),'utf8'));
+const op={event_id:'aaaaaaaa-aaaa-4aaa-aaaa-aaaaaaaaaaaa',kind:'notes',item:'l01',value:'private A'};
+await db.exec(`set role authenticated;set request.jwt.claim.sub='11111111-1111-1111-1111-111111111111';`);
+await db.query('select public.append_learning_events($1::jsonb)',[JSON.stringify([op])]);
+await db.query('select public.append_learning_events($1::jsonb)',[JSON.stringify([op])]);
+assert.equal((await db.query('select * from public.learning_events')).rows.length,1);
+await assert.rejects(()=>db.exec("update public.learning_events set value='null'::jsonb"));
+await db.exec(`set request.jwt.claim.sub='22222222-2222-2222-2222-222222222222';`);
+assert.equal((await db.query('select * from public.learning_events')).rows.length,0);
+await db.query('select public.append_learning_events($1::jsonb)',[JSON.stringify([{...op,value:'private B'}])]);
+assert.equal((await db.query('select * from public.learning_events')).rows[0].value,'private B');
+await assert.rejects(()=>db.query('select public.append_learning_events($1::jsonb)',[JSON.stringify([{...op,event_id:'bbbbbbbb-bbbb-4bbb-bbbb-bbbbbbbbbbbb',kind:'completed',value:'wrong type'}])]));
+await db.exec('reset role;set role anon;');
+await assert.rejects(()=>db.query('select * from public.learning_events'));
+await assert.rejects(()=>db.query('select public.append_learning_events($1::jsonb)',[JSON.stringify([op])]));
+await db.close();console.log('PASS: PostgreSQL migration; own read/write; user isolation; anonymous denied; updates denied; replay idempotency; invalid input rejected');
+})();
