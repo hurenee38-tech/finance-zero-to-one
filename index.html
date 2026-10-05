@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#111827" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon-180.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Finance Zero → One</title>
+  <style>
+    :root{
+      --bg:#f6f7f9;--card:#ffffff;--ink:#111827;--muted:#667085;--line:#e5e7eb;
+      --accent:#111827;--soft:#eef2f7;--good:#0f766e;--warn:#9a6700;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink)}
+    .wrap{max-width:760px;margin:auto;padding:18px 16px 90px}
+    .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}
+    .brand{font-size:22px;font-weight:800;letter-spacing:-.5px}
+    .badge{background:#111827;color:white;border-radius:999px;padding:6px 10px;font-size:12px}
+    .hero{background:linear-gradient(135deg,#111827,#374151);color:white;border-radius:20px;padding:22px;margin-bottom:16px}
+    .hero h1{margin:0 0 8px;font-size:26px}
+    .hero p{margin:0;color:#d1d5db;line-height:1.65}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;box-shadow:0 1px 2px rgba(0,0,0,.03)}
+    .card h3{margin:0 0 8px;font-size:16px}
+    .card p{margin:0;color:var(--muted);font-size:13px;line-height:1.6}
+    .section-title{font-size:18px;font-weight:800;margin:24px 0 10px}
+    .path{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+    .pill{white-space:nowrap;background:var(--soft);padding:9px 12px;border-radius:999px;font-size:13px;border:1px solid var(--line)}
+    .lesson{margin-top:12px}
+    .eyebrow{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+    .lesson h2{font-size:21px;margin:6px 0 10px}
+    .plain{background:#f8fafc;border-left:4px solid #111827;padding:12px 14px;border-radius:10px;margin:12px 0;line-height:1.7}
+    .pro{padding:12px 14px;background:#fff;border:1px dashed #cbd5e1;border-radius:10px;line-height:1.7}
+    .formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#111827;color:white;border-radius:10px;padding:12px 14px;margin:12px 0;font-size:14px;overflow:auto}
+    .mini{font-size:13px;color:var(--muted)}
+    .term{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}
+    .term:last-child{border-bottom:0}
+    .term b{display:block}
+    .term span{color:var(--muted);font-size:12px}
+    button{border:0;background:#111827;color:white;border-radius:12px;padding:11px 14px;font-weight:700;cursor:pointer}
+    input{width:100%;padding:11px 12px;border:1px solid #d0d5dd;border-radius:10px;font-size:16px;margin-top:6px}
+    .result{margin-top:10px;padding:12px;border-radius:10px;background:#ecfdf5;color:#065f46;font-weight:700;display:none}
+    .quiz-option{display:block;width:100%;text-align:left;margin:8px 0;background:#f8fafc;color:#111827;border:1px solid var(--line)}
+    .feedback{font-size:13px;margin-top:8px}
+    nav{position:fixed;left:0;right:0;bottom:0;background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-top:1px solid var(--line);display:flex;justify-content:center}
+    nav .inner{width:min(760px,100%);display:grid;grid-template-columns:repeat(4,1fr);padding:8px 10px calc(8px + env(safe-area-inset-bottom))}
+    nav a{text-decoration:none;color:#667085;text-align:center;font-size:12px;padding:8px 2px}
+    nav a strong{display:block;color:#111827;font-size:16px}
+    @media(max-width:520px){.grid{grid-template-columns:1fr}.hero h1{font-size:24px}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="brand">Finance Zero → One</div>
+    <div class="badge">小白友好</div>
+  </div>
+
+  <section class="hero">
+    <h1>今天只学一个概念</h1>
+    <p>目标：15 分钟看懂一个金融概念，并知道它在真实公司、融资与医药交易里怎么用。</p>
+  </section>
+
+  <div class="grid">
+    <div class="card"><h3>📚 学习路径</h3><p>三张表 → EV/Equity Value → DCF → NPV/IRR → 融资 → 医药交易</p></div>
+    <div class="card"><h3>🧠 术语卡</h3><p>每个词都包含“人话解释 + 专业定义 + 场景”。</p></div>
+    <div class="card"><h3>🧪 案例训练</h3><p>从真实融资、并购和 License deal 学会判断项目。</p></div>
+    <div class="card"><h3>🧮 金融计算器</h3><p>内置 EV 基础计算，边学边算。</p></div>
+  </div>
+
+  <div class="section-title">学习路线</div>
+  <div class="path">
+    <div class="pill">01 三张表</div><div class="pill">02 EV / Equity Value</div><div class="pill">03 DCF</div>
+    <div class="pill">04 NPV / IRR</div><div class="pill">05 融资</div><div class="pill">06 医药 BD</div>
+  </div>
+
+  <div class="section-title">今日学习</div>
+  <section class="card lesson" id="learn">
+    <div class="eyebrow">Lesson 01 · Valuation Basics</div>
+    <h2>Enterprise Value 到底是什么？</h2>
+    <div class="plain"><b>先说人话：</b>EV 可以理解成“把一家公司整个经营业务买下来，大概要付多少钱”。它不是单纯的股票市值，因为收购公司时，你不仅得到股权，也要接手债务，同时可以拿到公司账上的现金。</div>
+    <div class="pro"><b>专业定义：</b>Enterprise Value（企业价值）衡量公司核心经营资产的整体价值，常用于并购估值与可比公司估值。</div>
+    <div class="formula">EV = Equity Value + Debt − Cash</div>
+    <p class="mini">例：某公司市值 100 亿元，债务 30 亿元，现金 20 亿元，则 EV = 110 亿元。</p>
+  </section>
+
+  <div class="section-title">术语卡</div>
+  <section class="card" id="terms">
+    <div class="term"><div><b>Equity Value</b><span>股权价值 / 市值</span></div><div class="mini">属于股东的价值</div></div>
+    <div class="term"><div><b>Enterprise Value</b><span>企业价值</span></div><div class="mini">经营实体整体价值</div></div>
+    <div class="term"><div><b>Net Debt</b><span>净债务</span></div><div class="mini">Debt − Cash</div></div>
+    <div class="term"><div><b>EBITDA</b><span>息税折旧摊销前利润</span></div><div class="mini">常用于企业间经营比较</div></div>
+  </section>
+
+  <div class="section-title">小测</div>
+  <section class="card" id="quiz">
+    <h3>一家公司的市值为 80 亿，债务 25 亿，现金 10 亿，EV 是多少？</h3>
+    <button class="quiz-option" onclick="answer(false)">A. 65 亿</button>
+    <button class="quiz-option" onclick="answer(false)">B. 80 亿</button>
+    <button class="quiz-option" onclick="answer(true)">C. 95 亿</button>
+    <div class="feedback" id="fb"></div>
+  </section>
+
+  <div class="section-title">金融计算器</div>
+  <section class="card" id="calc">
+    <h3>EV Calculator</h3>
+    <label>Equity Value（亿元）<input id="eq" type="number" inputmode="decimal" value="100"></label>
+    <label>Debt（亿元）<input id="debt" type="number" inputmode="decimal" value="30"></label>
+    <label>Cash（亿元）<input id="cash" type="number" inputmode="decimal" value="20"></label>
+    <button style="margin-top:12px" onclick="calcEV()">计算 EV</button>
+    <div class="result" id="res"></div>
+  </section>
+</div>
+
+<nav><div class="inner">
+  <a href="#learn"><strong>⌂</strong>首页</a>
+  <a href="#learn"><strong>◉</strong>学习</a>
+  <a href="#terms"><strong>▦</strong>术语</a>
+  <a href="#calc"><strong>∑</strong>计算</a>
+</div></nav>
+
+<script>
+function answer(ok){
+  const fb=document.getElementById('fb');
+  fb.textContent=ok?'正确：80 + 25 − 10 = 95 亿。':'再想一下：EV = 市值 + 债务 − 现金。';
+  fb.style.color=ok?'#0f766e':'#9a6700';
+}
+function calcEV(){
+  const eq=parseFloat(document.getElementById('eq').value||0);
+  const debt=parseFloat(document.getElementById('debt').value||0);
+  const cash=parseFloat(document.getElementById('cash').value||0);
+  const v=eq+debt-cash;
+  const el=document.getElementById('res');
+  el.style.display='block'; el.textContent='Enterprise Value = '+v.toFixed(2)+' 亿元';
+}
+if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
+</script>
+</body>
+</html>

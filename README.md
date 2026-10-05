@@ -1,2 +1,3 @@
-# finance-zero-to-one
-手机友好的金融入门学习库：概念、术语、小测与 EV 计算器。
+# Finance Zero → One
+
+手机友好的金融入门原型，包含 EV 课程、术语、小测与计算器。
