@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "channel": "finance",
+  "updatedAt": "2026-10-05T16:59:05.872511+00:00",
+  "items": [
+    {
+      "id": "finance-2026-10-06-launch",
+      "date": "2026-10-06",
+      "source": "curated",
+      "title": "启动精选｜申报撤回，模型里先改哪几格？",
+      "summary": "以2026-09-25 I-DXd申报撤回公告为例，连接监管、上市时间、现金消耗与rNPV。事件不是今日新闻，也不是完整的24–72小时晨报。",
+      "sections": [
+        {
+          "heading": "已核实事件",
+          "body": "Merck于2026-09-25公告，与Daiichi Sankyo共同开发的ifinatamab deruxtecan针对既往接受铂类治疗的广泛期小细胞肺癌加速批准申请已自愿撤回。公告称现有数据不满足该适应症加速批准要求，III期IDeate-Lung02继续推进。"
+        },
+        {
+          "heading": "今天的金融概念：时间也是价值",
+          "body": "教学假设：现在确定花20，一年后有30%概率收到100，折现率10%。rNPV=−20+30/1.1=7.27。若仅把收款推迟到两年后，rNPV降至4.79。数字全部为教学假设，不是该药实际估值。"
+        },
+        {
+          "heading": "跨岗位视角 · 分析而非公司结论",
+          "body": "BD：合同权利和里程碑条件是否受影响？\n投资：重估上市时间、开发成本与成功概率，不能只改折现率。\nFA：现金能否支撑更晚的数据节点？\n投行：交易叙事和融资时点是否改变？\n咨询：同类竞品、证据路径与商业窗口怎样调整？"
+        },
+        {
+          "heading": "要追踪哪些证据",
+          "body": "查阅原公告、试验设计、入组与读出进度及后续监管披露。申请撤回不等于全项目终止；继续III期也不意味着批准已确定。"
+        },
+        {
+          "heading": "思考题",
+          "body": "如果上市推迟两年，但成功概率和最终峰值销售暂时不变，估值为何仍可能下降？参考思路：现金流折现、额外开发成本、融资稀释，以及可能缩短的竞争/独占窗口。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "BLA",
+          "zh": "生物制品许可申请",
+          "meaning": "向美国FDA申请生物制品上市许可的申报类型。"
+        },
+        {
+          "en": "Accelerated approval",
+          "zh": "加速批准",
+          "meaning": "有特定证据与后续验证要求的监管路径，不等于所有数据要求被取消。"
+        },
+        {
+          "en": "rNPV",
+          "zh": "风险调整净现值",
+          "meaning": "按各现金流发生概率与时间估计现值，再扣除相应成本。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Merck原公告：2026-09-25 I-DXd BLA撤回",
+          "url": "https://www.merck.com/news/ifinatamab-deruxtecan-biologics-license-application-for-certain-patients-with-previously-treated-extensive-stage-small-cell-lung-cancer-voluntarily-withdrawn/"
+        }
+      ]
+    }
+  ]
+}

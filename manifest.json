@@ -1,10 +1,10 @@
 {
-  "name": "Finance Zero → One",
+  "name": "Finance 0→1 · 医药与金融学习",
   "short_name": "Finance 0→1",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f6f7f9",
-  "theme_color": "#111827",
+  "background_color": "#f6f5f0",
+  "theme_color": "#164b43",
   "icons": [
     {
       "src": "icon-192.png",
@@ -17,5 +17,6 @@
       "type": "image/png"
     }
   ],
-  "scope": "./"
+  "scope": "./",
+  "id": "./"
 }

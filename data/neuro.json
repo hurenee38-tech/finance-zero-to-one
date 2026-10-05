@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "channel": "neuro",
+  "updatedAt": "2026-10-05T16:59:05.872511+00:00",
+  "items": [
+    {
+      "id": "neuro-2026-10-06-launch",
+      "date": "2026-10-06",
+      "source": "curated",
+      "title": "启动精选｜衰老与 AD，不沿同一条连接梯度变化",
+      "summary": "Nature Neuroscience · 2026-10-01。区分正常衰老与AD相关脑网络变化，为理解影像生物标志物提供新角度。此篇是启动精选，非定时任务首期。",
+      "sections": [
+        {
+          "heading": "论文与中文标题",
+          "body": "Different functional connectivity gradients reflect aging and Alzheimer’s disease\n中文：不同的功能连接梯度分别反映衰老与阿尔茨海默病。\nRittmo等，Nature Neuroscience，2026-10-01。DOI: 10.1038/s41593-026-02402-0。影响因子待核实：未将未核实的当年数值作为筛选证据。"
+        },
+        {
+          "heading": "研究问题与方法",
+          "body": "衰老和AD相关的功能连接变化是否反映相同过程？研究在BioFINDER-2（973人）与ADNI（129人）两个人群中，以全皮层连接梯度分析网络变化。"
+        },
+        {
+          "heading": "摘要要点译述",
+          "body": "AD早期病理与之后的认知下降关联于感觉—联合轴上的功能变化；年龄相关变化更多沿表征—执行轴分布。作者提出，两类变化对应不同的主要功能组织方向。此处为摘要要点译述，不是全文翻译。"
+        },
+        {
+          "heading": "怎样解读",
+          "body": "关联证据不能证明连接变化导致病理或认知下降。值得继续核对年龄与病理协变量、跨队列稳定性和个体预测表现。对药物开发的启发属于推断：分层影像指标可能帮助区分年龄背景与疾病过程，但尚不能视为已验证替代终点。"
+        },
+        {
+          "heading": "向前读两篇",
+          "body": "Margulies等（2016）：了解皮层主梯度的基本框架。\nFranzmeier等（2020）：理解功能连接架构与tau累积的关系。链接列于下方。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Functional connectivity",
+          "zh": "功能连接",
+          "meaning": "脑区信号在时间上的统计关联，不等于直接解剖连线。"
+        },
+        {
+          "en": "Connectivity gradient",
+          "zh": "连接梯度",
+          "meaning": "将高维脑区连接模式表示为连续组织轴。"
+        },
+        {
+          "en": "Sensory–association axis",
+          "zh": "感觉—联合轴",
+          "meaning": "从感觉处理到高级联合处理的连续组织方向。"
+        },
+        {
+          "en": "Cohort",
+          "zh": "队列",
+          "meaning": "按研究设计纳入并观察的一组参与者。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文：Nature Neuroscience，2026",
+          "url": "https://www.nature.com/articles/s41593-026-02402-0"
+        },
+        {
+          "title": "前期框架：Margulies et al., PNAS 2016",
+          "url": "https://doi.org/10.1073/pnas.1608282113"
+        },
+        {
+          "title": "前期研究：Franzmeier et al., Nature Communications 2020",
+          "url": "https://www.nature.com/articles/s41467-019-14159-1"
+        }
+      ]
+    }
+  ]
+}

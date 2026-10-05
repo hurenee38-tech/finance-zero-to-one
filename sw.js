@@ -1,4 +1,6 @@
-const CACHE='finance-zero-one-v1';
-const ASSETS=['./','./index.html','./manifest.json'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS))));
-self.addEventListener('fetch',e=>e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request))));
+const CACHE='finance-zero-one-v2.0';
+const CORE=['./','./index.html','./styles.css','./app.js','./manifest.json','./icon-180.png','./icon-192.png','./icon-512.png','./data/lessons.json','./data/cases.json','./data/cfa.json'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
+self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith('finance-zero-one-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
+self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(e.request.method!=='GET'||u.origin!==self.location.origin)return;
+const cacheKey=new Request(u.origin+u.pathname);e.respondWith((async()=>{const cache=await caches.open(CACHE);try{const r=await fetch(e.request);if(r.ok)await cache.put(cacheKey,r.clone());return r}catch(err){const r=await cache.match(cacheKey);if(!r)throw err;const h=new Headers(r.headers);h.set('X-Offline','1');return new Response(await r.arrayBuffer(),{status:r.status,statusText:r.statusText,headers:h})}})())});
