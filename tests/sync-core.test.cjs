@@ -1,0 +1,17 @@
+const assert=require('node:assert/strict');
+const C=require('../sync-core.js');
+let n=0;const id=()=>String(++n);
+const a=C.empty(),b=C.empty();a.completed=['l01'];b.bookmarks=['l02'];
+const merged=C.materialize(C.empty(),[...C.diff(C.empty(),a,id),...C.diff(C.empty(),b,id)]);
+assert.deepEqual(merged.completed,['l01']);assert.deepEqual(merged.bookmarks,['l02']);
+const unstar=C.copy(merged);unstar.bookmarks=[];
+assert.deepEqual(C.materialize(merged,C.diff(merged,unstar,id)).bookmarks,[]);
+const noteA={event_id:id(),kind:'notes',item:'l01',value:'设备 A 的思路'};
+const noteB={event_id:id(),kind:'notes',item:'l01',value:'设备 B 的思路'};
+const history=[noteA,noteB];assert.equal(C.materialize(C.empty(),history).notes.l01,noteB.value);assert.equal(history[0].value,noteA.value);
+assert.equal(C.materialize(C.materialize(C.empty(),[noteA]),[noteA]).notes.l01,noteA.value);
+assert.throws(()=>C.apply(C.empty(),{kind:'notes',item:'__proto__',value:'bad'}));
+assert.equal(C.valid({kind:'answers',item:'q1',value:{answer:8,at:'now'}}),false);
+const server=C.materialize(C.empty(),[noteA]);assert.equal(C.materialize(server,[noteB]).notes.l01,noteB.value);
+assert.deepEqual(C.diff(a,a,id),[]);
+console.log('PASS: independent device edits, removal, note history, replay, pending overlay, validation');

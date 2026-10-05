@@ -1,0 +1,1 @@
+{"private":true,"scripts":{"test":"node sync-core.test.cjs && node cloud-adapter.test.cjs && node database.test.cjs"},"devDependencies":{"@electric-sql/pglite":"0.3.14"}}
