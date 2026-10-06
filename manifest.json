@@ -3,8 +3,8 @@
   "short_name": "BHOB",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#f6f5f0",
-  "theme_color": "#164b43",
+  "background_color": "#fafafa",
+  "theme_color": "#161616",
   "icons": [
     {
       "src": "icon-192.png?v=3.0.2",
