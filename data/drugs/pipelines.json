@@ -1304,10 +1304,10 @@
   },
   {
     "id": "NCT05269394",
-    "title": "BIIB080 / diranersen",
-    "modality": "ASO",
+    "title": "E2814 + lecanemab",
+    "modality": "单抗组合",
     "area": "CNS",
-    "target": "MAPT / Tau",
+    "target": "Tau / Aβ",
     "stage": "Phase 2/Phase 3",
     "company": "Washington University School of Medicine",
     "indication": "Alzheimers Disease / Dementia / Alzheimers Disease, Familial",
@@ -1324,11 +1324,25 @@
       "type": "ESTIMATED"
     },
     "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
-    "risks": "确认tau降低与临床终点之间的证据；生物标志物改变不自动等于认知获益。",
+    "risks": "核对抗tau与抗Aβ组合方案、遗传性AD人群和终点；生物标志物改变不自动等于认知获益。",
     "sources": [
       {
         "title": "ClinicalTrials.gov NCT05269394",
         "url": "https://clinicaltrials.gov/study/NCT05269394"
+      }
+    ],
+    "interventions": [
+      {
+        "type": "DRUG",
+        "name": "E2814"
+      },
+      {
+        "type": "DRUG",
+        "name": "Lecanemab"
+      },
+      {
+        "type": "DRUG",
+        "name": "Matching Placebo (E2814)"
       }
     ]
   }
