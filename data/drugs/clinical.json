@@ -1,0 +1,74 @@
+[
+  {
+    "id": "clinical-0",
+    "title": "ORR / DCR",
+    "summary": "缩小与稳定不是一回事。",
+    "sections": [
+      {
+        "heading": "阅读与算例",
+        "body": "100人：CR5、PR25、SD40 → ORR30%，DCR70%。看ITT分母、评估标准与持续性。"
+      }
+    ],
+    "course": "l81"
+  },
+  {
+    "id": "clinical-1",
+    "title": "PFS / OS / DoR",
+    "summary": "进展、生存和响应持续时间回答不同问题。",
+    "sections": [
+      {
+        "heading": "阅读与算例",
+        "body": "PFS改善不能自动称OS获益；DoR只在响应者中计算，需看随访成熟度。"
+      }
+    ],
+    "course": "l82"
+  },
+  {
+    "id": "clinical-2",
+    "title": "HR / CI",
+    "summary": "效应大小与不确定性一起看。",
+    "sections": [
+      {
+        "heading": "阅读与算例",
+        "body": "HR0.7不是寿命增加30%；CI跨1通常不支持该水平下显著。核对比例风险假设。"
+      }
+    ],
+    "course": "l83"
+  },
+  {
+    "id": "clinical-3",
+    "title": "KM曲线",
+    "summary": "曲线尾端必须搭配风险人数表。",
+    "sections": [
+      {
+        "heading": "阅读与算例",
+        "body": "检查删失、随访、风险人数和预设分析，少数患者尾部波动很大。"
+      }
+    ],
+    "course": "l84"
+  },
+  {
+    "id": "clinical-4",
+    "title": "AE / SAE / RP2D",
+    "summary": "严重程度、严重事件和推荐剂量不能混用。",
+    "sections": [
+      {
+        "heading": "阅读与算例",
+        "body": "按暴露时长、剂量、归因、停药、死亡及有效暴露阅读安全性。"
+      }
+    ],
+    "course": "l85"
+  },
+  {
+    "id": "clinical-5",
+    "title": "单臂与RCT",
+    "summary": "先知道对照是谁。",
+    "sections": [
+      {
+        "heading": "阅读与算例",
+        "body": "跨试验比较需对齐线数、人群、评估与随访；单臂响应不证明相对SOC优势。"
+      }
+    ],
+    "course": "l86"
+  }
+]

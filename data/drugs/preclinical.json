@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pc-adrb2",
+    "title": "肺肿瘤神经—免疫轴 · β2信号研究线索",
+    "stage": "机制发现",
+    "modality": "尚未指定候选药物",
+    "area": "肿瘤",
+    "target": "ADRB2",
+    "summary": "小鼠因果干预支持机制探索；不是已确认的临床前候选药物管线。",
+    "sections": [
+      {
+        "heading": "下一步证据",
+        "body": "需要免疫细胞特异性验证、剂量暴露、联合策略及跨模型复现。"
+      },
+      {
+        "heading": "转化风险",
+        "body": "系统性神经阻断可能有器官功能影响；机制发现与IND-enabling仍有显著距离。"
+      }
+    ],
+    "paper": "p-brain-tumor",
+    "sources": [
+      {
+        "title": "论文原文 · 2026-02-04",
+        "url": "https://www.nature.com/articles/s41586-025-10028-8"
+      }
+    ]
+  },
+  {
+    "id": "pc-cgrp",
+    "title": "CGRP—tuft细胞轴 · 屏障免疫研究线索",
+    "stage": "机制发现",
+    "modality": "尚未指定候选药物",
+    "area": "免疫 / 感染",
+    "target": "CGRP",
+    "summary": "原始研究支持神经调节肠道2型免疫，暂不能当作疾病治疗项目。",
+    "sections": [
+      {
+        "heading": "下一步证据",
+        "body": "明确疾病场景、干预方向、组织选择性、治疗窗口与宿主防御风险。"
+      }
+    ],
+    "paper": "p-gut",
+    "sources": [
+      {
+        "title": "论文原文 · 2026-01-07",
+        "url": "https://www.nature.com/articles/s41586-025-09921-z"
+      }
+    ]
+  }
+]
