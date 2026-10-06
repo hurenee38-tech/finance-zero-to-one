@@ -1,8 +1,853 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-05T16:59:05.872511+00:00",
+  "updatedAt": "2026-10-06T23:06:00Z",
   "items": [
+    {
+      "id": "finance-2026-10-07",
+      "date": "2026-10-07",
+      "source": "scheduled",
+      "title": "医药金融晨报｜三期成败、两笔并购与“股权价值≠企业价值”",
+      "summary": "近72小时核实5项重要事件：一项EGFR外显子20插入突变NSCLC三期主要终点失败、一项DLBCL双抗联合三期阳性、两笔并购，以及FDA对ibogaine早期试验设计征求意见。数据库维护完成19项既有NCT逐项核查（成功19、失败0、变动2），并新增2项本期关键III期记录。",
+      "sections": [
+        {
+          "heading": "今日核心概念：股权价值（Equity Value）与企业价值（Enterprise Value）",
+          "body": "从第一性原理看，买下公司的股份并不等于买下其经营资产的净成本。股权价值是归普通股股东的价值；企业价值（EV）把债权人也纳入资本结构，常用桥接式：EV = 股权价值 + 有息债务 + 优先股 + 少数股东权益 − 现金及现金等价物。并购公告中的“收购价”必须先判断口径，不能直接与EV/Revenue或EV/EBITDA倍数混用。"
+        },
+        {
+          "heading": "短算例（教学假设）",
+          "body": "假设全部股份作价20亿美元，目标公司有1亿美元有息债务、0.5亿美元现金，且无优先股/少数股东权益，则EV = 20 + 1 − 0.5 = 20.5亿美元。若直接用20亿美元除以收入，得到的是股权购买价/收入，而不是严格的EV/Revenue。注意：这组债务和现金数字纯属教学假设，不是IntraBio实际数字。"
+        },
+        {
+          "heading": "1｜ArriVent：FURVENT三期主要终点未达成（2026-10-06）",
+          "body": "【事实】NCT05607550纳入398例一线EGFR外显子20插入突变晚期/转移性非鳞NSCLC。公司披露BICR评估PFS未达主要终点：240 mg组中位PFS 11.0个月，对照9.5个月，HR 0.75（95%CI 0.55–1.02），p=0.0654；ORR为60%对33%，OS尚不成熟且显示改善趋势，未见新安全信号。\n【分析】科学上，肿瘤缩小率改善并未转化成预设PFS统计成功，提示缓解深度/持续时间、评估差异或效应量不足需要拆解。商业上，一线注册路径承压。战略上，公司需判断是否继续该剂量/人群、等待OS或将资源转向PACC突变和ADC管线。财务上，失败会下调该适应症成功概率与峰值销售预期，并可能抬高未来融资成本；但不能据此把firmonertinib所有适应症价值归零。"
+        },
+        {
+          "heading": "2｜Genmab/AbbVie：epcoritamab + R-CHOP一线DLBCL三期阳性（2026-10-05）",
+          "body": "【事实】EPCORE DLBCL-2（NCT05578976）显示，在初治DLBCL IPI 2–5人群中，疾病进展或死亡风险降低51%（HR 0.49，95%CI 0.36–0.67，p<0.0001）；公司称安全性与各组成方案既往特征一致，并计划与全球监管机构沟通。完整数据尚待会议发表，组合尚未获批。\n【分析】科学上，这是CD3×CD20双抗前移到一线并叠加R-CHOP的强PFS信号。商业上，若获批可扩大可治疗人群，但需面对疗程、细胞因子释放综合征管理、成本和竞品。战略上，验证了从复发/难治向一线扩展的生命周期管理。财务上，应上调一线情景概率和销售曲线，但OS、完整安全性、标签范围与支付仍是估值折扣项。"
+        },
+        {
+          "heading": "3｜Shionogi拟20亿美元收购IntraBio（2026-10-05）",
+          "body": "【事实】Shionogi拟以20亿美元现金收购IntraBio全部股份，计划在2026年11–12月交割（仍需满足监管和其他先决条件）。交易带来AQNEURSA全球权利；该药已在美国和欧盟获批用于NPC神经表现，并于2026-09-18在美国获批用于A-T共济失调。IntraBio披露的2025年净销售额为6,786.7万美元、经营亏损3,529.2万美元。\n【分析】科学/产品上，交易核心是一个已商业化的超罕见神经产品及罕见病能力。商业上，Shionogi可复用收购RADICAVA后建立的罕见病渠道。战略上，公司从感染病进一步扩展到高未满足需求罕见病。财务上，公告口径是股份收购价；用其除以2025年销售额约29.5倍只是粗略历史购买价/销售额，不是EV倍数，也未反映增长、利润、现金债务或管线期权。"
+        },
+        {
+          "heading": "4｜GE HealthCare拟9.45亿美元收购SOFIE Biosciences（2026-10-05）",
+          "body": "【事实】GE HealthCare拟以9.45亿美元现金收购SOFIE，预计2027年上半年交割。SOFIE拥有15个美国CMO站点和21台回旋加速器；交易还带来FAPI-74的美国权利，公司称该PET示踪剂处于III期。F18半衰期约110分钟，使本地化生产和“最后一公里”配送成为关键。\n【分析】科学上，FAPI影像有望扩大泛癌种分子成像与诊疗一体化入口，但公告未给出III期疗效数据或NCT号。商业上，短半衰期把网络密度和可靠配送变成护城河。战略上，GE从设备/造影剂向放射性药物价值链纵向整合。财务上，公司预计所有权首个完整年度即增厚收入增长、调整后EBIT利润率和EPS，但协同实现、监管批准和客户中立性仍需验证。"
+        },
+        {
+          "heading": "5｜FDA就ibogaine早期临床开发征求意见（2026-10-05）",
+          "body": "【事实】FDA发布RFI，聚焦ibogaine产品早期试验的剂量递增、研究场景、心脏/神经安全监测、入组标准、停止规则和独立监督；建议起始剂量需由数据支持且不超过10 mg/kg。意见期至2026-11-20。FDA同时指出已允许noribogaine hydrochloride的一项酒精使用障碍早期研究在IND下推进。\n【分析】科学上，监管关注点说明致心律失常和神经风险将决定剂量探索与场地要求。商业上，更明确的设计预期可降低方案反复，但高强度监测提高试验成本。战略上，开发者应把心电/神经监测、停药规则和伦理监督前置。财务上，监管清晰度提高可降低部分路径不确定性，却不等于疗效被认可或审批门槛降低。"
+        },
+        {
+          "heading": "跨岗位视角｜看Shionogi–IntraBio交易",
+          "body": "投行：验证20亿美元价格口径、资金来源、交易增厚/摊薄、可比交易和交割条件。FA顾问：为目标或买方组织竞价、估值区间、管理层材料与谈判节奏，重点证明增长而非只看历史销售。BD：评估全球权利、知识产权、适应症扩展、制造和医学事务能力能否真正转移。投资者：建立AQNEURSA患者数×诊断率×渗透率×净价模型，扣除销售扩张、竞争和整合风险。咨询：设计罕见病商业组织、患者发现路径、区域上市顺序与渠道协同。"
+        },
+        {
+          "heading": "案例练习｜20亿美元贵不贵？",
+          "body": "已知事实：IntraBio 2025年净销售额6,786.7万美元，股份作价20亿美元。第一步：历史购买价/销售额约29.5倍。教学假设：若2026年销售增长70%，销售额约1.154亿美元，则同一价格对应约17.3倍。请再建立三种情景：患者池、诊断率、渗透率、净价、销售费用和利润率，并把NPC、A-T及管线期权分开。结论不应由单一倍数决定。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "既有NCT逐项核查19项：成功19、失败0、变动2。NCT07060807仅登记更新时间刷新至2026-10-06，核心字段未变；NCT04794101申办方名称更新为MeiraGTx UK Ltd，预计完成日由2029-09-20延至2029-12-07。另新增并核实本期两项关键III期：NCT05607550与NCT05578976。预计完成日不等于结果读出日期；试验阶段不等于全球最高阶段或获批状态。"
+        },
+        {
+          "heading": "今日问题",
+          "body": "如果你是Shionogi的投资者，在不能拿到IntraBio现金与债务明细时，你会优先向管理层追问哪三项信息，才能把“20亿美元股权购买价”转成可比较的企业价值与回报率判断？"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Equity Value",
+          "zh": "股权价值",
+          "meaning": "归普通股股东的价值；并购中的股份购买价通常接近这一口径，但仍需看交易定义。"
+        },
+        {
+          "en": "Enterprise Value (EV)",
+          "zh": "企业价值",
+          "meaning": "经营资产对全部资本提供者的价值，常由股权价值加净债务等项目桥接。"
+        },
+        {
+          "en": "BICR",
+          "zh": "盲态独立中心审评",
+          "meaning": "由独立评审者在不了解治疗分组等信息的情况下评估影像终点，降低评估偏倚。"
+        },
+        {
+          "en": "Hazard Ratio (HR)",
+          "zh": "风险比",
+          "meaning": "随时间比较事件发生瞬时风险；HR<1通常表示试验组风险较低，但需结合置信区间和预设统计方案。"
+        },
+        {
+          "en": "Bispecific antibody",
+          "zh": "双特异性抗体",
+          "meaning": "可同时结合两个靶点；epcoritamab同时结合T细胞CD3与B细胞CD20。"
+        },
+        {
+          "en": "CMO/CDMO",
+          "zh": "合同生产/合同开发生产组织",
+          "meaning": "为其他公司提供生产，或兼具工艺开发与生产服务的机构。"
+        },
+        {
+          "en": "RFI",
+          "zh": "信息征求请求",
+          "meaning": "监管机构公开征集数据和意见的程序，不是产品批准或正式指南本身。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ArriVent：2026-10-06 FURVENT III期更新",
+          "url": "https://ir.arrivent.com/news-releases/news-release-details/arrivent-announces-program-update-phase-3-furvent-trial"
+        },
+        {
+          "title": "SEC：ArriVent 2026-10-06 Form 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/1868279/000110465926113898/tm2627092d1_8k.htm"
+        },
+        {
+          "title": "Genmab/AbbVie：2026-10-05 EPCORE DLBCL-2顶线结果",
+          "url": "https://www.globenewswire.com/news-release/2026/10/05/3374942/0/en/genmab-and-abbvie-announce-epcoritamab-in-combination-with-r-chop-demonstrates-statistically-significant-improvement-in-progression-free-survival-in-patients-with-newly-diagnosed-d.html"
+        },
+        {
+          "title": "Shionogi：2026-10-05拟收购IntraBio",
+          "url": "https://www.shionogi.com/us/en/news/2026/10/Shionogi-continues-rare-disease-expansion-with-planned-acquisition-of-intrabio-inc.html"
+        },
+        {
+          "title": "GE HealthCare：2026-10-05拟收购SOFIE",
+          "url": "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-to-acquire-sofie-biosciences-establishing-a-final-mile-footprint-for-pet-radiopharmaceutical-supply-in-the-us"
+        },
+        {
+          "title": "FDA：2026-10-05 ibogaine研究RFI",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-seeks-public-input-support-ibogaine-research"
+        },
+        {
+          "title": "ClinicalTrials.gov：NCT05607550",
+          "url": "https://clinicaltrials.gov/study/NCT05607550"
+        },
+        {
+          "title": "ClinicalTrials.gov：NCT05578976",
+          "url": "https://clinicaltrials.gov/study/NCT05578976"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT07060807",
+          "title": "patritumab deruxtecan",
+          "modality": "ADC",
+          "area": "肿瘤",
+          "target": "HER3",
+          "stage": "Phase 3",
+          "company": "Merck Sharp & Dohme LLC",
+          "indication": "Breast Neoplasms",
+          "trialTitle": "A Clinical Study of Patritumab Deruxtecan to Treat Breast Cancer (MK-1022-016)",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-10-06",
+          "checked": "2026-10-07",
+          "summary": "Researchers are looking for other ways to treat breast cancer (BC) that is hormone receptor-positive and human epidermal growth factor receptor 2-negative (HR+/HER2-) and either unresectable locally advanced or metastatic.\n\n* HR positive (HR+) means the cancer cells have proteins that attach to estrogen or progesterone (hormones) which help the cancer to grow and spread\n* HER2 negative (HER2-) means the cancer cells have a low amount of a protein called HER2\n* Unresectable locally advanced means the cancer cannot be completely removed by surgery and has spread into nearby tissue or muscles\n* Metastatic means the cancer has spread to other parts of the body\n\nTreatment for this type of breast cancer usually includes endocrine therapy (ET) and sometimes a second treatment. The main goal of this study is to learn if people who receive patritumab deruxtecan (also known as HER3-DXd and MK-1022) live longer overall or without the cancer growing/spreading, compared to people who receive chemotherapy or a different drug called trastuzumab deruxtecan.",
+          "endpoints": [
+            "Progression Free Survival (PFS)",
+            "Overall Survival (OS)"
+          ],
+          "completion": {
+            "date": "2033-07-14",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 1000,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07060807",
+              "url": "https://clinicaltrials.gov/study/NCT07060807"
+            }
+          ],
+          "note": "ClinicalTrials.gov于2026-10-06刷新登记时间；本次核查未发现阶段、状态、适应症、主要终点或干预药物变化。这里展示的是该登记试验阶段，不代表全球最高阶段或获批状态。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Patritumab deruxtecan",
+              "description": "Administered via intravenous (IV) infusion",
+              "armGroupLabels": [
+                "Patritumab Deruxtecan"
+              ],
+              "otherNames": [
+                "MK-1022",
+                "HER3-DXd",
+                "U3-1402"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel",
+              "description": "Administered via IV infusion",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "TAXOL®",
+                "ONXAL®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Nab-paclitaxel",
+              "description": "Administered via IV infusion",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "Abraxane®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Capecitabine",
+              "description": "Administered via oral tablets",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "XELODA®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pegylated liposomal doxorubicin",
+              "description": "Administered via IV infusion",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "Doxil®"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Trastuzumab deruxtecan",
+              "description": "Administered via IV infusion",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "T-DXd",
+                "Enhertu®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Rescue Medication",
+              "description": "Participants receive rescue medications according to each approved drug's product label. Recommended rescue medications include: 5-HT3 receptor antagonist, NK-1 receptor antagonist, and corticosteroids.",
+              "armGroupLabels": [
+                "Patritumab Deruxtecan"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT04794101",
+          "title": "AAV5-hRKp.RPGR",
+          "modality": "基因治疗",
+          "area": "眼科",
+          "target": "RPGR",
+          "stage": "Phase 3",
+          "company": "MeiraGTx UK Ltd",
+          "indication": "X-Linked Retinitis Pigmentosa",
+          "trialTitle": "Follow-up Gene Therapy Trial for the Treatment of X-linked Retinitis Pigmentosa Associated With Variants in the RPGR Gene",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-09-25",
+          "checked": "2026-10-07",
+          "summary": "A clinical trial of AAV5-hRKp.RPGR vector for participants with X-linked retinitis pigmentosa (XLRP)",
+          "endpoints": [
+            "Number of Participants with Ocular and Non-ocular Adverse Events",
+            "Number of Participants With Abnormalities in Laboratory Assessments",
+            "Change From Baseline in Best Corrected Visual Acuity (BCVA) by Early Treatment Diabetic Retinopathy Study (ETDRS) Chart Letter Score in Monocular Assessment",
+            "Change From Baseline in Low Luminance Visual Acuity by ETDRS Chart Letter Score in Monocular Assessment"
+          ],
+          "completion": {
+            "date": "2029-12-07",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 97,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT04794101",
+              "url": "https://clinicaltrials.gov/study/NCT04794101"
+            }
+          ],
+          "note": "本次登记核查显示申办方名称由 MeiraGTx Ocular UK Ltd 更新为 MeiraGTx UK Ltd，预计完成日由2029-09-20调整为2029-12-07；预计完成日不是结果读出承诺。试验阶段不代表获批状态。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
+              "description": "Bilateral, subretinal administration of AAV5-hRKp.RPGR - deferred treatment group",
+              "armGroupLabels": [
+                "Already Treated in MGT-RPGR-021",
+                "Deferred Treatment From MGT-RPGR-021 of Intermediate Dose"
+              ],
+              "otherNames": [
+                "botaretigene sparoparvovec"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Genetic: AAV5-hRKp.RPGR Low Dose",
+              "description": "Bilateral, subretinal administration of AAV5-hRKp.RPGR - deferred treatment group",
+              "armGroupLabels": [
+                "Already Treated in MGT-RPGR-021",
+                "Deferred Treatment From MGT-RPGR-021 Low Dose"
+              ],
+              "otherNames": [
+                "botaretigene sparoparvovec"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT05607550",
+          "title": "firmonertinib（furmonertinib）",
+          "modality": "小分子EGFR抑制剂",
+          "area": "肿瘤",
+          "target": "EGFR exon 20 insertion",
+          "stage": "Phase 3",
+          "company": "ArriVent BioPharma, Inc.",
+          "indication": "一线EGFR外显子20插入突变晚期/转移性非鳞NSCLC",
+          "trialTitle": "FURVENT：firmonertinib对比含铂化疗",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2025-06-22",
+          "checked": "2026-10-07",
+          "summary": "登记显示398例实际入组、三臂全球III期研究。公司2026-10-06披露：BICR评估的主要终点PFS未达到统计学显著性；240 mg组中位PFS 11.0个月、对照9.5个月，HR 0.75（95%CI 0.55–1.02），p=0.0654。该结果来自公司顶线公告，完整数据尚待分析。",
+          "endpoints": [
+            "BICR评估的无进展生存期（PFS）",
+            "总生存期（OS）",
+            "研究者评估PFS",
+            "客观缓解率（ORR）"
+          ],
+          "completion": {
+            "date": "2028-02-15",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 398,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "furmonertinib 240 mg oral, daily"
+            },
+            {
+              "type": "DRUG",
+              "name": "furmonertinib 160 mg oral, daily"
+            },
+            {
+              "type": "DRUG",
+              "name": "platinum-based chemotherapy（铂类+培美曲塞）"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05607550",
+              "url": "https://clinicaltrials.gov/study/NCT05607550"
+            },
+            {
+              "title": "ArriVent 2026-10-06 FURVENT顶线结果",
+              "url": "https://ir.arrivent.com/news-releases/news-release-details/arrivent-announces-program-update-phase-3-furvent-trial"
+            },
+            {
+              "title": "ArriVent 2026-10-06 Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1868279/000110465926113898/tm2627092d1_8k.htm"
+            }
+          ],
+          "note": "美国突破性疗法认定不等于获批。本记录描述该具体试验及公司披露，不推断其他适应症或全球最高阶段。登记页的主要完成日期仍标为估计且早于公告，不应当作读出日期。",
+          "risks": "主要终点失败；OS尚不成熟；BICR与研究者评估不一致；需等待完整分层、安全性和后续开发决策。",
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT05578976",
+          "title": "epcoritamab + R-CHOP",
+          "modality": "CD3×CD20双特异性抗体联合化免",
+          "area": "肿瘤",
+          "target": "CD3 × CD20",
+          "stage": "Phase 3",
+          "company": "Genmab（与AbbVie共同开发）",
+          "indication": "初治DLBCL（IPI 2–5）",
+          "trialTitle": "EPCORE DLBCL-2：epcoritamab + R-CHOP 对比 R-CHOP",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-09-11",
+          "checked": "2026-10-07",
+          "summary": "公司2026-10-05披露阳性顶线结果：IPI 2–5总体人群疾病进展或死亡风险降低51%（HR 0.49，95%CI 0.36–0.67，p<0.0001）；主要终点人群IPI 3–5的HR同为0.49（95%CI 0.35–0.69）。完整数据计划在未来医学会议公布，组合方案尚未获批。",
+          "endpoints": [
+            "IPI 3–5人群PFS（IRC评估）",
+            "总体IPI 2–5人群PFS",
+            "EFS",
+            "完全缓解率",
+            "OS",
+            "MRD阴性率"
+          ],
+          "completion": {
+            "date": "2029-12",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 900,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Epcoritamab（皮下注射）"
+            },
+            {
+              "type": "DRUG",
+              "name": "R-CHOP（利妥昔单抗、环磷酰胺、多柔比星、长春新碱、泼尼松）"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05578976",
+              "url": "https://clinicaltrials.gov/study/NCT05578976"
+            },
+            {
+              "title": "Genmab/AbbVie 2026-10-05 EPCORE DLBCL-2顶线结果",
+              "url": "https://www.globenewswire.com/news-release/2026/10/05/3374942/0/en/genmab-and-abbvie-announce-epcoritamab-in-combination-with-r-chop-demonstrates-statistically-significant-improvement-in-progression-free-survival-in-patients-with-newly-diagnosed-d.html"
+            }
+          ],
+          "note": "本记录描述该具体III期试验。阳性PFS顶线结果不等于监管批准；登记中的完成日期是估计值，不是结果读出承诺。",
+          "risks": "需等待完整安全性、OS、亚组、停药率及治疗成本/可及性数据；开放标签设计可能影响部分非盲评估终点。",
+          "whyStopped": null,
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-arrivent-biopharma",
+          "title": "ArriVent BioPharma",
+          "date": "2026-10-06",
+          "checked": "2026-10-07",
+          "summary": "临床阶段肿瘤公司；核心firmonertinib一线EGFR exon20插入突变FURVENT III期主要终点未达成。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "firmonertinib为脑渗透、突变选择性EGFR小分子；另推进ADC管线。FURVENT失败仅对应特定试验/适应症。"
+            },
+            {
+              "heading": "合作与所有权",
+              "body": "FURVENT与上海艾力斯合作开展；具体经济分配未在本期来源完整披露。"
+            },
+            {
+              "heading": "战略与资金",
+              "body": "公司称将评估完整数据并决定firmonertinib后续路径；2026-08披露现金及投资3.731亿美元、预计可支撑至2028年，但本期未重新核验最新现金。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ArriVent FURVENT公告",
+              "url": "https://ir.arrivent.com/news-releases/news-release-details/arrivent-announces-program-update-phase-3-furvent-trial"
+            },
+            {
+              "title": "SEC 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1868279/000110465926113898/tm2627092d1_8k.htm"
+            }
+          ]
+        },
+        {
+          "id": "company-genmab",
+          "title": "Genmab",
+          "date": "2026-10-05",
+          "checked": "2026-10-07",
+          "summary": "抗体药物公司；epcoritamab由其DuoBody-CD3技术产生，与AbbVie共同开发。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "平台包括双抗、ADC及其他抗体形式；本期关键资产为CD3×CD20双抗epcoritamab。"
+            },
+            {
+              "heading": "合作与商业权利",
+              "body": "Genmab与AbbVie共同开发；双方在美国和日本共享商业责任，AbbVie负责其他全球商业化。"
+            },
+            {
+              "heading": "战略变化",
+              "body": "EPCORE DLBCL-2阳性支持从复发/难治淋巴瘤向一线DLBCL前移。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Genmab/AbbVie EPCORE DLBCL-2公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/05/3374942/0/en/genmab-and-abbvie-announce-epcoritamab-in-combination-with-r-chop-demonstrates-statistically-significant-improvement-in-progression-free-survival-in-patients-with-newly-diagnosed-d.html"
+            }
+          ]
+        },
+        {
+          "id": "company-shionogi",
+          "title": "Shionogi",
+          "date": "2026-10-05",
+          "checked": "2026-10-07",
+          "summary": "日本制药公司，正由感染病优势扩展罕见病；拟20亿美元收购IntraBio。",
+          "sections": [
+            {
+              "heading": "平台与重点资产",
+              "body": "已在感染病、CNS等领域商业化；罕见病基础包括2026年取得的edaravone全球权利，拟新增AQNEURSA。"
+            },
+            {
+              "heading": "交易与所有权",
+              "body": "收购完成后IntraBio将成为Shionogi Inc.全资子公司，AQNEURSA全球知识产权和商业化权利随之并入。"
+            },
+            {
+              "heading": "战略与融资",
+              "body": "交易以20亿美元现金支付；本期公告未披露具体债务融资结构，财务影响仍在评估。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Shionogi收购公告",
+              "url": "https://www.shionogi.com/us/en/news/2026/10/Shionogi-continues-rare-disease-expansion-with-planned-acquisition-of-intrabio-inc.html"
+            }
+          ]
+        },
+        {
+          "id": "company-ge-healthcare",
+          "title": "GE HealthCare",
+          "date": "2026-10-05",
+          "checked": "2026-10-07",
+          "summary": "医疗技术与药物诊断公司；拟收购SOFIE以补齐美国PET放射性药物最后一公里生产网络。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "覆盖影像设备、造影/分子影像剂及数字流程；交易带来15个CMO站点、21台回旋加速器和FAPI-74美国权利。"
+            },
+            {
+              "heading": "所有权与合作",
+              "body": "预计交割后SOFIE并入PDx板块，但继续作为独立生产伙伴向其他放药公司供货。"
+            },
+            {
+              "heading": "战略与财务",
+              "body": "9.45亿美元现金交易，预计首个完整年度增厚收入增长、调整后EBIT利润率和EPS；预测尚待交割及整合验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "GE HealthCare收购SOFIE公告",
+              "url": "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-to-acquire-sofie-biosciences-establishing-a-final-mile-footprint-for-pet-radiopharmaceutical-supply-in-the-us"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-egfr-exon20",
+          "title": "EGFR exon 20 insertion",
+          "date": "2026-10-06",
+          "checked": "2026-10-07",
+          "summary": "NSCLC中相对少见且结构异质的EGFR驱动变异；firmonertinib FURVENT一线III期主要终点失败。",
+          "sections": [
+            {
+              "heading": "生物学与人体验证",
+              "body": "EGFR异常可驱动肿瘤生长；已有多类EGFR抑制策略。FURVENT显示ORR信号但BICR-PFS未显著，构成该方案/剂量/人群的重要失败证据。"
+            },
+            {
+              "heading": "可成药性与安全",
+              "body": "小分子可口服并追求脑渗透；需关注皮疹、腹泻等EGFR类效应及剂量暴露。本期公告称无新安全信号。"
+            },
+            {
+              "heading": "竞争与缺口",
+              "body": "需与化疗及其他针对EGFR exon20的疗法比较；完整亚组、缓解持续时间和OS尚待披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ArriVent FURVENT公告",
+              "url": "https://ir.arrivent.com/news-releases/news-release-details/arrivent-announces-program-update-phase-3-furvent-trial"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT05607550",
+              "url": "https://clinicaltrials.gov/study/NCT05607550"
+            }
+          ]
+        },
+        {
+          "id": "target-cd3-cd20",
+          "title": "CD3 × CD20",
+          "date": "2026-10-05",
+          "checked": "2026-10-07",
+          "summary": "通过CD3招募T细胞攻击CD20阳性B细胞；epcoritamab联合R-CHOP在一线DLBCL III期获得阳性PFS结果。",
+          "sections": [
+            {
+              "heading": "生物学与人体验证",
+              "body": "CD20是成熟B细胞/多种B细胞肿瘤表面抗原，CD3连接T细胞效应。风险降低51%的顶线PFS为强人体验证，但OS和完整数据未成熟。"
+            },
+            {
+              "heading": "安全与可实施性",
+              "body": "双抗常需关注细胞因子释放综合征、感染和血细胞减少；与R-CHOP叠加时更需看高等级事件、住院/预处理与停药。"
+            },
+            {
+              "heading": "竞争",
+              "body": "需与现行R-CHOP、ADC、CAR-T及其他双抗/联合方案比较，尤其关注一线标签、疗程和总治疗成本。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Genmab/AbbVie EPCORE DLBCL-2公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/05/3374942/0/en/genmab-and-abbvie-announce-epcoritamab-in-combination-with-r-chop-demonstrates-statistically-significant-improvement-in-progression-free-survival-in-patients-with-newly-diagnosed-d.html"
+            }
+          ]
+        },
+        {
+          "id": "target-her3",
+          "title": "HER3",
+          "date": "2026-10-06",
+          "checked": "2026-10-07",
+          "summary": "HER家族受体，patritumab deruxtecan以HER3为递送入口；NCT07060807登记时间刷新，暂无结果。",
+          "sections": [
+            {
+              "heading": "生物学与可成药性",
+              "body": "HER3激酶活性弱但可参与受体二聚和信号；ADC策略主要利用其肿瘤表达进行载荷递送。"
+            },
+            {
+              "heading": "人体验证与失败",
+              "body": "本期只核实登记字段，不能据此宣称疗效成功或全球最高阶段。"
+            },
+            {
+              "heading": "安全与竞争",
+              "body": "HER3-DXd需关注ADC通用毒性及间质性肺病等风险，并与化疗、T-DXd等对照。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07060807",
+              "url": "https://clinicaltrials.gov/study/NCT07060807"
+            }
+          ]
+        },
+        {
+          "id": "target-rpgr",
+          "title": "RPGR",
+          "date": "2026-09-25",
+          "checked": "2026-10-07",
+          "summary": "X连锁视网膜色素变性的关键遗传靶点；AAV5-hRKp.RPGR随访III期登记的申办方名称和预计完成日更新。",
+          "sections": [
+            {
+              "heading": "生物学与人体验证",
+              "body": "致病RPGR变异可导致X连锁视网膜退行；AAV基因补充旨在向视网膜细胞表达功能性RPGR。"
+            },
+            {
+              "heading": "可成药性与安全",
+              "body": "视网膜下AAV递送具有局部给药优势，但需评估手术风险、炎症、表达持久性和双眼治疗。"
+            },
+            {
+              "heading": "证据缺口",
+              "body": "本期登记没有结果数据；预计完成日延后不等于疗效失败。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT04794101",
+              "url": "https://clinicaltrials.gov/study/NCT04794101"
+            }
+          ]
+        },
+        {
+          "id": "target-fap",
+          "title": "FAP（成纤维细胞活化蛋白）",
+          "date": "2026-10-05",
+          "checked": "2026-10-07",
+          "summary": "肿瘤间质相关成像/诊疗靶点；GE HealthCare称FAPI-74处于III期并通过交易获得美国权利。",
+          "sections": [
+            {
+              "heading": "生物学与成像逻辑",
+              "body": "FAP在多种肿瘤相关成纤维细胞中表达，使FAPI放射性示踪剂具备泛癌种成像潜力。"
+            },
+            {
+              "heading": "可实施性",
+              "body": "F18示踪剂半衰期约110分钟，对回旋加速器网络和配送半径要求高。"
+            },
+            {
+              "heading": "证据与竞争缺口",
+              "body": "本期公司公告未给出FAPI-74对应NCT号、III期结果或监管时间表，故不推断读出或获批；需与FDG及其他FAPI示踪剂比较。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "GE HealthCare收购SOFIE公告",
+              "url": "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-to-acquire-sofie-biosciences-establishing-a-final-mile-footprint-for-pet-radiopharmaceutical-supply-in-the-us"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-05-shionogi-intrabio",
+          "title": "Shionogi收购IntraBio",
+          "date": "2026-10-05",
+          "checked": "2026-10-07",
+          "summary": "Shionogi拟以20亿美元现金收购IntraBio全部股份，获得AQNEURSA全球权利和罕见病能力。",
+          "sections": [
+            {
+              "heading": "交易条款",
+              "body": "parties：Shionogi / IntraBio；assets：AQNEURSA及公司全部股份；rights/geography：全球知识产权及商业化权利；stage：已商业化产品+早期管线；upfront/purchase price：20亿美元现金；milestones/royalty：不适用或公告未披露；currency：USD。"
+            },
+            {
+              "heading": "战略理由",
+              "body": "在RADICAVA之后扩大罕见神经疾病商业基础，并增加NPC/A-T产品与研发能力。"
+            },
+            {
+              "heading": "条件与风险",
+              "body": "计划2026年11–12月交割，仍需竞争法等待期、监管批准及其他先决条件。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Shionogi收购公告",
+              "url": "https://www.shionogi.com/us/en/news/2026/10/Shionogi-continues-rare-disease-expansion-with-planned-acquisition-of-intrabio-inc.html"
+            }
+          ]
+        },
+        {
+          "id": "deal-2026-10-05-ge-healthcare-sofie",
+          "title": "GE HealthCare收购SOFIE Biosciences",
+          "date": "2026-10-05",
+          "checked": "2026-10-07",
+          "summary": "9.45亿美元现金收购，补齐美国PET放射性药物生产配送网络并取得FAPI-74美国权利。",
+          "sections": [
+            {
+              "heading": "交易条款",
+              "body": "parties：GE HealthCare / SOFIE Biosciences（卖方Trilantic North America）；assets：全部业务、15个CMO站点、21台回旋加速器、FAPI-74美国权利；geography：美国；stage：运营资产+III期示踪剂；purchase price：9.45亿美元现金；milestones/royalty：公告未披露；currency：USD。"
+            },
+            {
+              "heading": "战略理由",
+              "body": "纵向整合PET最后一公里，增强分子影像和诊疗一体化供应能力。"
+            },
+            {
+              "heading": "条件与风险",
+              "body": "预计2027年上半年交割，取决于监管批准和其他条件；需验证协同、客户中立性和整合执行。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "GE HealthCare收购SOFIE公告",
+              "url": "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-to-acquire-sofie-biosciences-establishing-a-final-mile-footprint-for-pet-radiopharmaceutical-supply-in-the-us"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-2026-11-20-fda-ibogaine-rfi-close",
+          "title": "FDA ibogaine RFI意见期截止",
+          "date": "2026-11-20",
+          "checked": "2026-10-07",
+          "summary": "FDA公开意见期于2026-11-20截止；这是监管输入节点，不是药物审批决定。",
+          "sections": [
+            {
+              "heading": "eventType",
+              "body": "监管意见征集截止"
+            },
+            {
+              "heading": "window/status",
+              "body": "2026-11-20；confirmed"
+            },
+            {
+              "heading": "分析",
+              "body": "可能影响ibogaine早期临床试验设计预期，尤其剂量、心脏/神经监测和停止规则。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA ibogaine RFI",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-seeks-public-input-support-ibogaine-research"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2026-q4-shionogi-intrabio-close",
+          "title": "Shionogi–IntraBio预计交割",
+          "date": "2026-11-01",
+          "checked": "2026-10-07",
+          "summary": "公司计划在2026年11–12月完成交易；实际日期取决于监管批准和先决条件。",
+          "sections": [
+            {
+              "heading": "eventType",
+              "body": "并购交割"
+            },
+            {
+              "heading": "window/status",
+              "body": "2026年11–12月；estimated"
+            },
+            {
+              "heading": "分析",
+              "body": "不是保证交割；需跟踪竞争法等待期、监管批准和财务影响更新。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Shionogi收购公告",
+              "url": "https://www.shionogi.com/us/en/news/2026/10/Shionogi-continues-rare-disease-expansion-with-planned-acquisition-of-intrabio-inc.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-h1-ge-healthcare-sofie-close",
+          "title": "GE HealthCare–SOFIE预计交割",
+          "date": "2027-01-01",
+          "checked": "2026-10-07",
+          "summary": "预计2027年上半年交割；具体日期未披露。",
+          "sections": [
+            {
+              "heading": "eventType",
+              "body": "并购交割"
+            },
+            {
+              "heading": "window/status",
+              "body": "2027年上半年；estimated"
+            },
+            {
+              "heading": "分析",
+              "body": "交割后首个完整年度的增厚指引才有条件开始验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "GE HealthCare收购SOFIE公告",
+              "url": "https://www.gehealthcare.com/en-us/about/newsroom/press-releases/ge-healthcare-to-acquire-sofie-biosciences-establishing-a-final-mile-footprint-for-pet-radiopharmaceutical-supply-in-the-us"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-epcore-dlbcl2-regulatory-engagement",
+          "title": "EPCORE DLBCL-2监管沟通",
+          "date": "2026-10-05",
+          "checked": "2026-10-07",
+          "summary": "Genmab与AbbVie表示将与全球监管机构沟通，但未披露申报日期。",
+          "sections": [
+            {
+              "heading": "eventType",
+              "body": "监管沟通/潜在申报"
+            },
+            {
+              "heading": "window/status",
+              "body": "日期未披露；estimated"
+            },
+            {
+              "heading": "分析",
+              "body": "阳性顶线数据支持沟通，但完整数据、标签和申报接受仍不确定。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Genmab/AbbVie EPCORE DLBCL-2公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/05/3374942/0/en/genmab-and-abbvie-announce-epcoritamab-in-combination-with-r-chop-demonstrates-statistically-significant-improvement-in-progression-free-survival-in-patients-with-newly-diagnosed-d.html"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-06-launch",
       "date": "2026-10-06",
@@ -55,5 +900,26 @@
         }
       ]
     }
-  ]
+  ],
+  "archivedPipelines": [],
+  "archivedCompanies": [],
+  "archivedTargets": [],
+  "archivedDeals": [],
+  "archivedCatalysts": [],
+  "syncStatus": {
+    "checkedAt": "2026-10-07T07:06:00+08:00",
+    "status": "success",
+    "counts": {
+      "baselinePipelineChecked": 19,
+      "baselinePipelineChanged": 2,
+      "baselinePipelineFailed": 0,
+      "newPipelinesAdded": 2,
+      "companiesUpserted": 4,
+      "targetsUpserted": 5,
+      "dealsAdded": 2,
+      "catalystsUpserted": 4,
+      "briefEvents": 5
+    },
+    "summary": "既有19项NCT全部核查成功、0失败、2项记录发生变化（其中1项仅登记时间刷新；另1项申办方名称及预计完成日更新）；新增2项近72小时关键III期记录。公司、靶点、交易和催化剂均来自公开原始来源。FAPI-74公告未提供可核实NCT号，故未新增管线记录。"
+  }
 }
