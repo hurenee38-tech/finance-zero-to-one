@@ -1,4 +1,4 @@
-const CACHE='finance-zero-one-v3.0.0';
+const CACHE='finance-zero-one-v3.0.1';
 const CORE=['./','./index.html','./styles.css','./app.js','./hub.js','./manifest.json','./icon-180.png','./icon-192.png','./icon-512.png','./data/lessons.json','./data/cases.json','./data/cfa.json','./data/research/papers.json','./data/drugs/pipelines.json','./data/drugs/preclinical.json','./data/drugs/modalities.json','./data/drugs/clinical.json','./data/library/tools.json'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith('finance-zero-one-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
