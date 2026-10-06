@@ -1,8 +1,281 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-06T04:10:32Z",
+  "updatedAt": "2026-10-06T23:02:25.025Z",
   "items": [
+    {
+      "id": "neuro-2026-10-07",
+      "date": "2026-10-07",
+      "source": "scheduled",
+      "title": "研究简报｜移除GPCR、胶质细胞时间序列与状态依赖的社交药效",
+      "summary": "三篇原始研究，分别发表于9月30日、9月16日和8月27日；后者为社交行为专题补读，均非今日首发。聚焦受体数量、细胞群时间组织与初始行为状态。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "截至本期检索，未核实足够适合的今日首发研究，因此精选近期未收录论文并标明日期。GTAC与裸盖菇素依据可读取期刊正文；胶质细胞论文依据期刊可检索信息与公开摘要，未逐图核查全文。Nature与Nature Communications已核实2025年JIF分别为56.1、18.1；Nature Neuroscience官方汇总值20.3，年份待进一步核实。期刊指标不能替代研究质量评价。"
+        },
+        {
+          "heading": "重点推荐｜GTAC：通过内吞和降解实现 GPCR 功能拮抗",
+          "body": "双特异性抗体将GPCR引向内吞与溶酶体，提供降低受体数量的药理策略。 原始发表：2026-09-30。完整方法、结果、局限与两篇前期文献见本期对应研究库条目。"
+        },
+        {
+          "heading": "海马星形胶质细胞在学习与记忆想起时呈现活动序列",
+          "body": "钙活动的时间组织提示胶质细胞参与记忆相关过程；序列相关性仍需因果检验。 原始发表：2026-09-16。完整方法、结果、局限与两篇前期文献见本期对应研究库条目。"
+        },
+        {
+          "heading": "社交行为专题｜裸盖菇素的持续效应是否需要给药时清醒？",
+          "body": "Cntnap2缺失小鼠的社交行为改善在麻醉给药后仍出现；这是动物模型证据，非人类疗效结论。 原始发表：2026-08-27。完整方法、结果、局限与两篇前期文献见本期对应研究库条目。"
+        },
+        {
+          "heading": "今日阅读练习",
+          "body": "GTAC处理后Tango信号下降，怎样区分受体直接拮抗与表面受体数量减少？请列出表面/总受体定量、下游通路对照、洗脱恢复三类证据。进一步想一想：钙活动序列与冻结相关，为什么还不足以证明序列对记忆必要？"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Induced proximity",
+          "zh": "诱导邻近",
+          "meaning": "将靶标与效应分子拉近，促成新的细胞过程。"
+        },
+        {
+          "en": "Constitutive activity",
+          "zh": "组成型活性",
+          "meaning": "受体在没有外源激动剂时仍产生信号。"
+        },
+        {
+          "en": "Lysosomal degradation",
+          "zh": "溶酶体降解",
+          "meaning": "通过溶酶体处理并分解蛋白。"
+        },
+        {
+          "en": "Time-compressed sequence",
+          "zh": "时间压缩序列",
+          "meaning": "群体活动按顺序展开，但各时段分布不均匀。"
+        },
+        {
+          "en": "Engram",
+          "zh": "记忆印迹",
+          "meaning": "与特定记忆形成及提取有关的细胞集合与改变。"
+        },
+        {
+          "en": "Isogenic control",
+          "zh": "同遗传背景对照",
+          "meaning": "尽量保持其他遗传背景一致以比较目标变异。"
+        },
+        {
+          "en": "Sociability",
+          "zh": "社交倾向",
+          "meaning": "主动接近或探索同类的倾向，区别于社交识别和记忆。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41586-026-11088-0",
+          "title": "重点推荐｜GTAC：通过内吞和降解实现 GPCR 功能拮抗",
+          "date": "2026-09-30",
+          "checked": "2026-10-07",
+          "topic": "GPCR / 药物开发 / 靶向降解",
+          "target": "TfR1 / RXFP1 / CCR6",
+          "summary": "双特异性抗体将GPCR引向内吞与溶酶体，提供降低受体数量的药理策略。",
+          "sections": [
+            {
+              "heading": "论文信息与标题译述",
+              "body": "Rhee等，Nature：GPCR antagonism via rewiring of receptor trafficking and degradation。中文：通过重塑受体运输与降解实现GPCR拮抗。2026-09-30在线发表。官方2025年JIF为56.1。"
+            },
+            {
+              "heading": "背景、问题与方法",
+              "body": "难以竞争配体或存在组成型活性的受体，能否通过移除受体来抑制？作者构建同时结合GPCR与TfR1的GTAC，结合流式、活细胞成像、Tango及GloSensor等检测。"
+            },
+            {
+              "heading": "主要结果与摘要要点译述",
+              "body": "原文：多种受体表面数量及信号下降，包括RXFP1、CCR6和病毒BILF1；部分构型比常规抗体拮抗更强，也可抑制组成型信号。"
+            },
+            {
+              "heading": "意义、局限与转化启发",
+              "body": "编辑解读：检测信号降低时，应区分受体拮抗与数量减少。部分实验使用标签和过表达；抗体构型、TfR1及细胞背景会影响效果。仍需验证组织分布、铁稳态和长期安全，不能据此宣称神经疾病疗效。"
+            },
+            {
+              "heading": "前期文献与关系",
+              "body": "LYTAC（Nature，2020）建立胞外/膜蛋白溶酶体降解框架；TransTAC（Nature，2024在线，2025卷期）提供TfR1牵引膜蛋白的技术前身。两者帮助理解GTAC，不能视为同一平台。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature，2026-09-30",
+              "url": "https://www.nature.com/articles/s41586-026-11088-0"
+            },
+            {
+              "title": "前期｜LYTAC，Nature 2020",
+              "url": "https://www.nature.com/articles/s41586-020-2545-9"
+            },
+            {
+              "title": "前期｜TransTAC，Nature 2024在线",
+              "url": "https://www.nature.com/articles/s41586-024-07947-3"
+            },
+            {
+              "title": "期刊指标｜Nature，2025年JIF",
+              "url": "https://www.nature.com/nature/journal-impact?zarsrc=30"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02448-0",
+          "title": "海马星形胶质细胞在学习与记忆想起时呈现活动序列",
+          "date": "2026-09-16",
+          "checked": "2026-10-07",
+          "topic": "记忆 / 星形胶质细胞 / 恐惧学习",
+          "target": "海马CA1星形胶质细胞",
+          "summary": "钙活动的时间组织提示胶质细胞参与记忆相关过程；序列相关性仍需因果检验。",
+          "sections": [
+            {
+              "heading": "论文信息与标题译述",
+              "body": "Senne、Suthard等，Nature Neuroscience：Hippocampal astrocytic sequences emerge during learning and memory recall。中文：海马星形胶质细胞序列在学习和记忆想起时出现。2026-09-16在线发表。官方汇总页列JIF 20.3；指标年份待进一步核实。"
+            },
+            {
+              "heading": "背景、问题与方法",
+              "body": "神经元时间细胞之外，胶质细胞是否也有时间组织？研究在情境恐惧学习中，以单光子钙成像跨日追踪自由活动小鼠背侧CA1星形胶质细胞。"
+            },
+            {
+              "heading": "主要结果与摘要要点译述",
+              "body": "原文公开信息：足底电击后出现时间压缩的钙事件序列；再次暴露于条件情境时，无电击也可出现类似序列。自发活动与冻结行为相关。"
+            },
+            {
+              "heading": "意义、局限与转化启发",
+              "body": "编辑解读：应分析细胞群活动顺序，而不仅是平均钙信号。本期未完成全文逐图审阅；现有描述不能证明该序列是记忆必要载体，也不能排除运动/唤醒因素。开发靶点前需选择性扰乱序列并验证行为后果。"
+            },
+            {
+              "heading": "前期文献与关系",
+              "body": "Williamson等（2024在线）：学习相关星形胶质细胞集合的操纵影响想起，提供因果参照。eLife（2020）：星形胶质细胞激活经腺苷A1受体减弱恐惧记忆，提示作用取决于时点与通路，不能把“激活”一概等同增强记忆。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Neuroscience，2026-09-16",
+              "url": "https://www.nature.com/articles/s41593-026-02448-0"
+            },
+            {
+              "title": "主文摘要｜PubMed PMID 42749824",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42749824/"
+            },
+            {
+              "title": "前期｜Learning-associated astrocyte ensembles regulate memory recall，2024在线",
+              "url": "https://www.nature.com/articles/s41586-024-08170-w"
+            },
+            {
+              "title": "前期｜Activation of astrocytes in hippocampus decreases fear memory through adenosine A1 receptors，2020",
+              "url": "https://elifesciences.org/articles/57155"
+            },
+            {
+              "title": "期刊指标｜Nature Portfolio官方汇总",
+              "url": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-77238-0",
+          "title": "社交行为专题｜裸盖菇素的持续效应是否需要给药时清醒？",
+          "date": "2026-08-27",
+          "checked": "2026-10-07",
+          "topic": "自闭症模型 / 社交行为 / 神经递质",
+          "target": "5-HT2A / CNTNAP2",
+          "summary": "Cntnap2缺失小鼠的社交行为改善在麻醉给药后仍出现；这是动物模型证据，非人类疗效结论。",
+          "sections": [
+            {
+              "heading": "论文信息与标题译述",
+              "body": "Song等，Nature Communications：Psilocybin enhances sociability only in altered behavioural state and does not need an awake experience to be effective。中文：裸盖菇素在行为异常状态下增强社交性，效应不要求给药时清醒。2026-08-27发表；专题补读，非今日新文。官方2025年JIF 18.1。"
+            },
+            {
+              "heading": "背景、问题与方法",
+              "body": "持续行为效应是否必须伴随清醒体验？比较Cntnap2敲除与同背景野生型小鼠，单次1 mg/kg给药后进行三箱社交检测，并设置5-HT2A拮抗及麻醉给药条件。"
+            },
+            {
+              "heading": "主要结果与摘要要点译述",
+              "body": "原文：敲除鼠社交性改善可持续至两周，野生型无同样增强；5-HT2A拮抗阻断效应。麻醉给药后仍出现改善，重复行为和过度活动未同步改善。"
+            },
+            {
+              "heading": "意义、局限与转化启发",
+              "body": "编辑解读：药效可能依赖初始状态和具体行为维度。小鼠不能报告主观体验；麻醉结果不证明人类治疗不需要心理过程，也不能外推为自闭症临床疗效。需核查麻醉与药物暴露相互作用。"
+            },
+            {
+              "heading": "前期文献与关系",
+              "body": "Peñagarikano等（Cell，2011）建立Cntnap2缺失模型的相关表型；Shao等（Neuron，2021）发现裸盖菇素后持续树突棘重塑，提供可塑性背景，尚非本篇社交效应的已证实机制。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications，2026-08-27",
+              "url": "https://www.nature.com/articles/s41467-026-77238-0"
+            },
+            {
+              "title": "前期｜Absence of CNTNAP2 leads to epilepsy, neuronal migration abnormalities, and core autism-related deficits，2011",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21962519/"
+            },
+            {
+              "title": "前期｜Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo，2021",
+              "url": "https://doi.org/10.1016/j.neuron.2021.06.008"
+            },
+            {
+              "title": "期刊指标｜Nature Communications，2025年JIF",
+              "url": "https://www.nature.com/ncomms/journal-impact"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Nature，2026-09-30",
+          "url": "https://www.nature.com/articles/s41586-026-11088-0"
+        },
+        {
+          "title": "前期｜LYTAC，Nature 2020",
+          "url": "https://www.nature.com/articles/s41586-020-2545-9"
+        },
+        {
+          "title": "前期｜TransTAC，Nature 2024在线",
+          "url": "https://www.nature.com/articles/s41586-024-07947-3"
+        },
+        {
+          "title": "期刊指标｜Nature，2025年JIF",
+          "url": "https://www.nature.com/nature/journal-impact?zarsrc=30"
+        },
+        {
+          "title": "主文｜Nature Neuroscience，2026-09-16",
+          "url": "https://www.nature.com/articles/s41593-026-02448-0"
+        },
+        {
+          "title": "主文摘要｜PubMed PMID 42749824",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42749824/"
+        },
+        {
+          "title": "前期｜Learning-associated astrocyte ensembles regulate memory recall，2024在线",
+          "url": "https://www.nature.com/articles/s41586-024-08170-w"
+        },
+        {
+          "title": "前期｜Activation of astrocytes in hippocampus decreases fear memory through adenosine A1 receptors，2020",
+          "url": "https://elifesciences.org/articles/57155"
+        },
+        {
+          "title": "期刊指标｜Nature Portfolio官方汇总",
+          "url": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics"
+        },
+        {
+          "title": "主文｜Nature Communications，2026-08-27",
+          "url": "https://www.nature.com/articles/s41467-026-77238-0"
+        },
+        {
+          "title": "前期｜Absence of CNTNAP2 leads to epilepsy, neuronal migration abnormalities, and core autism-related deficits，2011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21962519/"
+        },
+        {
+          "title": "前期｜Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo，2021",
+          "url": "https://doi.org/10.1016/j.neuron.2021.06.008"
+        },
+        {
+          "title": "期刊指标｜Nature Communications，2025年JIF",
+          "url": "https://www.nature.com/ncomms/journal-impact"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-06",
       "date": "2026-10-06",
