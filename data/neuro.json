@@ -1,8 +1,239 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-05T16:59:05.872511+00:00",
+  "updatedAt": "2026-10-06T04:10:32Z",
   "items": [
+    {
+      "id": "neuro-2026-10-06",
+      "date": "2026-10-06",
+      "source": "scheduled",
+      "title": "研究简报｜预测 tau 与追踪肠神经损伤：两种不同证据",
+      "summary": "收录两篇2026年10月1–2日原始研究，分别关注AD影像预测和微生物—肠神经机制。均非今日首发；期刊影响因子待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "本期选择2篇原始研究，不重复启动精选。检索结果中未补入未经核实的第三篇或把新闻评论当原始论文。期刊影响因子待核实；未声称已验证当年IF>8。Nature部分全文直读受限：第一篇依据期刊可检索早期在线摘要，第二篇结合期刊信息与PubMed摘要。完整细节与统计质量仍需全文审阅。"
+        },
+        {
+          "heading": "用脑功能模型与代谢影像预测 AD 型 tau｜论文信息",
+          "body": "Corriveau-Lecavalier 等：A model of brain function to predict tau across Alzheimer’s disease and related disorders。Nature Communications，2026-10-02；DOI：10.1038/s41467-026-78300-7。已接收的早期在线版本，仍可能编辑。影响因子待核实。"
+        },
+        {
+          "heading": "用脑功能模型与代谢影像预测 AD 型 tau｜背景与研究问题",
+          "body": "能否从脑代谢/功能信息估计 AD 型 tau 分布，改善缺少 tau-PET 时的评估？"
+        },
+        {
+          "heading": "用脑功能模型与代谢影像预测 AD 型 tau｜方法与摘要要点译述",
+          "body": "模型用1088人的FDG-PET与flortaucipir-PET训练；验证含纵向子集、ADNI与临床队列。个体预测R²约0.34–0.71；临床队列264人中仅28人有tau-PET。"
+        },
+        {
+          "heading": "用脑功能模型与代谢影像预测 AD 型 tau｜结果的价值",
+          "body": "原文：脑功能模型能预测部分tau影像信息。编辑解读：价值在于跨模态估计，而非证明代谢异常引起tau病理。"
+        },
+        {
+          "heading": "用脑功能模型与代谢影像预测 AD 型 tau｜局限与转化启发",
+          "body": "编辑判断：需重点检查独立外部验证、共病造成的域偏移和个体误差。不能据此替代tau-PET、诊断或药物试验终点；验证入组筛选增益后才适合讨论转化。"
+        },
+        {
+          "heading": "用脑功能模型与代谢影像预测 AD 型 tau｜前期文献与关系",
+          "body": "Franzmeier等（2020）：功能网络与tau累积速率的关联，提供网络组织背景。La Joie等（2020）：基线tau-PET与随后萎缩的关联，帮助区分“推估tau”和“预测组织损伤”。它们是相关背景，不据此声称新研究直接复现。"
+        },
+        {
+          "heading": "两种细菌协作放大肠神经元损伤与动力障碍｜论文信息",
+          "body": "Zhang等：Fusobacterium nucleatum enhances enterotoxigenic Bacteroides fragilis-mediated neuron loss and intestinal motility dysfunction。Nature Microbiology，2026-10-01；DOI：10.1038/s41564-026-02497-y。影响因子待核实。"
+        },
+        {
+          "heading": "两种细菌协作放大肠神经元损伤与动力障碍｜背景与研究问题",
+          "body": "为何产肠毒素脆弱拟杆菌（ETBF）清除后，肠动力异常仍可持续？"
+        },
+        {
+          "heading": "两种细菌协作放大肠神经元损伤与动力障碍｜方法与摘要要点译述",
+          "body": "结合小鼠定植模型与患者队列。毒素BFT经NOD1–RIPK2–CASP9–CASP3通路诱导肠神经元凋亡；具核梭杆菌的2-羟基丁酸促进BFT生成。双歧杆菌制剂在模型中减轻损伤。"
+        },
+        {
+          "heading": "两种细菌协作放大肠神经元损伤与动力障碍｜结果的价值",
+          "body": "原文区分人群菌丰度相关和小鼠机制。编辑解读：关注点从单菌数量扩展到菌间代谢互作及神经损伤的持续性。"
+        },
+        {
+          "heading": "两种细菌协作放大肠神经元损伤与动力障碍｜局限与转化启发",
+          "body": "本次基于公开摘要核查，未逐图审阅全文。编辑判断：益生菌结果不能外推为患者疗效；需区分预防与损伤后修复，并验证靶向RIPK2的宿主防御风险。肠神经发现不等于中枢退行病机制。"
+        },
+        {
+          "heading": "两种细菌协作放大肠神经元损伤与动力障碍｜前期文献与关系",
+          "body": "Muller等（Cell，2014）：肌层巨噬细胞与肠神经元互作调节动力，提供稳态背景。Matheis等（Cell，2020）：巨噬细胞肾上腺素能信号限制感染后神经元丢失，提供神经保护参照；与本篇毒素损伤路径并非同一机制。"
+        },
+        {
+          "heading": "阅读练习",
+          "body": "如果模型能较好预测tau-PET，为什么仍不能说它可替代tau-PET用于药物试验？请分别从外部验证、个体误差、纵向变化敏感性三个角度写一句话。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "FDG-PET",
+          "zh": "氟代脱氧葡萄糖正电子发射断层成像",
+          "meaning": "利用示踪剂分布评估组织葡萄糖代谢的影像方法。"
+        },
+        {
+          "en": "Flortaucipir",
+          "zh": "氟[18F]tau蛋白示踪剂",
+          "meaning": "用于tau-PET；其影像信号不是所有tau构象的无差别测量。"
+        },
+        {
+          "en": "Domain shift",
+          "zh": "域偏移",
+          "meaning": "训练与应用人群或设备不同，使模型表现发生变化。"
+        },
+        {
+          "en": "Myenteric plexus",
+          "zh": "肌间神经丛",
+          "meaning": "肠壁神经网络，参与协调胃肠运动。"
+        },
+        {
+          "en": "Dysmotility",
+          "zh": "动力障碍",
+          "meaning": "消化道推进与协调运动异常。"
+        },
+        {
+          "en": "RIPK2",
+          "zh": "受体相互作用丝氨酸/苏氨酸激酶2",
+          "meaning": "参与NOD相关先天免疫信号的胞内激酶。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41467-026-78300-7",
+          "title": "用脑功能模型与代谢影像预测 AD 型 tau",
+          "date": "2026-10-02",
+          "checked": "2026-10-06",
+          "topic": "神经退行性疾病 / 影像标志物",
+          "target": "tau",
+          "summary": "以 FDG-PET 推估 tau-PET 信号；预测关联不能替代病理测量。",
+          "sections": [
+            {
+              "heading": "论文信息",
+              "body": "Corriveau-Lecavalier 等：A model of brain function to predict tau across Alzheimer’s disease and related disorders。Nature Communications，2026-10-02；DOI：10.1038/s41467-026-78300-7。已接收的早期在线版本，仍可能编辑。影响因子待核实。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "能否从脑代谢/功能信息估计 AD 型 tau 分布，改善缺少 tau-PET 时的评估？"
+            },
+            {
+              "heading": "方法与摘要要点译述",
+              "body": "模型用1088人的FDG-PET与flortaucipir-PET训练；验证含纵向子集、ADNI与临床队列。个体预测R²约0.34–0.71；临床队列264人中仅28人有tau-PET。"
+            },
+            {
+              "heading": "结果的价值",
+              "body": "原文：脑功能模型能预测部分tau影像信息。编辑解读：价值在于跨模态估计，而非证明代谢异常引起tau病理。"
+            },
+            {
+              "heading": "局限与转化启发",
+              "body": "编辑判断：需重点检查独立外部验证、共病造成的域偏移和个体误差。不能据此替代tau-PET、诊断或药物试验终点；验证入组筛选增益后才适合讨论转化。"
+            },
+            {
+              "heading": "前期文献与关系",
+              "body": "Franzmeier等（2020）：功能网络与tau累积速率的关联，提供网络组织背景。La Joie等（2020）：基线tau-PET与随后萎缩的关联，帮助区分“推估tau”和“预测组织损伤”。它们是相关背景，不据此声称新研究直接复现。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications，2026-10-02",
+              "url": "https://www.nature.com/articles/s41467-026-78300-7"
+            },
+            {
+              "title": "Franzmeier等｜Functional brain architecture is associated with the rate of tau accumulation in Alzheimer’s disease，2020",
+              "url": "https://www.nature.com/articles/s41467-019-14159-1"
+            },
+            {
+              "title": "La Joie等｜Prospective longitudinal atrophy in Alzheimer's disease correlates with the intensity and topography of baseline tau-PET，2020",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31894103/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41564-026-02497-y",
+          "title": "两种细菌协作放大肠神经元损伤与动力障碍",
+          "date": "2026-10-01",
+          "checked": "2026-10-06",
+          "topic": "神经免疫 / 肠神经系统 / 新靶点",
+          "target": "NOD1–RIPK2",
+          "summary": "细菌代谢物增强毒素作用，提示清除病原体后仍需关注神经损伤。",
+          "sections": [
+            {
+              "heading": "论文信息",
+              "body": "Zhang等：Fusobacterium nucleatum enhances enterotoxigenic Bacteroides fragilis-mediated neuron loss and intestinal motility dysfunction。Nature Microbiology，2026-10-01；DOI：10.1038/s41564-026-02497-y。影响因子待核实。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "为何产肠毒素脆弱拟杆菌（ETBF）清除后，肠动力异常仍可持续？"
+            },
+            {
+              "heading": "方法与摘要要点译述",
+              "body": "结合小鼠定植模型与患者队列。毒素BFT经NOD1–RIPK2–CASP9–CASP3通路诱导肠神经元凋亡；具核梭杆菌的2-羟基丁酸促进BFT生成。双歧杆菌制剂在模型中减轻损伤。"
+            },
+            {
+              "heading": "结果的价值",
+              "body": "原文区分人群菌丰度相关和小鼠机制。编辑解读：关注点从单菌数量扩展到菌间代谢互作及神经损伤的持续性。"
+            },
+            {
+              "heading": "局限与转化启发",
+              "body": "本次基于公开摘要核查，未逐图审阅全文。编辑判断：益生菌结果不能外推为患者疗效；需区分预防与损伤后修复，并验证靶向RIPK2的宿主防御风险。肠神经发现不等于中枢退行病机制。"
+            },
+            {
+              "heading": "前期文献与关系",
+              "body": "Muller等（Cell，2014）：肌层巨噬细胞与肠神经元互作调节动力，提供稳态背景。Matheis等（Cell，2020）：巨噬细胞肾上腺素能信号限制感染后神经元丢失，提供神经保护参照；与本篇毒素损伤路径并非同一机制。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Microbiology，2026-10-01",
+              "url": "https://www.nature.com/articles/s41564-026-02497-y"
+            },
+            {
+              "title": "主文公开摘要｜PubMed PMID 42823533",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42823533/"
+            },
+            {
+              "title": "Muller等｜Crosstalk between muscularis macrophages and enteric neurons regulates gastrointestinal motility，Cell 2014",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25036630/"
+            },
+            {
+              "title": "Matheis等｜Adrenergic Signaling in Muscularis Macrophages Limits Infection-Induced Neuronal Loss，Cell 2020",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31923400/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Nature Communications，2026-10-02",
+          "url": "https://www.nature.com/articles/s41467-026-78300-7"
+        },
+        {
+          "title": "Franzmeier等｜Functional brain architecture is associated with the rate of tau accumulation in Alzheimer’s disease，2020",
+          "url": "https://www.nature.com/articles/s41467-019-14159-1"
+        },
+        {
+          "title": "La Joie等｜Prospective longitudinal atrophy in Alzheimer's disease correlates with the intensity and topography of baseline tau-PET，2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31894103/"
+        },
+        {
+          "title": "主文｜Nature Microbiology，2026-10-01",
+          "url": "https://www.nature.com/articles/s41564-026-02497-y"
+        },
+        {
+          "title": "主文公开摘要｜PubMed PMID 42823533",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42823533/"
+        },
+        {
+          "title": "Muller等｜Crosstalk between muscularis macrophages and enteric neurons regulates gastrointestinal motility，Cell 2014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25036630/"
+        },
+        {
+          "title": "Matheis等｜Adrenergic Signaling in Muscularis Macrophages Limits Infection-Induced Neuronal Loss，Cell 2020",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31923400/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-06-launch",
       "date": "2026-10-06",
@@ -68,5 +299,6 @@
         }
       ]
     }
-  ]
+  ],
+  "archivedPapers": []
 }
