@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@supabase/supabase-js": "2.117.2",
+    "esbuild": "0.25.11"
+  },
+  "private": true,
+  "scripts": {
+    "bundle:supabase": "esbuild scripts/supabase-entry.js --bundle --minify --platform=browser --format=iife --outfile=vendor/supabase.js"
+  }
+}
