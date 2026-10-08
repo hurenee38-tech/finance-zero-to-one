@@ -1,8 +1,212 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-08T08:42:27.742Z",
+  "updatedAt": "2026-10-08T22:58:05.236Z",
   "items": [
+    {
+      "id": "neuro-2026-10-09",
+      "date": "2026-10-09",
+      "source": "scheduled",
+      "title": "神经生物学简报｜APOE等位基因互作与ATRX–cGAS炎症轴",
+      "summary": "本期核实2篇2026年10月8日上线的原始研究：一篇解析APOE2如何减弱APOE4相关淀粉样病理，另一篇把ATR-X综合征中的炎症连接到ATRX缺失、染色质重排与cGAS非经典功能。两篇均为早期在线版本，影响因子待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "本期选择2篇已核实的原始研究，均发表于Nature Communications并于2026-10-08在线发表；未检索到足够可靠且不重复的第三篇，因此不凑数。两篇均为可引用、具有永久DOI的早期在线版本，后续仍可能编辑。影响因子待核实：本次未从官方指标页可靠取得当年数值。"
+        },
+        {
+          "heading": "重点推荐｜APOE2如何缓冲APOE4相关淀粉样病理",
+          "body": "Chen等：APOE2 attenuates APOE4-associated amyloid pathology and related toxicity in a mouse model of Alzheimer’s disease。中文译述：在阿尔茨海默病小鼠模型中，APOE2减弱APOE4相关淀粉样病理及毒性。研究比较携带APOE2/3、APOE3/4、APOE2/4或APOE3/3的人源APOE杂合小鼠，并与5xFAD模型交配。原文发现：APOE3/4组Aβ沉积增加、小胶质细胞反应失调且与斑块接触减少；这些变化在APOE2/4组中减弱，其脑蛋白组也更接近APOE3/3与APOE2/3组。APOE2/3而非APOE2/4组的髓鞘碱性蛋白升高；外周脂质组又显示APOE3/4与APOE2/4有共享变化，提示脑内保护与外周代谢并非简单同步。"
+        },
+        {
+          "heading": "重点推荐｜价值、局限与转化启发",
+          "body": "事实：结果支持APOE等位基因效应具有组合依赖性，APOE2在该淀粉样模型中可缓冲部分APOE4相关表型。局限：5xFAD以淀粉样病理为主，不能覆盖人类散发性AD、tau病理或长期认知结局；不同小鼠组的表达剂量、性别和年龄效应仍需细读全文。编辑推断：APOE2递送或APOE4→APOE2编辑值得继续研究，但目前不能据此推断对APOE2/4携带者的临床风险、疗效或安全性。前期关系：Golden等2025在小鼠中测试APOE4到APOE2的短期等位切换，支持干预可塑性；Jackson等2024用APOE2基因递送减轻APP/PS1模型的斑块、突触丢失和小胶质激活，是直接的治疗概念验证。"
+        },
+        {
+          "heading": "ATRX缺失通过cGAS非经典功能放大I型干扰素信号",
+          "body": "El-Daher等：ATRX deficiency drives aberrant type I interferon signalling through cGAS-dependent transcriptional dysregulation。中文译述：ATRX缺失通过依赖cGAS的转录失调驱动异常I型干扰素信号。研究从3名携带ATRX ATPase结构域错义变异、伴严重炎症的无关ATR-X综合征患者出发，结合患者来源细胞、CRISPR工程化成纤维细胞和神经元模型。原文发现：ATRX功能缺失增强I型干扰素信号；这一效应依赖cGAS，却与cGAS经典DNA感知作用解耦。ATRX缺失还改变DAXX与组蛋白变体H3.3的染色质分布，而cGAS对核小体组成和基因表达变化是必需的。"
+        },
+        {
+          "heading": "ATRX研究｜价值、局限与转化启发",
+          "body": "事实：论文把少数患者的炎症表型与细胞和神经元模型中的ATRX–DAXX–H3.3染色质机制连接起来，并提出cGAS的非经典转录角色。局限：患者仅3名且变异集中于ATPase结构域；细胞模型不能完整重现发育期脑组织和全身免疫环境；cGAS“必需”不等于单独充分。编辑推断：cGAS或干扰素通路可能成为分层研究入口，但在提出治疗前必须验证更多基因型、发育窗口及抑制先天免疫的感染风险。前期关系：Gibbons等1995确定ATR-X综合征与该转录/染色质调控因子突变的联系；Drané等2010建立DAXX与ATRX协同沉积H3.3的机制；Stilp等2022显示ATRX可正向调节经典IRF3依赖的I型干扰素反应，与本研究观察到的非经典、方向相反情境形成重要对照。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "如果某实验显示“APOE2/4小鼠的Aβ斑块少于APOE3/4小鼠”，你还需要哪三类证据，才能较有把握地把差异归因于APOE2对APOE4病理作用的缓冲，而不是表达量、发育补偿或模型特异性？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：先确认比较是否公平，再确认机制链，最后检验能否跨模型成立。\n\n1）必要证据：各组遗传背景、APOE表达量、年龄、性别和5xFAD转基因剂量匹配；用同窝对照并预先定义分析。若APOE2/4只是总APOE更低，斑块减少不能直接归因于“等位基因缓冲”。\n2）支持证据：除斑块面积外，同时测可溶/不溶Aβ、清除或聚集动力学、小胶质—斑块接触、神经突损伤，并用时间序列确认APOE2相关变化先于病理改善。改变APOE2剂量或在成年期导入APOE2，若产生剂量与时间一致的救援，会增强因果支持。\n3）外部验证：在另一种淀粉样模型、人源iPSC共培养或人类APOE2/4样本中复现关键方向，并检查tau和认知结局。若只在5xFAD成立，应把结论限定为该模型。\n\n一种可行答案：先做严格匹配和表达校准，再用成年期可控的APOE2导入/撤除实验验证可逆性，并在独立模型中复现Aβ、小胶质和神经毒性三类终点。\n\n常见误区：把基因型关联当作已证明分子机制；以斑块减少代替神经保护；把小鼠结果直接换算成人体风险或疗效。\n\n自查标准：是否排除了剂量和背景差异？是否有时间顺序或可逆扰动？是否验证了不止一个病理终点和不止一个模型？开放问题可有多种合理实验组合。",
+          "collapsed": true
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41467-026-78407-x",
+          "title": "APOE2缓冲APOE4相关淀粉样病理呈等位基因组合依赖",
+          "date": "2026-10-08",
+          "checked": "2026-10-09",
+          "topic": "神经退行性疾病 / 阿尔茨海默病 / 神经免疫",
+          "target": "APOE2 / APOE4",
+          "summary": "人源APOE杂合5xFAD小鼠显示，APOE2/4组合减弱APOE3/4组的Aβ沉积和小胶质异常，但脑内与外周表型并不同步。",
+          "sections": [
+            {
+              "heading": "论文信息与标题译述",
+              "body": "Chen等，Nature Communications，2026-10-08。APOE2 attenuates APOE4-associated amyloid pathology and related toxicity in a mouse model of Alzheimer’s disease：在阿尔茨海默病小鼠模型中，APOE2减弱APOE4相关淀粉样病理及毒性。早期在线、可引用版本；影响因子待核实。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "APOE4增加AD风险而APOE2具有保护关联，但在APOE2/4杂合状态下，两种效应怎样相互作用并不清楚。"
+            },
+            {
+              "heading": "方法与摘要要点译述",
+              "body": "研究以同窝控制的人源APOE2/3、APOE3/4、APOE2/4和APOE3/3杂合小鼠与5xFAD交配，结合Aβ病理、小胶质—斑块相互作用、脑蛋白组和血浆脂质组比较等位基因组合。"
+            },
+            {
+              "heading": "主要发现与机制线索",
+              "body": "原文：APOE3/4增加Aβ沉积并伴小胶质失调，这些表型在APOE2/4减弱；APOE2/4脑蛋白组更接近APOE3/3和APOE2/3。MBP升高只见APOE2/3；血浆脂质组中APOE2/4与APOE3/4又有共同改变，说明等位基因互作具有组织和表型依赖性。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "编辑解读：研究优点是直接比较杂合组合，而非把APOE2和APOE4拆开讨论。局限是5xFAD不能覆盖散发性AD全程、tau与长期认知，鼠结果不可直接推断人类APOE2/4风险。APOE2递送或等位切换是候选方向，但仍需成年期可控干预、安全性与人源模型验证。"
+            },
+            {
+              "heading": "相关前期研究",
+              "body": "Golden等2025：在小鼠中将APOE4短期切换为APOE2，显示脑转录组、脂质组、病理和认知可被改变，为等位基因干预提供可塑性证据。Jackson等2024：APOE2基因治疗在持续表达APOE4的APP/PS1小鼠中降低斑块、突触损伤和小胶质激活，是与本研究最直接的治疗概念验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications，2026-10-08",
+              "url": "https://doi.org/10.1038/s41467-026-78407-x"
+            },
+            {
+              "title": "Golden等｜APOE4 to APOE2 allelic switching，Nature Neuroscience，2025",
+              "url": "https://doi.org/10.1038/s41593-025-02094-y"
+            },
+            {
+              "title": "Jackson等｜APOE2 gene therapy，Molecular Therapy，2024",
+              "url": "https://doi.org/10.1016/j.ymthe.2024.03.024"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-78094-8",
+          "title": "ATRX缺失通过cGAS依赖的染色质转录失调驱动I型干扰素信号",
+          "date": "2026-10-08",
+          "checked": "2026-10-09",
+          "topic": "神经发育疾病 / 神经免疫 / 染色质",
+          "target": "ATRX–DAXX–H3.3 / cGAS",
+          "summary": "3名ATR-X综合征患者及细胞、神经元模型提示，ATRX缺失通过与经典DNA感知解耦的cGAS功能改变染色质和I型干扰素表达。",
+          "sections": [
+            {
+              "heading": "论文信息与标题译述",
+              "body": "El-Daher等，Nature Communications，2026-10-08。ATRX deficiency drives aberrant type I interferon signalling through cGAS-dependent transcriptional dysregulation：ATRX缺失通过依赖cGAS的转录失调驱动异常I型干扰素信号。早期在线、可引用版本；影响因子待核实。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "ATRX是参与转录调控和基因组稳定性的染色质重塑因子；研究询问ATR-X综合征患者的严重炎症是否源自ATRX缺失影响先天免疫。"
+            },
+            {
+              "heading": "方法与摘要要点译述",
+              "body": "研究描述3名无关患者的ATRX ATPase结构域错义变异和全血干扰素刺激基因持续升高，并结合患者来源细胞、CRISPR工程化成纤维细胞和神经元模型进行机制验证。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "原文：ATRX功能缺失增强I型干扰素信号；该效应依赖cGAS，却不依赖其经典DNA感知功能。ATRX缺失改变DAXX和H3.3的染色质分布，cGAS对相应核小体组成与基因表达变化是必需的。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "编辑解读：工作把罕见神经发育病、染色质和免疫转录联系起来，并提示cGAS有非经典功能。患者数仅3名、变异与模型范围有限；“必要”不等于“充分”，也未证明抑制cGAS会改善神经发育结局。转化需先验证更多基因型和发育阶段，并权衡感染防御风险。"
+            },
+            {
+              "heading": "相关前期研究",
+              "body": "Gibbons等1995：确定ATR-X综合征由该类全局转录调控因子突变引起，是疾病遗传学起点。Drané等2010：证明DAXX是H3.3伴侣并与ATRX协作进行非复制依赖的染色质装配，为新文的ATRX–DAXX–H3.3机制奠基。Stilp等2022：显示ATRX正向调节IRF3依赖的经典I型干扰素反应，与新研究中ATRX缺失增强、且与DNA感知解耦的情境形成机制对照。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications，2026-10-08",
+              "url": "https://doi.org/10.1038/s41467-026-78094-8"
+            },
+            {
+              "title": "Gibbons等｜ATR-X syndrome mutation discovery，Cell，1995",
+              "url": "https://doi.org/10.1016/0092-8674(95)90287-2"
+            },
+            {
+              "title": "Drané等｜DAXX–ATRX–H3.3 chromatin assembly，Genes & Development，2010",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20504901/"
+            },
+            {
+              "title": "Stilp等｜ATRX regulates IRF3-dependent type I IFN，PLOS Pathogens，2022",
+              "url": "https://doi.org/10.1371/journal.ppat.1010748"
+            }
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "en": "Allelic interaction",
+          "zh": "等位基因互作",
+          "meaning": "同一基因的两个等位版本共同决定表型，效果不一定是各自作用的简单相加。"
+        },
+        {
+          "en": "Maladaptive microglial activation",
+          "zh": "失调性小胶质细胞激活",
+          "meaning": "小胶质反应偏离保护或稳态功能，并可能伴随清除、炎症或神经支持异常。"
+        },
+        {
+          "en": "Lipidomics",
+          "zh": "脂质组学",
+          "meaning": "系统测量样本中多类脂质分子及其相对变化。"
+        },
+        {
+          "en": "Chromatin remodeller",
+          "zh": "染色质重塑因子",
+          "meaning": "改变DNA与核小体组织，从而影响基因可及性与表达的蛋白。"
+        },
+        {
+          "en": "Histone chaperone",
+          "zh": "组蛋白伴侣",
+          "meaning": "协助组蛋白装配、运输或沉积到染色质，而非传统意义上的折叠伴侣。"
+        },
+        {
+          "en": "Non-canonical cGAS function",
+          "zh": "cGAS非经典功能",
+          "meaning": "区别于胞质DNA感知并启动STING通路的其他调控作用，本研究指向染色质与转录。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chen等｜Nature Communications，2026-10-08",
+          "url": "https://doi.org/10.1038/s41467-026-78407-x"
+        },
+        {
+          "title": "Golden等｜Nature Neuroscience，2025",
+          "url": "https://doi.org/10.1038/s41593-025-02094-y"
+        },
+        {
+          "title": "Jackson等｜Molecular Therapy，2024",
+          "url": "https://doi.org/10.1016/j.ymthe.2024.03.024"
+        },
+        {
+          "title": "El-Daher等｜Nature Communications，2026-10-08",
+          "url": "https://doi.org/10.1038/s41467-026-78094-8"
+        },
+        {
+          "title": "Gibbons等｜Cell，1995",
+          "url": "https://doi.org/10.1016/0092-8674(95)90287-2"
+        },
+        {
+          "title": "Drané等｜Genes & Development，2010",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20504901/"
+        },
+        {
+          "title": "Stilp等｜PLOS Pathogens，2022",
+          "url": "https://doi.org/10.1371/journal.ppat.1010748"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-08",
       "date": "2026-10-08",
