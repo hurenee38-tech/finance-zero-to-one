@@ -1,8 +1,1793 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-07T01:28:58.256Z",
+  "updatedAt": "2026-10-08T08:42:17.388Z",
   "items": [
+    {
+      "id": "finance-2026-10-08",
+      "date": "2026-10-08",
+      "source": "curated",
+      "title": "医药金融｜授权金额如何折现、HER2维持治疗与早期临床证据（补发版）",
+      "summary": "重新核实四项10月5–7日公开动态，补发金融教学和行业分析。21项既有NCT全部核查成功，3项记录字段与已发布值不同；保留历史记录。",
+      "sections": [
+        {
+          "heading": "补发说明与范围",
+          "body": "本期于10月8日下午重新检索核实，不是早间任务完整原文的恢复。覆盖肿瘤、神经精神和眼科；未充分核实的CHM-029动态不纳入。公开源知识与原创分析，不上传私人资料。"
+        },
+        {
+          "heading": "今日概念｜授权交易总额不等于经济价值",
+          "body": "总额往往包含首付、研发/监管/销售里程碑，不是签约即到账。先按触发条件估计付款概率，再折现时间：PV＝Σ[付款额×发生概率÷(1+r)^t]。这是卖方潜在收款的简化现值，尚未扣研发成本、税费，也未加入版税，不是完整项目估值。"
+        },
+        {
+          "heading": "短算例｜教学假设",
+          "body": "首付5000万美元；第3年3亿美元、支付概率35%；第7年5亿美元、支付概率15%；折现率12%。单位为百万美元：PV＝50＋300×0.35÷1.12³＋500×0.15÷1.12⁷≈50＋74.7＋33.9＝158.7。名义总额850百万美元，简化现值仅约158.7百万美元。概率应是从今天出发的无条件触发概率，不能重复乘同一风险。所有数字均为教学假设。"
+        },
+        {
+          "heading": "1｜tucatinib进入HER2阳性乳腺癌维持治疗",
+          "body": "【事实，2026-10-07】FDA批准tucatinib联合trastuzumab与pertuzumab，用于诱导治疗后不可切除局部晚期或转移性HER2阳性乳腺癌成人维持治疗。HER2CLIMB-05纳入654人；标签针对具体治疗场景。[1]\n【分析】科学：强化HER2抑制需兼顾毒性。商业：前移维持治疗扩大适用场景，仍取决于竞争、耐受与支付。战略：生命周期拓展。财务：销售预测应重建符合标签患者池、维持治疗持续时间和净价，不能把全部HER2患者算进来。"
+        },
+        {
+          "heading": "2｜Gate–Lilly扩展合作：超过8.7亿美元是潜在值",
+          "body": "【事实，2026-10-05】增加一个靶点，可选第二个；首付和第二靶点选择付款金额未披露，另有研究资助、里程碑及梯度版税。Lilly取得所选靶点产品全球独家权利。[2]\n【分析】科学：分子门策略提供新的蛋白干预路径，具体靶点未公开。商业：平台再次获得合作认可不等于临床验证。战略：自有管线与合作开发并行。财务：不能把潜在总额当收入或现金；先询问确定付款、条件和时点。"
+        },
+        {
+          "heading": "3｜Seaport GlyphAgo：IIa首例给药",
+          "body": "【事实，2026-10-07】澳大利亚IIa试验开始给药，研究广泛性焦虑伴睡眠障碍；SPT-320通过Glyph平台改变agomelatine吸收路径。公司目标是增加全身暴露、降低肝脏暴露，尚需验证。[3]\n【分析】科学：区分已知机制与新递送产品的疗效/安全。商业：差异化取决于焦虑、睡眠和肝安全的共同证据。战略：复用已验证机制降低部分生物学风险。财务：首次给药属于执行节点，不能作为疗效成功；仍有试验和融资风险。"
+        },
+        {
+          "heading": "4｜PST-611：六人I期的影像信号如何看",
+          "body": "【事实，公告2026-10-07，会议2026-10-02】6名地理性萎缩患者，单次给药与4个月随访；公司事后OCT分析报告结构标志物增长减慢。PST-611为编码transferrin的非病毒基因治疗。[4]\n【分析】科学：铁稳态是机制线索，事后分析、小样本和治疗前后比较不足以确证疗效。商业：长效递送可能有价值，但须验证视功能和安全。战略：下一阶段应增加对照、预设终点和随访。财务：不能用公司“重磅药”预期替代风险调整；一期积极信号只提高继续验证的理由。"
+        },
+        {
+          "heading": "跨岗位视角｜Gate合作",
+          "body": "投行：检查收入确认、确定现金与融资影响。FA：拆首付、研究资助与里程碑，评估谈判筹码。BD：核对全球权利、靶点选择、研发分工、退出与回归条款。投资：按条件和时点估计现金流，保留未披露缺口。咨询：比较平台复制能力、合作资源占用与自有管线优先级。"
+        },
+        {
+          "heading": "案例练习",
+          "body": "若上述假设的临床里程碑从第3年推迟到第5年，概率仍为35%，这一项PV＝105÷1.12⁵≈59.6百万美元，减少约15.1百万美元。再问：延期是否还增加成本、影响概率和商业窗口？不能只移动付款时间。"
+        },
+        {
+          "heading": "数据库核查结果",
+          "body": "本次对21项既有NCT逐项成功读取ClinicalTrials.gov API，失败0；对照申办方、干预身份、阶段、状态、适应症、主终点、登记时间与预计/实际主要完成日期。3项记录字段不同：NCT04794101（申办方与主要完成日）、NCT05607550和NCT05578976（登记标题、适应症、主终点或主要完成日）。这些是对已发布字段的校正，不宣称今天发生3个试验事件。21条核查版本均进入本期pipelineUpdates。尚未为四条新闻新增未经登记核实的NCT；新管线筛查和全部公司/靶点档案巡检未完成，明确记为partial。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "两项授权交易名义总额相同，A首付较高、里程碑较低，B首付较低、里程碑较高。卖方应该一定选择A吗？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "拆解：先算经济价值，再看现金生存期和执行能力。依据包括首付、付款时间、无条件触发概率、版税、费用分担和买方推进能力。可行答案：A通常提供更确定的现金，但B若买方更强、推进更快或保留更好权利，风险调整现值可能更高。沿用教学式逐项估值，做概率和延迟敏感性分析。必要资料是具体合同付款条件；支持资料是买方既往执行记录；“会成功”是待验证假设。常见误区：总额=到账；概率重复相乘；忽略研发义务与退出条款。自查：是否区分确定/或有付款、权利价值和现金需求？开放问题没有唯一答案。",
+          "collapsed": true
+        }
+      ],
+      "terms": [
+        {
+          "en": "Upfront",
+          "zh": "首付款",
+          "meaning": "签约或约定条件达成时支付的初始款项。"
+        },
+        {
+          "en": "Contingent milestone",
+          "zh": "或有里程碑付款",
+          "meaning": "仅在约定事件发生时支付。"
+        },
+        {
+          "en": "Present value",
+          "zh": "现值",
+          "meaning": "未来现金流按时间及适用风险折算到现在的价值。"
+        },
+        {
+          "en": "Maintenance therapy",
+          "zh": "维持治疗",
+          "meaning": "初始治疗后持续控制疾病的治疗阶段。"
+        },
+        {
+          "en": "Post hoc analysis",
+          "zh": "事后分析",
+          "meaning": "未事先完整预设的分析，通常应视为探索性证据。"
+        },
+        {
+          "en": "First-pass metabolism",
+          "zh": "首过代谢",
+          "meaning": "药物进入全身循环前在肠道或肝脏被代谢的过程。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FDA｜tucatinib维持治疗批准，2026-10-07",
+          "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-tucatinib-trastuzumab-and-pertuzumab-maintenance-treatment-her2-positive-breast-cancer"
+        },
+        {
+          "title": "Gate｜扩大Lilly合作，2026-10-05",
+          "url": "https://www.gatebio.com/lilly-expansion"
+        },
+        {
+          "title": "Seaport｜GlyphAgo IIa首例给药，2026-10-07",
+          "url": "https://investors.seaporttx.com/news-releases/news-release-details/seaport-therapeutics-announces-first-patient-dosed-phase-2a"
+        },
+        {
+          "title": "PulseSight｜PST-611早期数据，2026-10-07",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/07/3376203/0/en/pulsesight-presents-pst-611-phase-i-new-early-clinical-efficacy-data-at-euretina-offering-a-potential-breakthrough-approach-to-treat-dry-amd-geographic-atrophy.html"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT06260722",
+          "title": "retatrutide",
+          "modality": "肽类",
+          "area": "代谢",
+          "target": "GLP-1R / GIPR / GCGR",
+          "stage": "Phase 3",
+          "company": "Eli Lilly and Company",
+          "indication": "Diabetes Mellitus, Type 2",
+          "trialTitle": "Effect of Retatrutide Compared With Semaglutide in Adult Participants With Type 2 Diabetes and Inadequate Glycemic Control With Metformin With or Without SGLT2 Inhibitor (TRANSCEND-T2D-2)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-09-28",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Eli Lilly and Company；ACTIVE_NOT_RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Change from Baseline in Hemoglobin A1c (HbA1c) (%)"
+          ],
+          "completion": {
+            "date": "2026-08-27",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 1250,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06260722",
+              "url": "https://clinicaltrials.gov/study/NCT06260722"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Retatrutide",
+              "description": "Administered SC.",
+              "armGroupLabels": [
+                "Retatrutide Dose Level 1",
+                "Retatrutide Dose Level 2"
+              ],
+              "otherNames": [
+                "LY3437943"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Semaglutide",
+              "description": "Administered SC.",
+              "armGroupLabels": [
+                "Semaglutide"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07491445",
+          "title": "daraxonrasib",
+          "modality": "小分子",
+          "area": "肿瘤",
+          "target": "RAS(ON)",
+          "stage": "Phase 3",
+          "company": "Revolution Medicines, Inc.",
+          "indication": "Pancreatic Cancer / Pancreatic Cancer Metastatic / PDAC / PDAC - Pancreatic Ductal Adenocarcinoma / Pancreatic Ductal Adenocarcinoma (PDAC) / Pancreatic Adenocarcinoma Metastatic / Pancreatic Adenocarcinoma / Pancreatic Adenosquamous Carcinoma",
+          "trialTitle": "Study of Daraxonrasib and Daraxonrasib + GnP as First-line Treatment in Patients With Metastatic Pancreatic Adenocarcinoma",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-10-02",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Revolution Medicines, Inc.；RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Progression free survival (PFS)",
+            "Overall survival (OS)"
+          ],
+          "completion": {
+            "date": "2028-06",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 900,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07491445",
+              "url": "https://clinicaltrials.gov/study/NCT07491445"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "daraxonrasib",
+              "description": "oral tablets",
+              "armGroupLabels": [
+                "Arm A: daraxonrasib",
+                "Arm B: daraxonrasib + gemcitabine and nab-paclitaxel"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "gemcitabine",
+              "description": "intravenous (IV) infusion",
+              "armGroupLabels": [
+                "Arm B: daraxonrasib + gemcitabine and nab-paclitaxel",
+                "Arm C: gemcitabine and nab-paclitaxel"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "nab-paclitaxel",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Arm B: daraxonrasib + gemcitabine and nab-paclitaxel",
+                "Arm C: gemcitabine and nab-paclitaxel"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT06292013",
+          "title": "lepodisiran",
+          "modality": "siRNA",
+          "area": "心血管",
+          "target": "LPA",
+          "stage": "Phase 3",
+          "company": "Eli Lilly and Company",
+          "indication": "Atherosclerotic Cardiovascular Disease (ASCVD) / Elevated Lp(a)",
+          "trialTitle": "A Study to Investigate the Effect of Lepodisiran on the Reduction of Major Adverse Cardiovascular Events in Adults With Elevated Lipoprotein(a) - ACCLAIM-Lp(a)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-09-24",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Eli Lilly and Company；ACTIVE_NOT_RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Time to First Occurrence of Any Component of the Major Adverse Cardiac Event (MACE)-4 Composite Endpoint"
+          ],
+          "completion": {
+            "date": "2029-03",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 17300,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06292013",
+              "url": "https://clinicaltrials.gov/study/NCT06292013"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Lepodisiran Sodium",
+              "description": "Administered SC",
+              "armGroupLabels": [
+                "Lepodisiran Sodium"
+              ],
+              "otherNames": [
+                "LY3819469"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Administered SC",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07412470",
+          "title": "frexalimab",
+          "modality": "单抗",
+          "area": "肾脏 / 移植",
+          "target": "CD40L",
+          "stage": "Phase 2/Phase 3",
+          "company": "Sanofi",
+          "indication": "Kidney Transplant Rejection",
+          "trialTitle": "A Study to Investigate the Efficacy and Safety of Frexalimab Versus Tacrolimus in Adults Undergoing Kidney Transplantation",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-09-21",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Sanofi；RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Composite efficacy failure rate (BPAR, graft loss, and death) by 1 year post kidney transplantation"
+          ],
+          "completion": {
+            "date": "2029-08-15",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 526,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07412470",
+              "url": "https://clinicaltrials.gov/study/NCT07412470"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Frexalimab",
+              "description": "Pharmaceutical form:Solution for injection-Route of administration:IV",
+              "armGroupLabels": [
+                "Frexalimab"
+              ],
+              "otherNames": [
+                "SAR441344"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Frexalimab",
+              "description": "Pharmaceutical form:Solution for injection-Route of administration:SC",
+              "armGroupLabels": [
+                "Frexalimab"
+              ],
+              "otherNames": [
+                "SAR441344"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Tacrolimus",
+              "description": "Pharmaceutical form:Capsule-Route of administration:Oral",
+              "armGroupLabels": [
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "rabbit anti-thymocyte globulin",
+              "description": "Pharmaceutical form:Solution for injection-Route of administration:IV",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "mycophenolate mofetil",
+              "description": "Pharmaceutical form:Tablet or capsule-Route of administration:Oral",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "mycophenolate sodium",
+              "description": "Pharmaceutical form:Tablet-Route of administration:Oral",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "methylprednisolone",
+              "description": "Pharmaceutical form:Solution for injection-Route of administration:IV",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "prednisone",
+              "description": "Pharmaceutical form:Tablet-Route of administration:Oral",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07060807",
+          "title": "patritumab deruxtecan",
+          "modality": "ADC",
+          "area": "肿瘤",
+          "target": "HER3",
+          "stage": "Phase 3",
+          "company": "Merck Sharp & Dohme LLC",
+          "indication": "Breast Neoplasms",
+          "trialTitle": "A Clinical Study of Patritumab Deruxtecan to Treat Breast Cancer (MK-1022-016)",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-10-06",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Merck Sharp & Dohme LLC；RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Progression Free Survival (PFS)",
+            "Overall Survival (OS)"
+          ],
+          "completion": {
+            "date": "2033-07-14",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 1000,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07060807",
+              "url": "https://clinicaltrials.gov/study/NCT07060807"
+            }
+          ],
+          "note": "ClinicalTrials.gov于2026-10-06刷新登记时间；本次核查未发现阶段、状态、适应症、主要终点或干预药物变化。这里展示的是该登记试验阶段，不代表全球最高阶段或获批状态。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Patritumab deruxtecan",
+              "description": "Administered via intravenous (IV) infusion",
+              "armGroupLabels": [
+                "Patritumab Deruxtecan"
+              ],
+              "otherNames": [
+                "MK-1022",
+                "HER3-DXd",
+                "U3-1402"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel",
+              "description": "Administered via IV infusion",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "TAXOL®",
+                "ONXAL®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Nab-paclitaxel",
+              "description": "Administered via IV infusion",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "Abraxane®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Capecitabine",
+              "description": "Administered via oral tablets",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "XELODA®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pegylated liposomal doxorubicin",
+              "description": "Administered via IV infusion",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "Doxil®"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Trastuzumab deruxtecan",
+              "description": "Administered via IV infusion",
+              "armGroupLabels": [
+                "Treatment of Physician's Choice"
+              ],
+              "otherNames": [
+                "T-DXd",
+                "Enhertu®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Rescue Medication",
+              "description": "Participants receive rescue medications according to each approved drug's product label. Recommended rescue medications include: 5-HT3 receptor antagonist, NK-1 receptor antagonist, and corticosteroids.",
+              "armGroupLabels": [
+                "Patritumab Deruxtecan"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT06767514",
+          "title": "ivonescimab",
+          "modality": "双抗",
+          "area": "肿瘤",
+          "target": "PD-1 / VEGF",
+          "stage": "Phase 3",
+          "company": "Summit Therapeutics",
+          "indication": "Non-Small Cell Lung Cancer",
+          "trialTitle": "Clinical Study of Ivonescimab for First-line Treatment of Metastatic NSCLC Patients With High PD-L1",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-09-18",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Summit Therapeutics；RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Overall Survival (OS)",
+            "Progression free survival (PFS)"
+          ],
+          "completion": {
+            "date": "2028-04",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 780,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06767514",
+              "url": "https://clinicaltrials.gov/study/NCT06767514"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Ivonescimab Injection",
+              "description": "Subject will receive ivonescimab as an IV injection",
+              "armGroupLabels": [
+                "Arm A - Ivonescimab"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab Injection",
+              "description": "Subject will receive Pembrolizumab as an IV injection",
+              "armGroupLabels": [
+                "Arm B - Pembrolizumab"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT06411288",
+          "title": "del-desiran",
+          "modality": "AOC",
+          "area": "罕见病",
+          "target": "DMPK",
+          "stage": "Phase 3",
+          "company": "Avidity Biosciences, Inc.",
+          "indication": "DM1 / Myotonic Dystrophy / Myotonic Dystrophy 1 / Myotonia / Myotonic Dystrophy Type 1 (DM1) / Dystrophy Myotonic / Myotonic Disorders / Steinert Disease / Steinert / Myotonic Muscular Dystrophy",
+          "trialTitle": "Global Study of Del-desiran for the Treatment of DM1",
+          "status": "COMPLETED",
+          "registryUpdated": "2026-09-01",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Avidity Biosciences, Inc.；COMPLETED。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Hand function"
+          ],
+          "completion": {
+            "date": "2026-07-23",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 159,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06411288",
+              "url": "https://clinicaltrials.gov/study/NCT06411288"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "AOC 1001 (del-desiran)",
+              "description": "Del-desiran will be administered by intravenous (IV) infusion.",
+              "armGroupLabels": [
+                "Del-desiran"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Placebo will be administered by intravenous (IV) infusion.",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT05630820",
+          "title": "bepirovirsen",
+          "modality": "ASO",
+          "area": "感染",
+          "target": "HBV RNA",
+          "stage": "Phase 3",
+          "company": "GlaxoSmithKline",
+          "indication": "Chronic Hepatitis B / Hepatitis B, Chronic",
+          "trialTitle": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 2)",
+          "status": "COMPLETED",
+          "registryUpdated": "2026-07-08",
+          "checked": "2026-10-08",
+          "summary": "登记核查：GlaxoSmithKline；COMPLETED。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Number of participants achieving functional cure (FC) with baseline HBsAg ≤3000 IU/mL"
+          ],
+          "completion": {
+            "date": "2025-11-03",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 857,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05630820",
+              "url": "https://clinicaltrials.gov/study/NCT05630820"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bepirovirsen",
+              "description": "Bepirovirsen will be administered.",
+              "armGroupLabels": [
+                "Bepirovirsen"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": "Matching placebo will be administered.",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT04794101",
+          "title": "AAV5-hRKp.RPGR",
+          "modality": "基因治疗",
+          "area": "眼科",
+          "target": "RPGR",
+          "stage": "Phase 3",
+          "company": "MeiraGTx Ocular UK Ltd",
+          "indication": "X-Linked Retinitis Pigmentosa",
+          "trialTitle": "Follow-up Gene Therapy Trial for the Treatment of X-linked Retinitis Pigmentosa Associated With Variants in the RPGR Gene",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-09-25",
+          "checked": "2026-10-08",
+          "summary": "登记核查：MeiraGTx Ocular UK Ltd；ACTIVE_NOT_RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Number of Participants with Ocular and Non-ocular Adverse Events",
+            "Number of Participants With Abnormalities in Laboratory Assessments",
+            "Change From Baseline in Best Corrected Visual Acuity (BCVA) by Early Treatment Diabetic Retinopathy Study (ETDRS) Chart Letter Score in Monocular Assessment",
+            "Change From Baseline in Low Luminance Visual Acuity by ETDRS Chart Letter Score in Monocular Assessment"
+          ],
+          "completion": {
+            "date": "2029-09-20",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 97,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT04794101",
+              "url": "https://clinicaltrials.gov/study/NCT04794101"
+            }
+          ],
+          "note": "本次登记核查显示申办方名称由 MeiraGTx Ocular UK Ltd 更新为 MeiraGTx UK Ltd，预计完成日由2029-09-20调整为2029-12-07；预计完成日不是结果读出承诺。试验阶段不代表获批状态。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
+              "description": "Bilateral, subretinal administration of AAV5-hRKp.RPGR - deferred treatment group",
+              "armGroupLabels": [
+                "Already Treated in MGT-RPGR-021",
+                "Deferred Treatment From MGT-RPGR-021 of Intermediate Dose"
+              ],
+              "otherNames": [
+                "botaretigene sparoparvovec"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Genetic: AAV5-hRKp.RPGR Low Dose",
+              "description": "Bilateral, subretinal administration of AAV5-hRKp.RPGR - deferred treatment group",
+              "armGroupLabels": [
+                "Already Treated in MGT-RPGR-021",
+                "Deferred Treatment From MGT-RPGR-021 Low Dose"
+              ],
+              "otherNames": [
+                "botaretigene sparoparvovec"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07053800",
+          "title": "obecabtagene autoleucel",
+          "modality": "CAR-T",
+          "area": "自身免疫 / 肾脏",
+          "target": "CD19",
+          "stage": "Phase 2",
+          "company": "Autolus Limited",
+          "indication": "Lupus Nephritis",
+          "trialTitle": "Obe-cel in Severe, Refractory Systemic Lupus Erythematosus (SLE) With Active Lupus Nephritis (LN)",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-08-24",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Autolus Limited；RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Proportion of participants who achieve complete renal response (CRR)"
+          ],
+          "completion": {
+            "date": "2028-08",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 35,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07053800",
+              "url": "https://clinicaltrials.gov/study/NCT07053800"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Obecabtagene autoleucel",
+              "description": "Obecabtagene autoleucel (obe-cel) given as a single infusion",
+              "armGroupLabels": [
+                "Obe-cel"
+              ],
+              "otherNames": [
+                "Obe-cel"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT06623422",
+          "title": "V940",
+          "modality": "疫苗",
+          "area": "肿瘤",
+          "target": "个体化新抗原",
+          "stage": "Phase 3",
+          "company": "Merck Sharp & Dohme LLC",
+          "indication": "Carcinoma, Non-Small-Cell Lung",
+          "trialTitle": "A Study of Pembrolizumab (MK-3475) With or Without Intismeran Autogene (V940) in Participants With Non-small Cell Lung Cancer (V940-009/INTerpath-009)",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-10-02",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Merck Sharp & Dohme LLC；RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Disease-Free Survival (DFS)"
+          ],
+          "completion": {
+            "date": "2033-05-16",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 680,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06623422",
+              "url": "https://clinicaltrials.gov/study/NCT06623422"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "description": "IV Infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "MK-3475",
+                "KEYTRUDA®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Platinol®",
+                "Platinol®-AQ"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Paraplatin®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pemetrexed",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Alimta®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Gemcitabine",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Gemzar"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Taxol®",
+                "Onxol®"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Intismeran autogene",
+              "description": "IM injection",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene"
+              ],
+              "otherNames": [
+                "mRNA-4157",
+                "V940"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": "IM injection",
+              "armGroupLabels": [
+                "Pembrolizumab + Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT06137183",
+          "title": "vixarelimab",
+          "modality": "单抗",
+          "area": "自身免疫 / 炎症",
+          "target": "OSMRβ",
+          "stage": "Phase 2",
+          "company": "Genentech, Inc.",
+          "indication": "Ulcerative Colitis",
+          "trialTitle": "A Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Vixarelimab in Participants With Moderate to Severe Ulcerative Colitis (UC)",
+          "status": "TERMINATED",
+          "registryUpdated": "2026-02-24",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Genentech, Inc.；TERMINATED。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Percentage of Participants With Clinical Remission at Week 12"
+          ],
+          "completion": {
+            "date": "2025-06-16",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 79,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06137183",
+              "url": "https://clinicaltrials.gov/study/NCT06137183"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Vixarelimab",
+              "description": "Vixarelimab will be administered as per the schedule specified in the respective arms.",
+              "armGroupLabels": [
+                "Placebo",
+                "Vixarelimab Dose Regimen 1",
+                "Vixarelimab Dose Regimen 2"
+              ],
+              "otherNames": [
+                "RO7622888; KPL-716"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Vixarelimab matching placebo will be administered as per the schedule specified in the respective arms.",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": "Based on a futility analysis, which suggested that the Moonglow study was unlikely to meet its primary endpoint.",
+          "hasResults": true
+        },
+        {
+          "id": "NCT05352919",
+          "title": "litifilimab",
+          "modality": "单抗",
+          "area": "自身免疫",
+          "target": "BDCA2",
+          "stage": "Phase 3",
+          "company": "Biogen",
+          "indication": "Systemic Lupus Erythematosus (SLE)",
+          "trialTitle": "A Study to Learn More About the Long-Term Safety of Litifilimab (BIIB059) Injections and it's Effects on Symptoms in Adults With Systemic Lupus Erythematosus (SLE)",
+          "status": "ENROLLING_BY_INVITATION",
+          "registryUpdated": "2026-10-05",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Biogen；ENROLLING_BY_INVITATION。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Number of Participants with Treatment Emergent Adverse Events (TEAEs)",
+            "Number of Participants with Serious Adverse Events (SAEs)"
+          ],
+          "completion": {
+            "date": "2032-05-03",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 864,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05352919",
+              "url": "https://clinicaltrials.gov/study/NCT05352919"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Litifilimab",
+              "description": "Administered as specified in the treatment arm.",
+              "armGroupLabels": [
+                "Litifilimab High Dose",
+                "Litifilimab Low Dose"
+              ],
+              "otherNames": [
+                "BIIB059"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Litifilimab-matching placebo",
+              "description": "Administered as specified in the treatment arm.",
+              "armGroupLabels": [
+                "Litifilimab High Dose",
+                "Litifilimab Low Dose"
+              ],
+              "otherNames": [
+                "BIIB059"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07444489",
+          "title": "felzartamab",
+          "modality": "单抗",
+          "area": "肾脏",
+          "target": "CD38",
+          "stage": "Phase 3",
+          "company": "Biogen",
+          "indication": "Antibody-mediated Rejection / Microvascular Inflammation",
+          "trialTitle": "A Study to Learn More About the Long-Term Safety and Effects of Felzartamab Infusions in Adults With Kidney Transplants Who Have Antibody-Mediated Rejection (AMR) or Microvascular Inflammation (MVI) (TRANSCEND/TRANSPIRE LTE)",
+          "status": "ENROLLING_BY_INVITATION",
+          "registryUpdated": "2026-09-30",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Biogen；ENROLLING_BY_INVITATION。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Number of Participants With Adverse Events (AEs), Serious Adverse Events (SAEs), and Adverse Events of Special Interest (AESI)",
+            "Number of Participants who Discontinue Treatment due to an AE",
+            "Number of Participants with Clinically Significant Laboratory, Vital Signs and Electrocardiograms (ECGs) Abnormalities"
+          ],
+          "completion": {
+            "date": "2031-12-31",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 201,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07444489",
+              "url": "https://clinicaltrials.gov/study/NCT07444489"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Felzartamab",
+              "description": "Administered IV",
+              "armGroupLabels": [
+                "Felzartamab: Long-Term Extension Treatment",
+                "Felzartamab: Off-Treatment Observation"
+              ],
+              "otherNames": [
+                "MOR202",
+                "MOR03087",
+                "TJ202",
+                "HIB202",
+                "BIIB148"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07037277",
+          "title": "bemnifosbuvir",
+          "modality": "小分子",
+          "area": "肝病 / 感染",
+          "target": "HCV复制",
+          "stage": "Phase 3",
+          "company": "Atea Pharmaceuticals, Inc.",
+          "indication": "HEPATITIS C VIRUS CHRONIC INFECTION / Hepatitis C, Chronic / Hepatitis C Virus Infection / Hepatitis C",
+          "trialTitle": "C-Forward: Efficacy and Safety of BEM/RZR vs SOF/VEL in Subjects With Chronic HCV",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-06-29",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Atea Pharmaceuticals, Inc.；ACTIVE_NOT_RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Portion of subjects achieving HCV RNA less than the lower limit of quantitation (LLOQ) at week 24"
+          ],
+          "completion": {
+            "date": "2026-12",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 880,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07037277",
+              "url": "https://clinicaltrials.gov/study/NCT07037277"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bemnifosbuvir-Ruzasvir",
+              "description": "BEM/RZR Fixed-dose Combination (FDC) tablets administered orally once daily for a total of 8 weeks (in those without cirrhosis) or 12 weeks (in those with compensated cirrhosis)",
+              "armGroupLabels": [
+                "Bemnifosbuvir - Ruzasvir (BEM/RZR)"
+              ],
+              "otherNames": [
+                "(BEM/RZR)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Sofosbuvir-Velpatasvir",
+              "description": "SOF/VEL Fixed-dose Combination (FDC) tablets administered orally once daily for a total of 12 weeks",
+              "armGroupLabels": [
+                "Sofosbuvir-Velpatasvir (SOF/VEL)"
+              ],
+              "otherNames": [
+                "(SOF/VEL)"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT05059262",
+          "title": "vimseltinib",
+          "modality": "小分子",
+          "area": "肿瘤",
+          "target": "CSF1R",
+          "stage": "Phase 3",
+          "company": "Deciphera Pharmaceuticals, LLC",
+          "indication": "Tenosynovial Giant Cell Tumor / Pigmented Villonodular Synovitis / Giant Cell Tumor of Tendon Sheath / Tenosynovial Giant Cell Tumor, Diffuse / Tenosynovial Giant Cell Tumor, Localized",
+          "trialTitle": "Study of Vimseltinib for Tenosynovial Giant Cell Tumor",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-03-20",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Deciphera Pharmaceuticals, LLC；ACTIVE_NOT_RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Objective Response Rate (ORR) at Week 25 Per Response Evaluation Criteria In Solid Tumors (RECIST) Version 1.1"
+          ],
+          "completion": {
+            "date": "2023-08-10",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 123,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05059262",
+              "url": "https://clinicaltrials.gov/study/NCT05059262"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Vimseltinib",
+              "description": "Administered orally",
+              "armGroupLabels": [
+                "Part 1/Part 2 - Vimseltinib/Vimseltinib",
+                "Part 1/Part 2: Placebo/Vimseltinib"
+              ],
+              "otherNames": [
+                "DCC-3014"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Administered orally",
+              "armGroupLabels": [
+                "Part 1/Part 2: Placebo/Vimseltinib"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": true
+        },
+        {
+          "id": "NCT05654623",
+          "title": "ARV-471",
+          "modality": "PROTAC",
+          "area": "肿瘤",
+          "target": "ER",
+          "stage": "Phase 3",
+          "company": "Pfizer",
+          "indication": "Advanced Breast Cancer",
+          "trialTitle": "A Study to Learn About a New Medicine Called Vepdegestrant (ARV-471, PF-07850327) in People Who Have Advanced Metastatic Breast Cancer",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-03-18",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Pfizer；ACTIVE_NOT_RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Progression Free Survival (PFS) by Blinded Independent Central Review (BICR) Assessment Per Response Evaluation Criteria in Solid Tumors (RECIST) Version (v) 1.1- All Randomized Participants",
+            "PFS by BICR Assessment Per RECIST v1.1-Participants With ESR1 Mutation"
+          ],
+          "completion": {
+            "date": "2025-01-31",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 624,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05654623",
+              "url": "https://clinicaltrials.gov/study/NCT05654623"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ARV-471",
+              "description": "orally, once daily on a 28-day continuous dosing schedule",
+              "armGroupLabels": [
+                "ARV-471"
+              ],
+              "otherNames": [
+                "PF-07850327"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Fulvestrant",
+              "description": "intramuscularly on Days 1 and 15 of Cycle 1 and then on Day 1 of each cycle starting from C2D1 (28-day cycle)",
+              "armGroupLabels": [
+                "Fulvestrant"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": true
+        },
+        {
+          "id": "NCT07200830",
+          "title": "Lutetium Lu 177 Vipivotide Tetraxetan",
+          "modality": "放射性药物",
+          "area": "肿瘤",
+          "target": "PSMA",
+          "stage": "Phase 3",
+          "company": "Alliance for Clinical Trials in Oncology",
+          "indication": "Metastatic Castration-Resistant Prostate Carcinoma / Metastatic Prostate Adenocarcinoma / Stage IVB Prostate Cancer AJCC v8",
+          "trialTitle": "Testing Different Dosing Schedules of the Anti-cancer Drug, Lutetium 177Lu PSMA RLT and Its Effect on Patients With Advanced Prostate Cancer, RECIPROCAL Trial",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-10-02",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Alliance for Clinical Trials in Oncology；RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Overall survival (OS)",
+            "Quality of life"
+          ],
+          "completion": {
+            "date": "2034-09-09",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 1524,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07200830",
+              "url": "https://clinicaltrials.gov/study/NCT07200830"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Lutetium Lu 177 Vipivotide Tetraxetan",
+              "description": "Given IV",
+              "armGroupLabels": [
+                "Pre-registration step 0 (177Lu PSMA RLT)",
+                "Randomization step 1 arm 1 (standard dose 177Lu PSMA RLT)",
+                "Randomization step 1 arm 2 (adaptive dose 177Lu PSMA RLT )"
+              ],
+              "otherNames": [
+                "Pluvicto"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Biospecimen Collection",
+              "description": "Undergo blood sample collection",
+              "armGroupLabels": [
+                "Pre-registration step 0 (177Lu PSMA RLT)",
+                "Randomization step 1 arm 1 (standard dose 177Lu PSMA RLT)",
+                "Randomization step 1 arm 2 (adaptive dose 177Lu PSMA RLT )"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Patient Monitoring",
+              "description": "Undergo PSA monitoring",
+              "armGroupLabels": [
+                "Randomization step 1 arm 2 (adaptive dose 177Lu PSMA RLT )"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Computed Tomography",
+              "description": "Undergo CT",
+              "armGroupLabels": [
+                "Pre-registration step 0 (177Lu PSMA RLT)",
+                "Randomization step 1 arm 1 (standard dose 177Lu PSMA RLT)",
+                "Randomization step 1 arm 2 (adaptive dose 177Lu PSMA RLT )"
+              ],
+              "otherNames": [
+                "CAT Scan",
+                "CT Scan"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "Bone Scan",
+              "description": "Undergo Bone Scan",
+              "armGroupLabels": [
+                "Pre-registration step 0 (177Lu PSMA RLT)",
+                "Randomization step 1 arm 1 (standard dose 177Lu PSMA RLT)",
+                "Randomization step 1 arm 2 (adaptive dose 177Lu PSMA RLT )"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "PSMA PET Scan",
+              "description": "Undergo PSMA PET Scan",
+              "armGroupLabels": [
+                "Pre-registration step 0 (177Lu PSMA RLT)",
+                "Randomization step 1 arm 1 (standard dose 177Lu PSMA RLT)",
+                "Randomization step 1 arm 2 (adaptive dose 177Lu PSMA RLT )"
+              ]
+            },
+            {
+              "type": "PROCEDURE",
+              "name": "MRI",
+              "description": "Undergo MRI",
+              "armGroupLabels": [
+                "Pre-registration step 0 (177Lu PSMA RLT)",
+                "Randomization step 1 arm 1 (standard dose 177Lu PSMA RLT)",
+                "Randomization step 1 arm 2 (adaptive dose 177Lu PSMA RLT )"
+              ],
+              "otherNames": [
+                "Magnetic Resonance",
+                "Magnetic Resonance Imaging"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Questionnaire Administration",
+              "description": "Ancillary studies",
+              "armGroupLabels": [
+                "Pre-registration step 0 (177Lu PSMA RLT)",
+                "Randomization step 1 arm 1 (standard dose 177Lu PSMA RLT)",
+                "Randomization step 1 arm 2 (adaptive dose 177Lu PSMA RLT )"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT05269394",
+          "title": "E2814 + lecanemab",
+          "modality": "单抗组合",
+          "area": "CNS",
+          "target": "Tau / Aβ",
+          "stage": "Phase 2/Phase 3",
+          "company": "Washington University School of Medicine",
+          "indication": "Alzheimers Disease / Dementia / Alzheimers Disease, Familial",
+          "trialTitle": "Dominantly Inherited Alzheimer Network Trial: An Opportunity to Prevent Dementia. A Study of Potential Disease Modifying Treatments in Individuals With a Type of Early Onset Alzheimer's Disease Caused by a Genetic Mutation (DIAN-TU)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-07-27",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Washington University School of Medicine；ACTIVE_NOT_RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "The primary end point is the change from Week 24 to Week 104 and Week 208 in tau PET in the Symptomatic Population (Cohort 1)."
+          ],
+          "completion": {
+            "date": "2028-04",
+            "type": "ESTIMATED"
+          },
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核对抗tau与抗Aβ组合方案、遗传性AD人群和终点；生物标志物改变不自动等于认知获益。",
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05269394",
+              "url": "https://clinicaltrials.gov/study/NCT05269394"
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "E2814",
+              "description": "Administered intravenously in a blinded fashion",
+              "armGroupLabels": [
+                "E2814 plus lecanemab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Lecanemab",
+              "description": "Administered intravenously",
+              "armGroupLabels": [
+                "E2814 plus lecanemab",
+                "Matching placebo (E2814) plus lecanemab"
+              ],
+              "otherNames": [
+                "BAN2401"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Matching Placebo (E2814)",
+              "description": "Placebo administered intravenously in a blinded fashion.",
+              "armGroupLabels": [
+                "Matching placebo (E2814) plus lecanemab"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "NCT05607550",
+          "title": "firmonertinib（furmonertinib）",
+          "modality": "小分子EGFR抑制剂",
+          "area": "肿瘤",
+          "target": "EGFR exon 20 insertion",
+          "stage": "Phase 3",
+          "company": "ArriVent BioPharma, Inc.",
+          "indication": "Metastatic Non-Small Cell Lung Cancer / Advanced Non-Small Cell Lung Cancer / EGFR Exon 20 Mutations",
+          "trialTitle": "Study to Compare Furmonertinib to Platinum-Based Chemotherapy for Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertion Mutations (FURVENT)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2025-06-22",
+          "checked": "2026-10-08",
+          "summary": "登记核查：ArriVent BioPharma, Inc.；ACTIVE_NOT_RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Progression Free Survival (PFS) determined by blinded independent central review (BICR)"
+          ],
+          "completion": {
+            "date": "2025-08-15",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 398,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "furmonertinib 240 mg oral, daily",
+              "description": "furmonertinib tablet",
+              "armGroupLabels": [
+                "furmonertinib 240 mg"
+              ],
+              "otherNames": [
+                "AST2818"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "furmonertinib 160 mg oral, daily",
+              "description": "furmonertinib tablet",
+              "armGroupLabels": [
+                "furmonertinib 160 mg"
+              ],
+              "otherNames": [
+                "AST2818"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "platinum-based chemotherapy",
+              "description": "(carboplatin or cisplatin based on investigator's choice) + pemetrexed intravenously (IV)",
+              "armGroupLabels": [
+                "platinum-based chemotherapy"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05607550",
+              "url": "https://clinicaltrials.gov/study/NCT05607550"
+            },
+            {
+              "title": "ArriVent 2026-10-06 FURVENT顶线结果",
+              "url": "https://ir.arrivent.com/news-releases/news-release-details/arrivent-announces-program-update-phase-3-furvent-trial"
+            },
+            {
+              "title": "ArriVent 2026-10-06 Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1868279/000110465926113898/tm2627092d1_8k.htm"
+            }
+          ],
+          "note": "美国突破性疗法认定不等于获批。本记录描述该具体试验及公司披露，不推断其他适应症或全球最高阶段。登记页的主要完成日期仍标为估计且早于公告，不应当作读出日期。",
+          "risks": "主要终点失败；OS尚不成熟；BICR与研究者评估不一致；需等待完整分层、安全性和后续开发决策。",
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT05578976",
+          "title": "epcoritamab + R-CHOP",
+          "modality": "CD3×CD20双特异性抗体联合化免",
+          "area": "肿瘤",
+          "target": "CD3 × CD20",
+          "stage": "Phase 3",
+          "company": "Genmab",
+          "indication": "Diffuse Large B-Cell Lymphoma",
+          "trialTitle": "A Study to Evaluate Change in Disease Activity of Subcutaneous (SC) Epcoritamab Combined With Intravenous and Oral Rituximab, Cyclophosphamide, Doxorubicin Hydrochloride, Vincristine, and Prednisone (R-CHOP) or R-CHOP in Adult Participants With Newly Diagnosed Diffuse Large B-Cell Lymphoma (DLBCL)",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-09-11",
+          "checked": "2026-10-08",
+          "summary": "登记核查：Genmab；ACTIVE_NOT_RECRUITING。本次仅更新登记字段，不将预计完成日视为结果读出。",
+          "endpoints": [
+            "Number of Participants with Progression-Free Survival (PFS) with an International Prognostic Index (IPI) of 3-5"
+          ],
+          "completion": {
+            "date": "2027-06",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 900,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Epcoritamab",
+              "description": "Subcutaneous Injection (SC)",
+              "armGroupLabels": [
+                "Epcoritamab and R-CHOP"
+              ],
+              "otherNames": [
+                "ABBV-GMAB-3013"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cyclophosphamide",
+              "description": "Intravenous (IV) Injection",
+              "armGroupLabels": [
+                "Epcoritamab and R-CHOP",
+                "R-CHOP and Rituximab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Rituximab",
+              "description": "IV Infusion",
+              "armGroupLabels": [
+                "Epcoritamab and R-CHOP",
+                "R-CHOP and Rituximab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Vincristine",
+              "description": "IV Infusion",
+              "armGroupLabels": [
+                "Epcoritamab and R-CHOP",
+                "R-CHOP and Rituximab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Doxorubicin",
+              "description": "IV Infusion",
+              "armGroupLabels": [
+                "Epcoritamab and R-CHOP",
+                "R-CHOP and Rituximab"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Prednisone",
+              "description": "Oral; Tablet",
+              "armGroupLabels": [
+                "Epcoritamab and R-CHOP",
+                "R-CHOP and Rituximab"
+              ]
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05578976",
+              "url": "https://clinicaltrials.gov/study/NCT05578976"
+            },
+            {
+              "title": "Genmab/AbbVie 2026-10-05 EPCORE DLBCL-2顶线结果",
+              "url": "https://www.globenewswire.com/news-release/2026/10/05/3374942/0/en/genmab-and-abbvie-announce-epcoritamab-in-combination-with-r-chop-demonstrates-statistically-significant-improvement-in-progression-free-survival-in-patients-with-newly-diagnosed-d.html"
+            }
+          ],
+          "note": "本记录描述该具体III期试验。阳性PFS顶线结果不等于监管批准；登记中的完成日期是估计值，不是结果读出承诺。",
+          "risks": "需等待完整安全性、OS、亚组、停药率及治疗成本/可及性数据；开放标签设计可能影响部分非盲评估终点。",
+          "whyStopped": null,
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-gate-bioscience",
+          "title": "Gate Bioscience",
+          "date": "2026-10-05",
+          "checked": "2026-10-08",
+          "summary": "扩展Lilly合作，靶点和首付金额未公开。",
+          "sections": [
+            {
+              "heading": "平台与战略",
+              "body": "Molecular Gate平台；合作发现与自有资产并行。新增靶点全球独家产品权利给Lilly。"
+            },
+            {
+              "heading": "融资与权属缺口",
+              "body": "研究资助及潜在付款不等于已确认融资收入；所有权结构和具体自有资产本期未完整核查。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gate｜扩大Lilly合作，2026-10-05",
+              "url": "https://www.gatebio.com/lilly-expansion"
+            }
+          ]
+        },
+        {
+          "id": "company-seaport-therapeutics",
+          "title": "Seaport Therapeutics",
+          "date": "2026-10-07",
+          "checked": "2026-10-08",
+          "summary": "GlyphAgo IIa首例给药，聚焦焦虑及睡眠障碍。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "Glyph口服递送平台；SPT-320旨在改变agomelatine吸收和暴露。"
+            },
+            {
+              "heading": "战略与缺口",
+              "body": "新制剂/前药仍须直接验证安全疗效；本期不推断现金跑道或完整股权结构。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Seaport｜GlyphAgo IIa首例给药，2026-10-07",
+              "url": "https://investors.seaporttx.com/news-releases/news-release-details/seaport-therapeutics-announces-first-patient-dosed-phase-2a"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-transferrin-iron-homeostasis",
+          "title": "Transferrin / 铁稳态",
+          "date": "2026-10-07",
+          "checked": "2026-10-08",
+          "summary": "PST-611早期临床影像信号，尚非确证人体验证。",
+          "sections": [
+            {
+              "heading": "机制与可成药性",
+              "body": "表达转铁蛋白以调节铁稳态；非病毒递送提供局部表达路线。"
+            },
+            {
+              "heading": "安全、失败与竞争缺口",
+              "body": "小样本、事后分析须随机对照验证；关注眼部递送安全与视功能。本期未全面核查竞品和失败项目。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "PulseSight｜PST-611早期数据，2026-10-07",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/07/3376203/0/en/pulsesight-presents-pst-611-phase-i-new-early-clinical-efficacy-data-at-euretina-offering-a-potential-breakthrough-approach-to-treat-dry-amd-geographic-atrophy.html"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-05-gate-lilly-expansion",
+          "title": "Gate–Lilly合作扩展",
+          "date": "2026-10-05",
+          "checked": "2026-10-08",
+          "summary": "潜在价值超过8.7亿美元，首付未披露。",
+          "sections": [
+            {
+              "heading": "条款",
+              "body": "双方Gate/Lilly；新增1靶点，可选第2；具体靶点未公开；全球独家产品许可；发现阶段；USD；首付、研究资助、选择付款、里程碑及梯度销售版税，具体金额/比率未披露。"
+            },
+            {
+              "heading": "理由",
+              "body": "扩展难成药蛋白发现；平台认可须与临床成败区分。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gate｜扩大Lilly合作，2026-10-05",
+              "url": "https://www.gatebio.com/lilly-expansion"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-glyphago-phase2a-readout",
+          "title": "GlyphAgo IIa预期读出",
+          "date": "2026-10-07",
+          "checked": "2026-10-08",
+          "summary": "公司预期2028年初顶线数据，属于估计窗口。",
+          "sections": [
+            {
+              "heading": "eventType / window / status",
+              "body": "临床顶线读出；2028年初；estimated。公告日期10月7日，不把它作为读出日期。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Seaport｜GlyphAgo IIa首例给药，2026-10-07",
+              "url": "https://investors.seaporttx.com/news-releases/news-release-details/seaport-therapeutics-announces-first-patient-dosed-phase-2a"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-pst611-phase2a-readout",
+          "title": "PST-611 IIa预期结果",
+          "date": "2026-10-07",
+          "checked": "2026-10-08",
+          "summary": "公司计划2026年下半年启动IIa、2028年结果。",
+          "sections": [
+            {
+              "heading": "eventType / window / status",
+              "body": "临床结果；2028年；estimated。启动计划和结果时间均未保证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "PulseSight｜PST-611早期数据，2026-10-07",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/07/3376203/0/en/pulsesight-presents-pst-611-phase-i-new-early-clinical-efficacy-data-at-euretina-offering-a-potential-breakthrough-approach-to-treat-dry-amd-geographic-atrophy.html"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-07",
       "date": "2026-10-07",
@@ -912,19 +2697,19 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-07T07:06:00+08:00",
-    "status": "success",
+    "checkedAt": "2026-10-08T08:42:17.388Z",
+    "status": "partial",
     "counts": {
-      "baselinePipelineChecked": 19,
-      "baselinePipelineChanged": 2,
+      "baselinePipelineChecked": 21,
+      "baselinePipelineChanged": 3,
       "baselinePipelineFailed": 0,
-      "newPipelinesAdded": 2,
-      "companiesUpserted": 4,
-      "targetsUpserted": 5,
-      "dealsAdded": 2,
-      "catalystsUpserted": 4,
-      "briefEvents": 5
+      "newPipelinesAdded": 0,
+      "companiesUpserted": 2,
+      "targetsUpserted": 1,
+      "dealsAdded": 1,
+      "catalystsUpserted": 2,
+      "briefEvents": 4
     },
-    "summary": "既有19项NCT全部核查成功、0失败、2项记录发生变化（其中1项仅登记时间刷新；另1项申办方名称及预计完成日更新）；新增2项近72小时关键III期记录。公司、靶点、交易和催化剂均来自公开原始来源。FAPI-74公告未提供可核实NCT号，故未新增管线记录。"
+    "summary": "补发版：21项既有NCT全部成功读取核查，3项登记字段校正。未完成新管线登记和全部公司/靶点巡检；历史数据保留，未冒充早间任务完整恢复。"
   }
 }
