@@ -1,8 +1,204 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-08T22:58:05.236Z",
+  "updatedAt": "2026-10-09T23:02:57.148Z",
   "items": [
+    {
+      "id": "neuro-2026-10-10",
+      "date": "2026-10-10",
+      "source": "scheduled",
+      "title": "神经生物学简报｜超声调控蓝斑去甲肾上腺素与社会压力饮酒环路",
+      "summary": "本期收录2篇近期原始研究：经颅超声在清醒小鼠中诱导依刺激时长而变的蓝斑—去甲肾上腺素反应；强啡肽/KOR对BLA–BNST通路的调控参与社会挫败后的饮酒增加。两篇均为动物研究，影响因子待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "本期纳入2篇Neuropsychopharmacology原始研究，分别在线发表于2026-10-08与2026-10-07。两篇均已通过期刊页面或DOI元数据核实标题、日期和摘要；本次没有把综述或新闻稿计入。影响因子待核实：未从官方指标页可靠取得当年数值。"
+        },
+        {
+          "heading": "重点推荐｜经颅超声能否按刺激方案塑造蓝斑—去甲肾上腺素输出",
+          "body": "Lescrauwaet等：Modulation of the noradrenergic system using transcranial ultrasonic stimulation targeted to the brainstem locus coeruleus in awake mice。中文译述：靶向清醒小鼠脑干蓝斑的经颅超声可调节去甲肾上腺素系统。研究用光纤光度记录蓝斑神经元Ca²⁺与海马去甲肾上腺素，并用小动物[18F]FDG-PET观察全脑和外周代谢响应。5秒超声引起蓝斑Ca²⁺升高，并在蓝斑和海马产生先升后短暂下降的双相NE变化；30秒刺激后，海马NE还出现贯穿剩余刺激期的第二次升高。相同5秒方案伴随全脑FDG摄取下降和棕色脂肪组织摄取明显升高。"
+        },
+        {
+          "heading": "超声研究｜机制、价值与边界",
+          "body": "事实：改变刺激持续时间得到不同的海马NE时间模式，提示TUS参数不是简单的“强弱旋钮”。同时出现中枢与外周代谢反应，说明靶向深部小核团仍可能产生广泛生理效应。局限：NE变化与FDG变化的因果链尚未完全解析；仅凭靶点几何位置不能排除邻近结构、听觉或全身唤醒混杂；清醒小鼠结果不能直接外推到患者。编辑推断：若要发展为精准神经调控，必须把声场、剂量、时间波形、靶向特异性和外周反应同时纳入，而不是只验证行为终点。前期关系：Murphy等2022建立细胞类型特异超声调控/监测工具；Caestecker等2025以化学遗传方式调节蓝斑并测海马NE，为判断TUS是否真的通过LC–NE轴提供生物学参照。"
+        },
+        {
+          "heading": "社会挫败如何通过强啡肽/KOR环路增加饮酒",
+          "body": "Paliarin等：BLA kappa opioid receptor inputs to the BNST mediate social stress-induced increases in alcohol drinking。中文译述：基底外侧杏仁核中表达κ阿片受体的BNST输入参与社会压力诱导的饮酒增加。重复社会挫败使雌雄小鼠的酒精摄入和偏好升高；全身给予KOR拮抗剂norBNI或向终纹床核局部给药均减弱该效应。化学遗传激活BLA中KOR表达神经元及其BNST投射，以及在BLA敲低KOR，也都减弱压力后的饮酒增加。压力还提高Pdyn mRNA，并选择性激活投射至BNST的背侧缝核强啡肽神经元。"
+        },
+        {
+          "heading": "KOR研究｜机制、价值与边界",
+          "body": "事实：药理、投射操控和分子读出共同支持Dyn/KOR对BLA–BNST通路的调节参与压力后饮酒。看似反直觉的是，激活BLA KOR神经元和敲低BLA KOR都可减弱饮酒；这提示“表达KOR的细胞群”与“受体信号本身”不能混为一谈，可能涉及KOR对该投射的抑制性调控。背侧缝核被提出为上游Dyn来源，但仍是候选机制。局限：社会挫败模型与人类社交压力不同；norBNI作用持久且系统给药可能涉及多个区域；饮酒减少也需排除一般运动、奖赏或应激反应改变。编辑推断：KOR是共病压力与酒精使用障碍的候选靶点，但临床策略需要区域/通路选择性和时间窗证据。前期关系：Erikson等2018证明BNST KOR在酒精依赖中的失调；Bloodgood等2021提示中央杏仁核Dyn/KOR调控过量饮酒，帮助把本研究放进更广的扩展杏仁核框架。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "同一次蓝斑靶向超声后，你同时看到蓝斑Ca²⁺升高、海马NE双相变化、全脑FDG下降和棕色脂肪FDG升高。你会怎样设计最少的一组对照，判断海马NE变化主要来自蓝斑神经元调控，而不是听觉刺激、邻近脑干结构或全身唤醒？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：需要分别验证靶向特异性、听觉/机械混杂和蓝斑通路的必要性。\n\n必要证据：设置几何位置和声学剂量匹配的假刺激；设置偏离蓝斑但声场相近的脑干靶点；同步记录运动、瞳孔、心率或体温，避免把全身唤醒误认为局部神经调控。\n\n关键因果对照：在蓝斑去甲肾上腺素神经元中进行细胞类型特异抑制，或阻断其到海马的投射/NE释放，然后重复同一TUS。如果蓝斑Ca²⁺和海马NE效应被显著削弱，而听觉和运动反应仍在，才支持LC–NE通路具有必要性。\n\n支持证据：测量颅内实际声场与温升；比较5秒和30秒刺激的剂量—时间关系；同时在海马和另一个LC投射区测NE。若不同区域按已知投射呈一致但非完全相同的响应，机制解释更可信。\n\n一种可行答案：假刺激＋偏靶刺激＋蓝斑细胞特异抑制构成最小核心组合，并同步记录瞳孔和运动。前两项排除非特异声学效应，第三项检验蓝斑是否必要。\n\n常见误区：把“焦点落在蓝斑”当作生物学特异性；把瞳孔扩大直接等同于LC放电；把NE相关变化当成已经证明的治疗效应。\n\n自查标准：是否有声学匹配对照？是否检验了LC–NE通路的必要性？是否监测全身状态？是否预先规定什么结果会否定自己的解释？开放问题允许多种合理方案。",
+          "collapsed": true
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41386-026-02576-y",
+          "title": "刺激时长塑造蓝斑靶向超声诱导的海马去甲肾上腺素动态",
+          "date": "2026-10-08",
+          "checked": "2026-10-10",
+          "topic": "神经调控 / 去甲肾上腺素 / 药物开发工具",
+          "target": "蓝斑–去甲肾上腺素系统",
+          "summary": "清醒小鼠中，蓝斑靶向TUS激活LC神经元并产生依刺激时长变化的海马NE动态，同时牵动全脑与棕色脂肪代谢。",
+          "sections": [
+            {
+              "heading": "论文信息与标题译述",
+              "body": "Lescrauwaet等，Neuropsychopharmacology，2026-10-08。Modulation of the noradrenergic system using transcranial ultrasonic stimulation targeted to the brainstem locus coeruleus in awake mice：靶向清醒小鼠脑干蓝斑的经颅超声可调节去甲肾上腺素系统。开放获取；影响因子待核实。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "TUS可非侵入靶向深部脑区，但在转向人体前，需要知道不同刺激方案怎样影响LC靶区NE释放，以及是否产生广泛脑—身体效应。"
+            },
+            {
+              "heading": "方法与摘要要点译述",
+              "body": "用光纤光度测LC神经元Ca²⁺和海马NE，用小动物[18F]FDG-PET观察脑与外周代谢；比较5秒与30秒刺激。"
+            },
+            {
+              "heading": "主要发现",
+              "body": "原文：5秒TUS使LC Ca²⁺升高，并在LC与海马形成先升后降的NE双相变化；30秒刺激后出现持续到刺激结束的第二次海马NE升高。5秒方案还伴全脑FDG摄取下降及棕色脂肪摄取上升。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "编辑解读：TUS时长可塑造神经递质时间波形，参数选择可能决定生理方向。局限包括邻近核团、听觉/机械混杂和全身唤醒；小鼠NE变化不是临床疗效。转化需声场、温升、剂量、靶向特异性和外周安全性联合验证。"
+            },
+            {
+              "heading": "相关前期研究",
+              "body": "Murphy等2022：建立细胞类型特异的聚焦超声调控和监测方法，是技术基础。Caestecker等2025：化学遗传调节LC并记录海马NE，为判断新研究的LC–NE因果链提供参照。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Neuropsychopharmacology，2026-10-08",
+              "url": "https://doi.org/10.1038/s41386-026-02576-y"
+            },
+            {
+              "title": "Murphy等｜Focused ultrasound neuromodulation tool，PNAS，2022",
+              "url": "https://doi.org/10.1073/pnas.2206828119"
+            },
+            {
+              "title": "Caestecker等｜Chemogenetic LC modulation and hippocampal noradrenaline，Frontiers in Neuroscience，2025",
+              "url": "https://doi.org/10.3389/fnins.2025.1544830"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41386-026-02570-4",
+          "title": "强啡肽/KOR调控BLA–BNST通路参与社会压力后的饮酒增加",
+          "date": "2026-10-07",
+          "checked": "2026-10-10",
+          "topic": "社交压力 / 成瘾 / GPCR / 神经肽",
+          "target": "κ阿片受体（KOR）/ Dynorphin",
+          "summary": "重复社会挫败后的饮酒增加受到BNST KOR和BLA–BNST投射调控，背侧缝核强啡肽神经元是候选上游来源。",
+          "sections": [
+            {
+              "heading": "论文信息与标题译述",
+              "body": "Paliarin等，Neuropsychopharmacology，2026-10-07。BLA kappa opioid receptor inputs to the BNST mediate social stress-induced increases in alcohol drinking：基底外侧杏仁核中表达κ阿片受体的BNST输入参与社会压力诱导的饮酒增加。开放获取；影响因子待核实。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "社会压力可增加饮酒和复饮风险；研究检验强啡肽/KOR系统是否通过BLA–BNST通路介导这一效应。"
+            },
+            {
+              "heading": "方法与摘要要点译述",
+              "body": "雌雄小鼠接受重复社会挫败；结合全身或BNST局部KOR拮抗、BLA KOR细胞及投射的化学遗传操控、BLA KOR敲低、Pdyn表达与投射细胞活化分析。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "原文：压力增加饮酒与偏好；系统或BNST局部norBNI减弱该效应。激活BLA KOR细胞及其BNST投射、以及敲低BLA KOR都减弱压力后饮酒。SDS提高Pdyn表达并选择性激活BNST投射的背侧缝核Dyn神经元，后者仍是候选上游来源。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "编辑解读：多层干预把Dyn/KOR与具体环路连接起来；但“激活KOR表达细胞”和“激活KOR受体”不是同一操作。社会挫败不能等同人类社交压力，norBNI的长效与区域外作用需控制。KOR可作为共病靶点，但临床需要通路、时间和副作用分层。"
+            },
+            {
+              "heading": "相关前期研究",
+              "body": "Erikson等2018：显示BNST KOR在酒精依赖中的功能失调，提供区域依据。Bloodgood等2021：中央杏仁核Dyn/KOR调控过量饮酒，说明扩展杏仁核内存在多个相关节点。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Neuropsychopharmacology，2026-10-07",
+              "url": "https://doi.org/10.1038/s41386-026-02570-4"
+            },
+            {
+              "title": "Erikson等｜BNST KOR in alcohol dependence，Neuropharmacology，2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30075159/"
+            },
+            {
+              "title": "Bloodgood等｜CeA Dyn/KOR and alcohol consumption，Journal of Neuroscience，2021",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32099099/"
+            }
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "en": "Locus coeruleus",
+          "zh": "蓝斑",
+          "meaning": "脑干内主要去甲肾上腺素能核团，广泛调节觉醒、注意、应激和记忆。"
+        },
+        {
+          "en": "Biphasic response",
+          "zh": "双相反应",
+          "meaning": "同一指标随时间先向一个方向变化、随后反向变化。"
+        },
+        {
+          "en": "Transcranial ultrasound stimulation",
+          "zh": "经颅超声刺激",
+          "meaning": "利用低强度聚焦声能非侵入调节特定脑区活动的技术。"
+        },
+        {
+          "en": "Dynorphin",
+          "zh": "强啡肽",
+          "meaning": "内源性阿片肽，主要激活κ阿片受体并参与压力和负性情绪调控。"
+        },
+        {
+          "en": "Kappa opioid receptor",
+          "zh": "κ阿片受体",
+          "meaning": "Gi/o偶联GPCR，参与疼痛、应激、奖赏及成瘾相关信号。"
+        },
+        {
+          "en": "Social defeat stress",
+          "zh": "社会挫败应激",
+          "meaning": "通过反复遭遇优势个体构建的啮齿动物社会压力模型。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lescrauwaet等｜Neuropsychopharmacology，2026-10-08",
+          "url": "https://doi.org/10.1038/s41386-026-02576-y"
+        },
+        {
+          "title": "Murphy等｜PNAS，2022",
+          "url": "https://doi.org/10.1073/pnas.2206828119"
+        },
+        {
+          "title": "Caestecker等｜Frontiers in Neuroscience，2025",
+          "url": "https://doi.org/10.3389/fnins.2025.1544830"
+        },
+        {
+          "title": "Paliarin等｜Neuropsychopharmacology，2026-10-07",
+          "url": "https://doi.org/10.1038/s41386-026-02570-4"
+        },
+        {
+          "title": "Erikson等｜Neuropharmacology，2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30075159/"
+        },
+        {
+          "title": "Bloodgood等｜Journal of Neuroscience，2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/32099099/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-09",
       "date": "2026-10-09",
