@@ -1,8 +1,1035 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-08T23:02:47Z",
+  "updatedAt": "2026-10-10T06:56:33+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-10",
+      "date": "2026-10-10",
+      "source": "scheduled",
+      "title": "医药金融与创新药日报｜IPO稀释、两项FDA动作与跨领域管线更新",
+      "summary": "本期从IPO募资与稀释出发，覆盖精神分裂症长效制剂、耐药HSV新机制药、TYK2银屑病、Treg平台IPO、静止期甲状腺眼病及生物类似药CMC指南；全量核查25项既有NCT，1项仅登记更新时间变化，并新增6项结构化管线。",
+      "sections": [
+        {
+          "heading": "今日概念｜IPO中的募资、估值与稀释",
+          "body": "公司IPO发行新股时，投资者支付的资金进入公司，称为一级发行。募资总额＝发行价×新发股数；净募资＝募资总额−承销折扣−发行费用。上市后股权价值约等于发行价×交割后总股数。稀释是原股东在总股数中的比例下降；是否创造价值取决于新资金产生的增量价值是否超过被让渡的权益。"
+        },
+        {
+          "heading": "短算例｜用TRexBio拆解IPO",
+          "body": "已知发行8,333,334股、每股14美元，募资总额约1.167亿美元。教学假设承销及其他费用合计8%，净募资≈116.7×(1−8%)＝1.074亿美元。再假设发行前有1,910万股，交割后2,743万股，则新投资者持股≈8.333÷27.433＝30.4%，原股东合计比例降至69.6%。费用率和发行前股数均为教学假设，并非公司披露事实。"
+        },
+        {
+          "heading": "行业进展 1｜WELTRUZA获FDA批准：成熟分子靠给药方式重塑价值",
+          "body": "事实（2026-10-09）：FDA批准Teva的WELTRUZA（奥氮平缓释注射混悬液）用于成人精神分裂症。它是每月一次皮下注射的长效奥氮平；公司称无需负荷剂量、口服桥接或注射后监测，预计数周内在美国上市。SOLARIS三期随机675人，主要评价8周PANSS变化。分析：科学创新主要来自Medincell的SteadyTeq缓释材料；商业上可减少依从性差和门诊流程负担；战略上强化Teva神经科学复杂制剂组合；财务上需跟踪持续用药率、支付覆盖与代谢不良反应。"
+        },
+        {
+          "heading": "行业进展 2｜Hovilpri获批：耐药HSV打开新机制窗口",
+          "body": "事实（2026-10-09）：FDA批准Hovilpri（pritelivir）用于免疫功能低下成人、且对阿昔洛韦/伐昔洛韦/泛昔洛韦无应答的黏膜皮肤HSV病灶。PRIOH-1三期随机治疗101人，28天内全部病灶愈合比例为63%对34%。分析：它抑制HSV解旋酶-引物酶复合体，绕开核苷类似物相关耐药；价值集中于小而高危、治疗选择有限的人群。市场规模应逐层筛到免疫抑制、黏膜皮肤病灶及三类药物无应答患者，不能直接使用HSV总患病率。"
+        },
+        {
+          "heading": "行业进展 3｜Envudeucitinib三期补充数据：高阈值清除之外看患者负担",
+          "body": "事实（2026-10-09）：Alumis公布ONWARD三期的新分析；头皮清除、瘙痒和生活质量改善在48周保持，ONWARD3中超过80%患者达到头皮清除或几乎清除，公司仍计划于2026年第四季度递交银屑病NDA。分析：这是既有主要疗效结果的补充，并非新一次主要终点读出。口服药与生物制剂竞争时，难治部位、起效速度、耐久性和便利性共同决定处方；申报质量、长期安全和商业化投入比单一PASI数字更影响峰值销售。"
+        },
+        {
+          "heading": "行业进展 4｜TRexBio IPO定价：资本窗口开放，但价格信号仍需拆解",
+          "body": "事实（2026-10-08/09）：TRexBio以每股14美元发行8,333,334股，预计募资总额约1.167亿美元，并给予承销商最多125万股超额配售选择权；股票预计10月9日以TRXB交易，交割预期为10月13日。分析：IPO为组织Treg平台及TNFR2激动剂TRB-061提供临床资金和公开估值锚。发行价处于14–16美元区间低端，说明交易完成但需求未支持更高价格；判断成功与否要把稀释、净募资、现金跑道、下一数据节点和上市后流动性放在一起。"
+        },
+        {
+          "heading": "行业进展 5｜IBI311静止期TED三期阳性：从抗炎扩展到慢性组织重塑",
+          "body": "事实（2026-10-08）：信达生物称RESTORE-3三期达到主要终点；116名静止期甲状腺眼病参与者约2:1随机，24周研究眼突眼应答率60.4%对23.5%，差异36.9个百分点，p=0.0003；随访仍在进行。分析：IGF-1R抑制若在低炎症活动期仍能降低突眼，支持其可能影响眶成纤维细胞和组织重塑。商业上可扩展治疗阶段覆盖；财务上需评估医保净价、输注成本、复治率及对手术路径的替代。NCT07113262仍显示RECRUITING、预计完成日期晚于公告，且登记样本数与公告略有差异，因此并列披露，不把预计完成日当作结果。"
+        },
+        {
+          "heading": "行业进展 6｜FDA定稿生物类似药上市后生产变更问答",
+          "body": "事实（2026-10-09）：FDA发布生物类似药及可互换生物类似药上市后生产变更最终问答指南，完成对2024年草案的定稿。分析：这不是产品获批，而是CMC执行规则更清晰。企业仍需证明变更前后质量与临床表现的可比性；商业上可降低扩产、场地转移和工艺优化的不确定性；尽调应把变更申报类别、分析可比性包、库存衔接和潜在停供纳入估值及交易保护。"
+        },
+        {
+          "heading": "跨岗位视角｜同一宗TRexBio IPO，各岗位先问什么",
+          "body": "投资银行看订单覆盖、价格区间、超额配售和上市后交易；FA/融资顾问看净募资能否覆盖关键临床节点及是否有更少稀释的合作替代；BD看公开融资能否提高谈判底气并保留资产权益；投资人看现金调整后管线价值、一期安全/药效学证据和失败下行；咨询顾问看资金如何在平台、领先资产、制造和组织能力间配置。"
+        },
+        {
+          "heading": "小案例｜1.074亿美元净募资够不够",
+          "body": "教学假设：净募资1.074亿美元，现有可用现金9000万美元，未来年现金消耗7500万美元。跑道＝(107.4+90)÷75≈2.63年。若关键一期数据在12个月后，资金理论上覆盖该节点并留约1.6年缓冲；若年消耗升至1亿美元，跑道降至约1.97年。融资质量要做基准、上行和下行情景，并把下一轮融资准备提前9–12个月。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "TRexBio在发行区间低端完成IPO，按教学假设获得约1.074亿美元净募资、合并现有现金后约2.6年跑道。你会把这次IPO判断为“成功”“勉强成功”还是“失败”？请用至少四个指标说明，并指出一个必须从招股书或临床登记进一步核实的变量。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：把“成功”分成交易执行、资金充足、估值/稀释、临床去风险和上市后可持续性五层。步骤：①核对实际净募资；②跑道＝（期初现金＋净募资）÷年度现金消耗，代入得（90＋107.4）÷75≈2.63年；③比较跑道与下一关键数据节点，并保留9–12个月融资缓冲；④比较发行价、完全稀释估值和同类公司；⑤看超额配售、锁定期和流动性。一种可行答案是“勉强成功偏正面”：公司完成融资并覆盖近期节点，但低端定价显示价格发现偏弱，真正成败取决于净募资、烧钱速度和TRB-061能否按期降低风险。常见误区：只看首日涨跌；把总募资当净现金；忽略期权、可转债和超额配售；把一期登记当疗效已证实。自查：是否同时包含现金、时间、估值、临床和流动性，且把事实、教学假设和待核实项分开。必须核实的变量可选Use of Proceeds、季度现金消耗、TRB-061数据窗口或完全稀释股数。开放题没有唯一标准答案。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Primary offering",
+          "zh": "一级发行",
+          "meaning": "公司新发股份并获得资金，区别于老股东出售股份。"
+        },
+        {
+          "en": "Gross proceeds",
+          "zh": "募资总额",
+          "meaning": "发行价乘以出售股数，尚未扣除承销折扣和发行费用。"
+        },
+        {
+          "en": "Net proceeds",
+          "zh": "净募资",
+          "meaning": "公司实际可用于研发和运营的金额。"
+        },
+        {
+          "en": "Dilution",
+          "zh": "股权稀释",
+          "meaning": "新增股份使原股东持股比例下降；不自动等于每股价值下降。"
+        },
+        {
+          "en": "Greenshoe / overallotment option",
+          "zh": "超额配售选择权",
+          "meaning": "承销商在约定期内额外购买股份的权利。"
+        },
+        {
+          "en": "Helicase-primase inhibitor",
+          "zh": "解旋酶-引物酶抑制剂",
+          "meaning": "阻断HSV复制所需的解旋与引物合成复合体。"
+        },
+        {
+          "en": "Proptosis response",
+          "zh": "突眼应答",
+          "meaning": "甲状腺眼病试验中按预设毫米阈值评价眼球突出改善。"
+        },
+        {
+          "en": "Comparability exercise",
+          "zh": "可比性研究",
+          "meaning": "证明生产变更前后生物制品质量高度一致的证据组合。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Teva：WELTRUZA获FDA批准，2026-10-09",
+          "url": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Announces-U-S--Food-and-Drug-Administration-FDA-Approval-of-WELTRUZA-Olanzapine-For-Extended-Release-Injectable-Suspension-as-the-First-and-Only-Once-Monthly-Subcutaneous-Injectable-Olanzapine-for-Adults-with-Schizophrenia/default.aspx"
+        },
+        {
+          "title": "FDA：Hovilpri获批，2026-10-09",
+          "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-lesions-caused-herpes-simplex-virus"
+        },
+        {
+          "title": "Alumis：Envudeucitinib三期补充数据，2026-10-09",
+          "url": "https://investors.alumis.com/news-releases/news-release-details/alumis-announces-new-phase-3-data-demonstrating-envudeucitinib"
+        },
+        {
+          "title": "TRexBio IPO定价，2026-10-08",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/09/3377793/0/en/trexbio-announces-pricing-of-initial-public-offering.html"
+        },
+        {
+          "title": "信达生物：RESTORE-3三期顶线数据，2026-10-08",
+          "url": "https://www.prnewswire.com/news-releases/innovent-announces-phase-3-restore-3-study-of-sycume-teprotumumab-n01-injection-met-primary-endpoint-in-inactive-thyroid-eye-disease-302902606.html"
+        },
+        {
+          "title": "FDA：生物类似药上市后生产变更最终指南，2026-10",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/postapproval-manufacturing-changes-biosimilar-and-interchangeable-biosimilar-products-questions-and"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT07444489",
+          "title": "felzartamab",
+          "modality": "单抗",
+          "area": "肾脏",
+          "target": "CD38",
+          "stage": "Phase 3",
+          "company": "Biogen",
+          "indication": "Antibody-mediated Rejection / Microvascular Inflammation",
+          "trialTitle": "A Study to Learn More About the Long-Term Safety and Effects of Felzartamab Infusions in Adults With Kidney Transplants Who Have Antibody-Mediated Rejection (AMR) or Microvascular Inflammation (MVI) (TRANSCEND/TRANSPIRE LTE)",
+          "status": "ENROLLING_BY_INVITATION",
+          "registryUpdated": "2026-10-09",
+          "checked": "2026-10-10",
+          "summary": "登记于2026-10-09刷新；阶段、招募状态、干预、主要终点和预计完成日期未见核心变化。仅记录登记更新时间变化，不视为结果读出。",
+          "endpoints": [
+            "Number of Participants With Adverse Events (AEs), Serious Adverse Events (SAEs), and Adverse Events of Special Interest (AESI)",
+            "Number of Participants who Discontinue Treatment due to an AE",
+            "Number of Participants with Clinically Significant Laboratory, Vital Signs and Electrocardiograms (ECGs) Abnormalities"
+          ],
+          "completion": {
+            "date": "2031-12-31",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 201,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07444489，核查于2026-10-10",
+              "url": "https://clinicaltrials.gov/study/NCT07444489"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Felzartamab",
+              "description": "Administered IV",
+              "armGroupLabels": [
+                "Felzartamab: Long-Term Extension Treatment",
+                "Felzartamab: Off-Treatment Observation"
+              ],
+              "otherNames": [
+                "MOR202",
+                "MOR03087",
+                "TJ202",
+                "HIB202",
+                "BIIB148"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2031-12-31",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT05693935",
+          "title": "WELTRUZA / TV-44749（奥氮平缓释注射剂）",
+          "modality": "长效皮下注射小分子制剂",
+          "area": "神经精神",
+          "target": "多受体拮抗（含D2/5-HT2A）",
+          "stage": "Phase 3",
+          "company": "Teva Branded Pharmaceutical Products R&D, Inc.",
+          "indication": "Schizophrenia",
+          "trialTitle": "A Randomized, Double-Blind, Placebo-Controlled Study With an Open-Label, Long-Term Safety Phase to Evaluate the Efficacy and Safety of TV-44749 in Adults With Schizophrenia",
+          "status": "COMPLETED",
+          "registryUpdated": "2026-03-17",
+          "checked": "2026-10-10",
+          "summary": "SOLARIS三期已完成；675名成人精神分裂症患者，主要终点为8周PANSS总分变化。FDA已于2026-10-09批准对应产品WELTRUZA。",
+          "endpoints": [
+            "Double-blind Period: Change in the Positive and Negative Syndrome Scale (PANSS) Total Score From Baseline to Week 8"
+          ],
+          "completion": {
+            "date": "2025-01-27",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 675,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05693935，核查于2026-10-10",
+              "url": "https://clinicaltrials.gov/study/NCT05693935"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Announces-U-S--Food-and-Drug-Administration-FDA-Approval-of-WELTRUZA-Olanzapine-For-Extended-Release-Injectable-Suspension-as-the-First-and-Only-Once-Monthly-Subcutaneous-Injectable-Olanzapine-for-Adults-with-Schizophrenia/default.aspx"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；登记信息由申办方维护。",
+          "risks": "真实世界依从性、体重与代谢风险、注射部位反应、支付覆盖及相对其他长效针剂的净获益。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "TV-44749",
+              "description": "In Period 1, 2 monthly injections. In Period 2, up to 12 monthly injections",
+              "armGroupLabels": [
+                "Double-blind Period: TV-44749 318 mg",
+                "Double-blind Period: TV-44749 425 mg",
+                "Double-blind Period: TV-44749 531 mg",
+                "Open-label Period: Placebo to TV-44749 318 mg",
+                "Open-label Period: Placebo to TV-44749 425 mg",
+                "Open-label Period: Placebo to TV-44749 531 mg"
+              ],
+              "otherNames": [
+                "Olanzapine for Extended-Release Injectable Suspension"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "In Period 1, 2 monthly injections (Period 1 only)",
+              "armGroupLabels": [
+                "Double-blind Period: Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2024-03-19",
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT03073967",
+          "title": "Hovilpri / pritelivir",
+          "modality": "口服小分子抗病毒药",
+          "area": "感染",
+          "target": "HSV解旋酶-引物酶复合体",
+          "stage": "Phase 3",
+          "company": "AiCuris Anti-infective Cures AG",
+          "indication": "HSV Infection",
+          "trialTitle": "Trial on Efficacy and Safety of Pritelivir Tablets for Treatment of Acyclovir-resistant Mucocutaneous HSV (Herpes Simplex Virus) Infections in Immunocompromised Subjects",
+          "status": "COMPLETED",
+          "registryUpdated": "2026-06-12",
+          "checked": "2026-10-10",
+          "summary": "PRIOH-1三期已完成；FDA公告的随机部分纳入101名免疫功能低下、难治性黏膜皮肤HSV患者，28天病灶全愈合率63%对34%。",
+          "endpoints": [
+            "Efficacy measured by cure rate"
+          ],
+          "completion": {
+            "date": "2025-11-11",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 158,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT03073967，核查于2026-10-10",
+              "url": "https://clinicaltrials.gov/study/NCT03073967"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-lesions-caused-herpes-simplex-virus"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；登记信息由申办方维护。",
+          "risks": "适用人群窄、耐药演化、药物相互作用、免疫抑制背景异质性及商业化病例识别。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Pritelivir",
+              "description": "100 mg oral tablets",
+              "armGroupLabels": [
+                "Part C, Pritelivir",
+                "Part D+F, Pritelivir",
+                "Part E, Pritelivir"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Investigator's choice",
+              "description": "Foscarnet iv, 40 mg/kg BW tid or 60mg/kg bid or Cidofovir iv, 5 mg/kg BW given once weekly or Cidofovir 1% or 3%, topically applied 2 to 4 times daily or Imiquimod 5%, Solution for iv infusion or topical application",
+              "armGroupLabels": [
+                "Part C,"
+              ],
+              "otherNames": [
+                "Foscarnet or Cidofovir or Imiquimod"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2025-08-15",
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT06586112",
+          "title": "envudeucitinib / ESK-001（ONWARD1）",
+          "modality": "口服小分子",
+          "area": "自免/炎症",
+          "target": "TYK2",
+          "stage": "Phase 3",
+          "company": "Alumis Inc",
+          "indication": "Plaque Psoriasis",
+          "trialTitle": "A Study to Evaluate the Efficacy and Safety of ESK-001 in Patients With Moderate to Severe Plaque Psoriasis",
+          "status": "COMPLETED",
+          "registryUpdated": "2026-08-10",
+          "checked": "2026-10-10",
+          "summary": "ONWARD1三期已完成；登记912人，16周主要终点为PASI 75或sPGA 0/1相对安慰剂。本次是头皮、瘙痒和生活质量补充分析。",
+          "endpoints": [
+            "To determine whether ESK-001 reduces the severity of psoriasis by 75% (using the PASI) or by at least 2 points (using sPGA score) compared to placebo"
+          ],
+          "completion": {
+            "date": "2025-11-20",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 912,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06586112，核查于2026-10-10",
+              "url": "https://clinicaltrials.gov/study/NCT06586112"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://investors.alumis.com/news-releases/news-release-details/alumis-announces-new-phase-3-data-demonstrating-envudeucitinib"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；登记信息由申办方维护。",
+          "risks": "长期安全、与apremilast及生物制剂的交叉比较局限、申报审评和商业差异化。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Envudeucitinib",
+              "description": "ESK-001",
+              "armGroupLabels": [
+                "ESK-001"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Apremilast",
+              "description": "Apremilast",
+              "armGroupLabels": [
+                "Apremilast"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Placebo",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2025-09-19",
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT06588738",
+          "title": "envudeucitinib / ESK-001（ONWARD2）",
+          "modality": "口服小分子",
+          "area": "自免/炎症",
+          "target": "TYK2",
+          "stage": "Phase 3",
+          "company": "Alumis Inc",
+          "indication": "Plaque Psoriasis",
+          "trialTitle": "A Study in Patients With Moderate to Severe Plaque Psoriasis to Evaluate the Efficacy and Safety of ESK-001",
+          "status": "COMPLETED",
+          "registryUpdated": "2026-08-10",
+          "checked": "2026-10-10",
+          "summary": "ONWARD2三期已完成；登记862人，设计与ONWARD1互为平行确证研究。",
+          "endpoints": [
+            "To determine whether ESK-001 reduces the severity of psoriasis by 75% (using the PASI) or by at least 2 points (using sPGA score) compared to placebo"
+          ],
+          "completion": {
+            "date": "2025-12-18",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 862,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06588738，核查于2026-10-10",
+              "url": "https://clinicaltrials.gov/study/NCT06588738"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://investors.alumis.com/news-releases/news-release-details/alumis-announces-new-phase-3-data-demonstrating-envudeucitinib"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；登记信息由申办方维护。",
+          "risks": "长期安全、不同分析集与缺失值处理、NDA资料一致性及同类TYK2竞争。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Envudeucitinib",
+              "description": "ESK-001",
+              "armGroupLabels": [
+                "ESK-001"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Placebo",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Apremilast",
+              "description": "Apremilast",
+              "armGroupLabels": [
+                "Apremilast"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2025-09-23",
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT06934252",
+          "title": "TRB-061",
+          "modality": "TNFR2激动型抗体",
+          "area": "自免/炎症",
+          "target": "TNFR2 / 组织Treg",
+          "stage": "Phase 1",
+          "company": "TRex Bio, Inc.",
+          "indication": "Moderate-to-severe Atopic Dermatitis",
+          "trialTitle": "Phase 1a/1b Study of TRB-061 in Healthy Participants & Patients With Atopic Dermatitis",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-08-13",
+          "checked": "2026-10-10",
+          "summary": "一期1a/1b招募中，计划115人，评估健康受试者及中重度特应性皮炎患者的安全性、药代和药效学；预计完成时间不是数据读出承诺。",
+          "endpoints": [
+            "Incidence of Adverse Events (AEs) and Serious Adverse Events (SAEs)"
+          ],
+          "completion": {
+            "date": "2028-02-29",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 115,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06934252，核查于2026-10-10",
+              "url": "https://clinicaltrials.gov/study/NCT06934252"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/09/3377793/0/en/trexbio-announces-pricing-of-initial-public-offering.html"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；登记信息由申办方维护。",
+          "risks": "TNFR2激动剂量窗口、组织Treg药效学、感染/免疫抑制风险及早期疗效信号。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "TRB-061",
+              "description": "Single subcutaneous injection of TRB-061 at escalating doses",
+              "armGroupLabels": [
+                "SAD - TRB-061"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "TRB-061",
+              "description": "Subcutaneous TRB-061 administered every 4 weeks for a total of 4 doses",
+              "armGroupLabels": [
+                "Phase 1b - TRB-061"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "TRB-061",
+              "description": "Subcutaneous TRB-061 administered every 4 weeks for 3 doses",
+              "armGroupLabels": [
+                "MAD - TRB-061"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Single and multiple subcutaneous doses of placebo matching TRB-061 in patients",
+              "armGroupLabels": [
+                "Placebo Comparator"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2027-09-02",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT07113262",
+          "title": "SYCUME / IBI311（静止期TED研究）",
+          "modality": "单克隆抗体",
+          "area": "眼科/自免",
+          "target": "IGF-1R",
+          "stage": "Phase 3",
+          "company": "Innovent Biologics (Suzhou) Co. Ltd.",
+          "indication": "Thyroid Eye Disease",
+          "trialTitle": "A Clinical Study to Evaluate the Efficacy and Safety of IBI311 in Subjects With Inactive Thyroid Eye Disease",
+          "status": "RECRUITING",
+          "registryUpdated": "2025-11-17",
+          "checked": "2026-10-10",
+          "summary": "登记显示三期、RECRUITING，主要终点为24周研究眼突眼应答率。公司另行公布RESTORE-3顶线数据；登记样本数和状态尚未对齐，故未强行覆盖。",
+          "endpoints": [
+            "Proptosis response rate of the study eye"
+          ],
+          "completion": {
+            "date": "2027-12-31",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 111,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07113262，核查于2026-10-10",
+              "url": "https://clinicaltrials.gov/study/NCT07113262"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://www.prnewswire.com/news-releases/innovent-announces-phase-3-restore-3-study-of-sycume-teprotumumab-n01-injection-met-primary-endpoint-in-inactive-thyroid-eye-disease-302902606.html"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；登记信息由申办方维护。",
+          "risks": "登记与公告对齐、听力/血糖等同类风险、患者筛选、医保净价及相对手术的路径。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "IBI311",
+              "description": "Teprotumumab N01 injection (code name IBI311)",
+              "armGroupLabels": [
+                "Teprotumumab N01 injection (code name IBI311)"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Placebo",
+              "armGroupLabels": [
+                "placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2026-12-31",
+            "type": "ESTIMATED"
+          }
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-teva",
+          "title": "Teva Pharmaceutical Industries",
+          "date": "2026-10-09",
+          "checked": "2026-10-10",
+          "summary": "WELTRUZA获FDA批准，强化神经科学长效注射剂组合。",
+          "sections": [
+            {
+              "heading": "资产与平台",
+              "body": "奥氮平月制剂采用Medincell SteadyTeq缓释共聚物；SOLARIS三期支持成人精神分裂症适应症。"
+            },
+            {
+              "heading": "商业与财务",
+              "body": "预计数周内美国上市。关键变量为支付覆盖、医生采用、依从性改善及代谢不良反应导致的停药。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Teva公告，2026-10-09",
+              "url": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Announces-U-S--Food-and-Drug-Administration-FDA-Approval-of-WELTRUZA-Olanzapine-For-Extended-Release-Injectable-Suspension-as-the-First-and-Only-Once-Monthly-Subcutaneous-Injectable-Olanzapine-for-Adults-with-Schizophrenia/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "company-medincell",
+          "title": "Medincell",
+          "date": "2026-10-09",
+          "checked": "2026-10-10",
+          "summary": "SteadyTeq长效递送技术随WELTRUZA获批得到商业验证。",
+          "sections": [
+            {
+              "heading": "平台",
+              "body": "以共聚物形成皮下缓释药物库，目标是降低给药频率。"
+            },
+            {
+              "heading": "价值判断",
+              "body": "平台价值取决于合作经济条款、制造良率、后续分子可复制性与产品净销售。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Teva公告，2026-10-09",
+              "url": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Announces-U-S--Food-and-Drug-Administration-FDA-Approval-of-WELTRUZA-Olanzapine-For-Extended-Release-Injectable-Suspension-as-the-First-and-Only-Once-Monthly-Subcutaneous-Injectable-Olanzapine-for-Adults-with-Schizophrenia/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "company-asahi-kasei-therapeutics",
+          "title": "Asahi Kasei Therapeutics / AiCuris",
+          "date": "2026-10-09",
+          "checked": "2026-10-10",
+          "summary": "Hovilpri获批，为难治性HSV带来口服新机制药物；AiCuris已被旭化成收购。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "pritelivir为HSV解旋酶-引物酶抑制剂，面向免疫功能低下且对既有核苷类似物无应答患者。"
+            },
+            {
+              "heading": "商业",
+              "body": "小人群具有高未满足需求，但需防止用总HSV患病率高估市场。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA批准公告，2026-10-09",
+              "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-lesions-caused-herpes-simplex-virus"
+            },
+            {
+              "title": "旭化成完成收购AiCuris，2026-04-20",
+              "url": "https://asahi-kasei.eu/asahi-kasei-completes-aicuris-acquisition/"
+            }
+          ]
+        },
+        {
+          "id": "company-alumis",
+          "title": "Alumis",
+          "date": "2026-10-09",
+          "checked": "2026-10-10",
+          "summary": "补充发布envudeucitinib三期患者负担数据，并维持2026年第四季度NDA计划。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "选择性变构TYK2抑制剂，针对斑块型银屑病及其他免疫介导疾病。"
+            },
+            {
+              "heading": "催化剂",
+              "body": "第四季度NDA是前瞻性计划，不等于已提交。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Alumis公告，2026-10-09",
+              "url": "https://investors.alumis.com/news-releases/news-release-details/alumis-announces-new-phase-3-data-demonstrating-envudeucitinib"
+            }
+          ]
+        },
+        {
+          "id": "company-trexbio",
+          "title": "TRex Bio",
+          "date": "2026-10-08",
+          "checked": "2026-10-10",
+          "summary": "以每股14美元完成IPO定价，支持组织Treg平台和TRB-061开发。",
+          "sections": [
+            {
+              "heading": "融资",
+              "body": "发行8,333,334股，预计募资总额1.167亿美元，另有最多125万股超额配售选择权。"
+            },
+            {
+              "heading": "管线",
+              "body": "TRB-061为TNFR2激动型候选药，一期1a/1b正在评估健康受试者和特应性皮炎患者。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "TRexBio IPO定价，2026-10-08",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/09/3377793/0/en/trexbio-announces-pricing-of-initial-public-offering.html"
+            },
+            {
+              "title": "TRexBio S-1/A，2026-10-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/2139097/000119312526413060/ck0002139097-20261005.htm"
+            }
+          ]
+        },
+        {
+          "id": "company-innovent",
+          "title": "Innovent Biologics（信达生物）",
+          "date": "2026-10-08",
+          "checked": "2026-10-10",
+          "summary": "IBI311在静止期甲状腺眼病三期RESTORE-3达到主要终点。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "IGF-1R抗体SYCUME已在中国获批TED并纳入医保；新数据拓展静止期临床证据。"
+            },
+            {
+              "heading": "核查提示",
+              "body": "公司顶线公告与公开登记有样本量和状态差异，需等待登记同步及完整数据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "信达生物RESTORE-3公告，2026-10-08",
+              "url": "https://www.prnewswire.com/news-releases/innovent-announces-phase-3-restore-3-study-of-sycume-teprotumumab-n01-injection-met-primary-endpoint-in-inactive-thyroid-eye-disease-302902606.html"
+            }
+          ]
+        },
+        {
+          "id": "company-biogen",
+          "title": "Biogen",
+          "date": "2026-10-09",
+          "checked": "2026-10-10",
+          "summary": "felzartamab肾移植长期扩展研究登记更新时间刷新，核心字段未变。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "抗CD38单抗felzartamab用于肾移植抗体介导排斥/微血管炎症的长期安全性研究。"
+            },
+            {
+              "heading": "登记",
+              "body": "NCT07444489仍为ENROLLING_BY_INVITATION，预计完成2031-12-31；该日期不代表读出。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07444489",
+              "url": "https://clinicaltrials.gov/study/NCT07444489"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-steadyteq-olanzapine-lai",
+          "title": "SteadyTeq长效递送 / 奥氮平多受体机制",
+          "date": "2026-10-09",
+          "checked": "2026-10-10",
+          "summary": "通过皮下共聚物缓释把成熟奥氮平改造成月制剂。",
+          "sections": [
+            {
+              "heading": "依据",
+              "body": "奥氮平多受体拮抗改善症状；递送平台改变暴露曲线和给药频率。"
+            },
+            {
+              "heading": "风险",
+              "body": "真实世界仍需验证依从性、代谢风险和注射后安全。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Teva公告，2026-10-09",
+              "url": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Announces-U-S--Food-and-Drug-Administration-FDA-Approval-of-WELTRUZA-Olanzapine-For-Extended-Release-Injectable-Suspension-as-the-First-and-Only-Once-Monthly-Subcutaneous-Injectable-Olanzapine-for-Adults-with-Schizophrenia/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "target-hsv-helicase-primase",
+          "title": "HSV解旋酶-引物酶复合体",
+          "date": "2026-10-09",
+          "checked": "2026-10-10",
+          "summary": "病毒复制所必需的新机制靶点，绕开部分核苷类似物耐药。",
+          "sections": [
+            {
+              "heading": "依据",
+              "body": "pritelivir抑制病毒DNA复制的解旋与引物步骤。"
+            },
+            {
+              "heading": "边界",
+              "body": "获批证据来自免疫功能低下、既有疗法无应答人群，不能外推到所有HSV感染。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA批准公告，2026-10-09",
+              "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-drug-treat-lesions-caused-herpes-simplex-virus"
+            }
+          ]
+        },
+        {
+          "id": "target-tyk2",
+          "title": "TYK2",
+          "date": "2026-10-09",
+          "checked": "2026-10-10",
+          "summary": "介导IL-23、IL-12和I型干扰素信号的激酶靶点。",
+          "sections": [
+            {
+              "heading": "依据",
+              "body": "选择性变构抑制旨在减少广谱JAK抑制相关脱靶风险。"
+            },
+            {
+              "heading": "待验证",
+              "body": "envudeucitinib需在审评和长期真实世界中证明疗效、安全与同类差异。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Alumis公告，2026-10-09",
+              "url": "https://investors.alumis.com/news-releases/news-release-details/alumis-announces-new-phase-3-data-demonstrating-envudeucitinib"
+            }
+          ]
+        },
+        {
+          "id": "target-tnfr2-tissue-treg",
+          "title": "TNFR2 / 组织调节性T细胞",
+          "date": "2026-10-08",
+          "checked": "2026-10-10",
+          "summary": "激活TNFR2以扩增并增强炎症组织中的Treg，恢复免疫耐受。",
+          "sections": [
+            {
+              "heading": "依据",
+              "body": "TRB-061旨在优先作用于TNFR2高表达的组织Treg。"
+            },
+            {
+              "heading": "待验证",
+              "body": "需要人体组织药效学、安全剂量窗和特应性皮炎临床信号。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "TRexBio S-1/A，2026-10-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/2139097/000119312526413060/ck0002139097-20261005.htm"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT06934252",
+              "url": "https://clinicaltrials.gov/study/NCT06934252"
+            }
+          ]
+        },
+        {
+          "id": "target-igf1r-ted",
+          "title": "IGF-1R / 甲状腺眼病组织重塑",
+          "date": "2026-10-08",
+          "checked": "2026-10-10",
+          "summary": "阻断眶成纤维细胞相关IGF-1R信号，减少糖胺聚糖合成和脂肪/肌成纤维分化。",
+          "sections": [
+            {
+              "heading": "依据",
+              "body": "公司顶线数据显示静止期患者突眼应答改善，支持慢性期仍可干预。"
+            },
+            {
+              "heading": "待验证",
+              "body": "需要完整数据、长期复发、听力和血糖安全，以及登记与公告对齐。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "信达生物RESTORE-3公告，2026-10-08",
+              "url": "https://www.prnewswire.com/news-releases/innovent-announces-phase-3-restore-3-study-of-sycume-teprotumumab-n01-injection-met-primary-endpoint-in-inactive-thyroid-eye-disease-302902606.html"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-08-trexbio-ipo",
+          "title": "TRexBio首次公开发行",
+          "date": "2026-10-08",
+          "checked": "2026-10-10",
+          "summary": "以每股14美元发行8,333,334股，预计募资总额约1.167亿美元。",
+          "sections": [
+            {
+              "heading": "条款",
+              "body": "证券：普通股；基础发行8,333,334股；超额配售最多1,250,000股；预计交割2026-10-13；J.P. Morgan、Evercore ISI、Cantor与Stifel任牵头簿记管理人。"
+            },
+            {
+              "heading": "权利与用途",
+              "body": "全部基础股份由公司发行，构成一级融资；净募资与用途以最终招股书为准。"
+            },
+            {
+              "heading": "逻辑与风险",
+              "body": "资金支持Treg平台和临床开发；低端定价、早期临床风险、后续融资与流动性是核心观察项。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "TRexBio IPO定价，2026-10-08",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/09/3377793/0/en/trexbio-announces-pricing-of-initial-public-offering.html"
+            },
+            {
+              "title": "SEC S-1/A，2026-10-05",
+              "url": "https://www.sec.gov/Archives/edgar/data/2139097/000119312526413060/ck0002139097-20261005.htm"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-2026-10-weltruza-us-launch",
+          "title": "WELTRUZA美国上市",
+          "date": "2026-10-31",
+          "checked": "2026-10-10",
+          "summary": "事件类型：商业上市；公司称将在批准后数周内供应；状态：estimated。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "定价、医保覆盖、处方限制、注射机构采用和首季净销售。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Teva公告，2026-10-09",
+              "url": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Announces-U-S--Food-and-Drug-Administration-FDA-Approval-of-WELTRUZA-Olanzapine-For-Extended-Release-Injectable-Suspension-as-the-First-and-Only-Once-Monthly-Subcutaneous-Injectable-Olanzapine-for-Adults-with-Schizophrenia/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2026-q4-envudeucitinib-nda",
+          "title": "Envudeucitinib银屑病NDA计划",
+          "date": "2026-12-31",
+          "checked": "2026-10-10",
+          "summary": "事件类型：监管申报；预计窗口：2026年第四季度；状态：estimated，尚未提交。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "申报是否按期、FDA是否受理、长期安全及生产资料。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Alumis公告，2026-10-09",
+              "url": "https://investors.alumis.com/news-releases/news-release-details/alumis-announces-new-phase-3-data-demonstrating-envudeucitinib"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2026-10-13-trexbio-ipo-close",
+          "title": "TRexBio IPO预计交割",
+          "date": "2026-10-13",
+          "checked": "2026-10-10",
+          "summary": "事件类型：融资交割；状态：estimated，受惯常交割条件约束。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "实际交割、净募资、超额配售和上市后交易。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "TRexBio IPO定价，2026-10-08",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/09/3377793/0/en/trexbio-announces-pricing-of-initial-public-offering.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-trb061-phase1",
+          "title": "TRB-061一期进展",
+          "date": "2027-09-02",
+          "checked": "2026-10-10",
+          "summary": "事件类型：临床一期主要完成；登记显示预计日期2027-09-02；状态：estimated，不等同数据披露日。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "安全性、PK/PD、组织Treg标志物及特应性皮炎信号。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06934252",
+              "url": "https://clinicaltrials.gov/study/NCT06934252"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2026-ibi311-restore3-followup",
+          "title": "IBI311 RESTORE-3完整数据",
+          "date": "2026-12-31",
+          "checked": "2026-10-10",
+          "summary": "事件类型：完整结果披露；公司称后续将在学术会议或期刊发表；状态：estimated，具体日期未披露。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "完整安全性、亚组、持久性、复发和登记状态更新。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "信达生物RESTORE-3公告，2026-10-08",
+              "url": "https://www.prnewswire.com/news-releases/innovent-announces-phase-3-restore-3-study-of-sycume-teprotumumab-n01-injection-met-primary-endpoint-in-inactive-thyroid-eye-disease-302902606.html"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-09",
       "date": "2026-10-09",
@@ -4836,20 +5863,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-09T07:02:47+08:00",
+    "checkedAt": "2026-10-10T06:56:33+08:00",
     "status": "success",
     "counts": {
-      "baselinePipelineChecked": 21,
-      "baselinePipelineChanged": 17,
+      "baselinePipelineChecked": 25,
+      "baselinePipelineChanged": 1,
       "baselinePipelineFailed": 0,
-      "newPipelinesAdded": 4,
+      "newPipelinesAdded": 6,
       "companiesUpserted": 7,
       "targetsUpserted": 5,
-      "dealsAdded": 2,
-      "catalystsUpserted": 6,
-      "briefEvents": 5
+      "dealsAdded": 1,
+      "catalystsUpserted": 5,
+      "briefEvents": 6
     },
-    "summary": "现有21项NCT全部核查成功、0失败，17项需刷新（含2项仅登记更新时间变化）；新增4项已核实NCT。公开原始来源已核对公司、靶点、交易和催化剂。UNITY未取得可靠NCT号，未编造；FB102登记页与公司顶线公告存在更新时间差异，已明确保留。"
+    "summary": "既有25项NCT逐项核查成功、0失败；仅NCT07444489登记更新时间变化，阶段、状态、干预和主要终点未见核心变化。新增6项已核实NCT。IBI311公司公告与NCT07113262公开登记存在样本量和状态差异，已并列披露且未强行覆盖。全部内容来自公开来源。"
   },
   "archivedPapers": []
 }
