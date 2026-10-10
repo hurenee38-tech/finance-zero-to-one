@@ -1,8 +1,241 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-09T23:02:57.148Z",
+  "updatedAt": "2026-10-10T23:02:09.490Z",
   "items": [
+    {
+      "id": "neuro-2026-10-11",
+      "date": "2026-10-11",
+      "source": "scheduled",
+      "title": "神经生物学简报｜多情境恐惧消退与杏仁核抑制性记忆精度",
+      "summary": "周末检索未发现足够合格且不重复的当日新刊，本期补选2篇2026-10-06在线发表的Neuropsychopharmacology原始研究：一篇解析多情境消退依赖背侧海马多巴胺D2样受体促进安全记忆泛化，另一篇揭示ICER–Gabra1轴如何调节杏仁核印迹细胞的抑制性可塑性与恐惧辨别。影响因子待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "截至2026-10-11早间，未检索到足够合格、可核实且与近几期不重复的10月10日神经生物学原始研究；因此本期明确采用“近一周尚未收录”策略，纳入2篇2026-10-06在线发表、开放获取的Neuropsychopharmacology原始研究。标题、日期、DOI和摘要已核实；影响因子待核实，不猜测数值。"
+        },
+        {
+          "heading": "重点推荐｜多情境消退通过背侧海马D2样受体增强恐惧抑制",
+          "body": "Hammerman等比较129S1与C57BL/6J小鼠的单一情境和多情境恐惧消退。多情境训练改善消退学习，并使2天后的新情境回忆更好；在训练情境经历中间测试时，优势可延续至30天。效应需要多个彼此不同、但不必全新的情境；它没有阻止自发恢复或非条件刺激诱发的恢复。双重Fos-TRAP活动标记指向海马重组；化学遗传抑制背侧而非腹侧海马，选择性破坏多情境优势。背侧海马内阻断D2样、而非D1样受体，同样消除增强效应。"
+        },
+        {
+          "heading": "多情境研究｜价值、局限与转化启发",
+          "body": "事实：行为、活动标记、脑区因果抑制和局部药理结果共同支持背侧海马D2样受体依赖的记忆更新。局限：研究为小鼠条件性恐惧模型；D2样拮抗不能区分具体受体亚型和细胞类型；多情境训练未消除自发恢复或再激活，因此不是“擦除恐惧”。编辑推断：暴露治疗可考虑有控制地改变背景线索，但在临床试验前需验证患者耐受性、情境数量与顺序，以及多巴胺调节的安全窗口。前期关系：Bouton等的消退理论说明安全记忆高度依赖情境；Dunsmoor等2014和Shiban等2013在人类/虚拟现实范式中提示多情境训练可降低部分复发；Gerlicher等2018证明多巴胺相关的前额叶再激活预测长期消退获益。"
+        },
+        {
+          "heading": "ICER–Gabra1轴设定杏仁核恐惧记忆的精度",
+          "body": "Lee等研究声音恐惧条件化后，外侧杏仁核恐惧印迹神经元如何区分危险音与新音。原文发现：PV阳性中间神经元到印迹细胞的前馈抑制选择性增强，并伴突触后含Gabra1（GABAA受体α1亚基）受体增加。检索时用光遗传或化学遗传抑制PV细胞，或在PV→印迹细胞突触诱导抑制性长时程抑制，都会增加对新音的冻结，却基本保留对条件音的反应。ICER被鉴定为限制该抑制性可塑性的转录调节因子：它下调Gabra1，从而促进恐惧泛化。"
+        },
+        {
+          "heading": "ICER研究｜价值、局限与转化启发",
+          "body": "事实：细胞类型操控、突触可塑性干预和转录调节共同支持“精确恐惧记忆需要加强对印迹细胞的特异抑制”。局限：冻结是单一行为读出；操控可能影响警觉或声音辨别；小鼠听觉恐惧泛化不等于人类PTSD；ICER和GABAA受体α1广泛表达，系统干预可能带来镇静、认知或癫痫相关效应。编辑推断：比全局增强GABA更有希望的方向可能是恢复特定杏仁核微回路和时间窗内的抑制性可塑性。前期关系：Reijmers等2007奠定活动依赖恐惧印迹标记；Wolff等2014揭示杏仁核中间神经元亚型控制恐惧学习；Ruediger等2011证明学习相关前馈抑制连接增长对记忆精确性必需；Lesuis等2025显示应激会扰乱外侧杏仁核印迹并促使威胁泛化。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "两篇研究都能减少“恐惧泛化”，但一篇改变训练情境并依赖背侧海马D2样受体，另一篇增强外侧杏仁核PV→印迹细胞抑制。你会设计怎样的最小实验，判断这两条机制是串联、并联，还是只在不同阶段分别起作用？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先明确时间阶段（消退学习、消退回忆、恐惧辨别），再对两条通路做单独和联合干预，最后看联合效应是否可加。\n\n必要证据：采用同一套条件化和刺激辨别任务，设置四组：对照、仅阻断背侧海马D2样受体、仅削弱杏仁核PV→印迹细胞抑制、两者同时处理；把干预限制在消退训练或测试阶段，并预先定义对条件音、近似新音和远离新音的冻结指标。\n\n推理步骤：若双重干预不比任一单独干预更严重，且其中一个干预遮蔽另一个，支持同一路径或串联，但仍需时序和中继证据；若效应近似相加并分别改变情境泛化与声音辨别，支持并联；若海马干预只在训练期有效、杏仁核干预只在检索期有效，支持阶段分工。\n\n一种可行答案：先完成2×2因子实验，再记录海马与杏仁核活动。如果多情境训练增加PV→印迹细胞抑制，而D2阻断同时取消行为优势和该突触变化，可把“海马D2信号位于杏仁核抑制性塑性上游”作为候选模型；随后用投射特异操控验证。\n\n支持证据：追踪背侧海马到杏仁核相关中继区的投射活动；检测Gabra1变化是否随多情境训练出现。待验证假设：D2信号直接驱动ICER/Gabra1变化，目前两篇论文并未证明这一点。\n\n常见误区：把“不相加”直接等同串联；把不同实验室、不同刺激和不同小鼠品系的效应量硬比较；把冻结下降当成记忆更精确而不排除运动或听觉变化。\n\n自查标准：是否在同一行为范式比较？是否把学习期和检索期分开？是否有单独、联合和假操作对照？是否预先说明什么结果支持串联、并联或阶段分工？开放问题没有唯一答案。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41386-026-02577-x",
+          "title": "多情境消退通过背侧海马D2样受体依赖的记忆更新增强恐惧抑制",
+          "date": "2026-10-06",
+          "checked": "2026-10-11",
+          "topic": "记忆 / 社交恐惧相关机制 / GPCR / 转化神经科学",
+          "target": "背侧海马多巴胺D2样受体",
+          "summary": "小鼠多情境消退增强并泛化安全记忆，优势依赖背侧海马活动及局部D2样受体，但不能阻止全部恐惧复发形式。",
+          "sections": [
+            {
+              "heading": "论文信息与标题译述",
+              "body": "Hammerman等，Neuropsychopharmacology，2026-10-06。Multiple-context extinction strengthens fear suppression through hippocampal dopamine D2R-dependent memory updating：多情境消退通过海马多巴胺D2受体依赖的记忆更新增强恐惧抑制。开放获取；影响因子待核实。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "暴露治疗依赖消退学习，但安全记忆常被特定治疗情境束缚。研究询问：改变消退环境能否让安全记忆更持久、泛化更广，其脑区与受体机制是什么？"
+            },
+            {
+              "heading": "方法与摘要要点译述",
+              "body": "比较129S1与C57BL/6J小鼠的单一和多情境消退；测试2天与30天回忆、自发恢复和再激活；用双重Fos-TRAP描记条件化与消退相关细胞，并化学遗传抑制背/腹侧海马，局部阻断D1样或D2样受体。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "多情境训练改善消退及新情境回忆；不同而非单纯新颖的情境是关键。背侧海马抑制或D2样受体阻断消除该优势，腹侧海马抑制和D1样阻断没有同样效应。增强未阻止自发恢复或US诱发恢复。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "多层因果证据把行为策略与背侧海马D2样信号连接。局限包括小鼠模型、受体亚型/细胞类型分辨率不足和部分复发仍存在。临床启发是系统改变暴露背景可能提升泛化，但不应被视为恐惧擦除。"
+            },
+            {
+              "heading": "相关前期研究",
+              "body": "Bouton 2004：奠定情境依赖消退与复发理论。Dunsmoor等2014及Shiban等2013：在人类多情境/虚拟现实研究中测试减少复发。Gerlicher等2018：多巴胺依赖的前额叶再激活预测长期消退记忆。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Neuropsychopharmacology，2026-10-06",
+              "url": "https://doi.org/10.1038/s41386-026-02577-x"
+            },
+            {
+              "title": "Bouton｜Contexts and behavioral processes in extinction learning，2004",
+              "url": "https://doi.org/10.1101/lm.78804"
+            },
+            {
+              "title": "Dunsmoor等｜Novelty-facilitated extinction，Neurobiology of Learning and Memory，2014",
+              "url": "https://doi.org/10.1016/j.nlm.2013.10.013"
+            },
+            {
+              "title": "Shiban等｜Extinction in multiple virtual reality contexts，2013",
+              "url": "https://doi.org/10.1016/j.brat.2013.09.010"
+            },
+            {
+              "title": "Gerlicher等｜Dopamine-dependent prefrontal reactivations，Nature Communications，2018",
+              "url": "https://doi.org/10.1038/s41467-018-06785-y"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41386-026-02568-y",
+          "title": "ICER调控杏仁核印迹细胞的抑制性可塑性并决定恐惧记忆精度",
+          "date": "2026-10-06",
+          "checked": "2026-10-11",
+          "topic": "恐惧泛化 / 记忆印迹 / GABA / 新靶点",
+          "target": "ICER–Gabra1 / PV中间神经元",
+          "summary": "恐惧学习增强外侧杏仁核PV中间神经元对印迹细胞的前馈抑制；ICER通过压低Gabra1限制该可塑性并促进泛化。",
+          "sections": [
+            {
+              "heading": "论文信息与标题译述",
+              "body": "Lee等，Neuropsychopharmacology，2026-10-06。ICER-Controlled inhibitory plasticity of amygdala engram neurons regulates fear memory precision：ICER控制的杏仁核印迹神经元抑制性可塑性调节恐惧记忆精度。开放获取；影响因子待核实。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "对相似但安全刺激产生恐惧是PTSD等障碍的重要特征。研究询问外侧杏仁核印迹细胞周围的抑制性突触如何决定危险/安全辨别，以及转录因子ICER是否参与。"
+            },
+            {
+              "heading": "方法与摘要要点译述",
+              "body": "在小鼠听觉恐惧条件化中标记印迹细胞，分析PV中间神经元前馈抑制、GABAA受体α1表达，并用光遗传、化学遗传和突触特异抑制性长时程抑制测试因果性；进一步操控/分析ICER与Gabra1转录关系。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "条件化选择性增强PV→印迹细胞抑制及突触后Gabra1。抑制PV细胞或削弱该突触使小鼠对新音冻结增加，但条件音反应基本保留。ICER下调Gabra1，限制抑制性可塑性并促进恐惧泛化。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "研究把转录调节、受体组成、细胞类型特异突触与行为精度连成机制链。局限是单一物种/范式与冻结读出，且广泛调ICER或GABAA α1可能产生副作用。转化重点应是回路和时间窗选择性，而非全脑增强GABA。"
+            },
+            {
+              "heading": "相关前期研究",
+              "body": "Reijmers等2007：建立稳定恐惧记忆细胞相关标记。Wolff等2014：揭示杏仁核中间神经元亚型控制恐惧学习。Ruediger等2011：证明学习相关前馈抑制连接增长对记忆精度必需。Lesuis等2025：应激扰乱外侧杏仁核印迹并促使威胁泛化。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Neuropsychopharmacology，2026-10-06",
+              "url": "https://doi.org/10.1038/s41386-026-02568-y"
+            },
+            {
+              "title": "Reijmers等｜Stable neural correlate of associative memory，Science，2007",
+              "url": "https://doi.org/10.1126/science.1143839"
+            },
+            {
+              "title": "Wolff等｜Amygdala interneuron subtypes control fear learning，Nature，2014",
+              "url": "https://doi.org/10.1038/nature13258"
+            },
+            {
+              "title": "Ruediger等｜Feedforward inhibition and memory precision，Nature，2011",
+              "url": "https://doi.org/10.1038/nature09946"
+            },
+            {
+              "title": "Lesuis等｜Stress disrupts lateral amygdala engrams，Cell，2025",
+              "url": "https://doi.org/10.1016/j.cell.2024.10.034"
+            }
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "en": "Multiple-context fear extinction",
+          "zh": "多情境恐惧消退",
+          "meaning": "在多个不同环境中反复呈现不再伴随伤害的条件线索，以降低安全记忆对单一背景的依赖。"
+        },
+        {
+          "en": "Dopamine D2-like receptor",
+          "zh": "多巴胺D2样受体",
+          "meaning": "主要包括D2、D3和D4受体的Gi/o偶联GPCR家族，可降低细胞内cAMP信号。"
+        },
+        {
+          "en": "Memory updating",
+          "zh": "记忆更新",
+          "meaning": "新信息被纳入既有记忆表征，改变其后续检索或行为表达。"
+        },
+        {
+          "en": "Engram neuron",
+          "zh": "记忆印迹神经元",
+          "meaning": "在特定经验中被招募并参与该记忆存储与再激活的神经元群。"
+        },
+        {
+          "en": "Feedforward inhibition",
+          "zh": "前馈抑制",
+          "meaning": "输入在兴奋目标细胞的同时招募抑制性中间神经元，以限制反应范围和时间。"
+        },
+        {
+          "en": "Inducible cAMP early repressor (ICER)",
+          "zh": "诱导型cAMP早期抑制因子",
+          "meaning": "CREM基因产生的转录抑制蛋白，可与cAMP反应元件结合并压低靶基因表达。"
+        },
+        {
+          "en": "Inhibitory long-term depression",
+          "zh": "抑制性长时程抑制",
+          "meaning": "抑制性突触效能长期下降的可塑性形式，此处会削弱对恐惧印迹细胞的约束。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hammerman等｜Neuropsychopharmacology，2026-10-06",
+          "url": "https://doi.org/10.1038/s41386-026-02577-x"
+        },
+        {
+          "title": "Bouton｜Learning & Memory，2004",
+          "url": "https://doi.org/10.1101/lm.78804"
+        },
+        {
+          "title": "Dunsmoor等｜Neurobiology of Learning and Memory，2014",
+          "url": "https://doi.org/10.1016/j.nlm.2013.10.013"
+        },
+        {
+          "title": "Shiban等｜Behaviour Research and Therapy，2013",
+          "url": "https://doi.org/10.1016/j.brat.2013.09.010"
+        },
+        {
+          "title": "Gerlicher等｜Nature Communications，2018",
+          "url": "https://doi.org/10.1038/s41467-018-06785-y"
+        },
+        {
+          "title": "Lee等｜Neuropsychopharmacology，2026-10-06",
+          "url": "https://doi.org/10.1038/s41386-026-02568-y"
+        },
+        {
+          "title": "Reijmers等｜Science，2007",
+          "url": "https://doi.org/10.1126/science.1143839"
+        },
+        {
+          "title": "Wolff等｜Nature，2014",
+          "url": "https://doi.org/10.1038/nature13258"
+        },
+        {
+          "title": "Ruediger等｜Nature，2011",
+          "url": "https://doi.org/10.1038/nature09946"
+        },
+        {
+          "title": "Lesuis等｜Cell，2025",
+          "url": "https://doi.org/10.1016/j.cell.2024.10.034"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-10",
       "date": "2026-10-10",
