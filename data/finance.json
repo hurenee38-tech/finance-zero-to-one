@@ -1,8 +1,886 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-10T06:56:33+08:00",
+  "updatedAt": "2026-10-11T07:02:22+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-11",
+      "date": "2026-10-11",
+      "source": "scheduled",
+      "title": "医药金融与创新药日报｜患者漏斗、眼科基因治疗与多靶点授权",
+      "summary": "本期学习TAM/SAM/SOM和一次性疗法收入曲线；覆盖LB-102神经机制、denifanstat长期数据及美国三期、VOY-101入组完成和Glaukos–RevOpsis视网膜平台授权。现有31项NCT全部核查成功、0变化，新增7项结构化临床记录。",
+      "sections": [
+        {
+          "heading": "今日概念｜TAM、SAM与SOM：患者很多不等于收入很大",
+          "body": "TAM（Total Addressable Market，总潜在市场）是假设所有理论患者都使用产品时的市场；SAM（Serviceable Available Market，可服务市场）是符合适应症、标签、支付与治疗条件的人群；SOM（Serviceable Obtainable Market，可获得市场）则进一步考虑竞争、诊疗能力和渗透率。收入预测应从患者漏斗出发：年度可治疗患者×渗透率×每位患者净收入。对一次性基因治疗，不能每年重复计算全部存量患者；还要考虑治疗中心容量、单眼/双眼给药、耐久性及未来新增患者。"
+        },
+        {
+          "heading": "短算例｜从150万GA患者到可实现销售额",
+          "body": "Perceive公告引用美国约150万地理萎缩患者。教学假设：其中20%符合VOY-101潜在标签和基因/进展风险条件，得到SAM 30万人；公司用5年逐步处理存量患者，则年度可及患者约6万人；若早期渗透率10%、每位患者净收入12万美元，则年度销售额＝60,000×10%×120,000＝7.2亿美元。这个结果高度依赖标签、一次还是双眼治疗、支付折扣、中心产能和疗效耐久性；所有比例和价格均为教学假设，不是公司预测。"
+        },
+        {
+          "heading": "行业进展 1｜LB-102公布D2自受体临床前机制，并推进三个注册导向项目",
+          "body": "事实（2026-10-10）：LB Pharmaceuticals在ECNP公布大鼠伏隔核微透析研究，称LB-102减弱突触前D2自受体对多巴胺释放的抑制，从而增加多巴胺神经传递；同时介绍精神分裂症NOVA-2三期、NOVA-3长期安全研究及双相抑郁ILLUMINATE-1二期。分析：科学上，这为其兼顾抗精神病与快感缺失/动机症状提供机制假说，但属于临床前证据；公司此前二期认知分析为事后分析，不能当作确证性认知终点。商业上，若疗效与EPS、镇静等耐受性差异同时成立，才可能在廉价仿制抗精神病药中形成溢价。财务上，单一资产依赖度高，三项试验会提高烧钱速度和融资需求。"
+        },
+        {
+          "heading": "行业进展 2｜Denifanstat公布52周痤疮开放延长期数据，并启动美国三期",
+          "body": "事实（2026-10-09）：Sagimet称中国ASC40-304开放标签延长期中，240人接受denifanstat；持续用药至52周的人群报告IGA成功率57%、总皮损下降72%、炎性皮损下降77%，且总体耐受。美国AURORA三期已开始筛选，计划约800人。分析：FASN抑制通过降低新生脂肪生成、皮脂与炎症提供区别于抗生素或异维A酸的机制；但52周疗效为开放标签研究的次要终点，没有同期安慰剂，不能直接证明长期比较优势。商业上口服每日一次有便利性，但需证明肝脏、脂质和青少年长期安全。财务上，中国权利属于Ascletis，Sagimet保留其他地区，估值必须按地域拆分。"
+        },
+        {
+          "heading": "行业进展 3｜VOY-101地理萎缩研究完成入组：一针基因治疗进入等待期",
+          "body": "事实（2026-10-09）：Perceive完成VOY-101 JOURNEY一期/二期研究的二期入组，共47名参与者、94只眼，超过原定62只眼；单次玻璃体内注射治疗一眼，另一眼作为个体内对照，15个月主要终点顶线数据预计在2027年末。分析：VOY-101用AAV递送保护性CFH变体，目标是长期恢复补体调节；同眼内对照可降低个体遗传和环境差异，但双眼病程不完全对称仍可能影响估计。完成入组降低执行风险，却不提供疗效答案。商业上一次性给药可挑战反复眼内注射模式；财务上需把制造成本、中心容量、长期随访和耐久性折现进模型。"
+        },
+        {
+          "heading": "行业进展 4｜Glaukos取得RO-104及RevMod眼科平台独家权利",
+          "body": "事实（2026-10-08）：Glaukos与RevOpsis签署独家许可，获得RO-104开发和商业化权利，并在多种视网膜疾病中取得RevMod平台最多四个额外候选物的独家发现开发权；财务条款未披露。RO-104为同时阻断VEGF-A、VEGF-C与Ang-2的三特异性生物制剂，目前披露依据主要是临床前动物模型。分析：科学上，多通路覆盖可能改善疗效或耐久性，但同时增加分子设计、效价分析和制造复杂度；商业上进入约150亿美元抗VEGF眼科市场的关键不是靶点数量，而是注射间隔、视力获益、安全与生产稳定性；战略上Glaukos由器械和程序性药物进一步扩展视网膜生物药；财务上因首付款、里程碑和版税均未披露，不能给交易直接估值。"
+        },
+        {
+          "heading": "跨岗位视角｜如何审视Glaukos–RevOpsis授权",
+          "body": "投资银行关注交易能否提高Glaukos眼科平台估值及未来融资/并购空间；FA顾问重建未披露的首付、里程碑、版税和研发义务区间；BD重点审查RO-104与四个追加项目的选择权、靶点范围、治理、终止和权利回转；投资人关注临床前到人体的转化概率、制造复杂度和相对抗VEGF标准疗法的差异；咨询顾问关注Glaukos如何建立视网膜临床、CMC与商业团队，并避免平台项目挤占核心业务资源。"
+        },
+        {
+          "heading": "小案例｜一次性基因治疗的收入不能永远按存量患者计算",
+          "body": "假设第一年治疗6,000人、每人净收入12万美元，销售额7.2亿美元。若存量患者逐年消化，第二年新增可治疗患者只有2万人，渗透率仍为10%，则新增患者销售额仅为2,000×12万美元＝2.4亿美元，除非继续扩大中心、标签或渗透率。因此一次性疗法常出现“存量患者释放＋后续新增患者”的双阶段曲线，不能机械使用稳定增长率。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "如果VOY-101在2027年报告15个月主要终点阳性，你会如何把“美国约150万GA患者”转化成可投资的收入预测？请至少列出六层患者漏斗，并说明哪三个变量最可能让7.2亿美元教学算例高估。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先区分存量患者、每年新增患者和真正能够在某一年接受治疗的人。推理步骤：①总GA患者约150万只是TAM起点；②按双侧疾病、病灶位置、视力、进展速度及潜在生物标志物筛选医学合格人群；③按标签禁忌、既往治疗和AAV免疫条件筛选；④按医保覆盖、共付与医生接受度筛选；⑤按有资质眼科中心及基因治疗输注容量限制年度可及人数；⑥扣除竞争疗法并乘以渗透率；⑦区分单眼与双眼计价、总价与净价；⑧把耐久性、复治和存量释放速度放入逐年模型。一种可行答案：150万×20%得到30万SAM，再假设5年释放、10%渗透和每人12万美元净价，首阶段年收入约7.2亿美元；但这只是情景，不是标准答案。最可能高估的变量包括20%医学合格率、治疗中心每年可处理6万人的能力、12万美元净价/支付接受度，也可能包括把双眼或全部存量患者处理得过快。必要证据：随机主要终点、视功能与安全、治疗效果持久性和生产一致性；支持证据：补体遗传学、CFH机制、个体内对照设计；待验证假设：一次给药长期有效、AAV免疫可管理、支付方接受高额前置支付。常见误区：把患者数当年度新增人数、用总价代替净价、忽略竞争与产能、把15个月阳性外推为终身疗效。自查：模型是否逐年、按患者而非眼重复计数，并包含基准/乐观/悲观情景。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "TAM",
+          "zh": "总潜在市场",
+          "meaning": "所有理论患者都采用产品时的市场上限。"
+        },
+        {
+          "en": "SAM",
+          "zh": "可服务市场",
+          "meaning": "符合适应症、标签、支付及治疗条件的患者市场。"
+        },
+        {
+          "en": "SOM",
+          "zh": "可获得市场",
+          "meaning": "考虑竞争、产能和渗透率后企业现实可取得的市场。"
+        },
+        {
+          "en": "Fellow-eye control",
+          "zh": "对侧眼对照",
+          "meaning": "同一患者一眼治疗、另一眼作对照，以减少个体差异。"
+        },
+        {
+          "en": "Open-label extension",
+          "zh": "开放标签延长期",
+          "meaning": "所有参与者知道所用治疗，常用于长期安全性，比较疗效证据弱于盲法随机研究。"
+        },
+        {
+          "en": "D2 autoreceptor",
+          "zh": "D2自受体",
+          "meaning": "位于多巴胺神经元突触前端、对多巴胺释放形成负反馈的受体。"
+        },
+        {
+          "en": "Tri-specific biologic",
+          "zh": "三特异性生物制剂",
+          "meaning": "单一分子同时结合或调节三个靶点/通路。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LB Pharmaceuticals：LB-102 ECNP数据，2026-10-10",
+          "url": "https://ir.lbpharma.us/press_releases/lb-pharmaceuticals-presents-new-preclinical-data-supporting-lb-102s-bimodal-mechanism-of-action-and-highlights-ongoing-late-stage-clinical-development-programs-at-the-39th-ecnp-congress/"
+        },
+        {
+          "title": "Sagimet：Denifanstat 52周数据与AURORA，2026-10-09",
+          "url": "https://sagimetbiosciences.gcs-web.com/news-releases/news-release-details/sagimet-present-positive-full-52-week-results-license-partner"
+        },
+        {
+          "title": "Perceive Bio：VOY-101完成入组，2026-10-09",
+          "url": "https://www.prnewswire.com/news-releases/perceive-biotherapeutics-completes-enrollment-in-phase-2a-journey-study-of-voy-101-gene-therapy-for-geographic-atrophy-and-appoints-tony-gibney-to-board-of-directors-302902938.html"
+        },
+        {
+          "title": "Glaukos–RevOpsis：RO-104授权，2026-10-08",
+          "url": "https://www.businesswire.com/news/home/20261008992641/en/"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT06087458",
+          "title": "VOY-101",
+          "modality": "眼内AAV基因治疗",
+          "area": "眼科",
+          "target": "CFH / 补体调节",
+          "stage": "Phase 1/Phase 2",
+          "company": "Perceive Biotherapeutics, Inc.",
+          "indication": "Age-Related Macular Degeneration / Geographic Atrophy / Non-neovascular AMD / Non-neovascular Age-related Macular Degeneration",
+          "trialTitle": "Study of VOY-101 in Patients With Advanced Non-Neovascular Age-Related Macular Degeneration",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-08-17",
+          "checked": "2026-10-11",
+          "summary": "JOURNEY一期/二期已完成入组；登记目前为ACTIVE_NOT_RECRUITING。公司称二期共47人、94只眼，15个月顶线预计2027年末；预计时间不等于确认读出日。",
+          "endpoints": [
+            "Phase 1: To evaluate the safety and tolerability of a single intravitreal injection of escalating doses of VOY-101",
+            "Phase 1: Change from Baseline in markers of inflammation",
+            "Phase 1: Establish the recommended Phase 2 dose in subjects with Geographic Atrophy.",
+            "Phase 2: To evaluate the effect of VOY-101 in the study eye compared with untreated fellow eye on change in Geographic Atrophy lesion size."
+          ],
+          "completion": {
+            "date": "2028-06",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 60,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06087458，核查于2026-10-11",
+              "url": "https://clinicaltrials.gov/study/NCT06087458"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://www.prnewswire.com/news-releases/perceive-biotherapeutics-completes-enrollment-in-phase-2a-journey-study-of-voy-101-gene-therapy-for-geographic-atrophy-and-appoints-tony-gibney-to-board-of-directors-302902938.html"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；预计完成日期不等于数据读出日期。",
+          "risks": "AAV免疫、眼内炎症、双眼病程不对称、长期表达可控性、生产一致性及一次性疗法支付。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "VOY-101",
+              "description": "VOY-101",
+              "armGroupLabels": [
+                "High",
+                "Higher",
+                "Intermediate",
+                "Low",
+                "Medium"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2027-10",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT06192264",
+          "title": "denifanstat / ASC40（ASC40-303）",
+          "modality": "口服小分子",
+          "area": "皮肤/代谢",
+          "target": "FASN",
+          "stage": "Phase 3",
+          "company": "Ascletis Pharma Inc",
+          "indication": "Acne",
+          "trialTitle": "A Study to Evaluate the Safety and Efficacy of ASC40 (Denifanstat) Tablets in the Treatment of Patients With Moderate to Severe Acne Vulgaris",
+          "status": "COMPLETED",
+          "registryUpdated": "2025-06-19",
+          "checked": "2026-10-11",
+          "summary": "中国随机双盲三期已完成，480人；主要终点覆盖12周IGA成功率及皮损计数变化。",
+          "endpoints": [
+            "Percentage of treatment success based on investigator's global assessment (IGA) in each group of subjects",
+            "Percentage change in total skin lesion counts compared to baseline ineach group of subjects",
+            "Percentage change in the count of inflammatory skin lesions compared to baseline in each group of subjects"
+          ],
+          "completion": {
+            "date": "2025-05-19",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 480,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06192264，核查于2026-10-11",
+              "url": "https://clinicaltrials.gov/study/NCT06192264"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://sagimetbiosciences.gcs-web.com/news-releases/news-release-details/sagimet-present-positive-full-52-week-results-license-partner"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；预计完成日期不等于数据读出日期。",
+          "risks": "公司公告结果与登记结果发布状态的差异、肝脏和脂质长期安全、青春期人群及地域可外推性。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ASC40",
+              "description": "ASC 40 tablets orally once daily",
+              "armGroupLabels": [
+                "ASC40 Placebo",
+                "ASC40 dose 1"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2025-05-19",
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT06248008",
+          "title": "denifanstat / ASC40（ASC40-304）",
+          "modality": "口服小分子",
+          "area": "皮肤/代谢",
+          "target": "FASN",
+          "stage": "Phase 3",
+          "company": "Ascletis Pharma Inc",
+          "indication": "Acne",
+          "trialTitle": "A Study to Evaluate Safety of ASC40 Tablets in Patients With Moderate to Severe Acne Vulgaris",
+          "status": "COMPLETED",
+          "registryUpdated": "2025-12-01",
+          "checked": "2026-10-11",
+          "summary": "中国开放标签三期延长期已完成，240人；主要目的为最长40周追加治疗的长期安全性。",
+          "endpoints": [
+            "Number and percentage of subjects with treatment emergent adverse events (TEAE)",
+            "Number and percentage of subjects with serious adverse event (SAE).",
+            "Number and percentage of subjects who discontinued due to adverse events."
+          ],
+          "completion": {
+            "date": "2025-11-12",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 240,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06248008，核查于2026-10-11",
+              "url": "https://clinicaltrials.gov/study/NCT06248008"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://sagimetbiosciences.gcs-web.com/news-releases/news-release-details/sagimet-present-positive-full-52-week-results-license-partner"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；预计完成日期不等于数据读出日期。",
+          "risks": "开放标签、无同期对照、疗效为次要终点；不能把52周变化直接视为安慰剂校正效果。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ASC40",
+              "description": "ASC40 tablets orally once daily",
+              "armGroupLabels": [
+                "ASC40 50mg"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2025-11-12",
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT07363577",
+          "title": "LB-102（NOVA-2）",
+          "modality": "口服小分子",
+          "area": "神经精神",
+          "target": "D2 / D3 / 5-HT7",
+          "stage": "Phase 3",
+          "company": "LB Pharmaceuticals Inc.",
+          "indication": "Schizophrenia",
+          "trialTitle": "Study to Evaluate LB-102 for the Treatment of Adult Patients With Acute Schizophrenia",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-07-27",
+          "checked": "2026-10-11",
+          "summary": "精神分裂症确证性三期RECRUITING，计划456人；6周主要终点为PANSS总分较基线变化。",
+          "endpoints": [
+            "Change from baseline to Week 6 on the Positive and Negative Syndrome Scale"
+          ],
+          "completion": {
+            "date": "2027-10",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 456,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07363577，核查于2026-10-11",
+              "url": "https://clinicaltrials.gov/study/NCT07363577"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://ir.lbpharma.us/press_releases/lb-pharmaceuticals-presents-new-preclinical-data-supporting-lb-102s-bimodal-mechanism-of-action-and-highlights-ongoing-late-stage-clinical-development-programs-at-the-39th-ecnp-congress/"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；预计完成日期不等于数据读出日期。",
+          "risks": "安慰剂反应、剂量-疗效关系、EPS/催乳素/镇静、长期依从性和与仿制药差异。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "LB-102 (50 mg tablet)",
+              "description": "LB-102 oral tablet given for six weeks",
+              "armGroupLabels": [
+                "LB-102 (50 mg tablet)"
+              ],
+              "otherNames": [
+                "LB-102"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "LB-102 (100 mg tablet)",
+              "description": "LB-102 oral tablet given for six weeks",
+              "armGroupLabels": [
+                "LB-102 (100 mg tablet)"
+              ],
+              "otherNames": [
+                "LB-102"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": "Placebo tablet given orally for six weeks",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2027-06",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT07369154",
+          "title": "LB-102（NOVA-3）",
+          "modality": "口服小分子",
+          "area": "神经精神",
+          "target": "D2 / D3 / 5-HT7",
+          "stage": "Phase 3",
+          "company": "LB Pharmaceuticals Inc.",
+          "indication": "Schizophrenia",
+          "trialTitle": "52-week Open Label Safety-Tolerability Study",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-09-09",
+          "checked": "2026-10-11",
+          "summary": "精神分裂症52周开放标签三期安全研究RECRUITING，计划900人。",
+          "endpoints": [
+            "Evaluate long term safety and tolerability of LB-102 by evaluating the number of adverse event, incidence of treatment emergent events."
+          ],
+          "completion": {
+            "date": "2029-04",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 900,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07369154，核查于2026-10-11",
+              "url": "https://clinicaltrials.gov/study/NCT07369154"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://ir.lbpharma.us/press_releases/lb-pharmaceuticals-presents-new-preclinical-data-supporting-lb-102s-bimodal-mechanism-of-action-and-highlights-ongoing-late-stage-clinical-development-programs-at-the-39th-ecnp-congress/"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；预计完成日期不等于数据读出日期。",
+          "risks": "开放标签选择偏倚、长期代谢/EPS/催乳素安全、停药率和完成研究所需资金。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "LB-102",
+              "description": "LB-102 flexible dosing 50 mg - 100 mg",
+              "armGroupLabels": [
+                "LB-102"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2028-12",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT07494305",
+          "title": "LB-102（ILLUMINATE-1）",
+          "modality": "口服小分子",
+          "area": "神经精神",
+          "target": "D2 / D3 / 5-HT7",
+          "stage": "Phase 2",
+          "company": "LB Pharmaceuticals Inc.",
+          "indication": "Bipolar I Disorder",
+          "trialTitle": "Multicenter Study to Assess the Efficacy and Safety of LB-102 in the Treatment of Adult Patients With BP1MDE.",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-07-27",
+          "checked": "2026-10-11",
+          "summary": "双相I型抑郁二期RECRUITING，计划320人；6周主要终点为MADRS-10变化。",
+          "endpoints": [
+            "Change From Baseline in Montgomery Åsberg Depression Rating -10 core symptom scale (MADRS-10)"
+          ],
+          "completion": {
+            "date": "2028-02",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 320,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07494305，核查于2026-10-11",
+              "url": "https://clinicaltrials.gov/study/NCT07494305"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://ir.lbpharma.us/press_releases/lb-pharmaceuticals-presents-new-preclinical-data-supporting-lb-102s-bimodal-mechanism-of-action-and-highlights-ongoing-late-stage-clinical-development-programs-at-the-39th-ecnp-congress/"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；预计完成日期不等于数据读出日期。",
+          "risks": "治疗诱发躁狂、安慰剂反应、快感缺失机制向临床转化及单药定位。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "LB-102",
+              "description": "N-methyl amisulpride",
+              "armGroupLabels": [
+                "LB-102"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": "Inactive substance that looks identical to the active treatment",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2028-02",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT07863193",
+          "title": "denifanstat（AURORA）",
+          "modality": "口服小分子",
+          "area": "皮肤/代谢",
+          "target": "FASN",
+          "stage": "Phase 3",
+          "company": "Sagimet Biosciences Inc.",
+          "indication": "Acne Vulgaris",
+          "trialTitle": "Phase 3 Study of Denifanstat in Participants With Moderate to Severe Acne",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-10-07",
+          "checked": "2026-10-11",
+          "summary": "美国三期RECRUITING，计划约800名12岁及以上中重度痤疮患者，12周评估三项共同主要终点。",
+          "endpoints": [
+            "Proportion of participants achieving EGSS success, defined as a score of 0 (clear) or 1 (almost clear) with at least a 2-point decrease from their baseline score",
+            "Absolute change from baseline in inflammatory lesion count (ILC)",
+            "Absolute change from baseline in non-inflammatory lesion count (ILC)"
+          ],
+          "completion": {
+            "date": "2028-04",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 800,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07863193，核查于2026-10-11",
+              "url": "https://clinicaltrials.gov/study/NCT07863193"
+            },
+            {
+              "title": "关联公开原始来源",
+              "url": "https://sagimetbiosciences.gcs-web.com/news-releases/news-release-details/sagimet-present-positive-full-52-week-results-license-partner"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；预计完成日期不等于数据读出日期。",
+          "risks": "青少年安全、长期脂质/肝脏影响、三共同主要终点成功、入组速度和商业差异化。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Denifanstat",
+              "description": "Oral, once daily",
+              "armGroupLabels": [
+                "Denifanstat"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": "Oral, once daily",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2027-08",
+            "type": "ESTIMATED"
+          }
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-lb-pharmaceuticals",
+          "title": "LB Pharmaceuticals Inc.",
+          "date": "2026-10-10",
+          "checked": "2026-10-11",
+          "summary": "公布LB-102突触前D2自受体临床前机制，并推进精神分裂症三期和双相抑郁二期。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "LB-102为改造自amisulpride的口服D2/D3/5-HT7拮抗剂；NOVA-2、NOVA-3和ILLUMINATE-1均在招募。"
+            },
+            {
+              "heading": "融资与风险",
+              "body": "公司高度依赖单一分子多适应症扩张；三项并行试验提高资本需求，临床前机制不能替代确证性疗效。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "LB Pharmaceuticals ECNP公告，2026-10-10",
+              "url": "https://ir.lbpharma.us/press_releases/lb-pharmaceuticals-presents-new-preclinical-data-supporting-lb-102s-bimodal-mechanism-of-action-and-highlights-ongoing-late-stage-clinical-development-programs-at-the-39th-ecnp-congress/"
+            }
+          ]
+        },
+        {
+          "id": "company-sagimet",
+          "title": "Sagimet Biosciences Inc.",
+          "date": "2026-10-09",
+          "checked": "2026-10-11",
+          "summary": "公布denifanstat中国三期开放延长期数据，并启动美国AURORA三期筛选。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "denifanstat为每日一次口服FASN抑制剂；Sagimet拥有中国以外地区权利。"
+            },
+            {
+              "heading": "战略",
+              "body": "公司将资本配置重点转向美国痤疮三期；需验证长期安全和与现有口服治疗的差异。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Sagimet公告，2026-10-09",
+              "url": "https://sagimetbiosciences.gcs-web.com/news-releases/news-release-details/sagimet-present-positive-full-52-week-results-license-partner"
+            }
+          ]
+        },
+        {
+          "id": "company-ascletis-pharma",
+          "title": "Ascletis Pharma Inc",
+          "date": "2026-10-09",
+          "checked": "2026-10-11",
+          "summary": "在中国完成denifanstat随机三期及开放标签延长期，并持有中国地区独家权利。",
+          "sections": [
+            {
+              "heading": "临床",
+              "body": "ASC40-303随机480人；ASC40-304延长期240人，最长追加用药40周。"
+            },
+            {
+              "heading": "监管",
+              "body": "公司公告称中国NDA已于2025年12月获受理；获受理不等于批准。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Sagimet/Ascletis临床数据公告，2026-10-09",
+              "url": "https://sagimetbiosciences.gcs-web.com/news-releases/news-release-details/sagimet-present-positive-full-52-week-results-license-partner"
+            }
+          ]
+        },
+        {
+          "id": "company-perceive-biotherapeutics",
+          "title": "Perceive Biotherapeutics, Inc.",
+          "date": "2026-10-09",
+          "checked": "2026-10-11",
+          "summary": "VOY-101地理萎缩一期/二期研究完成二期入组。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "VOY-101为单次玻璃体内AAV基因治疗，编码保护性CFH变体以恢复补体调节。"
+            },
+            {
+              "heading": "战略与财务",
+              "body": "公司进入约一年以上数据等待期；长期制造、随访与下一阶段资金是核心变量。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Perceive Bio公告，2026-10-09",
+              "url": "https://www.prnewswire.com/news-releases/perceive-biotherapeutics-completes-enrollment-in-phase-2a-journey-study-of-voy-101-gene-therapy-for-geographic-atrophy-and-appoints-tony-gibney-to-board-of-directors-302902938.html"
+            }
+          ]
+        },
+        {
+          "id": "company-glaukos",
+          "title": "Glaukos Corporation",
+          "date": "2026-10-08",
+          "checked": "2026-10-11",
+          "summary": "取得RO-104及RevMod平台在视网膜领域的独家许可。",
+          "sections": [
+            {
+              "heading": "组合",
+              "body": "获得RO-104开发商业化权利，并可从平台发现最多四个额外视网膜生物药。"
+            },
+            {
+              "heading": "交易与战略",
+              "body": "财务条款未披露；交易使公司从器械、角膜和程序性药物进一步扩展到视网膜生物制剂。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Glaukos–RevOpsis授权公告，2026-10-08",
+              "url": "https://www.businesswire.com/news/home/20261008992641/en/"
+            }
+          ]
+        },
+        {
+          "id": "company-revopsis",
+          "title": "RevOpsis Therapeutics, Inc.",
+          "date": "2026-10-08",
+          "checked": "2026-10-11",
+          "summary": "将RO-104及RevMod视网膜平台独家授权给Glaukos。",
+          "sections": [
+            {
+              "heading": "平台",
+              "body": "RevMod用于组装多特异性生物制剂；RO-104同时覆盖VEGF-A、VEGF-C和Ang-2。"
+            },
+            {
+              "heading": "验证与风险",
+              "body": "当前披露主要来自临床前动物模型；人体安全、效价、耐久性及制造仍待验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Glaukos–RevOpsis授权公告，2026-10-08",
+              "url": "https://www.businesswire.com/news/home/20261008992641/en/"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-d2-d3-5ht7-lb102",
+          "title": "D2 / D3 / 5-HT7与突触前D2自受体",
+          "date": "2026-10-10",
+          "checked": "2026-10-11",
+          "summary": "LB-102通过受体拮抗治疗精神病性症状，并提出减弱D2自受体负反馈、增加多巴胺释放的临床前机制。",
+          "sections": [
+            {
+              "heading": "支持证据",
+              "body": "公司公布大鼠伏隔核微透析数据；既往精神分裂症二期支持症状改善。"
+            },
+            {
+              "heading": "待验证",
+              "body": "必须用前瞻性人体终点验证快感缺失、认知与负症状获益；事后分析只产生假设。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "LB Pharmaceuticals ECNP公告，2026-10-10",
+              "url": "https://ir.lbpharma.us/press_releases/lb-pharmaceuticals-presents-new-preclinical-data-supporting-lb-102s-bimodal-mechanism-of-action-and-highlights-ongoing-late-stage-clinical-development-programs-at-the-39th-ecnp-congress/"
+            }
+          ]
+        },
+        {
+          "id": "target-fasn-acne",
+          "title": "FASN / 新生脂肪生成",
+          "date": "2026-10-09",
+          "checked": "2026-10-11",
+          "summary": "通过抑制脂肪酸合酶减少皮脂脂质和炎症，形成口服痤疮新机制。",
+          "sections": [
+            {
+              "heading": "支持证据",
+              "body": "中国随机三期达到公司披露的12周终点，开放延长期提供52周安全与次要疗效观察。"
+            },
+            {
+              "heading": "风险",
+              "body": "长期肝脏、脂质与青少年安全，以及开放延长期无对照造成的效应高估。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Sagimet公告，2026-10-09",
+              "url": "https://sagimetbiosciences.gcs-web.com/news-releases/news-release-details/sagimet-present-positive-full-52-week-results-license-partner"
+            }
+          ]
+        },
+        {
+          "id": "target-cfh-complement-ga",
+          "title": "CFH / 补体调节",
+          "date": "2026-10-09",
+          "checked": "2026-10-11",
+          "summary": "以AAV持续表达保护性补体因子H变体，试图降低地理萎缩进展。",
+          "sections": [
+            {
+              "heading": "依据",
+              "body": "补体遗传学与GA生物学支持靶点；JOURNEY采用对侧眼作为个体内对照。"
+            },
+            {
+              "heading": "风险",
+              "body": "AAV免疫、眼内炎症、表达剂量、双眼自然史不对称和长期耐久性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Perceive Bio公告，2026-10-09",
+              "url": "https://www.prnewswire.com/news-releases/perceive-biotherapeutics-completes-enrollment-in-phase-2a-journey-study-of-voy-101-gene-therapy-for-geographic-atrophy-and-appoints-tony-gibney-to-board-of-directors-302902938.html"
+            }
+          ]
+        },
+        {
+          "id": "target-vegfa-vegfc-ang2",
+          "title": "VEGF-A / VEGF-C / Ang-2",
+          "date": "2026-10-08",
+          "checked": "2026-10-11",
+          "summary": "RO-104以三特异性分子同时覆盖三条血管生成通路。",
+          "sections": [
+            {
+              "heading": "依据",
+              "body": "各通路具有眼底血管病生物学依据；多靶点可能提升通路覆盖。"
+            },
+            {
+              "heading": "待验证",
+              "body": "临床前优于抗VEGF的结果未证明人体视力获益；多特异性结构增加CMC和效价分析难度。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Glaukos–RevOpsis授权公告，2026-10-08",
+              "url": "https://www.businesswire.com/news/home/20261008992641/en/"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-08-glaukos-revopsis-ro104",
+          "title": "Glaukos独家许可RO-104及RevMod视网膜平台",
+          "date": "2026-10-08",
+          "checked": "2026-10-11",
+          "summary": "Glaukos获得RO-104开发商业化权利，并取得最多四个额外视网膜候选物的独家发现开发权。",
+          "sections": [
+            {
+              "heading": "条款",
+              "body": "双方：Glaukos / RevOpsis；资产：RO-104及RevMod平台；地域：公告称独家开发和商业化权利，未进一步披露地域边界；阶段：RO-104目前为临床前；首付款、里程碑、版税、币种：均未披露。"
+            },
+            {
+              "heading": "权利范围",
+              "body": "平台适用领域包括地理萎缩、DME、DR、RVO和nAMD，最多产生四个额外候选物；具体选择权期限和治理未披露。"
+            },
+            {
+              "heading": "逻辑与风险",
+              "body": "Glaukos补充视网膜生物药平台；RevOpsis获得专业眼科开发方。主要风险为临床转化、复杂生物制剂CMC及未披露经济条款。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Glaukos–RevOpsis授权公告，2026-10-08",
+              "url": "https://www.businesswire.com/news/home/20261008992641/en/"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-2027-late-voy101-journey-topline",
+          "title": "VOY-101 JOURNEY 15个月顶线数据",
+          "date": "2027-12-31",
+          "checked": "2026-10-11",
+          "summary": "事件类型：临床顶线；公司预计2027年末；状态：estimated，具体日期未披露。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "GA病灶增速、视功能、眼内炎症、双眼对照一致性及一次给药耐久性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Perceive Bio公告，2026-10-09",
+              "url": "https://www.prnewswire.com/news-releases/perceive-biotherapeutics-completes-enrollment-in-phase-2a-journey-study-of-voy-101-gene-therapy-for-geographic-atrophy-and-appoints-tony-gibney-to-board-of-directors-302902938.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-08-denifanstat-aurora-primary",
+          "title": "Denifanstat AURORA三期主要完成",
+          "date": "2027-08-31",
+          "checked": "2026-10-11",
+          "summary": "事件类型：登记主要完成；ClinicalTrials.gov为预计日期；状态：estimated，不等于数据读出。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "三共同主要终点、青少年亚组、安全性、开放延长期及实际数据发布日期。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07863193",
+              "url": "https://clinicaltrials.gov/study/NCT07863193"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-06-lb102-nova2-primary",
+          "title": "LB-102 NOVA-2三期主要完成",
+          "date": "2027-06-30",
+          "checked": "2026-10-11",
+          "summary": "事件类型：登记主要完成；状态：estimated，不等于确认读出。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "6周PANSS、剂量反应、EPS、催乳素、镇静和停药。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07363577",
+              "url": "https://clinicaltrials.gov/study/NCT07363577"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2028-02-lb102-illuminate1-primary",
+          "title": "LB-102 ILLUMINATE-1二期主要完成",
+          "date": "2028-02-29",
+          "checked": "2026-10-11",
+          "summary": "事件类型：登记主要完成；状态：estimated，不等于确认读出。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "MADRS-10、快感缺失、认知、治疗诱发躁狂及安全性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07494305",
+              "url": "https://clinicaltrials.gov/study/NCT07494305"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-10",
       "date": "2026-10-10",
@@ -5863,20 +6741,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-10T06:56:33+08:00",
+    "checkedAt": "2026-10-11T07:02:22+08:00",
     "status": "success",
     "counts": {
-      "baselinePipelineChecked": 25,
-      "baselinePipelineChanged": 1,
+      "baselinePipelineChecked": 31,
+      "baselinePipelineChanged": 0,
       "baselinePipelineFailed": 0,
-      "newPipelinesAdded": 6,
-      "companiesUpserted": 7,
-      "targetsUpserted": 5,
+      "newPipelinesAdded": 7,
+      "companiesUpserted": 6,
+      "targetsUpserted": 4,
       "dealsAdded": 1,
-      "catalystsUpserted": 5,
-      "briefEvents": 6
+      "catalystsUpserted": 4,
+      "briefEvents": 4
     },
-    "summary": "既有25项NCT逐项核查成功、0失败；仅NCT07444489登记更新时间变化，阶段、状态、干预和主要终点未见核心变化。新增6项已核实NCT。IBI311公司公告与NCT07113262公开登记存在样本量和状态差异，已并列披露且未强行覆盖。全部内容来自公开来源。"
+    "summary": "现有31项不重复NCT全部核查成功、0失败；干预药物、申办方、阶段、状态、适应症、主要终点及登记日期未发现需刷新变化。新增7项经ClinicalTrials.gov核实的临床记录。RO-104仍为临床前且无可靠NCT，未编造；Glaukos–RevOpsis财务条款未披露。"
   },
   "archivedPapers": []
 }
