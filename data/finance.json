@@ -1,8 +1,1305 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-11T07:02:22+08:00",
+  "updatedAt": "2026-10-12T07:13:05+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-12",
+      "date": "2026-10-12",
+      "source": "scheduled",
+      "title": "医药金融与创新药日报｜三张报表、PDE9逆向剂量与眼科/罕见病进展",
+      "summary": "本期从三张报表解释研发亏损、非现金费用与IPO现金流；覆盖encaleret三期与监管、tovinontrine心衰二期、CSB-001与vamikibart眼科数据、GlyphAgo递送平台及Retension IPO。既有38项NCT全部核查成功，5项申办方名称规范化，新增8项结构化管线。",
+      "sections": [
+        {
+          "heading": "今日概念｜研发支出与融资如何穿过三张财务报表",
+          "body": "利润表回答“这一期赚了还是亏了”，现金流量表回答“现金为什么变了”，资产负债表回答“期末还剩什么、谁对它有权利”。生物科技公司常同时出现亏损与融资：研发支出降低利润和现金；股权激励降低利润但不直接耗现金；IPO增加现金和实收资本，却不进入营业收入。"
+        },
+        {
+          "heading": "短算例｜亏损120百万美元，现金为什么只少58百万美元",
+          "body": "教学假设：公司支付现金研发费用100百万美元，另确认20百万美元股权激励；IPO募资总额45百万美元，发行费用3百万美元。利润表：研发及相关费用合计120，税前亏损120。经营现金流：净亏损-120，加回非现金股权激励20，得到-100。融资现金流：45-3=+42。期末现金净变化=-100+42=-58。资产负债表中现金减少58；新增股本/资本公积约42，股权激励增加资本公积20，累计亏损减少权益120，净权益变化同样为-58。核心是：亏损≠现金流，融资≠收入。"
+        },
+        {
+          "heading": "行业进展 1｜Encaleret补充三期机制与患者体验，并启动适应症扩展",
+          "body": "事实（2026-10-11）：BridgeBio称CALIBRATE中encaleret使91%参与者PTH达到或超过正常下限，标准治疗组为0%；encaleret组100%报告至少一种ADH1症状改善，标准治疗组为46%。FDA已受理ADH1 NDA并给予优先审评，目标行动日为2027-05-08；慢性甲旁减三期RECLAIM-HP完成首例给药。分析：科学上，CaSR调节同时影响PTH、血钙和尿钙，比单纯补钙更接近病因；但患者报告结局和骨转换标志物属于支持证据。商业上，罕见病诊断率与家系筛查决定可及患者。战略上，从ADH1扩展到更广甲旁减可显著放大市场。财务上，近期价值由监管概率驱动，长期价值取决于标签范围、诊断渗透和慢性用药留存。"
+        },
+        {
+          "heading": "行业进展 2｜Tovinontrine出现低剂量有效、最高剂量无效的逆向剂量反应",
+          "body": "事实（2026-10-11）：Cycle-1-REF中两个较低剂量在12周降低HFrEF患者NT-proBNP，50 mg BID最高剂量未见效应；HFpEF的Cycle-2-PEF只测试50 mg BID，也未见显著NT-proBNP变化。两项试验总体耐受良好。分析：科学上，PDE9抑制增强利钠肽-cGMP信号，但公司提出过高cGMP触发反调节反馈的假说尚待前瞻性验证。商业上，心衰市场巨大，却必须在ARNI、SGLT2等充分治疗基础上增加价值。战略上，公司应先锁定剂量与人群，而不是直接把HFpEF失败解释成机制失败。财务上，生物标志物概念验证提高资产期权价值，但临床结局试验规模和资本需求仍很高。"
+        },
+        {
+          "heading": "行业进展 3｜CSB-001在角膜缘干细胞缺乏症报告开放标签概念验证",
+          "body": "事实（2026-10-11）：39名受试者共49只眼中，29只眼接受CSB-001，20只眼未治疗；20周时41.4%治疗眼改善至少15个ETDRS字母，对照为0%，55.2%改善至少10字母，对照为5%。公司计划2027年上半年启动两项约400人的关键性研究。分析：科学上，dHGF/c-MET修复信号可能促进角膜上皮再生；但试验开放标签、按眼分析且样本小。商业上，若随机关键试验复现，眼药水可能替代部分手术或长期姑息管理。战略上，关键试验设计必须控制双眼相关性、自然波动与观察偏倚。财务上，阳性信号支持融资和合作，但不能直接按关键性成功资产估值。"
+        },
+        {
+          "heading": "行业进展 4｜Vamikibart 52周疗效维持并进入多地区监管审评",
+          "body": "事实（2026-10-10）：Roche称MEERKAT和SANDCAT两项三期在52周维持视力与中央视网膜厚度改善；约三分之二符合条件者在16周后无需追加治疗。FDA已受理BLA，预计2027年7月作出决定；欧盟、中国和日本申报亦已受理。分析：科学上，眼内抗IL-6提供非类固醇靶向抗炎路径。商业上，疗效持久和减少注射/类固醇并发症可能支持差异化。战略上，多地区同步申报加快全球上市准备。财务上，价值取决于最终标签、眼科给药基础设施、支付和与类固醇及全身免疫疗法的竞争。公司公告未披露全部52周组间数值，应保留不确定性。"
+        },
+        {
+          "heading": "行业进展 5｜GlyphAgo用淋巴吸收绕开首过代谢，先验证PK再验证疗效",
+          "body": "事实（2026-10-09）：Seaport在174名健康志愿者一期中报告，GlyphAgo相对未修饰agomelatine生物利用度提高6.8倍、PK变异约降低10倍；未观察到食物效应或7天暴露累积。GAD二期A已启动，顶线预计2028年初。分析：科学上，前药经肠道淋巴吸收可绕过肝脏首过代谢。商业上，更低剂量和更可预测暴露可能改善使用便利性。战略上，这验证的是平台的PK能力，不是焦虑疗效。财务上，平台溢价要等患者疗效与肝安全数据；当前未找到可靠ClinicalTrials.gov登记，未编造NCT。"
+        },
+        {
+          "heading": "行业进展 6｜Retension以4500万美元小型IPO为RTN-001续航",
+          "body": "事实（2026-10-08）：Retension按每股12美元发行375万股，预计募资总额4500万美元，较原计划扩大发行数量；所有股票为公司新发，另有最多56.25万股超额配售。资金用于完成RTN-001二期及准备三期。分析：科学上，RTN-001是面向中枢动脉NO-cGMP信号的缓释PDE5抑制剂。商业上，高血压人群大但仿制药竞争和疗效门槛高。战略上，小型IPO将公开市场作为临床融资工具。财务上，按区间中点定价并扩大发行是正面订单信号，但4500万美元总募资未必覆盖完整三期，仍需审查净募资和现金跑道。"
+        },
+        {
+          "heading": "跨岗位视角｜如何审视Tovinontrine的逆向剂量反应",
+          "body": "投资银行关注二期信号能否支持下一轮融资或合作及其叙事边界；FA顾问会把低剂量成功与最高剂量失败拆成不同成功概率，避免给予统一三期估值；BD会要求原始剂量-暴露-cGMP-NT-proBNP数据、后续剂量权利和共同开发治理；投资人关注预设分析、效应量、统计显著性、HFpEF外推及未来大型结局试验成本；咨询顾问关注适应症优先级、剂量策略、中心选择和与GDMT的定位。"
+        },
+        {
+          "heading": "小案例｜Retension的IPO能否覆盖到关键节点",
+          "body": "公告只披露4500万美元总募资。教学假设：发行费用率8%，则净募资约41.4百万美元；若原有现金30百万美元、年度现金消耗35百万美元，静态跑道=(41.4+30)/35=2.04年。若进入三期准备后年度消耗升至50百万美元，跑道仅(41.4+30)/50=1.43年。实际判断必须从招股书核实原有现金、应付款、承销费、用途分配、三期启动时间和超额配售；这些数字不是公司披露。"
+        },
+        {
+          "heading": "数据库巡检",
+          "body": "截至2026-10-12，既有38个不重复NCT全部成功访问，0失败；干预药物、具体阶段、状态、适应症和主要终点未发现实质变化。按登记页规范化5项申办方名称：NCT06192264、NCT06248008、NCT05693935、NCT04794101、NCT07661056。新增8项经ClinicalTrials.gov核实的结构化记录，覆盖encaleret、tovinontrine、vamikibart、CSB-001和RTN-001。GlyphAgo患者试验暂未找到可靠NCT，明确保留数据缺口；预计完成时间不作为确认读出日期。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "Tovinontrine在HFrEF二期出现“两个较低剂量降低NT-proBNP、最高剂量无效”，HFpEF又只测试了最高剂量。你会继续开发吗？请提出一个最小但足够有说服力的下一步试验，并说明哪些结果会触发继续、缩减或终止。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先判断信号是否真实，再判断最佳剂量、人群和终点，最后判断经济上是否值得。推理步骤：①索取预设统计方案、各剂量效应量和置信区间，不只看“有/无显著”；②把剂量、暴露、cGMP、NT-proBNP、安全性串成一条因果链；③检查低剂量结果是否在关键亚组和时间点一致；④不要用HFpEF最高剂量失败证明低剂量也无效；⑤设计一项随机、双盲、安慰剂对照的剂量确认试验，聚焦HFrEF，选择两个较低剂量，背景治疗分层，预设NT-proBNP并加入功能/症状终点和充分安全随访。一种可行答案：继续，但只以有限资本推进剂量确认，不立即进入大型结局试验。继续条件可包括剂量-暴露-生物标志物关系可复制、至少一个低剂量效应有临床意义且安全；缩减条件是只有特定亚组获益或效应不稳定；终止条件是前瞻性复现失败、机制链不成立或安全窗过窄。必要证据：随机前瞻性剂量试验与预设终点；支持证据：BNP、血浆/尿cGMP和背景治疗一致性；待验证假设：高暴露触发反调节反馈、低剂量能转化为住院或死亡获益。常见误区：把生物标志物等同临床结局、事后挑选最佳剂量、因最高剂量失败便否定全机制，或因低剂量阳性便直接预测商业成功。自查：答案是否同时规定试验设计、继续/终止阈值、资本上限和临床结局路径；开放题没有唯一答案。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Three-statement model",
+          "zh": "三张报表模型",
+          "meaning": "把利润表、现金流量表和资产负债表的同一业务变化联动起来。"
+        },
+        {
+          "en": "Stock-based compensation",
+          "zh": "股权激励费用",
+          "meaning": "计入利润表但当期通常不直接支付现金的薪酬成本。"
+        },
+        {
+          "en": "Inverse dose-response",
+          "zh": "逆向/非单调剂量反应",
+          "meaning": "更高剂量并未带来更强疗效，甚至效果减弱的关系。"
+        },
+        {
+          "en": "NT-proBNP",
+          "zh": "N端脑钠肽前体",
+          "meaning": "反映心脏壁应激的生物标志物，常用于心衰风险与药效评估，但不是临床结局本身。"
+        },
+        {
+          "en": "CaSR",
+          "zh": "钙敏感受体",
+          "meaning": "监测细胞外钙并调节PTH分泌和肾脏钙处理的受体。"
+        },
+        {
+          "en": "BCVA",
+          "zh": "最佳矫正视力",
+          "meaning": "在最佳镜片矫正下测得的视力，常用ETDRS字母数表示。"
+        },
+        {
+          "en": "First-pass metabolism",
+          "zh": "首过代谢",
+          "meaning": "口服药进入全身循环前在肠道和肝脏被代谢的过程。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "BridgeBio：Encaleret CALIBRATE与RECLAIM-HP，2026-10-11",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378507/0/en/encaleret-increased-bone-turnover-and-improved-participant-reported-symptoms-in-the-phase-3-calibrate-trial-in-adh1.html"
+        },
+        {
+          "title": "Cardurion：Tovinontrine二期结果，2026-10-11",
+          "url": "https://www.globenewswire.com/news-release/2026/10/11/3378505/0/en/cardurion-pharmaceuticals-presents-phase-2-results-for-tovinontrine-crd-750-a-pde9-inhibitor-as-a-novel-treatment-for-heart-failure.html"
+        },
+        {
+          "title": "Claris：CSB-001概念验证，2026-10-11",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378520/0/en/claris-biotherapeutics-releases-positive-csb-001-clinical-proof-of-concept-data-in-limbal-stem-cell-deficiency-at-aao-2026-annual-meeting.html"
+        },
+        {
+          "title": "Roche：Vamikibart 52周数据，2026-10-10",
+          "url": "https://www.roche.com/media/releases/med-cor-2026-10-10"
+        },
+        {
+          "title": "Seaport：GlyphAgo一期PK，2026-10-09",
+          "url": "https://investors.seaporttx.com/news-releases/news-release-details/seaport-therapeutics-presents-additional-pharmacokinetic-data"
+        },
+        {
+          "title": "Retension：IPO定价，2026-10-08",
+          "url": "https://www.globenewswire.com/news-release/2026/10/09/3377794/0/en/retension-pharmaceuticals-announces-pricing-of-initial-public-offering.html"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT05680818",
+          "title": "Encaleret",
+          "company": "Calcilytix Therapeutics, Inc., a BridgeBio company",
+          "target": "CaSR负变构调节",
+          "modality": "口服小分子CaSR拮抗剂",
+          "area": "罕见病/内分泌",
+          "indication": "Autosomal Dominant Hypocalcemia (ADH)",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Efficacy and Safety of Encaleret Compared to Standard of Care in Participants With ADH1",
+          "registryUpdated": "2026-07-29",
+          "checked": "2026-10-12",
+          "summary": "ClinicalTrials.gov核实：Efficacy and Safety of Encaleret Compared to Standard of Care in Participants With ADH1；Phase 3，状态ACTIVE_NOT_RECRUITING，申办方Calcilytix Therapeutics, Inc., a BridgeBio company。",
+          "endpoints": [
+            "Number of Responders who Achieve Both Albumin-Corrected Blood Calcium (cCa) and 24-hour Urinary Calcium (UCa) Within the Target Range（Up to Week 24）"
+          ],
+          "completion": {
+            "date": "2029-08",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 67,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Encaleret",
+              "description": "Administered as film-coated tablet for oral use",
+              "armGroupLabels": [
+                "Encaleret"
+              ],
+              "otherNames": [
+                "CLTX-305",
+                "Encaleret Sulfate"
+              ]
+            },
+            {
+              "type": "DIETARY_SUPPLEMENT",
+              "name": "Standard of Care",
+              "description": "Calcium supplements and/or active Vitamin D (calcitriol, alfacalcidol, falecalcitriol, etc.)",
+              "armGroupLabels": [
+                "Standard of Care (SoC)"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05680818，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT05680818"
+            },
+            {
+              "title": "BridgeBio：Encaleret CALIBRATE与监管更新，2026-10-11",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378507/0/en/encaleret-increased-bone-turnover-and-improved-participant-reported-symptoms-in-the-phase-3-calibrate-trial-in-adh1.html"
+            }
+          ],
+          "note": "CALIBRATE具体试验阶段与状态；不代表资产在所有地区的监管状态。",
+          "risks": "患者数小；开放标签设计；长期骨转换、肾脏结局及商业诊断率仍需确认。"
+        },
+        {
+          "id": "NCT07805356",
+          "title": "Encaleret",
+          "company": "Calcilytix Therapeutics, Inc., a BridgeBio company",
+          "target": "CaSR负变构调节",
+          "modality": "口服小分子CaSR拮抗剂",
+          "area": "内分泌/罕见病",
+          "indication": "Hypoparathyroidism / Chronic Hypoparathyroidism",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "Efficacy, Safety, and Tolerability of Encaleret in Participants With Chronic Hypoparathyroidism",
+          "registryUpdated": "2026-09-16",
+          "checked": "2026-10-12",
+          "summary": "ClinicalTrials.gov核实：Efficacy, Safety, and Tolerability of Encaleret in Participants With Chronic Hypoparathyroidism；Phase 3，状态RECRUITING，申办方Calcilytix Therapeutics, Inc., a BridgeBio company。",
+          "endpoints": [
+            "Number of Responders who Achieve Both Albumin-Corrected Blood Calcium (cCa) and 24-hour Urine Calcium (UCa) Within the Protocol-defined Target Range（Week 24）"
+          ],
+          "completion": {
+            "date": "2033-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 160,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Encaleret",
+              "description": "Oral tablets",
+              "armGroupLabels": [
+                "Encaleret",
+                "Placebo"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Oral tablets",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07805356，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT07805356"
+            },
+            {
+              "title": "BridgeBio：RECLAIM-HP首例给药，2026-10-11",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378507/0/en/encaleret-increased-bone-turnover-and-improved-participant-reported-symptoms-in-the-phase-3-calibrate-trial-in-adh1.html"
+            }
+          ],
+          "note": "RECLAIM-HP具体试验阶段与状态；首例给药来自公司公告。",
+          "risks": "适应症扩展需重新证明获益风险；预计完成日期不等于读出日期。"
+        },
+        {
+          "id": "NCT06452316",
+          "title": "CSB-001（oremepermin alfa）",
+          "company": "Claris Biotherapeutics, Inc.",
+          "target": "dHGF / c-MET修复信号",
+          "modality": "重组蛋白眼药水",
+          "area": "眼科/罕见病",
+          "indication": "Limbal Stem Cell Deficiency",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "Study to Evaluate the Safety and Efficacy of CSB-001 Ophthalmic Solution 0.1% in Subjects With Limbal Stem Cell Deficiency",
+          "registryUpdated": "2026-08-13",
+          "checked": "2026-10-12",
+          "summary": "ClinicalTrials.gov核实：Study to Evaluate the Safety and Efficacy of CSB-001 Ophthalmic Solution 0.1% in Subjects With Limbal Stem Cell Deficiency；Phase 1，状态RECRUITING，申办方Claris Biotherapeutics, Inc.。",
+          "endpoints": [
+            "Safety as Assessed by Adverse Event Reporting（Day 0 through Week 144）",
+            "Safety as Assessed by Slit-lamp Biomicroscopy（Day 0 through Week 144）",
+            "Safety as Assessed by Best-corrected Distance LogMAR Visual Acuity（Day 0 through Week 144）"
+          ],
+          "completion": {
+            "date": "2027-12-31",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 75,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "CSB-001 Ophthalmic Solution 0.1%",
+              "description": "CSB-001: human recombinant dHGF (5-amino acid deleted hepatocyte growth factor)",
+              "armGroupLabels": [
+                "CSB-001 QID",
+                "Control"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06452316，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT06452316"
+            },
+            {
+              "title": "Claris：CSB-001概念验证数据，2026-10-11",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378520/0/en/claris-biotherapeutics-releases-positive-csb-001-clinical-proof-of-concept-data-in-limbal-stem-cell-deficiency-at-aao-2026-annual-meeting.html"
+            }
+          ],
+          "note": "登记仍为Phase 1、RECRUITING；公司称计划2027年上半年启动两项关键性研究，不等于已进入关键性阶段。",
+          "risks": "开放标签、按眼分析且样本量小；双眼相关性、自然波动和未治疗对照偏倚可能夸大效应。"
+        },
+        {
+          "id": "NCT06215911",
+          "title": "Tovinontrine（CRD-750）",
+          "company": "Cardurion Pharmaceuticals, Inc.",
+          "target": "PDE9 / cGMP信号",
+          "modality": "口服小分子PDE9抑制剂",
+          "area": "心血管",
+          "indication": "Heart Failure / Heart Failure With Reduced Ejection Fraction / Cardiovascular Diseases / Heart Diseases",
+          "stage": "Phase 2",
+          "status": "COMPLETED",
+          "trialTitle": "A Study to Assess Safety & Effectiveness of Tovinontrine in Chronic Heart Failure With Reduced Ejection Fraction (Cycle-1-REF)",
+          "registryUpdated": "2026-09-01",
+          "checked": "2026-10-12",
+          "summary": "ClinicalTrials.gov核实：A Study to Assess Safety & Effectiveness of Tovinontrine in Chronic Heart Failure With Reduced Ejection Fraction (Cycle-1-REF)；Phase 2，状态COMPLETED，申办方Cardurion Pharmaceuticals, Inc.。",
+          "endpoints": [
+            "Change in biomarkers from Baseline to Week 12 - NT-proBNP by treatment group（Baseline to Week 12）"
+          ],
+          "completion": {
+            "date": "2025-10-10",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 557,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Tovinontrine (CRD-750)",
+              "description": "Tablets administered orally",
+              "armGroupLabels": [
+                "Tovinontrine (CRD-750) - high dose",
+                "Tovinontrine (CRD-750) - low dose",
+                "Tovinontrine (CRD-750) - medium dose"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Tablets administered orally",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06215911，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT06215911"
+            },
+            {
+              "title": "Cardurion：Tovinontrine二期结果，2026-10-11",
+              "url": "https://www.globenewswire.com/news-release/2026/10/11/3378505/0/en/cardurion-pharmaceuticals-presents-phase-2-results-for-tovinontrine-crd-750-a-pde9-inhibitor-as-a-novel-treatment-for-heart-failure.html"
+            }
+          ],
+          "note": "Cycle-1-REF为HFrEF二期试验；登记已完成。",
+          "risks": "主要终点为生物标志物而非住院或死亡；非单调剂量反应必须前瞻性复现。"
+        },
+        {
+          "id": "NCT06215586",
+          "title": "Tovinontrine（CRD-750）",
+          "company": "Cardurion Pharmaceuticals, Inc.",
+          "target": "PDE9 / cGMP信号",
+          "modality": "口服小分子PDE9抑制剂",
+          "area": "心血管",
+          "indication": "Heart Failure / Heart Failure Preserved Ejection Fraction / Cardiovascular Diseases / Heart Diseases",
+          "stage": "Phase 2",
+          "status": "COMPLETED",
+          "trialTitle": "Safety & Effectiveness of Tovinontrine in Chronic Heart Failure With Preserved Ejection Fraction (Cycle-2-PEF)",
+          "registryUpdated": "2026-09-01",
+          "checked": "2026-10-12",
+          "summary": "ClinicalTrials.gov核实：Safety & Effectiveness of Tovinontrine in Chronic Heart Failure With Preserved Ejection Fraction (Cycle-2-PEF)；Phase 2，状态COMPLETED，申办方Cardurion Pharmaceuticals, Inc.。",
+          "endpoints": [
+            "Change in biomarkers from Baseline to Week 12 - NT-proBNP（Baseline to Week 12）"
+          ],
+          "completion": {
+            "date": "2025-09-02",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 303,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Tovinontrine (CRD-750)",
+              "description": "Tablet administered orally",
+              "armGroupLabels": [
+                "Tovinontrine (CRD-750)"
+              ],
+              "otherNames": [
+                "IMR-687"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Tablet administered orally",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06215586，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT06215586"
+            },
+            {
+              "title": "Cardurion：Tovinontrine二期结果，2026-10-11",
+              "url": "https://www.globenewswire.com/news-release/2026/10/11/3378505/0/en/cardurion-pharmaceuticals-presents-phase-2-results-for-tovinontrine-crd-750-a-pde9-inhibitor-as-a-novel-treatment-for-heart-failure.html"
+            }
+          ],
+          "note": "Cycle-2-PEF为HFpEF二期试验；登记已完成。",
+          "risks": "50 mg BID未改善NT-proBNP；较低剂量在HFpEF中的疗效仍属待验证假设。"
+        },
+        {
+          "id": "NCT05642312",
+          "title": "Vamikibart",
+          "company": "Hoffmann-La Roche",
+          "target": "IL-6",
+          "modality": "玻璃体内单克隆抗体",
+          "area": "眼科/炎症",
+          "indication": "Uveitic Macular Edema",
+          "stage": "Phase 3",
+          "status": "COMPLETED",
+          "trialTitle": "A Study to Investigate Vamikibart in Participants With Uveitic Macular Edema",
+          "registryUpdated": "2025-11-21",
+          "checked": "2026-10-12",
+          "summary": "ClinicalTrials.gov核实：A Study to Investigate Vamikibart in Participants With Uveitic Macular Edema；Phase 3，状态COMPLETED，申办方Hoffmann-La Roche。",
+          "endpoints": [
+            "Proportion of participants with ≥ 15 letter improvement from baseline in best-corrected visual acuity (BCVA) at Week 16（Week 16）"
+          ],
+          "completion": {
+            "date": "2025-07-09",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 245,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Vamikibart",
+              "description": "Participants will receive vamikibart IVT injection",
+              "armGroupLabels": [
+                "Arm A",
+                "Arm B"
+              ],
+              "otherNames": [
+                "RO7200220"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Sham",
+              "description": "Participants will receive a sham procedure that mimics an IVT injection.",
+              "armGroupLabels": [
+                "Arm C"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05642312，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT05642312"
+            },
+            {
+              "title": "Roche：Vamikibart 52周数据及BLA受理，2026-10-10",
+              "url": "https://www.roche.com/media/releases/med-cor-2026-10-10"
+            }
+          ],
+          "note": "MEERKAT具体登记；FDA受理BLA不等于批准。",
+          "risks": "公司未在本次公告中给出全部52周组间数值；眼内炎症、注射负担和类固醇替代程度仍需监管审评。"
+        },
+        {
+          "id": "NCT05642325",
+          "title": "Vamikibart",
+          "company": "Hoffmann-La Roche",
+          "target": "IL-6",
+          "modality": "玻璃体内单克隆抗体",
+          "area": "眼科/炎症",
+          "indication": "Uveitic Macular Edema",
+          "stage": "Phase 3",
+          "status": "COMPLETED",
+          "trialTitle": "Vamikibart in Participants With Uveitic Macular Edema",
+          "registryUpdated": "2026-04-17",
+          "checked": "2026-10-12",
+          "summary": "ClinicalTrials.gov核实：Vamikibart in Participants With Uveitic Macular Edema；Phase 3，状态COMPLETED，申办方Hoffmann-La Roche。",
+          "endpoints": [
+            "Proportion of participants with ≥ 15 letter improvement from baseline in best-corrected visual acuity (BCVA) at Week 16（Week 16）"
+          ],
+          "completion": {
+            "date": "2025-12-24",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 256,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Vamikibart",
+              "description": "Participants will receive vamikibart IVT injection",
+              "armGroupLabels": [
+                "Arm A",
+                "Arm B"
+              ],
+              "otherNames": [
+                "RO7200220"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Sham",
+              "description": "Participants will receive a sham procedure that mimics an IVT injection.",
+              "armGroupLabels": [
+                "Arm C"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05642325，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT05642325"
+            },
+            {
+              "title": "Roche：Vamikibart 52周数据及BLA受理，2026-10-10",
+              "url": "https://www.roche.com/media/releases/med-cor-2026-10-10"
+            }
+          ],
+          "note": "SANDCAT具体登记；FDA受理BLA不等于批准。",
+          "risks": "公司未在本次公告中给出全部52周组间数值；两项平行试验的一致性与长期安全决定可推广性。"
+        },
+        {
+          "id": "NCT07142356",
+          "title": "RTN-001",
+          "company": "Retension Pharmaceuticals. Inc.",
+          "target": "PDE5 / NO-cGMP信号",
+          "modality": "口服缓释小分子PDE5抑制剂",
+          "area": "心血管",
+          "indication": "Uncontrolled Hypertension",
+          "stage": "Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "A Study of Modified Release RTN-001 In Patients With Uncontrolled Hypertension",
+          "registryUpdated": "2026-10-02",
+          "checked": "2026-10-12",
+          "summary": "ClinicalTrials.gov核实：A Study of Modified Release RTN-001 In Patients With Uncontrolled Hypertension；Phase 2，状态RECRUITING，申办方Retension Pharmaceuticals. Inc.。",
+          "endpoints": [
+            "Mean change in systolic blood pressure (SBP) at 4 weeks（4 weeks）"
+          ],
+          "completion": {
+            "date": "2027-06",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 280,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "RTN-001",
+              "description": "Oral tablet",
+              "armGroupLabels": [
+                "RTN-001 (15 mg)",
+                "RTN-001 (30 mg)",
+                "RTN-001 (45 mg)"
+              ],
+              "otherNames": [
+                "SLx-2101"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Matching placebo control",
+              "description": "Oral tablet with similar appearance as the RTN-001.",
+              "armGroupLabels": [
+                "Placebo"
+              ],
+              "otherNames": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07142356，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT07142356"
+            },
+            {
+              "title": "Retension：IPO定价及募资用途，2026-10-08",
+              "url": "https://www.globenewswire.com/news-release/2026/10/09/3377794/0/en/retension-pharmaceuticals-announces-pricing-of-initial-public-offering.html"
+            }
+          ],
+          "note": "该二期登记用于核实Retension IPO募资用途；预计完成日期不等于结果发布日期。",
+          "risks": "血压替代终点、安慰剂校正幅度、耐受性与后续三期资金需求是关键风险。"
+        },
+        {
+          "id": "NCT06192264",
+          "title": "denifanstat / ASC40（ASC40-303）",
+          "modality": "口服小分子",
+          "area": "皮肤/代谢",
+          "target": "FASN",
+          "stage": "Phase 3",
+          "company": "Ascletis Pharmaceuticals Co., Ltd.",
+          "indication": "Acne",
+          "trialTitle": "A Study to Evaluate the Safety and Efficacy of ASC40 (Denifanstat) Tablets in the Treatment of Patients With Moderate to Severe Acne Vulgaris",
+          "status": "COMPLETED",
+          "registryUpdated": "2025-06-19",
+          "checked": "2026-10-12",
+          "summary": "中国随机双盲三期已完成，480人；主要终点覆盖12周IGA成功率及皮损计数变化。 本次按ClinicalTrials.gov登记页规范申办方名称；阶段、状态与主要终点未变。",
+          "endpoints": [
+            "Percentage of treatment success based on investigator's global assessment (IGA) in each group of subjects",
+            "Percentage change in total skin lesion counts compared to baseline ineach group of subjects",
+            "Percentage change in the count of inflammatory skin lesions compared to baseline in each group of subjects"
+          ],
+          "completion": {
+            "date": "2025-05-19",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 480,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "关联公开原始来源",
+              "url": "https://sagimetbiosciences.gcs-web.com/news-releases/news-release-details/sagimet-present-positive-full-52-week-results-license-partner"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT06192264，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT06192264"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；预计完成日期不等于数据读出日期。",
+          "risks": "公司公告结果与登记结果发布状态的差异、肝脏和脂质长期安全、青春期人群及地域可外推性。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ASC40",
+              "description": "ASC 40 tablets orally once daily",
+              "armGroupLabels": [
+                "ASC40 Placebo",
+                "ASC40 dose 1"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2025-05-19",
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT06248008",
+          "title": "denifanstat / ASC40（ASC40-304）",
+          "modality": "口服小分子",
+          "area": "皮肤/代谢",
+          "target": "FASN",
+          "stage": "Phase 3",
+          "company": "Ascletis Pharmaceuticals Co., Ltd.",
+          "indication": "Acne",
+          "trialTitle": "A Study to Evaluate Safety of ASC40 Tablets in Patients With Moderate to Severe Acne Vulgaris",
+          "status": "COMPLETED",
+          "registryUpdated": "2025-12-01",
+          "checked": "2026-10-12",
+          "summary": "中国开放标签三期延长期已完成，240人；主要目的为最长40周追加治疗的长期安全性。 本次按ClinicalTrials.gov登记页规范申办方名称；阶段、状态与主要终点未变。",
+          "endpoints": [
+            "Number and percentage of subjects with treatment emergent adverse events (TEAE)",
+            "Number and percentage of subjects with serious adverse event (SAE).",
+            "Number and percentage of subjects who discontinued due to adverse events."
+          ],
+          "completion": {
+            "date": "2025-11-12",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 240,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "关联公开原始来源",
+              "url": "https://sagimetbiosciences.gcs-web.com/news-releases/news-release-details/sagimet-present-positive-full-52-week-results-license-partner"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT06248008，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT06248008"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；预计完成日期不等于数据读出日期。",
+          "risks": "开放标签、无同期对照、疗效为次要终点；不能把52周变化直接视为安慰剂校正效果。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ASC40",
+              "description": "ASC40 tablets orally once daily",
+              "armGroupLabels": [
+                "ASC40 50mg"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2025-11-12",
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT05693935",
+          "title": "WELTRUZA / TV-44749（奥氮平缓释注射剂）",
+          "modality": "长效皮下注射小分子制剂",
+          "area": "神经精神",
+          "target": "多受体拮抗（含D2/5-HT2A）",
+          "stage": "Phase 3",
+          "company": "Teva Branded Pharmaceutical Products R&D LLC",
+          "indication": "Schizophrenia",
+          "trialTitle": "A Randomized, Double-Blind, Placebo-Controlled Study With an Open-Label, Long-Term Safety Phase to Evaluate the Efficacy and Safety of TV-44749 in Adults With Schizophrenia",
+          "status": "COMPLETED",
+          "registryUpdated": "2026-03-17",
+          "checked": "2026-10-12",
+          "summary": "SOLARIS三期已完成；675名成人精神分裂症患者，主要终点为8周PANSS总分变化。FDA已于2026-10-09批准对应产品WELTRUZA。 本次按ClinicalTrials.gov登记页规范申办方名称；阶段、状态与主要终点未变。",
+          "endpoints": [
+            "Double-blind Period: Change in the Positive and Negative Syndrome Scale (PANSS) Total Score From Baseline to Week 8"
+          ],
+          "completion": {
+            "date": "2025-01-27",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 675,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "关联公开原始来源",
+              "url": "https://ir.tevapharm.com/news-and-events/press-releases/press-release-details/2026/Teva-Announces-U-S--Food-and-Drug-Administration-FDA-Approval-of-WELTRUZA-Olanzapine-For-Extended-Release-Injectable-Suspension-as-the-First-and-Only-Once-Monthly-Subcutaneous-Injectable-Olanzapine-for-Adults-with-Schizophrenia/default.aspx"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT05693935，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT05693935"
+            }
+          ],
+          "note": "这里展示具体登记试验的阶段与状态，不代表该资产全球最高阶段或获批状态；登记信息由申办方维护。",
+          "risks": "真实世界依从性、体重与代谢风险、注射部位反应、支付覆盖及相对其他长效针剂的净获益。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "TV-44749",
+              "description": "In Period 1, 2 monthly injections. In Period 2, up to 12 monthly injections",
+              "armGroupLabels": [
+                "Double-blind Period: TV-44749 318 mg",
+                "Double-blind Period: TV-44749 425 mg",
+                "Double-blind Period: TV-44749 531 mg",
+                "Open-label Period: Placebo to TV-44749 318 mg",
+                "Open-label Period: Placebo to TV-44749 425 mg",
+                "Open-label Period: Placebo to TV-44749 531 mg"
+              ],
+              "otherNames": [
+                "Olanzapine for Extended-Release Injectable Suspension"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "In Period 1, 2 monthly injections (Period 1 only)",
+              "armGroupLabels": [
+                "Double-blind Period: Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2024-03-19",
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT04794101",
+          "title": "AAV5-hRKp.RPGR",
+          "modality": "基因治疗",
+          "area": "眼科",
+          "target": "RPGR",
+          "stage": "Phase 3",
+          "company": "MeiraGTx Ocular UK Ltd",
+          "indication": "X-Linked Retinitis Pigmentosa",
+          "trialTitle": "Follow-up Gene Therapy Trial for the Treatment of X-linked Retinitis Pigmentosa Associated With Variants in the RPGR Gene",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "registryUpdated": "2026-09-25",
+          "checked": "2026-10-12",
+          "summary": "A clinical trial of AAV5-hRKp.RPGR vector for participants with X-linked retinitis pigmentosa (XLRP) 本次按ClinicalTrials.gov登记页规范申办方名称；阶段、状态与主要终点未变。",
+          "endpoints": [
+            "Number of Participants with Ocular and Non-ocular Adverse Events",
+            "Number of Participants With Abnormalities in Laboratory Assessments",
+            "Change From Baseline in Best Corrected Visual Acuity (BCVA) by Early Treatment Diabetic Retinopathy Study (ETDRS) Chart Letter Score in Monocular Assessment",
+            "Change From Baseline in Low Luminance Visual Acuity by ETDRS Chart Letter Score in Monocular Assessment"
+          ],
+          "completion": {
+            "date": "2029-12-07",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 97,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT04794101，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT04794101"
+            }
+          ],
+          "note": "本次登记核查显示申办方名称由 MeiraGTx Ocular UK Ltd 更新为 MeiraGTx UK Ltd，预计完成日由2029-09-20调整为2029-12-07；预计完成日不是结果读出承诺。试验阶段不代表获批状态。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Genetic: AAV5-hRKp.RPGR Intermediate Dose",
+              "description": "Bilateral, subretinal administration of AAV5-hRKp.RPGR - deferred treatment group",
+              "armGroupLabels": [
+                "Already Treated in MGT-RPGR-021",
+                "Deferred Treatment From MGT-RPGR-021 of Intermediate Dose"
+              ],
+              "otherNames": [
+                "botaretigene sparoparvovec"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Genetic: AAV5-hRKp.RPGR Low Dose",
+              "description": "Bilateral, subretinal administration of AAV5-hRKp.RPGR - deferred treatment group",
+              "armGroupLabels": [
+                "Already Treated in MGT-RPGR-021",
+                "Deferred Treatment From MGT-RPGR-021 Low Dose"
+              ],
+              "otherNames": [
+                "botaretigene sparoparvovec"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2029-09-20",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT07661056",
+          "title": "BHV-1300",
+          "company": "Biohaven Therapeutics Ltd.",
+          "target": "pan-IgG / ASGPR",
+          "modality": "小分子胞外IgG降解剂",
+          "area": "自免 / 内分泌",
+          "indication": "Graves Disease",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "Study to Determine if BHV-1300 is Effective and Safe in Adults With Graves' Disease",
+          "registryUpdated": "2026-10-06",
+          "checked": "2026-10-12",
+          "summary": "The purpose of this study is to evaluate the efficacy and safety of BHV-1300 in adult participants with Graves' disease who are actively hyperthyroid 本次按ClinicalTrials.gov登记页规范申办方名称；阶段、状态与主要终点未变。",
+          "endpoints": [
+            "Number of participants on BHV-1300 vs placebo who are not on an antithyroid drug and with normal thyroid function (total T3, free T4 (FT4), & TSH within normal limits) at Week 26."
+          ],
+          "primaryCompletion": {
+            "date": "2028-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-02",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 300,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07661056，核查于2026-10-12",
+              "url": "https://clinicaltrials.gov/study/NCT07661056"
+            }
+          ],
+          "note": "这里记录该项具体试验的登记阶段与状态，不代表资产全球最高阶段或获批状态；预计完成时间不等于已确认读出日期。",
+          "risks": "需验证临床获益、安全性、感染风险及选择性保留IgG3的转化意义。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "BHV-1300",
+              "description": "delivered subcutaneously via autoinjector",
+              "armGroupLabels": [
+                "BHV-1300"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "delivered subcutaneously via autoinjector",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-bridgebio-calcilytix",
+          "title": "Calcilytix Therapeutics, Inc., a BridgeBio company",
+          "date": "2026-10-11",
+          "checked": "2026-10-12",
+          "summary": "Encaleret的ADH1 NDA获FDA优先审评，PDUFA为2027-05-08；同时启动慢性甲旁减三期RECLAIM-HP。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "核心资产encaleret为口服CaSR负变构调节剂；CALIBRATE支持ADH1申报，RECLAIM-HP扩展至更广的慢性甲状旁腺功能减退。"
+            },
+            {
+              "heading": "战略与融资",
+              "body": "BridgeBio以罕见病精准机制和家系检测提高诊断率；价值取决于监管批准、患者识别及对钙/活性维生素D标准治疗的长期替代。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BridgeBio公告，2026-10-11",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378507/0/en/encaleret-increased-bone-turnover-and-improved-participant-reported-symptoms-in-the-phase-3-calibrate-trial-in-adh1.html"
+            }
+          ]
+        },
+        {
+          "id": "company-cardurion-pharmaceuticals",
+          "title": "Cardurion Pharmaceuticals, Inc.",
+          "date": "2026-10-11",
+          "checked": "2026-10-12",
+          "summary": "公布PDE9抑制剂tovinontrine的HFrEF与HFpEF二期结果；低/中剂量见NT-proBNP信号，最高剂量未见效应。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "以PDE9和CaMKII为心血管信号通路核心；tovinontrine为口服PDE9抑制剂。"
+            },
+            {
+              "heading": "战略与风险",
+              "body": "需用前瞻性剂量选择研究复现逆向剂量反应，并最终证明住院、死亡或功能获益；仅有生物标志物信号不足以建立商业价值。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Cardurion公告，2026-10-11",
+              "url": "https://www.globenewswire.com/news-release/2026/10/11/3378505/0/en/cardurion-pharmaceuticals-presents-phase-2-results-for-tovinontrine-crd-750-a-pde9-inhibitor-as-a-novel-treatment-for-heart-failure.html"
+            }
+          ]
+        },
+        {
+          "id": "company-claris-biotherapeutics",
+          "title": "Claris Biotherapeutics, Inc.",
+          "date": "2026-10-11",
+          "checked": "2026-10-12",
+          "summary": "CSB-001在LSCD开放标签概念验证中报告视力改善，公司计划2027年上半年启动两项关键性研究。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "CSB-001为重组dHGF眼药水，目标是促进角膜上皮修复、调节炎症并抑制纤维化。"
+            },
+            {
+              "heading": "融资与战略",
+              "body": "公司称已获得支持关键性开发的资金；真正去风险需要随机、车辆对照并处理双眼相关性和按眼统计问题。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Claris公告，2026-10-11",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378520/0/en/claris-biotherapeutics-releases-positive-csb-001-clinical-proof-of-concept-data-in-limbal-stem-cell-deficiency-at-aao-2026-annual-meeting.html"
+            }
+          ]
+        },
+        {
+          "id": "company-roche-genentech",
+          "title": "F. Hoffmann-La Roche / Genentech",
+          "date": "2026-10-10",
+          "checked": "2026-10-12",
+          "summary": "公布vamikibart治疗葡萄膜炎性黄斑水肿52周数据，并确认美国、欧盟、中国和日本申报进展。",
+          "sections": [
+            {
+              "heading": "资产与平台",
+              "body": "Vamikibart为玻璃体内抗IL-6抗体；MEERKAT与SANDCAT为两项平行三期。"
+            },
+            {
+              "heading": "商业与战略",
+              "body": "若获批，定位为非类固醇靶向治疗；差异化取决于视力获益、少量追加注射、安全性与支付接受度。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roche公告，2026-10-10",
+              "url": "https://www.roche.com/media/releases/med-cor-2026-10-10"
+            }
+          ]
+        },
+        {
+          "id": "company-seaport-therapeutics",
+          "title": "Seaport Therapeutics, Inc.",
+          "date": "2026-10-09",
+          "checked": "2026-10-12",
+          "summary": "GlyphAgo一期显示相对未修饰agomelatine提高生物利用度并降低PK变异，已启动GAD二期。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "Glyph平台通过肠道淋巴吸收绕过肝脏首过代谢；GlyphAgo为agomelatine前药。"
+            },
+            {
+              "heading": "证据边界",
+              "body": "一期174名健康志愿者证明PK与耐受性，不证明焦虑疗效，也未直接证明临床肝毒性风险下降。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Seaport公告，2026-10-09",
+              "url": "https://investors.seaporttx.com/news-releases/news-release-details/seaport-therapeutics-presents-additional-pharmacokinetic-data"
+            }
+          ]
+        },
+        {
+          "id": "company-retension-pharmaceuticals",
+          "title": "Retension Pharmaceuticals, Inc.",
+          "date": "2026-10-08",
+          "checked": "2026-10-12",
+          "summary": "以每股12美元完成扩大发行规模的IPO定价，拟募资4500万美元支持RTN-001二期及三期准备。",
+          "sections": [
+            {
+              "heading": "资产与权利",
+              "body": "RTN-001为Sanofi独家全球许可的下一代PDE5抑制剂，面向未控制和难治性高血压。"
+            },
+            {
+              "heading": "融资与风险",
+              "body": "所有股份为公司新发；融资规模小，是否覆盖至关键三期节点取决于净募资、现有现金与烧钱速度。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Retension IPO公告，2026-10-08",
+              "url": "https://www.globenewswire.com/news-release/2026/10/09/3377794/0/en/retension-pharmaceuticals-announces-pricing-of-initial-public-offering.html"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-casr-encaleret",
+          "title": "CaSR负变构调节｜Encaleret",
+          "date": "2026-10-11",
+          "checked": "2026-10-12",
+          "summary": "通过降低过度活跃CaSR对细胞外钙的敏感性，恢复PTH分泌并同时改善血钙和尿钙调节。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "CALIBRATE公司报告encaleret组91%达到或超过PTH正常下限，标准治疗组为0%；同时出现骨转换标志物变化。"
+            },
+            {
+              "heading": "待验证",
+              "body": "患者报告结局为支持证据；长期骨、肾结局及更广甲旁减人群获益仍待验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BridgeBio公告，2026-10-11",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378507/0/en/encaleret-increased-bone-turnover-and-improved-participant-reported-symptoms-in-the-phase-3-calibrate-trial-in-adh1.html"
+            }
+          ]
+        },
+        {
+          "id": "target-pde9-cgmp-heart-failure",
+          "title": "PDE9 / cGMP｜Tovinontrine",
+          "date": "2026-10-11",
+          "checked": "2026-10-12",
+          "summary": "抑制PDE9以增强心肌细胞利钠肽-cGMP保护信号；二期出现非单调剂量反应。",
+          "sections": [
+            {
+              "heading": "支持证据",
+              "body": "HFrEF试验两个较低剂量降低NT-proBNP，并伴BNP与cGMP方向一致变化。"
+            },
+            {
+              "heading": "失败与竞争",
+              "body": "最高剂量无效，HFpEF 50 mg BID亦未见显著NT-proBNP变化；机制解释仍需前瞻性剂量验证，且需叠加现有GDMT证明临床结局。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Cardurion公告，2026-10-11",
+              "url": "https://www.globenewswire.com/news-release/2026/10/11/3378505/0/en/cardurion-pharmaceuticals-presents-phase-2-results-for-tovinontrine-crd-750-a-pde9-inhibitor-as-a-novel-treatment-for-heart-failure.html"
+            }
+          ]
+        },
+        {
+          "id": "target-il6-vamikibart-eye",
+          "title": "IL-6｜Vamikibart眼内抗体",
+          "date": "2026-10-10",
+          "checked": "2026-10-12",
+          "summary": "局部抑制IL-6以减少葡萄膜炎相关炎症、血视网膜屏障破坏和黄斑水肿。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "两项平行三期在52周保持视力和中央视网膜厚度改善；约三分之二符合条件者在16周后无需再次治疗。"
+            },
+            {
+              "heading": "安全与竞争",
+              "body": "需与局部/全身类固醇和免疫调节剂比较长期眼压、白内障、炎症控制和给药负担。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roche公告，2026-10-10",
+              "url": "https://www.roche.com/media/releases/med-cor-2026-10-10"
+            }
+          ]
+        },
+        {
+          "id": "target-dhgf-cmet-corneal-repair",
+          "title": "dHGF / c-MET角膜修复｜CSB-001",
+          "date": "2026-10-11",
+          "checked": "2026-10-12",
+          "summary": "利用缺失5个氨基酸的重组HGF促进角膜上皮再生并调节炎症与纤维化。",
+          "sections": [
+            {
+              "heading": "支持证据",
+              "body": "开放标签研究显示视力与解剖改善相关，但对照未给药且样本量小。"
+            },
+            {
+              "heading": "待验证",
+              "body": "需要随机车辆对照、受试者层级统计、持续给药安全性和可复制的15字母获益。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Claris公告，2026-10-11",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378520/0/en/claris-biotherapeutics-releases-positive-csb-001-clinical-proof-of-concept-data-in-limbal-stem-cell-deficiency-at-aao-2026-annual-meeting.html"
+            }
+          ]
+        },
+        {
+          "id": "target-lymphatic-first-pass-glyph",
+          "title": "肠道淋巴吸收 / 首过代谢规避｜GlyphAgo",
+          "date": "2026-10-09",
+          "checked": "2026-10-12",
+          "summary": "将agomelatine设计为经淋巴吸收的前药，以提高暴露、减少个体差异并降低肝脏首过暴露。",
+          "sections": [
+            {
+              "heading": "人体PK",
+              "body": "一期健康志愿者中生物利用度提高6.8倍、PK变异显著下降，且未见食物效应或7天累积。"
+            },
+            {
+              "heading": "待验证",
+              "body": "PK改善是否带来更稳定焦虑疗效和更低肝酶升高风险，必须由患者试验和长期肝功能数据证明。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Seaport公告，2026-10-09",
+              "url": "https://investors.seaporttx.com/news-releases/news-release-details/seaport-therapeutics-presents-additional-pharmacokinetic-data"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-08-retension-ipo",
+          "title": "Retension Pharmaceuticals扩大发行规模IPO",
+          "date": "2026-10-08",
+          "checked": "2026-10-12",
+          "summary": "发行375万股、每股12美元，预计募资总额4500万美元；另有最多56.25万股超额配售选择权。",
+          "sections": [
+            {
+              "heading": "交易条款",
+              "body": "发行人：Retension；类型：一级IPO；币种：美元；发行价12美元；基础发行375万股；总募资4500万美元；承销折扣、其他费用和净募资未在公告中披露。"
+            },
+            {
+              "heading": "资金用途",
+              "body": "完成RTN-001未控制高血压二期、为计划中的三期做准备，其余用于一般公司用途。"
+            },
+            {
+              "heading": "分析",
+              "body": "扩大发行数量且按11–13美元区间中点定价，说明订单支持尚可；但小规模融资可能无法独立覆盖完整三期。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Retension IPO公告，2026-10-08",
+              "url": "https://www.globenewswire.com/news-release/2026/10/09/3377794/0/en/retension-pharmaceuticals-announces-pricing-of-initial-public-offering.html"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-2027-05-08-encaleret-adh1-pdufa",
+          "title": "Encaleret ADH1美国PDUFA",
+          "date": "2027-05-08",
+          "checked": "2026-10-12",
+          "summary": "事件类型：FDA审评；状态：confirmed；FDA已受理NDA并授予优先审评，目标行动日2027-05-08。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "获批标签、长期安全性、尿钙与肾脏管理、诊断路径和上市准备。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BridgeBio公告，2026-10-11",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378507/0/en/encaleret-increased-bone-turnover-and-improved-participant-reported-symptoms-in-the-phase-3-calibrate-trial-in-adh1.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-07-vamikibart-fda",
+          "title": "Vamikibart美国FDA决定窗口",
+          "date": "2027-07-31",
+          "checked": "2026-10-12",
+          "summary": "事件类型：BLA审评；状态：estimated；Roche称FDA预计2027年7月前后作出决定，未披露具体PDUFA日期。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "两项三期的一致性、52周安全、注射频率和非类固醇标签定位。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roche公告，2026-10-10",
+              "url": "https://www.roche.com/media/releases/med-cor-2026-10-10"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-h1-csb001-pivotal-start",
+          "title": "CSB-001两项关键性研究计划启动",
+          "date": "2027-06-30",
+          "checked": "2026-10-12",
+          "summary": "事件类型：关键性试验启动；状态：estimated；公司计划2027年上半年启动，具体日期未披露。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "车辆对照、受试者而非眼的统计单位、视觉与解剖共同终点、持续给药方案。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Claris公告，2026-10-11",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/11/3378520/0/en/claris-biotherapeutics-releases-positive-csb-001-clinical-proof-of-concept-data-in-limbal-stem-cell-deficiency-at-aao-2026-annual-meeting.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2028-early-glyphago-phase2a",
+          "title": "GlyphAgo GAD二期A顶线数据",
+          "date": "2028-03-31",
+          "checked": "2026-10-12",
+          "summary": "事件类型：临床顶线；状态：estimated；公司预计2028年初，未披露具体日期；暂无可靠NCT登记可结构化核对。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "焦虑和睡眠终点、肝酶、PK-疗效关系以及安慰剂反应。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Seaport公告，2026-10-09",
+              "url": "https://investors.seaporttx.com/news-releases/news-release-details/seaport-therapeutics-presents-additional-pharmacokinetic-data"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2026-10-13-retension-ipo-close",
+          "title": "Retension IPO预计交割",
+          "date": "2026-10-13",
+          "checked": "2026-10-12",
+          "summary": "事件类型：股权融资交割；状态：estimated；公告称预计10月13日前后完成，仍受惯常条件约束。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "实际净募资、超额配售、上市后流动性及S-1披露的现金跑道。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Retension IPO公告，2026-10-08",
+              "url": "https://www.globenewswire.com/news-release/2026/10/09/3377794/0/en/retension-pharmaceuticals-announces-pricing-of-initial-public-offering.html"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-11",
       "date": "2026-10-11",
@@ -6741,20 +8038,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-11T07:02:22+08:00",
+    "checkedAt": "2026-10-12T07:13:05+08:00",
     "status": "success",
     "counts": {
-      "baselinePipelineChecked": 31,
-      "baselinePipelineChanged": 0,
+      "baselinePipelineChecked": 38,
+      "baselinePipelineChanged": 5,
       "baselinePipelineFailed": 0,
-      "newPipelinesAdded": 7,
+      "newPipelinesAdded": 8,
       "companiesUpserted": 6,
-      "targetsUpserted": 4,
+      "targetsUpserted": 5,
       "dealsAdded": 1,
-      "catalystsUpserted": 4,
-      "briefEvents": 4
+      "catalystsUpserted": 5,
+      "briefEvents": 6
     },
-    "summary": "现有31项不重复NCT全部核查成功、0失败；干预药物、申办方、阶段、状态、适应症、主要终点及登记日期未发现需刷新变化。新增7项经ClinicalTrials.gov核实的临床记录。RO-104仍为临床前且无可靠NCT，未编造；Glaukos–RevOpsis财务条款未披露。"
+    "summary": "既有38项不重复NCT全部核查成功、0失败；5项仅按ClinicalTrials.gov规范申办方名称，未发现阶段、状态、适应症或主要终点实质变化。新增8项经登记核实的临床记录。GlyphAgo患者试验未找到可靠NCT，保留数据缺口；所有预计完成时间均未当作确认读出日。"
   },
   "archivedPapers": []
 }
