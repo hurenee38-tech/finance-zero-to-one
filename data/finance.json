@@ -1,8 +1,845 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-12T07:13:05+08:00",
+  "updatedAt": "2026-10-13T07:22:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-13",
+      "date": "2026-10-13",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜α放射药三期验证、IPF剂量谜题与可比估值",
+      "summary": "六条进展覆盖肿瘤放射性药物、呼吸纤维化、罕见肝病、精神分裂症、蛋白降解与遗传眼病；学习交易可比法，并完成51个去重NCT的本轮维护。",
+      "sections": [
+        {
+          "heading": "今日概念｜交易可比法与企业价值倍数",
+          "body": "交易可比法先找业务阶段、治疗领域、增长和风险相近的公司或资产，再把其市场定价倍数映射到目标。对尚未盈利的生物科技，P/E没有意义，常用EV/预期收入；对成熟药企可看EV/EBITDA。企业价值EV=股权价值+有息债务-现金，先估EV再做净债务桥接，避免把账上现金重复计价。倍数不是物理常数：临床成功率、专利期、集中度和融资需求不同，必须折价或溢价。"
+        },
+        {
+          "heading": "短算例｜从5倍收入到每股价值",
+          "body": "假设某罕见病公司未来12个月收入4亿美元，可比公司EV/收入中位数为5倍，则企业价值EV=4×5=20亿美元。公司有现金4.5亿美元、债务1亿美元，因此股权价值=20-1+4.5=23.5亿美元。若完全稀释股数1亿股，每股价值=23.5美元。考虑患者识别和标签扩展执行风险，应用30%折价后为16.45美元。关键敏感性：倍数每变化1倍收入，股权价值改变4亿美元，即每股4美元。"
+        },
+        {
+          "heading": "行业进展 1｜RYZ101三期阳性，开始验证BMS的RayzeBio并购逻辑",
+          "body": "事实：2026-10-12，BMS披露ACTION-1计划中期分析达到主要终点，RYZ101相对标准治疗显著且具临床意义地改善独立评审PFS；试验为经177Lu放射性配体治疗后进展的SSTR阳性GEP-NET，尚未公布HR或绝对PFS。科学：这是公司所称首个α核素靶向放射治疗三期阳性。商业：后线人群明确，但225Ac供应、制造和中心能力决定真实可及市场。战略：结果支持BMS约41亿美元收购RayzeBio的核心假设。财务：临床成功概率可上调，但完整价值仍需扣除制造资本开支、上市成本和监管不确定性。"
+        },
+        {
+          "heading": "行业进展 2｜Admilparant低剂量达标、高剂量失手",
+          "body": "事实：2026-10-12，ALOFT-IPF三期中60 mg每日两次在52周FVC绝对变化达到主要终点，120 mg仅减缓下降但未达统计学显著；公司称停药率与安慰剂相近。科学：LPA1通路获得后期人体支持，但非单调剂量反应要求审查暴露、依从性、基线及安全性。商业：IPF人群大且现有疗法耐受性有限，若获批可形成重磅机会。战略：BMS获得呼吸纤维化后期资产，但需用完整数据解释剂量选择。财务：不能只按“一个三期阳性”上调峰值销售；最佳做法是分情景估值。"
+        },
+        {
+          "heading": "行业进展 3｜LIVMARLI三期拓展超罕见胆汁淤积病",
+          "body": "事实：2026-10-12，52例EXPAND随机研究达到瘙痒主要终点及全部五项预设次要终点；儿童人群ItchRO较安慰剂校正改善0.98分，血清胆汁酸相对安慰剂下降69%，公司计划2027年上半年提交sNDA。科学：症状和胆汁酸方向一致支持IBAT机制。商业：标签扩展可复用现有罕见肝病商业基础。战略：从单一基因病扩至病因更异质人群，扩大市场同时提高诊断和支付复杂度。财务：边际销售费用较低可能提升经营杠杆，但小样本与病因异质要求峰值销售折价。"
+        },
+        {
+          "heading": "行业进展 4｜Obuprazine二期b报告广谱精神分裂症改善",
+          "body": "事实：2026-10-12，Tortugas/翰森披露三剂量在第42天PANSS总分均显著优于安慰剂；低剂量组安慰剂校正差异为-16.7分，且阳性、阴性和认知因子均改善，公司称停药率低。科学：多受体药理可能覆盖多症状域，但公告尚不足以替代完整统计和安全数据。商业：差异化必须同时体现疗效、体重/代谢、锥体外系和用药便利。战略：这是中国原研资产海外合作的价值验证节点。财务：若三期复制且安全差异成立，可显著提高授权价值；在此之前应保留高折现率。"
+        },
+        {
+          "heading": "行业进展 5｜AMX-883把DCAF16-BRD9降解首次带入临床",
+          "body": "事实：2026-10-12，Amphista宣布NCT07723703首例给药；54例Phase 1评估口服AMX-883单药及与posaconazole联用的安全、PK和初步疗效。科学：该分子胶绕开常见CRBN/VHL，利用DCAF16降解BRD9，试图解除AML干性。商业：若跨突变亚型有效，适用面可能宽于单一突变药。战略：公司从平台故事进入人体证据阶段。财务：首例给药主要降低执行风险，不应等同于疗效去风险；真正价值节点是人体靶标降解和缓解信号。"
+        },
+        {
+          "heading": "行业进展 6｜STK-002用OPA1蛋白恢复切入遗传性视神经病",
+          "body": "事实：2026-10-12，Stoke披露ADOA自然史与临床前数据，OSPREY前两队列给药完成；第三队列预计年底完成，初步安全及疗效数据计划2027年上半年。科学：ASO提高健康OPA1等位基因输出，针对单倍剂量不足和线粒体功能障碍。商业：无获批治疗带来高未满足需求，但患者量小、视力下降慢，终点设计困难。战略：眼科可扩展TANGO平台的组织覆盖。财务：当前仍是支持证据而非临床疗效读出，估值不应提前兑现2027年数据。"
+        },
+        {
+          "heading": "跨岗位视角｜同一条RYZ101阳性消息如何被不同角色使用",
+          "body": "投行：把阳性三期用于更新同类放射性药物交易倍数、融资窗口和BMS资本配置叙事。FA顾问：为卖方强调机制与并购验证，为买方压实未披露效应量、同位素供应和制造资本开支。BD：评估SSTR2之外靶点、同位素供给协议、区域权益和后续组合。投资人：先更新成功概率，再等HR、绝对PFS、OS、安全和监管反馈，避免把“达标”直接等同峰值销售。咨询顾问：从治疗路径、中心容量、患者转诊、诊断和付费测算可及市场与上市准备。"
+        },
+        {
+          "heading": "小案例｜RYZ101三期阳性应增加多少rNPV",
+          "body": "纯教学假设：阳性顶线前获批概率55%，现上调到80%；若成功时资产税后风险前NPV为55亿美元，额外制造与上市投入现值为3亿美元，则增量rNPV=(80%-55%)×55-3=10.75亿美元。若完整数据后成功概率只上调到70%，增量仅为5.25亿美元。启示：新闻带来的价值不是“峰值销售×倍数”，而是概率变化乘以成功情景价值，再减新增投入。"
+        },
+        {
+          "heading": "数据库巡检",
+          "body": "本期逐项回读既有46个去重NCT：成功46、失败0、实质变更0。新增并核实5项：NCT05477576、NCT06003426、NCT06553768、NCT07723703、NCT05908084。Obuprazine本次公开材料未提供可可靠对应的NCT，STK-002使用ISRCTN登记，因此未伪造NCT记录。所有预计完成日期仅按登记保留，未当作确认读出日；Humacyte公告仅确认2026-10-22展示，不把未公开数值写成结果。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "如果你是BMS的投资委员会成员，看到RYZ101三期“达到PFS主要终点”但没有HR、绝对PFS和完整安全数据，你会立即把RayzeBio收购的价值上调多少？请列出必须获得的三类证据，并说明每类证据会改变哪一个估值参数。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先把价值写成rNPV=获批概率×成功情景NPV-后续投入，再判断新信息改变的是概率、成功情景现金流还是成本。推理步骤与依据：第一，必要证据是效应量，包括HR、绝对中位PFS和置信区间，它决定产品差异化、渗透率和峰值销售；第二，必要证据是完整安全性与剂量暴露，它决定标签、停药率和获批概率；第三，必要证据是制造与225Ac供应，它决定可治疗患者数、毛利率和资本开支。支持证据包括三期达到预设PFS、独立中心评审和既往177Lu后人群的明确定位。待验证假设包括FDA是否接受当前数据申报、OS是否有利及供应是否能支撑放量。一种可行答案：先将获批概率从55%上调到70%而非80%，风险前NPV假设55亿美元、额外投入3亿美元，则增量=(70%-55%)×55-3=5.25亿美元；待完整效应量和安全数据后再上调。常见误区：把“统计学显著”当成商业成功；忽略同位素供应；直接用41亿美元收购价当资产公允价值；把预计完成日期当读出日。自查标准：是否明确区分事实与假设；是否至少覆盖概率、收入/利润、投入三类参数；是否做了保守和乐观情景；是否说明什么新证据会触发下一次估值调整。开放问题没有唯一答案，关键是参数与证据对应。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Trading comparables",
+          "zh": "交易可比法/可比公司估值",
+          "meaning": "用相似公司的市场倍数推算目标企业价值，必须调整成长、风险和资本结构差异。"
+        },
+        {
+          "en": "EV/Revenue",
+          "zh": "企业价值/收入倍数",
+          "meaning": "企业价值除以收入，常用于尚未盈利但有收入的生物科技公司。"
+        },
+        {
+          "en": "Risk-adjusted NPV (rNPV)",
+          "zh": "风险调整净现值",
+          "meaning": "把成功情景现金流按开发或监管成功概率加权后的现值。"
+        },
+        {
+          "en": "Hazard ratio",
+          "zh": "风险比",
+          "meaning": "比较两组在随访期间即时事件风险；低于1通常表示试验组事件风险更低。"
+        },
+        {
+          "en": "Targeted radiopharmaceutical therapy",
+          "zh": "靶向放射性药物治疗",
+          "meaning": "用配体把放射性同位素递送至表达特定靶点的病灶。"
+        },
+        {
+          "en": "Forced vital capacity (FVC)",
+          "zh": "用力肺活量",
+          "meaning": "一次最大呼气可排出的气体体积，是肺纤维化常用功能终点。"
+        },
+        {
+          "en": "Molecular glue degrader",
+          "zh": "分子胶降解剂",
+          "meaning": "小分子促进靶蛋白与E3连接酶相互作用，使靶蛋白被泛素化并降解。"
+        },
+        {
+          "en": "Haploinsufficiency",
+          "zh": "单倍剂量不足",
+          "meaning": "一个正常等位基因产生的蛋白不足以维持正常功能。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "BMS ACTION-1 RYZ101公告，2026-10-12",
+          "url": "https://www.biospace.com/press-releases/bristol-myers-squibb-announces-positive-topline-results-from-the-interim-analysis-of-phase-3-action-1-for-ryz101-rayzebios-radiopharmaceutical-therapy-in-patients-with-gep-nets"
+        },
+        {
+          "title": "BMS ALOFT-IPF admilparant公告，2026-10-12",
+          "url": "https://www.biospace.com/press-releases/bristol-myers-squibb-announces-phase-3-aloft-ipf-trial-evaluating-admilparant-in-adults-with-idiopathic-pulmonary-fibrosis-met-primary-endpoint"
+        },
+        {
+          "title": "Mirum EXPAND公告，2026-10-12",
+          "url": "https://www.biospace.com/press-releases/mirum-pharmaceuticals-announces-primary-endpoint-met-in-phase-3-expand-study-of-livmarli-maralixibat-in-ultra-rare-cholestatic-liver-diseases"
+        },
+        {
+          "title": "Tortugas obuprazine二期b公告，2026-10-12",
+          "url": "https://www.biospace.com/press-releases/tortugas-neuroscience-announces-positive-phase-2b-results-for-obuprazine-trtl-107-in-schizophrenia-demonstrating-broad-symptom-improvement-and-rapid-onset"
+        },
+        {
+          "title": "Amphista AMX-883首例给药公告，2026-10-12",
+          "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-first-patient-dosed-in-amx-883-phase-1-clinical-trial-for-acute-myeloid-leukemia"
+        },
+        {
+          "title": "Stoke STK-002 AAO公告，2026-10-12",
+          "url": "https://www.biospace.com/press-releases/stoke-therapeutics-presents-data-supporting-the-disease-modifying-potential-of-stk-002-in-autosomal-dominant-optic-atrophy-adoa-at-the-american-academy-of-ophthalmology-aao-2026-annual-meeting"
+        },
+        {
+          "title": "Humacyte V012 ASN安排，2026-10-12",
+          "url": "https://www.biospace.com/press-releases/humacyte-announces-phase-3-v012-trial-results-for-atev-in-women-requiring-hemodialysis-access-accepted-for-a-late-breaking-session-presentation-at-asn-kidney-week-2026"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT05477576，核查于2026-10-13",
+          "url": "https://clinicaltrials.gov/study/NCT05477576"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06003426，核查于2026-10-13",
+          "url": "https://clinicaltrials.gov/study/NCT06003426"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06553768，核查于2026-10-13",
+          "url": "https://clinicaltrials.gov/study/NCT06553768"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT07723703，核查于2026-10-13",
+          "url": "https://clinicaltrials.gov/study/NCT07723703"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT05908084，核查于2026-10-13",
+          "url": "https://clinicaltrials.gov/study/NCT05908084"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT05477576",
+          "title": "RYZ101 (225Ac-DOTATATE)",
+          "company": "RayzeBio, Inc.",
+          "target": "SSTR2",
+          "modality": "靶向α放射性药物",
+          "area": "肿瘤",
+          "indication": "经177Lu治疗后进展的SSTR阳性GEP-NET",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy",
+          "registryUpdated": "2026-10-05",
+          "checked": "2026-10-13",
+          "summary": "ClinicalTrials.gov核实：Study of RYZ101 Compared With SOC in Pts w Inoperable SSTR+ Well-differentiated GEP-NET That Has Progressed Following 177Lu-SSA Therapy；Phase 3，状态ACTIVE_NOT_RECRUITING，申办方RayzeBio, Inc.。",
+          "endpoints": [
+            "Phase 1b: RP3D（56 days of study treatment）",
+            "Phase 3: PFS as determined by BICR（After the target number of 143 PFS events have occurred）"
+          ],
+          "completion": {
+            "date": "2030-12",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 343,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "RYZ101",
+              "description": "RP3D as determined in Phase 1b",
+              "armGroupLabels": [
+                "Phase 1b - RYZ101",
+                "Phase 3 - RYZ101",
+                "Phase 3 - RYZ101, PK/ECG Substudy adhoc subcohort"
+              ],
+              "otherNames": []
+            },
+            {
+              "type": "DRUG",
+              "name": "Everolimus",
+              "description": "Everolimus",
+              "armGroupLabels": [
+                "Phase 3 - Standard of Care"
+              ],
+              "otherNames": []
+            },
+            {
+              "type": "DRUG",
+              "name": "Sunitinib",
+              "description": "Sunitinib",
+              "armGroupLabels": [
+                "Phase 3 - Standard of Care"
+              ],
+              "otherNames": []
+            },
+            {
+              "type": "DRUG",
+              "name": "Octreotide",
+              "description": "High-dose octreotide",
+              "armGroupLabels": [
+                "Phase 3 - Standard of Care"
+              ],
+              "otherNames": []
+            },
+            {
+              "type": "DRUG",
+              "name": "Lanreotide",
+              "description": "Lanreotide",
+              "armGroupLabels": [
+                "Phase 3 - Standard of Care"
+              ],
+              "otherNames": []
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05477576，核查于2026-10-13",
+              "url": "https://clinicaltrials.gov/study/NCT05477576"
+            },
+            {
+              "title": "BMS ACTION-1顶线结果，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/bristol-myers-squibb-announces-positive-topline-results-from-the-interim-analysis-of-phase-3-action-1-for-ryz101-rayzebios-radiopharmaceutical-therapy-in-patients-with-gep-nets"
+            }
+          ],
+          "note": "ACTION-1具体登记；Phase 3阳性顶线不等于已获批，登记中的完成日期是估计值。",
+          "risks": "尚未披露HR、绝对PFS、亚组、OS成熟度及完整安全性；225Ac供应与制造是商业放量约束。"
+        },
+        {
+          "id": "NCT06003426",
+          "title": "Admilparant (BMS-986278)",
+          "company": "Bristol-Myers Squibb",
+          "target": "LPA1",
+          "modality": "口服小分子拮抗剂",
+          "area": "呼吸/纤维化",
+          "indication": "特发性肺纤维化",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Study to Evaluate the Efficacy, Safety, and Tolerability of BMS-986278 in Participants With Idiopathic Pulmonary Fibrosis",
+          "registryUpdated": "2026-03-24",
+          "checked": "2026-10-13",
+          "summary": "ClinicalTrials.gov核实：A Study to Evaluate the Efficacy, Safety, and Tolerability of BMS-986278 in Participants With Idiopathic Pulmonary Fibrosis；Phase 3，状态ACTIVE_NOT_RECRUITING，申办方Bristol-Myers Squibb。",
+          "endpoints": [
+            "Number of participants that experience spontaneous syncopal events（At approximately 4 weeks）",
+            "Absolute change from baseline in forced vital capacity (FVC) measured in mL（Up to Week 52）"
+          ],
+          "completion": {
+            "date": "2027-06-04",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 1255,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "BMS-986278",
+              "description": "Specified dose on specified days",
+              "armGroupLabels": [
+                "BMS-986278 Dose 1",
+                "BMS-986278 Dose 2"
+              ],
+              "otherNames": [
+                "Admilparant"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "BMS-986278 Placebo",
+              "description": "Specified dose on specified days",
+              "armGroupLabels": [
+                "BMS-986278 Placebo"
+              ],
+              "otherNames": []
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06003426，核查于2026-10-13",
+              "url": "https://clinicaltrials.gov/study/NCT06003426"
+            },
+            {
+              "title": "BMS ALOFT-IPF顶线结果，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/bristol-myers-squibb-announces-phase-3-aloft-ipf-trial-evaluating-admilparant-in-adults-with-idiopathic-pulmonary-fibrosis-met-primary-endpoint"
+            }
+          ],
+          "note": "ALOFT-IPF具体登记；仅60 mg达到主要终点，120 mg未达到统计学显著性。",
+          "risks": "尚缺FVC绝对差、置信区间、亚组及肝安全细节；非单调剂量反应需解释。"
+        },
+        {
+          "id": "NCT06553768",
+          "title": "Maralixibat (LIVMARLI)",
+          "company": "Mirum Pharmaceuticals, Inc.",
+          "target": "IBAT/ASBT",
+          "modality": "口服小分子肠道胆汁酸转运抑制剂",
+          "area": "肝病/罕见病",
+          "indication": "伴瘙痒的超罕见胆汁淤积性肝病",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Evaluation of Maralixibat in Pruritus Associated With General Cholestatic Liver Disease (EXPAND)",
+          "registryUpdated": "2026-10-06",
+          "checked": "2026-10-13",
+          "summary": "ClinicalTrials.gov核实：Evaluation of Maralixibat in Pruritus Associated With General Cholestatic Liver Disease (EXPAND)；Phase 3，状态ACTIVE_NOT_RECRUITING，申办方Mirum Pharmaceuticals, Inc.。",
+          "endpoints": [
+            "Mean change in the ItchRO(Obs) severity score（From baseline to average of week 13 to week 20）"
+          ],
+          "completion": {
+            "date": "2027-02",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 90,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Maralixibat",
+              "description": "Maralixibat will be provided as an oral solution along with 0.5-, 1.0-, and 3.0-mL sized dosing dispensers. During the double-blind dose escalation period (4 weeks), the study drug (maralixibat) will be administered once daily for 1 week and then twice daily (BID; morning and evening). During the double-blind stable dosing period (16 weeks), participants will be treated with 300 μg/kg BID or the maximum tolerated dose (determined during the double-blind dose-escalation period) of maralixibat. During the open-label dose escalation period (4 weeks), all participants will receive maralixibat treatment once daily for 1 week and then twice daily (BID; morning and evening). During the open-label stable dosing period (at least 16 weeks), participants will be treated with 300 μg/kg BID or the maximum tolerated dose (determined during the open-label dose-escalation period) of maralixibat.",
+              "armGroupLabels": [
+                "Maralixibat"
+              ],
+              "otherNames": [
+                "Formerly LUM001, SHP625"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": "Placebo matched to maralixibat will be provided as an oral solution along with 0.5-, 1.0-, and 3.0-mL sized dosing dispensers. During the double-blind dose escalation period (4 weeks), study drug will be administered once daily for 1 week and then twice daily (BID; morning and evening). During the double-blind stable dosing period (16 weeks), participants will be treated with 300 μg/kg BID or the maximum tolerated dose (determined during the double-blind dose-escalation period) of study drug. During the open-label dose escalation period (4 weeks), all participants will receive maralixibat treatment once daily for 1 week and then twice daily (BID; morning and evening). During the open-label stable dosing period (16 weeks), participants will be treated with 300 μg/kg BID or the maximum tolerated dose (determined during the open-label dose-escalation period) of maralixibat.",
+              "armGroupLabels": [
+                "Placebo"
+              ],
+              "otherNames": []
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06553768，核查于2026-10-13",
+              "url": "https://clinicaltrials.gov/study/NCT06553768"
+            },
+            {
+              "title": "Mirum EXPAND顶线结果，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/mirum-pharmaceuticals-announces-primary-endpoint-met-in-phase-3-expand-study-of-livmarli-maralixibat-in-ultra-rare-cholestatic-liver-diseases"
+            }
+          ],
+          "note": "EXPAND具体登记；公司计划2027年上半年提交美国sNDA，尚非监管批准。",
+          "risks": "样本量小、病因异质；瘙痒量表改善需结合临床意义、持续性与长期肝脏结局。"
+        },
+        {
+          "id": "NCT07723703",
+          "title": "AMX-883",
+          "company": "Amphista Therapeutics Ltd",
+          "target": "BRD9/DCAF16",
+          "modality": "口服靶向蛋白降解剂",
+          "area": "肿瘤/血液",
+          "indication": "复发或难治AML及高危MDS",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "Phase 1 Open-label Study of AMX-883 Alone in Participants With AML and High-risk MDS and in Combination in Participants With AML",
+          "registryUpdated": "2026-10-02",
+          "checked": "2026-10-13",
+          "summary": "ClinicalTrials.gov核实：Phase 1 Open-label Study of AMX-883 Alone in Participants With AML and High-risk MDS and in Combination in Participants With AML；Phase 1，状态RECRUITING，申办方Amphista Therapeutics Ltd。",
+          "endpoints": [
+            "Number of participants with adverse events (AEs), treatment-emergent adverse events (TEAEs), adverse events of special interests (AESIs) and serious adverse events (SAEs)（Until 30 days after last dose (Approximately 2 years 8 months)）",
+            "Number of participants with dose limiting toxicities (DLTs)（During Cycle 1 (each cycle will be 28 days)）"
+          ],
+          "completion": {
+            "date": "2029-04-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 54,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "AMX-883",
+              "description": "AMX-883 will be administered orally.",
+              "armGroupLabels": [
+                "Module 1 Part A (M1A): AMX-883 monotherapy dose escalation cohort",
+                "Module 1 Part A (M1A): AMX-883 monotherapy food effect cohort",
+                "Module 1 Part B (M1B): AMX-883 + posaconazole"
+              ],
+              "otherNames": []
+            },
+            {
+              "type": "DRUG",
+              "name": "Posaconazole",
+              "description": "Posaconazole tablets will be administered orally.",
+              "armGroupLabels": [
+                "Module 1 Part B (M1B): AMX-883 + posaconazole"
+              ],
+              "otherNames": []
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07723703，核查于2026-10-13",
+              "url": "https://clinicaltrials.gov/study/NCT07723703"
+            },
+            {
+              "title": "Amphista首例给药公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-first-patient-dosed-in-amx-883-phase-1-clinical-trial-for-acute-myeloid-leukemia"
+            }
+          ],
+          "note": "首次人体Phase 1登记；阶段仅代表该具体试验，不代表全球最高开发阶段或获批状态。",
+          "risks": "早期安全性、暴露量、BRD9降解深度、分化效应和与标准疗法联用窗口均待人体验证。"
+        },
+        {
+          "id": "NCT05908084",
+          "title": "ATEV/HAV",
+          "company": "Humacyte, Inc.",
+          "target": "组织工程血管替代",
+          "modality": "脱细胞组织工程血管",
+          "area": "肾脏/医疗生物材料",
+          "indication": "女性终末期肾病血液透析通路",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "To Compare the Efficacy and Safety of the ATEV With AVF in Female Patients With End-Stage Renal Disease Requiring Hemodialysis",
+          "registryUpdated": "2026-06-26",
+          "checked": "2026-10-13",
+          "summary": "ClinicalTrials.gov核实：To Compare the Efficacy and Safety of the ATEV With AVF in Female Patients With End-Stage Renal Disease Requiring Hemodialysis；Phase 3，状态ACTIVE_NOT_RECRUITING，申办方Humacyte, Inc.。",
+          "endpoints": [
+            "The number of catheter-free days since randomization to Month 12.（12 months）",
+            "The rate of infections related to any HD access.（12 months）"
+          ],
+          "completion": {
+            "date": "2028-06",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 121,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Acellular Tissue Engineered Vessel (ATEV)",
+              "description": "ATEV implantation",
+              "armGroupLabels": [
+                "ATEV treatment arm"
+              ],
+              "otherNames": [
+                "Human Acellular Vessel (HAV)"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "AVF",
+              "description": "AVF creation procedure",
+              "armGroupLabels": [
+                "AVF treatment arm"
+              ],
+              "otherNames": []
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05908084，核查于2026-10-13",
+              "url": "https://clinicaltrials.gov/study/NCT05908084"
+            },
+            {
+              "title": "Humacyte ASN报告安排，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/humacyte-announces-phase-3-v012-trial-results-for-atev-in-women-requiring-hemodialysis-access-accepted-for-a-late-breaking-session-presentation-at-asn-kidney-week-2026"
+            }
+          ],
+          "note": "V012具体登记；2026-10-22为结果展示日，不等于监管决定日。",
+          "risks": "本次公告未披露数值结果；中期分析、女性特定人群与长期通畅性影响外推。"
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-bms-rayzebio",
+          "title": "Bristol Myers Squibb / RayzeBio",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "同日披露两个三期顶线：RYZ101在ACTION-1达到PFS主要终点，admilparant在ALOFT-IPF仅60 mg剂量达到FVC主要终点。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "RYZ101为SSTR2靶向225Ac放射性药物；admilparant为口服LPA1拮抗剂。前者验证放射性药物并购逻辑，后者提供呼吸纤维化后期资产。"
+            },
+            {
+              "heading": "战略与财务",
+              "body": "RYZ101是BMS以约41亿美元收购RayzeBio的核心资产。阳性顶线降低临床风险，但完整估值仍取决于效应量、监管路径、225Ac供应与商业化投入；admilparant的剂量不一致性限制立即上调价值。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BMS ACTION-1公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/bristol-myers-squibb-announces-positive-topline-results-from-the-interim-analysis-of-phase-3-action-1-for-ryz101-rayzebios-radiopharmaceutical-therapy-in-patients-with-gep-nets"
+            },
+            {
+              "title": "BMS ALOFT-IPF公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/bristol-myers-squibb-announces-phase-3-aloft-ipf-trial-evaluating-admilparant-in-adults-with-idiopathic-pulmonary-fibrosis-met-primary-endpoint"
+            }
+          ]
+        },
+        {
+          "id": "company-mirum",
+          "title": "Mirum Pharmaceuticals",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "EXPAND三期达到主要及全部五项预设次要终点，公司计划2027年上半年提交美国sNDA。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "LIVMARLI为已商业化IBAT抑制剂，EXPAND尝试从既有罕见肝病标签扩展到更广的超罕见胆汁淤积病。"
+            },
+            {
+              "heading": "战略与财务",
+              "body": "标签扩展可复用销售、支付和诊断基础设施，边际商业成本可能低于全新产品；但患者识别、病因异质和小样本使峰值销售仍需保守建模。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Mirum EXPAND公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/mirum-pharmaceuticals-announces-primary-endpoint-met-in-phase-3-expand-study-of-livmarli-maralixibat-in-ultra-rare-cholestatic-liver-diseases"
+            }
+          ]
+        },
+        {
+          "id": "company-amphista",
+          "title": "Amphista Therapeutics",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "首个临床资产AMX-883完成首例给药，进入AML/高危MDS首次人体试验。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "AMX-883利用DCAF16诱导BRD9降解，意在突破依赖CRBN或VHL的传统降解剂设计，并覆盖不同分子亚型AML。"
+            },
+            {
+              "heading": "战略与融资",
+              "body": "从临床前平台转为临床阶段会提高可比估值，但价值拐点仍是人体靶标降解、PK/PD、安全窗和初步缓解证据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amphista公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-first-patient-dosed-in-amx-883-phase-1-clinical-trial-for-acute-myeloid-leukemia"
+            }
+          ]
+        },
+        {
+          "id": "company-tortugas-hansoh",
+          "title": "Tortugas Neuroscience / 翰森制药",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "合作资产obuprazine在急性精神分裂症二期b报告所有剂量PANSS总分优于安慰剂。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "Obuprazine（HS-10380/TRTL-107）为多受体小分子精神病药候选；公司称阳性、阴性及认知因子均改善。"
+            },
+            {
+              "heading": "战略与财务",
+              "body": "跨区域合作可让原研方保留中国开发优势、合作方获取海外权益；后续价值取决于独立确认、代谢/锥体外系安全和与成熟低价药的差异化。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Tortugas二期b公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/tortugas-neuroscience-announces-positive-phase-2b-results-for-obuprazine-trtl-107-in-schizophrenia-demonstrating-broad-symptom-improvement-and-rapid-onset"
+            }
+          ]
+        },
+        {
+          "id": "company-stoke",
+          "title": "Stoke Therapeutics",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "STK-002自然史和临床前数据支持ADOA的OPA1蛋白恢复机制，OSPREY前两队列给药完成。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "TANGO反义寡核苷酸通过提高健康OPA1等位基因的有效mRNA产量，针对单倍剂量不足。"
+            },
+            {
+              "heading": "战略与财务",
+              "body": "眼内给药为平台提供CNS之外验证，但当前披露并非临床疗效读出；估值应把2027年上半年高剂量队列数据视为主要风险节点。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Stoke AAO公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/stoke-therapeutics-presents-data-supporting-the-disease-modifying-potential-of-stk-002-in-autosomal-dominant-optic-atrophy-adoa-at-the-american-academy-of-ophthalmology-aao-2026-annual-meeting"
+            }
+          ]
+        },
+        {
+          "id": "company-humacyte",
+          "title": "Humacyte",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "V012女性透析通路三期中期结果获ASN Kidney Week晚期口头报告，sBLA仍计划本季度提交。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "ATEV是通用植入式脱细胞组织工程血管，与自体动静脉瘘比较导管脱离天数和通路感染。"
+            },
+            {
+              "heading": "战略与财务",
+              "body": "公告只确认展示和申报计划，没有数值结果；投资判断应等待2026-10-22完整数据，且不要把本季度申报计划当作批准。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Humacyte公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/humacyte-announces-phase-3-v012-trial-results-for-atev-in-women-requiring-hemodialysis-access-accepted-for-a-late-breaking-session-presentation-at-asn-kidney-week-2026"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-sstr2-ryz101",
+          "title": "SSTR2靶向α放射治疗｜RYZ101",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "DOTATATE将225Ac递送至SSTR2阳性肿瘤，短程高能α粒子造成双链DNA损伤。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "ACTION-1公司顶线称PFS达到统计学及临床意义改善，这是α核素靶向放射治疗首次报告三期阳性。"
+            },
+            {
+              "heading": "待验证",
+              "body": "完整HR、绝对PFS、OS、安全性、既往177Lu亚组及同位素供应能力仍待披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BMS ACTION-1公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/bristol-myers-squibb-announces-positive-topline-results-from-the-interim-analysis-of-phase-3-action-1-for-ryz101-rayzebios-radiopharmaceutical-therapy-in-patients-with-gep-nets"
+            }
+          ]
+        },
+        {
+          "id": "target-lpa1-admilparant",
+          "title": "LPA1拮抗｜Admilparant",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "抑制LPA1旨在减少上皮修复异常、血管渗漏和成纤维细胞激活。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "ALOFT-IPF公司顶线显示60 mg组52周FVC达到主要终点。"
+            },
+            {
+              "heading": "待验证",
+              "body": "120 mg组未显著，必须解释剂量反应、效应量和肝安全；单一阳性剂量不等于机制已完全验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BMS ALOFT-IPF公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/bristol-myers-squibb-announces-phase-3-aloft-ipf-trial-evaluating-admilparant-in-adults-with-idiopathic-pulmonary-fibrosis-met-primary-endpoint"
+            }
+          ]
+        },
+        {
+          "id": "target-ibat-maralixibat",
+          "title": "IBAT/ASBT抑制｜Maralixibat",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "减少回肠胆汁酸重吸收，降低胆汁酸循环负荷与胆汁淤积性瘙痒。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "EXPAND公司报告瘙痒评分安慰剂校正改善0.98分，血清胆汁酸相对安慰剂下降69%。"
+            },
+            {
+              "heading": "待验证",
+              "body": "需判断量表差异的患者可感知意义、不同病因一致性和长期肝脏结局。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Mirum EXPAND公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/mirum-pharmaceuticals-announces-primary-endpoint-met-in-phase-3-expand-study-of-livmarli-maralixibat-in-ultra-rare-cholestatic-liver-diseases"
+            }
+          ]
+        },
+        {
+          "id": "target-dopamine-serotonin-obuprazine",
+          "title": "多巴胺/5-HT多受体调节｜Obuprazine",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "多受体药理意图兼顾精神分裂症阳性、阴性与认知症状。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "公司披露低剂量组第42天PANSS较安慰剂差异-16.7分，三剂量均p<0.0001。"
+            },
+            {
+              "heading": "待验证",
+              "body": "需要完整随机化方法、基线平衡、活性对照统计框架、体重/代谢、泌乳素、QT与锥体外系安全数据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Tortugas二期b公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/tortugas-neuroscience-announces-positive-phase-2b-results-for-obuprazine-trtl-107-in-schizophrenia-demonstrating-broad-symptom-improvement-and-rapid-onset"
+            }
+          ]
+        },
+        {
+          "id": "target-brd9-dcaf16-amx883",
+          "title": "DCAF16介导BRD9降解｜AMX-883",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "分子胶招募DCAF16降解染色质重塑复合物亚基BRD9，试图解除白血病干性并促进髓系分化。",
+          "sections": [
+            {
+              "heading": "支持证据",
+              "body": "临床前研究显示跨AML核型的促分化活性；该证据支持进入人体试验。"
+            },
+            {
+              "heading": "待验证",
+              "body": "必要证据是患者中的选择性BRD9降解、可接受安全窗以及与缓解或生存相关的临床效应。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amphista公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-first-patient-dosed-in-amx-883-phase-1-clinical-trial-for-acute-myeloid-leukemia"
+            }
+          ]
+        },
+        {
+          "id": "target-opa1-stk002",
+          "title": "OPA1蛋白恢复｜STK-002",
+          "date": "2026-10-12",
+          "checked": "2026-10-13",
+          "summary": "反义寡核苷酸提高健康OPA1等位基因输出，试图纠正单倍剂量不足和视网膜神经节细胞线粒体功能障碍。",
+          "sections": [
+            {
+              "heading": "支持证据",
+              "body": "患者来源细胞与动物研究显示剂量依赖的眼内暴露、靶标结合、OPA1蛋白提升和线粒体功能改善。"
+            },
+            {
+              "heading": "待验证",
+              "body": "尚无临床疗效读出；高剂量队列的眼部安全、结构指标与视功能改善是必要证据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Stoke AAO公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/stoke-therapeutics-presents-data-supporting-the-disease-modifying-potential-of-stk-002-in-autosomal-dominant-optic-atrophy-adoa-at-the-american-academy-of-ophthalmology-aao-2026-annual-meeting"
+            }
+          ]
+        }
+      ],
+      "deals": [],
+      "catalysts": [
+        {
+          "id": "catalyst-2026-10-22-humacyte-v012-asn",
+          "title": "Humacyte V012三期中期结果完整展示",
+          "date": "2026-10-22",
+          "checked": "2026-10-13",
+          "summary": "事件类型：临床数据；状态：confirmed；ASN Kidney Week晚期口头报告，时间为2026-10-22。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "导管脱离天数、通路感染、主要通畅性、亚组一致性和中期分析统计边界。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Humacyte公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/humacyte-announces-phase-3-v012-trial-results-for-atev-in-women-requiring-hemodialysis-access-accepted-for-a-late-breaking-session-presentation-at-asn-kidney-week-2026"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-h1-mirum-expand-snda",
+          "title": "Mirum拟提交EXPAND适应症扩展sNDA",
+          "date": "2027-H1",
+          "checked": "2026-10-13",
+          "summary": "事件类型：监管申报；状态：company-guided；公司计划2027年上半年提交，不是FDA确认受理或批准日期。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "申报人群定义、病因范围、年龄标签、FDA是否要求补充安全或长期随访。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Mirum EXPAND公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/mirum-pharmaceuticals-announces-primary-endpoint-met-in-phase-3-expand-study-of-livmarli-maralixibat-in-ultra-rare-cholestatic-liver-diseases"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-h1-stk002-osprey",
+          "title": "STK-002 OSPREY高剂量队列初步数据",
+          "date": "2027-H1",
+          "checked": "2026-10-13",
+          "summary": "事件类型：临床数据；状态：company-guided；公司预计2027年上半年披露第三、第四队列初步安全及疗效。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "眼部炎症、剂量限制毒性、OPA1靶标证据、最佳矫正视力与结构指标。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Stoke AAO公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/stoke-therapeutics-presents-data-supporting-the-disease-modifying-potential-of-stk-002-in-autosomal-dominant-optic-atrophy-adoa-at-the-american-academy-of-ophthalmology-aao-2026-annual-meeting"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-12",
       "date": "2026-10-12",
@@ -8038,20 +8875,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-12T07:13:05+08:00",
+    "checkedAt": "2026-10-13T07:22:00+08:00",
     "status": "success",
     "counts": {
-      "baselinePipelineChecked": 38,
-      "baselinePipelineChanged": 5,
+      "baselinePipelineChecked": 46,
+      "baselinePipelineChanged": 0,
       "baselinePipelineFailed": 0,
-      "newPipelinesAdded": 8,
+      "newPipelinesAdded": 5,
       "companiesUpserted": 6,
-      "targetsUpserted": 5,
-      "dealsAdded": 1,
-      "catalystsUpserted": 5,
+      "targetsUpserted": 6,
+      "dealsAdded": 0,
+      "catalystsUpserted": 3,
       "briefEvents": 6
     },
-    "summary": "既有38项不重复NCT全部核查成功、0失败；5项仅按ClinicalTrials.gov规范申办方名称，未发现阶段、状态、适应症或主要终点实质变化。新增8项经登记核实的临床记录。GlyphAgo患者试验未找到可靠NCT，保留数据缺口；所有预计完成时间均未当作确认读出日。"
+    "summary": "既有46项去重NCT全部核查成功、0失败、0项实质变化；新增5项经ClinicalTrials.gov核实的临床记录。Obuprazine未找到可可靠对应的NCT，STK-002为ISRCTN登记，均未伪造NCT。预计完成时间未当作读出；未公开数值的催化剂仅按计划记录。"
   },
   "archivedPapers": []
 }
