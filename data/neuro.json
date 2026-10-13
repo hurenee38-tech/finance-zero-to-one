@@ -1,8 +1,217 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-12T23:01:25.723Z",
+  "updatedAt": "2026-10-13T23:03:37.924Z",
   "items": [
+    {
+      "id": "neuro-2026-10-14",
+      "date": "2026-10-14",
+      "source": "scheduled",
+      "title": "神经生物学简报｜自闭症个体连接偏离与CREST运动神经元增强子机制",
+      "summary": "本期纳入2篇近期原始研究：Communications Medicine提出BRIDGE框架，以结构连接规范轨迹刻画自闭症个体差异；Nature Communications解析CREST如何连接ONECUT1/NGN2、BAF/BRM与CBP，激活运动神经元成熟增强子。两刊影响因子待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "本期纳入2篇近期且未在近几期收录的原始研究：2026-10-13发表于Communications Medicine的自闭症结构连接规范建模研究，以及2026-10-10发表于Nature Communications的CREST—增强子机制研究。前者补充自闭症与个体化影像方向，后者覆盖运动神经元、ALS遗传线索和表观遗传靶点机制。两刊影响因子待核实；未找到同等质量且信息完整的第三篇，因此不凑数。"
+        },
+        {
+          "heading": "重点推荐｜BRIDGE把自闭症连接差异转化为个体化偏离图",
+          "body": "背景与问题：传统病例—对照平均差异容易掩盖自闭症高度异质性。研究问的是，能否先建立神经典型儿童结构连接随年龄变化的参照轨迹，再量化每名自闭症儿童偏离轨迹的位置和程度。方法：作者使用扩散MRI结构连接组，先在Philadelphia Neurodevelopmental Cohort的968名神经典型参与者（8–22岁）上训练BRIDGE，再在Center for Autism Research的196名神经典型儿童和229名自闭症儿童（6–19岁）中微调和应用。BRIDGE由图变分自编码器、脑龄预测，以及距离成本和Hebbian相似性两类生物启发连接约束组成。"
+        },
+        {
+          "heading": "BRIDGE研究｜结果、标题与摘要译述",
+          "body": "标题译为《整合图规范建模与深度生成网络，解析神经发育障碍中的异常脑连接》。BRIDGE生成的结构连接在拓扑相似度上优于无生物约束的GCN-VAE、普通VAE及经典生成网络模型。区域偏离图显示自闭症个体间差异很大；队列层面较常见的偏离涉及内侧视觉区、双侧前额叶、额眼场、中央周围区等。全局偏离分数（连接脑龄减实际年龄）与ADOS严重度呈弱至中等负相关（Spearman R=-0.291），控制IQ后仍显著（R=-0.221），并与IQ呈较弱正相关（R=0.195）。原文发现支持其作为研究型个体差异指标，但效应量不足以支持个体诊断。"
+        },
+        {
+          "heading": "BRIDGE研究｜价值、局限与转化启发",
+          "body": "价值：将“平均自闭症脑”改写为“某个个体相对年龄参照的偏离地图”，更符合异质性现实。局限：临床应用数据主要来自单中心CAR；性别明显不平衡，模型可能学习到站点、人口和采集协议差异；结构连接来自dMRI推断而非轴突直接测量；分数与ADOS的相关性有限；尚无独立多中心前瞻验证、重测可靠性或对其他神经发育障碍的鉴别验证。编辑推断：下一步应先证明跨扫描仪、跨人群和纵向稳定性，再讨论辅助分层；目前不能用于临床诊断、预测个体疗效或把“脑龄偏差”解释为发育快慢。"
+        },
+        {
+          "heading": "BRIDGE研究｜相关前期与奠基文献",
+          "body": "1）Bethlehem等，Communications Biology 2020（https://doi.org/10.1038/s42003-020-01212-9）：以规范模型识别自闭症男性皮层厚度的年龄非典型亚群，是从群体均值转向个体偏离的重要前序。2）Rutherford等，eLife 2023（https://doi.org/10.7554/eLife.85082）：扩展可迁移的生命周期结构与功能规范模型资源，为本研究的参照轨迹思想提供方法背景。3）Bethlehem等，Nature 2022（https://doi.org/10.1038/s41586-022-04554-y）：建立大规模人脑生命周期图表，代表规范参照在神经影像中的基础框架，但并未直接验证本研究的结构连接指标。"
+        },
+        {
+          "heading": "CREST如何连接转录因子、BAF与CBP以启动运动神经元增强子",
+          "body": "背景与问题：神经元特异BAF复合体亚基CREST（SS18L1）参与神经功能，少数散发性ALS家系中发现过CREST变异，但它在成熟运动神经元中的基因组机制不清楚。方法：作者用小鼠胚胎干细胞分化运动神经元，结合CREST缺失、转录组、染色质可及性、蛋白互作和增强子层面的染色质分析。结果：CREST缺失妨碍运动神经元成熟基因激活，并使部分祖细胞程序不能被正常关闭；CREST与ONECUT1、NGN2和BRM相互作用，定位至原本已经开放的神经元增强子。"
+        },
+        {
+          "heading": "CREST研究｜机制、标题与摘要译述",
+          "body": "标题译为《CREST在成熟运动神经元中充当神经元特异增强子与表观遗传调控因子之间的分子桥梁》。机制上，CREST缺失并未明显破坏BRM结合、增强子可及性或长程染色质结构，却选择性削弱CBP募集和H3K27乙酰化，随后降低靶基因表达。作者因此提出：谱系转录因子ONECUT1/NGN2和BAF先标定/维持可及增强子，CREST再促进CBP进入并写入活性H3K27ac，从而推动成熟程序。价值在于把一个ALS遗传线索蛋白放入可检验的增强子激活链条，而不是仅停留在“染色质调控异常”。"
+        },
+        {
+          "heading": "CREST研究｜局限、转化启发及前期文献",
+          "body": "局限：主要依赖体外小鼠胚胎干细胞分化模型和CREST缺失，不能等同于人类成熟运动神经元或患者杂合变异；研究解释的是发育/成熟转录机制，尚未证明其导致成年期运动神经元退变；直接增强CBP或H3K27ac可能广泛影响转录，缺乏疾病与细胞选择性。编辑推断：更关键的下一步不是直接把CREST列为药物靶点，而是在人源患者iPSC运动神经元、等基因突变修复对照和成年动物中检验CREST变异是否以同一增强子机制引发选择性脆弱性。前期：1）Wu等，Neuron 2007（https://doi.org/10.1016/j.neuron.2007.08.021）：确立神经元特异BAF复合体调控树突发育。2）Chesi等，Nature Neuroscience 2013（https://doi.org/10.1038/nn.3412）：在散发性ALS三联体外显子组中发现SS18L1/CREST新生变异，并显示相关突变影响活动依赖性树突生长。3）Mazzoni等，Nature Neuroscience 2013（https://doi.org/10.1038/nn.3467）：说明转录因子协同占据细胞型特异增强子以编程运动神经元身份，为ONECUT1/NGN2部分提供背景。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "BRIDGE分数与ADOS显著相关，但相关系数约为-0.29。你会设计怎样的最小验证流程，判断它能否从“有统计学关联的研究指标”升级为“有临床价值的个体化生物标志物”？请区分必要证据、支持证据和仍待验证的假设。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：先问分数是否测得稳定，再问它是否跨中心泛化，最后问它是否比现有临床信息增加决策价值。必要证据：在完全独立、多中心、预先锁定模型的队列中验证，并报告重测可靠性、校准、置信区间和失败个案；训练后再用测试集调参不算独立验证。支持证据一：控制年龄、性别、IQ、头动、扫描仪和社会人口因素后仍与临床表型相关。支持证据二：与其他神经发育障碍比较，确认它究竟反映自闭症相关差异，还是非特异发育偏离。支持证据三：纵向变化能够预测预先定义的功能结局或治疗反应，并超过仅用基线临床量表的模型。一种可行答案：先做跨中心外部验证和短期重复扫描；若可靠，再预注册一个增量预测模型，比较“临床变量”与“临床变量+BRIDGE”的交叉验证性能和决策曲线。仍待验证假设：BRIDGE捕捉的是与个体支持需求或疗效反应有关的生物差异。常见误区：把p值显著等同于预测准确，把相关系数当作诊断敏感度，或把脑龄差解释为大脑提前/延迟发育。自查标准：是否使用真正独立数据？是否报告绝对预测误差、校准和增量价值？结果是否会实际改变临床决策？开放问题可能有不同合理方案，本思路不是唯一答案。",
+          "collapsed": true
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10.1038-s43856-026-01783-4",
+          "title": "Parsing altered brain connectivity in neurodevelopmental disorders by integrating graph-based normative modeling and deep generative networks",
+          "date": "2026-10-13",
+          "checked": true,
+          "topic": "自闭症｜结构连接组｜规范建模",
+          "target": "individual neurodivergence markers",
+          "summary": "BRIDGE以图VAE和生物启发连接约束建立神经典型结构连接发育轨迹，并为229名自闭症儿童生成个体偏离图；全局分数与ADOS和IQ存在较弱相关，但尚不能用于个体诊断。",
+          "sections": [
+            {
+              "heading": "重点推荐｜BRIDGE把自闭症连接差异转化为个体化偏离图",
+              "body": "背景与问题：传统病例—对照平均差异容易掩盖自闭症高度异质性。研究问的是，能否先建立神经典型儿童结构连接随年龄变化的参照轨迹，再量化每名自闭症儿童偏离轨迹的位置和程度。方法：作者使用扩散MRI结构连接组，先在Philadelphia Neurodevelopmental Cohort的968名神经典型参与者（8–22岁）上训练BRIDGE，再在Center for Autism Research的196名神经典型儿童和229名自闭症儿童（6–19岁）中微调和应用。BRIDGE由图变分自编码器、脑龄预测，以及距离成本和Hebbian相似性两类生物启发连接约束组成。"
+            },
+            {
+              "heading": "BRIDGE研究｜结果、标题与摘要译述",
+              "body": "标题译为《整合图规范建模与深度生成网络，解析神经发育障碍中的异常脑连接》。BRIDGE生成的结构连接在拓扑相似度上优于无生物约束的GCN-VAE、普通VAE及经典生成网络模型。区域偏离图显示自闭症个体间差异很大；队列层面较常见的偏离涉及内侧视觉区、双侧前额叶、额眼场、中央周围区等。全局偏离分数（连接脑龄减实际年龄）与ADOS严重度呈弱至中等负相关（Spearman R=-0.291），控制IQ后仍显著（R=-0.221），并与IQ呈较弱正相关（R=0.195）。原文发现支持其作为研究型个体差异指标，但效应量不足以支持个体诊断。"
+            },
+            {
+              "heading": "BRIDGE研究｜价值、局限与转化启发",
+              "body": "价值：将“平均自闭症脑”改写为“某个个体相对年龄参照的偏离地图”，更符合异质性现实。局限：临床应用数据主要来自单中心CAR；性别明显不平衡，模型可能学习到站点、人口和采集协议差异；结构连接来自dMRI推断而非轴突直接测量；分数与ADOS的相关性有限；尚无独立多中心前瞻验证、重测可靠性或对其他神经发育障碍的鉴别验证。编辑推断：下一步应先证明跨扫描仪、跨人群和纵向稳定性，再讨论辅助分层；目前不能用于临床诊断、预测个体疗效或把“脑龄偏差”解释为发育快慢。"
+            },
+            {
+              "heading": "BRIDGE研究｜相关前期与奠基文献",
+              "body": "1）Bethlehem等，Communications Biology 2020（https://doi.org/10.1038/s42003-020-01212-9）：以规范模型识别自闭症男性皮层厚度的年龄非典型亚群，是从群体均值转向个体偏离的重要前序。2）Rutherford等，eLife 2023（https://doi.org/10.7554/eLife.85082）：扩展可迁移的生命周期结构与功能规范模型资源，为本研究的参照轨迹思想提供方法背景。3）Bethlehem等，Nature 2022（https://doi.org/10.1038/s41586-022-04554-y）：建立大规模人脑生命周期图表，代表规范参照在神经影像中的基础框架，但并未直接验证本研究的结构连接指标。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Communications Medicine，2026-10-13",
+              "url": "https://doi.org/10.1038/s43856-026-01783-4"
+            },
+            {
+              "title": "Bethlehem等｜Communications Biology 2020",
+              "url": "https://doi.org/10.1038/s42003-020-01212-9"
+            },
+            {
+              "title": "Rutherford等｜eLife 2023",
+              "url": "https://doi.org/10.7554/eLife.85082"
+            },
+            {
+              "title": "Bethlehem等｜Nature 2022",
+              "url": "https://doi.org/10.1038/s41586-022-04554-y"
+            }
+          ]
+        },
+        {
+          "id": "doi-10.1038-s41467-026-78396-x",
+          "title": "CREST functions as a molecular bridge between neuron-specific enhancers and epigenetic regulators in mature motor neurons",
+          "date": "2026-10-10",
+          "checked": true,
+          "topic": "运动神经元｜ALS｜表观遗传",
+          "target": "CREST/SS18L1–CBP–H3K27ac enhancer axis",
+          "summary": "小鼠胚胎干细胞分化研究显示，CREST将ONECUT1/NGN2、BAF/BRM与CBP连接到已开放的运动神经元增强子，促进H3K27ac和成熟基因表达；尚未证明该轴驱动人类ALS或可直接成药。",
+          "sections": [
+            {
+              "heading": "CREST如何连接转录因子、BAF与CBP以启动运动神经元增强子",
+              "body": "背景与问题：神经元特异BAF复合体亚基CREST（SS18L1）参与神经功能，少数散发性ALS家系中发现过CREST变异，但它在成熟运动神经元中的基因组机制不清楚。方法：作者用小鼠胚胎干细胞分化运动神经元，结合CREST缺失、转录组、染色质可及性、蛋白互作和增强子层面的染色质分析。结果：CREST缺失妨碍运动神经元成熟基因激活，并使部分祖细胞程序不能被正常关闭；CREST与ONECUT1、NGN2和BRM相互作用，定位至原本已经开放的神经元增强子。"
+            },
+            {
+              "heading": "CREST研究｜机制、标题与摘要译述",
+              "body": "标题译为《CREST在成熟运动神经元中充当神经元特异增强子与表观遗传调控因子之间的分子桥梁》。机制上，CREST缺失并未明显破坏BRM结合、增强子可及性或长程染色质结构，却选择性削弱CBP募集和H3K27乙酰化，随后降低靶基因表达。作者因此提出：谱系转录因子ONECUT1/NGN2和BAF先标定/维持可及增强子，CREST再促进CBP进入并写入活性H3K27ac，从而推动成熟程序。价值在于把一个ALS遗传线索蛋白放入可检验的增强子激活链条，而不是仅停留在“染色质调控异常”。"
+            },
+            {
+              "heading": "CREST研究｜局限、转化启发及前期文献",
+              "body": "局限：主要依赖体外小鼠胚胎干细胞分化模型和CREST缺失，不能等同于人类成熟运动神经元或患者杂合变异；研究解释的是发育/成熟转录机制，尚未证明其导致成年期运动神经元退变；直接增强CBP或H3K27ac可能广泛影响转录，缺乏疾病与细胞选择性。编辑推断：更关键的下一步不是直接把CREST列为药物靶点，而是在人源患者iPSC运动神经元、等基因突变修复对照和成年动物中检验CREST变异是否以同一增强子机制引发选择性脆弱性。前期：1）Wu等，Neuron 2007（https://doi.org/10.1016/j.neuron.2007.08.021）：确立神经元特异BAF复合体调控树突发育。2）Chesi等，Nature Neuroscience 2013（https://doi.org/10.1038/nn.3412）：在散发性ALS三联体外显子组中发现SS18L1/CREST新生变异，并显示相关突变影响活动依赖性树突生长。3）Mazzoni等，Nature Neuroscience 2013（https://doi.org/10.1038/nn.3467）：说明转录因子协同占据细胞型特异增强子以编程运动神经元身份，为ONECUT1/NGN2部分提供背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications，2026-10-10",
+              "url": "https://doi.org/10.1038/s41467-026-78396-x"
+            },
+            {
+              "title": "Wu等｜Neuron 2007",
+              "url": "https://doi.org/10.1016/j.neuron.2007.08.021"
+            },
+            {
+              "title": "Chesi等｜Nature Neuroscience 2013",
+              "url": "https://doi.org/10.1038/nn.3412"
+            },
+            {
+              "title": "Mazzoni等｜Nature Neuroscience 2013",
+              "url": "https://doi.org/10.1038/nn.3467"
+            }
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "en": "normative modelling",
+          "zh": "规范建模",
+          "meaning": "先建立随年龄等因素变化的健康参考分布，再计算每个个体偏离参考轨迹的程度。"
+        },
+        {
+          "en": "structural connectome",
+          "zh": "结构连接组",
+          "meaning": "以脑区为节点、白质纤维连接为边所构成的全脑结构网络。"
+        },
+        {
+          "en": "graph variational autoencoder",
+          "zh": "图变分自编码器",
+          "meaning": "在图结构数据上学习潜在表示并重建或生成网络的深度生成模型。"
+        },
+        {
+          "en": "brain-age gap",
+          "zh": "脑龄差",
+          "meaning": "模型预测脑龄减去实际年龄；它是统计指标，不应直接解释为真正的生物学衰老或发育速度。"
+        },
+        {
+          "en": "enhancer priming",
+          "zh": "增强子预备状态",
+          "meaning": "增强子已具备可及性或部分调控因子，但仍需进一步激活步骤才能高效促进转录。"
+        },
+        {
+          "en": "H3K27 acetylation",
+          "zh": "H3K27乙酰化",
+          "meaning": "组蛋白H3第27位赖氨酸乙酰化，常与活性增强子和转录激活相关。"
+        },
+        {
+          "en": "non-cell-autonomous effect",
+          "zh": "非细胞自主效应",
+          "meaning": "一个细胞的改变通过分泌、接触或组织环境影响其他细胞；本期CREST研究主要聚焦细胞内增强子机制。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Communications Medicine，2026-10-13",
+          "url": "https://doi.org/10.1038/s43856-026-01783-4"
+        },
+        {
+          "title": "Bethlehem等｜Communications Biology 2020",
+          "url": "https://doi.org/10.1038/s42003-020-01212-9"
+        },
+        {
+          "title": "Rutherford等｜eLife 2023",
+          "url": "https://doi.org/10.7554/eLife.85082"
+        },
+        {
+          "title": "Bethlehem等｜Nature 2022",
+          "url": "https://doi.org/10.1038/s41586-022-04554-y"
+        },
+        {
+          "title": "主文｜Nature Communications，2026-10-10",
+          "url": "https://doi.org/10.1038/s41467-026-78396-x"
+        },
+        {
+          "title": "Wu等｜Neuron 2007",
+          "url": "https://doi.org/10.1016/j.neuron.2007.08.021"
+        },
+        {
+          "title": "Chesi等｜Nature Neuroscience 2013",
+          "url": "https://doi.org/10.1038/nn.3412"
+        },
+        {
+          "title": "Mazzoni等｜Nature Neuroscience 2013",
+          "url": "https://doi.org/10.1038/nn.3467"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-13",
       "date": "2026-10-13",
