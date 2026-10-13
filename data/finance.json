@@ -1,8 +1,599 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-13T07:22:00+08:00",
+  "updatedAt": "2026-10-14T07:18:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-14",
+      "date": "2026-10-14",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜从“千亿美元”标题回到概率、时间与证据",
+      "summary": "本期覆盖肿瘤mRNA、代谢RNAi、肺纤维化、蛋白稳态、自免代谢调节及PD-1生物类似药。主线是把交易标题金额、早期疗效信号和临床登记状态拆开：先确认事实，再按成功概率、时间价值、竞争强度与执行成本定价。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Roche取得Rona的ALK7 RNAi项目全球独家许可，公告披露“前期及近期付款最高1亿美元、后续里程碑最高10.6亿美元并另有分级销售提成”。如果你代表买方董事会，为什么不能把11.6亿美元当作项目今天的成本？请用一套明确假设估算付款的概率加权现值，并列出至少三个可能让估值大幅变化的证据。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先把付款按时间和触发条件拆开，再分别乘以实现概率，最后折现到今天。教学假设（不是披露条款）：6000万美元今天支付；4000万美元在第2年支付、概率70%；两笔研发里程碑各2亿美元，分别在第4/6年、概率40%/25%；两笔商业里程碑各3.3亿美元，分别在第8/10年、概率15%/10%；折现率12%。公式：现值=金额×触发概率÷(1+12%)^年数。代入：60+40×70%/1.12²+200×40%/1.12⁴+200×25%/1.12⁶+330×15%/1.12⁸+330×10%/1.12¹⁰≈1.89亿美元。可行结论：11.6亿美元是极端情形下的名义上限，不等于今天的经济成本；但还要另算研发费用、销售提成及战略期权价值。必要证据：完整合同触发条件、候选物体内外数据与安全窗、临床开发路径。支持证据：人类遗传学、同靶点可重复性、脂肪组织递送数据。待验证假设：能否在减脂同时保留瘦体重、能否与GLP-1联合、制造与给药频率是否商业可行。常见误区：把所有里程碑当必付、混淆未披露的前期款与最高近期款、忽略付款之间的相关性、把动物数据当人体疗效。自查：金额是否与公告对得上；每笔付款是否有时间、概率和折现；事实与教学假设是否分开；敏感性是否至少覆盖成功概率和折现率。"
+        },
+        {
+          "heading": "核心概念｜授权交易的概率加权现值",
+          "body": "“Biobucks”常指授权公告中理论上可达到、但取决于多个研发/监管/销售条件的最高里程碑。买方的今天成本不等于标题总额：应把确定前期款、或有里程碑和销售提成分开。对每笔或有付款，可用PV=付款额×触发概率÷(1+r)^t；r是折现率，t是年数。上面的教学算例得到约1.89亿美元，而不是11.6亿美元。这个差距不是“打折话术”，而是临床失败、时间价值和延迟支付共同造成。真实建模还要加入研发费用、税、提成、适应症扩展以及各里程碑概率的相关性。"
+        },
+        {
+          "heading": "1｜BioNTech BNT113：PFS未过线，OS仍保留统计学机会",
+          "body": "事实（2026-10-13）：AHEAD-MERIT的双主要终点之一PFS未达到；按预设方案，试验继续随访OS，若OS显著仍可判定研究阳性。NCT04534205登记为Phase 2/3、ACTIVE_NOT_RECRUITING，实际入组358例，比较BNT113+pembrolizumab与pembrolizumab。分析：科学上，HPV16 E6/E7抗原仍是清晰的肿瘤特异靶点，但PFS失败削弱“早期控瘤增益”；商业上，若只有OS阳性，价值仍可能成立但证据解释更复杂；战略上，BioNTech需要等待成熟OS而非用次要终点替代；财务上，成功概率应下调但不应归零。限制：尚无完整HR、置信区间、分层亚组或成熟OS。"
+        },
+        {
+          "heading": "2｜Rona–Roche：ALK7脂肪组织RNAi全球许可",
+          "body": "事实（2026-10-13）：Rona授予Roche一项靶向ALK7/ACVR1C的研究性RNAi疗法全球独家权利；前期及近期付款最高1亿美元，后续里程碑最高10.6亿美元，另有分级销售提成。分析：科学上，脂肪组织ALK7沉默的设想是减少内脏/异位脂肪并尽量保留瘦体重；商业上可切入“体重之外的身体成分”差异化；战略上为Roche补强代谢管线并给Rona平台外部验证；财务上，公告上限主要是或有对价，今天价值取决于临床转化和付款触发概率。限制：项目处于临床前阶段，候选物、人体验证和具体付款拆分未披露。"
+        },
+        {
+          "heading": "3｜Syndax axatilimab：IPF二期主要终点失败并停止该适应症",
+          "body": "事实（2026-10-12）：MAXPIRe二期未达到26周年化FVC下降主要终点；公司称耐受性良好、未见新安全信号，并决定不再推进IPF。ClinicalTrials.gov截至核查日仍标为ACTIVE_NOT_RECRUITING、实际入组145例，说明公司决策已更新而登记状态尚未同步。分析：科学上，CSF-1R抑制在IPF的临床效应未获验证；商业上失去一条大市场扩展路径；战略上可把资源集中在已获批cGVHD及其他项目；财务上减少后续烧钱但应冲减IPF期权价值。重要边界：这不是axatilimab在全部疾病中的失败。"
+        },
+        {
+          "heading": "4｜Pfizer–Enodia：以Sec61在蛋白合成入口做靶向降解",
+          "body": "事实（2026-10-13）：Enodia与Pfizer达成多靶点研究合作与许可；Enodia负责发现和优化Sec61抑制剂，Pfizer承担后续临床、制造、监管和商业化。前期款未披露，潜在里程碑总额超过5亿美元，并有分级销售提成。分析：科学上，Sec61调控希望在新生蛋白进入内质网时选择性阻断疾病驱动蛋白；商业上可能触及传统小分子难成药的分泌/膜蛋白；战略上是大药企以分工合作购买平台期权；财务上，不披露前期款意味着无法只凭“5亿美元”判断竞争强度。限制：靶点、候选物、选择性窗口及临床时间表均未公开。"
+        },
+        {
+          "heading": "5｜Sitryx SYX-5219：PKM2调节剂在特应性皮炎出现早期信号",
+          "body": "事实（2026-10-13）：35名中重度成人特应性皮炎患者的随机、安慰剂对照Phase 1b完成6周治疗；公司报告耐受良好，安慰剂校正的总EASI改善约28%，瘙痒PP-NRS差异约48%，并观察到CCL17/TARC、CCL11等生物标志物变化；计划2027年上半年进入Phase 2。分析：科学上支持“免疫代谢调节”可能同时影响炎症表型和症状；商业上口服、潜在非免疫抑制的定位有差异化空间；战略上下一步要验证剂量反应和持续性；财务上这仍是小样本短疗程的公司顶线，不能按成熟二期资产估值。登记为ISRCTN80838388，未伪造NCT。"
+        },
+        {
+          "heading": "6｜FYB206：pembrolizumab生物类似药BLA获FDA受理",
+          "body": "事实（2026-10-13，二级行业媒体转述公司信息）：FDA已受理Formycon/Zydus的FYB206 BLA，拟作为Keytruda生物类似药；报道预计BsUFA行动窗口在2027年第三季度。Zydus负责美国和加拿大商业化，Formycon负责开发、供应并参与毛利。分析：科学/监管上，生物类似性依赖严谨的分析、药代和免疫原性证据，而非复制原研全部疗效试验；商业上Keytruda专利到期后的价格和渠道竞争可能加速；战略上供应能力与合同覆盖同样关键；财务上利润分成使开发方保留较多上行，但价格侵蚀和上市节奏是核心变量。限制：本期未取得可访问的一手公司公告，相关表述按二级来源处理。"
+        },
+        {
+          "heading": "跨岗位视角｜同一笔Rona–Roche交易怎么看",
+          "body": "投行：关注交易可否成为代谢RNAi估值锚、对融资和并购可比的影响。FA顾问：验证独家范围、权利回转、共同开发选择权与里程碑可达性，避免只优化标题金额。BD：判断组织能力、递送平台、靶点组合及与Roche现有代谢资产的协同。投资人：把11.6亿美元拆成确定与或有现金流，重估Rona平台验证价值和失败概率。咨询顾问：回答患者细分、身体成分临床价值、竞争格局和未来联合方案的支付意愿。"
+        },
+        {
+          "heading": "小案例｜PFS失败但OS继续，是否值得等？",
+          "body": "假设BNT113若最终成功的未风险调整NPV为20亿美元；PFS失败后OS成功概率降至25%；继续随访还需1亿美元；立即停止仅能节省成本、无其他可回收价值。简化继续价值=25%×20亿−1亿=4亿美元，因此在此假设下应继续。若成功概率低于5%（1亿÷20亿），继续价值转负。真正决策还应考虑：已发生费用不应作为沉没成本重复计算；OS统计边界、竞争产品上市时间、生产准备及失败对平台声誉的外溢。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "本次逐项回读既有51个去重NCT：成功51、失败0、实质变动0；未用估计完成日期代替读出日期。新增2个经ClinicalTrials.gov核实的记录：NCT04534205与NCT06132256。公司公告与登记状态冲突时同时保留：MAXPIRe公司已停止IPF开发，但登记截至核查时仍为ACTIVE_NOT_RECRUITING；不擅自改成TERMINATED。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Biobucks",
+          "zh": "或有里程碑名义总额",
+          "meaning": "授权交易中只有达到研发、监管或销售条件才支付的最高潜在金额，不等于当日对价。"
+        },
+        {
+          "en": "Probability-adjusted present value",
+          "zh": "概率加权现值",
+          "meaning": "把未来现金流乘以实现概率后再折现到今天。"
+        },
+        {
+          "en": "Dual primary endpoints",
+          "zh": "双主要终点",
+          "meaning": "研究预先规定两个关键终点，成败判定取决于统计方案中对两者的关系设定。"
+        },
+        {
+          "en": "PFS",
+          "zh": "无进展生存期",
+          "meaning": "从随机或治疗开始到肿瘤进展或死亡的时间。"
+        },
+        {
+          "en": "OS",
+          "zh": "总生存期",
+          "meaning": "从随机或治疗开始到任何原因死亡的时间，通常更具临床意义但成熟更慢。"
+        },
+        {
+          "en": "FVC",
+          "zh": "用力肺活量",
+          "meaning": "用力呼气可排出的总气量，是IPF常用肺功能指标。"
+        },
+        {
+          "en": "Sec61 translocon",
+          "zh": "Sec61易位子",
+          "meaning": "帮助新生蛋白进入内质网的通道，药理调节可阻断特定蛋白成熟。"
+        },
+        {
+          "en": "BsUFA",
+          "zh": "生物类似药使用者付费法案",
+          "meaning": "美国FDA审评生物类似药申请的付费和绩效目标框架。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "BioNTech BNT113 AHEAD-MERIT公告，2026-10-13",
+          "url": "https://www.biospace.com/press-releases/biontech-provides-update-on-phase-2-3-clinical-trial-for-mrna-cancer-immunotherapy-candidate-bnt113-in-metastatic-hpv16-positive-head-and-neck-cancer"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT04534205，核查于2026-10-14",
+          "url": "https://clinicaltrials.gov/study/NCT04534205"
+        },
+        {
+          "title": "Rona–Roche ALK7 RNAi许可公告，2026-10-13",
+          "url": "https://www.biospace.com/press-releases/rona-therapeutics-enters-into-global-license-agreement-with-roche-for-alk7-targeting-rnai-therapy-for-obesity-and-metabolic-diseases"
+        },
+        {
+          "title": "Syndax MAXPIRe顶线结果，2026-10-12",
+          "url": "https://ir.syndax.com/news-releases/news-release-details/syndax-announces-topline-results-maxpire-phase-2-trial"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06132256，核查于2026-10-14",
+          "url": "https://clinicaltrials.gov/study/NCT06132256"
+        },
+        {
+          "title": "Enodia–Pfizer Sec61合作公告，2026-10-13",
+          "url": "https://www.enodiatx.com/enodia-therapeutics-announces-research-collaboration-and-license-agreement-with-pfizer-to-develop-sec61-targeting-small-molecules/"
+        },
+        {
+          "title": "Sitryx SYX-5219 Phase 1b公告，2026-10-13",
+          "url": "https://www.biospace.com/press-releases/sitryx-reports-positive-phase-1b-results-for-first-in-class-oral-pkm2-modulator-syx-5219-in-patients-with-moderate-to-severe-atopic-dermatitis"
+        },
+        {
+          "title": "Express Pharma：FYB206 BLA受理，2026-10-13（二级来源）",
+          "url": "https://www.expresspharma.in/zydus-formycons-keytruda-biosimilar-fyb206-accepted-for-usfda-review/"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT04534205",
+          "title": "BNT113",
+          "company": "BioNTech SE",
+          "target": "HPV16 E6/E7抗原",
+          "modality": "mRNA癌症免疫疗法",
+          "area": "肿瘤",
+          "indication": "HPV16阳性、PD-L1阳性的复发/转移或不可切除头颈鳞癌",
+          "stage": "Phase 2/Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "registryUpdated": "2026-09-21",
+          "checked": "2026-10-14",
+          "summary": "ClinicalTrials.gov核实：Phase 2/3，状态ACTIVE_NOT_RECRUITING，实际入组358；公司报告PFS未达标，试验继续随访OS。",
+          "endpoints": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab（up to 27 months）",
+            "Part B - Overall survival (OS)（up to 48 months）",
+            "Part B - Progression-free survival (PFS)（up to 48 months）"
+          ],
+          "completion": {
+            "date": "2028-08",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 358,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "BNT113",
+              "description": "IV injection",
+              "armGroupLabels": [
+                "Part A (Safety Run-In) - BNT113 + Pembrolizumab",
+                "Part B (Randomized phase) - BNT113 + Pembrolizumab"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Part A (Safety Run-In) - BNT113 + Pembrolizumab",
+                "Part B (Randomized phase) - BNT113 + Pembrolizumab",
+                "Part B (Randomized phase) - Pembrolizumab monotherapy"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT04534205，核查于2026-10-14",
+              "url": "https://clinicaltrials.gov/study/NCT04534205"
+            },
+            {
+              "title": "BioNTech AHEAD-MERIT公告，2026-10-13",
+              "url": "https://www.biospace.com/press-releases/biontech-provides-update-on-phase-2-3-clinical-trial-for-mrna-cancer-immunotherapy-candidate-bnt113-in-metastatic-hpv16-positive-head-and-neck-cancer"
+            }
+          ],
+          "note": "PFS失败不等于OS必然失败；Phase 2/3是该具体登记的阶段，不代表全球最高阶段或获批。登记完成日期为估计值，不是读出承诺。",
+          "risks": "完整PFS效应量、OS成熟度、亚组一致性、安全性与监管可接受性待披露。"
+        },
+        {
+          "id": "NCT06132256",
+          "title": "Axatilimab (Niktimvo/SNDX-6352)",
+          "company": "Syndax Pharmaceuticals",
+          "target": "CSF-1R",
+          "modality": "单克隆抗体",
+          "area": "呼吸",
+          "indication": "特发性肺纤维化（IPF）",
+          "stage": "Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "MAXPIRe: Study to Evaluate Axatilimab in Participants With Idiopathic Pulmonary Fibrosis (IPF)",
+          "registryUpdated": "2026-03-27",
+          "checked": "2026-10-14",
+          "summary": "ClinicalTrials.gov核实：Phase 2，状态ACTIVE_NOT_RECRUITING，实际入组145；公司顶线称26周年化FVC下降主要终点未达到，并停止IPF开发。",
+          "endpoints": [
+            "Annualized rate of decline in morning pre-dose trough forced vital capacity (FVC) (milliliter [mL])（Baseline through Week 26）"
+          ],
+          "completion": {
+            "date": "2026-11",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 145,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Axatilimab",
+              "description": "Administered as intravenous (IV) infusion",
+              "armGroupLabels": [
+                "Axatilimab"
+              ],
+              "otherNames": [
+                "Niktimvo",
+                "SNDX-6352"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": "Placebo to match axatilimab administered as IV infusion. Placebo will not contain active ingredient.",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06132256，核查于2026-10-14",
+              "url": "https://clinicaltrials.gov/study/NCT06132256"
+            },
+            {
+              "title": "Syndax MAXPIRe结果，2026-10-12",
+              "url": "https://ir.syndax.com/news-releases/news-release-details/syndax-announces-topline-results-maxpire-phase-2-trial"
+            }
+          ],
+          "note": "公司已停止IPF开发，但登记截至核查仍为ACTIVE_NOT_RECRUITING；未擅自改写登记状态。预计完成时间不等于数据读出。",
+          "risks": "完整FVC效应量、次要终点和亚组尚未公开；失败不外推至cGVHD等其他适应症。"
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-biontech",
+          "title": "BioNTech",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "BNT113的AHEAD-MERIT未达到PFS主要终点，按预设统计方案继续OS随访。",
+          "sections": [
+            {
+              "heading": "战略与财务",
+              "body": "mRNA肿瘤免疫平台仍有OS期权，但短期应下调BNT113成功概率；不能把PFS失败直接等同项目终止。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech公告",
+              "url": "https://www.biospace.com/press-releases/biontech-provides-update-on-phase-2-3-clinical-trial-for-mrna-cancer-immunotherapy-candidate-bnt113-in-metastatic-hpv16-positive-head-and-neck-cancer"
+            },
+            {
+              "title": "NCT04534205",
+              "url": "https://clinicaltrials.gov/study/NCT04534205"
+            }
+          ]
+        },
+        {
+          "id": "company-roche-rona",
+          "title": "Roche / Rona Therapeutics",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "就临床前ALK7/ACVR1C脂肪组织RNAi达成全球独家许可。",
+          "sections": [
+            {
+              "heading": "战略与财务",
+              "body": "Roche取得代谢差异化期权；Rona获得最高1亿美元前期及近期付款和平台验证，但10.6亿美元里程碑高度或有。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Rona–Roche公告",
+              "url": "https://www.biospace.com/press-releases/rona-therapeutics-enters-into-global-license-agreement-with-roche-for-alk7-targeting-rnai-therapy-for-obesity-and-metabolic-diseases"
+            }
+          ]
+        },
+        {
+          "id": "company-syndax",
+          "title": "Syndax Pharmaceuticals",
+          "date": "2026-10-12",
+          "checked": "2026-10-14",
+          "summary": "MAXPIRe二期未达到IPF主要终点，公司停止该适应症开发。",
+          "sections": [
+            {
+              "heading": "战略与财务",
+              "body": "冲减IPF期权价值并减少未来投入；cGVHD业务与其他项目不能被该失败简单外推。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Syndax公告",
+              "url": "https://ir.syndax.com/news-releases/news-release-details/syndax-announces-topline-results-maxpire-phase-2-trial"
+            },
+            {
+              "title": "NCT06132256",
+              "url": "https://clinicaltrials.gov/study/NCT06132256"
+            }
+          ]
+        },
+        {
+          "id": "company-pfizer-enodia",
+          "title": "Pfizer / Enodia Therapeutics",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "达成多靶点Sec61小分子研究合作与许可，潜在里程碑超过5亿美元。",
+          "sections": [
+            {
+              "heading": "战略与财务",
+              "body": "Pfizer以合作方式购买新型蛋白稳态平台期权；前期款和靶点未披露，标题金额不可直接用于估值。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Enodia公告",
+              "url": "https://www.enodiatx.com/enodia-therapeutics-announces-research-collaboration-and-license-agreement-with-pfizer-to-develop-sec61-targeting-small-molecules/"
+            }
+          ]
+        },
+        {
+          "id": "company-sitryx",
+          "title": "Sitryx",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "SYX-5219在35人特应性皮炎Phase 1b报告安全性和早期疗效/生物标志物信号。",
+          "sections": [
+            {
+              "heading": "战略与财务",
+              "body": "为2027上半年二期提供推进依据，但小样本、6周和公司顶线使估值折扣仍应较高。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Sitryx公告",
+              "url": "https://www.biospace.com/press-releases/sitryx-reports-positive-phase-1b-results-for-first-in-class-oral-pkm2-modulator-syx-5219-in-patients-with-moderate-to-severe-atopic-dermatitis"
+            }
+          ]
+        },
+        {
+          "id": "company-formycon-zydus",
+          "title": "Formycon / Zydus",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "FYB206拟作为pembrolizumab生物类似药的BLA据报道获FDA受理。",
+          "sections": [
+            {
+              "heading": "战略与财务",
+              "body": "北美商业化由Zydus负责，Formycon保留供应与毛利参与；价值取决于审评、专利和价格竞争。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Express Pharma（二级来源）",
+              "url": "https://www.expresspharma.in/zydus-formycons-keytruda-biosimilar-fyb206-accepted-for-usfda-review/"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-hpv16-e6e7-bnt113",
+          "title": "HPV16 E6/E7｜BNT113",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "mRNA编码HPV16肿瘤抗原，旨在诱导抗原特异T细胞；PFS未验证临床增益，OS仍在随访。",
+          "sections": [
+            {
+              "heading": "待验证",
+              "body": "OS统计显著性、效应量、亚组、安全性和与PD-1协同机制。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech公告",
+              "url": "https://www.biospace.com/press-releases/biontech-provides-update-on-phase-2-3-clinical-trial-for-mrna-cancer-immunotherapy-candidate-bnt113-in-metastatic-hpv16-positive-head-and-neck-cancer"
+            },
+            {
+              "title": "NCT04534205",
+              "url": "https://clinicaltrials.gov/study/NCT04534205"
+            }
+          ]
+        },
+        {
+          "id": "target-alk7-acvr1c-rona",
+          "title": "ALK7/ACVR1C｜脂肪组织RNAi",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "临床前假说是沉默脂肪组织ALK7以减少内脏/异位脂肪并保留瘦体重。",
+          "sections": [
+            {
+              "heading": "待验证",
+              "body": "人类安全窗、递送效率、身体成分、与肠促胰素联用及长期代谢结局。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Rona–Roche公告",
+              "url": "https://www.biospace.com/press-releases/rona-therapeutics-enters-into-global-license-agreement-with-roche-for-alk7-targeting-rnai-therapy-for-obesity-and-metabolic-diseases"
+            }
+          ]
+        },
+        {
+          "id": "target-csf1r-axatilimab",
+          "title": "CSF-1R｜Axatilimab",
+          "date": "2026-10-12",
+          "checked": "2026-10-14",
+          "summary": "靶向单核/巨噬细胞通路；MAXPIRe未验证其改善IPF FVC下降的假说。",
+          "sections": [
+            {
+              "heading": "边界",
+              "body": "IPF失败是适应症级证据，不否定其在cGVHD中的既有证据或获批状态。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Syndax公告",
+              "url": "https://ir.syndax.com/news-releases/news-release-details/syndax-announces-topline-results-maxpire-phase-2-trial"
+            }
+          ]
+        },
+        {
+          "id": "target-sec61-enodia",
+          "title": "Sec61易位子｜Enodia平台",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "在蛋白合成入口选择性阻断疾病驱动蛋白进入内质网，寻求降解传统难成药膜/分泌蛋白。",
+          "sections": [
+            {
+              "heading": "待验证",
+              "body": "底物选择性、治疗窗、跨靶点可复制性及人体毒理。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Enodia公告",
+              "url": "https://www.enodiatx.com/enodia-therapeutics-announces-research-collaboration-and-license-agreement-with-pfizer-to-develop-sec61-targeting-small-molecules/"
+            }
+          ]
+        },
+        {
+          "id": "target-pkm2-syx5219",
+          "title": "PKM2｜SYX-5219",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "口服PKM2调节剂尝试通过免疫代谢重编程改善特应性皮炎。",
+          "sections": [
+            {
+              "heading": "待验证",
+              "body": "更大样本的剂量反应、持续疗效、停药反弹、免疫安全性和对照标准治疗。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Sitryx公告",
+              "url": "https://www.biospace.com/press-releases/sitryx-reports-positive-phase-1b-results-for-first-in-class-oral-pkm2-modulator-syx-5219-in-patients-with-moderate-to-severe-atopic-dermatitis"
+            }
+          ]
+        },
+        {
+          "id": "target-pd1-fyb206",
+          "title": "PD-1｜FYB206 pembrolizumab生物类似药",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "通过高度相似性路径竞争成熟PD-1市场，核心不是新靶点发现而是分析相似性、供应与商业执行。",
+          "sections": [
+            {
+              "heading": "待验证",
+              "body": "FDA审评结论、可互换性策略、专利解决、产能和净价。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Express Pharma（二级来源）",
+              "url": "https://www.expresspharma.in/zydus-formycons-keytruda-biosimilar-fyb206-accepted-for-usfda-review/"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-13-roche-rona-alk7",
+          "title": "Roche取得Rona ALK7 RNAi全球独家许可",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "前期及近期付款最高1亿美元；研发、监管与商业里程碑最高10.6亿美元；另有分级销售提成。",
+          "sections": [
+            {
+              "heading": "交易条款",
+              "body": "全球独家许可；具体前期款、近期付款拆分、里程碑触发条件和提成比例未披露。项目为临床前。 "
+            },
+            {
+              "heading": "分析",
+              "body": "名义总额不等于当日价值；应按触发概率与时间折现，并计入后续研发成本和提成。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Rona–Roche公告",
+              "url": "https://www.biospace.com/press-releases/rona-therapeutics-enters-into-global-license-agreement-with-roche-for-alk7-targeting-rnai-therapy-for-obesity-and-metabolic-diseases"
+            }
+          ]
+        },
+        {
+          "id": "deal-2026-10-13-pfizer-enodia-sec61",
+          "title": "Pfizer与Enodia开展Sec61多靶点研究合作与许可",
+          "date": "2026-10-13",
+          "checked": "2026-10-14",
+          "summary": "Enodia负责发现优化，Pfizer负责后续开发和商业化；潜在里程碑超过5亿美元并有分级销售提成。",
+          "sections": [
+            {
+              "heading": "交易条款",
+              "body": "合作覆盖多个未披露靶点；前期款、靶点数量、区域拆分和提成比例未公开。 "
+            },
+            {
+              "heading": "分析",
+              "body": "平台型合作的价值来自多个项目期权，不能用总里程碑除以项目数粗算。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Enodia公告",
+              "url": "https://www.enodiatx.com/enodia-therapeutics-announces-research-collaboration-and-license-agreement-with-pfizer-to-develop-sec61-targeting-small-molecules/"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-2027-h1-sitryx-syx5219-phase2",
+          "title": "Sitryx计划启动SYX-5219 Phase 2",
+          "date": "2027-H1",
+          "checked": "2026-10-14",
+          "summary": "事件类型：临床启动；状态：company-planned；公司计划2027年上半年启动二期。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "样本量、剂量组、疗程、EASI/瘙痒终点、背景治疗和生物标志物预设。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Sitryx公告",
+              "url": "https://www.biospace.com/press-releases/sitryx-reports-positive-phase-1b-results-for-first-in-class-oral-pkm2-modulator-syx-5219-in-patients-with-moderate-to-severe-atopic-dermatitis"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-q3-fyb206-fda-action",
+          "title": "FYB206预计FDA行动窗口",
+          "date": "2027-Q3",
+          "checked": "2026-10-14",
+          "summary": "事件类型：监管；状态：reported-estimate；二级来源称按BsUFA预计在2027年第三季度，不是本期核实到的具体法定日期。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "FDA是否批准、适应症外推、标签、专利/和解与北美商业化准备。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Express Pharma（二级来源）",
+              "url": "https://www.expresspharma.in/zydus-formycons-keytruda-biosimilar-fyb206-accepted-for-usfda-review/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-13",
       "date": "2026-10-13",
@@ -8875,20 +9466,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-13T07:22:00+08:00",
+    "checkedAt": "2026-10-14T07:18:00+08:00",
     "status": "success",
     "counts": {
-      "baselinePipelineChecked": 46,
+      "baselinePipelineChecked": 51,
       "baselinePipelineChanged": 0,
       "baselinePipelineFailed": 0,
-      "newPipelinesAdded": 5,
+      "newPipelinesAdded": 2,
       "companiesUpserted": 6,
       "targetsUpserted": 6,
-      "dealsAdded": 0,
-      "catalystsUpserted": 3,
+      "dealsAdded": 2,
+      "catalystsUpserted": 2,
       "briefEvents": 6
     },
-    "summary": "既有46项去重NCT全部核查成功、0失败、0项实质变化；新增5项经ClinicalTrials.gov核实的临床记录。Obuprazine未找到可可靠对应的NCT，STK-002为ISRCTN登记，均未伪造NCT。预计完成时间未当作读出；未公开数值的催化剂仅按计划记录。"
+    "summary": "既有51项去重NCT全部核查成功、0失败、0项实质变化；新增2项经ClinicalTrials.gov核实的临床记录。MAXPIRe公司已停止IPF开发但登记仍为ACTIVE_NOT_RECRUITING，已同时保留而未擅自覆盖。预计完成时间未当作读出；ISRCTN80838388未伪造成NCT。FYB206仅取得二级来源，已明确标注证据等级。"
   },
   "archivedPapers": []
 }
