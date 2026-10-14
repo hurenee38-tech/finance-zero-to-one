@@ -1,8 +1,995 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-14T07:18:00+08:00",
+  "updatedAt": "2026-10-15T07:22:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-15",
+      "date": "2026-10-15",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜从Tau递送验证到标签外推与商业化利润池",
+      "summary": "本期覆盖CNS RNAi、膀胱癌监管外推、罕见免疫病、AI蛋白设计、癫痫急救授权和FDA罕见病框架；学习如何从销售额推导授权产品的贡献利润与盈亏平衡份额，并完成53项既有NCT巡检。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Eton以1000万美元前期款取得LIBERVANT美国独家商业化权，并承担最高4750万美元里程碑及净销售额中双位数百分比提成。假设美国癫痫急救市场按终端金额计4.5亿美元、gross-to-net为25%、供货成本占净销售额20%、提成率15%、每年新增固定商业费用2000万美元：Eton至少需要多少市场份额才能覆盖年度商业费用？如果希望把1000万美元前期款在3年内回收，盈亏平衡份额又是多少？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先把终端市场换成净销售额，再扣除随销售变化的供货成本和提成，最后用剩余贡献利润覆盖固定费用。公式一：单位市场份额对应贡献利润=4.5亿美元×(1-25%)×(1-20%-15%)=2.19375亿美元；年度经营盈亏平衡份额=2000万÷2.19375亿≈9.1%。若把1000万美元前期款在3年内直线回收，每年还需333万美元，则份额=(2000万+333万)÷2.19375亿≈10.6%。一种可行答案：在这些教学假设下，约9.1%份额覆盖年度固定商业费用，约10.6%份额同时完成三年前期款回收。必要证据：真实净价与折扣、供货价、合同提成口径、销售队伍增量成本。支持证据：患者偏好、携带便利性、标签年龄范围和专利期。待验证假设：终端市场4.5亿美元可直接转换为可竞争收入、上市时间不延迟、Eton能取得两位数份额。常见误区：用标价市场直接乘份额、把里程碑当作当期固定成本、忘记提成以净销售额计提、忽略库存和营运资本。自查标准：收入、变动成本、固定成本和一次性付款是否分层；每个百分比的分母是否一致；是否做5%/10%/15%份额敏感性。"
+        },
+        {
+          "heading": "核心概念｜授权产品的贡献利润与盈亏平衡份额",
+          "body": "商业化授权不能只看销售额。先从终端销售扣除gross-to-net（返利、折扣、退货等）得到净销售额，再扣除供货成本和销售提成，剩下的是贡献利润，用来覆盖新增销售团队、市场准入和医学事务等固定费用。公式：贡献利润=终端市场×份额×(1-gross-to-net)×(1-供货成本率-提成率)。前期款和里程碑是现金流与投资回报问题，可单独年化或做NPV，避免和当期经营利润混在一起。"
+        },
+        {
+          "heading": "1｜ARO-MAPT：皮下注射siRNA在健康志愿者中显著降低CSF总tau",
+          "body": "事实（2026-10-14）：Arrowhead报告Phase 1/2a中，2.1、6.4和12.8 mg/kg方案在第105天使CSF总tau平均下降40%、69%和73%，个体最大下降85%；公司称多数不良事件为轻度，未报告严重治疗后不良事件、死亡或导致停药的事件。科学意义：这是CNS递送平台的强药效学验证，说明皮下注射siRNA能够影响中枢MAPT表达。证据边界：受试者为健康志愿者，CSF tau下降不等于清除tau缠结，也不等于改善认知或延缓疾病。商业与战略：若患者数据成立，季度或更低频给药可能改善慢性CNS治疗便利性，并验证Arrowhead更多CNS项目的平台价值。财务：可上调“递送成功”概率，但疗效成功概率仍需患者数据决定。"
+        },
+        {
+          "heading": "2｜ANKTIVA标签扩展：FDA接受跨相近疾病表型的证据外推",
+          "body": "事实（2026-10-14）：FDA将ANKTIVA+BCG扩展至BCG无应答、高等级乳头状瘤单独的非肌层浸润性膀胱癌成人，这是该人群首个专门获批治疗。FDA使用既有CIS队列数据，并结合CIS与高等级乳头状疾病共同出现、病理区分困难和复发风险相近等证据。科学与监管：这不是一次新的随机乳头状瘤试验，而是基于相近疾病生物学和临床证据的标签外推。商业：可扩大可治疗人群并提高既有商业体系利用率。战略：为同类NMIBC开发提供监管先例。财务：标签扩展通常具有较高增量利润率，但仍受BCG供应、真实世界持续缓解和膀胱切除时机影响。"
+        },
+        {
+          "heading": "3｜Leniolisib：在APDS之外的遗传PID出现小样本概念验证",
+          "body": "事实（2026-10-14）：13例CTLA4、SOCS1、NFKB1或FAS相关PID患者接受20周开放标签、受试者内剂量递增治疗；11名可评估者脾体积平均下降26.4%，4名可评估者淋巴结指标病灶平均下降33.7%，7名基线气体交换受损者DLCO预计值平均提高8.0%。12名完成者均进入长期延伸。科学：提示PI3Kδ异常可能是多个基因型的共同可干预节点。证据边界：单臂、样本很小、终点多且基因型异质，不能据此确定临床获益。商业：若更大对照研究成立，可把Joenja从APDS扩展至更广PID。财务：平台复用潜力上升，但当前仍应按早期适应症扩展估值。"
+        },
+        {
+          "heading": "4｜Generate–Zealand：AI设计多特异蛋白进入代谢领域",
+          "body": "事实（协议于2026-10-13宣布）：Generate将用生成式AI与高通量实验平台负责两个初始项目至候选物筛选，Zealand负责后续临床、监管和全球商业化；Generate获得3000万美元前期款、最高3500万美元早期临床前里程碑、总计接近12亿美元潜在里程碑及分级销售提成，并可增加第三个项目。科学：价值不来自“AI”标签，而来自能否设计具有预定多靶点功能、可制造性和安全窗的蛋白。商业：Zealand借此从肽类扩展到蛋白多特异形式。财务：3000万美元前期款是当前确定性更高的价值信号，近12亿美元主要是多个项目的或有名义上限。"
+        },
+        {
+          "heading": "5｜Eton取得LIBERVANT美国权利：商业化资产也需要拆解利润池",
+          "body": "事实（交易签于2026-10-13、8-K于10月14披露）：Eton支付1000万美元前期款，另承担最高4750万美元监管及销售里程碑，并按净销售额支付中双位数百分比提成；Aquestive保留独家生产供应，初始供货期20年。LIBERVANT已对2–5岁及12岁以上人群取得暂定批准，最终商业化仍受监管条件影响。商业：颊膜可与鼻喷和直肠制剂竞争便利性。战略：Eton购买现成神经急救商业化入口，Aquestive保留制造收入与提成。财务：Eton的回报取决于净价、份额、供货价、提成和销售团队增量成本，而不是4.5亿美元市场标题。"
+        },
+        {
+          "heading": "6｜FDA启动罕见病开发框架：强调因病、因产品定制证据",
+          "body": "事实（2026-10-14）：FDA宣布Rare Disease Framework Initiative，并将于10月28日举行公开会议。框架方向包括提高决策一致性、嵌入患者声音、利用外部专家、采用风险导向CMC和检查方法，以及使用创新统计方法。科学与监管：小人群无法机械复制常见病的大样本路径，但“灵活”不等于取消有效性与安全性标准。商业与战略：更清晰的证据要求可减少早期方案返工，尤其影响超罕见病、个体化疗法和复杂制造产品。财务：若监管路径更可预测，可能降低时间和资本成本；在正式细则形成前，不应立即普遍上调所有罕见病资产成功率。"
+        },
+        {
+          "heading": "跨岗位视角｜如何评价ARO-MAPT的“73% tau下降”",
+          "body": "投行：讨论该数据能否改善Arrowhead融资窗口、平台估值和CNS合作可比。FA顾问：为卖方强调BBB递送人体验证，为买方压实样本量、剂量、持续性和患者队列权利。BD：评估MAPT知识产权、递送平台适用范围、共同开发或区域授权结构。投资人：把“递送/靶标结合成功概率”上调，但不把认知疗效、获批和商业成功同时上调。咨询顾问：界定阿尔茨海默病、PSP和MAPT-FTD的优先顺序、终点、竞争疗法和给药路径。"
+        },
+        {
+          "heading": "小案例｜三层概率不要一次全部去风险",
+          "body": "教学假设：ARO-MAPT成功情景税后NPV为30亿美元；此前BBB递送成功概率40%、患者生物学转化概率35%、最终监管/商业执行概率60%，则rNPV=30×40%×35%×60%=2.52亿美元。健康志愿者结果只把递送概率从40%提高到80%，其他概率不变，则新rNPV=30×80%×35%×60%=5.04亿美元，增量2.52亿美元。错误做法是因为tau下降73%便同时把三层概率都提高。后续患者tau、PET、认知/功能及长期安全数据才分别支持下一层去风险。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "逐项回读既有53个去重NCT：成功53、失败0。4项登记更新时间刷新（NCT04534205、NCT07412470、NCT07661056、NCT07795814），但阶段、状态、干预、主要终点、入组和完成时间无实质变化。新增3项：NCT07221344、NCT06549114、NCT03022825。公司结果与登记不一致处并列保留：leniolisib公司称实际纳入13例，登记仍为估计12例。所有预计完成时间均未当作确认读出日期。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Gross-to-net",
+          "zh": "标价到净收入扣减",
+          "meaning": "从终端或标价销售额中扣除返利、折扣、退货、政府折让等后得到企业净销售额。"
+        },
+        {
+          "en": "Contribution margin",
+          "zh": "贡献利润/边际贡献",
+          "meaning": "净销售额扣除随销量变化的成本后，用于覆盖固定费用和利润的部分。"
+        },
+        {
+          "en": "Target engagement",
+          "zh": "靶标结合/靶标调节",
+          "meaning": "药物在人体目标组织中确实影响预定分子靶点的证据；不等同于临床疗效。"
+        },
+        {
+          "en": "Label extrapolation",
+          "zh": "标签或证据外推",
+          "meaning": "监管机构基于相近疾病、生物学和既有临床证据，将结论扩展至未完全重复研究的人群。"
+        },
+        {
+          "en": "Intravesical",
+          "zh": "膀胱内给药",
+          "meaning": "通过导管将药物直接送入膀胱腔内。"
+        },
+        {
+          "en": "DLCO",
+          "zh": "一氧化碳弥散量",
+          "meaning": "评估肺泡到血液气体交换能力的肺功能指标。"
+        },
+        {
+          "en": "Multispecific protein",
+          "zh": "多特异性蛋白",
+          "meaning": "同一工程蛋白能够结合或调节多个靶点或表位。"
+        },
+        {
+          "en": "Tentative approval",
+          "zh": "暂定批准",
+          "meaning": "FDA认定申请满足实质审评要求，但因专利或独占期等原因暂不能最终上市。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Arrowhead ARO-MAPT中期数据，2026-10-14",
+          "url": "https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-12a"
+        },
+        {
+          "title": "NCT07221344，核查于2026-10-15",
+          "url": "https://clinicaltrials.gov/study/NCT07221344"
+        },
+        {
+          "title": "FDA ANKTIVA扩展批准，2026-10-14",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer"
+        },
+        {
+          "title": "NCT03022825，核查于2026-10-15",
+          "url": "https://clinicaltrials.gov/study/NCT03022825"
+        },
+        {
+          "title": "Pharming leniolisib ESID数据，2026-10-14",
+          "url": "https://www.pharming.com/our-news/pharming-presents-positive-phase-II-topline-data-leniolisib-genetic-PIDs-with-immune-dysregulation-ESID-2026"
+        },
+        {
+          "title": "NCT06549114，核查于2026-10-15",
+          "url": "https://clinicaltrials.gov/study/NCT06549114"
+        },
+        {
+          "title": "Generate–Zealand合作公告，2026-10-13",
+          "url": "https://www.biospace.com/press-releases/generate-biomedicines-and-zealand-pharma-enter-collaboration-and-license-agreement-to-develop-protein-therapeutics-engineered-with-ai-for-metabolic-diseases"
+        },
+        {
+          "title": "Eton LIBERVANT 8-K，2026-10-14",
+          "url": "https://www.sec.gov/Archives/edgar/data/1710340/000143774926032600/eton20261013_8k.htm"
+        },
+        {
+          "title": "FDA Rare Disease Framework，2026-10-14",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-launches-rare-disease-framework-initiative-develop-holistic-fit-purpose-framework-rare-disease"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT04534205",
+          "title": "BNT113",
+          "company": "BioNTech SE",
+          "target": "HPV16 E6/E7抗原",
+          "modality": "mRNA癌症免疫疗法",
+          "area": "肿瘤",
+          "indication": "HPV16阳性、PD-L1阳性的复发/转移或不可切除头颈鳞癌",
+          "stage": "Phase 2/Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "registryUpdated": "2026-10-14",
+          "checked": "2026-10-15",
+          "summary": "ClinicalTrials.gov核实：Phase 2/3，状态ACTIVE_NOT_RECRUITING，实际入组358；公司报告PFS未达标，试验继续随访OS。",
+          "endpoints": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab（up to 27 months）",
+            "Part B - Overall survival (OS)（up to 48 months）",
+            "Part B - Progression-free survival (PFS)（up to 48 months）"
+          ],
+          "completion": {
+            "date": "2028-08",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 358,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "BNT113",
+              "description": "IV injection",
+              "armGroupLabels": [
+                "Part A (Safety Run-In) - BNT113 + Pembrolizumab",
+                "Part B (Randomized phase) - BNT113 + Pembrolizumab"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Part A (Safety Run-In) - BNT113 + Pembrolizumab",
+                "Part B (Randomized phase) - BNT113 + Pembrolizumab",
+                "Part B (Randomized phase) - Pembrolizumab monotherapy"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT04534205，核查于2026-10-15",
+              "url": "https://clinicaltrials.gov/study/NCT04534205"
+            },
+            {
+              "title": "BioNTech AHEAD-MERIT公告，2026-10-13",
+              "url": "https://www.biospace.com/press-releases/biontech-provides-update-on-phase-2-3-clinical-trial-for-mrna-cancer-immunotherapy-candidate-bnt113-in-metastatic-hpv16-positive-head-and-neck-cancer"
+            }
+          ],
+          "note": "PFS失败不等于OS必然失败；Phase 2/3是该具体登记的阶段，不代表全球最高阶段或获批。登记完成日期为估计值，不是读出承诺。 2026-10-15登记更新时间刷新；阶段、状态、干预、主要终点、入组及完成时间未见实质变化。",
+          "risks": "完整PFS效应量、OS成熟度、亚组一致性、安全性与监管可接受性待披露。",
+          "primaryCompletion": {
+            "date": "2028-08",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT07412470",
+          "title": "frexalimab",
+          "modality": "单抗",
+          "area": "肾脏 / 移植",
+          "target": "CD40L",
+          "stage": "Phase 2/Phase 3",
+          "company": "Sanofi",
+          "indication": "Kidney Transplant Rejection",
+          "trialTitle": "A Study to Investigate the Efficacy and Safety of Frexalimab Versus Tacrolimus in Adults Undergoing Kidney Transplantation",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-10-13",
+          "checked": "2026-10-15",
+          "summary": "The purpose of this open-label, randomized, active-comparator-controlled study is to determine the efficacy and safety of frexalimab subcutaneous administrations up to 5 years compared to tacrolimus capsules in adults undergoing kidney transplantation. Participants aged 18 to 70 years who have low-to-moderate immunologic risk of graft rejection and receive their first kidney transplant are eligible if they meet all inclusion and no exclusion criteria. Study details include:\n\n* The study and treatment duration will be up to approximately 5 years.\n* The number of visits will be approximately 38.",
+          "endpoints": [
+            "Composite efficacy failure rate (BPAR, graft loss, and death) by 1 year post kidney transplantation（by 1 year）"
+          ],
+          "completion": {
+            "date": "2033-08-15",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 526,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07412470，核查于2026-10-15",
+              "url": "https://clinicaltrials.gov/study/NCT07412470"
+            }
+          ],
+          "note": "这里展示一项已登记试验的阶段，不代表全球最高阶段或获批状态。注册页由申办方提供，不等于结果已证实。 2026-10-15登记更新时间刷新；阶段、状态、干预、主要终点、入组及完成时间未见实质变化。",
+          "risks": "核查对照、线数、终点成熟度、停药比例及制造可行性。不同试验不能直接按数字排名。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Frexalimab",
+              "description": "Pharmaceutical form:Solution for injection-Route of administration:IV",
+              "armGroupLabels": [
+                "Frexalimab"
+              ],
+              "otherNames": [
+                "SAR441344"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Frexalimab",
+              "description": "Pharmaceutical form:Solution for injection-Route of administration:SC",
+              "armGroupLabels": [
+                "Frexalimab"
+              ],
+              "otherNames": [
+                "SAR441344"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Tacrolimus",
+              "description": "Pharmaceutical form:Capsule-Route of administration:Oral",
+              "armGroupLabels": [
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "rabbit anti-thymocyte globulin",
+              "description": "Pharmaceutical form:Solution for injection-Route of administration:IV",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "mycophenolate mofetil",
+              "description": "Pharmaceutical form:Tablet or capsule-Route of administration:Oral",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "mycophenolate sodium",
+              "description": "Pharmaceutical form:Tablet-Route of administration:Oral",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "methylprednisolone",
+              "description": "Pharmaceutical form:Solution for injection-Route of administration:IV",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "prednisone",
+              "description": "Pharmaceutical form:Tablet-Route of administration:Oral",
+              "armGroupLabels": [
+                "Frexalimab",
+                "Tacrolimus"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2029-08-15",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT07661056",
+          "title": "BHV-1300",
+          "company": "Biohaven Therapeutics Ltd.",
+          "target": "pan-IgG / ASGPR",
+          "modality": "小分子胞外IgG降解剂",
+          "area": "自免 / 内分泌",
+          "indication": "Graves Disease",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "Study to Determine if BHV-1300 is Effective and Safe in Adults With Graves' Disease",
+          "registryUpdated": "2026-10-13",
+          "checked": "2026-10-15",
+          "summary": "The purpose of this study is to evaluate the efficacy and safety of BHV-1300 in adult participants with Graves' disease who are actively hyperthyroid 本次按ClinicalTrials.gov登记页规范申办方名称；阶段、状态与主要终点未变。",
+          "endpoints": [
+            "Number of participants on BHV-1300 vs placebo who are not on an antithyroid drug and with normal thyroid function (total T3, free T4 (FT4), & TSH within normal limits) at Week 26.（Week 26）"
+          ],
+          "primaryCompletion": {
+            "date": "2028-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-02",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 300,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07661056，核查于2026-10-15",
+              "url": "https://clinicaltrials.gov/study/NCT07661056"
+            }
+          ],
+          "note": "这里记录该项具体试验的登记阶段与状态，不代表资产全球最高阶段或获批状态；预计完成时间不等于已确认读出日期。 2026-10-15登记更新时间刷新；阶段、状态、干预、主要终点、入组及完成时间未见实质变化。",
+          "risks": "需验证临床获益、安全性、感染风险及选择性保留IgG3的转化意义。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "BHV-1300",
+              "description": "delivered subcutaneously via autoinjector",
+              "armGroupLabels": [
+                "BHV-1300"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "delivered subcutaneously via autoinjector",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07795814",
+          "title": "EDG-15400",
+          "company": "Edgewise Therapeutics, Inc.",
+          "target": "心肌肌节 / 舒张功能",
+          "modality": "小分子",
+          "area": "心血管",
+          "indication": "Heart Failure With Preserved Ejection Fraction",
+          "stage": "Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "A Study of EDG-15400 in Adults With Heart Failure With Preserved Ejection Fraction (EQUINOX-HFpEF)",
+          "registryUpdated": "2026-10-13",
+          "checked": "2026-10-15",
+          "summary": "This is a Phase 2 placebo-controlled study to evaluate the safety and tolerability of different doses of EDG-15400 in adults with heart failure with preserved ejection fraction (HFpEF).",
+          "endpoints": [
+            "Incidence of Treatment Emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)（From baseline through study completion (up to 20 weeks).）"
+          ],
+          "primaryCompletion": {
+            "date": "2027-12",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-12",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 90,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07795814，核查于2026-10-15",
+              "url": "https://clinicaltrials.gov/study/NCT07795814"
+            }
+          ],
+          "note": "这里记录该项具体试验的登记阶段与状态，不代表资产全球最高阶段或获批状态；预计完成时间不等于已确认读出日期。 2026-10-15登记更新时间刷新；阶段、状态、干预、主要终点、入组及完成时间未见实质变化。",
+          "risks": "主要关注安全性、药效学能否转化为症状和功能改善，以及HFpEF异质性。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "EDG-15400 25 mg",
+              "description": "EDG-15400 administered orally, once daily",
+              "armGroupLabels": [
+                "EDG-15400 25 mg"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo to match EDG-15400 25 mg or 50 mg",
+              "description": "Placebo administered orally, once daily",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "EDG-15400 50 mg",
+              "description": "EDG-15400 administered orally, once daily",
+              "armGroupLabels": [
+                "EDG-15400 50 mg"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07221344",
+          "title": "ARO-MAPT-SC",
+          "company": "Arrowhead Pharmaceuticals",
+          "target": "MAPT/tau",
+          "modality": "皮下注射CNS递送siRNA",
+          "area": "神经退行性疾病",
+          "indication": "健康志愿者及早期阿尔茨海默病",
+          "stage": "Phase 1/Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "Study of ARO-MAPT-SC in Healthy Participants and Participants With Early Alzheimer's Disease",
+          "registryUpdated": "2026-09-18",
+          "checked": "2026-10-15",
+          "summary": "ClinicalTrials.gov核实：Phase 1/2，RECRUITING，计划112例；公司在健康志愿者中报告CSF总tau在第105天平均最高下降73%，患者疗效尚未验证。",
+          "endpoints": [
+            "Number of Participants with Treatment-Emergent Adverse Events (TEAEs) Over Time（Through End of Study (EOS; Day 315)）"
+          ],
+          "completion": {
+            "date": "2027-06",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletion": {
+            "date": "2027-06",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 112,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ARO-MAPT-SC",
+              "description": "• single or multiple doses of ARO-MAPT-SC by subcutaneous (SC) injection",
+              "armGroupLabels": [
+                "ARO-MAPT-SC"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "• calculated volume to match active treatment by SC administration",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07221344，核查于2026-10-15",
+              "url": "https://clinicaltrials.gov/study/NCT07221344"
+            },
+            {
+              "title": "Arrowhead ARO-MAPT中期数据，2026-10-14",
+              "url": "https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-12a"
+            }
+          ],
+          "note": "具体登记为Phase 1/2，不代表全球最高阶段或获批；CSF tau为药效学标志物，不等于认知或疾病进展获益；预计完成时间不是确认读出日期。",
+          "risks": "健康志愿者安全性和tau下降尚需在患者中验证；长期过度降低生理性tau的风险、脑区分布、认知及功能终点待观察。"
+        },
+        {
+          "id": "NCT06549114",
+          "title": "Leniolisib (Joenja)",
+          "company": "Pharming Technologies B.V.",
+          "target": "PI3Kδ",
+          "modality": "口服小分子抑制剂",
+          "area": "罕见病/免疫",
+          "indication": "伴免疫失调的遗传性原发免疫缺陷",
+          "stage": "Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Leniolisib for Immune Dysregulation in PIDs",
+          "registryUpdated": "2026-02-13",
+          "checked": "2026-10-15",
+          "summary": "ClinicalTrials.gov核实：Phase 2，ACTIVE_NOT_RECRUITING，登记估计12例；公司报告实际纳入13例、12例完成，20周开放标签剂量递增。",
+          "endpoints": [
+            "Number of Participants with Treatment-emergent adverse events (TEAEs), Serious Adverse Events (SAEs) , and Adverse Events (AEs)（From Baseline to the end of 20 weeks of Treatment）"
+          ],
+          "completion": {
+            "date": "2026-11",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletion": {
+            "date": "2026-11",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 12,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Leniolisib",
+              "description": "The doses selected will range from 10 to 70 mg twice daily (BID) (resulting in total daily doses ranging from 20 to 140 mg per day).",
+              "armGroupLabels": [
+                "Leniolisib"
+              ],
+              "otherNames": [
+                "Joenja"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06549114，核查于2026-10-15",
+              "url": "https://clinicaltrials.gov/study/NCT06549114"
+            },
+            {
+              "title": "Pharming ESID数据，2026-10-14",
+              "url": "https://www.pharming.com/our-news/pharming-presents-positive-phase-II-topline-data-leniolisib-genetic-PIDs-with-immune-dysregulation-ESID-2026"
+            }
+          ],
+          "note": "登记仍显示估计12例，而公司报告实际纳入13例；两者并列保留。Leniolisib在APDS的既有批准不等于本试验其他遗传PID适应症获批。",
+          "risks": "单臂、样本极小、基因型异质且采用受试者内剂量递增；脾体积和器官指标需要对照试验及临床结局验证。"
+        },
+        {
+          "id": "NCT03022825",
+          "title": "ANKTIVA (nogapendekin alfa inbakicept-pmln/N-803)+BCG",
+          "company": "ImmunityBio, Inc.",
+          "target": "IL-15受体激动",
+          "modality": "IL-15超级激动剂融合蛋白+膀胱内BCG",
+          "area": "肿瘤",
+          "indication": "BCG无应答高危非肌层浸润性膀胱癌",
+          "stage": "Phase 2/Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "QUILT-3.032: A Multicenter Clinical Trial of Intravesical Bacillus Calmette-Guerin (BCG) in Combination With ALT-803 (N-803) in Patients With BCG Unresponsive High Grade Non-Muscle Invasive Bladder Cancer",
+          "registryUpdated": "2025-10-16",
+          "checked": "2026-10-15",
+          "summary": "ClinicalTrials.gov核实：Phase 2/3，ACTIVE_NOT_RECRUITING，实际入组190例；FDA于2026-10-14将适应症扩展至BCG无应答高等级乳头状瘤单独人群。",
+          "endpoints": [
+            "Complete Response（60 Months）",
+            "Disease-Free Rate（12 Months）"
+          ],
+          "completion": {
+            "date": "2029-03-01",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletion": {
+            "date": "2024-10-01",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 190,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "N-803 and BCG",
+              "description": "BCG and N-803 will be mixed together (with saline) and administered via intravesical instillation weekly for 6 consecutive weeks (induction). After the first disease assessment, eligible patients will receive either a 3-week maintenance course or a 6-week re-induction course (second treatment period) at Month 3. Eligible patients will continue to receive maintenance treatment in the third treatment period at Months 6, 9, 12, and 18. Eligible patients have the option to receive maintenance treatment in the fourth treatment period at Months 24, 30, and 36.",
+              "armGroupLabels": [
+                "BCG+N-803"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "N-803",
+              "description": "N-803 will be administered via intravesical instillation weekly for 6 consecutive weeks (induction). After the first disease assessment, eligible patients will receive either a 3-week maintenance course or a 6-week re-induction course (second treatment period) at Month 3. Eligible patients will continue to receive maintenance treatment in the third treatment period at Months 6, 9, 12, and 18. Eligible patients have the option to receive maintenance treatment in the fourth treatment period at Months 24, 30, and 36.",
+              "armGroupLabels": [
+                "BCG+N-803"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT03022825，核查于2026-10-15",
+              "url": "https://clinicaltrials.gov/study/NCT03022825"
+            },
+            {
+              "title": "FDA ANKTIVA扩展批准，2026-10-14",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer"
+            }
+          ],
+          "note": "该具体登记阶段不代表全球最高阶段；FDA已批准的是明确标签人群。扩展批准部分依赖CIS与乳头状疾病的临床和生物学相似性，不应外推至所有膀胱癌。",
+          "risks": "需关注膀胱切除延迟风险、真实世界持久缓解、BCG供应和商业化执行。"
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-arrowhead-pharmaceuticals",
+          "title": "Arrowhead Pharmaceuticals",
+          "date": "2026-10-14",
+          "checked": "2026-10-15",
+          "summary": "ARO-MAPT在健康志愿者中报告CSF总tau平均最高下降73%，验证皮下注射CNS siRNA递送和靶标调节。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "TRiM平台已覆盖肝、肺、肌肉、脂肪和CNS；ARO-MAPT针对MAPT，当前Phase 1/2。患者疗效仍未验证。 "
+            },
+            {
+              "heading": "战略与财务",
+              "body": "数据提高CNS递送平台的合作与管线期权价值，但不能把健康志愿者生物标志物直接转化为阿尔茨海默病峰值销售。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Arrowhead公告",
+              "url": "https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-12a"
+            },
+            {
+              "title": "NCT07221344",
+              "url": "https://clinicaltrials.gov/study/NCT07221344"
+            }
+          ]
+        },
+        {
+          "id": "company-immunitybio",
+          "title": "ImmunityBio",
+          "date": "2026-10-14",
+          "checked": "2026-10-15",
+          "summary": "ANKTIVA+BCG美国标签扩展至BCG无应答高等级乳头状瘤单独NMIBC。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "ANKTIVA为IL-15受体激动剂融合蛋白；新批准扩大美国可治疗人群。 "
+            },
+            {
+              "heading": "战略与财务",
+              "body": "标签扩展可复用现有商业体系，但真实增量价值受BCG供应、患者识别、持久缓解与膀胱切除路径影响。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA批准",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer"
+            },
+            {
+              "title": "NCT03022825",
+              "url": "https://clinicaltrials.gov/study/NCT03022825"
+            }
+          ]
+        },
+        {
+          "id": "company-pharming",
+          "title": "Pharming Technologies B.V.",
+          "date": "2026-10-14",
+          "checked": "2026-10-15",
+          "summary": "Leniolisib在13例非APDS遗传PID开放标签二期中报告脾、淋巴结、肺和肝指标信号。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "Leniolisib已用于APDS商业化，本试验探索共同PI3Kδ免疫失调机制的适应症扩展。 "
+            },
+            {
+              "heading": "战略与财务",
+              "body": "扩展至更广PID可提高既有资产生命周期价值，但需随机对照或可接受的注册路径。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pharming公告",
+              "url": "https://www.pharming.com/our-news/pharming-presents-positive-phase-II-topline-data-leniolisib-genetic-PIDs-with-immune-dysregulation-ESID-2026"
+            },
+            {
+              "title": "NCT06549114",
+              "url": "https://clinicaltrials.gov/study/NCT06549114"
+            }
+          ]
+        },
+        {
+          "id": "company-generate-zealand",
+          "title": "Generate Biomedicines / Zealand Pharma",
+          "date": "2026-10-13",
+          "checked": "2026-10-15",
+          "summary": "合作设计代谢疾病多特异蛋白，两个初始项目、可增加第三个。",
+          "sections": [
+            {
+              "heading": "所有权与分工",
+              "body": "Generate负责研究至候选物筛选；Zealand负责后续临床、监管和全球商业化。 "
+            },
+            {
+              "heading": "战略与财务",
+              "body": "Generate获3000万美元前期款和最高3500万美元早期临床前里程碑，总潜在里程碑近12亿美元并有分级提成。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "合作公告",
+              "url": "https://www.biospace.com/press-releases/generate-biomedicines-and-zealand-pharma-enter-collaboration-and-license-agreement-to-develop-protein-therapeutics-engineered-with-ai-for-metabolic-diseases"
+            }
+          ]
+        },
+        {
+          "id": "company-eton-aquestive",
+          "title": "Eton Pharmaceuticals / Aquestive Therapeutics",
+          "date": "2026-10-13",
+          "checked": "2026-10-15",
+          "summary": "Eton取得LIBERVANT美国独家商业化权，Aquestive保留独家制造供应。",
+          "sections": [
+            {
+              "heading": "交易与资产",
+              "body": "LIBERVANT为癫痫发作簇急救用diazepam颊膜；美国部分年龄组为暂定批准。 "
+            },
+            {
+              "heading": "战略与财务",
+              "body": "1000万美元前期款、最高4750万美元里程碑、中双位数提成；回报取决于净价、份额与供货成本。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Eton 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1710340/000143774926032600/eton20261013_8k.htm"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-mapt-aro-mapt",
+          "title": "MAPT/tau沉默｜ARO-MAPT",
+          "date": "2026-10-14",
+          "checked": "2026-10-15",
+          "summary": "皮下注射siRNA在健康志愿者中使CSF总tau平均最高下降73%，构成中枢递送和靶标调节的人体证据。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "药效学信号强且持续至末次给药后90天。 "
+            },
+            {
+              "heading": "待验证",
+              "body": "患者脑内tau病理、认知、功能、长期安全和不同tau病的剂量需求。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Arrowhead公告",
+              "url": "https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-12a"
+            },
+            {
+              "title": "NCT07221344",
+              "url": "https://clinicaltrials.gov/study/NCT07221344"
+            }
+          ]
+        },
+        {
+          "id": "target-il15-n803-anktiva",
+          "title": "IL-15受体激动｜ANKTIVA",
+          "date": "2026-10-14",
+          "checked": "2026-10-15",
+          "summary": "通过IL-15通路扩增和激活NK与T细胞；与BCG联合的美国NMIBC标签现覆盖CIS及高等级乳头状瘤单独人群。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "既有CIS队列支持获批，FDA基于临床和生物学相似性扩展标签。 "
+            },
+            {
+              "heading": "风险",
+              "body": "膀胱局部毒性、延迟根治手术风险、BCG供应与持久缓解。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA批准",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-certain-people-bcg-unresponsive-bladder-cancer"
+            },
+            {
+              "title": "NCT03022825",
+              "url": "https://clinicaltrials.gov/study/NCT03022825"
+            }
+          ]
+        },
+        {
+          "id": "target-pi3kd-leniolisib",
+          "title": "PI3Kδ｜Leniolisib",
+          "date": "2026-10-14",
+          "checked": "2026-10-15",
+          "summary": "选择性PI3Kδ抑制试图纠正多种遗传PID共享的免疫失调。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "13例开放标签研究显示淋巴增殖、肺和肝指标信号。 "
+            },
+            {
+              "heading": "待验证",
+              "body": "基因型间一致性、随机对照临床获益、感染与肝安全及注册终点。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pharming公告",
+              "url": "https://www.pharming.com/our-news/pharming-presents-positive-phase-II-topline-data-leniolisib-genetic-PIDs-with-immune-dysregulation-ESID-2026"
+            },
+            {
+              "title": "NCT06549114",
+              "url": "https://clinicaltrials.gov/study/NCT06549114"
+            }
+          ]
+        },
+        {
+          "id": "target-gabaa-diazepam-libervant",
+          "title": "GABA-A正向调节｜LIBERVANT diazepam颊膜",
+          "date": "2026-10-13",
+          "checked": "2026-10-15",
+          "summary": "成熟药理通过颊膜递送用于癫痫发作簇急救，核心创新是给药形式和商业可及性而非新靶点。",
+          "sections": [
+            {
+              "heading": "竞争与缺口",
+              "body": "需与鼻喷和直肠制剂比较起效、携带便利、患者偏好、净价与真实使用。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Eton 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1710340/000143774926032600/eton20261013_8k.htm"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-13-generate-zealand-metabolic",
+          "title": "Generate与Zealand代谢多特异蛋白合作",
+          "date": "2026-10-13",
+          "checked": "2026-10-15",
+          "summary": "两个初始项目并可增加第三个；3000万美元前期款、最高3500万美元早期临床前里程碑、总潜在里程碑近12亿美元及分级提成。",
+          "sections": [
+            {
+              "heading": "交易条款",
+              "body": "资产/靶点未披露；Generate研究至候选物筛选，Zealand负责全球临床、监管和商业化；币种美元。 "
+            },
+            {
+              "heading": "分析",
+              "body": "确定前期款约占名义总里程碑的低个位数百分比，体现平台合作以分阶段购买期权。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Generate–Zealand公告",
+              "url": "https://www.biospace.com/press-releases/generate-biomedicines-and-zealand-pharma-enter-collaboration-and-license-agreement-to-develop-protein-therapeutics-engineered-with-ai-for-metabolic-diseases"
+            }
+          ]
+        },
+        {
+          "id": "deal-2026-10-13-eton-aquestive-libervant",
+          "title": "Eton取得LIBERVANT美国独家商业化权",
+          "date": "2026-10-13",
+          "checked": "2026-10-15",
+          "summary": "1000万美元前期款、最高4750万美元里程碑、中双位数净销售提成；Aquestive为独家供应商，初始供货期20年。",
+          "sections": [
+            {
+              "heading": "交易条款",
+              "body": "区域为美国及其领地；Eton负责商业化，Aquestive负责制造供应。里程碑包括首次商业销售、6–11岁批准和销售额门槛。 "
+            },
+            {
+              "heading": "分析",
+              "body": "这是商业化许可而非早期研发期权；供货价、净价、市场份额和销售团队固定成本决定利润池。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Eton 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1710340/000143774926032600/eton20261013_8k.htm"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-2026-10-28-fda-rare-disease-framework-meeting",
+          "title": "FDA罕见病框架公开会议",
+          "date": "2026-10-28",
+          "checked": "2026-10-15",
+          "summary": "事件类型：监管政策；状态：confirmed；FDA计划于10月28日征集患者、行业与其他利益相关方意见。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "适应性证据标准、患者体验数据、外部对照、创新统计、CMC与检查风险分层的具体化。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA框架公告",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-launches-rare-disease-framework-initiative-develop-holistic-fit-purpose-framework-rare-disease"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2026-11-pharming-cvid-leniolisib",
+          "title": "Pharming计划公布CVID二期顶线",
+          "date": "2026-11",
+          "checked": "2026-10-15",
+          "summary": "事件类型：临床数据；状态：company-expected；公司预计2026年11月公布另一项CVID二期顶线。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "样本量、对照设计、感染、肺功能、淋巴增殖、患者报告结局和注册路径。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pharming公告",
+              "url": "https://www.pharming.com/our-news/pharming-presents-positive-phase-II-topline-data-leniolisib-genetic-PIDs-with-immune-dysregulation-ESID-2026"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-arrowhead-aro-mapt-patient-update",
+          "title": "ARO-MAPT早期阿尔茨海默病数据更新",
+          "date": "2027",
+          "checked": "2026-10-15",
+          "summary": "事件类型：临床数据；状态：company-expected；公司计划2027年更新患者队列数据，未披露确定日期。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "患者CSF tau、tau-PET或其他病理指标、认知/功能、安全性、剂量和持续性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Arrowhead公告",
+              "url": "https://ir.arrowheadpharma.com/news-releases/news-release-details/arrowhead-pharmaceuticals-announces-aro-mapt-interim-phase-12a"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-2027-03-03-libervant-6-11-fda",
+          "title": "LIBERVANT 6–11岁Type 9 NDA目标行动日",
+          "date": "2027-03-03",
+          "checked": "2026-10-15",
+          "summary": "事件类型：监管；状态：company-reported；公司公告称6–11岁申请的PDUFA目标行动日为2027年3月3日。",
+          "sections": [
+            {
+              "heading": "观察点",
+              "body": "批准结论、最终标签、2–5岁和12岁以上最终批准条件、商业上市准备。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Aquestive/Eton公告",
+              "url": "https://aquestive.gcs-web.com/news-releases/news-release-details/eton-pharmaceuticals-and-aquestive-therapeutics-announce"
+            },
+            {
+              "title": "Eton 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1710340/000143774926032600/eton20261013_8k.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-14",
       "date": "2026-10-14",
@@ -9466,20 +10453,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-14T07:18:00+08:00",
+    "checkedAt": "2026-10-15T07:22:00+08:00",
     "status": "success",
     "counts": {
-      "baselinePipelineChecked": 51,
-      "baselinePipelineChanged": 0,
+      "baselinePipelineChecked": 53,
+      "baselinePipelineChanged": 4,
       "baselinePipelineFailed": 0,
-      "newPipelinesAdded": 2,
-      "companiesUpserted": 6,
-      "targetsUpserted": 6,
+      "newPipelinesAdded": 3,
+      "companiesUpserted": 5,
+      "targetsUpserted": 4,
       "dealsAdded": 2,
-      "catalystsUpserted": 2,
+      "catalystsUpserted": 4,
       "briefEvents": 6
     },
-    "summary": "既有51项去重NCT全部核查成功、0失败、0项实质变化；新增2项经ClinicalTrials.gov核实的临床记录。MAXPIRe公司已停止IPF开发但登记仍为ACTIVE_NOT_RECRUITING，已同时保留而未擅自覆盖。预计完成时间未当作读出；ISRCTN80838388未伪造成NCT。FYB206仅取得二级来源，已明确标注证据等级。"
+    "summary": "既有53项去重NCT全部核查成功、0失败；4项仅登记更新时间刷新，阶段、状态、干预、主要终点、入组与完成时间无实质变化。新增3项经ClinicalTrials.gov核实的记录。Leniolisib公司实际入组13例与登记估计12例并列保留；所有预计完成时间未当作确认读出日期。"
   },
   "archivedPapers": []
 }
