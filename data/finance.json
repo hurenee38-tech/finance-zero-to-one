@@ -1,8 +1,685 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-15T07:22:00+08:00",
+  "updatedAt": "2026-10-16T07:03:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-16",
+      "date": "2026-10-16",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜从体内CAR-T到AI交易与IPO稀释",
+      "summary": "本期覆盖体内CAR-T美国IND、实体瘤掩蔽TCE交易、心肝代谢AI发现合作、罕见内分泌融资和AI药企IPO；学习primary shares、股权稀释、净募资与现金跑道，并完成56项既有NCT巡检。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Iambic以每股16美元发行937.5万股，IPO募资总额1.5亿美元。纯教学假设：IPO前完全稀释股数为4375万股，承销折扣为募资额的7%，其他发行费用400万美元，公司上市后年度现金消耗1亿美元。请计算：(1) IPO后的总股数、原股东稀释率和融资后股权价值；(2)公司实际新增净现金；(3)若不考虑原有现金，这笔IPO可提供多长现金跑道；最后说明为什么“上市首日上涨”不能证明公司的药物项目已经降低临床风险。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先区分股权价值、总募资和净募资，再把净募资与现金消耗对应。步骤一：IPO后股数=4375万+937.5万=5312.5万股；新股占比=937.5÷5312.5≈17.65%，这就是旧股东在不跟投时的持股比例稀释。融资后股权价值=5312.5万×16美元=8.50亿美元；融资前隐含股权价值=4375万×16美元=7.00亿美元。步骤二：承销折扣=1.5亿×7%=1050万美元；净新增现金=1.5亿-1050万-400万=1.355亿美元。步骤三：不考虑原有现金和现金利息，跑道=1.355亿÷1亿/年≈1.36年。一种可行答案：IPO能补充约16个月现金，但若关键临床数据晚于这一窗口，公司仍可能在读出前再次融资。必要证据包括招股书中的真实股数、净募资、现金余额、债务和资金用途；支持证据包括首日交易量及机构订单；“首日上涨代表临床成功率提高”属于未经验证的假设。常见误区：用总募资代替净募资、把新股占旧股数的比例当成稀释率、忽略期权和可转债造成的完全稀释股数，或把市场交易表现当作临床证据。自查标准：股数口径一致；融资前价值+总募资=融资后价值；跑道使用净现金而非股权价值。"
+        },
+        {
+          "heading": "核心概念：IPO中的Primary Shares、稀释与现金跑道",
+          "body": "Primary shares（公司新发行股份）带来公司现金，同时摊薄原股东持股比例；secondary shares（老股东出售股份）的资金通常归售股股东，不进入公司。总募资额等于发行股数×发行价，但公司真正可用的是扣除承销折扣和发行费用后的净募资。稀释率应以新股占融资后完全稀释股数计算。现金跑道≈可用现金÷年度现金消耗，但真实预测还要加入临床试验启动、CMC放大、上市公司成本、利息和里程碑付款。Iambic本次937.5万股均由公司发行，因此属于primary issuance；1.5亿美元是总募资，不是净募资。[1]"
+        },
+        {
+          "heading": "1. AstraZeneca与insitro签署心肝代谢AI发现合作",
+          "body": "事实（2026-10-15）：insitro将利用Virtual Human平台整合人类与细胞数据，在MASH和心肌病中识别因果疾病生物学，并把AstraZeneca指定靶点推进至开发候选物；AstraZeneca获得所选项目全球独家权利。insitro获得4000万美元前期款、最高约14.6亿美元开发及商业里程碑，并可获得全球销售额个位数百分比提成。[2]\n科学：平台试图解决异质性疾病中“相关信号不等于因果靶点”的问题，但公告没有披露具体靶点，也没有人体实验验证。\n商业与战略：AstraZeneca获得多个早期项目期权，insitro获得非稀释资金和药企开发能力验证；价值取决于能否产出可成药且具有可重复人类遗传或功能证据的靶点。\n财务：名义总里程碑约为前期款36.5倍，显示风险主要留在未来触发条件；不能把15亿美元当成今日交易成本。"
+        },
+        {
+          "heading": "2. Vir与Gilead合作开发三项双重掩蔽T细胞衔接器",
+          "body": "事实（2026-10-14）：Vir负责发现、设计和优化三个针对实体瘤抗原的PRO-XTEN双重掩蔽TCE候选物，Gilead拥有提名、后续开发、生产和商业化的独家权利。Vir可获9000万美元前期对价，其中6500万美元现金、2500万美元为溢价30%的股权投资；另有最高4500万美元近期临床前里程碑、17.4亿美元后续里程碑和高个位数至低双位数分级提成。[3]\n科学：TCE在实体瘤中的核心障碍是正常组织毒性和治疗窗；PRO-XTEN意图让分子在血中保持掩蔽，进入肿瘤后由蛋白酶切割激活。公告证明合作兴趣，不证明掩蔽选择性已在人体成立。\n商业与财务：现金前期款、溢价股权和近期里程碑应分开估值；股权投资既提供资金，也使Gilead分享Vir整体价值变化。"
+        },
+        {
+          "heading": "3. Legend的LB2501获美国IND放行",
+          "body": "事实（2026-10-15）：Legend宣布FDA已放行LB2501的IND，支持计划中的美国Ⅰ/Ⅱ期研究。LB2501是一种单次输注、在患者体内生成CD19/CD20双靶向CAR-T细胞的慢病毒载体疗法。[4] ClinicalTrials.gov现有NCT07002112是中国Ⅰ期、招募中、计划30例，登记申办方为南京医科大学第一附属医院，并非尚未公开登记号的美国研究。[5]\n科学：体内CAR-T可能省去体外制备和淋巴清除，但必须严密验证非特异转导、载体整合、细胞扩增可控性和长期随访。\n商业：若安全性和可制造性成立，有机会降低周转时间和治疗中心负担；竞争将来自其他体内基因递送平台及成熟自体CAR-T。\n财务：IND放行降低的是美国临床启动的监管执行风险，不等同疗效去风险或商业批准。"
+        },
+        {
+          "heading": "4. OMass完成3.10亿美元Series C",
+          "body": "事实（2026-10-15）：OMass宣布完成超额认购的3.10亿美元融资，由Bain Capital Life Sciences、Forbion和Novo Holdings共同领投。资金将支持MC2R拮抗剂OMS1620推进至先天性肾上腺皮质增生和ACTH依赖性库欣综合征Ⅱ期，并产生SLC15A4抑制剂的早期临床数据。[6] NCT07811089登记为健康志愿者Ⅰ期、尚未开始招募、预计84例；登记预计完成时间不能当成确认读出日期。[7]\n科学：OMS1620旨在延长MC2R占据时间，在高ACTH环境下仍抑制肾上腺激素生成；当前人体研究首先回答安全性、PK和PD，而非患者疗效。\n融资：大额私募可以同时覆盖两个临床价值拐点，但未披露投前估值、优先权和清算条款，无法由融资额反推出公司估值。"
+        },
+        {
+          "heading": "5. Iambic以1.50亿美元完成IPO定价",
+          "body": "事实（2026-10-14）：Iambic以每股16美元发行937.5万股，预计总募资1.50亿美元，并给予承销商额外购买140.625万股的30天选择权；股票计划于10月15日在Nasdaq以IAM交易，发行预计10月16日完成。[1]\n科学与商业：公司用AI与自动化化学、生物实验发现药物，临床核心资产IAM1363为HER2抑制剂；IPO本身只验证资本市场对平台和管线风险收益的接受度。\n财务：融资是否充足应以招股书净募资、原有现金、年度消耗和关键读出时间计算；首日股价表现可能受流通盘和订单结构影响，不能代替临床证据。"
+        },
+        {
+          "heading": "跨岗位视角：如何看Vir–Gilead交易",
+          "body": "投资银行：判断9000万美元前期对价和30%溢价入股能否成为掩蔽TCE平台融资与交易可比。FA顾问：拆分三个项目的提名权、排他范围、里程碑可达性、权利回转和竞业限制。BD：重点核查蛋白酶切割选择性、不同肿瘤微环境的一致性、候选物优化责任和CMC交接。投资人：把6500万美元现金、2500万美元股权和或有付款分别建模，不把18.75亿美元潜在总额视为确定收入。咨询顾问：评估适合TCE的实体瘤抗原、治疗中心路径、竞品和可接受的安全性门槛。"
+        },
+        {
+          "heading": "小案例：溢价股权投资的经济含义",
+          "body": "教学假设：Vir公告前股价为10美元，Gilead按30%溢价即13美元投入2500万美元，可获得约192.3万股。若合作成功使股价升至20美元，这部分持股价值约3846万美元；若平台失败、股价跌至5美元，价值约962万美元。因此，买方并非只支付“不可回收”的前期款，而是用股权投资同时提供资金并保留公司层面的上行敞口。卖方则用较少即时稀释换取高于市价的融资，但股权价值与项目付款不能混为同一类收入。真实分析还需检查锁定期、登记权、股份上限和会计分类。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "截至2026-10-16，本次逐项核查56个既有去重NCT：成功56项、失败0项。NCT07723703仅登记更新时间由2026-10-02刷新为2026-10-15，阶段、状态、干预、主要终点和入组数无实质变化。新增NCT07002112与NCT07811089两项结构化记录。美国LB2501研究的ClinicalTrials.gov编号尚未在公司公告中披露，因此没有把中国Ⅰ期登记冒充美国试验。预计完成时间均未解释为确认读出日期；历史简报及全部归档字段保留。"
+        },
+        {
+          "heading": "术语速记",
+          "body": "Primary shares：公司发行的新股，募资进入公司。Dilution：新股发行后原股东持股比例下降。T-cell engager/TCE：同时结合肿瘤抗原与T细胞、促进免疫杀伤的分子。Masking：暂时遮蔽药物结合或活性区域，期望在肿瘤微环境中解除。Receptor residence time：药物停留并占据受体的持续时间。IND clearance：监管机构允许研究按申报方案进入临床，并非药物获批。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Primary shares",
+          "zh": "公司新发行股份",
+          "meaning": "发行所得进入公司并摊薄原股东比例。"
+        },
+        {
+          "en": "Dilution",
+          "zh": "股权稀释",
+          "meaning": "新增股份使既有股东所占公司比例下降。"
+        },
+        {
+          "en": "Dual-masked T-cell engager",
+          "zh": "双重掩蔽T细胞衔接器",
+          "meaning": "设计为在肿瘤外保持低活性、进入肿瘤后解除掩蔽的TCE。"
+        },
+        {
+          "en": "Receptor residence time",
+          "zh": "受体驻留时间",
+          "meaning": "药物结合并占据受体的持续时间。"
+        },
+        {
+          "en": "IND clearance",
+          "zh": "IND放行",
+          "meaning": "监管机构允许临床研究按申报方案推进，不代表药物获批。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iambic IPO定价公告，2026-10-14",
+          "url": "https://www.iambic.ai/post/iambic-announces-pricing-of-initial-public-offering"
+        },
+        {
+          "title": "AstraZeneca–insitro合作公告，2026-10-15",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-for-difficult-to-treat-cardiometabolic-diseases.html"
+        },
+        {
+          "title": "Vir–Gilead PRO-XTEN合作公告，2026-10-14",
+          "url": "https://investors.vir.bio/news/news-details/2026/Vir-Biotechnology-Enters-Multi-Program-Collaboration-and-License-Agreement-with-Gilead-Sciences-to-Discover-and-Develop-Novel-PRO-XTEN-Dual-masked-T-cell-Engagers-for-Solid-Tumors/default.aspx"
+        },
+        {
+          "title": "Legend Biotech LB2501美国IND放行，2026-10-15",
+          "url": "https://investors.legendbiotech.com/news-releases/news-release-details/legend-biotech-announces-us-fda-clearance-ind-application-lb2501"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT07002112，核查于2026-10-16",
+          "url": "https://clinicaltrials.gov/study/NCT07002112"
+        },
+        {
+          "title": "OMass 3.10亿美元Series C，2026-10-15",
+          "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT07811089，核查于2026-10-16",
+          "url": "https://clinicaltrials.gov/study/NCT07811089"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT07723703",
+          "title": "AMX-883",
+          "company": "Amphista Therapeutics Ltd",
+          "target": "BRD9/DCAF16",
+          "modality": "口服靶向蛋白降解剂",
+          "area": "肿瘤/血液",
+          "indication": "复发或难治AML及高危MDS",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "Phase 1 Open-label Study of AMX-883 Alone in Participants With AML and High-risk MDS and in Combination in Participants With AML",
+          "registryUpdated": "2026-10-15",
+          "checked": "2026-10-16",
+          "summary": "ClinicalTrials.gov核实：Phase 1 Open-label Study of AMX-883 Alone in Participants With AML and High-risk MDS and in Combination in Participants With AML；Phase 1，状态RECRUITING，申办方Amphista Therapeutics Ltd。；本次仅登记更新时间刷新，阶段、状态、干预、主要终点和入组数未发生实质变化。",
+          "endpoints": [
+            "Number of participants with adverse events (AEs), treatment-emergent adverse events (TEAEs), adverse events of special interests (AESIs) and serious adverse events (SAEs)（Until 30 days after last dose (Approximately 2 years 8 months)）",
+            "Number of participants with dose limiting toxicities (DLTs)（During Cycle 1 (each cycle will be 28 days)）"
+          ],
+          "completion": {
+            "date": "2029-04-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 54,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "AMX-883",
+              "description": "AMX-883 will be administered orally.",
+              "armGroupLabels": [
+                "Module 1 Part A (M1A): AMX-883 monotherapy dose escalation cohort",
+                "Module 1 Part A (M1A): AMX-883 monotherapy food effect cohort",
+                "Module 1 Part B (M1B): AMX-883 + posaconazole"
+              ],
+              "otherNames": []
+            },
+            {
+              "type": "DRUG",
+              "name": "Posaconazole",
+              "description": "Posaconazole tablets will be administered orally.",
+              "armGroupLabels": [
+                "Module 1 Part B (M1B): AMX-883 + posaconazole"
+              ],
+              "otherNames": []
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07723703，核查于2026-10-16",
+              "url": "https://clinicaltrials.gov/study/NCT07723703"
+            },
+            {
+              "title": "Amphista首例给药公告，2026-10-12",
+              "url": "https://www.biospace.com/press-releases/amphista-therapeutics-announces-first-patient-dosed-in-amx-883-phase-1-clinical-trial-for-acute-myeloid-leukemia"
+            }
+          ],
+          "note": "首次人体Phase 1登记；阶段仅代表该具体试验，不代表全球最高开发阶段或获批状态。",
+          "risks": "早期安全性、暴露量、BRD9降解深度、分化效应和与标准疗法联用窗口均待人体验证。"
+        },
+        {
+          "id": "NCT07002112",
+          "title": "LB2501（中国登记中的CD19/CD20双靶向体内CAR-T慢病毒产品）",
+          "company": "The First Affiliated Hospital with Nanjing Medical University",
+          "target": "CD19/CD20",
+          "modality": "单次静脉输注的慢病毒载体体内CAR-T",
+          "area": "肿瘤",
+          "indication": "复发/难治性B细胞恶性肿瘤",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "The CD19/CD20 Dual-Target in Vivo CAR-T Lentiviral Product in the Treatment of Relapsed/Refractory B-cell Malignancies",
+          "registryUpdated": "2026-05-14",
+          "checked": "2026-10-16",
+          "summary": "ClinicalTrials.gov核实：中国Phase 1研究正在招募，计划30例；Legend的公开资料将该在研产品称为LB2501。2026-10-15美国IND获放行，但公司未在公告中披露美国研究的NCT编号。",
+          "endpoints": [
+            "治疗期间不良事件的发生率、严重程度和类型（研究完成，平均约2年）",
+            "外周血与骨髓中的CAR阳性T细胞及CAR转基因比例（研究完成，平均约2年）",
+            "3+3设计确定推荐Phase 2剂量（输注后30天）"
+          ],
+          "completion": {
+            "date": "2029-06-30",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletion": {
+            "date": "2027-06-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 30,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "CD19/CD20 Dual-Target in vivo CAR-T Lentiviral product"
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07002112，核查于2026-10-16",
+              "url": "https://clinicaltrials.gov/study/NCT07002112"
+            },
+            {
+              "title": "Legend Biotech LB2501美国IND放行，2026-10-15",
+              "url": "https://investors.legendbiotech.com/news-releases/news-release-details/legend-biotech-announces-us-fda-clearance-ind-application-lb2501"
+            }
+          ],
+          "note": "该登记为中国Phase 1，不能当作计划中的美国Phase 1/2；IND放行不是获批，也不代表美国首例给药。预计完成时间不是确认读出日期。",
+          "risks": "需验证载体脱靶转导、插入性风险、体内扩增可控性、持久性、CRS/ICANS和不同中心的可复制性。"
+        },
+        {
+          "id": "NCT07811089",
+          "title": "OMS1620",
+          "company": "OMass Therapeutics Australia Proprietary Ltd",
+          "target": "MC2R",
+          "modality": "口服小分子受体拮抗剂",
+          "area": "罕见病/内分泌",
+          "indication": "先天性肾上腺皮质增生；健康志愿者安全性与药理学研究",
+          "stage": "Phase 1",
+          "status": "NOT_YET_RECRUITING",
+          "trialTitle": "Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of OMS1620",
+          "registryUpdated": "2026-09-09",
+          "checked": "2026-10-16",
+          "summary": "ClinicalTrials.gov核实：随机、双盲、单次及多次递增剂量和食物效应Phase 1，计划84名健康志愿者；截至登记核查仍为NOT_YET_RECRUITING。",
+          "endpoints": [
+            "治疗期间不良事件与严重不良事件（Day 1至约Day 25）",
+            "食物对OMS1620血浆Cmax的影响",
+            "食物对OMS1620血浆AUC的影响"
+          ],
+          "completion": {
+            "date": "2027-06",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletion": {
+            "date": "2027-05",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 84,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "OMS1620"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07811089，核查于2026-10-16",
+              "url": "https://clinicaltrials.gov/study/NCT07811089"
+            },
+            {
+              "title": "OMass 3.10亿美元Series C，2026-10-15",
+              "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/"
+            }
+          ],
+          "note": "本试验在健康志愿者中评估安全性、PK和PD，不能视为CAH患者疗效验证；公司融资目标中的Phase 2为未来计划。预计完成时间不是确认读出日期。",
+          "risks": "需要证明在高ACTH环境下的受体占据和激素PD转化，同时控制过度抑制皮质醇相关风险；患者获益尚未验证。"
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-astrazeneca-insitro",
+          "title": "AstraZeneca × insitro",
+          "date": "2026-10-15",
+          "checked": "2026-10-16",
+          "summary": "以AI和高维人类/细胞数据发现MASH与心肌病因果靶点的全球合作。",
+          "sections": [
+            {
+              "heading": "平台与分工",
+              "body": "insitro负责Virtual Human分析和候选物前期推进，AstraZeneca负责后续临床与监管。"
+            },
+            {
+              "heading": "融资与战略变化",
+              "body": "4000万美元前期款；最高约14.6亿美元或有里程碑；全球销售额个位数提成。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AstraZeneca公告，2026-10-15",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-for-difficult-to-treat-cardiometabolic-diseases.html"
+            }
+          ]
+        },
+        {
+          "id": "company-vir-gilead",
+          "title": "Vir Biotechnology × Gilead Sciences",
+          "date": "2026-10-14",
+          "checked": "2026-10-16",
+          "summary": "围绕三个实体瘤PRO-XTEN双重掩蔽TCE候选物的发现和全球开发合作。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "Vir提供dAIsY蛋白工程和PRO-XTEN掩蔽平台；具体肿瘤抗原未披露。"
+            },
+            {
+              "heading": "权利与融资",
+              "body": "Gilead负责后续开发、制造和商业化；前期对价包含现金与溢价股权投资。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Vir公告，2026-10-14",
+              "url": "https://investors.vir.bio/news/news-details/2026/Vir-Biotechnology-Enters-Multi-Program-Collaboration-and-License-Agreement-with-Gilead-Sciences-to-Discover-and-Develop-Novel-PRO-XTEN-Dual-masked-T-cell-Engagers-for-Solid-Tumors/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "company-legend-biotech",
+          "title": "Legend Biotech",
+          "date": "2026-10-15",
+          "checked": "2026-10-16",
+          "summary": "LB2501美国IND获FDA放行，公司正在推进体内CAR-T平台。",
+          "sections": [
+            {
+              "heading": "核心资产",
+              "body": "LB2501为CD19/CD20双靶向慢病毒体内CAR-T；中国已有Phase 1登记。"
+            },
+            {
+              "heading": "战略变化",
+              "body": "美国IND放行支持计划中的Phase 1/2，但美国NCT编号未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Legend公告，2026-10-15",
+              "url": "https://investors.legendbiotech.com/news-releases/news-release-details/legend-biotech-announces-us-fda-clearance-ind-application-lb2501"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT07002112",
+              "url": "https://clinicaltrials.gov/study/NCT07002112"
+            }
+          ]
+        },
+        {
+          "id": "company-omass-therapeutics",
+          "title": "OMass Therapeutics",
+          "date": "2026-10-15",
+          "checked": "2026-10-16",
+          "summary": "完成3.10亿美元Series C，推进MC2R与SLC15A4项目。",
+          "sections": [
+            {
+              "heading": "平台与核心资产",
+              "body": "OdyssION结合原生质谱、生物化学与定制化学；OMS1620处于健康志愿者Phase 1登记。"
+            },
+            {
+              "heading": "融资与战略变化",
+              "body": "资金拟覆盖OMS1620至Phase 2，并产生SLC15A4抑制剂的早期临床数据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "OMass公告，2026-10-15",
+              "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT07811089",
+              "url": "https://clinicaltrials.gov/study/NCT07811089"
+            }
+          ]
+        },
+        {
+          "id": "company-iambic-therapeutics",
+          "title": "Iambic Therapeutics",
+          "date": "2026-10-14",
+          "checked": "2026-10-16",
+          "summary": "以每股16美元发行937.5万股，IPO总募资1.50亿美元。",
+          "sections": [
+            {
+              "heading": "平台与核心资产",
+              "body": "AI驱动的药物发现平台；临床核心资产IAM1363为HER2抑制剂。"
+            },
+            {
+              "heading": "融资与战略变化",
+              "body": "全部基础发行股份由公司发行，计划以IAM在Nasdaq交易。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Iambic IPO定价公告，2026-10-14",
+              "url": "https://www.iambic.ai/post/iambic-announces-pricing-of-initial-public-offering"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-cd19-cd20-in-vivo-cart",
+          "title": "CD19/CD20双靶向体内CAR-T",
+          "date": "2026-10-15",
+          "checked": "2026-10-16",
+          "summary": "通过体内转导T细胞生成双靶向CAR，试图缩短传统自体CAR-T制备链。",
+          "sections": [
+            {
+              "heading": "生物学与成药性",
+              "body": "双抗原设计可能降低单抗原逃逸；慢病毒体内转导带来可扩展性和持久表达潜力。"
+            },
+            {
+              "heading": "安全与待验证",
+              "body": "必须验证细胞类型选择性、载体整合、扩增可控性、CRS/ICANS及长期随访。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Legend公告，2026-10-15",
+              "url": "https://investors.legendbiotech.com/news-releases/news-release-details/legend-biotech-announces-us-fda-clearance-ind-application-lb2501"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT07002112",
+              "url": "https://clinicaltrials.gov/study/NCT07002112"
+            }
+          ]
+        },
+        {
+          "id": "target-mc2r",
+          "title": "MC2R（melanocortin-2 receptor）",
+          "date": "2026-10-15",
+          "checked": "2026-10-16",
+          "summary": "ACTH在肾上腺皮质上的GPCR受体，是CAH和ACTH依赖性库欣综合征的治疗切入点。",
+          "sections": [
+            {
+              "heading": "生物学依据",
+              "body": "阻断ACTH-MC2R信号可减少肾上腺皮质激素和雄激素过度生成。"
+            },
+            {
+              "heading": "安全与竞争",
+              "body": "需要避免导致不足的皮质醇反应；药效需与现有糖皮质激素及其他类固醇生成抑制策略比较。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "OMass公告，2026-10-15",
+              "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT07811089",
+              "url": "https://clinicaltrials.gov/study/NCT07811089"
+            }
+          ]
+        },
+        {
+          "id": "target-pro-xten-masked-tce",
+          "title": "PRO-XTEN双重掩蔽TCE平台",
+          "date": "2026-10-14",
+          "checked": "2026-10-16",
+          "summary": "以可被肿瘤蛋白酶切割的掩蔽结构限制TCE在肿瘤外激活。",
+          "sections": [
+            {
+              "heading": "机制",
+              "body": "掩蔽设计意在延长半衰期并扩大实体瘤TCE治疗窗。"
+            },
+            {
+              "heading": "待验证",
+              "body": "不同肿瘤蛋白酶环境异质，掩蔽稳定性、解除效率和正常组织毒性需临床验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Vir公告，2026-10-14",
+              "url": "https://investors.vir.bio/news/news-details/2026/Vir-Biotechnology-Enters-Multi-Program-Collaboration-and-License-Agreement-with-Gilead-Sciences-to-Discover-and-Develop-Novel-PRO-XTEN-Dual-masked-T-cell-Engagers-for-Solid-Tumors/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "target-ai-causal-cardiometabolic",
+          "title": "AI因果心肝代谢靶点发现",
+          "date": "2026-10-15",
+          "checked": "2026-10-16",
+          "summary": "利用大规模人类与细胞数据寻找MASH和心肌病的因果驱动因素。",
+          "sections": [
+            {
+              "heading": "证据要求",
+              "body": "优先需要人类遗传、疾病组织、扰动实验与前瞻验证形成闭环。"
+            },
+            {
+              "heading": "失败风险",
+              "body": "模型相关性、数据偏差和不可成药靶点可能导致临床前淘汰；目前具体靶点未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AstraZeneca公告，2026-10-15",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-for-difficult-to-treat-cardiometabolic-diseases.html"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-15-astrazeneca-insitro",
+          "title": "AstraZeneca–insitro心肝代谢AI合作",
+          "date": "2026-10-15",
+          "checked": "2026-10-16",
+          "summary": "全球独家发现与许可合作；4000万美元前期款、最高约14.6亿美元或有里程碑和个位数提成。",
+          "sections": [
+            {
+              "heading": "交易条款",
+              "body": "双方：AstraZeneca与insitro；资产：MASH和心肌病的未披露项目；区域：全球；阶段：发现期；前期：4000万美元；里程碑：最高约14.6亿美元；提成：全球销售额个位数。"
+            },
+            {
+              "heading": "交易逻辑",
+              "body": "买方用有限前期款获得多项目发现期权，卖方获得非稀释资金与后续开发能力。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AstraZeneca公告，2026-10-15",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-for-difficult-to-treat-cardiometabolic-diseases.html"
+            }
+          ]
+        },
+        {
+          "id": "deal-2026-10-14-vir-gilead-pro-xten",
+          "title": "Vir–Gilead三项目PRO-XTEN TCE合作",
+          "date": "2026-10-14",
+          "checked": "2026-10-16",
+          "summary": "三个实体瘤TCE项目的发现和独家许可，现金、股权和多层里程碑组合。",
+          "sections": [
+            {
+              "heading": "交易条款",
+              "body": "前期9000万美元：6500万美元现金及2500万美元、较市价溢价30%的股权投资；近期临床前里程碑最高4500万美元；后续里程碑最高17.4亿美元；提成为高个位数至低双位数。"
+            },
+            {
+              "heading": "权利与逻辑",
+              "body": "Vir负责候选物发现优化，Gilead负责后续开发、制造与商业化。具体抗原和地区例外未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Vir公告，2026-10-14",
+              "url": "https://investors.vir.bio/news/news-details/2026/Vir-Biotechnology-Enters-Multi-Program-Collaboration-and-License-Agreement-with-Gilead-Sciences-to-Discover-and-Develop-Novel-PRO-XTEN-Dual-masked-T-cell-Engagers-for-Solid-Tumors/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "financing-2026-10-15-omass-series-c",
+          "title": "OMass 3.10亿美元Series C",
+          "date": "2026-10-15",
+          "checked": "2026-10-16",
+          "summary": "超额认购私募融资，用于两个临床价值节点。",
+          "sections": [
+            {
+              "heading": "融资结构",
+              "body": "由Bain Capital Life Sciences、Forbion和Novo Holdings共同领投；投前估值、股份比例及优先权未披露。"
+            },
+            {
+              "heading": "资金用途",
+              "body": "OMS1620推进至Phase 2，并产生SLC15A4抑制剂早期临床数据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "OMass公告，2026-10-15",
+              "url": "https://www.omass.com/2026/10/15/omass-therapeutics-announces-310-million-series-c-financing-to-advance-portfolio-of-small-molecule-therapeutics-in-endocrinology-and-immunology/"
+            }
+          ]
+        },
+        {
+          "id": "financing-2026-10-14-iambic-ipo",
+          "title": "Iambic 1.50亿美元IPO定价",
+          "date": "2026-10-14",
+          "checked": "2026-10-16",
+          "summary": "937.5万股、每股16美元，全部为公司发行新股。",
+          "sections": [
+            {
+              "heading": "融资结构",
+              "body": "总募资1.50亿美元；承销商另有140.625万股超额配售选择权；净募资需扣除承销折扣和发行费用。"
+            },
+            {
+              "heading": "资本市场意义",
+              "body": "为AI药物发现平台提供公开市场融资渠道，但不改变临床证据本身。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Iambic公告，2026-10-14",
+              "url": "https://www.iambic.ai/post/iambic-announces-pricing-of-initial-public-offering"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-lb2501-us-phase1-2-start",
+          "title": "LB2501美国Phase 1/2启动",
+          "date": "未披露",
+          "checked": "2026-10-16",
+          "summary": "美国IND已放行，具体首例给药时间和NCT编号尚未披露。",
+          "sections": [
+            {
+              "heading": "事件类型",
+              "body": "临床启动；状态：company-planned。"
+            },
+            {
+              "heading": "证据边界",
+              "body": "IND放行允许研究启动，但不等于首例给药；中国NCT07002112不是美国试验。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Legend公告，2026-10-15",
+              "url": "https://investors.legendbiotech.com/news-releases/news-release-details/legend-biotech-announces-us-fda-clearance-ind-application-lb2501"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-oms1620-phase1-primary-completion",
+          "title": "OMS1620 Phase 1预计主要完成",
+          "date": "2027-05",
+          "checked": "2026-10-16",
+          "summary": "ClinicalTrials.gov登记的预计主要完成时间，不能自动解释为数据读出日期。",
+          "sections": [
+            {
+              "heading": "事件类型",
+              "body": "注册登记预计完成；状态：estimated。"
+            },
+            {
+              "heading": "关注点",
+              "body": "安全性、PK、食物效应和肾上腺激素PD；患者疗效不在本健康志愿者研究中回答。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07811089，核查于2026-10-16",
+              "url": "https://clinicaltrials.gov/study/NCT07811089"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-iambic-ipo-close",
+          "title": "Iambic IPO预计完成",
+          "date": "2026-10-16",
+          "checked": "2026-10-16",
+          "summary": "公司公告预计发行于2026-10-16完成，取决于常规交割条件。",
+          "sections": [
+            {
+              "heading": "事件类型",
+              "body": "IPO交割；状态：expected。"
+            },
+            {
+              "heading": "后续核查",
+              "body": "最终净募资、超额配售是否行使及首份上市公司披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Iambic公告，2026-10-14",
+              "url": "https://www.iambic.ai/post/iambic-announces-pricing-of-initial-public-offering"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-15",
       "date": "2026-10-15",
@@ -10453,20 +11130,18 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-15T07:22:00+08:00",
+    "checkedAt": "2026-10-16T07:03:00+08:00",
     "status": "success",
-    "counts": {
-      "baselinePipelineChecked": 53,
-      "baselinePipelineChanged": 4,
-      "baselinePipelineFailed": 0,
-      "newPipelinesAdded": 3,
-      "companiesUpserted": 5,
-      "targetsUpserted": 4,
-      "dealsAdded": 2,
-      "catalystsUpserted": 4,
-      "briefEvents": 6
-    },
-    "summary": "既有53项去重NCT全部核查成功、0失败；4项仅登记更新时间刷新，阶段、状态、干预、主要终点、入组与完成时间无实质变化。新增3项经ClinicalTrials.gov核实的记录。Leniolisib公司实际入组13例与登记估计12例并列保留；所有预计完成时间未当作确认读出日期。"
+    "checked": 56,
+    "changed": 1,
+    "failed": 0,
+    "newPipelines": 2,
+    "companies": 5,
+    "targets": 4,
+    "deals": 4,
+    "catalysts": 3,
+    "events": 5,
+    "summary": "逐项核查56个既有去重NCT，成功56、失败0；NCT07723703仅登记更新时间刷新，无阶段、状态、干预、主要终点或入组数实质变化。新增LB2501中国Phase 1与OMS1620健康志愿者Phase 1两项结构化登记。"
   },
   "archivedPapers": []
 }
