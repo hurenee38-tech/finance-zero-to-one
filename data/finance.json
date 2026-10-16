@@ -1,8 +1,529 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-16T07:03:00+08:00",
+  "updatedAt": "2026-10-17T07:28:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-17",
+      "date": "2026-10-17",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜控股投资穿透估值、口服GLP-1与肾脏基因治疗",
+      "summary": "学习控股股权交易的隐含估值与EV桥接；覆盖orforglipron欧洲CHMP积极意见、Mankind控股下一代CAR-T、City RNAi IPO与Estuary肾脏基因治疗融资，并完成58项既有NCT巡检。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Mankind Pharma拟以4800万欧元取得Armed Cell Therapeutics（ACTx）70%股权。纯教学假设：4800万欧元全部用于购买现有股份，交割时ACTx有800万欧元现金、300万欧元有息债务，且不存在优先股、里程碑付款或额外注资承诺。请计算：(1)交易隐含的100%股权价值；(2)隐含企业价值（EV）；(3)若4800万欧元中有2000万欧元其实是向公司增资，为什么不能再简单用4800万÷70%作为收购前估值？最后列出真实尽调中必须补齐的三项条款。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先判断对价对应“买老股”还是“投新钱”，再把股权价值桥接至EV。步骤一：全为老股时，100%股权价值=4800万÷70%=6857万欧元。步骤二：EV=股权价值+有息债务-现金=6857万+300万-800万=6357万欧元。步骤三：若2000万为增资，资金进入ACTx并改变交割后现金与股本；2800万才是老股价。此时必须知道增资前估值、增资和老股各自换取的股份以及交割前后资本结构，不能机械除以70%。一种可行答案：6857万欧元股权价值、6357万欧元EV；真实结论要核查对价分配、净债务定义和完全稀释口径。必要证据：正式协议、交割资本结构与净债务表、或有付款/未来出资义务。支持证据：董事席位、保护条款、管理层留任和研发预算。待验证假设：4800万是否全为一次性老股价。常见误区：把增资当成卖方套现、忽略现金进入公司后降低EV、遗漏优先股和期权。自查：明确交割前后口径；EV桥接加债减现；未披露条款标为假设。"
+        },
+        {
+          "heading": "核心概念：控股股权交易的穿透估值",
+          "body": "股权价值是股东对经营资产的剩余索取权；企业价值（EV）描述经营资产对全部资本提供者的价值。若买方以P购买比例s且全是老股，最简单的100%股权价值=P÷s；EV=股权价值+有息债务-现金。但控股权可能含控制权溢价，混合交易还可能有增资、里程碑、股东贷款和研发承诺，所以“对价÷股比”只是起点。算例：4800万欧元买70%老股，对应6857万欧元股权价值；净现金500万欧元时EV约6357万欧元。"
+        },
+        {
+          "heading": "1. Foundayo（orforglipron）获EMA CHMP积极意见",
+          "body": "事实（意见采纳2026-10-15，页面发布2026-10-16）：EMA的CHMP建议批准Lilly的Foundayo，用于成人体重管理及控制不佳的2型糖尿病；orforglipron为口服非肽类GLP-1受体激动剂，拟提供每日片剂。常见不良反应以恶心、呕吐、腹泻等胃肠道事件为主；最终欧盟许可仍待欧盟委员会决定。[1]\n科学：小分子口服剂型可减少注射负担，但长期心血管结局、停药后反弹和真实世界依从性仍需观察。\n商业/战略：Lilly可覆盖不愿注射的人群，竞争将扩展到价格、供应、便捷性和长期结局。\n财务：积极意见降低欧洲监管风险，但不是最终批准；峰值销售模型仍需加入欧委会决定、标签、报销与产能。"
+        },
+        {
+          "heading": "2. Mankind以4800万欧元取得ACTx 70%股权",
+          "body": "事实（2026-10-15）：Mankind Pharma通过荷兰子公司签署最终协议，以4800万欧元取得Armed Cell Therapeutics 70%股权。ACTx开发下一代armed CAR-T，领先方向为非霍奇金淋巴瘤和小细胞肺癌，并探索体内生成CAR-T。[2]\n科学：附加载荷和多抗原设计试图改善耗竭、持久性及抗原逃逸；实体瘤还需跨越浸润和微环境障碍。公告没有人体疗效数据。\n商业/战略：这是Mankind由印度规模化处方药向全球前沿细胞治疗延伸的控制性投资；控制权也意味着承担更多临床、CMC和人才风险。\n财务：4800万÷70%约为6857万欧元表面股权价值，但公告未说明老股/增资、债务现金、优先权和未来出资，不能视为完整估值。"
+        },
+        {
+          "heading": "3. City Therapeutics将IPO扩大至约2亿美元",
+          "body": "事实（2026-10-15定价，10月16日预计交易）：City以每股18美元发行1111.1111万股，均为公司新股，总募资约2亿美元；承销商另有166.6666万股30天选择权，代码CTY，预计10月19日交割。[3] 管线包括CITY-FXI、CITY-RBP4和CITY-TFR2。\n科学/商业：RNAi价值取决于组织递送、沉默持续时间、靶点生物学和安全窗；IPO提供开发资本，不替代临床验证。\n财务：基础总募资约2亿美元；超额配售全额行使后约2.30亿美元，净募资仍需扣承销折扣与费用。发行需求不能解释为临床成功率上升。"
+        },
+        {
+          "heading": "4. Estuary以1.03亿美元启动肾脏基因治疗平台",
+          "body": "事实（2026-10-16）：Estuary宣布累计承诺融资1.03亿美元，包括1000万美元种子轮和RA Capital领投的9300万美元A轮。资金拟支持EST-201与EST-101至临床概念验证。EST-201以AAV递送全长PKD2，预计2027年入临床；EST-101递送PC1功能区，预计2028年入临床，均采用肾脏局部给药。[4]\n科学：项目直接针对ADPKD遗传病因，小鼠研究支持恢复多囊蛋白可能逆转囊性表型；但动物逆转不等于人体肾功能恢复，肾单位覆盖、免疫和持久性是关键风险。\n商业/战略：肾脏定向AAV若降低系统暴露，可扩展至更多肾病；按基因亚型开发利于筛选，也缩小单项目人群。\n财务：大额A轮覆盖两个项目至概念验证；累计融资额不是投后估值。"
+        },
+        {
+          "heading": "跨岗位视角：Mankind–ACTx控股投资",
+          "body": "投资银行：用控股溢价、细胞治疗可比交易和并表影响评估价格。FA顾问：拆分老股、增资、未来出资、里程碑、少数股东退出权和治理条款。BD：核查载荷、多抗原、体内CAR-T边界、IP自由实施和技术转移。投资人：建立分阶段成功概率与追加资本需求，关注回报率稀释。咨询顾问：评估适应症优先级、治疗中心路径、制造网络及组织整合。"
+        },
+        {
+          "heading": "小案例：City IPO的超额配售与现金跑道",
+          "body": "教学假设：基础总募资2亿美元，全额超额配售后约2.30亿美元；承销折扣7%、其他费用500万美元、年度现金消耗1.20亿美元。基础净募资≈2.00亿×93%-500万=1.81亿美元，对应约1.51年跑道；全额配售净募资≈2.30亿×93%-500万=2.089亿美元，对应约1.74年。真实分析还要加入上市前现金、利息、里程碑、试验启动与CMC；超额配售是选择权，不是确定募资。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "截至2026-10-17，对data/drugs/pipelines.json、既有pipelineUpdates与archivedPipelines中的58个去重NCT逐项核查：成功58、失败0。仅NCT06623422登记更新时间由2026-10-02刷新至2026-10-16；Phase 3、RECRUITING、干预、主要终点DFS、预计680例及预计完成时间无实质变化。今日没有可靠的新NCT登记，新增管线0；未把公司预计2027/2028入临床写成确定读出或已启动。历史简报及全部归档数组保留。"
+        },
+        {
+          "heading": "术语速记",
+          "body": "Implied equity value：按对价和比例推算的全体股东价值。EV：经营资产对债权人和股东的合计价值，常用股权价值加债减现。Control premium：取得决策控制权可能支付的额外价格。CHMP positive opinion：EMA科学委员会建议批准，非最终欧盟许可。Armed CAR-T：携带额外功能载荷的CAR-T。Greenshoe：承销商按发行价追加购股的选择权。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Implied equity value",
+          "zh": "隐含股权价值",
+          "meaning": "按本轮对价和取得比例推算的100%股权价值。"
+        },
+        {
+          "en": "Enterprise value (EV)",
+          "zh": "企业价值",
+          "meaning": "经营资产对股东和债权人的总价值，常用股权价值加债减现。"
+        },
+        {
+          "en": "Control premium",
+          "zh": "控制权溢价",
+          "meaning": "取得决策权相对少数股权价格可能支付的额外价值。"
+        },
+        {
+          "en": "CHMP positive opinion",
+          "zh": "CHMP积极意见",
+          "meaning": "EMA科学委员会建议批准药品，但并非最终欧盟上市许可。"
+        },
+        {
+          "en": "Armed CAR-T",
+          "zh": "武装型CAR-T",
+          "meaning": "增加功能载荷以增强抗肿瘤活性的CAR-T。"
+        },
+        {
+          "en": "Greenshoe",
+          "zh": "超额配售选择权",
+          "meaning": "承销商在规定期限按发行价追加购买股份的安排。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "EMA Foundayo积极意见，2026-10-15",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/foundayo"
+        },
+        {
+          "title": "Mankind Pharma收购ACTx多数股权，2026-10-15",
+          "url": "https://www.mankindpharma.com/media/press-release/mankind-pharma-to-acquire-majority-stake-in-armed-cell-therapeutics-marking-strategic-entry-into-next-generation-car-t-therapies/"
+        },
+        {
+          "title": "City Therapeutics IPO定价，2026-10-15",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382239/0/en/city-therapeutics-announces-pricing-of-upsized-initial-public-offering.html"
+        },
+        {
+          "title": "Estuary Biotherapeutics启动与融资，2026-10-16",
+          "url": "https://www.businesswire.com/news/home/20261015160770/en/Estuary-Biotherapeutics-Launches-with-$103-Million-to-Develop-Targeted-Gene-Therapies-for-Kidney-Disease"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06623422，核查于2026-10-17",
+          "url": "https://clinicaltrials.gov/study/NCT06623422"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT06623422",
+          "title": "V940",
+          "modality": "疫苗",
+          "area": "肿瘤",
+          "target": "个体化新抗原",
+          "stage": "Phase 3",
+          "company": "Merck Sharp & Dohme LLC",
+          "indication": "Carcinoma, Non-Small-Cell Lung",
+          "trialTitle": "A Study of Pembrolizumab (MK-3475) With or Without Intismeran Autogene (V940) in Participants With Non-small Cell Lung Cancer (V940-009/INTerpath-009)",
+          "status": "RECRUITING",
+          "registryUpdated": "2026-10-16",
+          "checked": "2026-10-17",
+          "summary": "ClinicalTrials.gov核实：V940（intismeran autogene）联合或不联合帕博利珠单抗用于非小细胞肺癌的Phase 3研究仍为RECRUITING，计划入组680例；本次仅登记更新时间由2026-10-02刷新至2026-10-16，阶段、状态、干预、主要终点、预计入组数及预计完成时间均无实质变化。",
+          "endpoints": [
+            "Disease-Free Survival (DFS)"
+          ],
+          "completion": {
+            "date": "2038-01-26",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 680,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06623422，核查于2026-10-17",
+              "url": "https://clinicaltrials.gov/study/NCT06623422"
+            }
+          ],
+          "note": "本记录展示该具体试验的Phase 3状态，不代表产品已获批；登记预计完成时间不等于确定读出日期。",
+          "risks": "主要终点DFS尚未报告；个体化新抗原制造周转、样本成功率、事件成熟度和与帕博利珠单抗的增量获益仍需验证。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "description": "IV Infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "MK-3475",
+                "KEYTRUDA®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Cisplatin",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Platinol®",
+                "Platinol®-AQ"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Paraplatin®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Pemetrexed",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Alimta®"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Gemcitabine",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Gemzar"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Paclitaxel",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene",
+                "Pembrolizumab + Placebo"
+              ],
+              "otherNames": [
+                "Taxol®",
+                "Onxol®"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Intismeran autogene",
+              "description": "IM injection",
+              "armGroupLabels": [
+                "Pembrolizumab + Intismeran autogene"
+              ],
+              "otherNames": [
+                "mRNA-4157",
+                "V940"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": "IM injection",
+              "armGroupLabels": [
+                "Pembrolizumab + Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "primaryCompletion": {
+            "date": "2033-05-16",
+            "type": "ESTIMATED"
+          }
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-eli-lilly",
+          "title": "Eli Lilly",
+          "date": "2026-10-15",
+          "checked": "2026-10-17",
+          "summary": "Foundayo获CHMP积极意见。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "orforglipron为每日口服非肽类GLP-1受体激动剂；最终许可待欧委会决定。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "EMA Foundayo",
+              "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/foundayo"
+            }
+          ]
+        },
+        {
+          "id": "company-mankind-armed-cell",
+          "title": "Mankind Pharma × Armed Cell Therapeutics",
+          "date": "2026-10-15",
+          "checked": "2026-10-17",
+          "summary": "4800万欧元取得ACTx 70%股权。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "ACTx聚焦下一代CAR-T，人体阶段与候选物细节未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Mankind公告",
+              "url": "https://www.mankindpharma.com/media/press-release/mankind-pharma-to-acquire-majority-stake-in-armed-cell-therapeutics-marking-strategic-entry-into-next-generation-car-t-therapies/"
+            }
+          ]
+        },
+        {
+          "id": "company-city-therapeutics",
+          "title": "City Therapeutics",
+          "date": "2026-10-15",
+          "checked": "2026-10-17",
+          "summary": "RNAi公司扩大IPO，基础总募资约2亿美元。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "管线覆盖FXI、RBP4和TFR2；基础发行均为公司新股。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "City IPO公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382239/0/en/city-therapeutics-announces-pricing-of-upsized-initial-public-offering.html"
+            }
+          ]
+        },
+        {
+          "id": "company-estuary-biotherapeutics",
+          "title": "Estuary Biotherapeutics",
+          "date": "2026-10-16",
+          "checked": "2026-10-17",
+          "summary": "1.03亿美元累计融资启动肾脏定向AAV平台。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "EST-201面向PKD2，EST-101面向PKD1；预计2027/2028入临床。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Estuary公告",
+              "url": "https://www.businesswire.com/news/home/20261015160770/en/Estuary-Biotherapeutics-Launches-with-$103-Million-to-Develop-Targeted-Gene-Therapies-for-Kidney-Disease"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-oral-glp1-orforglipron",
+          "title": "口服非肽类GLP-1受体激动剂orforglipron",
+          "date": "2026-10-15",
+          "checked": "2026-10-17",
+          "summary": "每日片剂改善血糖并支持体重管理。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "CHMP积极意见已获；长期结局、依从性、价格和供应竞争仍待观察。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "EMA Foundayo",
+              "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/foundayo"
+            }
+          ]
+        },
+        {
+          "id": "target-armed-multi-antigen-cart",
+          "title": "武装型/多抗原CAR-T",
+          "date": "2026-10-15",
+          "checked": "2026-10-17",
+          "summary": "附加载荷与多抗原识别意在改善持久性和抗原逃逸。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "实体瘤浸润、微环境、毒性、持久性与制造仍需人体数据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Mankind公告",
+              "url": "https://www.mankindpharma.com/media/press-release/mankind-pharma-to-acquire-majority-stake-in-armed-cell-therapeutics-marking-strategic-entry-into-next-generation-car-t-therapies/"
+            }
+          ]
+        },
+        {
+          "id": "target-pkd1-pkd2-gene-restoration",
+          "title": "PKD1/PKD2功能恢复",
+          "date": "2026-10-16",
+          "checked": "2026-10-17",
+          "summary": "肾脏局部AAV直接针对ADPKD遗传病因。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "小鼠数据支持生物学；人体递送覆盖、免疫和持久性未验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Estuary公告",
+              "url": "https://www.businesswire.com/news/home/20261015160770/en/Estuary-Biotherapeutics-Launches-with-$103-Million-to-Develop-Targeted-Gene-Therapies-for-Kidney-Disease"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-15-mankind-actx",
+          "title": "Mankind取得ACTx 70%股权",
+          "date": "2026-10-15",
+          "checked": "2026-10-17",
+          "summary": "4800万欧元控股投资下一代CAR-T平台。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "老股/增资、净债务、里程碑和未来出资未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Mankind公告",
+              "url": "https://www.mankindpharma.com/media/press-release/mankind-pharma-to-acquire-majority-stake-in-armed-cell-therapeutics-marking-strategic-entry-into-next-generation-car-t-therapies/"
+            }
+          ]
+        },
+        {
+          "id": "financing-2026-10-15-city-ipo",
+          "title": "City Therapeutics约2亿美元IPO",
+          "date": "2026-10-15",
+          "checked": "2026-10-17",
+          "summary": "1111.1111万股、每股18美元。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "另有166.6666万股超额配售；基础总募资约2亿美元，净募资待扣费用。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "City IPO公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382239/0/en/city-therapeutics-announces-pricing-of-upsized-initial-public-offering.html"
+            }
+          ]
+        },
+        {
+          "id": "financing-2026-10-16-estuary-series-a",
+          "title": "Estuary累计1.03亿美元融资",
+          "date": "2026-10-16",
+          "checked": "2026-10-17",
+          "summary": "1000万美元种子轮加9300万美元A轮。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "推进两项ADPKD基因治疗至临床概念验证；估值和优先权未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Estuary公告",
+              "url": "https://www.businesswire.com/news/home/20261015160770/en/Estuary-Biotherapeutics-Launches-with-$103-Million-to-Develop-Targeted-Gene-Therapies-for-Kidney-Disease"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-foundayo-ec-decision",
+          "title": "Foundayo欧委会最终决定",
+          "date": "未披露",
+          "checked": "2026-10-17",
+          "summary": "CHMP已给出积极意见，最终欧盟许可待定。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "状态：pending；积极意见不是最终批准。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "EMA Foundayo",
+              "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/foundayo"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-city-ipo-close",
+          "title": "City Therapeutics IPO预计交割",
+          "date": "2026-10-19",
+          "checked": "2026-10-17",
+          "summary": "公司预计在常规条件满足后交割。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "状态：expected；后续核查最终净募资和超额配售。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "City IPO公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382239/0/en/city-therapeutics-announces-pricing-of-upsized-initial-public-offering.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-est201-clinic",
+          "title": "EST-201预计进入临床",
+          "date": "2027",
+          "checked": "2026-10-17",
+          "summary": "公司预计PKD2基因治疗于2027年入临床。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "状态：company-anticipated；需等待IND/CTA与登记。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Estuary公告",
+              "url": "https://www.businesswire.com/news/home/20261015160770/en/Estuary-Biotherapeutics-Launches-with-$103-Million-to-Develop-Targeted-Gene-Therapies-for-Kidney-Disease"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-est101-clinic",
+          "title": "EST-101预计进入临床",
+          "date": "2028",
+          "checked": "2026-10-17",
+          "summary": "公司预计PKD1基因治疗于2028年入临床。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "状态：company-anticipated；需等待IND/CTA与登记。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Estuary公告",
+              "url": "https://www.businesswire.com/news/home/20261015160770/en/Estuary-Biotherapeutics-Launches-with-$103-Million-to-Develop-Targeted-Gene-Therapies-for-Kidney-Disease"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-16",
       "date": "2026-10-16",
@@ -11130,18 +11651,18 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-16T07:03:00+08:00",
+    "checkedAt": "2026-10-17T07:28:00+08:00",
     "status": "success",
-    "checked": 56,
+    "checked": 58,
     "changed": 1,
     "failed": 0,
-    "newPipelines": 2,
-    "companies": 5,
-    "targets": 4,
-    "deals": 4,
-    "catalysts": 3,
-    "events": 5,
-    "summary": "逐项核查56个既有去重NCT，成功56、失败0；NCT07723703仅登记更新时间刷新，无阶段、状态、干预、主要终点或入组数实质变化。新增LB2501中国Phase 1与OMS1620健康志愿者Phase 1两项结构化登记。"
+    "newPipelines": 0,
+    "companies": 4,
+    "targets": 3,
+    "deals": 3,
+    "catalysts": 4,
+    "events": 4,
+    "summary": "逐项核查58个既有去重NCT，成功58、失败0；NCT06623422仅登记更新时间刷新，无其他实质变化。今日未新增可靠NCT登记。"
   },
   "archivedPapers": []
 }
