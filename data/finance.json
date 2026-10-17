@@ -1,8 +1,407 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-17T07:28:00+08:00",
+  "updatedAt": "2026-10-18T07:26:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-18",
+      "date": "2026-10-18",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜沉没成本、延续NPV与四项监管/管线决策",
+      "summary": "用iptacopan狼疮性肾炎试验终止学习沉没成本与延续NPV；覆盖Enspryng成人甲状腺眼病FDA批准、Rasonque胰腺癌CHMP积极意见、Fabhalta管线取舍及Yartemlea复审后拒批，并完成58项既有NCT全量巡检。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "某在研适应症已投入9000万美元（不可收回）。从今天起，继续开发还需立即投入7000万美元；若成功，成功当日资产的增量税后现值为2.60亿美元，成功概率为30%。若现在停止，可把团队和预算转投另一项目，后者的风险调整后净现值为1800万美元。请判断应继续还是停止，计算使两方案价值相等的成功概率，并列出在把“战略终止”解释为科学失败前必须补齐的证据。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：决策只比较从今天起会改变的现金流；已经花掉且不可收回的9000万美元是沉没成本，不进入继续/停止的增量比较。步骤一，继续开发的期望增量NPV=30%×2.60亿美元−7000万美元=800万美元。步骤二，停止并转投的价值=1800万美元，因此继续方案相对转投少1000万美元；在这些教学假设下应停止。步骤三，临界成功概率p满足p×2.60亿−7000万=1800万，所以p=8800万÷2.60亿≈33.85%。一种可行答案：若更新后的成功概率低于约33.9%，且替代项目确能实现1800万美元风险调整NPV，停止更优。必要证据：试验数据、独立安全审查、预设终点结果、公司正式说明及资源再配置方案。支持证据：同机制其他适应症数据、竞争格局、招募速度和CMC可行性。待验证假设：登记中的“战略考虑”是否掩盖疗效、安全、招募或商业问题。常见误区：让历史投入影响当下决策、把成功后的价值和期望价值混用、漏掉机会成本、把终止直接等同临床失败。自查标准：只用未来增量现金流；概率与价值口径一致；替代方案计入比较；事实与推断分开。"
+        },
+        {
+          "heading": "核心概念：沉没成本与延续NPV",
+          "body": "沉没成本是已经发生且无法收回的支出；理性决策应比较“从现在开始”各方案的增量价值。延续NPV可写为：成功概率×成功时增量资产现值−未来开发成本−机会成本。算例中，继续的期望增量NPV为800万美元，而转投项目价值为1800万美元；因此继续方案的机会成本调整后价值为−1000万美元。该结论不证明原项目科学失败，只说明在给定概率、成本和替代方案下资本配置不占优。"
+        },
+        {
+          "heading": "1. Enspryng获FDA批准用于成人甲状腺眼病",
+          "body": "事实（2026-10-16）：FDA批准Roche/Genentech的Enspryng（satralizumab）用于成人甲状腺眼病（TED），这是首个可由患者或照护者培训后在家皮下注射的TED疗法；负荷期后每4周一次。该药为靶向IL-6受体的再循环抗体。两项III期研究中，SatraGO-1在第24周未达到预设主要终点；SatraGO-2的眼球突出应答率为52.9%，安慰剂为23.4%，复视减轻为60.7%对25.8%，未发现新的安全性信号。[1]\n科学：IL-6通路提供区别于IGF-1R的抗炎机制，但两项关键试验不一致，需看标签、亚组和真实世界持续获益。\n商业/战略：居家、低频给药可能降低输注负担，Roche也把既有NMOSD产品拓展到新适应症。\n财务：批准创造新收入来源并提高抗体平台经营杠杆；估值仍应对未达主要终点的研究、支付方准入和市场份额采用情景分析。"
+        },
+        {
+          "heading": "2. Rasonque获CHMP积极意见：胰腺癌进入pan-RAS时代",
+          "body": "事实（意见采纳2026-10-15）：EMA的CHMP建议附条件批准Revolution Medicines的Rasonque（daraxonrasib），用于既往接受过治疗的转移性胰腺导管腺癌成人。该口服pan-RAS抑制剂先结合cyclophilin A，再阻断活化RAS与下游效应蛋白相互作用；EMA称其相较化疗延长中位总生存期和无进展生存期，常见不良反应包括皮疹、腹泻、口腔炎、恶心和呕吐。最终欧盟许可仍待欧委会决定。[2]\n科学：这验证了直接覆盖多种RAS突变/野生型活化状态的路径，但获益大小、耐药机制和长期安全性需完整数据。\n商业/战略：难治胰腺癌未满足需求高，先发可建立诊断与治疗路径；后续竞争取决于标签、组合疗法和耐药管理。\n财务：积极意见降低欧洲监管风险但不是最终批准；条件许可意味着确认性研究和上市后投入仍会影响rNPV。"
+        },
+        {
+          "heading": "3. Novartis终止iptacopan狼疮性肾炎II期研究",
+          "body": "事实（ClinicalTrials.gov登记更新2026-10-15）：NCT05268289在Part 1完成后终止，实际入组81例，原研究计划包含约240例；登记原文给出的停止原因为赞助方“战略考虑”。主要终点为第24周完全肾脏缓解比例。登记没有把终止归因于疗效不足或安全性，亦不能由此推断Fabhalta在其他适应症的监管状态。[3]\n科学：补体因子B抑制在狼疮性肾炎的生物学假设仍需Part 1数据或其他对照证据评估。\n商业/战略：Novartis可能在适应症、竞争、资源和回报之间重新排序；“战略”是结论标签，不是原因证据。\n财务：终止可避免后续支出并释放资源，但也删除了一个潜在适应症的期权价值；应以未来增量NPV而非历史研发投入判断。"
+        },
+        {
+          "heading": "4. Yartemlea复审后仍遭CHMP拒绝",
+          "body": "事实（2026-10-15）：EMA在复审后确认拒绝Yartemlea（narsoplimab）上市申请，用于造血干细胞移植相关血栓性微血管病。narsoplimab为抗MASP-2单抗。关键研究仅28名成人、无安慰剂或阳性对照；CHMP还指出合并用药、研究设计变更、终点和剂量选择问题，使外部对照比较不可靠。儿童剂量、疗效和安全证据也不足，委员会认定获益未获证明且不满足附条件批准要求。[4]\n科学：罕见、危重疾病可以接受更灵活证据，但自然史异质性和无同期对照会显著削弱因果推断。\n商业/战略：复审未逆转结论后，补充路径需要更可信的对照、终点和儿科桥接；时间与资金压力上升。\n财务：欧洲收入概率和近期催化剂价值下降，追加试验成本上升；rNPV需同时下调成功概率并推迟现金流。"
+        },
+        {
+          "heading": "跨岗位视角：iptacopan适应症终止",
+          "body": "投资银行关注该适应症退出对管线估值、融资叙事和资本配置的影响；FA顾问核查合作权利、终止义务、数据访问及潜在权利返还；BD专业人员区分靶点、分子、试验执行和商业优先级，判断是否仍有外部授权价值；投资人重算成功概率、剩余成本和机会成本，避免沉没成本谬误；咨询顾问审视适应症组合、竞争强度、资源瓶颈与组织再部署。共同底线是：登记的“战略考虑”不足以证明科学失败。"
+        },
+        {
+          "heading": "小案例：Enspryng适应症扩展的经营杠杆",
+          "body": "纯教学假设：每年可治疗成人TED患者4万人，峰值渗透率12%，年净价9万美元，毛利率80%，新增销售与医学事务固定费用1.20亿美元。峰值收入=4万×12%×9万=4.32亿美元；毛利=4.32亿×80%=3.456亿美元；扣除新增固定费用后的贡献约2.256亿美元。盈亏平衡渗透率=1.20亿÷（4万×9万×80%）≈4.17%。真实模型还要加入治疗时长、给药负荷期、折扣、竞争、标签限制、停药率和研发/上市后承诺。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "截至2026-10-18，对data/drugs/pipelines.json、既有pipelineUpdates与archivedPipelines中的58个去重NCT逐项核查：成功58、失败0、实质变更0；干预药物身份、阶段、状态、适应症、主要终点、入组及登记关键日期均未发现可靠变化。新增核实NCT05268289一条：iptacopan用于活动性III–IV型±V型狼疮性肾炎的Phase 2研究状态为TERMINATED，实际入组81例，2026-10-15登记更新，停止原因为赞助方战略考虑。新增后数据库共覆盖59个去重NCT。历史简报及全部归档数组均保留。"
+        },
+        {
+          "heading": "术语速记",
+          "body": "Sunk cost：已发生且无法收回、不应影响当前边际决策的成本。Continuation NPV：从今天起继续项目所产生的风险调整净现值。Opportunity cost：选择一个方案而放弃的最佳替代方案价值。Conditional marketing authorisation：欧盟在未满足需求下基于较不完整数据给予的有条件许可，并要求补充证据。External control：用试验外患者数据作为比较组，易受人群差异和偏倚影响。Recycling antibody：通过工程设计延长靶点结合/释放与体内作用的抗体。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Sunk cost",
+          "zh": "沉没成本",
+          "meaning": "已经发生且无法收回，不应主导当前增量决策的支出。"
+        },
+        {
+          "en": "Continuation NPV",
+          "zh": "延续净现值",
+          "meaning": "只计算从现在起继续开发带来的风险调整现金流现值。"
+        },
+        {
+          "en": "Opportunity cost",
+          "zh": "机会成本",
+          "meaning": "选择当前方案而放弃的最佳替代方案价值。"
+        },
+        {
+          "en": "Conditional marketing authorisation",
+          "zh": "附条件上市许可",
+          "meaning": "欧盟在未满足需求下基于较不完整证据给予许可，并要求上市后补充数据。"
+        },
+        {
+          "en": "External control",
+          "zh": "外部对照",
+          "meaning": "使用试验之外的数据作为比较组，因不可随机化而更易产生偏倚。"
+        },
+        {
+          "en": "Recycling antibody",
+          "zh": "再循环抗体",
+          "meaning": "通过工程设计优化靶点结合与体内循环，从而延长药效的抗体。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Roche：FDA批准Enspryng用于成人TED，2026-10-16",
+          "url": "https://www.roche.com/media/releases/med-cor-2026-10-16"
+        },
+        {
+          "title": "EMA：Rasonque CHMP积极意见，2026-10-15",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT05268289，登记更新2026-10-15，核查于2026-10-18",
+          "url": "https://clinicaltrials.gov/study/NCT05268289"
+        },
+        {
+          "title": "EMA：Yartemlea复审后拒绝，2026-10-15",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yartemlea"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT05268289",
+          "title": "Iptacopan（Fabhalta/LNP023）",
+          "modality": "口服小分子补体因子B抑制剂",
+          "area": "自免/肾脏",
+          "target": "Complement Factor B",
+          "stage": "Phase 2",
+          "company": "Novartis Pharmaceuticals",
+          "indication": "活动性III–IV型±V型狼疮性肾炎",
+          "trialTitle": "Study of Efficacy and Safety of LNP023 in Participants With Active Lupus Nephritis Class III-IV, +/- V",
+          "status": "TERMINATED",
+          "registryUpdated": "2026-10-15",
+          "checked": "2026-10-18",
+          "summary": "ClinicalTrials.gov核实：该Phase 2研究在Part 1完成后终止，实际入组81例；赞助方登记的停止原因为战略考虑。登记未说明因疗效或安全性失败。",
+          "endpoints": [
+            "Part 1 and 2: Proportion of Participants Achieving Complete Renal Response at Week 24 in the Absence of Renal Flares"
+          ],
+          "completion": {
+            "date": "2026-10-01",
+            "type": "ACTUAL"
+          },
+          "primaryCompletion": {
+            "date": "2026-03-19",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 81,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Iptacopan Part 1"
+            },
+            {
+              "type": "DRUG",
+              "name": "Iptacopan Part 2"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo to Iptacopan + Standard of Care"
+            },
+            {
+              "type": "DRUG",
+              "name": "Iptacopan + Placebo to Standard of Care"
+            }
+          ],
+          "whyStopped": "The decision to conclude the study after Part 1 LPLV is based on strategic considerations by the Sponsor.",
+          "hasResults": false,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05268289，核查于2026-10-18",
+              "url": "https://clinicaltrials.gov/study/NCT05268289"
+            }
+          ],
+          "note": "本记录仅表示该具体狼疮性肾炎Phase 2试验已终止，不代表iptacopan的全球最高阶段或其他适应症获批状态；登记中的战略考虑不等同疗效或安全性失败。",
+          "risks": "Part 1结果未在登记页披露；仍需正式结果、竞争格局和资源配置证据判断终止原因。"
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-roche-genentech",
+          "title": "Roche / Genentech",
+          "date": "2026-10-16",
+          "checked": "2026-10-18",
+          "summary": "Enspryng获FDA批准用于成人TED。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "satralizumab为抗IL-6R再循环抗体，提供培训后的居家皮下注射；两项III期研究结果不一致。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roche公告",
+              "url": "https://www.roche.com/media/releases/med-cor-2026-10-16"
+            }
+          ]
+        },
+        {
+          "id": "company-revolution-medicines",
+          "title": "Revolution Medicines",
+          "date": "2026-10-15",
+          "checked": "2026-10-18",
+          "summary": "Rasonque获CHMP积极意见。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "daraxonrasib为口服pan-RAS抑制剂，拟用于既往治疗的转移性胰腺导管腺癌；欧委会决定待定。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "EMA Rasonque",
+              "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque"
+            }
+          ]
+        },
+        {
+          "id": "company-novartis",
+          "title": "Novartis",
+          "date": "2026-10-15",
+          "checked": "2026-10-18",
+          "summary": "终止iptacopan狼疮性肾炎Phase 2研究。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "登记仅说明战略考虑，未披露Part 1疗效或安全性结论。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05268289",
+              "url": "https://clinicaltrials.gov/study/NCT05268289"
+            }
+          ]
+        },
+        {
+          "id": "company-omeros",
+          "title": "Omeros",
+          "date": "2026-10-15",
+          "checked": "2026-10-18",
+          "summary": "Yartemlea复审后仍获CHMP拒绝意见。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "EMA认为无同期对照、小样本、研究变更及儿科证据不足使获益无法证明。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "EMA Yartemlea",
+              "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yartemlea"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-il6r-satralizumab",
+          "title": "IL-6R / satralizumab",
+          "date": "2026-10-16",
+          "checked": "2026-10-18",
+          "summary": "抗IL-6R再循环抗体用于成人TED获FDA批准。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "科学信号来自两项III期研究；其中SatraGO-1未达预设主要终点，需结合总体证据判断。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roche公告",
+              "url": "https://www.roche.com/media/releases/med-cor-2026-10-16"
+            }
+          ]
+        },
+        {
+          "id": "target-pan-ras-daraxonrasib",
+          "title": "pan-RAS / daraxonrasib",
+          "date": "2026-10-15",
+          "checked": "2026-10-18",
+          "summary": "以cyclophilin A复合物阻断活化RAS信号。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "CHMP建议附条件批准用于既往治疗的转移性胰腺导管腺癌。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "EMA Rasonque",
+              "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque"
+            }
+          ]
+        },
+        {
+          "id": "target-complement-factor-b-iptacopan",
+          "title": "Complement Factor B / iptacopan",
+          "date": "2026-10-15",
+          "checked": "2026-10-18",
+          "summary": "狼疮性肾炎Phase 2登记终止。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "终止原因为战略考虑；补体因子B机制在该适应症的临床价值仍待数据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05268289",
+              "url": "https://clinicaltrials.gov/study/NCT05268289"
+            }
+          ]
+        },
+        {
+          "id": "target-masp2-narsoplimab",
+          "title": "MASP-2 / narsoplimab",
+          "date": "2026-10-15",
+          "checked": "2026-10-18",
+          "summary": "HSCT相关血栓性微血管病申请复审后仍遭CHMP拒绝。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "EMA认为关键研究设计和外部对照不足以证明获益。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "EMA Yartemlea",
+              "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yartemlea"
+            }
+          ]
+        }
+      ],
+      "deals": [],
+      "catalysts": [
+        {
+          "id": "catalyst-enspryng-ted-fda-approval",
+          "title": "Enspryng成人TED FDA批准",
+          "date": "2026-10-16",
+          "checked": "2026-10-18",
+          "summary": "状态：completed；FDA批准新适应症。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "居家皮下注射、每4周维持给药；后续观察商业准入与真实世界使用。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roche公告",
+              "url": "https://www.roche.com/media/releases/med-cor-2026-10-16"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-rasonque-ec-decision",
+          "title": "Rasonque欧委会最终决定",
+          "date": "未披露",
+          "checked": "2026-10-18",
+          "summary": "状态：pending；CHMP已给出积极意见。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "积极意见不是最终欧盟上市许可；需跟踪欧委会决定及最终标签。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "EMA Rasonque",
+              "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rasonque"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-iptacopan-lupus-trial-termination",
+          "title": "iptacopan狼疮性肾炎Phase 2终止",
+          "date": "2026-10-15",
+          "checked": "2026-10-18",
+          "summary": "状态：terminated；Part 1后基于赞助方战略考虑终止。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "并非确定读出；需等待正式数据或公司说明判断原因。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05268289",
+              "url": "https://clinicaltrials.gov/study/NCT05268289"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-yartemlea-chmp-refusal",
+          "title": "Yartemlea复审后CHMP拒绝",
+          "date": "2026-10-15",
+          "checked": "2026-10-18",
+          "summary": "状态：completed-negative；复审未改变拒绝结论。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "后续路径取决于更可信的对照证据、终点与儿科方案。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "EMA Yartemlea",
+              "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/yartemlea"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-17",
       "date": "2026-10-17",
@@ -11651,18 +12050,18 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-17T07:28:00+08:00",
+    "checkedAt": "2026-10-18T07:26:00+08:00",
     "status": "success",
     "checked": 58,
-    "changed": 1,
+    "changed": 0,
     "failed": 0,
-    "newPipelines": 0,
+    "newPipelines": 1,
     "companies": 4,
-    "targets": 3,
-    "deals": 3,
+    "targets": 4,
+    "deals": 0,
     "catalysts": 4,
     "events": 4,
-    "summary": "逐项核查58个既有去重NCT，成功58、失败0；NCT06623422仅登记更新时间刷新，无其他实质变化。今日未新增可靠NCT登记。"
+    "summary": "58个既有NCT全部核查成功、0个实质变更、0个失败；新增NCT05268289一条。公司4、靶点4、交易0、催化剂4，历史与归档记录均保留。"
   },
   "archivedPapers": []
 }
