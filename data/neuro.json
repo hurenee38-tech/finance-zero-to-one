@@ -1,8 +1,201 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-17T23:03:40.525Z",
+  "updatedAt": "2026-10-18T23:07:30Z",
   "items": [
+    {
+      "id": "neuro-2026-10-19",
+      "date": "2026-10-19",
+      "source": "scheduled",
+      "title": "神经生物学简报｜约20个运动皮层神经元重放已学动作，TMEM59成为缺血后小胶质细胞干预靶点",
+      "summary": "本期纳入2篇近期原始研究。Nature以双光子全息光遗传学证明：同步激活约20个在动作前较早启动的M1神经元，足以招募更大网络并诱发类似已学习的前肢动作；Cell Death & Disease则在缺血再灌注模型中提出TREM2–TMEM59互作调节小胶质细胞反应，并以可跨血脑屏障的TMEM59降解肽验证干预潜力。两刊影响因子待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-19。本期选择2026-10-14至10-15上线的2篇原始研究，分别覆盖运动学习的因果神经表征与缺血后神经免疫靶点。论文题名、期刊、日期、DOI及核心结论由期刊页面核查。Nature与Cell Death & Disease的影响因子本次未从官方Journal Citation Reports可靠核实，故均标注“影响因子待核实”。动物及细胞结果不等同于人体疗效。"
+        },
+        {
+          "heading": "重点推荐｜少量早启动M1神经元可重建已学习动作",
+          "body": "事实：研究者在完成前肢运动学习的小鼠中结合双光子钙成像与双光子全息光遗传刺激，按自然动作中的启动时间选择神经元。短暂同步刺激约20个“早启动”神经元，可诱发与训练动作相似的运动，并在未直接刺激的M1神经元中重建相似的时空活动；刺激“晚启动”神经元则不能产生同等效果。该对照把“伴随动作的相关活动”推进到“特定时序集合可因果驱动动作”。编辑判断：这提示运动记忆可能并非均匀分布于所有活跃细胞，而是由具有时间先导性的入口集合触发更大动力学轨迹；但尚不能据此断言约20个细胞就是完整运动记忆痕迹。"
+        },
+        {
+          "heading": "新靶点｜TMEM59调节TREM2依赖的小胶质细胞缺血反应",
+          "body": "事实：在小鼠大脑中动脉阻塞/再灌注和HMC3细胞缺氧—复氧模型中，TREM2逐步上升，而TMEM59先升后降。研究利用遗传操作、蛋白互作/降解分析、小胶质细胞功能与神经损伤读出，并测试可跨血脑屏障、促进TMEM59溶酶体降解的CMATAC肽。结果支持降低TMEM59可改善TREM2相关的小胶质细胞反应并减轻模型中的缺血再灌注损伤。编辑判断：TMEM59可能是比直接广泛激活TREM2更可调的下游节点，但治疗窗、细胞特异性、长期免疫后果和人体可转化性仍待验证。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "如果刺激约20个早启动M1神经元能诱发已学习动作，怎样设计实验来区分三种解释：A）这些细胞编码动作本身；B）它们只是启动信号，动作由下游网络完成；C）光刺激通过非生理同步性制造了一个人工动作？请列出每种解释至少一条必要证据，并说明哪个实验最能区分它们。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先把“能诱发动作”拆成编码内容、因果位置和刺激生理性三层。必要证据：若支持A，应证明不同动作对应可复现且可解码的不同早启动集合，并且集合的选择性沉默会特异破坏对应动作；若支持B，应看到早启动集合主要提供起始条件，而动作细节可由下游网络状态预测，且改变下游状态会改变同一刺激的动作输出；若支持C，应证明自然行为中不存在同等同步模式，降低同步性或按自然时序重放后效应显著改变。一种可行方案：在同一小鼠训练两个方向不同的动作，分别识别两套早启动集合；做选择性刺激、选择性沉默、自然时序重放与同步重放，并同时记录M1及下游脑区。若刺激集合1诱发动作1、沉默集合1只损害动作1，且自然时序重放也有效，A获得较强支持；若输出随下游状态而改变，B更强；若只有高度同步刺激有效，C不能排除。常见误区：把“充分”误当成“必要”，把M1局部活动误当成完整运动指令，或忽略光遗传刺激的同步偏差。自查标准：是否同时检验了必要性与充分性？是否有晚启动/随机细胞、假刺激和自然时序对照？是否记录了下游网络？结论是否保留多种可能解释？"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41586-026-11174-3",
+          "title": "靶向刺激运动皮层神经元集合可驱动已学习动作",
+          "date": "2026-10-14",
+          "checked": "2026-10-19",
+          "topic": "运动学习、神经集合、因果回放",
+          "target": "M1早启动神经元集合",
+          "summary": "双光子全息光遗传刺激约20个在自主动作前较早启动的M1神经元，招募未刺激网络并诱发类似已学习的运动；晚启动集合缺乏同等驱动能力。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "运动皮层活动与熟练动作高度相关，但相关并不证明某一细胞集合足以产生已学习动作。核心问题是：按自然动作时序挑选的M1神经元集合，能否因果性重建动作及其群体活动模式？"
+            },
+            {
+              "heading": "方法",
+              "body": "研究在训练小鼠中进行双光子钙成像，依据自主动作中的活动启动时间选取早启动或晚启动神经元，再用双光子全息光遗传学同步刺激约20个目标细胞，同时测量前肢运动和周围M1群体活动。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "早启动集合刺激可诱发与已学习动作相似的运动，并在非直接刺激细胞中形成与自主动作相似的时空活动；晚启动集合刺激不能同等驱动动作。原文支持的机制是：早启动集合位于能够进入已学习网络动力学轨迹的因果入口。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值在于用细胞级因果操作连接“集合身份—网络轨迹—行为”。局限包括小鼠任务、人工同步刺激、目标细胞数量有限，以及不能仅凭充分性证明其是自然动作必需的唯一记忆痕迹。编辑推断：未来脑机接口可从单纯解码转向精确写入低维启动状态，但在人类应用前需解决跨日稳定性、细胞类型和安全性。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2000年Nature：运动学习中皮层集合活动越来越能预测行为，为“学习形成稳定群体表征”奠基。[3] 2012年Nature：长期追踪M1 L2/3显示感觉运动学习中的多重动态表征。[4] 2014年Nature Neuroscience：分层比较运动学习时L2/3与L5a集合重组。[5] 2019年Science：长期学习后M1控制需求可下降，提醒本研究的因果作用可能依赖训练阶段与任务。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Targeted stimulation of motor cortex ensembles drives learned movements — Nature, 2026-10-14",
+              "url": "https://www.nature.com/articles/s41586-026-11174-3"
+            },
+            {
+              "title": "Cortical ensemble activity increasingly predicts behaviour outcomes during learning of a motor task — Nature, 2000",
+              "url": "https://www.nature.com/articles/35014604"
+            },
+            {
+              "title": "Multiple dynamic representations in the motor cortex during sensorimotor learning — Nature, 2012",
+              "url": "https://www.nature.com/articles/nature11039"
+            },
+            {
+              "title": "Two distinct layer-specific dynamics of cortical ensembles during learning of a motor task — Nature Neuroscience, 2014",
+              "url": "https://www.nature.com/articles/nn.3739"
+            },
+            {
+              "title": "Disengagement of motor cortex from movement control during long-term learning — Science, 2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31693007/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41419-026-09342-4",
+          "title": "TMEM59调节TREM2依赖的小胶质细胞缺血反应并构成潜在靶点",
+          "date": "2026-10-15",
+          "checked": "2026-10-19",
+          "topic": "缺血再灌注、神经免疫、小胶质细胞",
+          "target": "TMEM59–TREM2",
+          "summary": "小鼠与细胞缺血模型显示TREM2和TMEM59具有不同时间动态；降低或药理性降解TMEM59改善小胶质细胞反应并减轻模型损伤，提出可干预的TREM2调节节点。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "TREM2调节小胶质细胞存活、代谢、吞噬和炎症，并在缺血后常呈保护相关变化；但如何通过互作蛋白精细控制这一反应并不清楚。研究询问TMEM59是否决定TREM2相关的缺血反应，以及能否成为药物靶点。"
+            },
+            {
+              "heading": "方法",
+              "body": "作者使用小鼠MCAO/R缺血再灌注模型和HMC3细胞OGD/R模型，结合时间序列表达、蛋白互作与降解、遗传增减功能、小胶质细胞功能、神经损伤读出，并测试能跨血脑屏障且促进TMEM59溶酶体降解的CMATAC肽。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "缺血后TREM2逐渐升高，TMEM59则先升后降；结果支持TREM2促进TMEM59蛋白降解，而过多TMEM59限制有利的小胶质细胞反应。降低TMEM59或用CMATAC促进其降解可改善模型读出。这里的因果证据来自遗传与药理方向一致，但具体时序网络仍未完全解释。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值在于把TREM2通路从难以直接调控的受体拓展到可降解互作蛋白。局限是主要证据来自啮齿动物和细胞模型，HMC3不能完全代表原代人小胶质细胞；肽的暴露、免疫原性、脱靶、治疗窗和长期效应未知。编辑推断：若人体组织及时序数据复现，该策略可能用于再灌注治疗后的辅助神经保护，但当前不能视为临床有效。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2015年研究显示TREM2缺失削弱小胶质细胞吞噬并加重实验性脑缺血，奠定保护作用。[3] 2017年研究进一步显示TREM2抑制缺血后炎症与神经元凋亡。[4] 2020年论文首次明确TMEM59与TREM2互作及TREM2介导TMEM59降解。[5] 2024年单核转录组与功能实验提出TREM2–IGF1代谢轴支持缺血后保护性小胶质细胞状态。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "TMEM59 modulates TREM2-regulated microglial responses in ischemia and serves as a potential therapeutic target — Cell Death & Disease, 2026-10-15",
+              "url": "https://www.nature.com/articles/s41419-026-09342-4"
+            },
+            {
+              "title": "TREM2 deficiency attenuates phagocytic activities of microglia and exacerbates ischemic damage in experimental stroke — Journal of Neuroscience, 2015",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4339351/"
+            },
+            {
+              "title": "TREM2 protects against cerebral ischemia/reperfusion injury — Molecular Brain, 2017",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5461720/"
+            },
+            {
+              "title": "TMEM59 interacts with TREM2 and modulates TREM2-dependent microglial activities — Cell Death & Disease, 2020",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7442838/"
+            },
+            {
+              "title": "TREM2–IGF1 mediated glucometabolic enhancement underlies microglial neuroprotective properties during ischemic stroke — Advanced Science, 2024",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10933614/"
+            }
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "en": "Early-onset neuronal ensemble",
+          "zh": "早启动神经元集合",
+          "meaning": "在动作发生前较早进入活动状态、可能充当网络轨迹入口的一组神经元。"
+        },
+        {
+          "en": "Two-photon holographic stimulation",
+          "zh": "双光子全息刺激",
+          "meaning": "利用空间光调制与双光子激发，在三维组织中同时、细胞级选择性刺激多个目标。"
+        },
+        {
+          "en": "Sufficiency versus necessity",
+          "zh": "充分性与必要性",
+          "meaning": "能诱发某行为证明充分性；移除后行为消失才支持必要性，两者不可混同。"
+        },
+        {
+          "en": "MCAO/R",
+          "zh": "大脑中动脉阻塞/再灌注",
+          "meaning": "常用小鼠缺血性卒中模型，模拟血管阻断后恢复血流造成的损伤。"
+        },
+        {
+          "en": "OGD/R",
+          "zh": "缺氧缺糖/复氧",
+          "meaning": "体外模拟缺血与再灌注过程的细胞实验范式。"
+        },
+        {
+          "en": "Lysosomal degradation",
+          "zh": "溶酶体降解",
+          "meaning": "将靶蛋白递送至溶酶体进行分解，可作为降低胞内或膜蛋白水平的药理策略。"
+        },
+        {
+          "en": "CMATAC",
+          "zh": "嵌合体介导的自噬靶向化合物",
+          "meaning": "借助自噬—溶酶体系统促使特定蛋白降解的双功能分子或肽策略。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "[1] Targeted stimulation of motor cortex ensembles drives learned movements — Nature, 2026-10-14",
+          "url": "https://www.nature.com/articles/s41586-026-11174-3"
+        },
+        {
+          "title": "[2] TMEM59 modulates TREM2-regulated microglial responses in ischemia and serves as a potential therapeutic target — Cell Death & Disease, 2026-10-15",
+          "url": "https://www.nature.com/articles/s41419-026-09342-4"
+        },
+        {
+          "title": "[3] TMEM59 interacts with TREM2 and modulates TREM2-dependent microglial activities — 2020",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7442838/"
+        },
+        {
+          "title": "[4] TREM2–IGF1 mediated glucometabolic enhancement in ischemic stroke — 2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10933614/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-18",
       "date": "2026-10-18",
