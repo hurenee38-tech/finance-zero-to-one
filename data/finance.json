@@ -1,8 +1,629 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-18T07:26:00+08:00",
+  "updatedAt": "2026-10-19T07:27:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-19",
+      "date": "2026-10-19",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜二元催化剂隐含概率、眼科批准与四条管线",
+      "summary": "学习如何从成功/失败两种估值反推市场隐含成功概率；覆盖RYZUMVI成人老视获批、bitopertin Phase 3读出日程、Spyre IBD长效抗体组合及Eikon肿瘤管线披露，并完成59项既有NCT全量巡检。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "某临床阶段公司的核心资产将在当天公布Phase 3结果。纯教学假设：公司无其他重大资产，成功后股权价值为32亿美元，失败后剩余现金与其他资产价值为8亿美元，当前股权价值为16.4亿美元。请计算市场价格隐含的成功概率；若你的独立尽调给出50%成功概率，风险调整价值和理论上涨空间是多少？最后说明为什么这个差额不能直接视为无风险套利。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：当前价格可近似看作成功与失败两种状态价值的概率加权平均。设隐含成功概率为p，则16.4亿=p×32亿+(1−p)×8亿。整理：16.4亿−8亿=p×(32亿−8亿)，所以p=8.4亿÷24亿=35%。若独立判断成功概率为50%，风险调整价值=50%×32亿+50%×8亿=20亿美元；相对当前16.4亿美元的理论上涨空间=(20−16.4)÷16.4≈22.0%。一种可行答案是：市场约计入35%成功率，而你的模型给出20亿美元价值，但这只是条件化模型。必要证据：预设终点、统计方案、入组与基线平衡、盲态完整性、安全性、监管沟通及现金/债务数据。支持证据：早期试验、机制、生物标志物和自然史。待验证假设：成功/失败状态价值是否合理、结果是否真正二元、融资稀释和上市时间是否遗漏。常见误区：把自己的50%概率当成事实；忽略多种中间结果、停牌/流动性和波动；把企业价值、股权价值和现金混用。自查标准：两端价值口径一致；概率介于0和1；加入稀释、时间和监管路径；明确模型不是套利承诺。"
+        },
+        {
+          "heading": "核心概念：二元催化剂的市场隐含概率",
+          "body": "对于近似二元的临床催化剂，可用当前股权价值反推市场隐含概率：p=(当前价值−失败价值)÷(成功价值−失败价值)。这不是市场的“真实预测”，而是把价格、现金、稀释和两端估值压缩成一个便于比较的参数。分析价值来自把市场隐含概率与基于临床、统计和监管证据形成的独立概率进行对照；任何一端估值变化都会显著改变结论。"
+        },
+        {
+          "heading": "1. RYZUMVI获FDA批准用于成人老视",
+          "body": "事实（2026-10-16）：FDA批准0.75%酚妥拉明滴眼液用于成人老视。该产品此前已获批逆转药物性散瞳；新适应症依据VEGA-2和VEGA-3两项Phase 3，公告称均达到主要及关键次要终点，且未报告治疗相关严重不良事件。其通过阻断虹膜开大肌α1肾上腺素受体缩小瞳孔，不直接作用睫状肌。Opus与Viatris存在全球许可安排，Viatris拥有美国独家商业化权；本次批准触发向Opus支付一笔金额未披露的里程碑。[1]\n科学：缩瞳改善近视力与调节睫状肌的药理路径不同；真实使用价值取决于持续时间、暗光视力、充血和刺激感。\n商业/战略：非侵入滴眼液面向庞大但高度自费化的人群，处方转化需与阅读镜和其他缩瞳产品竞争。\n财务：批准把Opus的或有里程碑变为应收经济事件，并使Viatris承担商业化执行；未披露金额不能自行估算为收入。"
+        },
+        {
+          "heading": "2. Disc锁定APOLLO Phase 3顶线结果披露时间",
+          "body": "事实（公告2026-10-18）：Disc宣布将在2026-10-19 08:00 ET举行网络会，讨论bitopertin用于EPP/XLP的APOLLO Phase 3顶线结果。NCT06910358显示研究已完成、实际入组183人，主要完成日期为2026-09-08；核查时登记尚无结果。bitopertin为口服GlyT1抑制剂，意在调节血红素生物合成。[2]\n科学：关键是无痛日照时间、PPIX变化和安全性是否方向一致；生物标志物下降不能替代临床获益。\n商业/战略：若阳性，可能支持重新推进监管路径；若边缘或终点不一致，补充研究和终点解释风险上升。\n财务：这是高敏感度二元催化剂，估值应使用成功/失败/中间结果多情景，而不是把“将公布结果”写成利好。"
+        },
+        {
+          "heading": "3. Spyre展示三条IBD抗体管线并推进组合验证",
+          "body": "事实（2026-10-18）：Spyre在UEGW首次以科学会议形式集中展示SPY001（抗α4β7）、SPY002（抗TL1A）和SPY003（抗IL-23）的临床资料，并披露在人源化小鼠TNBS结肠炎模型中组合较单药呈加成效应。NCT07012395为招募中的Phase 2平台研究，预计645人，正在比较三种长效抗体单药及两两组合；新闻稿未提供组合人体疗效数字。[3]\n科学：互补通路可能提高缓解深度和持续性，但动物加成效应不能证明人体组合优效，安全性和感染风险可能叠加。\n商业/战略：平台式共用对照与统一终点能提高试验效率，若组合成立可形成差异化产品线。\n财务：组合项目增加单个患者价值潜力，也提高开发、制造、定价和支付方论证复杂度。"
+        },
+        {
+          "heading": "4. Eikon公布ESMO七项摘要与四候选物日程",
+          "body": "事实（2026-10-18）：Eikon宣布2026年ESMO将展示七项摘要，涉及TLR7/8激动剂EIK1001、外周选择性PARP1抑制剂EIK1003、可入脑PARP1抑制剂EIK1004及WRN抑制剂EIK1005。EIK1003的NCT06253130登记为招募中的Phase 1/2、预计156人；10月23日将展示单药/紫杉醇及阿比特龙组合资料，EIK1001 NSCLC更新在10月26日。公告主要提供日程，不能提前认定结果阳性。[4]\n科学：同一PARP1靶点区分外周与中枢暴露，体现按适应症设计治疗窗；WRN则依赖MSI背景的合成致死假说。\n商业/战略：多资产同时披露可验证平台是否能持续产出，而非依赖单一项目。\n财务：密集催化剂会提高波动和信息价值；估值必须拆分资产、阶段与数据成熟度，避免把摘要数量当管线价值。"
+        },
+        {
+          "heading": "跨岗位视角：bitopertin读出前夜",
+          "body": "投资银行关注阳性或阴性结果对融资窗口、可转债与战略交易的影响；FA顾问准备不同数据情景下的合作对象、区域权利和竞价节奏；BD专业人员审查终点可解释性、监管反馈及Roche原许可权利；投资人反推市场隐含成功概率并检验失败价值保护；咨询顾问评估患者识别、日照行为终点、定价和诊疗路径。所有岗位都应把“宣布结果时间”与“结果本身”严格分开。"
+        },
+        {
+          "heading": "小案例：RYZUMVI许可双方的首年经济性",
+          "body": "纯教学假设：美国首年终端销售1.8亿美元，gross-to-net为30%，Viatris支付15%净销售提成；产品成本为净销售额10%，新增商业化固定费用6000万美元；FDA批准另触发2500万美元里程碑。净销售额=1.8亿×70%=1.26亿美元。Opus首年现金经济性=2500万+1.26亿×15%=4390万美元。Viatris首年产品贡献=1.26亿−1260万成本−1890万提成−6000万固定费=3450万美元。真实条款的里程碑和提成未披露，上述数字仅演示许可双方的不同现金流；还需计入存货、营销爬坡、会计确认和税。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "截至2026-10-19，对data/drugs/pipelines.json、既有pipelineUpdates与archivedPipelines中的59个去重NCT逐项核查：成功59、失败0、实质变更0。全部项目的干预身份、阶段、状态、适应症、主要终点、入组和登记关键日期均未发现相对最新已存版本的可靠变化。今日新增核实4条公开登记：NCT05646719、NCT06910358、NCT07012395、NCT06253130；新增后数据库覆盖63个去重NCT。所有预计完成时间均标为预计，不视为确认读出；历史简报和归档数组保留。"
+        },
+        {
+          "heading": "术语速记",
+          "body": "Implied probability：由当前价格与成功/失败状态价值反推的隐含概率。Binary catalyst：结果可能造成价值显著分叉的关键事件。Failure value：核心项目失败后现金及剩余资产可支持的股权价值。Gross-to-net：从终端销售额扣除返利、折扣和渠道费用后形成的净销售额。Synthetic lethality：两个缺陷共同存在才导致细胞死亡的靶向策略。Platform trial：用共享基础设施或对照组同时评估多个治疗臂的试验设计。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Implied probability",
+          "zh": "隐含概率",
+          "meaning": "利用当前价值及成功、失败两端价值反推出的市场定价参数。"
+        },
+        {
+          "en": "Binary catalyst",
+          "zh": "二元催化剂",
+          "meaning": "可能使资产价值在成功与失败状态间显著分叉的事件。"
+        },
+        {
+          "en": "Failure value",
+          "zh": "失败状态价值",
+          "meaning": "核心项目失败后由现金、其他资产和负债共同决定的股权价值。"
+        },
+        {
+          "en": "Gross-to-net",
+          "zh": "标价到净收入调整",
+          "meaning": "终端销售扣除返利、折扣、政府项目和渠道费用后的净收入比例。"
+        },
+        {
+          "en": "Synthetic lethality",
+          "zh": "合成致死",
+          "meaning": "两个基因或通路缺陷共同存在时导致细胞死亡，单独缺陷仍可存活。"
+        },
+        {
+          "en": "Platform trial",
+          "zh": "平台试验",
+          "meaning": "在共享方案和基础设施下同时评估多个治疗臂的试验。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Opus Genetics：酚妥拉明滴眼液成人老视FDA批准，2026-10-16",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382714/0/en/opus-genetics-announces-fda-approval-of-phentolamine-ophthalmic-solution-0-75-for-the-treatment-of-presbyopia.html"
+        },
+        {
+          "title": "Disc Medicine：APOLLO Phase 3顶线结果网络会，2026-10-18",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382949/0/en/disc-medicine-to-host-corporate-webcast-to-discuss-topline-results-from-the-apollo-phase-3-trial-of-bitopertin-in-erythropoietic-protoporphyria-epp.html"
+        },
+        {
+          "title": "Spyre Therapeutics：UEGW临床与临床前展示，2026-10-18",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382917/0/en/spyre-therapeutics-announces-clinical-and-preclinical-data-presentations-at-united-european-gastroenterology-week-uegw-2026.html"
+        },
+        {
+          "title": "Eikon Therapeutics：ESMO七项摘要安排，2026-10-18",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382951/0/en/eikon-therapeutics-announces-availability-of-seven-abstracts-for-presentation-at-the-european-society-for-medical-oncology-congress.html"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT05646719，核查于2026-10-19",
+          "url": "https://clinicaltrials.gov/study/NCT05646719"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06910358，核查于2026-10-19",
+          "url": "https://clinicaltrials.gov/study/NCT06910358"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT07012395，核查于2026-10-19",
+          "url": "https://clinicaltrials.gov/study/NCT07012395"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06253130，核查于2026-10-19",
+          "url": "https://clinicaltrials.gov/study/NCT06253130"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT05646719",
+          "title": "Phentolamine ophthalmic solution 0.75%（RYZUMVI/Nyxol）",
+          "company": "Opus Genetics, Inc",
+          "target": "α1/α2 adrenergic receptors",
+          "modality": "局部滴眼小分子",
+          "area": "眼科",
+          "indication": "Presbyopia",
+          "stage": "Phase 3",
+          "status": "COMPLETED",
+          "trialTitle": "Safety and Efficacy of Nyxol Eye Drops as a Single Agent and With Adjunctive Low-Dose Pilocarpine Eye Drops in Subjects With Presbyopia",
+          "registryUpdated": "2026-07-13",
+          "checked": "2026-10-19",
+          "summary": "ClinicalTrials.gov核实：VEGA-2为已完成的Phase 3研究，实际入组333人并已公布登记结果；2026-10-16 FDA批准0.75%酚妥拉明滴眼液用于成人老视。",
+          "endpoints": [
+            "Percent of Subjects With ≥ 15 Letters of Improvement in Photopic Binocular DCNVA and With < 5 Letters of Loss in Photopic Binocular BCDVA in Nyxol-treated Subjects"
+          ],
+          "primaryCompletion": {
+            "date": "2023-10-11",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2023-10-11",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 333,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Phentolamine Opthalmic Solution 0.75%"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            },
+            {
+              "type": "DRUG",
+              "name": "Low dose pilocarpine"
+            },
+            {
+              "type": "OTHER",
+              "name": "Low dose pilocarpine vehicle"
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": true,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05646719，核查于2026-10-19",
+              "url": "https://clinicaltrials.gov/study/NCT05646719"
+            },
+            {
+              "title": "Opus Genetics FDA批准公告，2026-10-16",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382714/0/en/opus-genetics-announces-fda-approval-of-phentolamine-ophthalmic-solution-0-75-for-the-treatment-of-presbyopia.html"
+            }
+          ],
+          "note": "本记录显示VEGA-2这项Phase 3已完成；获批事实来自公司对FDA决定的公开公告，不把试验阶段当作全球最高阶段。",
+          "risks": "登记研究包含单药及与低剂量匹罗卡品组合；商业效果仍取决于具体标签、使用体验、持续时间、支付方式和竞争。"
+        },
+        {
+          "id": "NCT06910358",
+          "title": "Bitopertin（DISC-1459）",
+          "company": "Disc Medicine, Inc",
+          "target": "GlyT1",
+          "modality": "口服小分子",
+          "area": "罕见病/血液",
+          "indication": "Erythropoietic Protoporphyria / X-Linked Protoporphyria",
+          "stage": "Phase 3",
+          "status": "COMPLETED",
+          "trialTitle": "Study of Bitopertin in Participants With EPP or XLP (APOLLO)",
+          "registryUpdated": "2026-10-09",
+          "checked": "2026-10-19",
+          "summary": "ClinicalTrials.gov核实：APOLLO为已完成的随机对照Phase 3研究，实际入组183人，主要完成日期为2026-09-08；公司仅宣布将在2026-10-19 08:00 ET披露顶线结果，核查时尚无登记结果。",
+          "endpoints": [
+            "Average monthly total time in sunlight on days without pain from a phototoxic reaction between 10:00 to 18:00 after 24 weeks",
+            "Percent change from baseline in whole-blood metal-free PPIX levels at 24 weeks",
+            "Safety and tolerability over 24 weeks"
+          ],
+          "primaryCompletion": {
+            "date": "2026-09-08",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2026-09-08",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 183,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            },
+            {
+              "type": "DRUG",
+              "name": "DISC-1459"
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06910358，核查于2026-10-19",
+              "url": "https://clinicaltrials.gov/study/NCT06910358"
+            },
+            {
+              "title": "Disc APOLLO顶线结果网络会公告，2026-10-18",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382949/0/en/disc-medicine-to-host-corporate-webcast-to-discuss-topline-results-from-the-apollo-phase-3-trial-of-bitopertin-in-erythropoietic-protoporphyria-epp.html"
+            }
+          ],
+          "note": "Completed表示试验执行完成，不等于结果阳性或获批；2026-10-19的网络会是确认催化剂，不是已发生读出。",
+          "risks": "核心风险包括日照时间终点的行为差异、PPIX生物标志物与临床获益一致性、安全性以及监管对终点的接受度。"
+        },
+        {
+          "id": "NCT07012395",
+          "title": "SPY001 / SPY002 / SPY003及两两组合",
+          "company": "Spyre Therapeutics, Inc.",
+          "target": "α4β7 / TL1A / IL-23",
+          "modality": "长效单克隆抗体及组合",
+          "area": "自免/炎症",
+          "indication": "中重度溃疡性结肠炎",
+          "stage": "Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "A Study of Long-acting Antibodies Alone and in Combinations for Moderate to Severe Ulcerative Colitis",
+          "registryUpdated": "2026-10-06",
+          "checked": "2026-10-19",
+          "summary": "ClinicalTrials.gov核实：SKYLINE-UC为招募中的Phase 2平台研究，预计645人，比较SPY001、SPY002、SPY003单药及组合。2026-10-18公司在UEGW展示三个单药方向的临床资料并报告人源化小鼠组合的加成效应。",
+          "endpoints": [
+            "Part A: Change in Robarts Histopathology Index at Week 12",
+            "Part B: Percentage of participants with clinical remission at Week 12"
+          ],
+          "primaryCompletion": {
+            "date": "2027-06",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-03",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 645,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "SPY001"
+            },
+            {
+              "type": "DRUG",
+              "name": "SPY002"
+            },
+            {
+              "type": "DRUG",
+              "name": "SPY003"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07012395，核查于2026-10-19",
+              "url": "https://clinicaltrials.gov/study/NCT07012395"
+            },
+            {
+              "title": "Spyre UEGW公告，2026-10-18",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382917/0/en/spyre-therapeutics-announces-clinical-and-preclinical-data-presentations-at-united-european-gastroenterology-week-uegw-2026.html"
+            }
+          ],
+          "note": "当前登记的预计主要完成时间不是确定组合读出日期；会议新闻稿未给出组合人体疗效数据。",
+          "risks": "单药信号不能自动相加为人体组合获益；需验证增量疗效、感染风险、免疫原性、剂量选择和成本。"
+        },
+        {
+          "id": "NCT06253130",
+          "title": "EIK1003（IMP1734）",
+          "company": "Eikon Therapeutics",
+          "target": "PARP1",
+          "modality": "口服选择性小分子抑制剂",
+          "area": "肿瘤",
+          "indication": "晚期实体瘤",
+          "stage": "Phase 1/Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "A First-in-human Study of PARP1 Selective Inhibitor, IMP1734, in Participants With Advanced Solid Tumors",
+          "registryUpdated": "2026-06-15",
+          "checked": "2026-10-19",
+          "summary": "ClinicalTrials.gov核实：EIK1003为招募中的Phase 1/2研究，预计156人，评估单药及组合的安全性、剂量和抗肿瘤活性；Eikon宣布将在2026年ESMO披露单药、紫杉醇组合及阿比特龙组合数据。",
+          "endpoints": [
+            "Number of subjects with adverse events, treatment emergent adverse events or serious adverse events",
+            "Maximum Tolerated Dose or Recommended Dose for Expansion"
+          ],
+          "primaryCompletion": {
+            "date": "2027-06-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-12-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 156,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "IMP1734"
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06253130，核查于2026-10-19",
+              "url": "https://clinicaltrials.gov/study/NCT06253130"
+            },
+            {
+              "title": "Eikon ESMO摘要公告，2026-10-18",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382951/0/en/eikon-therapeutics-announces-availability-of-seven-abstracts-for-presentation-at-the-european-society-for-medical-oncology-congress.html"
+            }
+          ],
+          "note": "本记录仅描述EIK1003具体Phase 1/2研究；ESMO日程不等于结果已获验证，预计完成时间不等于确定读出。",
+          "risks": "PARP1选择性是否扩大治疗窗、组合骨髓毒性、剂量优化和分子分层均需人体数据支持。"
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-opus-genetics",
+          "title": "Opus Genetics, Inc",
+          "date": "2026-10-16",
+          "checked": "2026-10-19",
+          "summary": "0.75%酚妥拉明滴眼液获FDA批准用于成人老视。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "Viatris拥有美国独家商业化权；批准触发金额未披露的里程碑。Opus另有遗传性视网膜病AAV管线。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Opus批准公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382714/0/en/opus-genetics-announces-fda-approval-of-phentolamine-ophthalmic-solution-0-75-for-the-treatment-of-presbyopia.html"
+            }
+          ]
+        },
+        {
+          "id": "company-disc-medicine",
+          "title": "Disc Medicine, Inc",
+          "date": "2026-10-18",
+          "checked": "2026-10-19",
+          "summary": "锁定APOLLO Phase 3顶线结果披露时间。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "bitopertin为Roche授权获得的口服GlyT1抑制剂；核查时结果尚未公布。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Disc公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382949/0/en/disc-medicine-to-host-corporate-webcast-to-discuss-topline-results-from-the-apollo-phase-3-trial-of-bitopertin-in-erythropoietic-protoporphyria-epp.html"
+            },
+            {
+              "title": "NCT06910358",
+              "url": "https://clinicaltrials.gov/study/NCT06910358"
+            }
+          ]
+        },
+        {
+          "id": "company-spyre-therapeutics",
+          "title": "Spyre Therapeutics, Inc.",
+          "date": "2026-10-18",
+          "checked": "2026-10-19",
+          "summary": "展示α4β7、TL1A和IL-23三条IBD抗体及组合前临床证据。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "SKYLINE平台研究正在比较长效单药和两两组合；组合人体数据尚未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Spyre UEGW公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382917/0/en/spyre-therapeutics-announces-clinical-and-preclinical-data-presentations-at-united-european-gastroenterology-week-uegw-2026.html"
+            },
+            {
+              "title": "NCT07012395",
+              "url": "https://clinicaltrials.gov/study/NCT07012395"
+            }
+          ]
+        },
+        {
+          "id": "company-eikon-therapeutics",
+          "title": "Eikon Therapeutics",
+          "date": "2026-10-18",
+          "checked": "2026-10-19",
+          "summary": "公布ESMO七项摘要与四候选物展示日程。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "管线覆盖TLR7/8、外周/中枢PARP1和WRN；公告主要为会议催化剂安排。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Eikon ESMO公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382951/0/en/eikon-therapeutics-announces-availability-of-seven-abstracts-for-presentation-at-the-european-society-for-medical-oncology-congress.html"
+            },
+            {
+              "title": "NCT06253130",
+              "url": "https://clinicaltrials.gov/study/NCT06253130"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-alpha-adrenergic-phentolamine",
+          "title": "α1/α2肾上腺素受体 / phentolamine",
+          "date": "2026-10-16",
+          "checked": "2026-10-19",
+          "summary": "通过阻断虹膜开大肌α1受体缩瞳，成人老视适应症获批。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "不直接作用睫状肌；需权衡近视力、暗光表现、充血与刺激感。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Opus批准公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382714/0/en/opus-genetics-announces-fda-approval-of-phentolamine-ophthalmic-solution-0-75-for-the-treatment-of-presbyopia.html"
+            }
+          ]
+        },
+        {
+          "id": "target-glyt1-bitopertin",
+          "title": "GlyT1 / bitopertin",
+          "date": "2026-10-18",
+          "checked": "2026-10-19",
+          "summary": "调节红细胞甘氨酸供应和血红素合成，APOLLO结果待披露。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "必须同时评价无痛日照时间、PPIX和安全性，不能用单一生物标志物替代临床获益。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Disc公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382949/0/en/disc-medicine-to-host-corporate-webcast-to-discuss-topline-results-from-the-apollo-phase-3-trial-of-bitopertin-in-erythropoietic-protoporphyria-epp.html"
+            }
+          ]
+        },
+        {
+          "id": "target-ibd-alpha4b7-tl1a-il23-combo",
+          "title": "α4β7 / TL1A / IL-23 IBD组合",
+          "date": "2026-10-18",
+          "checked": "2026-10-19",
+          "summary": "三个已验证通路的长效抗体被纳入同一Phase 2平台研究。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "前临床加成效应是支持证据；人体增量疗效和叠加安全性仍待验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Spyre UEGW公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382917/0/en/spyre-therapeutics-announces-clinical-and-preclinical-data-presentations-at-united-european-gastroenterology-week-uegw-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "target-parp1-eik1003",
+          "title": "选择性PARP1 / EIK1003",
+          "date": "2026-10-18",
+          "checked": "2026-10-19",
+          "summary": "试图保留PARP2以扩大治疗窗，ESMO将披露单药和组合资料。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "治疗窗、骨髓毒性、剂量和分子分层需由Phase 1/2数据验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Eikon ESMO公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382951/0/en/eikon-therapeutics-announces-availability-of-seven-abstracts-for-presentation-at-the-european-society-for-medical-oncology-congress.html"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-opus-viatris-phentolamine-license",
+          "title": "Opus–Viatris酚妥拉明滴眼液许可",
+          "date": "未披露",
+          "checked": "2026-10-19",
+          "summary": "Viatris通过关联方拥有美国独家商业化权；成人老视FDA批准触发向Opus支付里程碑。",
+          "sections": [
+            {
+              "heading": "条款与意义",
+              "body": "原公告称双方存在全球许可安排，美国商业化权归Viatris；里程碑金额、销售提成及其他经济条款未披露，不作估计。批准把或有付款转为已触发事件。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Opus批准公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382714/0/en/opus-genetics-announces-fda-approval-of-phentolamine-ophthalmic-solution-0-75-for-the-treatment-of-presbyopia.html"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-disc-apollo-topline-2026-10-19",
+          "title": "APOLLO Phase 3顶线结果",
+          "date": "2026-10-19",
+          "checked": "2026-10-19",
+          "summary": "状态：confirmed-upcoming；公司安排08:00 ET网络会，核查时结果尚未披露。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "不是估计完成时间推断，而是公司确认的披露日程；需等待结果后再更新成功/失败判断。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Disc公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382949/0/en/disc-medicine-to-host-corporate-webcast-to-discuss-topline-results-from-the-apollo-phase-3-trial-of-bitopertin-in-erythropoietic-protoporphyria-epp.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-eikon-esmo-eik1003-2026-10-23",
+          "title": "EIK1003 ESMO数据展示",
+          "date": "2026-10-23",
+          "checked": "2026-10-19",
+          "summary": "状态：confirmed-upcoming；计划展示单药、紫杉醇及阿比特龙组合资料。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "会议日程已确认，但摘要数量和日程不代表疗效阳性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Eikon ESMO公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382951/0/en/eikon-therapeutics-announces-availability-of-seven-abstracts-for-presentation-at-the-european-society-for-medical-oncology-congress.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-eikon-esmo-eik1001-2026-10-26",
+          "title": "EIK1001 NSCLC ESMO更新",
+          "date": "2026-10-26",
+          "checked": "2026-10-19",
+          "summary": "状态：confirmed-upcoming；TeLuRide-005更新计划于10月26日展示。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "等待鳞癌队列及汇总资料；不得把会议日期当登记完成日期。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Eikon ESMO公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/18/3382951/0/en/eikon-therapeutics-announces-availability-of-seven-abstracts-for-presentation-at-the-european-society-for-medical-oncology-congress.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-ryzumvi-presbyopia-fda-approval",
+          "title": "RYZUMVI成人老视FDA批准",
+          "date": "2026-10-16",
+          "checked": "2026-10-19",
+          "summary": "状态：completed；批准并触发Opus许可里程碑。",
+          "sections": [
+            {
+              "heading": "核心信息",
+              "body": "后续跟踪商业上市、净价、处方转化和里程碑金额的正式披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Opus批准公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/16/3382714/0/en/opus-genetics-announces-fda-approval-of-phentolamine-ophthalmic-solution-0-75-for-the-treatment-of-presbyopia.html"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-18",
       "date": "2026-10-18",
@@ -12050,18 +12671,18 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-18T07:26:00+08:00",
+    "checkedAt": "2026-10-19T07:27:00+08:00",
     "status": "success",
-    "checked": 58,
+    "checked": 59,
     "changed": 0,
     "failed": 0,
-    "newPipelines": 1,
+    "newPipelines": 4,
     "companies": 4,
     "targets": 4,
-    "deals": 0,
+    "deals": 1,
     "catalysts": 4,
     "events": 4,
-    "summary": "58个既有NCT全部核查成功、0个实质变更、0个失败；新增NCT05268289一条。公司4、靶点4、交易0、催化剂4，历史与归档记录均保留。"
+    "summary": "59个既有NCT全部核查成功、0个实质变更、0个失败；新增4条已核实登记。公司4、靶点4、交易1、催化剂4；历史与归档记录均保留。"
   },
   "archivedPapers": []
 }
