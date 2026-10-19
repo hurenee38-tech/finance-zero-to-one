@@ -1,8 +1,994 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-19T07:27:00+08:00",
+  "updatedAt": "2026-10-20T07:34:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-20",
+      "date": "2026-10-20",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜里程碑期望现值、APOLLO阳性与并购/授权融资潮",
+      "summary": "用概率与折现拆解“150亿美元以上”名义里程碑；覆盖bitopertin APOLLO III期阳性及拟融资、Merck KGaA收购Silence、Roche与翰森制药ADC合作、Nouscom Series D，并完成63项既有NCT全量巡检。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Roche–翰森制药合作披露4亿美元前期款、1.10亿美元首周年付款，以及超过150亿美元的潜在里程碑。纯教学假设：其中60亿美元为平均6年后支付的开发/监管里程碑，整体实现概率12%；90亿美元为平均12年后支付的商业里程碑，整体实现概率8%；折现率10%，暂不计销售提成。请估算买方视角下这些付款的期望现值，并解释为什么不能把“超过150亿美元”直接视作今日交易成本或卖方今日价值。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：把确定性较高的近期付款与不同时间、不同概率的或有付款分开。前期款现值=4.00亿美元。首周年付款现值=1.10亿÷1.10=1.00亿美元。开发/监管里程碑期望现值=60亿×12%÷(1.10^6)≈4.06亿美元。商业里程碑期望现值=90亿×8%÷(1.10^12)≈2.29亿美元。合计期望现值≈4.00+1.00+4.06+2.29=11.35亿美元，未计销售提成。一种可行答案是：在这些纯教学假设下，付款期望现值约11.4亿美元，约为150亿美元名义里程碑的7.6%，但它不是实际交易估值。必要证据包括各项目数、每项里程碑触发条件、付款是否可叠加、项目终止权、销售门槛、提成阶梯和税务。支持证据包括同类ADC的技术成功率、临床阶段和竞争格局。待验证假设包括不同项目成功概率是否相关、首周年付款是否无条件、平均支付时间是否合理。常见误区：把biobucks名义总额当成交割对价；不折现；对所有里程碑使用同一概率；遗漏项目间相关性和销售提成。自查标准：概率介于0和1；每笔付款单独建模；金额、时间、概率和折现率口径一致；明确教学假设不代表真实条款价值。"
+        },
+        {
+          "heading": "核心概念：或有里程碑的期望现值",
+          "body": "许可交易的headline value通常把前期款与未来所有潜在里程碑相加。真正可比的经济价值应拆成：确定付款现值＋Σ（单项里程碑金额×触发概率÷(1+折现率)^预计年数）＋销售提成现值。所谓biobucks，是对潜在里程碑总额的行业俗称；它能说明上行规模，却不能说明这些付款会发生。多项目平台交易还需考虑项目失败的相关性、买方终止权和卖方共同开发选择权。"
+        },
+        {
+          "heading": "1. bitopertin APOLLO III期达到全部主要及次要终点",
+          "body": "事实（2026-10-19）：Disc公布183名成人及青少年EPP/XLP患者的随机、双盲、安慰剂对照APOLLO研究顶线结果。bitopertin组第6个月平均每月无痛光照时间为41.1小时，安慰剂为28.9小时，差异12.2小时（p=0.0010）；全血无金属PPIX相对安慰剂下降41.4%（p<0.0001）；光毒反应发生率降低71%。公司称未发现新安全信号，但bitopertin组头晕为50%、安慰剂11%。公司计划在2026年底前重新提交NDA，预计监管决定时间仍属于公司前瞻判断。[1]\n科学：临床光耐受、光毒反应和PPIX方向一致，较单纯生物标志物更能回应临床获益问题；仍需完整统计分析、亚组和长期安全性。\n商业/战略：若获批，口服每日一次可能形成与植入式afamelanotide不同的使用路径；患者识别、支付与长期依从性是关键。\n财务：阳性结果显著降低临床读出风险，但审批、定价、上市执行和后续融资风险仍在，不能把顶线阳性等同最终获批。"
+        },
+        {
+          "heading": "2. Disc在阳性数据后启动3.50亿美元拟公开发行",
+          "body": "事实（2026-10-19）：Disc宣布拟承销发行3.50亿美元普通股及部分投资者可选择的预融资认股权证，并拟给予承销商最高5,250万美元额外购买权；全部证券由公司发行。公告明确发行仍受市场条件影响，实际规模、价格和是否完成尚未确定。[2]\n商业/战略：公司把数据上涨后的资本市场窗口用于bitopertin商业化准备和其他管线开发，是典型的“催化剂后融资”。\n财务：这属于primary issuance，资金进入公司但稀释原股东；在定价和股数披露前不能计算实际稀释率或净募资，也不能把拟发行额写成已到账现金。"
+        },
+        {
+          "heading": "3. Merck KGaA拟以约13亿美元股权价值收购Silence Therapeutics",
+          "body": "事实（2026-10-19）：Merck KGaA签署确定性协议，以每份ADS 20美元现金收购Silence；公告给出的股权价值约13亿美元、企业价值约11亿美元，相对10月16日30日成交量加权均价溢价82%。交易预计2027年第一季度完成，仍需监管及股东批准，并计划以新增债务融资。核心资产divesiran为每三个月皮下注射的TMPRSS6 siRNA，准备进入III期；公告引用SANRECO II期88%对19%的应答率及静脉放血次数0.2对2.1。[3]\n科学：通过抑制TMPRSS6提高hepcidin、限制红细胞生成所需铁，机制与PV表型直接相连；III期仍需验证疗效持续性、贫血及血栓结局。\n财务：EV低于股权价值提示目标公司为净现金状态；高溢价不等于买方过付，判断需把divesiran rNPV、平台期权、整合成本和新增债务成本放在一起。"
+        },
+        {
+          "heading": "4. Roche与翰森制药签署多项目ADC合作",
+          "body": "事实（2026-10-19）：合作覆盖两项翰森临床前ADC及多项基于Roche提出靶点、由翰森ADC平台产生的项目。翰森负责至全球Ia期完成，之后Roche负责大中华区以外开发商业化；翰森保留大中华区权利，并可选择最多两个项目参与境外开发。翰森可获4亿美元前期款、1.10亿美元首周年付款、超过150亿美元潜在里程碑及分级销售提成。[4]\n科学：交易验证的是平台产生多项目的潜力，而非任何单一ADC已经证明临床有效；靶点、连接子、载荷及治疗窗仍未披露。\n战略：Roche以组合方式补充下一代肿瘤资产，翰森则保留区域权利和部分全球共同开发上行。\n财务：名义里程碑高度依赖多个长期触发条件，应采用项目级概率和折现，而不是用150亿美元作为成交价。"
+        },
+        {
+          "heading": "5. Nouscom完成1.20亿欧元Series D",
+          "body": "事实（2026-10-19）：Nouscom宣布完成超额认购的1.20亿欧元（约1.35亿美元）D轮融资，由M Ventures和Revelation Partners共同领投。资金用于NOUS-209在Lynch综合征携带者中的全球注册支持性研究。公司同时预告10月25日在ESMO展示I/II期长期随访；公告称一年和两年时可评估者分别43人和17人，均未见晚期腺瘤或结直肠癌，但这来自无同期对照的早期研究。[5]\n科学：NOUS-209以病毒载体递送209个dMMR/MSI相关移码肽新抗原，试图在肿瘤形成前建立T细胞免疫；自然史比较不能替代随机对照因果证据。\n商业/财务：融资覆盖关键注册路径，但投前估值、清算优先权和资金跑道未披露；融资额本身不能反推公司估值。"
+        },
+        {
+          "heading": "跨岗位视角：Roche–翰森ADC平台合作",
+          "body": "投资银行关注这笔交易能否抬升中国ADC平台的融资与估值可比；FA顾问拆解项目提名、区域排他、终止权、权利回转、共同开发选择权和里程碑可达性；BD团队核查靶点选择、载荷/连接子知识产权、CMC移交和Ia期责任边界；投资人把前期款、周年付款、或有里程碑和提成分别做概率加权；咨询顾问评估Roche管线缺口、适应症优先级、组合竞争和全球开发组织。共同底线是：平台交易的项目数越多，不能越简单地用名义总额除以项目数。"
+        },
+        {
+          "heading": "小案例：Disc拟融资的净现金与跑道",
+          "body": "纯教学假设：基础发行总额3.50亿美元，承销折扣7%，其他发行费用500万美元，未来年度现金消耗1.80亿美元。基础发行净募资=3.50亿×93%−500万=3.205亿美元；不考虑原有现金时，新增跑道=3.205亿÷1.80亿≈1.78年，即约21个月。若5,250万美元额外购买权全部行使且不新增其他费用，增量净现金=5,250万×93%=4,882.5万美元，总净募资约3.693亿美元，对应约2.05年。真实结果必须等待定价、证券结构、承销折扣和最终交割；预融资认股权证还需纳入完全稀释股数。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "截至2026-10-20，对data/drugs/pipelines.json、既有pipelineUpdates与archivedPipelines中的63个去重NCT逐项核查：成功63、失败0。发现2项实质更新：NCT06549114由ACTIVE_NOT_RECRUITING更新为COMPLETED，入组由预计12例变为实际13例，完成日期由预计2026年11月变为实际2026-06-23；NCT07661056按登记页将申办方规范为Biohaven Pharmaceuticals, Inc.。NCT07060807登记日期刷新至2026-10-19，但阶段、状态、干预、主要终点、入组与完成时间无实质变化。新增核实NCT05499013（divesiran/SLN124，PV，Phase 1/2）和NCT05078866（NOUS-209，Lynch综合征，Phase 1/2）；数据库覆盖增至65个去重NCT。NCT06910358登记尚未发布结果，今日临床数字来自公司顶线演示并与登记设计分开记录。预计完成时间均未解释为确定读出日期。"
+        },
+        {
+          "heading": "术语速记",
+          "body": "Biobucks：许可交易中所有潜在或有付款的名义总额，并非交割付款。Expected present value（期望现值）：概率加权后再折现到今天的价值。Pre-funded warrant（预融资认股权证）：购买时几乎支付全部行权价、以后以极低价格行权的证券，经济上接近普通股并影响完全稀释股数。Enterprise value（企业价值）：股权价值加有息债务、减现金等非经营资产后的经营资产价值。Cancer interception（癌症拦截）：在侵袭性肿瘤形成前识别并清除高风险病变或细胞的开发思路。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Biobucks",
+          "zh": "名义里程碑总额",
+          "meaning": "把潜在开发、监管和商业里程碑合计的行业俗称，不等于实际成交价。"
+        },
+        {
+          "en": "Expected present value",
+          "zh": "期望现值",
+          "meaning": "将未来现金流按发生概率加权并按时间折现。"
+        },
+        {
+          "en": "Pre-funded warrant",
+          "zh": "预融资认股权证",
+          "meaning": "大部分价格预先支付、行权价极低的认股权证，通常需纳入完全稀释股数。"
+        },
+        {
+          "en": "Primary issuance",
+          "zh": "公司新股发行",
+          "meaning": "新证券由公司发行，募资进入公司并稀释原股东。"
+        },
+        {
+          "en": "Cancer interception",
+          "zh": "癌症拦截",
+          "meaning": "在侵袭性癌症形成前干预高风险病变或免疫过程。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "[1] Disc APOLLO Topline Results，2026-10-19",
+          "url": "https://ir.discmedicine.com/static-files/21fdf74d-456c-40fc-b357-40119fca89c6"
+        },
+        {
+          "title": "[2] Disc拟3.50亿美元公开发行公告，2026-10-19",
+          "url": "https://ir.discmedicine.com/news-releases/news-release-details/disc-medicine-announces-proposed-350-million-public-offering"
+        },
+        {
+          "title": "[3] Merck KGaA拟收购Silence Therapeutics公告，2026-10-19",
+          "url": "https://www.emdgroup.com/en/news/silence-therapeutics-19-10-2026.html"
+        },
+        {
+          "title": "[4] 翰森制药与Roche ADC合作公告，2026-10-19",
+          "url": "https://www.hspharm.com/news/news-detail-513518.htm"
+        },
+        {
+          "title": "[5] Nouscom 1.20亿欧元Series D公告，2026-10-19",
+          "url": "https://nouscom.com/2026/10/19/nouscom-raises-e120-million-135-million-in-oversubscribed-series-d-financing-and-will-present-long-term-cancer-interception-clinical-data-in-lynch-syndrome-carriers-at-esmo/"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06910358，核查于2026-10-20",
+          "url": "https://clinicaltrials.gov/study/NCT06910358"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT05499013，核查于2026-10-20",
+          "url": "https://clinicaltrials.gov/study/NCT05499013"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT05078866，核查于2026-10-20",
+          "url": "https://clinicaltrials.gov/study/NCT05078866"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06549114，核查于2026-10-20",
+          "url": "https://clinicaltrials.gov/study/NCT06549114"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT07661056，核查于2026-10-20",
+          "url": "https://clinicaltrials.gov/study/NCT07661056"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT07060807，核查于2026-10-20",
+          "url": "https://clinicaltrials.gov/study/NCT07060807"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT06910358",
+          "title": "bitopertin（DISC-1459）",
+          "company": "Disc Medicine, Inc",
+          "target": "GlyT1",
+          "modality": "口服小分子抑制剂",
+          "area": "罕见病 / 血液",
+          "indication": "Erythropoietic Protoporphyria (EPP) / X-Linked Protoporphyria (XLP)",
+          "stage": "Phase 3",
+          "status": "COMPLETED",
+          "trialTitle": "Study of Bitopertin in Participants With EPP or XLP (APOLLO)",
+          "registryUpdated": "2026-10-09",
+          "checked": "2026-10-20",
+          "summary": "登记为183例已完成III期，登记页尚未发布结果；Disc于2026-10-19报告全部主要及次要终点达到，数字来自公司顶线演示。",
+          "endpoints": [
+            "Average monthly total time in sunlight on days without pain from a phototoxic reaction after 24 weeks",
+            "Percent change from baseline in whole-blood metal-free PPIX at 24 weeks",
+            "Safety and tolerability over 24 weeks"
+          ],
+          "completion": {
+            "date": "2026-09-08",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 183,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06910358，核查于2026-10-20",
+              "url": "https://clinicaltrials.gov/study/NCT06910358"
+            },
+            {
+              "title": "Disc APOLLO Topline Results，2026-10-19",
+              "url": "https://ir.discmedicine.com/static-files/21fdf74d-456c-40fc-b357-40119fca89c6"
+            }
+          ],
+          "note": "登记状态和公司顶线结果分开记录；登记尚无results模块。该试验阶段不代表获批状态。",
+          "risks": "需审阅完整数据、亚组、长期安全性、监管接受度及商业化执行。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "DISC-1459",
+              "otherNames": [
+                "Bitopertin",
+                "RO4917838"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT06549114",
+          "title": "Leniolisib（Joenja）",
+          "company": "Pharming Technologies B.V.",
+          "target": "PI3Kδ",
+          "modality": "口服小分子抑制剂",
+          "area": "罕见病 / 免疫",
+          "indication": "Primary Immunodeficiency Disorders with immune dysregulation",
+          "stage": "Phase 2",
+          "status": "COMPLETED",
+          "trialTitle": "Leniolisib for Immune Dysregulation in PIDs",
+          "registryUpdated": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "登记从ACTIVE_NOT_RECRUITING更新为COMPLETED；入组从预计12例变为实际13例，主要及研究完成日期更新为2026-06-23实际。",
+          "endpoints": [
+            "Number of participants with TEAEs, SAEs and AEs through 20 weeks"
+          ],
+          "primaryCompletion": {
+            "date": "2026-06-23",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2026-06-23",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 13,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06549114，核查于2026-10-20",
+              "url": "https://clinicaltrials.gov/study/NCT06549114"
+            }
+          ],
+          "note": "Joenja在APDS的既有批准不代表本试验其他遗传性PID适应症获批。",
+          "risks": "小样本、开放标签和异质基因型限制外推，需对照性临床结局。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Leniolisib",
+              "otherNames": [
+                "Joenja"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07661056",
+          "title": "BHV-1300",
+          "company": "Biohaven Pharmaceuticals, Inc.",
+          "target": "pan-IgG / ASGPR",
+          "modality": "小分子胞外IgG降解剂",
+          "area": "自免 / 内分泌",
+          "indication": "Graves Disease",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "Study to Determine if BHV-1300 is Effective and Safe in Adults With Graves' Disease",
+          "registryUpdated": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "登记日期刷新；按登记页将申办方名称规范为Biohaven Pharmaceuticals, Inc.。阶段、状态、干预、主要终点、入组和完成时间未见实质变化。",
+          "endpoints": [
+            "Participants off antithyroid drug with normalized total T3, free T4 and TSH at Week 26"
+          ],
+          "primaryCompletion": {
+            "date": "2028-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-02",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 300,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07661056，核查于2026-10-20",
+              "url": "https://clinicaltrials.gov/study/NCT07661056"
+            }
+          ],
+          "note": "预计完成时间不等于已确认读出日期；本记录仅表示该具体试验阶段。",
+          "risks": "需验证临床获益、感染风险、IgG选择性和长期免疫影响。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "BHV-1300"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT07060807",
+          "title": "patritumab deruxtecan（HER3-DXd）",
+          "company": "Merck Sharp & Dohme LLC",
+          "target": "HER3",
+          "modality": "ADC",
+          "area": "肿瘤",
+          "indication": "HR+/HER2- unresectable locally advanced or metastatic breast cancer",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "A Clinical Study of Patritumab Deruxtecan to Treat Breast Cancer (MK-1022-016)",
+          "registryUpdated": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "登记更新时间由2026-10-08刷新至2026-10-19；阶段、招募状态、干预、PFS/OS主要终点、预计1000例及预计完成时间均未发生实质变化。",
+          "endpoints": [
+            "Progression Free Survival (PFS)",
+            "Overall Survival (OS)"
+          ],
+          "primaryCompletion": {
+            "date": "2033-07-14",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2033-07-14",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 1000,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07060807，核查于2026-10-20",
+              "url": "https://clinicaltrials.gov/study/NCT07060807"
+            }
+          ],
+          "note": "仅登记日期刷新，不把预计完成时间解释为读出日期。",
+          "risks": "需核查对照选择、HER3表达、ADC安全性、终点成熟度和制造。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Patritumab deruxtecan",
+              "otherNames": [
+                "MK-1022",
+                "HER3-DXd",
+                "U3-1402"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Trastuzumab deruxtecan",
+              "otherNames": [
+                "T-DXd",
+                "Enhertu"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Treatment of physician's choice chemotherapy"
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT05499013",
+          "title": "divesiran（SLN124）",
+          "company": "Silence Therapeutics plc",
+          "target": "TMPRSS6",
+          "modality": "GalNAc-siRNA",
+          "area": "罕见病 / 血液",
+          "indication": "Polycythemia Vera",
+          "stage": "Phase 1/Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Study to Assess SLN124 in Patients With Polycythemia Vera (SANRECO)",
+          "registryUpdated": "2025-12-19",
+          "checked": "2026-10-20",
+          "summary": "69例实际入组的I/II期研究，包含开放标签剂量递增及随机双盲安慰剂对照部分；公司已披露II期顶线结果，登记页尚无results模块。",
+          "endpoints": [
+            "Phase 1 incidence of treatment-emergent adverse events",
+            "Phase 1 number of phlebotomies",
+            "Phase 2 response between Week 18 and Week 36"
+          ],
+          "primaryCompletion": {
+            "date": "2026-09",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2030-03",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 69,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05499013，核查于2026-10-20",
+              "url": "https://clinicaltrials.gov/study/NCT05499013"
+            },
+            {
+              "title": "Merck KGaA收购Silence公告，2026-10-19",
+              "url": "https://www.emdgroup.com/en/news/silence-therapeutics-19-10-2026.html"
+            }
+          ],
+          "note": "登记阶段是Phase 1/2；“Phase 3-ready”为公司表述，不代表III期已经登记或启动。",
+          "risks": "需确认III期设计、血细胞比容控制持续性、贫血、血栓结局和长期安全性。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "SLN124",
+              "description": "siRNA targeting TMPRSS6 mRNA"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        },
+        {
+          "id": "NCT05078866",
+          "title": "NOUS-209",
+          "company": "National Cancer Institute (NCI)",
+          "target": "dMMR/MSI frameshift peptide neoantigens",
+          "modality": "异源病毒载体新抗原疫苗",
+          "area": "肿瘤预防 / 遗传性癌症风险",
+          "indication": "Lynch Syndrome / Colorectal Carcinoma prevention",
+          "stage": "Phase 1/Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Cancer Preventive Vaccine Nous-209 for Lynch Syndrome Patients",
+          "registryUpdated": "2026-03-03",
+          "checked": "2026-10-20",
+          "summary": "45例实际入组的I/II期研究评估NOUS-209在Lynch综合征携带者中的安全性、免疫原性及结直肠病变信号；注册页尚无results模块。",
+          "endpoints": [
+            "Rates of grade 2/3 adverse events and symptom reactivity",
+            "Immunogenicity following vaccination",
+            "Immunogenicity and safety following revaccination"
+          ],
+          "primaryCompletion": {
+            "date": "2025-04-16",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2026-09-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 45,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05078866，核查于2026-10-20",
+              "url": "https://clinicaltrials.gov/study/NCT05078866"
+            },
+            {
+              "title": "Nouscom Series D与ESMO预告，2026-10-19",
+              "url": "https://nouscom.com/2026/10/19/nouscom-raises-e120-million-135-million-in-oversubscribed-series-d-financing-and-will-present-long-term-cancer-interception-clinical-data-in-lynch-syndrome-carriers-at-esmo/"
+            }
+          ],
+          "note": "公司公告的无晚期腺瘤/结直肠癌观察来自无同期对照早期研究，不能证明预防因果效应。",
+          "risks": "自然史异质、样本小、随访人数递减和无同期对照限制结论；注册研究仍需验证。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "GAd-209-FSP"
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "MVA-209-FSP"
+            }
+          ],
+          "whyStopped": null,
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-disc-medicine",
+          "title": "Disc Medicine, Inc",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "APOLLO III期顶线阳性后启动拟3.50亿美元公开发行，核心战略从临床去风险转向NDA再提交与商业化准备。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "聚焦血红素生物合成和铁稳态；核心资产bitopertin用于EPP/XLP，另有selcodebart和DISC-3405。"
+            },
+            {
+              "heading": "融资与变化",
+              "body": "拟公开发行尚未定价或完成，不能视为现金已到账。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Disc APOLLO与发行公告，2026-10-19",
+              "url": "https://ir.discmedicine.com/news-releases"
+            }
+          ]
+        },
+        {
+          "id": "company-silence-therapeutics",
+          "title": "Silence Therapeutics plc",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "英国siRNA公司，核心资产divesiran在PV中准备进入III期；同意被Merck KGaA现金收购。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "利用siRNA沉默疾病相关基因，divesiran靶向TMPRSS6。"
+            },
+            {
+              "heading": "所有权变化",
+              "body": "交易需满足监管、股东批准等交割条件，预计2027年第一季度完成。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Merck KGaA拟收购Silence公告，2026-10-19",
+              "url": "https://www.emdgroup.com/en/news/silence-therapeutics-19-10-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "company-merck-kgaa",
+          "title": "Merck KGaA, Darmstadt, Germany",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "拟以约13亿美元股权价值收购Silence，以新增债务融资，强化罕见病和siRNA能力。",
+          "sections": [
+            {
+              "heading": "战略",
+              "body": "将divesiran与siRNA平台纳入专业药与罕见病组合。"
+            },
+            {
+              "heading": "融资",
+              "body": "公告称交易计划以新增债务融资；需关注融资成本与整合回报。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Merck KGaA收购公告，2026-10-19",
+              "url": "https://www.emdgroup.com/en/news/silence-therapeutics-19-10-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "company-hansoh-pharma",
+          "title": "Hansoh Pharmaceutical Group Co., Ltd.",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "以自有ADC平台与Roche开展多项目合作，负责早期全球开发至Ia期并保留大中华区权利。",
+          "sections": [
+            {
+              "heading": "平台",
+              "body": "交易包含两项未披露靶点的临床前ADC及多个Roche提出靶点的项目。"
+            },
+            {
+              "heading": "合作经济",
+              "body": "4亿美元前期、1.10亿美元首周年付款、超过150亿美元潜在里程碑及分级提成。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "翰森制药与Roche合作公告，2026-10-19",
+              "url": "https://www.hspharm.com/news/news-detail-513518.htm"
+            }
+          ]
+        },
+        {
+          "id": "company-roche-genentech",
+          "title": "F. Hoffmann-La Roche / Genentech",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "通过与翰森制药的多项目ADC合作继续扩充下一代肿瘤管线，Ia期后负责大中华区外开发商业化。",
+          "sections": [
+            {
+              "heading": "战略",
+              "body": "以外部平台补充多靶点ADC组合，同时保留项目提名和全球开发控制。"
+            },
+            {
+              "heading": "风险",
+              "body": "靶点和构件未披露，平台价值仍依赖逐项目临床验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "翰森制药与Roche合作公告，2026-10-19",
+              "url": "https://www.hspharm.com/news/news-detail-513518.htm"
+            }
+          ]
+        },
+        {
+          "id": "company-nouscom",
+          "title": "Nouscom",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "完成1.20亿欧元Series D，推进NOUS-209用于Lynch综合征癌症拦截的全球注册支持性研究。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "病毒载体平台递送共享或个体化新抗原；NOUS-209编码209个移码肽新抗原。"
+            },
+            {
+              "heading": "融资",
+              "body": "融资由M Ventures和Revelation Partners共同领投；估值与优先权未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Nouscom Series D公告，2026-10-19",
+              "url": "https://nouscom.com/2026/10/19/nouscom-raises-e120-million-135-million-in-oversubscribed-series-d-financing-and-will-present-long-term-cancer-interception-clinical-data-in-lynch-syndrome-carriers-at-esmo/"
+            }
+          ]
+        },
+        {
+          "id": "company-pharming",
+          "title": "Pharming Technologies B.V.",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "Leniolisib其他遗传性PID的NCT06549114已更新为完成，实际入组13例。",
+          "sections": [
+            {
+              "heading": "登记变化",
+              "body": "状态、入组类型和完成日期更新；不改变Joenja已获批适应症边界。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06549114，2026-10-19更新",
+              "url": "https://clinicaltrials.gov/study/NCT06549114"
+            }
+          ]
+        },
+        {
+          "id": "company-biohaven",
+          "title": "Biohaven Pharmaceuticals, Inc.",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "BHV-1300 Graves病III期登记刷新，并按登记页规范申办方名称。",
+          "sections": [
+            {
+              "heading": "管线",
+              "body": "BHV-1300为通过ASGPR介导的胞外IgG降解策略；试验仍招募中。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07661056，2026-10-19更新",
+              "url": "https://clinicaltrials.gov/study/NCT07661056"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-glyt1-bitopertin",
+          "title": "GlyT1 / bitopertin",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "抑制红系细胞甘氨酸转运，降低PPIX并改善EPP/XLP光耐受；APOLLO顶线结果支持临床和生物标志物一致性。",
+          "sections": [
+            {
+              "heading": "人体证据",
+              "body": "随机III期报告主要和次要终点阳性；完整数据和监管审查仍待完成。"
+            },
+            {
+              "heading": "安全",
+              "body": "头晕明显高于安慰剂，需结合持续性和停药分析。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Disc APOLLO Topline Results，2026-10-19",
+              "url": "https://ir.discmedicine.com/static-files/21fdf74d-456c-40fc-b357-40119fca89c6"
+            }
+          ]
+        },
+        {
+          "id": "target-tmprss6-divesiran",
+          "title": "TMPRSS6 / divesiran",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "沉默TMPRSS6以提高hepcidin、限制红细胞生成所需铁，用于PV血细胞比容控制。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "公司公告引用SANRECO II期88%对19%应答率，但III期尚未登记。"
+            },
+            {
+              "heading": "风险",
+              "body": "需验证贫血、铁代谢、血栓结局及长期耐受。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Merck KGaA收购公告，2026-10-19",
+              "url": "https://www.emdgroup.com/en/news/silence-therapeutics-19-10-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "target-adc-platform-hansoh",
+          "title": "未披露肿瘤抗原 / 翰森ADC平台",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "交易覆盖两项临床前ADC及多个Roche提出靶点项目；具体抗原、载荷和连接子未披露。",
+          "sections": [
+            {
+              "heading": "可成药性",
+              "body": "ADC价值取决于肿瘤选择性、内吞、旁观者效应、载荷耐药与治疗窗。"
+            },
+            {
+              "heading": "证据缺口",
+              "body": "目前不能从平台合作推断任一资产人体有效。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "翰森制药与Roche合作公告，2026-10-19",
+              "url": "https://www.hspharm.com/news/news-detail-513518.htm"
+            }
+          ]
+        },
+        {
+          "id": "target-fsp-neoantigen-nous209",
+          "title": "dMMR/MSI移码肽新抗原 / NOUS-209",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "用共享移码肽新抗原诱导T细胞识别Lynch综合征相关癌前或肿瘤细胞。",
+          "sections": [
+            {
+              "heading": "生物学基础",
+              "body": "错配修复缺陷产生可被免疫系统识别的移码肽新抗原。"
+            },
+            {
+              "heading": "证据与局限",
+              "body": "早期免疫原性和无事件随访为支持证据；无同期对照不能证明癌症预防。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Nouscom公告，2026-10-19",
+              "url": "https://nouscom.com/2026/10/19/nouscom-raises-e120-million-135-million-in-oversubscribed-series-d-financing-and-will-present-long-term-cancer-interception-clinical-data-in-lynch-syndrome-carriers-at-esmo/"
+            }
+          ]
+        },
+        {
+          "id": "target-her3",
+          "title": "HER3",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "patritumab deruxtecan利用HER3表达递送拓扑异构酶I抑制载荷；III期乳腺癌研究登记日期刷新，无实质字段变化。",
+          "sections": [
+            {
+              "heading": "风险",
+              "body": "HER3表达异质、ADC相关肺毒性、对照和后线治疗会影响可解释性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07060807，2026-10-19更新",
+              "url": "https://clinicaltrials.gov/study/NCT07060807"
+            }
+          ]
+        },
+        {
+          "id": "target-bhv1300-pan-igg-asgpr",
+          "title": "pan-IgG / ASGPR / BHV-1300",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "以肝细胞ASGPR介导致病IgG清除的胞外降解策略，正在Graves病III期验证。",
+          "sections": [
+            {
+              "heading": "风险",
+              "body": "需证明临床甲状腺功能改善，同时控制感染和免疫球蛋白下降风险。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07661056，2026-10-19更新",
+              "url": "https://clinicaltrials.gov/study/NCT07661056"
+            }
+          ]
+        },
+        {
+          "id": "target-pi3kd-leniolisib",
+          "title": "PI3Kδ / Leniolisib",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "通过抑制PI3Kδ调节免疫失衡；其他遗传性PID的开放标签II期登记已完成。",
+          "sections": [
+            {
+              "heading": "证据边界",
+              "body": "已获批APDS经验支持机制，但不能外推为其他遗传性PID获批或有效。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06549114，2026-10-19更新",
+              "url": "https://clinicaltrials.gov/study/NCT06549114"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-roche-hansoh-adc-2026-10-19",
+          "title": "Roche–翰森制药多项目ADC合作",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "两项临床前ADC加多个Roche提出靶点的项目；翰森负责至全球Ia期，Roche负责大中华区外后续开发商业化。",
+          "sections": [
+            {
+              "heading": "条款",
+              "body": "前期款4亿美元；首周年付款1.10亿美元；潜在里程碑超过150亿美元；分级销售提成；具体提成率未披露。"
+            },
+            {
+              "heading": "权利",
+              "body": "翰森保留大中华区权利，并可选择最多两个项目参与境外共同开发以获得额外美国商业上行。"
+            },
+            {
+              "heading": "分析",
+              "body": "多项目名义总额不能当作成交价，应逐项目、逐触发条件概率折现。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "翰森制药与Roche合作公告，2026-10-19",
+              "url": "https://www.hspharm.com/news/news-detail-513518.htm"
+            }
+          ]
+        },
+        {
+          "id": "deal-merck-silence-acquisition-2026-10-19",
+          "title": "Merck KGaA拟现金收购Silence Therapeutics",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "每ADS 20美元现金；约13亿美元股权价值、11亿美元企业价值，预计2027年第一季度交割。",
+          "sections": [
+            {
+              "heading": "结构",
+              "body": "UK scheme of arrangement；需监管和股东批准；计划以新增债务融资。"
+            },
+            {
+              "heading": "资产",
+              "body": "核心为PV Phase 3-ready的divesiran及siRNA平台。"
+            },
+            {
+              "heading": "估值",
+              "body": "相对30日VWAP溢价82%；高溢价需与rNPV、净现金和平台期权共同判断。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Merck KGaA收购公告，2026-10-19",
+              "url": "https://www.emdgroup.com/en/news/silence-therapeutics-19-10-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "deal-disc-public-offering-proposed-2026-10-19",
+          "title": "Disc Medicine拟3.50亿美元公开发行",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "公司拟发行普通股和预融资认股权证，并授予最高5,250万美元额外购买权；尚未定价或完成。",
+          "sections": [
+            {
+              "heading": "用途",
+              "body": "支持bitopertin潜在商业化、现有及新增管线研发和一般公司用途。"
+            },
+            {
+              "heading": "条款",
+              "body": "承销商为Jefferies、Leerink、Morgan Stanley和Cantor；价格、股数和净募资未披露。"
+            },
+            {
+              "heading": "分析",
+              "body": "属于催化剂后primary financing；在定价前不能计算实际稀释。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Disc拟公开发行公告，2026-10-19",
+              "url": "https://ir.discmedicine.com/news-releases/news-release-details/disc-medicine-announces-proposed-350-million-public-offering"
+            }
+          ]
+        },
+        {
+          "id": "deal-nouscom-series-d-2026-10-19",
+          "title": "Nouscom 1.20亿欧元Series D",
+          "date": "2026-10-19",
+          "checked": "2026-10-20",
+          "summary": "超额认购D轮由M Ventures和Revelation Partners共同领投，用于NOUS-209全球注册支持性研究。",
+          "sections": [
+            {
+              "heading": "金额",
+              "body": "1.20亿欧元，公告折合约1.35亿美元；投前估值、股份比例和优先权未披露。"
+            },
+            {
+              "heading": "投资人",
+              "body": "包括Angelini Industries、欧洲投资银行、Neva SGR及全部现有投资人。"
+            },
+            {
+              "heading": "分析",
+              "body": "融资降低近期执行风险，但不能仅凭融资额推算公司估值或临床成功率。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Nouscom Series D公告，2026-10-19",
+              "url": "https://nouscom.com/2026/10/19/nouscom-raises-e120-million-135-million-in-oversubscribed-series-d-financing-and-will-present-long-term-cancer-interception-clinical-data-in-lynch-syndrome-carriers-at-esmo/"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-bitopertin-nda-resubmission-2026",
+          "title": "bitopertin NDA重新提交",
+          "date": "2026-12-31",
+          "checked": "2026-10-20",
+          "summary": "Disc计划在2026年底前基于APOLLO数据重新提交NDA；这是公司目标窗口，不是已完成申报或确认PDUFA日。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "监管申报；estimated。"
+            },
+            {
+              "heading": "后续",
+              "body": "公司预计FDA决定在2027年中，但尚无正式受理后的PDUFA日期。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Disc APOLLO Topline Results，2026-10-19",
+              "url": "https://ir.discmedicine.com/static-files/21fdf74d-456c-40fc-b357-40119fca89c6"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-merck-silence-close-2027q1",
+          "title": "Merck KGaA–Silence交易预计交割",
+          "date": "2027-Q1",
+          "checked": "2026-10-20",
+          "summary": "交易预计2027年第一季度完成，仍需监管批准、Silence股东批准及其他惯常条件。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "并购交割；estimated/conditional。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Merck KGaA收购公告，2026-10-19",
+              "url": "https://www.emdgroup.com/en/news/silence-therapeutics-19-10-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-nous209-esmo-2026-10-25",
+          "title": "NOUS-209 ESMO长期随访展示",
+          "date": "2026-10-25",
+          "checked": "2026-10-20",
+          "summary": "计划于ESMO口头报告Lynch综合征携带者再接种、安全、免疫原性和长期随访；具体日程15:15 CEST。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "医学会议数据展示；confirmed schedule，结果解释仍需完整报告。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Nouscom ESMO预告，2026-10-19",
+              "url": "https://nouscom.com/2026/10/19/nouscom-raises-e120-million-135-million-in-oversubscribed-series-d-financing-and-will-present-long-term-cancer-interception-clinical-data-in-lynch-syndrome-carriers-at-esmo/"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-leniolisib-nct06549114-completion",
+          "title": "NCT06549114研究完成",
+          "date": "2026-06-23",
+          "checked": "2026-10-20",
+          "summary": "ClinicalTrials.gov于2026-10-19将研究更新为COMPLETED，主要及研究完成日期均为2026-06-23实际。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "试验完成；completed。完成状态不等于结果阳性或适应症获批。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06549114，2026-10-19更新",
+              "url": "https://clinicaltrials.gov/study/NCT06549114"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-19",
       "date": "2026-10-19",
@@ -12671,18 +13657,18 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-19T07:27:00+08:00",
+    "checkedAt": "2026-10-20T07:34:00+08:00",
     "status": "success",
-    "checked": 59,
-    "changed": 0,
+    "checked": 63,
+    "changed": 2,
     "failed": 0,
-    "newPipelines": 4,
-    "companies": 4,
-    "targets": 4,
-    "deals": 1,
+    "newPipelines": 2,
+    "companies": 8,
+    "targets": 7,
+    "deals": 4,
     "catalysts": 4,
-    "events": 4,
-    "summary": "59个既有NCT全部核查成功、0个实质变更、0个失败；新增4条已核实登记。公司4、靶点4、交易1、催化剂4；历史与归档记录均保留。"
+    "events": 5,
+    "summary": "63个既有NCT全部核查成功、2个实质更新、1个仅登记日期刷新、0个失败；新增2条已核实登记，数据库覆盖65个去重NCT。公司8、靶点7、交易/融资4、催化剂4；历史与归档记录均保留。"
   },
   "archivedPapers": []
 }
