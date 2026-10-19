@@ -1,8 +1,206 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-18T23:07:30Z",
+  "updatedAt": "2026-10-19T23:10:00Z",
   "items": [
+    {
+      "id": "neuro-2026-10-20",
+      "date": "2026-10-20",
+      "source": "scheduled",
+      "title": "神经生物学简报｜纹状体对抗通路控制行为僵化，人脑RNA 3′端选择连接神经疾病风险",
+      "summary": "截至2026-10-20，未检索到足够的10月19日高质量新原始研究，本期不以综述或低质量文章凑数，纳入2篇近期尚未收录的研究：Current Biology揭示腹外侧纹状体直接与间接通路对行为刻板化的对抗控制；Nature Genetics构建379例人脑、约200万个细胞的可变多聚腺苷酸化图谱，说明3′UTR选择可通过蛋白丰度和mRNA定位连接神经疾病风险。两刊影响因子待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-20。10月19日新内容以综述、评论和临床预测研究为主，没有足够的2篇符合主题与质量要求的新原始机制研究。因此本期选择2026-09-22在线发表（2026-10-19卷期出版）的Current Biology论文，以及2026-09-30发表的Nature Genetics论文；二者此前均未进入本库。题名、日期、DOI、研究类型和核心结果均由期刊或PubMed页面核查。影响因子未从官方Journal Citation Reports可靠核实，统一标注“影响因子待核实”。"
+        },
+        {
+          "heading": "重点推荐｜对抗性纹状体通路决定灵活选择还是刻板重复",
+          "body": "事实：研究者开发STEREO深度学习框架，从自由活动小鼠视频中识别具有行为学意义的口面动作，并结合腹外侧纹状体群体记录与通路特异操控。反复可卡因暴露使丰富的行为库逐步坍缩为一种占优势的重复动作，同时招募直接与间接通路神经元。激活间接通路可迅速缓解刻板僵化；仅激活直接通路则足以诱发类似药物作用的刻板动作。编辑判断：结果更支持两条通路在同一动作选择机制中相互竞争，而非简单的全局“运动开/关”；但可卡因诱导的口面刻板行为不等同于人类成瘾、强迫症或自闭症重复行为。"
+        },
+        {
+          "heading": "人脑图谱｜可变多聚腺苷酸化揭示表达量之外的疾病机制",
+          "body": "事实：研究分析ROSMAP老龄脑单核转录组，在379名有或无阿尔茨海默病的供体、约200万个前额叶细胞中建立细胞类型分辨的可变多聚腺苷酸化图谱，并结合全基因组测序鉴定4,288个基因的3′UTR数量性状位点。AD相关APA变化的基因与传统差异表达基因并不相同，却汇聚到小胶质细胞激活和神经元微管运输等通路；3′aQTL与蛋白QTL的共定位强于表达QTL。SNCA实例显示，3′UTR选择可以改变mRNA细胞内定位。编辑判断：疾病风险变异可能不改变总RNA量，却通过“RNA在哪里、稳定多久、翻译多少”产生效应；这拓展了靶点发现，但死后横断面关联本身不能证明因果。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "如果一个SNCA风险位点不显著改变SNCA总mRNA量，却改变3′UTR选择和mRNA细胞内定位，怎样证明“定位改变”而不是未检测到的表达量变化，才是神经退行性风险的关键中介？请设计一条包含必要性、充分性、救援和细胞类型特异性的最小证据链。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先确认风险等位基因确实改变多聚腺苷酸化位点选择；再把“RNA总量、亚细胞定位、局部翻译、蛋白聚集或细胞功能”分开测量；最后用只改变定位而尽量不改变总量的工具进行因果检验。\n\n必要证据：第一，在等基因背景中编辑风险位点或3′端调控元件，证明3′UTR异构体比例和定位改变，而总SNCA RNA量基本不变。第二，把定位信号替换或遮蔽，使RNA重新回到正常区室；若神经元功能或α-突触核蛋白病理得到救援，说明定位是必要中介。第三，使用相同启动子和相近总RNA量表达短、长3′UTR异构体；若只有特定异构体复制异常，支持充分性。\n\n一种可行方案：在同一iPSC背景中建立正常、风险位点、风险位点加定位救援三组，并分化为多巴胺神经元及少突胶质细胞。用长读长测序定量异构体，用单分子FISH测胞体与神经突定位，用核糖体标记或局部翻译报告系统测翻译，再测α-突触核蛋白蛋白量、聚集、轴突运输和细胞应激。若风险位点在总RNA相近时改变定位及局部翻译，而恢复定位可逆转下游表型，因果链较强。\n\n支持证据：效应有明确时间顺序；在携带该风险等位基因的人脑中方向一致；独立改变多聚腺苷酸化或RNA运输可产生相同结果。\n\n待验证假设：特定SNCA 3′UTR异构体把mRNA送入神经突或其他亚细胞区室，改变局部蛋白生成与聚集概率，从而影响疾病风险。\n\n常见误区：把3′aQTL与疾病共定位直接当成因果；只测全细胞RNA；过表达不同异构体却不匹配表达量；忽略神经元成熟度和细胞类型差异。\n\n自查标准：是否控制总RNA和总蛋白？是否既有必要性又有充分性？是否能用定位救援逆转表型？是否至少在两种相关人源细胞类型和独立体系中复现？开放问题可能存在多条并行机制。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1016-j-cub-2026-08-068",
+          "title": "腹外侧纹状体对抗通路调节行为灵活性与僵化",
+          "date": "2026-09-22",
+          "checked": "2026-10-20",
+          "topic": "基底节、动作选择、成瘾与刻板行为",
+          "target": "腹外侧纹状体D1/D2棘状投射神经元",
+          "summary": "自由活动小鼠的深度学习行为分解、群体记录和通路特异操控显示，可卡因使行为库坍缩为重复动作；直接通路推动刻板输出，间接通路可恢复行为灵活性。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "基底节负责在多种动作间进行情境适当的选择。病理性行为僵化究竟源于新的异常回路，还是正常选择回路被偏置，仍不清楚。研究检验腹外侧纹状体直接与间接通路如何控制口面行为的灵活性和刻板性。"
+            },
+            {
+              "heading": "方法",
+              "body": "作者开发STEREO深度学习视频分析框架，对自由活动小鼠的自然口面动作进行分类；再结合纹状体群体神经活动记录、反复精神兴奋剂暴露及D1型直接通路、D2型间接通路的通路特异因果操控。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "反复可卡因使丰富行为库逐步坍缩为持续占优势的单一口面动作，并伴随两类投射神经元的招募。直接通路激活足以诱发类似药物的刻板动作，而间接通路激活迅速解除僵化。原文支持的机制是：两条通路在共享选择系统中对抗性调节，直接通路偏置可把灵活选择推向强迫性输出。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值在于把连续自然行为、群体动力学和细胞类型因果操作连在一起。局限包括小鼠口面动作、可卡因模型、人工通路刺激和腹外侧纹状体的区域特异性；不能直接外推至人类成瘾、强迫症或自闭症重复行为。编辑推断：更有前景的策略可能是恢复通路平衡而非整体抑制纹状体，但治疗窗口与运动副作用需严格评估。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2014年综述整合直接/间接通路对奖励学习、行动选择与灵活性的差异作用。[3] 2018年竞争模型提出直接通路促进目标动作、间接通路抑制竞争动作，比简单go/no-go更接近本研究。[4] 2009年研究将可卡因刻板行为与前额叶—感觉运动基底节回路失衡联系起来。[5] 2019年价值决策研究显示两条通路在选择和价值更新中承担互补功能。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Opponent ventrolateral striatal circuits regulate behavioral flexibility and rigidity — Current Biology, online 2026-09-22; issue 2026-10-19",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42772288/"
+            },
+            {
+              "title": "Striatal direct and indirect pathways control decision-making behavior — Frontiers in Psychology, 2014",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4228842/"
+            },
+            {
+              "title": "A competitive model for striatal action selection — Brain Research, 2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30300636/"
+            },
+            {
+              "title": "Cocaine-induced stereotypy is linked to an imbalance between medial prefrontal and sensorimotor basal ganglia circuits — 2009",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19769590/"
+            },
+            {
+              "title": "Distinct roles of striatal direct and indirect pathways in value-based decision making — eLife, 2019",
+              "url": "https://elifesciences.org/articles/46050"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41588-026-02758-w",
+          "title": "人脑单细胞可变多聚腺苷酸化图谱连接RNA 3′端选择与神经疾病风险",
+          "date": "2026-09-30",
+          "checked": "2026-10-20",
+          "topic": "神经退行性疾病、单细胞组学、RNA调控",
+          "target": "3′UTR选择与SNCA定位",
+          "summary": "379例人脑约200万个细胞的分析揭示细胞类型特异的3′UTR调控和4,288个基因的3′aQTL；APA可在不明显改变总RNA表达的情况下，通过蛋白丰度或mRNA定位连接AD、PD等风险。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "可变多聚腺苷酸化通过选择不同mRNA 3′端影响稳定性、翻译和定位，但老龄人脑中不同细胞类型的APA遗传调控及其与疾病风险的关系尚未系统解析。"
+            },
+            {
+              "heading": "方法",
+              "body": "研究重新分析ROSMAP前额叶单核转录组，覆盖379名有或无AD的死后供体和约200万个细胞；依据3′端测序信号构建APA图谱，并整合全基因组测序、疾病GWAS、表达QTL和蛋白QTL，鉴定细胞类型分辨的3′aQTL及共定位关系。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "APA变化与传统差异表达捕捉到不同基因集合，但汇聚于小胶质细胞激活和神经元微管运输等AD相关通路。研究鉴定4,288个基因的3′aQTL，它们更倾向与蛋白QTL而非表达QTL共定位。SNCA分析显示3′UTR选择会改变mRNA细胞内定位，为PD风险位点在总表达变化不明显时提供潜在机制。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值是把靶点发现从“哪个基因表达升降”扩展到“同一基因使用哪个RNA末端、位于哪里、翻译多少”。局限包括死后横断面、前额叶为主、3′端单细胞测序的覆盖偏差及共定位不等于因果。编辑推断：疾病相关APA异构体、RNA结合蛋白或多聚腺苷酸化机器可能成为新型生物标志物和干预节点，但必须先在人源活细胞和功能模型中验证。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2021年人类组织研究系统描绘遗传变异对APA的调控，为3′aQTL框架奠基。[3] 2025年研究系统总结脑疾病中3′端加工和RNA定位机制。[4] 2025年研究表明APA可产生人类特异蛋白并影响脑发育，展示其不仅调表达量也能改变蛋白产物。[5] 本研究所依托的ROSMAP大规模老龄脑单核图谱提供细胞类型和疾病背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Single-cell profiling and genetic regulation of alternative polyadenylation in the human brain — Nature Genetics, 2026-09-30",
+              "url": "https://www.nature.com/articles/s41588-026-02758-w"
+            },
+            {
+              "title": "Single-cell profiling and genetic regulation of alternative polyadenylation in the human brain — PubMed",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42816601/"
+            },
+            {
+              "title": "A human-specific protein regulated by alternative polyadenylation shapes uniqueness of human brain development — 2025",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41390920/"
+            },
+            {
+              "title": "Genetic regulation of alternative polyadenylation in human tissues — Nature Genetics, 2021",
+              "url": "https://www.nature.com/articles/s41588-021-00864-5"
+            },
+            {
+              "title": "Alternative polyadenylation in health and disease — Nature Reviews Genetics, 2025",
+              "url": "https://www.nature.com/articles/s41576-025-00831-w"
+            }
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "en": "Behavioral repertoire",
+          "zh": "行为库",
+          "meaning": "动物在特定环境下能够表现出的不同动作或行为类型集合。"
+        },
+        {
+          "en": "Behavioral rigidity",
+          "zh": "行为僵化",
+          "meaning": "行为选择被少数重复动作占据、难以根据环境灵活切换的状态。"
+        },
+        {
+          "en": "Spiny projection neuron",
+          "zh": "棘状投射神经元",
+          "meaning": "纹状体的主要输出神经元，常按D1直接通路和D2间接通路区分。"
+        },
+        {
+          "en": "Opponent control",
+          "zh": "对抗性控制",
+          "meaning": "两条通路对同一行为变量产生方向相反但相互协调的作用。"
+        },
+        {
+          "en": "Alternative polyadenylation",
+          "zh": "可变多聚腺苷酸化",
+          "meaning": "同一前体mRNA选择不同3′端切割和加尾位点，形成不同3′UTR或蛋白产物。"
+        },
+        {
+          "en": "3′aQTL",
+          "zh": "3′UTR数量性状位点",
+          "meaning": "与不同多聚腺苷酸化位点使用比例相关的遗传变异。"
+        },
+        {
+          "en": "Colocalization",
+          "zh": "遗传共定位",
+          "meaning": "统计检验两个性状的关联信号是否可能由同一因果变异驱动。"
+        },
+        {
+          "en": "Subcellular mRNA localization",
+          "zh": "mRNA亚细胞定位",
+          "meaning": "mRNA被运输到胞体、树突、轴突或其他区室，从而控制局部翻译。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "[1] Opponent ventrolateral striatal circuits regulate behavioral flexibility and rigidity — Current Biology, online 2026-09-22",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42772288/"
+        },
+        {
+          "title": "[2] Single-cell profiling and genetic regulation of alternative polyadenylation in the human brain — Nature Genetics, 2026-09-30",
+          "url": "https://www.nature.com/articles/s41588-026-02758-w"
+        },
+        {
+          "title": "[3] Striatal direct and indirect pathways control decision-making behavior — 2014",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4228842/"
+        },
+        {
+          "title": "[4] A human-specific protein regulated by alternative polyadenylation shapes human brain development — 2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41390920/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-19",
       "date": "2026-10-19",
