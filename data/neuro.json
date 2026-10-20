@@ -1,8 +1,206 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-19T23:10:00Z",
+  "updatedAt": "2026-10-20T23:02:00Z",
   "items": [
+    {
+      "id": "neuro-2026-10-21",
+      "date": "2026-10-21",
+      "source": "scheduled",
+      "title": "神经生物学简报｜杏仁核跨脑对齐支持合作，胚胎丘脑早期分流感觉与运动—联想身份",
+      "summary": "本期收录2篇最新Nature Neuroscience原始研究：双人颅内电生理显示，相互合作时伙伴杏仁核的精细频谱表征会选择性对齐，并通过“预测对方—形成自身决策”的级联支持合作；小鼠胚胎丘脑的单细胞多组学、空间转录组与条形码谱系追踪则揭示感觉相关和运动—联想谷氨酸能神经元在早期祖细胞阶段已分流，并验证Sp9调控视觉丘脑命运。期刊影响因子待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-21。本期2篇均为Nature Neuroscience最新原始研究，分别发表于2026-10-19和2026-10-20，覆盖人类社交合作的跨脑机制与丘脑功能身份的发育来源。题名、日期、DOI、样本类型和核心结论均由期刊页面核查。Nature Neuroscience影响因子本次未从官方Journal Citation Reports可靠核实，标注“影响因子待核实”。人类癫痫患者记录具有稀缺性但样本代表性有限；小鼠发育谱系不能直接等同于人类丘脑。"
+        },
+        {
+          "heading": "重点推荐｜合作不是两颗独立大脑各自计算，而是杏仁核表征动态对齐",
+          "body": "事实：研究让癫痫患者双人组合进行实时重复囚徒困境任务，并同步记录双方颅内脑电。只有在相互合作时，双方杏仁核的精细频谱模式才表现出跨脑表征对齐，且可预测逐试次结果。早期以θ抑制为特征的对齐反映对历史信息的快速敏感，较晚阶段的低频抑制和γ增强与共同承诺及行动有关。模型分析提出：个体先前瞻性估计伙伴合作概率，再用杏仁核低频活动和θ–γ耦合把“对方预测”连接到自身选择。编辑判断：结果显示合作依赖互动双方的动态认知耦合，但“跨脑同步”并不等于直接脑间传递，也可能部分来自共享刺激、相似行为阶段和共同结果。"
+        },
+        {
+          "heading": "发育机制｜丘脑感觉与运动—联想身份在早期祖细胞阶段已经分流",
+          "body": "事实：研究整合胚胎小鼠丘脑的时空单细胞RNA/染色质多组学、空间转录组和条形码谱系追踪，识别两条主要谷氨酸能谱系：感觉相关谱系与运动—联想谱系。两者来自空间和分子上不同的祖细胞区域，并具有不同成熟节律；感觉谱系更早进入分化，运动—联想谱系保持较长时间的未成熟状态。感觉谱系内部，第一阶视觉和躯体感觉神经元从共享的高阶样状态分支。计算预测结合在体CRISPRi表明Sp9是视觉丘脑身份和背外侧膝状体形成的重要调控因子。编辑判断：这为“功能核团由早期谱系预设还是后期输入塑造”提供强有力的早期谱系证据，但并未排除活动、轴突输入和丘脑—皮层互作的后期重塑。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "合作研究发现，相互合作时双方杏仁核活动模式更相似，而且这种对齐能够预测结果。怎样证明这种“跨脑对齐”反映双方对彼此意图的互动建模，而不是因为两个人看到了同样的画面、按键时间相近、获得同样结果或都处于相似唤醒状态？请设计一组能够区分这些解释的最小实验。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：把潜在来源分为四类——共享感官输入、同步动作、共同结果/奖励、真正的伙伴特异性意图建模。核心不是继续增加相关性，而是在这些因素被匹配或打乱时观察跨脑表征是否仍保留伙伴特异信息。\n\n必要证据：第一，使用“回放伙伴”条件，让参与者看到与真人条件完全相同的画面、选择序列和结果，但实际上没有实时互动；若对齐明显下降，说明共享刺激和结果不足以解释。第二，在真人互动中人为加入不同按键延迟，使动作时间不再同步；若意图相关表征仍可按计算变量而非动作时间对齐，可排除单纯运动同步。第三，交换或打乱伙伴身份和试次配对；真正的互动建模应当在真实伙伴和正确试次配对中最强。\n\n一种可行设计：同一参与者依次完成真人实时互动、预录回放、算法伙伴和非社会概率任务。四种条件匹配视觉输入、动作频率、奖励率与唤醒水平。建立模型逐试次估计“对方将合作的概率”，再检验杏仁核跨脑相似性是否编码这一隐变量，并能否预测超出共享刺激、反应时和结果后的自身选择。\n\n支持证据：对齐强度随伙伴行为的可预测性变化；更换伙伴后需要重新建立；扰动或损伤杏仁核相关网络会削弱伙伴模型对决策的影响；条件性合作者与无条件合作者呈现可解释的不同策略。\n\n待验证假设：杏仁核并非简单同步情绪，而是在实时互动中把伙伴行为历史转化为未来合作概率，再影响自身选择。\n\n常见误区：把同时发生的相似活动称为信息传递；只做时间序列相关而不控制共同事件；把癫痫患者样本直接代表一般人群；忽略选择策略和人格差异。\n\n自查标准：视觉、动作、奖励和唤醒是否分别匹配？是否包含回放、算法伙伴和错误配对对照？模型能否预测试次外数据？结论是否仍保留“共享环境”和“伙伴建模”可能同时贡献的空间？"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41593-026-02473-z",
+          "title": "杏仁核介导的模拟—决策级联通过跨脑动力学对齐解决社会困境",
+          "date": "2026-10-19",
+          "checked": "2026-10-21",
+          "topic": "社交合作、杏仁核、跨脑电生理",
+          "target": "杏仁核θ–γ动力学",
+          "summary": "同步颅内脑电显示，癫痫患者双人组合相互合作时杏仁核频谱表征选择性对齐；早期历史敏感对齐与晚期共同承诺分阶段出现，伙伴合作概率的前瞻估计通过低频活动及θ–γ耦合连接到自身选择。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "合作要求独立个体在不知道对方真实意图的情况下协调。研究询问互动大脑如何将伙伴历史转化为对未来合作的预测，并把这一预测用于自身决定。"
+            },
+            {
+              "heading": "方法",
+              "body": "作者让植入颅内电极的癫痫患者组成双人组合，完成实时重复囚徒困境；同步分析两脑杏仁核等区域的频谱活动、跨脑表征相似性，并使用模型计算逐试次的伙伴合作概率和决策策略。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "杏仁核跨脑表征对齐选择性出现于相互合作并预测结果。早期θ抑制型对齐对近期互动历史敏感；后期低频抑制与γ升高支持协调承诺。杏仁核低频信号跟踪伙伴合作概率，θ–γ耦合把伙伴估计连接至自身选择，形成“模拟伙伴—决定自己”的级联。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值是以双人同步颅内记录把社会合作从单脑决策提升为互动系统。局限包括癫痫样本、双人数量有限、任务博弈的生态效度，以及共同刺激或行为同步不能被完全排除。编辑推断：社交障碍研究可进一步区分“伙伴模型建立失败”和“知道对方意图但不愿合作”，但当前不能直接推断自闭症或社交恐惧机制。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2024年Nature Neuroscience首次用互动双人颅内记录区分合作建立和维持时的TPJ及杏仁核高γ活动，是本研究的直接技术与概念基础。[3] 2018年fNIRS囚徒困境研究发现合作预期伴随额叶跨脑同步，提供非侵入性先例。[4] 2017年EEG双人研究显示面部线索和跨脑相位同步参与合作意图判断。[5] 2020年方法综述总结hyperscanning的优势及共同输入混杂。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "An amygdala-mediated simulation-to-decision cascade aligns interbrain dynamics to solve social dilemmas — Nature Neuroscience, 2026-10-19",
+              "url": "https://www.nature.com/articles/s41593-026-02473-z"
+            },
+            {
+              "title": "Simultaneous intracranial recordings of interacting brains reveal neurocognitive dynamics of human cooperation — Nature Neuroscience, 2024",
+              "url": "https://www.nature.com/articles/s41593-024-01824-y"
+            },
+            {
+              "title": "Brain-to-brain synchronization of the expectation of cooperation behavior — 2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30440455/"
+            },
+            {
+              "title": "Neural dynamics of two players using nonverbal cues during the Prisoner's Dilemma Game — NeuroImage, 2017",
+              "url": "https://doi.org/10.1016/j.neuroimage.2017.06.024"
+            },
+            {
+              "title": "Hyperscanning: a valid method to study neural inter-brain underpinnings of social interaction — 2020",
+              "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2020.00039/full"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02485-9",
+          "title": "早期谱系分流建立丘脑感觉与运动—联想身份",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "topic": "神经发育、丘脑、单细胞多组学",
+          "target": "Sp9与视觉丘脑命运",
+          "summary": "胚胎小鼠丘脑的时空多组学、空间转录组和条形码谱系追踪揭示感觉相关与运动—联想两条早期谷氨酸能谱系；在体扰动验证Sp9对视觉丘脑身份和dLG形成具有重要作用。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "丘脑包含承担感觉、中继、运动和联想功能的众多核团。核心问题是这些功能身份何时产生：由早期祖细胞谱系预设，还是主要在出生后受输入和活动塑造。"
+            },
+            {
+              "heading": "方法",
+              "body": "研究构建胚胎小鼠丘脑的时空单细胞RNA与染色质可及性多组学图谱，并结合不同胚胎时期的空间转录组、条形码谱系追踪、计算发育轨迹推断及在体CRISPRi调控因子扰动。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "感觉相关与运动—联想神经元源于空间和分子上不同的祖细胞域，并具有不同成熟时间。感觉谱系内，第一阶视觉和躯体感觉命运从共享的高阶样状态分支。转录网络预测与扰动共同支持Sp9促进第一阶视觉程序巩固及dLG正常形成。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "研究把核团功能、谱系历史、染色质状态与转录调控连接起来。局限包括小鼠胚胎为主、条形码采样不完全、CRISPRi靶向时窗与效率有限，以及功能核团成熟仍受后期活动影响。编辑推断：Sp9等谱系限制因子可帮助构建特定丘脑细胞的类器官或移植模型，但尚不是直接药物靶点。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2009年研究确定Shh信号把丘脑祖细胞划分为不同分子域，奠定早期模式形成框架。[3] 2017年克隆谱系追踪显示第一阶、高阶以及不同模态核团具有显著谱系分隔。[4] 2022年纵向单细胞与Shh扰动解析四条丘脑分化轨迹。[5] 2024年单细胞研究比较第一阶与高阶丘脑神经元身份的出现时间，为本研究的感觉谱系分支模型提供参照。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Early lineage divergence segregates sensory and motor-associative identities in the thalamus — Nature Neuroscience, 2026-10-20",
+              "url": "https://www.nature.com/articles/s41593-026-02485-9"
+            },
+            {
+              "title": "Sonic hedgehog signaling controls thalamic progenitor identity and nuclei specification in mice — 2009",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2718849/"
+            },
+            {
+              "title": "Ontogenetic establishment of order-specific nuclear organization in the mammalian thalamus — Nature Neuroscience, 2017",
+              "url": "https://www.nature.com/articles/nn.4519"
+            },
+            {
+              "title": "Developmental trajectories of thalamic progenitors revealed by single-cell transcriptome profiling and Shh perturbation — 2022",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9880597/"
+            },
+            {
+              "title": "Developmental emergence of first- and higher-order thalamic neuron molecular identities — Development, 2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39348458/"
+            }
+          ]
+        }
+      ],
+      "terms": [
+        {
+          "en": "Interbrain representational alignment",
+          "zh": "跨脑表征对齐",
+          "meaning": "互动双方脑活动的精细模式在表征空间中变得相似，不等同于两脑直接通信。"
+        },
+        {
+          "en": "Iterated prisoner's dilemma",
+          "zh": "重复囚徒困境",
+          "meaning": "双方反复选择合作或背叛，用于研究信任、互惠及策略更新的博弈任务。"
+        },
+        {
+          "en": "Prospective estimate",
+          "zh": "前瞻性估计",
+          "meaning": "根据历史信息预测未来事件概率，而不是仅描述已经发生的结果。"
+        },
+        {
+          "en": "Theta–gamma coupling",
+          "zh": "θ–γ耦合",
+          "meaning": "低频θ相位与高频γ振幅之间的跨频关系，可能协调不同时间尺度的信息。"
+        },
+        {
+          "en": "Lineage tracing",
+          "zh": "谱系追踪",
+          "meaning": "给祖细胞及后代留下可继承标记，用于重建细胞发育来源。"
+        },
+        {
+          "en": "Single-cell multiome",
+          "zh": "单细胞多组学",
+          "meaning": "在同一细胞中联合测量转录和染色质可及性等分子层。"
+        },
+        {
+          "en": "Heterochrony",
+          "zh": "异时性",
+          "meaning": "不同谱系或结构以不同速度和时间表发育。"
+        },
+        {
+          "en": "First-order thalamic nucleus",
+          "zh": "第一阶丘脑核",
+          "meaning": "直接接收外周感觉驱动输入并向初级皮层传递信息的丘脑核团。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "[1] An amygdala-mediated simulation-to-decision cascade aligns interbrain dynamics to solve social dilemmas — Nature Neuroscience, 2026-10-19",
+          "url": "https://www.nature.com/articles/s41593-026-02473-z"
+        },
+        {
+          "title": "[2] Early lineage divergence segregates sensory and motor-associative identities in the thalamus — Nature Neuroscience, 2026-10-20",
+          "url": "https://www.nature.com/articles/s41593-026-02485-9"
+        },
+        {
+          "title": "[3] Simultaneous intracranial recordings of interacting brains reveal neurocognitive dynamics of human cooperation — 2024",
+          "url": "https://www.nature.com/articles/s41593-024-01824-y"
+        },
+        {
+          "title": "[4] Ontogenetic establishment of order-specific nuclear organization in the mammalian thalamus — 2017",
+          "url": "https://www.nature.com/articles/nn.4519"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-20",
       "date": "2026-10-20",
