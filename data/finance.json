@@ -1,8 +1,698 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-20T07:34:00+08:00",
+  "updatedAt": "2026-10-21T07:42:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-21",
+      "date": "2026-10-21",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜标签漏斗收入预测、乙肝功能性治愈与多领域临床推进",
+      "summary": "用适用标签—诊断检测—治疗启动—市场份额漏斗建立收入预测；覆盖Hibsago美国获批、RAP-219双相躁狂II期、ALTB-268溃疡性结肠炎IIa期、vipoglanstat子宫内膜异位症入组完成及YOL104-2眼科期权交易，并完成65项既有NCT全量巡检。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "纯教学假设：美国有50万名已诊断且接受核苷（酸）类似物治疗的慢性乙肝成人；其中30%满足Hibsago标签与生物标志物条件，首年有25%启动有限疗程，Hibsago在可启动人群中取得20%份额，每位患者净收入8万美元。请估算首年收入；若份额升至30%，其他假设不变，收入增加多少？再说明这个模型最需要验证的三项证据。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先从总患者逐层筛选，再乘份额和净价。符合标签人数=50万×30%=15万；首年可启动人数=15万×25%=3.75万；接受Hibsago人数=3.75万×20%=7,500；首年收入=7,500×8万美元=6亿美元。份额升至30%时，患者数=3.75万×30%=11,250，收入=9亿美元，因此增加3亿美元。这里没有唯一正确答案，因为假设决定结果。必要证据：美国真实可诊断并稳定抑制病毒的人数、HBsAg≤3000 IU/mL且无肝硬化的比例、标签要求与伴随诊断实际可及性。支持证据：医生采用意愿、注射与监测负担、停药后功能性治愈价值、支付方覆盖。待验证假设：净价8万美元、首年25%启动率、20%份额。常见误区：把所有乙肝患者都放入分母；用标价而非扣除折让后的净价；忽略竞争、禁忌证、产能和黑框警告。自查标准：每个漏斗比例都在0%—100%；人数不随层级增加；净价与疗程口径一致；用敏感性分析而不是单点预测。"
+        },
+        {
+          "heading": "核心概念：标签漏斗驱动的收入预测",
+          "body": "药品收入不是“患病人数×药价”。更实用的公式是：收入=患病人数×诊断率×治疗率×标签/生物标志物适配率×可启动比例×市场份额×净价。有限疗程药物还要区分新增治疗流量与存量患者消化速度；伴随诊断、给药与监测要求会形成额外漏损。初期估值应至少做低/中/高三套情景，并让份额、净价和患者启动速度能够独立变化。"
+        },
+        {
+          "heading": "1. FDA批准Hibsago：慢性乙肝有限疗程迈向功能性治愈",
+          "body": "事实（2026-10-20）：FDA批准GSK的Hibsago（bepirovirsen）与既有抗病毒治疗联用，用于特定无肝硬化成人；适用者需已接受抗病毒治疗至少6个月、病毒受抑制且HBsAg≤3000 IU/mL。两项试验中，24%达到停用既有药物条件；停用全部乙肝治疗24周后，19%仍维持病毒受控且HBsAg不可检出。FDA同时授权Roche Elecsys HBsAg定量伴随诊断。标签含严重肝反应和血小板减少黑框警告。分析：科学上，这是首个获FDA批准治疗慢乙肝的反义寡核苷酸，验证“降低病毒RNA/抗原＋免疫恢复”的有限疗程路径；商业上，疗效需要与严格筛选、皮下注射、实验室监测和安全警示共同估算，不能把全部慢乙肝人口视作可治疗市场；战略上，伴随诊断把检测能力变成采用率约束；财务上，峰值销售取决于存量患者启动曲线和治愈后不再持续付费的收入形态。"
+        },
+        {
+          "heading": "2. RAP-219双相躁狂II期达到主要终点，但效应与脱落需同时读",
+          "body": "事实（2026-10-20）：Rapport在253名双相I型急性躁狂成人中报告，RAP-219三周时YMRS较安慰剂改善3.1分（p=0.045），CGI-BP躁狂严重度改善0.4分（p=0.024）；治疗期间不良事件总发生率相近且无严重不良事件。公司8-K同时披露，RAP-219组治疗中止31/126（24.6%），安慰剂组15/127（11.8%），主要原因是撤回同意。分析：TARPγ8选择性AMPA受体负变构调节获得躁狂概念验证，并与癫痫项目形成“一药多适应症”逻辑；但p值接近0.05、三周疗程和不平衡脱落提高III期设计风险。商业价值取决于能否证明相对现有抗精神病药的耐受性或依从性优势；财务上，III期样本量、两项确证性试验及长效注射剂开发将提高资金需求。"
+        },
+        {
+          "heading": "3. ALTB-268在难治性溃疡性结肠炎显示剂量/暴露相关信号",
+          "body": "事实（2026-10-20）：开放标签IIa期ASCEND UC2a中，高剂量队列12周临床缓解率23.1%（3/13），低剂量队列11.4%（4/35）；合并队列中Day 29谷浓度达到目标的18人里，38.9%缓解。最常见不良事件为注射部位反应，报告1例严重不良事件、无死亡。分析：PSGL-1（CD162）激动抗体试图选择性下调慢性活化效应T细胞，而非广泛免疫抑制；剂量—暴露—反应一致性支持机制，但样本小、无安慰剂且队列非同期，不能据此估算真实疗效差异。商业上需在拥挤的UC市场证明与生物制剂/JAK/S1P药物的差异；财务上，2027年全球随机IIb期才是更可信的估值节点。"
+        },
+        {
+          "heading": "4. vipoglanstat子宫内膜异位症II期提前完成入组",
+          "body": "事实（2026-10-20）：Gesynta称NOVA随机、双盲、安慰剂对照II期已随机213人，超过原定190人并提前三个多月完成；两种剂量口服vipoglanstat治疗约四个月经周期，主要观察非经期盆腔痛，顶线数据预计2027年第二季度。ClinicalTrials.gov同日登记为ACTIVE_NOT_RECRUITING，主要完成日期仍为预计2027年6月。分析：mPGES-1抑制有望提供非激素、非阿片治疗，但“完成入组”只降低执行风险，不代表疗效成功；商业差异点是长期使用与生育需求，真正价值取决于疼痛、病灶、救援药物和耐受性是否共同支持；财务上，时间线更清晰但仍需为III期和长期安全性投入。"
+        },
+        {
+          "heading": "5. Visara以期权结构锁定YOL104-2眼表肿瘤资产",
+          "body": "事实（2026-10-20）：NovaBridge控股的Visara与YOLO Immune签署资产购买期权，获得YOL104项目全球权利的独家评估/收购选择；YOL104-2为三价IFN-α拟态肽抗体，拟用于眼表鳞状肿瘤。已披露付款包括期权前期款、行权款、开发/监管/商业里程碑和分级销售提成，但金额未披露。分析：科学上仍需确认局部或系统给药、剂量、肿瘤清除与眼表安全性；商业上目标疾病无FDA批准药物但患者规模和治疗路径需验证；战略上，期权让买方先获得排他性、保留尽调和资本配置灵活性；财务上，较直接收购把大量对价后置，却可能以行权价和里程碑换取这种下行保护。"
+        },
+        {
+          "heading": "跨岗位洞察：如何看待RAP-219的“阳性但边界”数据",
+          "body": "投行：关注股价反应、后续融资窗口、III期资金缺口和潜在合作/发行规模。FA顾问：梳理可授权地区、适应症分拆、数据成熟度与交易竞争性，避免用单一p值定价。BD：重点审查退出/脱落、疗效持续性、与标准治疗比较、癫痫与躁狂适应症间的专利和开发协同。投资人：重做意向治疗与缺失数据敏感性，评估3.1分差异的临床意义及III期成功概率。咨询：分析临床路径、医生未满足需求、患者依从性、竞争产品和长效制剂是否改变市场格局。"
+        },
+        {
+          "heading": "迷你案例：有限疗程药物的峰值收入为什么会先升后稳",
+          "body": "假设可治疗存量15万人，未来每年新增2万人；每年最多25%的尚未治疗存量启动，份额20%，净价8万美元。第一年Hibsago患者约7,500人、收入6亿美元。若治疗后成功者不再重复付费，随着存量被消化，后续收入会逐渐更多依赖新增患者、未治愈者再治疗规则和市场份额。因此估值模型应使用患者队列而非永续把同一批患者每年重复计费。练习：把首年启动率改为15%、份额改为30%，收入仍为5.4亿美元（15万×15%×30%×8万美元）；解释为什么相近收入背后的采用风险不同。"
+        },
+        {
+          "heading": "创新药数据库维护",
+          "body": "截至2026-10-21，本轮65个既有NCT全部核查成功，0个访问失败，0个出现较已保存版本更新的登记变更。新增核实4个此前未收录的真实登记：NCT07046494（RAP-219双相躁狂II期）、NCT07260669（vipoglanstat子宫内膜异位症II期）、NCT05630807（bepirovirsen B-Well 1 III期）及NCT06109441（ALTB-268溃疡性结肠炎II期），去重后覆盖69个NCT。NCT05630820（B-Well 2）因FDA批准事件刷新展示，但不是新的登记变更。所有预计完成/读出时间均保留为预计，不写成已经发生；旧记录、归档和其他日期简报均保留。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Label funnel",
+          "zh": "标签漏斗",
+          "meaning": "从总患者逐层筛选到真正符合标签、可启动治疗并被产品获取的人群。"
+        },
+        {
+          "en": "Net price",
+          "zh": "净价",
+          "meaning": "扣除折扣、返利和渠道费用后，企业实际确认的每疗程收入。"
+        },
+        {
+          "en": "Functional cure",
+          "zh": "功能性治愈",
+          "meaning": "停止治疗后仍持续抑制HBV DNA且HBsAg不可检出，并不等同清除体内全部病毒。"
+        },
+        {
+          "en": "Companion diagnostic",
+          "zh": "伴随诊断",
+          "meaning": "用于识别适合某项治疗或监测其使用的监管授权检测。"
+        },
+        {
+          "en": "Negative allosteric modulator",
+          "zh": "负变构调节剂",
+          "meaning": "在非正构位点结合并降低受体功能的分子。"
+        },
+        {
+          "en": "Option-to-acquire",
+          "zh": "收购期权",
+          "meaning": "先支付期权费获得未来按约定条件收购资产的权利，而非立即完成收购。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FDA批准Hibsago，2026-10-20",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
+        },
+        {
+          "title": "Rapport 8-K：RAP-219 II期顶线结果，2026-10-20",
+          "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526425647/d185134d8k.htm"
+        },
+        {
+          "title": "AltruBio ASCEND UC2a数据，2026-10-20",
+          "url": "https://www.globenewswire.com/news-release/2026/10/20/3384042/0/en/altrubio-presents-phase-2a-data-of-altb-268-in-advanced-therapy-refractory-ulcerative-colitis-at-ueg-week-2026.html"
+        },
+        {
+          "title": "Gesynta NOVA入组完成，2026-10-20",
+          "url": "https://www.globenewswire.com/news-release/2026/10/20/3384048/0/en/gesynta-pharma-completes-enrollment-in-phase-2-nova-trial-evaluating-vipoglanstat-in-endometriosis.html"
+        },
+        {
+          "title": "NovaBridge/Visara YOL104-2期权交易，2026-10-20",
+          "url": "https://www.globenewswire.com/news-release/2026/10/20/3384224/0/en/visara-secures-exclusive-option-for-potential-acquisition-of-yol104-2-for-ocular-surface-squamous-neoplasia.html"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT07046494",
+          "title": "RAP-219",
+          "company": "Rapport Therapeutics, Inc.",
+          "target": "TARPγ8-containing AMPA receptors",
+          "modality": "口服小分子负变构调节剂",
+          "area": "神经精神",
+          "indication": "Bipolar I Disorder, acute mania",
+          "stage": "Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Study Evaluating the Efficacy and Safety of RAP-219 in Adult Participants With Bipolar I Disorder",
+          "registryUpdated": "2026-08-10",
+          "checked": "2026-10-21",
+          "summary": "登记为253例II期、主要完成日期2026-08-05（实际）；公司于2026-10-20报告YMRS主要终点阳性。登记状态并不等同III期或获批。",
+          "endpoints": [
+            "Change in Young Mania Rating Scale from baseline to Week 3"
+          ],
+          "completion": {
+            "date": "2026-10",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 253,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07046494，核查于2026-10-21",
+              "url": "https://clinicaltrials.gov/study/NCT07046494"
+            },
+            {
+              "title": "Rapport 8-K，2026-10-20",
+              "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526425647/d185134d8k.htm"
+            }
+          ],
+          "note": "公司顶线结果与注册登记分开记录；完整数据及监管沟通待核实。",
+          "risks": "三周效应、p值边界、不平衡脱落及III期可重复性。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "RAP-219"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07260669",
+          "title": "vipoglanstat",
+          "company": "Gesynta Pharma AB",
+          "target": "mPGES-1",
+          "modality": "口服小分子抑制剂",
+          "area": "妇科 / 炎症",
+          "indication": "Endometriosis",
+          "stage": "Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Phase 2 Trial to Investigate Efficacy and Safety of Vipoglanstat in Women With Endometriosis",
+          "registryUpdated": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "登记为213例已完成入组的II期；主要完成和总完成日期均预计2027-06，公司预计2027年第二季度顶线数据，尚非读出。",
+          "endpoints": [
+            "Percentage meeting predefined non-menstrual pelvic pain responder criteria from baseline to Month 4"
+          ],
+          "completion": {
+            "date": "2027-06",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 213,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07260669，核查于2026-10-21",
+              "url": "https://clinicaltrials.gov/study/NCT07260669"
+            },
+            {
+              "title": "Gesynta NOVA公告，2026-10-20",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384048/0/en/gesynta-pharma-completes-enrollment-in-phase-2-nova-trial-evaluating-vipoglanstat-in-endometriosis.html"
+            }
+          ],
+          "note": "完成入组不代表疗效或安全性成功。",
+          "risks": "疼痛终点主观性、安慰剂效应、长期安全和病灶改善一致性。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Vipoglanstat"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT05630807",
+          "title": "bepirovirsen（Hibsago）B-Well 1",
+          "company": "GlaxoSmithKline",
+          "target": "HBV RNA",
+          "modality": "反义寡核苷酸（ASO）",
+          "area": "感染 / 肝病",
+          "indication": "Chronic Hepatitis B",
+          "stage": "Phase 3",
+          "status": "COMPLETED",
+          "trialTitle": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 1)",
+          "registryUpdated": "2026-07-08",
+          "checked": "2026-10-21",
+          "summary": "981例III期已完成；与B-Well 2共同支持Hibsago美国获批。登记页阶段描述不等于其他地区获批状态。",
+          "endpoints": [
+            "Functional cure after discontinuation of all chronic HBV treatment in participants with baseline HBsAg ≤3000 IU/mL, up to 72 weeks"
+          ],
+          "completion": {
+            "date": "2026-04-15",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 981,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05630807，核查于2026-10-21",
+              "url": "https://clinicaltrials.gov/study/NCT05630807"
+            },
+            {
+              "title": "FDA Hibsago批准，2026-10-20",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
+            }
+          ],
+          "note": "美国获批事实来自FDA；登记记录用于试验设计、状态和日期。",
+          "risks": "黑框警告、患者筛选、伴随诊断、注射和实验室监测影响采用。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bepirovirsen"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT05630820",
+          "title": "bepirovirsen（Hibsago）B-Well 2",
+          "company": "GlaxoSmithKline",
+          "target": "HBV RNA",
+          "modality": "反义寡核苷酸（ASO）",
+          "area": "感染 / 肝病",
+          "indication": "Chronic Hepatitis B",
+          "stage": "Phase 3",
+          "status": "COMPLETED",
+          "trialTitle": "Study of Bepirovirsen in Nucleos(t)Ide Analogue-treated Participants With Chronic Hepatitis B (B-Well 2)",
+          "registryUpdated": "2026-07-08",
+          "checked": "2026-10-21",
+          "summary": "857例III期已完成；本日因FDA批准事件刷新展示，注册页自身较已保存版本无变更。",
+          "endpoints": [
+            "Functional cure after discontinuation of all chronic HBV treatment in participants with baseline HBsAg ≤3000 IU/mL, up to 72 weeks"
+          ],
+          "completion": {
+            "date": "2026-04-13",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 857,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05630820，核查于2026-10-21",
+              "url": "https://clinicaltrials.gov/study/NCT05630820"
+            },
+            {
+              "title": "FDA Hibsago批准，2026-10-20",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
+            }
+          ],
+          "note": "批准与登记状态分开记录。",
+          "risks": "与B-Well 1相同，且需继续关注上市后安全和真实世界可达性。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bepirovirsen"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06109441",
+          "title": "ALTB-268",
+          "company": "AltruBio Inc.",
+          "target": "PSGL-1 / CD162",
+          "modality": "皮下注射四价激动抗体",
+          "area": "自免 / 炎症",
+          "indication": "Ulcerative Colitis",
+          "stage": "Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Efficacy/Safety of ALTB-268 in Subjects w/Moderately to Severely Active UC Refractory to Biologics",
+          "registryUpdated": "2026-05-05",
+          "checked": "2026-10-21",
+          "summary": "开放标签IIa期，登记估计50例；公司报告48例两个剂量队列的12周结果。登记的长期扩展预计持续至2028-03。",
+          "endpoints": [
+            "Change from baseline in modified Mayo Score at Week 12"
+          ],
+          "completion": {
+            "date": "2028-03",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 50,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06109441，核查于2026-10-21",
+              "url": "https://clinicaltrials.gov/study/NCT06109441"
+            },
+            {
+              "title": "AltruBio UEGW数据，2026-10-20",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384042/0/en/altrubio-presents-phase-2a-data-of-altb-268-in-advanced-therapy-refractory-ulcerative-colitis-at-ueg-week-2026.html"
+            }
+          ],
+          "note": "开放标签小样本信号不等同随机对照疗效。",
+          "risks": "无安慰剂、非同期队列、小样本和选择偏倚；需IIb确认。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "ALTB-268"
+            }
+          ],
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-gsk",
+          "title": "GSK plc",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "Hibsago获FDA批准，把慢乙肝业务从长期抑制扩展至有限疗程功能性治愈。",
+          "sections": [
+            {
+              "heading": "资产与战略",
+              "body": "bepirovirsen为GSK从Ionis引进的ASO；美国标签与伴随诊断共同定义商业漏斗。"
+            },
+            {
+              "heading": "风险",
+              "body": "黑框警告、监测负担和真实世界停药管理影响采用。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA批准公告",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
+            }
+          ]
+        },
+        {
+          "id": "company-rapport-therapeutics",
+          "title": "Rapport Therapeutics, Inc.",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "RAP-219在双相躁狂取得II期概念验证，同时推进癫痫III期，形成多适应症开发但资金与执行复杂度上升。",
+          "sections": [
+            {
+              "heading": "财务与催化",
+              "body": "公司称现金跑道至2029年下半年；FDA会谈预计2027年第一季度，躁狂III期预计2027年下半年启动。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Rapport 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526425647/d185134d8k.htm"
+            }
+          ]
+        },
+        {
+          "id": "company-altrubio",
+          "title": "AltruBio Inc.",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "ALTB-268在先进疗法难治UC中显示剂量与暴露相关信号，下一价值节点是随机安慰剂对照IIb。",
+          "sections": [
+            {
+              "heading": "证据边界",
+              "body": "当前为开放标签、小样本、非同期剂量队列，不能直接与上市药跨试验比较。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AltruBio数据",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384042/0/en/altrubio-presents-phase-2a-data-of-altb-268-in-advanced-therapy-refractory-ulcerative-colitis-at-ueg-week-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "company-gesynta-pharma",
+          "title": "Gesynta Pharma AB",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "NOVA II期提前完成213人入组，降低执行时间不确定性，但疗效风险未下降到同等程度。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "vipoglanstat为mPGES-1口服抑制剂，定位非激素、非阿片长期治疗。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gesynta公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384048/0/en/gesynta-pharma-completes-enrollment-in-phase-2-nova-trial-evaluating-vipoglanstat-in-endometriosis.html"
+            }
+          ]
+        },
+        {
+          "id": "company-novabridge-biosciences",
+          "title": "NovaBridge Biosciences, Inc.",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "通过控股眼科子公司Visara使用期权结构扩充眼科组合，兼顾资产控制与资本灵活性。",
+          "sections": [
+            {
+              "heading": "组合",
+              "body": "YOL104-2补充VIS-101和VIS-102，覆盖眼表至视网膜。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Visara期权公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384224/0/en/visara-secures-exclusive-option-for-potential-acquisition-of-yol104-2-for-ocular-surface-squamous-neoplasia.html"
+            }
+          ]
+        },
+        {
+          "id": "company-visara",
+          "title": "Visara, Inc.",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "获得YOL104项目全球资产购买独家期权，尚未等同完成收购。",
+          "sections": [
+            {
+              "heading": "交易边界",
+              "body": "金额未披露，需等待是否行权、临床计划和资金安排。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Visara期权公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384224/0/en/visara-secures-exclusive-option-for-potential-acquisition-of-yol104-2-for-ocular-surface-squamous-neoplasia.html"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-hbv-rna-bepirovirsen",
+          "title": "HBV RNA / bepirovirsen",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "ASO降低病毒复制所需RNA和HBsAg，B-Well III期与美国批准提供人体与监管验证。",
+          "sections": [
+            {
+              "heading": "边界",
+              "body": "功能性治愈只发生在部分严格筛选患者，且安全监测要求重要。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA批准",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-its-kind-chronic-hepatitis-b-treatment"
+            }
+          ]
+        },
+        {
+          "id": "target-tarpg8-ampa-rap219",
+          "title": "TARPγ8-AMPA / RAP-219",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "选择性降低含TARPγ8的AMPA受体活性，双相躁狂II期达到主要终点并已有癫痫开发证据。",
+          "sections": [
+            {
+              "heading": "待验证",
+              "body": "临床意义、脱落处理、长期维持和III期复制。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Rapport 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526425647/d185134d8k.htm"
+            }
+          ]
+        },
+        {
+          "id": "target-psgl1-altb268",
+          "title": "PSGL-1 / CD162 / ALTB-268",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "四价激动抗体拟选择性下调慢性活化效应T细胞；UC开放标签IIa显示暴露—反应信号。",
+          "sections": [
+            {
+              "heading": "待验证",
+              "body": "随机安慰剂对照下的疗效、感染风险和长期耐受。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AltruBio数据",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384042/0/en/altrubio-presents-phase-2a-data-of-altb-268-in-advanced-therapy-refractory-ulcerative-colitis-at-ueg-week-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "target-mpges1-vipoglanstat",
+          "title": "mPGES-1 / vipoglanstat",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "通过降低PGE2生成拟同时影响疼痛、炎症和病灶；II期已完成入组但未读出。",
+          "sections": [
+            {
+              "heading": "待验证",
+              "body": "疼痛改善、病灶变化、生育相关价值和长期安全性是否一致。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gesynta公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384048/0/en/gesynta-pharma-completes-enrollment-in-phase-2-nova-trial-evaluating-vipoglanstat-in-endometriosis.html"
+            }
+          ]
+        },
+        {
+          "id": "target-ifna-yol1042",
+          "title": "IFN-α拟态 / YOL104-2",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "三价多功能肽抗体拟用于眼表鳞状肿瘤；当前公开信息不足以确认临床阶段和人体疗效。",
+          "sections": [
+            {
+              "heading": "待验证",
+              "body": "给药路径、剂量、眼表安全、肿瘤清除和复发率。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Visara期权公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384224/0/en/visara-secures-exclusive-option-for-potential-acquisition-of-yol104-2-for-ocular-surface-squamous-neoplasia.html"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-visara-yolo-yol104-option-2026-10-20",
+          "title": "Visara–YOLO Immune YOL104资产购买期权",
+          "date": "2026-10-20",
+          "checked": "2026-10-21",
+          "summary": "Visara支付未披露前期款获得YOL104项目全球权利的独家收购选择。",
+          "sections": [
+            {
+              "heading": "对价",
+              "body": "期权前期款；若行权则支付行权款，并可能支付开发、监管、商业里程碑和分级销售提成；金额未披露。"
+            },
+            {
+              "heading": "分析",
+              "body": "买方以较小初始承诺换取尽调与资本选择权；卖方以较低即时确定性换取后续上行。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "NovaBridge/Visara公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384224/0/en/visara-secures-exclusive-option-for-potential-acquisition-of-yol104-2-for-ocular-surface-squamous-neoplasia.html"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-rap219-fda-eop2-2027q1",
+          "title": "RAP-219双相躁狂FDA II期结束会议",
+          "date": "2027-03-31",
+          "checked": "2026-10-21",
+          "summary": "公司预计2027年第一季度与FDA讨论II期数据和注册性试验设计；属于estimated，不是已确认会议结果。",
+          "sections": [
+            {
+              "heading": "后续",
+              "body": "关注终点、样本量、脱落处理及是否需要两项确证性试验。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Rapport 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526425647/d185134d8k.htm"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-rap219-bipolar-phase3-2027h2",
+          "title": "RAP-219双相躁狂III期预计启动",
+          "date": "2027-12-31",
+          "checked": "2026-10-21",
+          "summary": "公司预计2027年下半年启动两项III期；日期为公司指引窗口，不代表已经启动。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床启动；estimated。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Rapport 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/2012593/000119312526425647/d185134d8k.htm"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-vipoglanstat-nova-topline-2027q2",
+          "title": "vipoglanstat NOVA II期顶线数据",
+          "date": "2027-06-30",
+          "checked": "2026-10-21",
+          "summary": "公司预计2027年第二季度报告顶线结果；登记主要完成日期为预计2027-06，当前尚无结果。",
+          "sections": [
+            {
+              "heading": "关注",
+              "body": "非经期盆腔痛响应、安慰剂效应、救援药物、病灶MRI和安全性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gesynta公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384048/0/en/gesynta-pharma-completes-enrollment-in-phase-2-nova-trial-evaluating-vipoglanstat-in-endometriosis.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-altb268-ascend-uc2b-2027",
+          "title": "ALTB-268全球IIb期预计启动",
+          "date": "2027-12-31",
+          "checked": "2026-10-21",
+          "summary": "AltruBio计划2027年启动安慰剂对照ASCEND UC2b；尚无具体启动日期。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床启动；estimated。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AltruBio数据",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384042/0/en/altrubio-presents-phase-2a-data-of-altb-268-in-advanced-therapy-refractory-ulcerative-colitis-at-ueg-week-2026.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-yol104-option-exercise-undated",
+          "title": "Visara对YOL104资产期权的行权决定",
+          "date": null,
+          "checked": "2026-10-21",
+          "summary": "期权是否行使及时间未披露；保留为未定催化剂，不能写成已收购。",
+          "sections": [
+            {
+              "heading": "关注",
+              "body": "尽调数据、临床阶段、行权价、资金来源和后续开发计划。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Visara期权公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/20/3384224/0/en/visara-secures-exclusive-option-for-potential-acquisition-of-yol104-2-for-ocular-surface-squamous-neoplasia.html"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-20",
       "date": "2026-10-20",
@@ -13657,18 +14347,18 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-20T07:34:00+08:00",
+    "checkedAt": "2026-10-21T07:42:00+08:00",
     "status": "success",
-    "checked": 63,
-    "changed": 2,
+    "checked": 65,
+    "changed": 0,
     "failed": 0,
-    "newPipelines": 2,
-    "companies": 8,
-    "targets": 7,
-    "deals": 4,
-    "catalysts": 4,
+    "newPipelines": 4,
+    "companies": 6,
+    "targets": 5,
+    "deals": 1,
+    "catalysts": 5,
     "events": 5,
-    "summary": "63个既有NCT全部核查成功、2个实质更新、1个仅登记日期刷新、0个失败；新增2条已核实登记，数据库覆盖65个去重NCT。公司8、靶点7、交易/融资4、催化剂4；历史与归档记录均保留。"
+    "summary": "65个既有NCT全部核查成功、0个登记变更、0个失败；新增4条真实登记，数据库去重后覆盖69个NCT。公司6、靶点5、交易1、催化剂5；历史与全部归档记录均保留。"
   },
   "archivedPapers": []
 }
