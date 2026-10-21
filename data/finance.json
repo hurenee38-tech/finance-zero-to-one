@@ -1,8 +1,508 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-21T07:42:00+08:00",
+  "updatedAt": "2026-10-22T07:18:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-22",
+      "date": "2026-10-22",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜生命周期管理NPV、葡萄膜炎III期与多模态资产推进",
+      "summary": "用增量现金流评估新剂型生命周期管理；覆盖brepocitinib非感染性葡萄膜炎III期、SBE303快速通道、OPGx-RDH12眼科基因治疗IND、ORLADEYO颗粒剂扩展及ThermoDox资产出售，并完成69项既有NCT全量巡检。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "纯教学假设：某罕见病药有10,000名持续用药患者，年净收入10万美元/人；因吞咽困难等给药摩擦，每年有8%的患者流失。企业推出等效颗粒剂，预计可挽回其中一半流失，药品贡献利润率80%，效果持续5年；开发、CMC与上市费用合计3,000万美元，折现率12%。不考虑患者增长，颗粒剂的增量NPV是多少？还应验证哪些证据，才能判断这是有价值的生命周期管理，而不只是剂型新闻？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：只计算“有颗粒剂”相对“无颗粒剂”的增量现金流。每年挽回患者=10,000×8%×50%=400人；增量收入=400×10万美元=4,000万美元；增量贡献利润=4,000万×80%=3,200万美元。5年、12%折现率的年金现值系数=[1-(1+12%)^-5]/12%=3.6048；经营贡献现值=3,200万×3.6048≈1.1535亿美元；增量NPV=1.1535亿-3,000万≈8,535万美元。可行答案不唯一，因为留存、净价、替代率和持续期都需证据。必要证据：新剂型与原剂型的生物等效/暴露、监管标签、真实吞咽困难导致的停药比例。支持证据：患者偏好、医生处方意愿、支付方同等报销、制造与供应稳定性。待验证假设：挽回一半流失、贡献利润率80%、五年内无更强竞争。常见误区：把原有全部收入算成新剂型收益；忽略患者从胶囊内部转换造成的收入蚕食；用标价而非净价；忽略额外包装和供应链成本。自查标准：模型只包含增量现金流；基准与新方案口径一致；对留存率、净价和持续期做敏感性分析。"
+        },
+        {
+          "heading": "核心概念：生命周期管理的增量NPV",
+          "body": "生命周期管理（life-cycle management）是通过新剂型、新规格、新适应症或给药方式延长产品价值。判断是否创造价值，核心不是“获批了一个新版本”，而是比较两种未来：无项目时的现金流与有项目时的现金流。增量NPV=新增患者与留存带来的贡献利润现值＋可能的价格/份额收益－内部剂型转换造成的蚕食－研发、CMC、注册、商业和持续供应成本。对罕见病药尤其要把患者体验转化为可量化的依从性或留存证据。"
+        },
+        {
+          "heading": "1. Brepocitinib两项葡萄膜炎III期均阳性",
+          "body": "事实（2026-10-21）：Roivant/Priovant称两项相同设计的CLARITY III期共纳入371人。45 mg每日一次在CLARITY-1和CLARITY-2中相对安慰剂的治疗失败风险比分别为0.27和0.22（均p<0.0001）；48周无激素静息率分别为58.8%对19.8%、64.4%对19.4%。公司计划2027年上半年提交补充NDA。分析：科学上，双重TYK2/JAK1抑制在快速停用激素背景下同时改善炎症控制、黄斑水肿和患者报告视功能，重复试验的一致性提高可信度；商业上，已获批皮肌炎的同一产品可复用安全数据库、制造与商业基础，但仍需面对JAK类安全警示及眼科处方教育；战略上，第二适应症可能把单一罕见病产品扩展为多适应症免疫专营权；财务上，审批概率与商业协同上升，但顶线公告不替代完整数据、标签和支付方覆盖。[1]"
+        },
+        {
+          "heading": "2. Samsung Bioepis的Nectin-4 ADC SBE303获FDA快速通道",
+          "body": "事实（2026-10-21）：Samsung Bioepis宣布SBE303获FDA快速通道，用于既往接受enfortumab vedotin的局部晚期或转移性尿路上皮癌；该药为Nectin-4抗体连接拓扑异构酶I抑制载荷，正在NCT07524348开展149人I期。分析：科学上，关键命题是经Nectin-4 ADC后是否仍保留靶点、不同载荷/连接子能否克服耐药且扩大治疗窗；商业上，这是拥挤ADC赛道中的后线差异化机会；战略上，标志Samsung Bioepis从生物类似药向原创药延伸；财务上，快速通道增加监管互动与滚动提交可能性，但不是疗效确认、优先审评或加速批准本身，早期资产仍应采用高折现和里程碑式估值。[2]"
+        },
+        {
+          "heading": "3. OPGx-RDH12获IND许可，患者组织共担早期开发风险",
+          "body": "事实（2026-10-21）：Opus Genetics称FDA已允许OPGx-RDH12进入临床，计划当季启动I/II期；该AAV基因治疗向光感受器递送功能性RDH12。Global RDH12 Alliance此前承诺最高160万美元、按里程碑报销合格开发成本。当前尚无可靠NCT号。分析：科学上，儿童早期结构损伤意味着治疗窗口与剂量安全同等关键，细胞/小鼠模型结果不能外推临床视力获益；商业上，全球估计患者少且基因确诊、治疗中心、一次性定价决定可达市场；战略上，患者组织提供资金、自然史与招募网络，降低超罕见病的协调成本；财务上，IND消除一项监管前置风险，但真正价值拐点仍是首例给药、剂量安全及功能性视觉终点。[3]"
+        },
+        {
+          "heading": "4. ORLADEYO 150 mg颗粒剂获批：新剂型也是商业资产",
+          "body": "事实（2026-10-21）：BioCryst宣布FDA批准150 mg berotralstat颗粒剂用于12岁及以上遗传性血管性水肿预防；原胶囊已用于该年龄段，颗粒剂此前已获批2至不足12岁儿童。本次依据CMC及颗粒剂相对胶囊的安全/耐受性资料。分析：科学与临床上，活性成分未变，价值主要来自吞咽便利、年龄过渡与依从性，而非新的疗效机制；商业上，新剂型可减少患者在12岁后切换或流失，并抵御注射/口服竞品；战略上，统一2岁以上的口服产品家族简化品牌与患者服务；财务上，应以增量留存和新患者贡献减去内部蚕食与供应链成本，而不能把全部ORLADEYO销售归功于颗粒剂。[4]"
+        },
+        {
+          "heading": "5. IMUNON出售ThermoDox：以股权、里程碑和提成保留上行",
+          "body": "事实（2026-10-21）：IMUNON同意向VoxelDox出售热激活脂质体多柔比星ThermoDox权利；在VoxelDox融资完成后，IMUNON预计获得约4.76%股权，另有最高1,650万美元开发/销售里程碑及获批后3.5%—6%分级净销售提成。交易完成取决于融资。分析：科学上，价值取决于局部加热触发释放能否在胶质母细胞瘤等场景形成足够药物暴露；商业上，资产转入专注团队可避免在原公司主项目IMNN-001与ThermoDox之间争夺资本；战略上，这是非核心资产剥离而非整体并购；财务上，卖方减少近期现金消耗但大部分对价具条件性，不能把1,650万美元里程碑与未来提成当作现值现金。[5]"
+        },
+        {
+          "heading": "跨岗位洞察：同一份brepocitinib III期数据如何被五种岗位阅读",
+          "body": "投行：测算扩标签后的收入、估值重评级、融资或债务承载能力。FA顾问：评估区域合作、共同商业化或版税融资，分清已获批皮肌炎与未获批NIU的价值。BD：审查两项试验一致性、JAK类安全、专利/合作权利与多适应症组合资源。投资人：重建治疗失败风险、停药、亚组和完整安全敏感性，给sNDA成功率与标签宽度不同情景。咨询：梳理眼科—风湿科转诊、激素减量路径、患者规模、支付准入与现有生物制剂竞争。"
+        },
+        {
+          "heading": "迷你案例：新剂型的保本留存率",
+          "body": "沿用今日假设，五年年金现值系数3.6048、年净收入10万美元、贡献利润率80%、患者10,000人、投入3,000万美元。设颗粒剂每年需挽回x比例的总患者，则保本条件：10,000×x×10万×80%×3.6048=3,000万，解得x≈1.04%。也就是说，每年只要净挽回约104名患者即可覆盖投入；但若多数使用者只是从胶囊无损转换，x接近零，项目虽方便患者却未必有正财务NPV。"
+        },
+        {
+          "heading": "创新药数据库维护",
+          "body": "截至2026-10-22，本轮69个既有NCT全部核查成功，0个访问失败，0个出现较已保存版本更新的登记变更。新增核实2个此前未收录的真实登记：NCT07524348（SBE303，Nectin-4 ADC，I期，招募中）与NCT06431373（brepocitinib，非感染性非前葡萄膜炎III期，已停止招募但仍进行中），去重后覆盖71个NCT。OPGx-RDH12目前只有IND与计划启动信息，未发现可靠NCT号，未生成虚构记录。预计完成和提交时间继续标注为预计；历史记录与归档均保留。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Incremental NPV",
+          "zh": "增量净现值",
+          "meaning": "有项目与无项目两种情景的未来现金流差额折现到今天后的价值。"
+        },
+        {
+          "en": "Cannibalization",
+          "zh": "内部蚕食",
+          "meaning": "新剂型从同公司原剂型转移收入，而非带来真正新增收入。"
+        },
+        {
+          "en": "Treatment failure",
+          "zh": "治疗失败",
+          "meaning": "按试验预设标准出现炎症恶化、需要救援治疗或其他失控事件。"
+        },
+        {
+          "en": "Fast Track",
+          "zh": "快速通道",
+          "meaning": "FDA为严重疾病未满足需求提供更频繁沟通和潜在滚动提交资格的开发机制，不等于批准。"
+        },
+        {
+          "en": "IND clearance",
+          "zh": "IND获准开展临床",
+          "meaning": "监管允许在申报条件下开始人体试验，不代表疗效已证实。"
+        },
+        {
+          "en": "Tiered royalty",
+          "zh": "分级销售提成",
+          "meaning": "随销售额跨越约定区间而改变比例的净销售额提成。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Roivant/Priovant：CLARITY-1/2 III期结果，2026-10-21",
+          "url": "https://www.globenewswire.com/news-release/2026/10/21/3385358/0/en/roivant-and-priovant-announce-positive-results-in-clarity-1-and-clarity-2-phase-3-trials-for-brepocitinib-in-non-infectious-uveitis-niu.html"
+        },
+        {
+          "title": "Samsung Bioepis：SBE303获FDA快速通道，2026-10-21",
+          "url": "https://www.samsungbioepis.com/en/newsroom/newsroomView.do?idx=602"
+        },
+        {
+          "title": "Opus Genetics：OPGx-RDH12 IND获准，2026-10-21",
+          "url": "https://ir.opusgtx.com/press-releases/detail/547/opus-genetics-announces-fda-clearance-of-ind-application-for-opgx-rdh12-gene-therapy-for-inherited-childhood-blindness"
+        },
+        {
+          "title": "BioCryst：ORLADEYO 150 mg颗粒剂获批，2026-10-21",
+          "url": "https://www.globenewswire.com/news-release/2026/10/21/3385361/29446/en/biocryst-announces-u-s-fda-approval-of-orladeyo-150-mg-oral-pellets-for-adults-and-adolescents-with-hae.html"
+        },
+        {
+          "title": "IMUNON：出售ThermoDox资产，2026-10-21",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/21/3385502/0/en/imunon-announces-strategic-sale-of-thermodox.html"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT06431373",
+          "title": "brepocitinib（LISRAYA）",
+          "company": "Priovant Therapeutics, Inc.",
+          "target": "TYK2 / JAK1",
+          "modality": "口服小分子双重抑制剂",
+          "area": "自免 / 眼科",
+          "indication": "Non-infectious intermediate, posterior or panuveitis",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Study of Brepocitinib in Adults With Active, Non-Infectious, Non-Anterior Uveitis (CLARITY)",
+          "registryUpdated": "2026-01-12",
+          "checked": "2026-10-22",
+          "summary": "登记为371例III期，主要终点为第6至48周治疗失败时间；公司于2026-10-21报告两项相同设计试验均达主要及关键次要终点。登记阶段不等同新增适应症已获批。",
+          "endpoints": [
+            "Time to treatment failure on or after Week 6 through Week 48"
+          ],
+          "completion": {
+            "date": "2028-02-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 371,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06431373，核查于2026-10-22",
+              "url": "https://clinicaltrials.gov/study/NCT06431373"
+            },
+            {
+              "title": "Roivant/Priovant CLARITY顶线结果，2026-10-21",
+              "url": "https://www.globenewswire.com/news-release/2026/10/21/3385358/0/en/roivant-and-priovant-announce-positive-results-in-clarity-1-and-clarity-2-phase-3-trials-for-brepocitinib-in-non-infectious-uveitis-niu.html"
+            }
+          ],
+          "note": "主要完成日期在登记中仍为预计2026-09-11；公司顶线结果与登记状态分开记录。",
+          "risks": "完整安全数据、JAK类警示、长期控制、标签范围和支付覆盖。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Brepocitinib PO QD"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo PO QD"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07524348",
+          "title": "SBE303（E303）",
+          "company": "Samsung Bioepis Co., Ltd.",
+          "target": "Nectin-4",
+          "modality": "抗体药物偶联物（拓扑异构酶I抑制载荷）",
+          "area": "肿瘤",
+          "indication": "Advanced refractory solid tumors, including urothelial cancer",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "A Trial to Investigate the Safety of E303 in Participants With Advanced Refractory Solid Tumors",
+          "registryUpdated": "2026-10-01",
+          "checked": "2026-10-22",
+          "summary": "149例开放标签I期，主要观察不良事件、剂量限制毒性与确认客观缓解率；FDA快速通道针对既往接受enfortumab vedotin的晚期尿路上皮癌。快速通道不是批准。",
+          "endpoints": [
+            "Incidence of adverse events and serious adverse events",
+            "Incidence of dose limiting toxicity",
+            "Confirmed objective response rate by BICR per RECIST v1.1"
+          ],
+          "completion": {
+            "date": "2030-07",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 149,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07524348，核查于2026-10-22",
+              "url": "https://clinicaltrials.gov/study/NCT07524348"
+            },
+            {
+              "title": "Samsung Bioepis快速通道公告，2026-10-21",
+              "url": "https://www.samsungbioepis.com/en/newsroom/newsroomView.do?idx=602"
+            }
+          ],
+          "note": "试验登记名为E303；公司公告使用SBE303。预计完成不等于预计读出。",
+          "risks": "既往Nectin-4 ADC后靶点保留、交叉耐药、眼毒性/骨髓抑制等载荷相关安全与治疗窗。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "E303",
+              "description": "Intravenous infusion"
+            }
+          ],
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-priovant",
+          "title": "Priovant Therapeutics, Inc.",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "Roivant旗下免疫公司；brepocitinib已在美国获批皮肌炎，本日两项NIU III期阳性并计划2027上半年提交sNDA。",
+          "sections": [
+            {
+              "heading": "平台与战略",
+              "body": "以TYK2/JAK1小分子构建多适应症免疫专营权；商业协同来自同一产品跨皮肤、眼科与系统炎症适应症。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Priovant/Roivant CLARITY结果",
+              "url": "https://www.globenewswire.com/news-release/2026/10/21/3385358/0/en/roivant-and-priovant-announce-positive-results-in-clarity-1-and-clarity-2-phase-3-trials-for-brepocitinib-in-non-infectious-uveitis-niu.html"
+            }
+          ]
+        },
+        {
+          "id": "company-samsung-bioepis",
+          "title": "Samsung Bioepis Co., Ltd.",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "以生物类似药见长，SBE303是其首个原创ADC候选物并获FDA快速通道。",
+          "sections": [
+            {
+              "heading": "平台与战略",
+              "body": "从生物类似药延伸至原创ADC；价值取决于连接子、载荷和临床治疗窗，而非企业既有制造能力本身。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Samsung Bioepis SBE303公告",
+              "url": "https://www.samsungbioepis.com/en/newsroom/newsroomView.do?idx=602"
+            }
+          ]
+        },
+        {
+          "id": "company-opus-genetics",
+          "title": "Opus Genetics, Inc.",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "开发遗传性视网膜病AAV基因治疗；OPGx-RDH12获IND许可并与患者组织共同推进。",
+          "sections": [
+            {
+              "heading": "资产与融资协作",
+              "body": "管线含LCA5、BEST1、RDH12等；Global RDH12 Alliance承诺最高160万美元按里程碑报销合格开发成本。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Opus OPGx-RDH12公告",
+              "url": "https://ir.opusgtx.com/press-releases/detail/547/opus-genetics-announces-fda-clearance-of-ind-application-for-opgx-rdh12-gene-therapy-for-inherited-childhood-blindness"
+            }
+          ]
+        },
+        {
+          "id": "company-biocryst",
+          "title": "BioCryst Pharmaceuticals, Inc.",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "罕见病公司；ORLADEYO颗粒剂覆盖12岁以上后，与既有儿童颗粒剂形成2岁以上口服产品组合。",
+          "sections": [
+            {
+              "heading": "商业变化",
+              "body": "新剂型的经济价值来自留存、便利性与品牌防御，应与胶囊内部转换和新增供应成本净额比较。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioCryst ORLADEYO公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/21/3385361/29446/en/biocryst-announces-u-s-fda-approval-of-orladeyo-150-mg-oral-pellets-for-adults-and-adolescents-with-hae.html"
+            }
+          ]
+        },
+        {
+          "id": "company-imunon",
+          "title": "IMUNON, Inc.",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "出售非核心ThermoDox资产，集中资源推进IMNN-001卵巢癌III期。",
+          "sections": [
+            {
+              "heading": "战略变化",
+              "body": "以小比例股权、里程碑和版税保留资产上行，同时减少直接开发支出；交易仍以VoxelDox融资为条件。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "IMUNON ThermoDox交易公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/21/3385502/0/en/imunon-announces-strategic-sale-of-thermodox.html"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-tyk2-jak1",
+          "title": "TYK2 / JAK1",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "细胞因子信号激酶双重抑制在NIU两项III期中降低治疗失败风险。",
+          "sections": [
+            {
+              "heading": "验证与风险",
+              "body": "重复III期与多终点一致是强支持证据；仍需完整感染、血栓、心血管及肿瘤安全数据和监管标签。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "CLARITY结果",
+              "url": "https://www.globenewswire.com/news-release/2026/10/21/3385358/0/en/roivant-and-priovant-announce-positive-results-in-clarity-1-and-clarity-2-phase-3-trials-for-brepocitinib-in-non-infectious-uveitis-niu.html"
+            }
+          ]
+        },
+        {
+          "id": "target-nectin4",
+          "title": "Nectin-4",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "尿路上皮癌已验证ADC靶点；SBE303探索既往Nectin-4 ADC治疗后的再靶向。",
+          "sections": [
+            {
+              "heading": "关键假设",
+              "body": "必须证明靶点保留、载荷差异能克服耐药，并改善治疗窗；快速通道仅确认未满足需求与开发便利。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "SBE303公告",
+              "url": "https://www.samsungbioepis.com/en/newsroom/newsroomView.do?idx=602"
+            }
+          ]
+        },
+        {
+          "id": "target-rdh12",
+          "title": "RDH12",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "视网膜视觉循环相关基因；双等位致病变异可导致儿童早发LCA。",
+          "sections": [
+            {
+              "heading": "人类验证与转化",
+              "body": "遗传因果关系强，但晚期光感受器丢失可能限制可逆性；早期治疗与可测功能终点是关键。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "OPGx-RDH12 IND公告",
+              "url": "https://ir.opusgtx.com/press-releases/detail/547/opus-genetics-announces-fda-clearance-of-ind-application-for-opgx-rdh12-gene-therapy-for-inherited-childhood-blindness"
+            }
+          ]
+        },
+        {
+          "id": "target-plasma-kallikrein",
+          "title": "Plasma kallikrein",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "ORLADEYO通过抑制血浆激肽释放酶预防HAE发作；本日变化是剂型而非靶点新验证。",
+          "sections": [
+            {
+              "heading": "商业含义",
+              "body": "成熟靶点的价值更多来自给药便利、依从性、年龄覆盖与竞争防御。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ORLADEYO颗粒剂公告",
+              "url": "https://www.globenewswire.com/news-release/2026/10/21/3385361/29446/en/biocryst-announces-u-s-fda-approval-of-orladeyo-150-mg-oral-pellets-for-adults-and-adolescents-with-hae.html"
+            }
+          ]
+        },
+        {
+          "id": "target-heat-triggered-liposome",
+          "title": "Heat-triggered liposomal drug release",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "利用局部热触发脂质体释放多柔比星，试图提高肿瘤局部暴露。",
+          "sections": [
+            {
+              "heading": "可开发性",
+              "body": "需要标准化加热设备、空间温控、药代暴露和对照临床获益共同验证；平台复杂性会增加运营风险。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ThermoDox资产交易",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/21/3385502/0/en/imunon-announces-strategic-sale-of-thermodox.html"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-imunon-voxeldox-thermodox-2026-10-21",
+          "title": "IMUNON向VoxelDox出售ThermoDox资产",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "summary": "条件性资产出售：约4.76% VoxelDox股权、最高1,650万美元里程碑及3.5%—6%分级净销售提成。",
+          "sections": [
+            {
+              "heading": "交易要素",
+              "body": "卖方：IMUNON；买方：VoxelDox Therapeutics；资产：ThermoDox相关权利；地区：公告未披露，不能推断；阶段：临床资产；现金前期款：未披露；里程碑：最高1,650万美元；版税：净销售额3.5%—6%；交割条件：VoxelDox完成融资。理由：IMUNON聚焦IMNN-001，VoxelDox专注ThermoDox后续开发。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "IMUNON交易公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/21/3385502/0/en/imunon-announces-strategic-sale-of-thermodox.html"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-brepocitinib-niu-snda-h1-2027",
+          "title": "Brepocitinib NIU补充NDA提交",
+          "date": "2027-06-30",
+          "checked": "2026-10-22",
+          "summary": "公司计划2027年上半年提交；这是预计窗口，尚未发生。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "监管提交；estimated。关键前置是完整III期资料、监管沟通与CMC。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roivant/Priovant CLARITY结果",
+              "url": "https://www.globenewswire.com/news-release/2026/10/21/3385358/0/en/roivant-and-priovant-announce-positive-results-in-clarity-1-and-clarity-2-phase-3-trials-for-brepocitinib-in-non-infectious-uveitis-niu.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-opgx-rdh12-phase12-start-q4-2026",
+          "title": "OPGx-RDH12 I/II期计划启动",
+          "date": "2026-12-31",
+          "checked": "2026-10-22",
+          "summary": "Opus计划在2026年第四季度启动；尚未找到可靠NCT登记，不能写成已首例给药。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床启动；estimated。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Opus IND公告",
+              "url": "https://ir.opusgtx.com/press-releases/detail/547/opus-genetics-announces-fda-clearance-of-ind-application-for-opgx-rdh12-gene-therapy-for-inherited-childhood-blindness"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-sbe303-phase1-primary-completion-2030-07",
+          "title": "SBE303 I期主要完成时间",
+          "date": "2030-07-31",
+          "checked": "2026-10-22",
+          "summary": "ClinicalTrials.gov预计主要完成于2030年7月；这不是公司承诺的读出日期。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "登记预计完成；estimated。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07524348",
+              "url": "https://clinicaltrials.gov/study/NCT07524348"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-thermodox-voxeldox-financing-close-undated",
+          "title": "VoxelDox融资与ThermoDox交易交割",
+          "date": null,
+          "checked": "2026-10-22",
+          "summary": "交易以VoxelDox完成融资为条件，金额与具体时间未披露；状态为待定。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "交易交割；confirmed condition, timing unknown。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "IMUNON交易公告",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/21/3385502/0/en/imunon-announces-strategic-sale-of-thermodox.html"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-21",
       "date": "2026-10-21",
@@ -14347,18 +14847,18 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-21T07:42:00+08:00",
+    "checkedAt": "2026-10-22T07:18:00+08:00",
     "status": "success",
-    "checked": 65,
+    "checked": 69,
     "changed": 0,
     "failed": 0,
-    "newPipelines": 4,
-    "companies": 6,
+    "newPipelines": 2,
+    "companies": 5,
     "targets": 5,
     "deals": 1,
-    "catalysts": 5,
+    "catalysts": 4,
     "events": 5,
-    "summary": "65个既有NCT全部核查成功、0个登记变更、0个失败；新增4条真实登记，数据库去重后覆盖69个NCT。公司6、靶点5、交易1、催化剂5；历史与全部归档记录均保留。"
+    "summary": "69个既有NCT全部核查成功、0个登记变更、0个失败；新增2条真实登记，数据库去重后覆盖71个NCT。公司5、靶点5、交易1、催化剂4；历史与全部归档记录均保留。"
   },
   "archivedPapers": []
 }
