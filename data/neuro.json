@@ -1,8 +1,307 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-20T23:02:00Z",
+  "updatedAt": "2026-10-21T23:12:00Z",
   "items": [
+    {
+      "id": "neuro-2026-10-22",
+      "date": "2026-10-22",
+      "source": "scheduled",
+      "title": "神经生物学简报｜Angelman应激轴、人脑岛叶四分区与CD51⁺星形胶质细胞",
+      "summary": "本期收录3篇2026年10月21日发表于Nature的原始研究：UBE3A缺失通过ASNS积累和持续整合应激反应驱动Angelman综合征表型；87人颅内刺激与记录建立人脑岛叶四分区及非对称连接图谱；CD51标记功能不同的星形胶质细胞亚型，并关联发育期突触形成、海马可塑性和卒中后修复。Nature影响因子本次未由官方JCR核实，标注为“影响因子待核实”。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-22。本期3篇均为2026-10-21正式在线发表的Nature原始研究，主题覆盖神经发育疾病机制、人脑疼痛与内感受架构、胶质细胞亚型与回路修复。题名、发表日期、DOI、主要方法和核心结论已由期刊页面及公开全文或作者机构材料交叉核查。Nature影响因子待核实，不猜测具体数值。"
+        },
+        {
+          "heading": "重点推荐｜UBE3A缺失通过ASNS–整合应激反应限制神经发育",
+          "body": "事实：UBE3A失活使ASNS蛋白积累，并通过HRI/eIF2α相关整合应激反应降低神经元蛋白合成；遗传降低ASNS可恢复小鼠脑生长并改善部分行为。分析：这提供了一个位于UBE3A下游的可干预节点，但当前证据仍以人源细胞和小鼠为主，不能据此推断患者疗效。"
+        },
+        {
+          "heading": "人脑图谱｜岛叶不是简单前后梯度，而是具有方向性的四分区系统",
+          "body": "事实：87名颅内电极受试者的直接刺激、任务记录和连接映射识别背后、腹后、中前、前极四区。前极直接刺激常无主观感觉，却在显著性检测和行动模式切换中激活，并对其他岛叶区产生较强直接影响。分析：结果为认知调节疼痛和身体感觉提供电生理路径，但手术样本、电极覆盖及刺激扩散限制普遍外推。"
+        },
+        {
+          "heading": "胶质回路｜CD51阳性星形胶质细胞承担不可替代的突触塑形功能",
+          "body": "事实：CD51阳性而非阴性星形胶质细胞通过GPC6促进发育皮层突触形成，支持海马可塑性，并在小鼠卒中后增强梗死周围突触重塑和运动恢复，而不改变梗死体积。分析：该研究支持星形胶质细胞存在功能分工；真正转化需要解决人类对应亚型、靶向选择性和CD51外周表达问题。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "Angelman研究中，降低ASNS既恢复了脑生长，也改善了部分行为。怎样证明ASNS积累是UBE3A缺失后的“关键致病中介”，而不是众多异常中的一个伴随标志物？请设计包含充分性、必要性、救援、发育时间窗和通路特异性的最小证据链。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：需要区分“ASNS足以制造表型”“ASNS对UBE3A缺失表型是必要的”“救援是否真正经过ISR和蛋白翻译恢复”，以及干预是否仅仅减慢发育或造成一般毒性。\n\n必要证据：在UBE3A缺失背景下降低ASNS，并确认ASNS、HRI/eIF2α活性和蛋白合成按顺序恢复；脑生长、突触功能和行为随之改善。使用至少两种独立方式降低ASNS，并排除脱靶、细胞死亡和整体发育延迟。\n\n充分性证据：在UBE3A正常、细胞类型和表达量可控的背景中单独提高ASNS。如果它能够启动同方向ISR、抑制蛋白合成并复制部分神经发育表型，才支持ASNS具有充分性。若只升高ASNS却没有表型，则可能需要UBE3A缺失产生的并行因素。\n\n一种可行设计：建立野生型、UBE3A缺失、野生型加ASNS过表达、UBE3A缺失加ASNS校正、UBE3A缺失加下游ISR校正五组等基因人源神经元或小鼠。按发育时间连续测量：ASNS蛋白 → HRI/eIF2α磷酸化 → 新生蛋白合成 → 神经突起与突触成熟 → 网络活动 → 行为。分别在胚胎、早期出生后和成年期启动救援，比较可逆窗口。\n\n通路特异性：如果ASNS校正后ISR和表型同时恢复，而人为重新激活HRI/eIF2α又使表型返回，则支持“ASNS→ISR→翻译抑制”通路。反过来，在ASNS仍高时直接校正ISR若能救援，说明ISR是关键下游，但ASNS可能还有其他作用。\n\n支持证据：人源患者神经元呈现同方向变化；ASNS水平与ISR强度和表型严重度呈剂量关系；变化在行为异常前出现。\n\n待验证假设：ASNS过量通过改变氨基酸稳态激活HRI，而非仅因一般代谢负担触发应激。\n\n常见误区：把遗传救援等同于唯一机制；只测脑重量而不测神经元功能；使用过强ASNS过表达制造非生理毒性；忽略不同脑区和发育窗口。\n\n自查标准：是否同时满足时间先后、充分性、必要性、下游再激活和时限性救援？是否有剂量匹配、脱靶和毒性控制？开放问题可能存在多个并行UBE3A下游机制，因此不应把ASNS写成唯一答案。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Integrated stress response (ISR)",
+          "zh": "整合应激反应",
+          "meaning": "多种细胞压力通过eIF2α磷酸化汇合并暂时抑制总体蛋白翻译的保护程序。"
+        },
+        {
+          "en": "Asparagine synthetase (ASNS)",
+          "zh": "天冬酰胺合成酶",
+          "meaning": "催化天冬酰胺合成的代谢酶；本期研究显示其过量可异常触发神经元应激。"
+        },
+        {
+          "en": "Causal intracranial mapping",
+          "zh": "因果性颅内映射",
+          "meaning": "通过直接脑刺激结合颅内记录，检验脑区功能及区域间影响方向。"
+        },
+        {
+          "en": "Interoception",
+          "zh": "内感受",
+          "meaning": "神经系统感知和解释心跳、呼吸、内脏等身体内部状态的过程。"
+        },
+        {
+          "en": "Cytoarchitecture",
+          "zh": "细胞构筑",
+          "meaning": "按细胞类型、密度和层次结构划分脑区的组织学特征。"
+        },
+        {
+          "en": "Astrocyte subtype",
+          "zh": "星形胶质细胞亚型",
+          "meaning": "具有相对稳定分子标记和特定回路功能的一类星形胶质细胞。"
+        },
+        {
+          "en": "Glypican 6 (GPC6)",
+          "zh": "磷脂酰肌醇蛋白聚糖6",
+          "meaning": "可由星形胶质细胞提供并促进突触形成的细胞表面或分泌型蛋白。"
+        },
+        {
+          "en": "Peri-infarct remodelling",
+          "zh": "梗死周围重塑",
+          "meaning": "卒中后存活组织通过突触和回路改变支持功能恢复的过程。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Persistent neuronal stress signalling underlies Angelman syndrome phenotypes｜Nature｜2026-10-21",
+          "url": "https://www.nature.com/articles/s41586-026-11165-4"
+        },
+        {
+          "title": "A cross-species spatiotemporal proteomic analysis identifies UBE3A-dependent signaling pathways and targets｜2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9135630/"
+        },
+        {
+          "title": "Antisense oligonucleotide therapy rescues disturbed brain rhythms and sleep in juvenile and adult mouse models of Angelman syndrome｜eLife｜2023",
+          "url": "https://elifesciences.org/articles/81892"
+        },
+        {
+          "title": "Transcriptional reprogramming restores UBE3A brain-wide and rescues behavioral phenotypes in an Angelman syndrome mouse model｜2023",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10124086/"
+        },
+        {
+          "title": "Ube3a regulates protein homeostasis through the proteasomal shuttle Rpn10｜2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24292889/"
+        },
+        {
+          "title": "Functional architecture of the human insula｜Nature｜2026-10-21",
+          "url": "https://www.nature.com/articles/s41586-026-11175-2"
+        },
+        {
+          "title": "Subjective states induced by intracranial electrical stimulation match the cytoarchitectonic organization of the human insula｜2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37949296/"
+        },
+        {
+          "title": "Representation of pain and somatic sensation in the human insula｜2002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11884353/"
+        },
+        {
+          "title": "Somatotopic organization of pain responses to direct electrical stimulation of the human insular cortex｜2009",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/19665303/"
+        },
+        {
+          "title": "Anterior insula stimulation increases pain threshold in humans｜2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33799301/"
+        },
+        {
+          "title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits｜Nature｜2026-10-21",
+          "url": "https://www.nature.com/articles/s41586-026-11186-z"
+        },
+        {
+          "title": "Identification of diverse astrocyte populations and their malignant analogs｜Nature Neuroscience｜2017",
+          "url": "https://www.nature.com/articles/nn.4493"
+        },
+        {
+          "title": "Astrocyte glypicans 4 and 6 promote formation of excitatory synapses via GluA1 AMPA receptors｜Nature｜2012",
+          "url": "https://www.nature.com/articles/nature11059"
+        },
+        {
+          "title": "Astrocytic neuroligins control astrocyte morphogenesis and synaptogenesis｜Nature｜2017",
+          "url": "https://www.nature.com/articles/nature24638"
+        },
+        {
+          "title": "Dual lineage origins contribute to neocortical astrocyte diversity｜Nature Communications｜2025",
+          "url": "https://www.nature.com/articles/s41467-025-61829-4"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41586-026-11165-4",
+          "title": "持续神经元应激信号驱动Angelman综合征表型",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "topic": "神经发育障碍、Angelman综合征、蛋白稳态",
+          "target": "UBE3A–ASNS–HRI/eIF2α整合应激反应",
+          "summary": "人源神经元与Angelman小鼠的遗传学和蛋白质组学研究显示，UBE3A缺失使天冬酰胺合成酶ASNS积累，异常启动HRI–eIF2α整合应激反应并抑制神经元蛋白合成；降低ASNS或应激通路可改善小鼠脑生长及部分表型。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "Angelman综合征由神经元母源UBE3A缺失引起，但UBE3A底物众多，基因缺失如何转化为脑生长、运动和行为异常仍不清楚。研究询问是否存在可干预的下游蛋白稳态通路。"
+            },
+            {
+              "heading": "方法",
+              "body": "作者在UBE3A失活的人源神经元中开展蛋白质组筛选，并结合Angelman小鼠、代谢组学、蛋白合成测定、遗传降低ASNS及整合应激反应通路干预，追踪UBE3A缺失到表型的因果链。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "UBE3A缺失后ASNS蛋白过量，游离氨基酸升高并持续激活HRI/eIF2α相关整合应激反应，导致翻译受抑和神经元生长受限。降低ASNS恢复脑生长并改善部分小鼠行为，支持ASNS不是旁观标志物，而是重要下游中介。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文发现把单基因缺失连接到代谢—蛋白翻译应激轴，并提出比全脑恢复UBE3A更下游的干预入口。局限是主要救援来自细胞和小鼠；不同发育窗口、脑区与表型的可逆性尚不一致。编辑推断：ASNS或ISR可能形成联合治疗方向，但在明确正常代谢功能、治疗窗和长期安全性前不能推断临床疗效。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2022年跨物种时空蛋白质组研究系统寻找UBE3A依赖通路，是本研究蛋白底物筛选的基础。[3] 2023年eLife研究显示恢复父源Ube3a可改善部分EEG与睡眠表型，界定了上游基因恢复路线。[4] 2023年转录重编程研究在成年小鼠恢复父源Ube3a并改善行为，与本研究的下游救援形成互补。[5] 2013年研究将UBE3A与蛋白酶体及蛋白稳态相联系，为持续应激模型提供早期机制背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Persistent neuronal stress signalling underlies Angelman syndrome phenotypes｜Nature｜2026-10-21",
+              "url": "https://www.nature.com/articles/s41586-026-11165-4"
+            },
+            {
+              "title": "A cross-species spatiotemporal proteomic analysis identifies UBE3A-dependent signaling pathways and targets｜2022",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9135630/"
+            },
+            {
+              "title": "Antisense oligonucleotide therapy rescues disturbed brain rhythms and sleep in juvenile and adult mouse models of Angelman syndrome｜eLife｜2023",
+              "url": "https://elifesciences.org/articles/81892"
+            },
+            {
+              "title": "Transcriptional reprogramming restores UBE3A brain-wide and rescues behavioral phenotypes in an Angelman syndrome mouse model｜2023",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10124086/"
+            },
+            {
+              "title": "Ube3a regulates protein homeostasis through the proteasomal shuttle Rpn10｜2013",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24292889/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41586-026-11175-2",
+          "title": "因果性颅内映射揭示人脑岛叶的四分区功能架构",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "topic": "人类神经生理、岛叶、疼痛与内感受",
+          "target": "岛叶前极到后部的非对称定向连接",
+          "summary": "87名植入颅内电极的受试者接受直接电刺激、任务脑电和连接映射。研究把岛叶分为背后、腹后、中前和前极四个功能区，并显示前极对其他岛叶区域具有较强的直接影响，为认知调节疼痛与身体感觉提供人脑电生理路径。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "岛叶参与疼痛、内感受、焦虑、显著性检测和行动切换，但这些功能如何沿岛叶组织，以及亚区之间的信息方向，长期主要依赖相关性成像。"
+            },
+            {
+              "heading": "方法",
+              "body": "作者整合87名神经外科受试者的立体脑电、直接电刺激诱发体验、感觉和认知任务反应、刺激诱发连接，以及细胞构筑图谱，对人脑岛叶进行多模态因果映射。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "背后区呈躯体拓扑排列的伤害性、温度和躯体感觉；腹后区整合跨身体部位信息；中前区关联内脏感觉与焦虑；前极直接刺激多为沉默，却在显著性检测和行动模式切换中强烈激活。前极通过与前额叶和前扣带的连接，对其他岛叶区施加强而直接的影响，反向输入更弱且间接。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文发现把岛叶从简单前后梯度提升为有方向性的四分区架构。局限包括癫痫手术样本、电极覆盖不均、刺激电流扩散及主观报告偏差。编辑推断：该图谱可帮助疼痛、焦虑和内感受障碍的精准刺激靶点选择，但并不意味着四个区域各自只承担一种功能。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2023年17名受试者研究已把刺激诱发的主观状态与岛叶细胞构筑对应，本研究扩展到87人并增加定向连接。[3] 2002年直接电刺激研究奠定人岛叶疼痛和躯体感觉定位。[4] 2009年研究进一步展示疼痛反应的躯体拓扑。[5] 2021年前岛刺激提高疼痛阈值的先导研究支持岛叶调节疼痛而非仅编码疼痛。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Functional architecture of the human insula｜Nature｜2026-10-21",
+              "url": "https://www.nature.com/articles/s41586-026-11175-2"
+            },
+            {
+              "title": "Subjective states induced by intracranial electrical stimulation match the cytoarchitectonic organization of the human insula｜2023",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37949296/"
+            },
+            {
+              "title": "Representation of pain and somatic sensation in the human insula｜2002",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11884353/"
+            },
+            {
+              "title": "Somatotopic organization of pain responses to direct electrical stimulation of the human insular cortex｜2009",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/19665303/"
+            },
+            {
+              "title": "Anterior insula stimulation increases pain threshold in humans｜2021",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33799301/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41586-026-11186-z",
+          "title": "CD51标记功能分工明确的星形胶质细胞亚型",
+          "date": "2026-10-21",
+          "checked": "2026-10-22",
+          "topic": "星形胶质细胞异质性、突触形成、记忆与卒中修复",
+          "target": "CD51/GPC6星形胶质细胞轴",
+          "summary": "CD51-FLP小鼠和交叉遗传工具显示，CD51阳性与阴性星形胶质细胞具有不同形态、生理和功能。CD51阳性亚型通过GPC6促进发育期皮层突触形成、支持海马回路可塑性，并在卒中后增强突触重塑和运动恢复。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "单细胞测序已显示星形胶质细胞分子异质性，但不同分子亚型是否在完整回路中承担不可互换的功能仍缺少直接证据。"
+            },
+            {
+              "heading": "方法",
+              "body": "作者建立CD51-FLP小鼠，结合FLP依赖AAV、形态和膜片钳分析、RNA测序、DREADD化学遗传刺激、Gpc6 CRISPR干预、海马可塑性与记忆测试，并在光栓塞卒中模型中评估突触重塑和网格行走恢复。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "CD51阳性和阴性星形胶质细胞在皮层与海马呈现不同发育、形态和生理特征。刺激CD51阳性细胞增加发育皮层兴奋性和抑制性突触数量，效应依赖GPC6；海马中CD51本身参与回路可塑性。卒中后，刺激梗死周围CD51阳性细胞增加突触重塑并改善运动表现，却不改变梗死体积，提示改善来自回路修复而非减少初始损伤。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文发现首次把可遗传标记的星形胶质亚型与发育、学习相关可塑性和损伤修复中的特定功能连接起来。局限包括小鼠模型、DREADD非生理激活、CD51状态随环境变化的可能性，以及行为改善尚不能完全归因于单一突触机制。编辑推断：未来可优先探索亚型选择性调节，而不是整体激活星形胶质细胞，但CD51广泛表达带来外周脱靶风险。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2017年Nature Neuroscience鉴定五类分子不同的星形胶质细胞群，为本研究的亚型框架奠基。[3] 2012年Nature证明星形胶质细胞分泌的GPC4/GPC6可通过GluA1促进兴奋性突触形成，本研究把GPC6定位到CD51阳性亚型。[4] 2017年Nature发现星形胶质细胞neuroligin调控形态和突触形成，支持胶质细胞主动塑造回路。[5] 2025年研究提出皮层星形胶质细胞具有双谱系来源，为亚型形成机制提供发育背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits｜Nature｜2026-10-21",
+              "url": "https://www.nature.com/articles/s41586-026-11186-z"
+            },
+            {
+              "title": "Identification of diverse astrocyte populations and their malignant analogs｜Nature Neuroscience｜2017",
+              "url": "https://www.nature.com/articles/nn.4493"
+            },
+            {
+              "title": "Astrocyte glypicans 4 and 6 promote formation of excitatory synapses via GluA1 AMPA receptors｜Nature｜2012",
+              "url": "https://www.nature.com/articles/nature11059"
+            },
+            {
+              "title": "Astrocytic neuroligins control astrocyte morphogenesis and synaptogenesis｜Nature｜2017",
+              "url": "https://www.nature.com/articles/nature24638"
+            },
+            {
+              "title": "Dual lineage origins contribute to neocortical astrocyte diversity｜Nature Communications｜2025",
+              "url": "https://www.nature.com/articles/s41467-025-61829-4"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-21",
       "date": "2026-10-21",
