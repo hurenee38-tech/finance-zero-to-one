@@ -1,8 +1,230 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-21T23:12:00Z",
+  "updatedAt": "2026-10-22T23:13:00Z",
   "items": [
+    {
+      "id": "neuro-2026-10-23",
+      "date": "2026-10-23",
+      "source": "scheduled",
+      "title": "神经生物学简报｜CRELD1统合多模态感觉，SIK3控制突触NMDA受体定位",
+      "summary": "本期收录2篇已核实原始研究：Nature Neuroscience于2026-10-22发表的行为基因组研究发现CRELD1通过电压门控钠通道调节触觉、温度、疼痛和瘙痒；另一篇2026-10-21研究显示睡眠激酶SIK3在单一位点磷酸化GluN1并控制NMDA受体突触募集。期刊影响因子待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-23。本期选择2篇Nature Neuroscience原始研究，主题分别为外周感觉神经元的新调节因子和突触NMDA受体定位机制。题名、日期、DOI、方法和主要结论由期刊页面及公开材料交叉核查。影响因子未通过官方Journal Citation Reports核实，标注“影响因子待核实”。未纳入无法充分核实方法或仅有评论性质的候选内容。"
+        },
+        {
+          "heading": "重点推荐｜CRELD1位于多种躯体感觉通路的共同兴奋性出口",
+          "body": "事实：成年后AAV9–CRISPR行为筛选发现，降低Creld1会同时削弱触觉、温度、疼痛和瘙痒反应；感觉神经元特异删除和过表达提供双向验证。CRELD1与多种NaV通道相互作用并调节DRG兴奋性。分析：它可能成为跨模态镇痛、止痒节点，但广谱抑制也可能损害保护性痛觉和正常感觉。"
+        },
+        {
+          "heading": "突触机制｜睡眠激酶SIK3通过GluN1单点磷酸化募集NMDAR",
+          "body": "事实：SIK3位于突触并磷酸化GluN1的一个特定位点。删除SIK3使突触GluN1约下降60%，而AMPAR和总体转录变化不明显；增加睡眠的Sleepy型SIK3突变提高该磷酸化和突触NMDAR水平。分析：结果把睡眠稳态激酶与兴奋性突触强度直接连接，但尚未证明NMDAR变化是Sleepy睡眠表型的唯一原因。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "CRELD1敲除同时降低触觉、温度、疼痛和瘙痒反应。怎样证明CRELD1是“共同调节感觉神经元兴奋性”的节点，而不是分别影响了多类感觉神经元的发育、存活或受体表达？请设计一条能够区分这些解释的证据链。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：需要区分四种模型——CRELD1直接调节成熟神经元的电兴奋性；改变感觉神经元发育或数量；分别改变PIEZO2、TRPV1、瘙痒受体等上游感受器；通过非神经元或中枢回路间接改变行为。\n\n必要证据：在神经系统发育完成后，急性、DRG神经元特异地降低CRELD1，并在细胞数量、轴突投射和感觉亚型比例尚未改变的时间窗内观察多模态反应下降。如果只在胚胎敲除后出现表型，则不能排除发育机制。\n\n共同兴奋性证据：对相同DRG细胞分别使用机械、热、化学配体和直接电流注入。若上游刺激诱发电流基本保留，但动作电位阈值升高、放电数下降，并且直接电流注入也不能恢复正常放电，更支持下游NaV兴奋性环节受损。应同时测NaV电流密度、门控参数和膜表面表达。\n\n排除受体特异解释：检测PIEZO2、TRPV1、TRPA1及瘙痒相关受体的表达和原始感受器电流。如果它们均基本正常，而多种NaV电流共同下降，则支持CRELD1位于共同出口。\n\n救援与机制特异性：在Creld1缺失细胞中重新表达野生型CRELD1，应同时恢复NaV电流、神经元放电和多种感觉行为；不能结合NaV的CRELD1突变体若无法救援，则把表型进一步定位到CRELD1–NaV相互作用。也可以通过动态钳补回缺失的钠电导，检验是否足以恢复放电。\n\n支持证据：敲除后短时间内先出现NaV功能下降，之后才出现行为变化；不同感觉亚型中效应大小与CRELD1和NaV表达量相关；在人源iPSC感觉神经元中得到同方向结果。\n\n待验证假设：CRELD1可能作为NaV通道的辅助蛋白，调节其膜运输、稳定性或门控，而非直接构成离子通道。\n\n常见误区：只凭多种行为同时下降就称为共同机制；没有检查运动能力、焦虑或学习因素；使用胚胎敲除却忽略发育；把NaV互作等同于已证明直接结合。\n\n自查标准：是否具备成年后急性操控、细胞自主性、上游感受器控制、直接电生理、野生型与互作缺陷突变体救援？共同兴奋性和发育改变也可能并存，因此结论应保留这种可能性。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Behavioral genomics",
+          "zh": "行为基因组学",
+          "meaning": "以系统性基因扰动结合量化行为筛选基因功能的研究策略。"
+        },
+        {
+          "en": "Cross-modal regulator",
+          "zh": "跨模态调节因子",
+          "meaning": "能够共同影响触觉、温度、疼痛或瘙痒等多种感觉类别的分子。"
+        },
+        {
+          "en": "Dorsal root ganglion (DRG)",
+          "zh": "背根神经节",
+          "meaning": "容纳躯体感觉神经元胞体并把外周信息传入脊髓的结构。"
+        },
+        {
+          "en": "Voltage-gated sodium channel",
+          "zh": "电压门控钠通道",
+          "meaning": "启动和传播动作电位、决定神经元兴奋性的膜通道。"
+        },
+        {
+          "en": "Auxiliary regulator",
+          "zh": "辅助调节因子",
+          "meaning": "不形成通道核心孔道，但可改变通道运输、稳定性或门控的蛋白。"
+        },
+        {
+          "en": "Obligatory subunit",
+          "zh": "必需亚基",
+          "meaning": "受体形成正常功能复合物不可缺少的组成部分；GluN1是NMDAR必需亚基。"
+        },
+        {
+          "en": "Synaptic recruitment",
+          "zh": "突触募集",
+          "meaning": "受体从细胞内或突触外区域进入并稳定在突触位置的过程。"
+        },
+        {
+          "en": "Gain-of-function mutation",
+          "zh": "功能获得突变",
+          "meaning": "使蛋白活性、稳定性或下游效应增强的遗传改变。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Behavioral genomics identifies Creld1 as a cross-modal regulator of somatosensation｜Nature Neuroscience｜2026-10-22",
+          "url": "https://www.nature.com/articles/s41593-026-02484-w"
+        },
+        {
+          "title": "Spatial transcriptomics of dorsal root ganglia identifies molecular signatures of human nociceptors｜Science Translational Medicine｜2022",
+          "url": "https://www.science.org/doi/10.1126/scitranslmed.abj8186"
+        },
+        {
+          "title": "Sensory neuron-derived NaV1.7 contributes to dorsal horn neuron excitability｜2020",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7030926/"
+        },
+        {
+          "title": "Stem cell-derived sensory neurons modelling inherited erythromelalgia: normalization of excitability｜2022",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10060693/"
+        },
+        {
+          "title": "NaV1.7-A1632G mutation enhances DRG firing evoked by thermal stimuli｜2019",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6705539/"
+        },
+        {
+          "title": "SIK3 controls synaptic localization of NMDA receptors by phosphorylating GluN1｜Nature Neuroscience｜2026-10-21",
+          "url": "https://www.nature.com/articles/s41593-026-02469-9"
+        },
+        {
+          "title": "Forward-genetics analysis of sleep in randomly mutagenized mice｜Nature｜2016",
+          "url": "https://www.nature.com/articles/nature20142"
+        },
+        {
+          "title": "Quantitative phosphoproteomic analysis of the molecular substrates of sleep need｜2018",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6350790/"
+        },
+        {
+          "title": "Kinase signalling in excitatory neurons regulates sleep quantity and depth｜Nature｜2022",
+          "url": "https://www.nature.com/articles/s41586-022-05450-1"
+        },
+        {
+          "title": "LTP leads to rapid surface expression of NMDA but not AMPA receptors in adult rat CA1｜2002",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11740559/"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41593-026-02484-w",
+          "title": "行为基因组学发现CRELD1是跨模态躯体感觉调节因子",
+          "date": "2026-10-22",
+          "checked": "2026-10-23",
+          "topic": "躯体感觉、疼痛、瘙痒、感觉神经元兴奋性",
+          "target": "CRELD1–电压门控钠通道",
+          "summary": "研究建立AAV9-sgRNA介导的成年后背根神经节基因筛选平台，从候选基因中发现CRELD1广泛调节触觉、温度、疼痛和瘙痒。CRELD1通过与多种电压门控钠通道相互作用调节感觉神经元兴奋性，敲除和过表达产生方向相反的感觉表型。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "触觉、温度、疼痛和瘙痒由不同受体启动，却都必须转化为感觉神经元放电。研究询问：是否存在位于特定感受器下游、能够同时调节多种感觉模态的共同分子节点。"
+            },
+            {
+              "heading": "方法",
+              "body": "作者开发出生后AAV9-sgRNA递送与CRISPR-Cas9敲除平台，在背根神经节表达基因中进行候选筛选；随后使用DRG特异条件敲除、Creld1过表达、行为学、电生理、生化互作和人CRELD1–NaV1.7功能分析进行验证。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "Creld1降低削弱触觉、温度、疼痛和瘙痒反应，过表达产生相反方向效应。电生理和生化结果支持CRELD1作为多种电压门控钠通道的辅助调节因子，改变DRG神经元兴奋性；人CRELD1对NaV1.7的调节具有异构体依赖性。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文发现提出了一个位于多种外周感觉通路共同出口处的调节节点，并展示可用于成年后感觉基因组筛选的平台。局限包括主要证据来自小鼠、广泛改变兴奋性可能同时影响保护性痛觉和本体感觉、人类遗传验证有限。编辑推断：CRELD1比单一感受器具有更宽的镇痛和止痒潜力，但也因此可能面临感觉丧失和安全窗较窄的问题。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2022年Science Translational Medicine的人DRG空间转录组建立了疼痛相关细胞与离子通道图谱，为候选靶点筛选提供人类参照。[3] 2020年研究证明感觉神经元NaV1.7不仅调节外周放电，还影响脊髓背角兴奋性。[4] 2022年iPSC感觉神经元动态钳研究定量说明NaV1.7电流变化如何改变兴奋阈值。[5] 2019年Nav1.7红斑性肢痛模型把温度刺激、DRG过度兴奋和人类疼痛突变连接起来。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Behavioral genomics identifies Creld1 as a cross-modal regulator of somatosensation｜Nature Neuroscience｜2026-10-22",
+              "url": "https://www.nature.com/articles/s41593-026-02484-w"
+            },
+            {
+              "title": "Spatial transcriptomics of dorsal root ganglia identifies molecular signatures of human nociceptors｜Science Translational Medicine｜2022",
+              "url": "https://www.science.org/doi/10.1126/scitranslmed.abj8186"
+            },
+            {
+              "title": "Sensory neuron-derived NaV1.7 contributes to dorsal horn neuron excitability｜2020",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7030926/"
+            },
+            {
+              "title": "Stem cell-derived sensory neurons modelling inherited erythromelalgia: normalization of excitability｜2022",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10060693/"
+            },
+            {
+              "title": "NaV1.7-A1632G mutation enhances DRG firing evoked by thermal stimuli｜2019",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6705539/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02469-9",
+          "title": "SIK3通过磷酸化GluN1控制NMDA受体的突触定位",
+          "date": "2026-10-21",
+          "checked": "2026-10-23",
+          "topic": "突触可塑性、NMDA受体、睡眠稳态",
+          "target": "SIK3–GluN1磷酸化",
+          "summary": "SIK3定位于突触并在单一位点磷酸化NMDA受体必需亚基GluN1，从而控制NMDAR募集。删除SIK3使突触GluN1约下降60%，而增加睡眠的Sleepy型SIK3功能获得突变则提高GluN1磷酸化和突触NMDAR水平。",
+          "sections": [
+            {
+              "heading": "背景与研究问题",
+              "body": "NMDAR决定突触可塑性、学习和网络稳定性，不同突触之间NMDAR数量差异明显，但负责其突触募集的直接磷酸化机制并不清楚。SIK3此前以睡眠需要调节激酶著称，研究询问它是否直接控制突触受体。"
+            },
+            {
+              "heading": "方法",
+              "body": "作者结合SIK3亚细胞定位、蛋白质磷酸化分析、位点突变、神经元SIK3遗传删除、药理抑制、突触生化与电生理，并分析增加睡眠需要的Sik3 Sleepy功能获得突变。"
+            },
+            {
+              "heading": "主要发现与机制",
+              "body": "SIK3定位至突触并在一个特定位点磷酸化必需亚基GluN1，该事件决定NMDAR进入或稳定于突触。删除SIK3使突触GluN1约降低60%，却没有相应降低AMPAR或引起广泛转录改变；Sleepy突变则增强GluN1磷酸化和突触NMDAR水平。结果支持SIK3活性直接连接突触NMDAR丰度。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文发现为NMDAR突触定位提供单一激酶—单一位点的机制，并把睡眠稳态分子与兴奋性突触强度连接起来。局限是NMDAR改变如何导致睡眠量增加尚未形成完整因果闭环；SIK3还调控代谢和其他底物，系统性抑制可能产生广泛副作用。编辑推断：GluN1磷酸化界面可能比全局抑制SIK3更精确，但是否可药物化及对认知、兴奋毒性的影响仍待验证。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "[2] 2016年Nature正向遗传学发现Sik3 Sleepy剪接突变显著增加内在睡眠需要，是本研究功能获得模型的来源。[3] 2018年睡眠需要磷酸化蛋白组发现SLEEPY/SIK3与SynGAP1、Bassoon和NMDAR亚基等突触蛋白联系。[4] 2022年Nature证明兴奋性神经元SIK3激酶信号调节睡眠量和深度，建立细胞类型层面的因果证据。[5] 2002年研究发现LTP可快速增加突触表面NMDAR，为受体动态募集的经典基础。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "SIK3 controls synaptic localization of NMDA receptors by phosphorylating GluN1｜Nature Neuroscience｜2026-10-21",
+              "url": "https://www.nature.com/articles/s41593-026-02469-9"
+            },
+            {
+              "title": "Forward-genetics analysis of sleep in randomly mutagenized mice｜Nature｜2016",
+              "url": "https://www.nature.com/articles/nature20142"
+            },
+            {
+              "title": "Quantitative phosphoproteomic analysis of the molecular substrates of sleep need｜2018",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6350790/"
+            },
+            {
+              "title": "Kinase signalling in excitatory neurons regulates sleep quantity and depth｜Nature｜2022",
+              "url": "https://www.nature.com/articles/s41586-022-05450-1"
+            },
+            {
+              "title": "LTP leads to rapid surface expression of NMDA but not AMPA receptors in adult rat CA1｜2002",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/11740559/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-22",
       "date": "2026-10-22",
