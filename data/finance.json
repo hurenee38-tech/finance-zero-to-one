@@ -1,8 +1,591 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-22T07:18:00+08:00",
+  "updatedAt": "2026-10-23T07:32:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-23",
+      "date": "2026-10-23",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜临床合作eNPV、IL-1双抗体与新机制抗真菌药",
+      "summary": "从第一性原理拆解“临床试验合作与供药协议”如何创造价值，并覆盖lutikizumab III期、olorofim III期、pumitamig联合TROP2 ADC试验调整及FDA神经科学新机制；完成71个既有NCT全量巡检，新增3个登记。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "BioNTech与Gilead宣布临床试验合作与供药协议，拟把ROSETTA Breast-01的化疗对照框架调整为pumitamig联合sacituzumab govitecan，尚待监管机构批准。纯教学假设：相对继续旧设计，一个与最新标准治疗一致的新设计在成功状态下可多创造9亿美元商业现值；技术与监管成功概率45%，从成功时点折现到今天的系数0.75；方案修订、站点重训和新增监测需1,200万美元；Gilead供药为试验避免1,440万美元现金支出。该调整的增量期望净现值是多少？这份供药协议是否意味着BioNTech获得了Trodelvy商业权利？投资前还必须核实什么？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先把“试验设计仍具临床相关性”带来的成功状态增量价值按成功概率和时间折现，再减新增现金成本、加合作方供药所避免的现金成本。公式：增量eNPV=45%×9亿美元×0.75－1,200万美元＋1,440万美元=3.0615亿美元。这个答案只在教学假设成立时有效，不能当成公司披露估值。协议性质方面，公告只确认临床合作与供药：BioNTech继续作为试验申办方和牵头方，Gilead供应sacituzumab govitecan；公告没有披露商业许可、区域销售权、前期款、里程碑或版税，因此不能推断BioNTech获得Trodelvy商业权利。必要证据：修订方案与统计分析计划获得监管同意、登记正式更新、样本量/事件数/主要终点不受破坏、安全监测能覆盖双药叠加毒性。支持证据：ADC已成为该人群的一线标准、早期联合疗效和可管理安全性、供药与全球供应能力。待验证假设：45%成功率、9亿美元增量价值、供药的真实可避免成本、修订不会延误或使已入组患者不可合并。常见误区：把临床供药等同商业授权；把药品目录价当试验供药成本；只看到更强对照却忽略试验成功门槛提高；把拟修订写成已经执行。自查标准：权利、成本、成功概率和时间口径分别列示；所有未披露条款保持“未披露”；对成功率、延误和商业增量做敏感性分析。"
+        },
+        {
+          "heading": "核心概念：临床合作、供药协议与授权交易不是一回事",
+          "body": "临床试验合作（clinical trial collaboration）解决的是谁申办、谁供药、谁承担试验运营与数据责任；商业授权（license）才决定谁能在某地区开发、注册、生产和销售，以及前期款、里程碑和版税。供药可降低现金消耗并使组合试验可执行，但不会自动转移产品所有权。估值时应把合作带来的价值拆成四块：避免的试验现金成本、方案与标准治疗同步带来的获批/商业概率变化、时间变化、以及新增毒性和执行复杂度。期望净现值（eNPV）是每种结果的价值乘概率后求和，再扣除确定性成本。"
+        },
+        {
+          "heading": "1. Lutikizumab的INTREPID III期达到HiSCR75，但绝对差距需细读",
+          "body": "事实（2026-10-22）：AbbVie称NCT06468228纳入1,400名中重度化脓性汗腺炎成人和青少年。16周HiSCR75为31.4%对23.4%（p≤0.001），皮肤痛和复发等8个排序次要终点也达标；治疗期间不良事件53.4%对53.7%，未见新的安全信号。公司预计2027年获得36周盲法延长期数据，并在下半年用于监管申报。分析：科学上，同时阻断IL-1α/IL-1β获得首个III期验证，疼痛和复发改善使信号不只停留在皮损计数；但主要终点绝对差约8个百分点，完整亚组、持久性和与现有生物制剂的间接比较仍重要。商业上，差异化可能来自机制、疼痛改善及组合开发，而非仅“统计学阳性”。战略上，AbbVie计划把其纳入HS平台组合。财务上，阳性顶线提高申报概率，但疗效幅度、标签、净价和市场份额决定价值，不应把p值直接转成销售额。[1][2]"
+        },
+        {
+          "heading": "2. Olorofim III期非劣效：口服和肾安全优势对支付方也有价值",
+          "body": "事实（2026-10-21）：F2G/Shionogi公布NCT05101187的OASIS III期。225名不适合或对唑类治疗无效的侵袭性曲霉病患者中，42日全因死亡率为olorofim 23.8%对AmBisome后续标准治疗24.3%，差值-0.5%，95%CI -13.1%至10.8%，满足预设20%非劣效界值。药物相关不良事件35.8%对63.9%，肾脏相关事件1.3%对22.2%；住院17±15天对28±25天。药物性肝损伤仍是风险。F2G预计2026年底前重新提交美国NDA。分析：科学上，抑制真菌DHODH的orotomide机制可绕开唑类耐药，并以口服方式替代部分静脉治疗；但20%非劣效界值较宽，84日死亡率和全球反应未显示一致优势，不能描述为“优效”。商业上，口服、少肾毒性和可能缩短住院形成清晰价值主张。战略上，F2G负责北美等地区，Shionogi负责欧亚。财务上，定价和准入可结合避免静脉输注及住院资源，但需监管接受完整数据和肝安全管理。[3][4]"
+        },
+        {
+          "heading": "3. BioNTech/Gilead拟调整ROSETTA Breast-01，反映标准治疗漂移",
+          "body": "事实（2026-10-22）：BioNTech与Gilead签署临床合作与供药协议，拟在监管同意后把NCT07173751的pumitamig联合方案从化疗框架调整为与TROP2 ADC sacituzumab govitecan联合，用于PD-L1低或阴性的一线局晚/转移性TNBC。BioNTech继续申办和牵头，Gilead供药；商业条款未披露。ClinicalTrials.gov截至10月20日仍列示化疗和安慰剂，尚未反映拟议变更。分析：科学上，PD-L1×VEGF-A双特异免疫调节剂与ADC可能互补，但骨髓抑制、胃肠毒性和免疫/血管风险叠加需验证。商业上，若继续用落后的对照，即使试验阳性也可能缺乏临床相关性；换成新标准提高产品定位，却也抬高胜出门槛。战略上，这是适应标准治疗变化的试验设计更新，不是已披露的产品授权。财务上，供药降低现金需求，但修订、延误、样本量和成功概率变化才是主要价值变量。[5][6]"
+        },
+        {
+          "heading": "4. FDA启动NAIN：神经科学的监管瓶颈从单一药物扩展到工具与证据",
+          "body": "事实（2026-10-22）：FDA启动Neuroscience Advancement and Innovation Nexus（NAIN），协调药品、生物制品和器械中心；首个Alzheimer's Prevention Accelerator将讨论预防/早期干预试验的人群、阶段适配终点及证明延缓认知下降的证据路径。该公告不是任何药物获批，也未承诺缩短具体项目审评时间。分析：科学上，预症状人群的缓慢进展、疾病异质性和替代终点验证是开发核心难题。商业上，若监管对富集标志物、数字工具与终点形成更清晰共识，可能降低大型长期试验的设计不确定性。战略上，药械和生物标志物共审有利于伴随诊断与数字测量整合。财务上，规则清晰可降低资本成本和失败尾部风险，但在正式指南或个案接受证据出现前，不应上调单个资产获批概率。[7]"
+        },
+        {
+          "heading": "跨岗位洞察：同一项ROSETTA方案调整如何被五种岗位阅读",
+          "body": "投行：重算开发现金需求、延误对现金跑道的影响，以及更相关试验设计能否支撑融资估值。FA顾问：核实合作究竟只有供药还是含共同开发/未来商业选择权，未披露条款不得补全。BD：审查药品供应、数据访问、发表、背景知识产权、交叉引用监管资料与终止机制。投资人：比较“更相关但更强的对照”对成功概率、可解释性和峰值份额的净影响。咨询：重画一线TNBC治疗路径、患者分层、中心采用、组合安全管理与支付预算。"
+        },
+        {
+          "heading": "迷你案例：把缩短住院转成市场准入价值，而不是直接当收入",
+          "body": "纯教学假设：Olorofim组相对对照平均少住院11天；每住院日可避免成本4,000美元，年可治疗患者5,000人，渗透率30%，相对现有方案每疗程净价高2.5万美元。年覆盖患者=5,000×30%=1,500；医疗系统毛资源节省=11×4,000×1,500=6,600万美元；厂商增量收入=2.5万×1,500=3,750万美元；在不考虑其他成本时，净预算影响约为节省2,850万美元。这个算例不是试验或公司的经济学结论：住院差异可能受临床路径与地区影响，必须用预设健康经济学分析、资源利用明细和本地成本验证。"
+        },
+        {
+          "heading": "创新药数据库维护",
+          "body": "本轮逐项核查既有71个NCT：71个成功、0个失败。NCT07863193仅登记页面更新时间由2026-10-07刷新为2026-10-22，阶段、状态、入组、终点与预计完成时间未变，因此计为1个登记日期变更、0个实质字段变更。新增3个真实登记：NCT06468228（lutikizumab，III期，ACTIVE_NOT_RECRUITING）、NCT07173751（pumitamig，III期，RECRUITING，登记尚未反映拟议ADC组合变更）及NCT05101187（olorofim，III期，COMPLETED）。去重后数据库覆盖74个NCT。预计完成不等于读出；公司顶线数据与ClinicalTrials.gov结果张贴状态分开记录。历史条目和全部根级归档均保留。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Clinical trial collaboration",
+          "zh": "临床试验合作",
+          "meaning": "围绕联合试验的申办、供药、运营和数据责任安排，不自动转移商业权利。"
+        },
+        {
+          "en": "Supply agreement",
+          "zh": "供药协议",
+          "meaning": "一方向试验提供研究药物的协议；药品归属、费用和未来商业权利要以披露条款为准。"
+        },
+        {
+          "en": "Expected NPV (eNPV)",
+          "zh": "期望净现值",
+          "meaning": "把各结果的现金流按发生概率和时间折现后求和，再扣除确定性成本。"
+        },
+        {
+          "en": "HiSCR75",
+          "zh": "化脓性汗腺炎临床反应75",
+          "meaning": "脓肿与炎性结节至少减少75%，且脓肿和引流瘘管不增加。"
+        },
+        {
+          "en": "Non-inferiority margin",
+          "zh": "非劣效界值",
+          "meaning": "预先规定新治疗相对对照最多可接受的疗效损失边界。"
+        },
+        {
+          "en": "DHODH",
+          "zh": "二氢乳清酸脱氢酶",
+          "meaning": "嘧啶合成关键酶；olorofim选择性抑制真菌DHODH。"
+        },
+        {
+          "en": "Standard-of-care drift",
+          "zh": "标准治疗漂移",
+          "meaning": "开发期间临床标准改变，使原对照或定位不再代表最新实践。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "[1] AbbVie：INTREPID III期顶线结果，2026-10-22",
+          "url": "https://news.abbvie.com/2026-10-22-AbbVie-Announces-Topline-Results-from-the-Phase-3-INTREPID-Trial-Showing-Lutikizumab-Significantly-Improved-Signs-and-Symptoms-of-Disease-in-Patients-with-Hidradenitis-Suppurativa"
+        },
+        {
+          "title": "[2] ClinicalTrials.gov NCT06468228，核查于2026-10-23",
+          "url": "https://clinicaltrials.gov/study/NCT06468228"
+        },
+        {
+          "title": "[3] Shionogi/F2G：OASIS III期结果，2026-10-21",
+          "url": "https://www.shionogi.com/global/en/news/2026/10/e20261021_3.html"
+        },
+        {
+          "title": "[4] ClinicalTrials.gov NCT05101187，核查于2026-10-23",
+          "url": "https://clinicaltrials.gov/study/NCT05101187"
+        },
+        {
+          "title": "[5] BioNTech：与Gilead临床合作及供药，2026-10-22",
+          "url": "https://www.biontech.com/us/en/home/mediaroom/news/press-releases/2026/10/BioNTech-Advances-Phase-3-Clinical-Trial-of-Pumitamig-in-Combination-with-Gilead-s-TROP2-Directed-ADC-Sacituzumab-Govitecan-in-Triple-Negative-Breast-Cancer.html"
+        },
+        {
+          "title": "[6] ClinicalTrials.gov NCT07173751，核查于2026-10-23",
+          "url": "https://clinicaltrials.gov/study/NCT07173751"
+        },
+        {
+          "title": "[7] FDA：启动NAIN与阿尔茨海默病预防加速器，2026-10-22",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-launches-new-program-advance-neuroscience-medical-product-development"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT07863193",
+          "title": "denifanstat（AURORA）",
+          "company": "Sagimet Biosciences Inc.",
+          "target": "FASN",
+          "modality": "口服小分子FASN抑制剂",
+          "area": "皮肤 / 代谢",
+          "indication": "Moderate to severe acne vulgaris",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "Phase 3 Study of Denifanstat in Participants With Moderate to Severe Acne",
+          "registryUpdated": "2026-10-22",
+          "checked": "2026-10-23",
+          "summary": "800例估计入组的III期仍在招募；本日仅登记更新时间刷新，阶段、状态、入组与主要终点未变。",
+          "endpoints": [
+            "Week 12 EGSS success",
+            "Week 12 absolute change in inflammatory lesion count",
+            "Week 12 absolute change in non-inflammatory lesion count"
+          ],
+          "completion": {
+            "date": "2028-04",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 800,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07863193，核查于2026-10-23",
+              "url": "https://clinicaltrials.gov/study/NCT07863193"
+            }
+          ],
+          "note": "登记日期刷新，不是临床读出、状态改变或批准；预计完成不等于读出。",
+          "risks": "三项共同主要终点、青少年与长期代谢/肝脏安全、入组速度及商业差异化。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Denifanstat"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "primaryCompletion": {
+            "date": "2027-08",
+            "type": "ESTIMATED"
+          },
+          "hasResults": false
+        },
+        {
+          "id": "NCT06468228",
+          "title": "lutikizumab（ABT-981）",
+          "company": "AbbVie",
+          "target": "IL-1α / IL-1β",
+          "modality": "双可变结构域抗体拮抗剂",
+          "area": "自免 / 炎症 / 皮肤",
+          "indication": "Moderate to severe hidradenitis suppurativa",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Phase 3 Multicenter, Randomized, Double-Blind Placebo-Controlled Study to Evaluate the Efficacy and Safety of Lutikizumab in Adult and Adolescent Subjects With Moderate to Severe Hidradenitis Suppurativa",
+          "registryUpdated": "2026-09-02",
+          "checked": "2026-10-23",
+          "summary": "1,400例实际入组；AbbVie于2026-10-22报告16周HiSCR75及8个排序次要终点达标。ClinicalTrials.gov尚未张贴结果，试验状态为停止招募但仍进行中。",
+          "endpoints": [
+            "Percentage of participants achieving HiSCR75 at Week 16",
+            "Number of participants with adverse events up to approximately Week 62"
+          ],
+          "completion": {
+            "date": "2026-12",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 1400,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06468228，核查于2026-10-23",
+              "url": "https://clinicaltrials.gov/study/NCT06468228"
+            },
+            {
+              "title": "AbbVie INTREPID顶线结果，2026-10-22",
+              "url": "https://news.abbvie.com/2026-10-22-AbbVie-Announces-Topline-Results-from-the-Phase-3-INTREPID-Trial-Showing-Lutikizumab-Significantly-Improved-Signs-and-Symptoms-of-Disease-in-Patients-with-Hidradenitis-Suppurativa"
+            }
+          ],
+          "note": "试验阶段不代表资产已获批；公司顶线与登记结果张贴状态分开记录。",
+          "risks": "主要终点绝对差约8个百分点、长期持久性、完整亚组/安全、竞争差异化与监管标签。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Lutikizumab"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07173751",
+          "title": "pumitamig（BNT327 / PM8002）",
+          "company": "BioNTech SE",
+          "target": "PD-L1 / VEGF-A",
+          "modality": "双特异性免疫调节抗体",
+          "area": "肿瘤",
+          "indication": "Previously untreated locally recurrent inoperable or metastatic PD-L1-negative triple-negative breast cancer",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "A Phase III, Multisite, Randomized, Double-Blind Trial of BNT327 in Combination With Chemotherapy Versus Placebo With Chemotherapy in Patients With Previously Untreated Locally Recurrent Inoperable or Metastatic TNBC Determined Ineligible for PD(L)1 Therapy Based on PD-L1 Negative Disease",
+          "registryUpdated": "2026-10-20",
+          "checked": "2026-10-23",
+          "summary": "登记仍为558例、pumitamig联合化疗对安慰剂联合化疗；公司于2026-10-22宣布拟在监管批准后改为与sacituzumab govitecan联合。拟议变更尚不能写成已执行。",
+          "endpoints": [
+            "Progression-free survival by BICR up to approximately 32 months",
+            "Overall survival up to approximately 49 months"
+          ],
+          "completion": {
+            "date": "2030-09",
+            "type": "ESTIMATED"
+          },
+          "primaryCompletion": {
+            "date": "2029-12",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 558,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07173751，核查于2026-10-23",
+              "url": "https://clinicaltrials.gov/study/NCT07173751"
+            },
+            {
+              "title": "BioNTech临床合作与拟议方案调整，2026-10-22",
+              "url": "https://www.biontech.com/us/en/home/mediaroom/news/press-releases/2026/10/BioNTech-Advances-Phase-3-Clinical-Trial-of-Pumitamig-in-Combination-with-Gilead-s-TROP2-Directed-ADC-Sacituzumab-Govitecan-in-Triple-Negative-Breast-Cancer.html"
+            }
+          ],
+          "note": "截至核查日登记尚未列入sacituzumab govitecan；待监管同意和登记更新后再改写干预组。预计完成不等于读出。",
+          "risks": "方案修订与统计可合并性、对照门槛提高、联合毒性、入组延误及商业条款未披露。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Pumitamig"
+            },
+            {
+              "type": "DRUG",
+              "name": "Nab-paclitaxel/Paclitaxel"
+            },
+            {
+              "type": "DRUG",
+              "name": "Gemcitabine"
+            },
+            {
+              "type": "DRUG",
+              "name": "Carboplatin"
+            },
+            {
+              "type": "DRUG",
+              "name": "Eribulin"
+            },
+            {
+              "type": "DRUG",
+              "name": "Matching placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT05101187",
+          "title": "olorofim（F901318）",
+          "company": "F2G Ltd",
+          "target": "真菌DHODH",
+          "modality": "口服小分子orotomide抗真菌药",
+          "area": "感染",
+          "indication": "Invasive aspergillosis when mould-active azole therapy is inappropriate or ineffective",
+          "stage": "Phase 3",
+          "status": "COMPLETED",
+          "trialTitle": "Phase III, Adjudicator-blinded, Randomised Study to Evaluate Efficacy and Safety of Treatment With Olorofim Versus Treatment With AmBisome® Followed by Standard of Care in Patients With Invasive Fungal Disease Caused by Aspergillus Species",
+          "registryUpdated": "2026-10-08",
+          "checked": "2026-10-23",
+          "summary": "225例实际入组并完成；公司报告42日全因死亡率23.8%对24.3%，在20%非劣效界值内。ClinicalTrials.gov尚未张贴结果；F2G计划2026年底前重提美国NDA。",
+          "endpoints": [
+            "All-cause mortality at Treatment Day 42"
+          ],
+          "completion": {
+            "date": "2026-03-19",
+            "type": "ACTUAL"
+          },
+          "primaryCompletion": {
+            "date": "2025-11-18",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 225,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05101187，核查于2026-10-23",
+              "url": "https://clinicaltrials.gov/study/NCT05101187"
+            },
+            {
+              "title": "Shionogi/F2G OASIS结果，2026-10-21",
+              "url": "https://www.shionogi.com/global/en/news/2026/10/e20261021_3.html"
+            }
+          ],
+          "note": "非劣效不等于优效；公司公告数据与登记结果张贴状态分开记录，NDA重提为预计窗口。",
+          "risks": "较宽非劣效界值、84日结局、药物性肝损伤、监管对完整数据和制造资料的接受度。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Olorofim"
+            },
+            {
+              "type": "DRUG",
+              "name": "AmBisome®"
+            }
+          ],
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-abbvie",
+          "title": "AbbVie",
+          "date": "2026-10-22",
+          "checked": "2026-10-23",
+          "summary": "全球生物制药公司；INTREPID III期支持lutikizumab在HS继续开发，并规划组合平台。",
+          "sections": [
+            {
+              "heading": "平台与战略",
+              "body": "免疫学为核心业务。lutikizumab瞄准IL-1α/β；公司还计划在HS平台中探索与长效amylin类似物ABBV-295及anti-TL1A ABBV-701等机制的组合。融资条款：本事件不涉及融资。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AbbVie INTREPID公告",
+              "url": "https://news.abbvie.com/2026-10-22-AbbVie-Announces-Topline-Results-from-the-Phase-3-INTREPID-Trial-Showing-Lutikizumab-Significantly-Improved-Signs-and-Symptoms-of-Disease-in-Patients-with-Hidradenitis-Suppurativa"
+            }
+          ]
+        },
+        {
+          "id": "company-biontech",
+          "title": "BioNTech SE",
+          "date": "2026-10-22",
+          "checked": "2026-10-23",
+          "summary": "pumitamig共同开发方及ROSETTA Breast-01申办方；拟把联合方案调整为TROP2 ADC组合。",
+          "sections": [
+            {
+              "heading": "资产与伙伴",
+              "body": "pumitamig由BioNTech与Bristol Myers Squibb共同开发；本试验由BioNTech继续申办和牵头，Gilead供药。公告未披露融资或商业权利转移。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech临床合作公告",
+              "url": "https://www.biontech.com/us/en/home/mediaroom/news/press-releases/2026/10/BioNTech-Advances-Phase-3-Clinical-Trial-of-Pumitamig-in-Combination-with-Gilead-s-TROP2-Directed-ADC-Sacituzumab-Govitecan-in-Triple-Negative-Breast-Cancer.html"
+            }
+          ]
+        },
+        {
+          "id": "company-gilead",
+          "title": "Gilead Sciences, Inc.",
+          "date": "2026-10-22",
+          "checked": "2026-10-23",
+          "summary": "Trodelvy（sacituzumab govitecan）所有方；在ROSETTA Breast-01合作中承担研究药供给。",
+          "sections": [
+            {
+              "heading": "资产与权利",
+              "body": "Trodelvy为TROP2 ADC。公告只确认临床供药，未披露pumitamig商业权、前期款、里程碑或版税。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech临床合作公告",
+              "url": "https://www.biontech.com/us/en/home/mediaroom/news/press-releases/2026/10/BioNTech-Advances-Phase-3-Clinical-Trial-of-Pumitamig-in-Combination-with-Gilead-s-TROP2-Directed-ADC-Sacituzumab-Govitecan-in-Triple-Negative-Breast-Cancer.html"
+            }
+          ]
+        },
+        {
+          "id": "company-f2g",
+          "title": "F2G Ltd",
+          "date": "2026-10-21",
+          "checked": "2026-10-23",
+          "summary": "新型抗真菌药公司；olorofim为核心orotomide资产，负责北美及Shionogi区域外商业化。",
+          "sections": [
+            {
+              "heading": "资产与监管",
+              "body": "OASIS III期完成；公司预计2026年底前重提美国NDA。融资变化：本事件未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Shionogi/F2G OASIS公告",
+              "url": "https://www.shionogi.com/global/en/news/2026/10/e20261021_3.html"
+            }
+          ]
+        },
+        {
+          "id": "company-shionogi",
+          "title": "Shionogi & Co., Ltd.",
+          "date": "2026-10-21",
+          "checked": "2026-10-23",
+          "summary": "与F2G共同开发olorofim，并负责欧洲和亚洲商业化。",
+          "sections": [
+            {
+              "heading": "合作与区域权利",
+              "body": "F2G负责北美及Shionogi区域外；Shionogi负责欧洲和亚洲。OASIS结果将支持欧亚监管沟通。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Shionogi/F2G OASIS公告",
+              "url": "https://www.shionogi.com/global/en/news/2026/10/e20261021_3.html"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-il1a-il1b",
+          "title": "IL-1α / IL-1β",
+          "date": "2026-10-22",
+          "checked": "2026-10-23",
+          "summary": "HS病灶中升高的促炎细胞因子；双重阻断在lutikizumab III期获得临床验证。",
+          "sections": [
+            {
+              "heading": "验证、可成药性与风险",
+              "body": "1,400例III期主要与多个次要终点支持人体验证；抗体可成药。需继续验证长期感染风险、持久性、绝对疗效幅度和与IL-17/TNF/TL1A路径的竞争。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AbbVie INTREPID公告",
+              "url": "https://news.abbvie.com/2026-10-22-AbbVie-Announces-Topline-Results-from-the-Phase-3-INTREPID-Trial-Showing-Lutikizumab-Significantly-Improved-Signs-and-Symptoms-of-Disease-in-Patients-with-Hidradenitis-Suppurativa"
+            }
+          ]
+        },
+        {
+          "id": "target-pdl1-vegfa-trop2-combo",
+          "title": "PD-L1 / VEGF-A 与 TROP2组合",
+          "date": "2026-10-22",
+          "checked": "2026-10-23",
+          "summary": "pumitamig试图在肿瘤微环境联结免疫检查点与血管生成抑制，再与TROP2 ADC细胞毒载荷组合。",
+          "sections": [
+            {
+              "heading": "依据与待验证假设",
+              "body": "TROP2 ADC已有临床验证；PD-L1×VEGF-A双特异体仍需在随机III期证明增量获益。支持依据是机制互补，待验证的是疗效加成、叠加毒性和新标准对照下的绝对优势。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech临床合作公告",
+              "url": "https://www.biontech.com/us/en/home/mediaroom/news/press-releases/2026/10/BioNTech-Advances-Phase-3-Clinical-Trial-of-Pumitamig-in-Combination-with-Gilead-s-TROP2-Directed-ADC-Sacituzumab-Govitecan-in-Triple-Negative-Breast-Cancer.html"
+            }
+          ]
+        },
+        {
+          "id": "target-fungal-dhodh",
+          "title": "Fungal DHODH",
+          "date": "2026-10-21",
+          "checked": "2026-10-23",
+          "summary": "真菌嘧啶生物合成关键酶；olorofim以新机制对包括唑耐药株在内的Aspergillus产生活性。",
+          "sections": [
+            {
+              "heading": "人体验证与风险",
+              "body": "OASIS III期死亡率非劣效支持临床验证；口服和低肾毒性提高可开发性。仍需审查肝损伤、较宽非劣效界值、84日结局与监管可接受性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Shionogi/F2G OASIS公告",
+              "url": "https://www.shionogi.com/global/en/news/2026/10/e20261021_3.html"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-biontech-gilead-rosetta-supply-2026-10-22",
+          "title": "BioNTech与Gilead的ROSETTA Breast-01临床合作及供药协议",
+          "date": "2026-10-22",
+          "checked": "2026-10-23",
+          "summary": "BioNTech拟在监管批准后于III期评估pumitamig联合sacituzumab govitecan；Gilead供药，BioNTech继续申办和牵头。",
+          "sections": [
+            {
+              "heading": "交易要素",
+              "body": "各方：BioNTech、Gilead；相关资产：pumitamig、sacituzumab govitecan；权利：临床合作与供药，未披露商业许可；地区：全球试验，商业地域权利未披露；阶段：III期；前期款、里程碑、版税、币种：均未披露；理由：使试验与一线TNBC标准治疗变化保持一致。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech临床合作公告",
+              "url": "https://www.biontech.com/us/en/home/mediaroom/news/press-releases/2026/10/BioNTech-Advances-Phase-3-Clinical-Trial-of-Pumitamig-in-Combination-with-Gilead-s-TROP2-Directed-ADC-Sacituzumab-Govitecan-in-Triple-Negative-Breast-Cancer.html"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-lutikizumab-hs-extension-regulatory-2027",
+          "title": "Lutikizumab HS延长期数据与监管申报",
+          "date": "2027-12-31",
+          "checked": "2026-10-23",
+          "summary": "AbbVie预计2027年获得36周盲法延长期数据，并在2027年下半年用于监管申报；窗口为预计。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床数据/监管提交；estimated。不是已获批。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AbbVie INTREPID公告",
+              "url": "https://news.abbvie.com/2026-10-22-AbbVie-Announces-Topline-Results-from-the-Phase-3-INTREPID-Trial-Showing-Lutikizumab-Significantly-Improved-Signs-and-Symptoms-of-Disease-in-Patients-with-Hidradenitis-Suppurativa"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-rosetta-breast01-protocol-amendment-undated",
+          "title": "ROSETTA Breast-01方案变更获监管同意并更新登记",
+          "date": null,
+          "checked": "2026-10-23",
+          "summary": "公司拟将化疗框架调整为sacituzumab govitecan组合，需监管批准；截至核查日登记仍是原方案。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床方案修订；confirmed plan, timing unknown。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech公告",
+              "url": "https://www.biontech.com/us/en/home/mediaroom/news/press-releases/2026/10/BioNTech-Advances-Phase-3-Clinical-Trial-of-Pumitamig-in-Combination-with-Gilead-s-TROP2-Directed-ADC-Sacituzumab-Govitecan-in-Triple-Negative-Breast-Cancer.html"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT07173751",
+              "url": "https://clinicaltrials.gov/study/NCT07173751"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-olorofim-us-nda-resubmission-2026",
+          "title": "Olorofim美国NDA预计重新提交",
+          "date": "2026-12-31",
+          "checked": "2026-10-23",
+          "summary": "F2G预计在2026年底前重新提交；这是公司预计窗口，尚未发生。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "监管提交；estimated。关键前置包括完整OASIS数据、肝安全与CMC资料。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Shionogi/F2G OASIS公告",
+              "url": "https://www.shionogi.com/global/en/news/2026/10/e20261021_3.html"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-22",
       "date": "2026-10-22",
@@ -14847,18 +15430,18 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-22T07:18:00+08:00",
+    "checkedAt": "2026-10-23T07:32:00+08:00",
     "status": "success",
-    "checked": 69,
-    "changed": 0,
+    "checked": 71,
+    "changed": 1,
     "failed": 0,
-    "newPipelines": 2,
+    "newPipelines": 3,
     "companies": 5,
-    "targets": 5,
+    "targets": 3,
     "deals": 1,
-    "catalysts": 4,
-    "events": 5,
-    "summary": "69个既有NCT全部核查成功、0个登记变更、0个失败；新增2条真实登记，数据库去重后覆盖71个NCT。公司5、靶点5、交易1、催化剂4；历史与全部归档记录均保留。"
+    "catalysts": 3,
+    "events": 4,
+    "summary": "71个既有NCT全部核查成功、0个失败；NCT07863193仅登记日期刷新，0个实质字段变化；新增3个真实登记，数据库去重后覆盖74个NCT。公司5、靶点3、交易1、催化剂3；历史与全部归档记录均保留。"
   },
   "archivedPapers": []
 }
