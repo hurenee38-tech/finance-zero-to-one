@@ -1,8 +1,300 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-22T23:13:00Z",
+  "updatedAt": "2026-10-23T23:18:00Z",
   "items": [
+    {
+      "id": "neuro-2026-10-24",
+      "date": "2026-10-24",
+      "source": "scheduled",
+      "title": "神经生物学简报｜5‑HT₂A偏向信号、NRXN3神经元EV与序列工作记忆子空间",
+      "summary": "本期收录3篇2026-10-23发表的原始研究：慢解离和5-HT2AR–β-arrestin信号与持续抗抑郁样效应；NRXN3用于分离血浆及脑脊液中的候选神经元来源EV；人类MEG支持序列工作记忆的低维子空间组织。三篇期刊影响因子均待核实。",
+      "sections": [
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-24。本期选择3篇2026-10-23发表或在线发表的原始研究，覆盖GPCR药理与药物开发、神经退行性疾病液体活检技术、记忆表征。题名、发表日期、DOI、研究方法和主要结论由期刊页面及开放研究材料核查。影响因子未通过官方Journal Citation Reports可靠核实，统一标注“影响因子待核实”。"
+        },
+        {
+          "heading": "重点推荐｜慢解离与5-HT2AR–β-arrestin偏向信号",
+          "body": "事实：结构导向配体、BRET、结合动力学、遗传模型和跨物种行为结果提示，慢解离可让分次低剂量逐步累积5-HT2AR占有率并维持β-arrestin信号，同时限制强Gαq–Ca2+峰值；小鼠出现持续抗抑郁样效应。分析：这是“动力学偏向＋通路偏向＋给药节律”的药理框架，尚不能外推为人类非致幻抗抑郁疗效。"
+        },
+        {
+          "heading": "方法突破｜NRXN3阳性神经元来源EV",
+          "body": "事实：转录组与EV蛋白质组筛选、Simoa、色谱、密度梯度、成像和免疫分离共同支持NRXN3存在于人血浆及脑脊液EV组分。分析：方法有望提高脑来源液体活检的细胞类型分辨率，但需要排除可溶NRXN3异构体并证明疾病检测增益。"
+        },
+        {
+          "heading": "记忆机制｜序数位置对应不同低维子空间",
+          "body": "事实：人类MEG结合降维和多变量解码显示，保持期项目按序数位置组织进与行为相关的低维子空间；研究未检测到预设形式的序列重放。分析：阴性重放结果受到方法灵敏度限制，不能解释为重放绝对不存在。"
+        },
+        {
+          "heading": "今日思考",
+          "body": "如果一种5-HT2AR配体在小鼠中表现为β-arrestin偏向、抗抑郁样效应持续且甩头反应弱，怎样证明疗效—致幻分离真正来自β-arrestin信号，而不是药代动力学、受体占有率、脑区分布或检测指标不敏感？请设计必要性、充分性和跨物种证据链。"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：需要把“抗抑郁样效应”和“致幻样效应”拆成至少三个层面——配体在受体上的停留时间与占有率、Gαq和β-arrestin等下游信号、以及不同脑区和细胞类型最终产生的行为。单凭一个化合物“偏向β-arrestin且不引起小鼠甩头”不能证明β-arrestin就是疗效与致幻分离的充分机制。\n\n必要性证据：在相同暴露量和受体占有率下，分别使用Arrb2条件性敲除、不能募集β-arrestin的5-HT2AR突变体或选择性干扰肽。如果持续抗抑郁样效应消失，而急性Gαq信号或其他受体功能仍保留，才支持β-arrestin具有必要性。操控应限定在成年期并尽量锁定相关脑区，避免发育补偿。\n\n充分性证据：设计不产生强Gαq–Ca2+峰值、但能在生理表达量下持续募集β-arrestin的配体或化学遗传工具。如果它在没有高峰受体激活的情况下复制持续行为效应，并且该效应被5-HT2AR拮抗或Htr2a缺失消除，才接近充分性。\n\n药代—药效拆分：比较单次高剂量、总剂量相同的分次低剂量和慢解离配体。应同时测游离脑浓度、5-HT2AR占有率、Gαq/β-arrestin时间积分和行为，而不能只比较给药剂量。可写成：信号暴露量≈∫效应强度(t)dt；相同总剂量并不保证相同Cmax、受体占有率或信号积分。\n\n致幻相关证据：小鼠甩头反应和灵长类运动行为只能作为代理指标。更强证据需要在人类研究中同步评估主观体验、受体占有率、安全性和持久疗效；在此之前只能说“未检测到所用动物指标中的致幻相关行为”，不能称为已证实非致幻。\n\n支持证据：结构和结合动力学说明慢解离；BRET或正交方法显示通路偏向；不同化学骨架得到相同结果；下游转录、突触可塑性和行为的时间顺序一致。\n\n待验证假设：β-arrestin信号本身可能不是唯一疗效通路，慢解离、受体内化、位置偏向或其他5-HT受体共同作用都可能参与。\n\n常见误区：把偏向性当成配体固定属性而忽略细胞背景；用不同剂量直接比较两条信号；把动物抗抑郁样行为等同临床抗抑郁；把“没有观察到甩头或运动异常”写成“不会致幻”。\n\n自查标准：是否控制药代暴露和受体占有率？是否同时检验必要性与充分性？是否使用至少两种独立干预？是否明确动物代理指标和人类主观效应之间的证据缺口？开放问题可能有多种合理设计，不存在唯一标准答案。",
+          "collapsed": true
+        }
+      ],
+      "terms": [
+        {
+          "en": "Biased agonism",
+          "zh": "偏向性激动",
+          "meaning": "同一受体配体对不同下游通路产生不成比例的激活；结果依赖细胞背景和比较体系。"
+        },
+        {
+          "en": "Residence time",
+          "zh": "受体驻留时间",
+          "meaning": "配体从受体解离前平均停留的时间，可使药效持续时间不同于血浆暴露。"
+        },
+        {
+          "en": "Receptor occupancy",
+          "zh": "受体占有率",
+          "meaning": "给定时间内被配体结合的受体比例，不能单独等同于功能效应。"
+        },
+        {
+          "en": "Extracellular vesicle",
+          "zh": "细胞外囊泡",
+          "meaning": "细胞释放、具有脂质膜并携带蛋白或核酸的颗粒。"
+        },
+        {
+          "en": "Immuno-isolation",
+          "zh": "免疫分离",
+          "meaning": "利用抗体识别表面标志物，从复杂样本中富集目标颗粒。"
+        },
+        {
+          "en": "Neurexin-3 (NRXN3)",
+          "zh": "神经连接蛋白3",
+          "meaning": "神经元相关跨膜蛋白；本研究将其验证为候选神经元EV表面标志物。"
+        },
+        {
+          "en": "Representational geometry",
+          "zh": "表征几何",
+          "meaning": "用神经活动模式之间的距离和方向描述信息组织方式。"
+        },
+        {
+          "en": "Ordinal position",
+          "zh": "序数位置",
+          "meaning": "项目在序列中的第一、第二等相对顺序位置。"
+        },
+        {
+          "en": "Neural subspace",
+          "zh": "神经子空间",
+          "meaning": "高维群体神经活动中承载特定信息的低维方向集合。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41593-026-02497-5",
+          "title": "慢解离与β-arrestin偏向信号延长迷幻药的抗抑郁样效应",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "topic": "GPCR / 精神药理 / 药物开发",
+          "target": "5-HT2AR–β-arrestin",
+          "summary": "结构导向设计与跨物种药理提示，5-HT2AR的慢解离动力学和持续β-arrestin信号可能在限制强Gαq–Ca2+峰值的同时维持小鼠抗抑郁样效应；目前仍是临床前证据。",
+          "sections": [
+            {
+              "heading": "论文信息与背景",
+              "body": "He等：Sustained antidepressant-like effects of psychedelics through 5-HT2AR–β-arrestin signaling。Nature Neuroscience，2026-10-23；DOI：10.1038/s41593-026-02497-5。影响因子待核实。迷幻药可能产生持久行为效应，但急性知觉改变限制了部分临床应用，研究追问能否从受体动力学和信号偏向上拆分两类效应。"
+            },
+            {
+              "heading": "方法",
+              "body": "作者结合5-HT2AR结构导向配体设计、结合与解离动力学、BRET测量β-arrestin和G蛋白信号、Ca2+实验、受体占有与药代分析，以及Htr2a、Arrb1/Arrb2遗传模型；并在小鼠抑郁样模型和食蟹猴行为任务中比较单次及重复低剂量方案。"
+            },
+            {
+              "heading": "原文发现",
+              "body": "原文显示，β-arrestin偏向配体IHCH-8134在小鼠产生持续抗抑郁样效应而所用致幻相关代理行为较弱。LSD较慢的受体解离使分次低剂量给药逐步累积5-HT2AR占有率，持续β-arrestin信号而限制强Gαq–Ca2+峰值。重复低剂量LSD或psilocybin相关方案在小鼠维持抗抑郁样行为，同时在本研究采用的小鼠和食蟹猴指标中未检测到相应的明显致幻相关行为扰动。"
+            },
+            {
+              "heading": "价值与局限",
+              "body": "价值：把偏向性、停留时间、峰浓度和给药节律纳入同一药理框架，为非致幻型5-HT2AR药物设计提供可检验原则。局限：抗抑郁和致幻读数主要是动物代理指标；食蟹猴样本很小；反复微剂量方案与真实临床给药并不等价；β-arrestin可能与受体内化、位置偏向及其他通路共同作用。"
+            },
+            {
+              "heading": "转化启发（编辑分析）",
+              "body": "不能据此宣称重复微剂量已被证明对人有效且不致幻。更关键的临床转化问题是：在相同脑内受体占有率下，能否获得可重复的疗效—主观体验分离，并长期排除5-HT2B相关心脏风险、耐受和受体适应。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "Ly等（Cell Reports，2018）证明多种迷幻药促进结构与功能性神经可塑性，是持续效应的重要背景。Vargas等（Science，2023）提出细胞内5-HT2AR介导促可塑性，提供位置偏向框架。Madsen等（Neuropsychopharmacology，2019）在人类中把psilocin水平、5-HT2AR占有率和主观强度联系起来，为未来检验“占有率相同但主观效应不同”提供参照。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Neuroscience｜2026-10-23",
+              "url": "https://www.nature.com/articles/s41593-026-02497-5"
+            },
+            {
+              "title": "前期｜Psychedelics Promote Structural and Functional Neural Plasticity｜Cell Reports｜2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29898390/"
+            },
+            {
+              "title": "前期｜Psychedelics promote neuroplasticity through intracellular 5-HT2A receptors｜Science｜2023",
+              "url": "https://www.science.org/doi/10.1126/science.adf0435"
+            },
+            {
+              "title": "前期｜Psilocybin effects correlate with 5-HT2AR occupancy and psilocin｜Neuropsychopharmacology｜2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30685771/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02466-y",
+          "title": "NRXN3帮助从血浆和脑脊液中分离神经元来源细胞外囊泡",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "topic": "神经退行性疾病 / 液体活检 / 生物标志物",
+          "target": "NRXN3-positive extracellular vesicles",
+          "summary": "研究以转录组和EV蛋白质组筛选膜表面标志物，并多方法验证NRXN3存在于人血浆和脑脊液EV上，为神经元来源EV免疫分离提供概念验证。",
+          "sections": [
+            {
+              "heading": "论文信息与研究问题",
+              "body": "Ter-Ovanesyan等：Identification of candidate markers for the isolation of neuron-specific extracellular vesicles。Nature Neuroscience，2026-10-23；DOI：10.1038/s41593-026-02466-y。影响因子待核实。问题是：能否在复杂体液中可靠找到并捕获来自神经元的EV，以非侵入方式读取脑细胞分子状态？"
+            },
+            {
+              "heading": "方法",
+              "body": "作者整合GTEx、人类细胞图谱和EV蛋白质组，筛选兼具跨膜结构、神经元/脑特异性及体液EV可检测性的候选蛋白；开发高纯度EV富集、Simoa超灵敏免疫检测、体积排阻色谱、密度梯度、显微共定位及免疫沉淀流程，并使用iPSC来源神经元作为阳性对照。"
+            },
+            {
+              "heading": "原文发现",
+              "body": "候选SLC12A5、SLC32A1和NRXN3中，NRXN3在脑脊液和血浆EV组分获得多种方法支持。对各18份血浆和脑脊液样本成像时均检测到高于背景的NRXN3阳性颗粒；估算约4%的血浆四跨膜蛋白阳性颗粒同时呈NRXN3阳性。作者随后从两种体液中实现NRXN3阳性组分的特异免疫分离。"
+            },
+            {
+              "heading": "价值与局限",
+              "body": "价值：提供了从细胞类型表达图谱出发、经体液EV蛋白质组和正交实验验证的通用流程，并直接回应L1CAM等既往标志物的争议。局限：NRXN3存在多种剪接和可溶异构体，抗体表位未必只代表EV结合型；“NRXN3阳性”尚不能等同于纯神经元来源；当前工作未证明其货物能够诊断或监测具体疾病。"
+            },
+            {
+              "heading": "转化启发（编辑分析）",
+              "body": "下一步应在已知脑病队列中做盲法、跨中心和批次稳定性验证，并用脑组织、细胞来源条形码或多标志物组合确认来源。真正的临床价值取决于NRXN3阳性EV货物是否比总EV和现有血液标志物带来独立增益，而不仅是能够被捕获。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "Norman等（Nature Methods，2021）发现人血浆与脑脊液中的L1CAM主要不与EV结合，构成本研究必须解决的方法学反例。Chatterjee等（Nature Medicine，2024）利用血浆EV中的tau和TDP-43区分神经退行性疾病，展示疾病分型潜力，同时也凸显来源标记争议。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Neuroscience｜2026-10-23",
+              "url": "https://www.nature.com/articles/s41593-026-02466-y"
+            },
+            {
+              "title": "配套开放蛋白质组数据｜MassIVE MSV000102882",
+              "url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=ccc3bed7e19041a78ea594a73086e037"
+            },
+            {
+              "title": "前期｜L1CAM is not associated with extracellular vesicles in human CSF or plasma｜Nature Methods｜2021",
+              "url": "https://www.nature.com/articles/s41592-021-01174-8"
+            },
+            {
+              "title": "前期｜Plasma extracellular vesicle tau and TDP-43 as diagnostic biomarkers｜Nature Medicine｜2024",
+              "url": "https://www.nature.com/articles/s41591-024-02937-4"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-78895-x",
+          "title": "序列工作记忆由按位置组织的低维子空间维持",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "topic": "记忆 / 人类认知神经科学 / MEG",
+          "target": "working-memory representational geometry",
+          "summary": "人类MEG解码支持序列项目在保持期按顺序位置进入不同低维表征子空间，而未发现研究预设形式的顺序重放证据。",
+          "sections": [
+            {
+              "heading": "论文信息与背景",
+              "body": "Santo-Angles等：Neural subspaces encode sequential working memory without detectable neural sequences。Nature Communications，2026-10-23；DOI：10.1038/s41467-026-78895-x。该版本为已同行评议、可引用的早期在线版本，后续仍可能编辑；影响因子待核实。研究比较两种模型：保持期间逐项重放，或把项目依序数位置组织进不同低维子空间。"
+            },
+            {
+              "heading": "方法",
+              "body": "研究记录人类被试完成多项目序列工作记忆任务时的宽频MEG信号，使用降维、表征几何和多变量解码评估保持期项目身份、顺序位置与行为表现之间的关系，并用时间延迟解码方法检验顺序重放。"
+            },
+            {
+              "heading": "原文发现",
+              "body": "保持期出现与行为相关的低维神经子空间，项目表征按照序数位置被组织；这种结构支持子空间模型。研究没有检测到与预设假说一致的保持期顺序神经重放，因此作者认为序列信息更可能通过低维几何组织维持，而非不断按原顺序逐项回放。"
+            },
+            {
+              "heading": "价值与局限",
+              "body": "价值：把“记住什么”和“它排第几位”统一进可量化的表征几何框架。局限：未检测到重放不等于证明重放不存在；MEG空间分辨率、分析模型灵敏度和任务策略都可能造成阴性结果；低维子空间是群体层级描述，不能直接指定单细胞机制或脑区因果性。"
+            },
+            {
+              "heading": "转化启发（编辑分析）",
+              "body": "这一框架可用于比较衰老、精神疾病或工作记忆障碍中，是项目内容本身退化，还是序数位置子空间分离度下降。但用于临床标志物前，需要跨任务复现、个体可靠性和纵向敏感性评估。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "Spaak等（Journal of Neuroscience，2017）比较工作记忆中的稳定与动态编码，为表征随时间变化提供背景。2025年猴前额叶序列工作记忆研究发现负荷相关、可泛化且分离的顺序子空间，为本次人类MEG结果提供跨物种参照。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications｜2026-10-23",
+              "url": "https://www.nature.com/articles/s41467-026-78895-x"
+            },
+            {
+              "title": "作者分析代码与数据说明｜GitHub geometry_working_memory",
+              "url": "https://github.com/asantoangles/geometry_working_memory"
+            },
+            {
+              "title": "前期｜Stable and Dynamic Coding for Working Memory｜Journal of Neuroscience｜2017",
+              "url": "https://www.jneurosci.org/content/37/27/6503"
+            },
+            {
+              "title": "前期｜Flexible Use of Limited Resources for Sequence Working Memory｜Nature Communications｜2025",
+              "url": "https://www.nature.com/articles/s41467-025-65380-0"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Nature Neuroscience｜2026-10-23",
+          "url": "https://www.nature.com/articles/s41593-026-02497-5"
+        },
+        {
+          "title": "前期｜Psychedelics Promote Structural and Functional Neural Plasticity｜Cell Reports｜2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29898390/"
+        },
+        {
+          "title": "前期｜Psychedelics promote neuroplasticity through intracellular 5-HT2A receptors｜Science｜2023",
+          "url": "https://www.science.org/doi/10.1126/science.adf0435"
+        },
+        {
+          "title": "前期｜Psilocybin effects correlate with 5-HT2AR occupancy and psilocin｜Neuropsychopharmacology｜2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30685771/"
+        },
+        {
+          "title": "主文｜Nature Neuroscience｜2026-10-23",
+          "url": "https://www.nature.com/articles/s41593-026-02466-y"
+        },
+        {
+          "title": "配套开放蛋白质组数据｜MassIVE MSV000102882",
+          "url": "https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=ccc3bed7e19041a78ea594a73086e037"
+        },
+        {
+          "title": "前期｜L1CAM is not associated with extracellular vesicles in human CSF or plasma｜Nature Methods｜2021",
+          "url": "https://www.nature.com/articles/s41592-021-01174-8"
+        },
+        {
+          "title": "前期｜Plasma extracellular vesicle tau and TDP-43 as diagnostic biomarkers｜Nature Medicine｜2024",
+          "url": "https://www.nature.com/articles/s41591-024-02937-4"
+        },
+        {
+          "title": "主文｜Nature Communications｜2026-10-23",
+          "url": "https://www.nature.com/articles/s41467-026-78895-x"
+        },
+        {
+          "title": "作者分析代码与数据说明｜GitHub geometry_working_memory",
+          "url": "https://github.com/asantoangles/geometry_working_memory"
+        },
+        {
+          "title": "前期｜Stable and Dynamic Coding for Working Memory｜Journal of Neuroscience｜2017",
+          "url": "https://www.jneurosci.org/content/37/27/6503"
+        },
+        {
+          "title": "前期｜Flexible Use of Limited Resources for Sequence Working Memory｜Nature Communications｜2025",
+          "url": "https://www.nature.com/articles/s41467-025-65380-0"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-23",
       "date": "2026-10-23",
