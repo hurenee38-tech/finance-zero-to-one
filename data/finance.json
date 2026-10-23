@@ -1,8 +1,850 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-23T07:32:00+08:00",
+  "updatedAt": "2026-10-24T07:18:00+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-24",
+      "date": "2026-10-24",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜里程碑交易ePV、个体化癌症疫苗与IgA肾病",
+      "summary": "从第一性原理拆解授权交易headline与风险调整现值；覆盖Gilead收购口服IL-23R项目、intismeran III期、brezosiran I期、povetacicept III期及ZW209授权。完成74个既有NCT全量巡检，新增4个登记。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Zymeworks与Roche披露ZW209交易：签约前期款5,500万美元、启动I期b时4,000万美元、其余开发/商业/销售里程碑最高7.18亿美元，另有分层版税。纯教学假设：I期b付款两年后发生、概率70%；其余7.18亿美元可视为八年后一次性发生、概率15%；折现率12%。忽略版税和税，该交易的风险调整现值是多少？为什么不能把8.13亿美元headline直接当作Zymeworks今天获得的价值？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：把确定前期款按100%计入，把每笔或每组里程碑乘以发生概率并按时间折现；headline只是名义上限。公式：ePV=5,500万+4,000万×70%/(1+12%)^2+7.18亿×15%/(1+12%)^8≈5,500万+2,232万+4,357万=1.209亿美元。可行答案不是唯一标准答案，因为真实里程碑有多笔、不同触发条件、概率、时间与相关性，本题把它们合并只是教学简化。必要证据：逐项付款触发、付款时间、是否可抵扣、终止后义务、地区和权利范围。支持证据：IND已获许可、I期已启动、Roche承担后续全球开发和商业化。待验证假设：70%与15%概率、两年与八年时点、12%折现率，以及里程碑彼此独立。常见误区：把最高可得金额等同成交现金；漏折现；把版税算入headline又重复计价；忽略临床失败和对方终止权。自查标准：确定款、或有款和版税分栏；每笔都标概率与时点；做成功率、时间、折现率敏感性分析。"
+        },
+        {
+          "heading": "核心概念：授权交易headline不等于经济价值",
+          "body": "授权交易常把前期款、研发里程碑、监管里程碑、销售里程碑和潜在版税并列。Headline value是所有可披露固定与或有付款的名义和；ePV（expected present value，期望现值）则把每笔未来付款按发生概率和时间折现。早期资产通常只有前期款接近确定，其余取决于临床、监管和商业门槛。对许可方，应估算收到付款和保留版税的ePV；对被许可方，还要加未来研发、制造和商业投入，避免只看“最大交易额”。"
+        },
+        {
+          "heading": "1. Gilead以12.75亿美元现金收购口服IL-23R项目",
+          "body": "事实（2026-10-22）：Gilead同意从PepStar收购包括HCXT-2001在内的口服IL-23R项目和全球权利，交割支付12.75亿美元现金，预计2026年第四季度完成；公司预计第四季度GAAP及非GAAP EPS减少0.79–0.83美元。HCXT-2001是延长半衰期的口服大环肽，处于I期，公告未披露NCT编号。分析：科学上，IL-23通路已被注射生物制剂验证，真正待证的是大分子样药理能否通过口服大环肽实现足够暴露、选择性和持续抑制。商业上，若疗效接近生物制剂，口服便利性可进入IBD和银屑病大市场；但小分子口服竞争、给药频率和安全性决定份额。战略上，Gilead获得单药及与emvistegrast组合的选择权。财务上，大额全现金前期款把早期临床、CMC和组合风险集中到买方，EPS影响是会计/费用提示，不等同资产NPV。[1]"
+        },
+        {
+          "heading": "2. Intismeran III期降低黑色素瘤复发风险，OS仍未成熟",
+          "body": "事实（2026-10-22）：INTerpath-001在完全切除的IIB–IV期黑色素瘤中，intismeran个体化新抗原mRNA疗法加pembrolizumab相对pembrolizumab单药把复发或死亡风险降低42%（RFS HR 0.58；95%CI 0.45–0.75；p<0.001），远处转移或死亡风险降低38%（DMFS HR 0.62；p=0.002）；中位随访24.6个月，OS尚未成熟。公司称试验随机1,137人；登记页最后更新时间较旧并列示1,089人，本库保留两种口径。分析：科学上，这是个体化新抗原策略的III期随机验证，且两年RFS为82.2%对70.0%；前六个月HR接近1、六个月后预设分段分析更强，与疫苗制备和免疫程序时间相符，但不能仅凭分段分析证明机制。商业上，关键约束从“是否有效”转向肿瘤测序、制造周转、失败批次、净价和中心能力。战略上，九项INTerpath研究可检验跨瘤种平台性。财务上，监管概率提高，但OS、制造经济性和可扩展性仍决定峰值价值。[2][3]"
+        },
+        {
+          "heading": "3. Brezosiran I期显示深度mHTT降低，但尚无临床获益证据",
+          "body": "事实（2026-10-23）：Alnylam称NCT06585449的最高已评估队列在3个月时脑脊液突变亨廷顿蛋白平均降低60%–64%，个体最高83%，两个独立检测一致；随访最长12个月，未见随剂量增加的CSF炎症标志物、NfL或脑室体积上升。公司计划在监管沟通后于2027年启动安慰剂对照关键性研究。登记把试验列为PHASE1、预计66人和RECRUITING；公司称其为I期b。分析：科学上，鞘内RNAi同时降低全长mHTT与HTT1a，证明靶向和耐久性；但mHTT下降是药效学生物标志物，不是功能、认知或疾病进展获益。商业上，半年一次潜力可改善长期治疗负担，但鞘内给药和专病中心容量仍是摩擦。战略上，Alnylam把RNAi从肝靶向扩展到中枢神经。财务上，早期生物标志物数据提高进入关键试验的概率，不能用成熟疗法倍数估值。[4][5]"
+        },
+        {
+          "heading": "4. Povetacicept RAINIER强化IgA肾病获批叙事，长期肾功能仍在随访",
+          "body": "事实（2026-10-23）：NCT06564142的36周预设中期分析中，povetacicept使蛋白尿较基线降低52.0%，相对安慰剂降低49.8%（p<0.0001）；42.2%患者达到24小时UPCR<0.5 g/g，对照6.2%。试验605人，65.8%使用SGLT2抑制剂；公司称无药物相关严重不良事件或死亡。FDA已受理加速批准BLA，PDUFA目标日为2026-11-30；试验继续盲法随访，104周总eGFR斜率才是长期验证。同期新登记NCT07890909将以40人、开放单臂方式比较从sibeprenlimab预充针转换为povetacicept自动注射器后的体验。分析：科学上，BAFF/APRIL双重抑制同时改善蛋白尿、Gd-IgA1和血尿，形成机制链；长期肾功能和感染风险仍是必要证据。商业上，每四周自动注射器可能改善采用，但患者体验试验不是疗效头对头。财务上，近期监管催化剂和给药便利性均有价值，仍需考虑加速批准确认义务、竞争净价和长期标签。[6][7][8]"
+        },
+        {
+          "heading": "5. Roche获得ZW209全球权利：大额里程碑背后仍是I期风险",
+          "body": "事实（2026-10-23）：Roche获得ZW209全球独家开发与商业化权；Zymeworks获5,500万美元前期款、I期b启动时4,000万美元、最高7.18亿美元其他里程碑以及高个位数至中十几百分比的分层销售版税。Zymeworks与Roche合作执行I期a，Roche出资并负责后续全球开发；交易仍需HSR等待期届满等条件。ZW209是同时靶向DLL3、CD3与CD28的三特异T细胞衔接器，IND已获许可且I期已启动，但公告未披露NCT编号。分析：科学上，条件性CD28共刺激和obligate cis T细胞结合旨在降低非肿瘤激活，现有差异化证据主要为临床前，人体治疗窗尚未知。商业上，DLL3在小细胞肺癌已有验证，但竞争拥挤。战略上，Roche获得全球控制，Zymeworks保留早期执行与长期版税。财务上，5,500万美元是接近确定的现金，后续headline必须逐项概率加权。[9]"
+        },
+        {
+          "heading": "跨岗位洞察：同一笔Gilead–PepStar交易如何被五种岗位阅读",
+          "body": "投行：评估12.75亿美元现金支出、EPS影响、融资能力和交易对同类早期口服肽估值的标杆效应。FA顾问：核实是资产收购而非整家公司并购，明确交割调整、知识产权、人员/技术转移和竞争性竞价。BD：审查全球权利、PepStar平台技术是否随资产转移、组合开发自由度、CMC放大与专利寿命。投资人：用I期成功率、IBD峰值份额、上市时间和失败损失做情景估值，区分IL-23靶点验证与HCXT-2001分子验证。咨询：比较口服肽、生物制剂和传统小分子在疗效、便利性、渠道、支付与患者路径上的定位。"
+        },
+        {
+          "heading": "迷你案例：早期资产的收购价隐含了多高的成功状态价值",
+          "body": "纯教学假设：12.75亿美元收购价全部归于HCXT-2001；从I期到上市成功率12%，七年后上市，折现率10%，暂不计后续研发和商业成本。为使风险调整现值恰好等于收购价，上市时点的成功状态价值V需满足12%×V/(1.10)^7=12.75亿美元，因此V≈207亿美元。这个结果不是HCXT-2001真实估值，而是提醒：若后续成本、失败处置价值和税盾纳入，要求的商业价值会更高；若交易同时买到平台、组合与多适应症选择权，不能把全部价格压在单一资产上。"
+        },
+        {
+          "heading": "创新药数据库维护",
+          "body": "本轮逐项核查既有74个NCT：74个成功、0个失败。NCT07060807与NCT07863193的登记页更新时间均刷新至2026-10-23，但阶段、招募状态、入组、干预、主要终点和完成时间未见实质变化，因此计为2个登记日期变更、0个实质字段变化。新增4个真实登记：NCT05933577（intismeran，III期，ACTIVE_NOT_RECRUITING）、NCT06585449（brezosiran，登记PHASE1/公司称I期b，RECRUITING）、NCT06564142（povetacicept RAINIER，III期，ACTIVE_NOT_RECRUITING）及NCT07890909（povetacicept PAVANT，III期b，NOT_YET_RECRUITING）。去重后覆盖78个NCT。预计完成不等于读出；公司公告与登记字段分开记录。历史条目与全部根级归档均保留。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Headline value",
+          "zh": "交易名义总额",
+          "meaning": "把已披露前期款和最高可能里程碑相加的上限，不代表当期现金或风险调整价值。"
+        },
+        {
+          "en": "Expected present value (ePV)",
+          "zh": "期望现值",
+          "meaning": "每笔未来现金流乘发生概率后再按时间折现得到的现值。"
+        },
+        {
+          "en": "Individualized neoantigen therapy",
+          "zh": "个体化新抗原疗法",
+          "meaning": "依据患者肿瘤特异突变为个人设计抗原序列，以诱导定向T细胞反应。"
+        },
+        {
+          "en": "Piecewise hazard ratio",
+          "zh": "分段风险比",
+          "meaning": "把随访时间分段后分别估计相对事件风险，用于风险随时间变化的情形。"
+        },
+        {
+          "en": "mHTT",
+          "zh": "突变亨廷顿蛋白",
+          "meaning": "由突变HTT基因产生并与亨廷顿病病理相关的蛋白。"
+        },
+        {
+          "en": "UPCR",
+          "zh": "尿蛋白/肌酐比",
+          "meaning": "用于量化蛋白尿的指标，可用来跟踪IgA肾病治疗反应。"
+        },
+        {
+          "en": "PDUFA date",
+          "zh": "处方药用户费法案目标审评日",
+          "meaning": "FDA按用户费绩效目标设定的行动日期，不保证批准。"
+        },
+        {
+          "en": "Obligate cis binding",
+          "zh": "强制同细胞顺式结合",
+          "meaning": "工程化要求多个结合臂在同一细胞表面满足条件，以减少非预期免疫激活。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "[1] Gilead：收购HCXT-2001项目，2026-10-22",
+          "url": "https://investors.gilead.com/news/news-details/2026/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD/default.aspx"
+        },
+        {
+          "title": "[2] Merck/Moderna：INTerpath-001详细III期结果，2026-10-22",
+          "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+        },
+        {
+          "title": "[3] ClinicalTrials.gov NCT05933577，核查于2026-10-24",
+          "url": "https://clinicaltrials.gov/study/NCT05933577"
+        },
+        {
+          "title": "[4] Alnylam：brezosiran I期初步数据，2026-10-23",
+          "url": "https://investors.alnylam.com/press-release?id=0ea5d557-9f90-444e-9c30-3edf5dbdfe68"
+        },
+        {
+          "title": "[5] ClinicalTrials.gov NCT06585449，核查于2026-10-24",
+          "url": "https://clinicaltrials.gov/study/NCT06585449"
+        },
+        {
+          "title": "[6] Vertex：RAINIER与PAVANT更新，2026-10-23",
+          "url": "https://investors.vrtx.com/news-releases/news-release-details/phase-3-rainier-results-supporting-best-class-potential"
+        },
+        {
+          "title": "[7] ClinicalTrials.gov NCT06564142，核查于2026-10-24",
+          "url": "https://clinicaltrials.gov/study/NCT06564142"
+        },
+        {
+          "title": "[8] ClinicalTrials.gov NCT07890909，核查于2026-10-24",
+          "url": "https://clinicaltrials.gov/study/NCT07890909"
+        },
+        {
+          "title": "[9] Zymeworks/Roche：ZW209全球授权，2026-10-23",
+          "url": "https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-enters-exclusive-global-license-and-collaboration/"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT07060807",
+          "title": "patritumab deruxtecan（HER3-DXd）",
+          "company": "Merck Sharp & Dohme LLC",
+          "target": "HER3",
+          "modality": "ADC",
+          "area": "肿瘤",
+          "indication": "HR+/HER2- unresectable locally advanced or metastatic breast cancer",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "A Clinical Study of Patritumab Deruxtecan to Treat Breast Cancer (MK-1022-016)",
+          "registryUpdated": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "登记更新时间刷新至2026-10-23；阶段、招募状态、干预、PFS/OS主要终点、预计1000例及预计完成时间均未发生实质变化。",
+          "endpoints": [
+            "Progression Free Survival (PFS)",
+            "Overall Survival (OS)"
+          ],
+          "primaryCompletion": {
+            "date": "2033-07-14",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2033-07-14",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 1000,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07060807，核查于2026-10-24",
+              "url": "https://clinicaltrials.gov/study/NCT07060807"
+            }
+          ],
+          "note": "仅登记日期刷新，不是临床读出、状态改变或批准；预计完成不等于读出。",
+          "risks": "对照选择、HER3表达、ADC安全性、终点成熟度和制造。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Patritumab deruxtecan"
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Trastuzumab deruxtecan"
+            },
+            {
+              "type": "DRUG",
+              "name": "Treatment of physician's choice chemotherapy"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07863193",
+          "title": "denifanstat（AURORA）",
+          "company": "Sagimet Biosciences Inc.",
+          "target": "FASN",
+          "modality": "口服小分子FASN抑制剂",
+          "area": "皮肤 / 代谢",
+          "indication": "Moderate to severe acne vulgaris",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "Phase 3 Study of Denifanstat in Participants With Moderate to Severe Acne",
+          "registryUpdated": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "800例估计入组的III期仍在招募；本日仅登记更新时间刷新，阶段、状态、入组与主要终点未变。",
+          "endpoints": [
+            "Week 12 EGSS success",
+            "Week 12 absolute change in inflammatory lesion count",
+            "Week 12 absolute change in non-inflammatory lesion count"
+          ],
+          "primaryCompletion": {
+            "date": "2027-08",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-04",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 800,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07863193，核查于2026-10-24",
+              "url": "https://clinicaltrials.gov/study/NCT07863193"
+            }
+          ],
+          "note": "登记日期刷新，不是临床读出、状态改变或批准；预计完成不等于读出。",
+          "risks": "三项共同主要终点、青少年与长期代谢/肝脏安全、入组速度及商业差异化。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Denifanstat"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT05933577",
+          "title": "intismeran autogene（V940 / mRNA-4157）",
+          "company": "Merck Sharp & Dohme LLC / Moderna, Inc.",
+          "target": "患者特异性肿瘤新抗原",
+          "modality": "个体化mRNA新抗原疗法",
+          "area": "肿瘤",
+          "indication": "Completely resected high-risk stage IIB-IV melanoma",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Clinical Study of Intismeran Autogene (V940) Plus Pembrolizumab in People With High-Risk Melanoma (V940-001)",
+          "registryUpdated": "2025-09-24",
+          "checked": "2026-10-24",
+          "summary": "登记为停止招募并继续随访；2026-10-22公司报告RFS HR 0.58及DMFS HR 0.62，OS尚未成熟。公司报告随机1,137人，而较旧登记快照列示1,089人，保留口径差异。",
+          "endpoints": [
+            "Recurrence-free survival (RFS)",
+            "Distant metastasis-free survival (DMFS)",
+            "Overall survival (OS)"
+          ],
+          "enrollment": {
+            "count": 1089,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05933577，核查于2026-10-24",
+              "url": "https://clinicaltrials.gov/study/NCT05933577"
+            },
+            {
+              "title": "Merck/Moderna INTerpath-001详细结果，2026-10-22",
+              "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+            }
+          ],
+          "note": "试验阶段和阳性RFS/DMFS不等于已获批；公司与登记人数口径不同，OS仍未成熟。",
+          "risks": "监管对RFS/DMFS的接受、OS成熟、个体化制造周转和成功率、净价、中心容量与跨瘤种复制。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Intismeran autogene"
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06585449",
+          "title": "brezosiran（ALN-HTT02）",
+          "company": "Alnylam Pharmaceuticals",
+          "target": "HTT / mutant huntingtin / HTT1a",
+          "modality": "鞘内给药siRNA",
+          "area": "神经退行性疾病 / 罕见病",
+          "indication": "Huntington disease, HD-ISS stage 2 or early stage 3",
+          "stage": "Phase 1（公司称Phase 1b）",
+          "status": "RECRUITING",
+          "trialTitle": "A Study to Evaluate ALN-HTT02 in Adult Patients With Huntington's Disease",
+          "registryUpdated": "2026-09-16",
+          "checked": "2026-10-24",
+          "summary": "预计66人、正在招募；主要终点为双盲、开放及延长期的不良事件。公司于2026-10-23报告最高队列3个月CSF mHTT平均降低60%–64%，属于药效学结果而非临床获益。",
+          "endpoints": [
+            "Frequency of adverse events through 12 months in double-blind part",
+            "Frequency of adverse events through 12 months in open-label part",
+            "Frequency of adverse events through 36 months in OLE"
+          ],
+          "primaryCompletion": {
+            "date": "2028-07-05",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-07-05",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 66,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06585449，核查于2026-10-24",
+              "url": "https://clinicaltrials.gov/study/NCT06585449"
+            },
+            {
+              "title": "Alnylam brezosiran初步数据，2026-10-23",
+              "url": "https://investors.alnylam.com/press-release?id=0ea5d557-9f90-444e-9c30-3edf5dbdfe68"
+            }
+          ],
+          "note": "登记阶段写PHASE1，公司表述Phase 1b；本库保留两种口径，不把mHTT降低当作疾病改善或批准。",
+          "risks": "神经功能和疾病进展获益、长期鞘内安全、非等位基因特异HTT降低、NfL与脑室体积变化及关键试验设计。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ALN-HTT02 / brezosiran"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06564142",
+          "title": "povetacicept（RAINIER）",
+          "company": "Vertex Pharmaceuticals Incorporated",
+          "target": "BAFF / APRIL",
+          "modality": "TACI-Fc融合蛋白",
+          "area": "肾脏 / 自免",
+          "indication": "Immunoglobulin A nephropathy",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Evaluation of Efficacy of Povetacicept in Adults With Immunoglobulin A Nephropathy (IgAN)",
+          "registryUpdated": "2026-05-15",
+          "checked": "2026-10-24",
+          "summary": "605人关键性试验停止招募并继续盲法随访；36周UPCR相对安慰剂降低49.8%，长期验证为104周总eGFR斜率。",
+          "endpoints": [
+            "Percent change from baseline in 24-hour UPCR at Week 36",
+            "Total eGFR slope through Week 104"
+          ],
+          "primaryCompletion": {
+            "date": "2028-01-30",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-01-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 605,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06564142，核查于2026-10-24",
+              "url": "https://clinicaltrials.gov/study/NCT06564142"
+            },
+            {
+              "title": "Vertex RAINIER公告，2026-10-23",
+              "url": "https://investors.vrtx.com/news-releases/news-release-details/phase-3-rainier-results-supporting-best-class-potential"
+            }
+          ],
+          "note": "36周蛋白尿为中期分析；试验仍盲法进行，预计完成不等于读出，BLA受理不等于批准。",
+          "risks": "104周eGFR斜率、长期感染和免疫球蛋白影响、加速批准确认义务、竞争与净价。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Povetacicept"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07890909",
+          "title": "povetacicept（PAVANT）",
+          "company": "Vertex Pharmaceuticals Incorporated",
+          "target": "BAFF / APRIL",
+          "modality": "自动注射器给药的TACI-Fc融合蛋白",
+          "area": "肾脏 / 自免 / 给药体验",
+          "indication": "Immunoglobulin A nephropathy",
+          "stage": "Phase 3b（登记PHASE3）",
+          "status": "NOT_YET_RECRUITING",
+          "trialTitle": "A Phase 3b Study of Participant Experience on Povetacicept Administered Via Autoinjector as Compared to Sibeprenlimab Administered Via Prefilled Syringe",
+          "registryUpdated": "2026-10-22",
+          "checked": "2026-10-24",
+          "summary": "新登记40人开放单臂研究，评估从sibeprenlimab预充针转换至povetacicept自动注射器后的自我注射体验；不是疗效头对头。",
+          "endpoints": [
+            "Change from baseline in Self-Injection Administration Questionnaire scores at Week 12 after transition"
+          ],
+          "primaryCompletion": {
+            "date": "2027-12-12",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-03-02",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 40,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07890909，核查于2026-10-24",
+              "url": "https://clinicaltrials.gov/study/NCT07890909"
+            },
+            {
+              "title": "Vertex PAVANT公告，2026-10-23",
+              "url": "https://investors.vrtx.com/news-releases/news-release-details/phase-3-rainier-results-supporting-best-class-potential"
+            }
+          ],
+          "note": "登记为NOT_YET_RECRUITING；预计开始和完成时间不等于实际招募或读出。",
+          "risks": "小样本、开放单臂、患者选择、主观问卷偏倚及与商业采用的外推。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Povetacicept"
+            },
+            {
+              "type": "DRUG",
+              "name": "Sibeprenlimab"
+            }
+          ],
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-gilead",
+          "title": "Gilead Sciences, Inc.",
+          "date": "2026-10-22",
+          "checked": "2026-10-24",
+          "summary": "以12.75亿美元现金收购PepStar口服IL-23R项目，获得包括HCXT-2001的全球权利。",
+          "sections": [
+            {
+              "heading": "战略与财务",
+              "body": "强化炎症/IBD管线，并保留与emvistegrast组合选择权；预计Q4 2026交割并减少当季EPS 0.79–0.83美元。公告未披露NCT。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gilead交易公告",
+              "url": "https://investors.gilead.com/news/news-details/2026/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "company-pepstar",
+          "title": "PepStar Therapeutics Limited",
+          "date": "2026-10-22",
+          "checked": "2026-10-24",
+          "summary": "私营临床阶段公司，开发口服大环肽平台和HCXT-2001。",
+          "sections": [
+            {
+              "heading": "资产与交易",
+              "body": "向Gilead出售口服IL-23R项目全球权利；公告未说明平台其余资产、人员或未来里程碑。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gilead交易公告",
+              "url": "https://investors.gilead.com/news/news-details/2026/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "company-merck",
+          "title": "Merck & Co., Inc.",
+          "date": "2026-10-22",
+          "checked": "2026-10-24",
+          "summary": "与Moderna共同开发intismeran；KEYTRUDA作为组合骨架。",
+          "sections": [
+            {
+              "heading": "平台与权利",
+              "body": "INTerpath计划含九项II/III期研究；公告未更新双方经济分成。公司正与监管机构沟通。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Merck/Moderna INTerpath-001公告",
+              "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+            }
+          ]
+        },
+        {
+          "id": "company-moderna",
+          "title": "Moderna, Inc.",
+          "date": "2026-10-22",
+          "checked": "2026-10-24",
+          "summary": "个体化mRNA新抗原疗法intismeran共同开发方，III期RFS/DMFS阳性。",
+          "sections": [
+            {
+              "heading": "制造与商业化",
+              "body": "价值取决于患者级测序、序列设计、制造周转、批次成功率与跨瘤种复制；OS尚未成熟。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Merck/Moderna INTerpath-001公告",
+              "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+            }
+          ]
+        },
+        {
+          "id": "company-alnylam",
+          "title": "Alnylam Pharmaceuticals, Inc.",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "披露brezosiran早期CSF mHTT降低，计划2027年关键性研究。",
+          "sections": [
+            {
+              "heading": "平台扩展",
+              "body": "从肝靶向RNAi扩展到中枢神经鞘内给药；融资变化本事件未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Alnylam brezosiran公告",
+              "url": "https://investors.alnylam.com/press-release?id=0ea5d557-9f90-444e-9c30-3edf5dbdfe68"
+            }
+          ]
+        },
+        {
+          "id": "company-vertex",
+          "title": "Vertex Pharmaceuticals Incorporated",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "推进povetacicept在IgA肾病的加速批准、长期验证和自动注射器体验研究。",
+          "sections": [
+            {
+              "heading": "监管与产品化",
+              "body": "PDUFA目标日2026-11-30；RAINIER继续至104周，PAVANT检验患者给药体验。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Vertex RAINIER/PAVANT公告",
+              "url": "https://investors.vrtx.com/news-releases/news-release-details/phase-3-rainier-results-supporting-best-class-potential"
+            }
+          ]
+        },
+        {
+          "id": "company-zymeworks",
+          "title": "Zymeworks Inc.",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "向Roche授权DLL3×CD3×CD28三特异体ZW209全球权利。",
+          "sections": [
+            {
+              "heading": "经济条款",
+              "body": "5,500万美元前期、I期b启动4,000万美元、最高7.18亿美元其他里程碑及高个位数至中十几百分比版税。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Zymeworks/Roche交易公告",
+              "url": "https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-enters-exclusive-global-license-and-collaboration/"
+            }
+          ]
+        },
+        {
+          "id": "company-roche",
+          "title": "Roche",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "获得ZW209全球独家开发和商业化权，承担I期a资金及后续全球开发。",
+          "sections": [
+            {
+              "heading": "战略逻辑",
+              "body": "补充小细胞肺癌及DLL3阳性神经内分泌肿瘤组合；人体治疗窗仍待I期验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Zymeworks/Roche交易公告",
+              "url": "https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-enters-exclusive-global-license-and-collaboration/"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-il23r-oral-peptide",
+          "title": "IL-23R / 口服大环肽",
+          "date": "2026-10-22",
+          "checked": "2026-10-24",
+          "summary": "IL-23受体在IBD和银屑病已被通路级验证，HCXT-2001尝试用口服大环肽实现受体抑制。",
+          "sections": [
+            {
+              "heading": "验证与风险",
+              "body": "必要证据是人体暴露、受体占有、持续药效、安全和临床疗效；靶点验证不能替代分子与口服递送验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gilead交易公告",
+              "url": "https://investors.gilead.com/news/news-details/2026/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "target-personalized-neoantigen-mrna",
+          "title": "患者特异性肿瘤新抗原 / mRNA",
+          "date": "2026-10-22",
+          "checked": "2026-10-24",
+          "summary": "通过肿瘤与正常DNA识别个人突变并编码最多34个新抗原，诱导特异T细胞反应。",
+          "sections": [
+            {
+              "heading": "人体验证与待验证",
+              "body": "III期RFS/DMFS已获随机验证；OS、制造可扩展性、批次成功和跨瘤种外推仍待确认。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Merck/Moderna INTerpath-001公告",
+              "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+            }
+          ]
+        },
+        {
+          "id": "target-mhtt-htt1a-rnai",
+          "title": "mHTT / HTT1a RNAi",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "brezosiran降低全长突变HTT和短型HTT1a，早期人体显示CSF靶标降低。",
+          "sections": [
+            {
+              "heading": "证据层级",
+              "body": "靶标降低是支持证据；必要证据是安慰剂对照下的运动、认知、功能或综合疾病进展改善及长期安全。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Alnylam brezosiran公告",
+              "url": "https://investors.alnylam.com/press-release?id=0ea5d557-9f90-444e-9c30-3edf5dbdfe68"
+            }
+          ]
+        },
+        {
+          "id": "target-baff-april-povetacicept",
+          "title": "BAFF / APRIL双重抑制",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "通过TACI-Fc融合蛋白同时抑制两种B细胞生存/分化细胞因子，减少致病性免疫复合物上游生成。",
+          "sections": [
+            {
+              "heading": "人体验证与风险",
+              "body": "RAINIER的蛋白尿、Gd-IgA1和血尿改善支持机制链；104周eGFR、感染和免疫球蛋白安全决定长期价值。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Vertex RAINIER公告",
+              "url": "https://investors.vrtx.com/news-releases/news-release-details/phase-3-rainier-results-supporting-best-class-potential"
+            }
+          ]
+        },
+        {
+          "id": "target-dll3-cd3-cd28-tritce",
+          "title": "DLL3 × CD3 × CD28三特异T细胞衔接",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "ZW209将肿瘤DLL3识别、CD3招募与条件性CD28共刺激整合在一分子。",
+          "sections": [
+            {
+              "heading": "验证与风险",
+              "body": "DLL3具临床验证，三特异构型的差异化目前主要为临床前；必须在人体确认细胞因子释放、神经毒性、肿瘤选择性与持久缓解。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Zymeworks/Roche交易公告",
+              "url": "https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-enters-exclusive-global-license-and-collaboration/"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-gilead-pepstar-hcxt2001-2026-10-22",
+          "title": "Gilead收购PepStar口服IL-23R项目",
+          "date": "2026-10-22",
+          "checked": "2026-10-24",
+          "summary": "Gilead以交割时12.75亿美元现金获得包括HCXT-2001的全球权利。",
+          "sections": [
+            {
+              "heading": "交易要素",
+              "body": "买方：Gilead；卖方：PepStar；类型：资产/项目收购；资产：口服IL-23R项目及HCXT-2001；地区：全球；阶段：I期；前期/交割对价：12.75亿美元现金；里程碑与版税：未披露；预计Q4 2026交割。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gilead交易公告",
+              "url": "https://investors.gilead.com/news/news-details/2026/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "deal-zymeworks-roche-zw209-2026-10-23",
+          "title": "Zymeworks向Roche授权ZW209全球权利",
+          "date": "2026-10-23",
+          "checked": "2026-10-24",
+          "summary": "Roche获得ZW209全球独家开发和商业化权，Zymeworks参与I期a。",
+          "sections": [
+            {
+              "heading": "交易要素",
+              "body": "许可方：Zymeworks；被许可方：Roche；资产：ZW209；地区：全球；阶段：I期；前期款：5,500万美元；I期b启动款：4,000万美元；其他里程碑：最高7.18亿美元；版税：高个位数至中十几百分比、分层；Roche承担I期a资金及后续开发；交易待HSR等条件。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Zymeworks/Roche交易公告",
+              "url": "https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-enters-exclusive-global-license-and-collaboration/"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-hcxt2001-gilead-close-q4-2026",
+          "title": "Gilead/PepStar交易预计交割",
+          "date": "2026-12-31",
+          "checked": "2026-10-24",
+          "summary": "交易预计2026年第四季度完成，仍需惯常交割条件。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "交易交割；estimated，不是已完成。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Gilead交易公告",
+              "url": "https://investors.gilead.com/news/news-details/2026/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD/default.aspx"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-intismeran-regulatory-engagement-undated",
+          "title": "Intismeran黑色素瘤监管沟通",
+          "date": null,
+          "checked": "2026-10-24",
+          "summary": "Merck与Moderna称正与监管机构沟通；未披露提交日期。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "监管沟通；confirmed plan, timing unknown。OS仍未成熟。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Merck/Moderna INTerpath-001公告",
+              "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-brezosiran-pivotal-2027",
+          "title": "Brezosiran安慰剂对照关键性研究计划",
+          "date": "2027-12-31",
+          "checked": "2026-10-24",
+          "summary": "Alnylam计划在监管对齐后于2027年启动。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床启动；estimated且依赖监管沟通，不是已开始。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Alnylam brezosiran公告",
+              "url": "https://investors.alnylam.com/press-release?id=0ea5d557-9f90-444e-9c30-3edf5dbdfe68"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-povetacicept-igan-pdufa-2026-11-30",
+          "title": "Povetacicept IgA肾病PDUFA目标行动日",
+          "date": "2026-11-30",
+          "checked": "2026-10-24",
+          "summary": "FDA已受理加速批准BLA，目标行动日2026-11-30；目标日不保证批准。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "监管行动；confirmed target date。后续仍需长期eGFR验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Vertex RAINIER公告",
+              "url": "https://investors.vrtx.com/news-releases/news-release-details/phase-3-rainier-results-supporting-best-class-potential"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-zw209-phase1b-payment-undated",
+          "title": "ZW209启动I期b将触发4,000万美元付款",
+          "date": null,
+          "checked": "2026-10-24",
+          "summary": "交易披露I期b启动付款，但未披露预计时点。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床/交易里程碑；timing unknown，不能并入当期现金。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Zymeworks/Roche交易公告",
+              "url": "https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-enters-exclusive-global-license-and-collaboration/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-23",
       "date": "2026-10-23",
@@ -15430,18 +16272,18 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-23T07:32:00+08:00",
+    "checkedAt": "2026-10-24T07:18:00+08:00",
     "status": "success",
-    "checked": 71,
-    "changed": 1,
+    "checked": 74,
+    "changed": 2,
     "failed": 0,
-    "newPipelines": 3,
-    "companies": 5,
-    "targets": 3,
-    "deals": 1,
-    "catalysts": 3,
-    "events": 4,
-    "summary": "71个既有NCT全部核查成功、0个失败；NCT07863193仅登记日期刷新，0个实质字段变化；新增3个真实登记，数据库去重后覆盖74个NCT。公司5、靶点3、交易1、催化剂3；历史与全部归档记录均保留。"
+    "newPipelines": 4,
+    "companies": 8,
+    "targets": 5,
+    "deals": 2,
+    "catalysts": 5,
+    "events": 5,
+    "summary": "74个既有NCT全部核查成功、0个失败；NCT07060807与NCT07863193仅登记日期刷新，0个实质字段变化；新增4个真实登记，数据库去重后覆盖78个NCT。公司8、靶点5、交易2、催化剂5；历史与全部根级归档记录均保留。"
   },
   "archivedPapers": []
 }
