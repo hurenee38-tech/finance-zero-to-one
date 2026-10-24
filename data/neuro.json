@@ -1,8 +1,313 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-23T23:18:00Z",
+  "updatedAt": "2026-10-24T23:04:31Z",
   "items": [
+    {
+      "id": "neuro-2026-10-25",
+      "date": "2026-10-25",
+      "source": "scheduled",
+      "title": "神经生物学简报｜MAFB癫痫机制、感光突触代谢模块与强化学习仲裁",
+      "summary": "本期收录3篇2026-10-24发表的原始研究，覆盖遗传性局灶性癫痫的非经典机制、感光细胞突触的结构—代谢组织，以及强迫/冲动相关的决策计算异质性。三篇均由期刊页面核实；影响因子因未能通过官方Journal Citation Reports可靠核验，统一标注“影响因子待核实”。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "如果GATOR1变异类器官同时出现mTOR过度激活、MAFB降低和GABA能中间神经元缺陷，怎样设计一组实验，才能较有说服力地判断“MAFB不足是独立于mTOR的致病机制”，而不是两条平行相关变化或类器官成熟度差异？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：要分别检验必要性、充分性、通路先后关系和替代解释。\n\n推理步骤与依据：\n1. 必要证据：在患者/同基因型类器官中把MAFB恢复到接近生理水平；若分化、迁移、GABA释放和网络抑制均被救援，而mTOR读数仍高，才支持MAFB位于一条可独立纠正的路径。\n2. 充分性证据：在同基因背景的健康对照中，以剂量匹配方式敲低MAFB；若复现相同细胞谱系和功能缺陷，说明MAFB不足足以产生核心表型。\n3. 上位性检验：用药理或遗传方法把mTOR活动归一化，观察MAFB及表型是否恢复；再组合“mTOR归一化+MAFB补回/再敲低”。若抑制mTOR不能救援、MAFB补回能救援，独立性证据更强。\n4. 排除替代解释：使用CRISPR等基因校正的等基因对照、多名患者和多批类器官；按实际发育标志而非培养天数匹配成熟度，并分别测细胞增殖、死亡、谱系比例和迁移速度。\n5. 支持证据：时间序列若显示MAFB下降先于迁移和GABA释放异常；单细胞数据若定位到MGE来源谱系；患者脑组织呈同方向变化，均可增强可信度。\n\n一种可行答案：建立“患者—基因校正—健康对照”三组腹侧GABA能类器官，做MAFB补回、MAFB敲低、mTOR抑制及组合干预；预先定义MAFB表达、p-S6、细胞谱系比例、迁移、膜片钳/网络活动和GABA释放终点。只有当MAFB的生理剂量补回跨层级救援，而mTOR归一化不能解释该救援，才把“mTOR非依赖机制”作为较强结论。\n\n常见误区：仅凭雷帕霉素一次给药无效就宣布独立；把超生理过表达的救援当作特异性；只看标志物比例、不排除细胞死亡；把类器官结果直接等同患者疗效。\n\n自查标准：是否同时回答了必要性与充分性？是否有等基因、批次和成熟度对照？是否直接确认mTOR被有效归一化？结论是否仍保留“支持而非最终证明”的边界？这不是唯一实验方案。",
+          "collapsed": true
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-25。本期选取3篇2026-10-24在线发表的Nature Communications原始研究。题名、日期、DOI、样本量、核心方法和主要结论由期刊页核实；论文处于可引用的早期在线版本，之后可能有编辑性更新。影响因子待核实，不以品牌替代方法学评价。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "重点推荐GATOR1—MAFB论文：它用患者来源类器官、敲低和补回实验把一个谱系特异机制从常见的mTOR解释中分离出来。其余两篇分别提醒我们，神经功能可由亚细胞结构—代谢模块和个体化计算策略共同决定；三者都仍需谨慎区分实验事实、模型解释与临床外推。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "GATOR1",
+          "zh": "GATOR1复合体",
+          "meaning": "由DEPDC5、NPRL2和NPRL3组成的氨基酸感知调控复合体，通常抑制mTORC1。"
+        },
+        {
+          "en": "Medial ganglionic eminence (MGE)",
+          "zh": "内侧神经节隆起",
+          "meaning": "胚胎腹侧前脑区域，是多类皮层GABA能中间神经元的重要来源。"
+        },
+        {
+          "en": "MAFB",
+          "zh": "MAFB转录因子",
+          "meaning": "参与细胞命运与中间神经元迁移、成熟的转录调控因子。"
+        },
+        {
+          "en": "Epistasis",
+          "zh": "遗传上位性",
+          "meaning": "通过组合扰动判断两个基因或通路在因果链中的先后或依赖关系。"
+        },
+        {
+          "en": "FIB-SEM",
+          "zh": "聚焦离子束扫描电镜",
+          "meaning": "逐层切削并成像组织，用于纳米尺度三维超微结构重建。"
+        },
+        {
+          "en": "Synaptic ribbon",
+          "zh": "突触带",
+          "meaning": "感觉细胞活性区的电子致密结构，可组织囊泡以支持持续快速释放。"
+        },
+        {
+          "en": "Syntaphilin",
+          "zh": "线粒体锚定蛋白",
+          "meaning": "把轴突线粒体停泊在微管附近并调节突触前能量与钙稳态的蛋白。"
+        },
+        {
+          "en": "Model-based learning",
+          "zh": "有模型学习",
+          "meaning": "利用环境转移结构进行前瞻规划的强化学习策略。"
+        },
+        {
+          "en": "Model-free learning",
+          "zh": "无模型学习",
+          "meaning": "依赖缓存价值和奖励预测误差、无需显式环境模型的策略。"
+        },
+        {
+          "en": "Reliability-based arbitration",
+          "zh": "基于可靠性的仲裁",
+          "meaning": "比较不同策略或表征的预测可信度，再分配行为控制权的计算机制。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41467-026-78547-0",
+          "title": "人脑类器官揭示：GATOR1遗传性局灶性癫痫存在独立于mTOR过度激活的MGE中间神经元缺陷",
+          "date": "2026-10-24",
+          "checked": "2026-10-25",
+          "topic": "遗传性局灶性癫痫 / GABA能中间神经元 / 类器官",
+          "target": "GATOR1–MAFB–MGE interneuron",
+          "summary": "患者来源、神经元类型特异的脑类器官显示，GATOR1相关转录异常主要集中于腹侧GABA能类器官；分化、迁移和功能性GABA释放受损。作者的敲低与过表达实验把MAFB不足置于关键机制位置，并报告该表型不依赖经典mTOR过度激活。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Yang等，Nature Communications，2026-10-24；DOI：10.1038/s41467-026-78547-0。影响因子待核实。标题可译为“人脑类器官揭示遗传性局灶性癫痫中独立于mTOR过度激活的MGE中间神经元缺陷”。GATOR1基因变异是非获得性局灶性癫痫的重要单基因原因，但传统解释多聚焦mTORC1；本研究追问是否还存在细胞谱系特异的非经典机制。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者建立患者来源的神经元类型特异类器官，重点比较腹侧GABA能类器官，并结合转录分析、GABA能中间神经元分化和迁移测定、功能性GABA释放、患者脑组织验证，以及MAFB敲低和过表达救援实验。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文发现：患者腹侧GABA能类器官的转录失调最突出；中间神经元分化、迁移及GABA释放均受损。MAFB在患者类器官和脑组织中下降；在对照类器官敲低MAFB可复制缺陷，在患者类器官过表达MAFB可救援异常。作者据此提出GATOR1变异可通过MAFB不足损害MGE来源中间神经元，而不只是经经典mTOR过度激活致病。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把“癫痫=mTOR病”扩展为谱系特异的转录因子机制，并提供可做遗传上位性检验的靶点。局限：类器官不能完整重建成熟皮层回路、血管和免疫环境；过表达救援可能高于生理水平；摘要所述“独立”仍需严谨的剂量、时序和通路抑制对照。编辑分析：MAFB更接近机制节点而非现成药物靶点，近期转化应先验证患者分层、生理剂量救援和网络兴奋性结局。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "GATOR1相关局灶性癫痫的异常并非在所有神经元类型中均匀出现，而在腹侧GABA能谱系尤其明显。MAFB降低能解释分化、迁移和抑制性递质释放的共同缺陷；敲低复制、补回救援，使其成为比单纯mTOR活性更具体的候选机制。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Weckhuysen等（Epilepsia，2016）在局灶性癫痫/局灶性皮质发育不良队列中界定GATOR1基因谱，建立遗传背景。② Iffland等（Neurobiology of Disease，2019）用功能筛选和胚胎脑Depdc5缺失模型支持mTORC1失调路径，是本研究提出非经典机制时的重要对照。③ Lim等（Nature Neuroscience，2018）显示Mafb影响迁移路线、轴突发育与中间神经元功能，为MAFB表型提供发育生物学先例。④ Pai等（Cell Reports，2019）揭示Mafb/c-Maf在皮层中间神经元命运与功能中的阶段性作用，支持其谱系调控地位。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications｜2026-10-24",
+              "url": "https://www.nature.com/articles/s41467-026-78547-0"
+            },
+            {
+              "title": "前期｜Involvement of GATOR complex genes in familial focal epilepsies and focal cortical dysplasia｜Epilepsia｜2016",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27173016/"
+            },
+            {
+              "title": "前期｜Functional screening of GATOR1 complex variants｜Neurobiology of Disease｜2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31639411/"
+            },
+            {
+              "title": "前期｜Optimization of interneuron function by direct coupling of cell migration and axonal targeting｜Nature Neuroscience｜2018",
+              "url": "https://www.nature.com/articles/s41593-018-0162-9"
+            },
+            {
+              "title": "前期｜Mafb and c-Maf Have Prenatal Compensatory and Postnatal Antagonistic Roles｜Cell Reports｜2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30699346/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-78869-z",
+          "title": "突触“线粒体—带状结构—囊泡”复合体组织感光细胞神经递质传递",
+          "date": "2026-10-24",
+          "checked": "2026-10-25",
+          "topic": "视网膜 / 突触超微结构 / 神经递质释放",
+          "target": "Syntaphilin (SNPH)–sMRVc",
+          "summary": "FIB-SEM三维重建与电生理显示，杆细胞以一个巨型线粒体配对一条突触带，锥细胞则有多个分布式复合单元。删除线粒体锚定蛋白SNPH改变杆细胞结构计量并增强传递；rd10视网膜退化时，该模块在功能下降前逐步解体。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Wang等，Nature Communications，2026-10-24；DOI：10.1038/s41467-026-78869-z。影响因子待核实。标题可译为“突触线粒体—带状结构—囊泡复合体组织感光细胞神经递质传递”。感光细胞需在黑暗中持续释放谷氨酸，但能量供应、突触带和囊泡池是否构成稳定功能单元此前并不清楚。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者使用聚焦离子束扫描电镜（FIB-SEM）与三维重建解析杆、锥感光细胞终末，配合免疫标记和电生理；通过Snph缺失扰动线粒体锚定，并在rd10视网膜退化模型中进行时间序列结构—功能比较。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文发现：杆细胞球状终末通常呈单个巨型线粒体与单条突触带的严格1:1配对，锥细胞足突则含多个分布式sMRVc。Snph缺失后，不少杆终末转为2:1线粒体—突触带比例，额外线粒体靠近突触带，并伴更强突触传递。rd10退化中，线粒体碎裂、突触带脱离和囊泡分散先于明显功能下降；作者还识别到选择性连接水平细胞的非带状释放位点。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把突触结构和局部代谢整合成可量化模块，解释杆、锥细胞不同视觉需求。局限：结构相关性不能单独证明每一步因果；Snph全身或细胞层级扰动可能同时改变钙缓冲与ATP供给；小鼠视网膜结果不能直接外推人类退行性眼病。编辑分析：sMRVc解体可能成为早期病理标志，但需先证明其预测功能衰退并可被选择性修复。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "感光细胞并非把线粒体、突触带和囊泡松散堆放，而是按细胞亚型组成有规则的结构—代谢单元。改变线粒体锚定能重排单元并改变传递强度；退化时该单元率先瓦解，提示维持其完整性可能比单独增加线粒体数量更重要。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Kang等（Cell，2008）鉴定SNPH为轴突线粒体停泊蛋白，并显示其影响短时易化，是本研究扰动策略的分子基础。② Sun等（Cell Reports，2013）把运动性线粒体与突触前强度变异相连，支持局部线粒体位置会影响释放。③ Li等（Nature Metabolism，2020）揭示能量感知与SNPH介导锚定共同维持突触前代谢，提供代谢机制框架。④ Dembla等（Scientific Reports，2020）显示突触带稳定Cav1.4/RIM2活性区，为“带状结构组织持续释放”提供前期证据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications｜2026-10-24",
+              "url": "https://www.nature.com/articles/s41467-026-78869-z"
+            },
+            {
+              "title": "前期｜Docking of Axonal Mitochondria by Syntaphilin Controls Their Mobility and Affects Short-Term Facilitation｜Cell｜2008",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18191227/"
+            },
+            {
+              "title": "前期｜Motile Axonal Mitochondria Contribute to the Variability of Presynaptic Strength｜Cell Reports｜2013",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23891000/"
+            },
+            {
+              "title": "前期｜The cross-talk of energy sensing and mitochondrial anchoring sustains synaptic efficacy｜Nature Metabolism｜2020",
+              "url": "https://www.nature.com/articles/s42255-020-00289-0"
+            },
+            {
+              "title": "前期｜Synaptic ribbons foster active zone stability and illumination-dependent active zone enrichment｜Scientific Reports｜2020",
+              "url": "https://www.nature.com/articles/s41598-020-62734-0"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-78185-6",
+          "title": "基于可靠性的策略仲裁揭示多种强化学习类型及其与强迫性、冲动性的联系",
+          "date": "2026-10-24",
+          "checked": "2026-10-25",
+          "topic": "计算精神病学 / 强化学习 / 决策",
+          "target": "Model-based / model-free arbitration",
+          "summary": "两个独立样本的改良两步决策任务表明，人类会整合状态转移、无模型奖励预测和有模型奖励预测三类可靠性信号。个体不仅策略权重不同，仲裁对象本身也不同；这些行为类型与强迫性和冲动性维度呈不同关联。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Cockburn等，Nature Communications，2026-10-24；DOI：10.1038/s41467-026-78185-6。影响因子待核实。标题可译为“基于可靠性的仲裁揭示异质的有模型/无模型强化学习策略，并与强迫性和冲动性相关”。经典框架把行为分为目标导向与习惯系统，但人们究竟如何切换、是否都在同一对策略间切换，仍有争议。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者在两个独立样本（N=452、N=226）使用改良两步决策任务和计算模型比较，分别估计状态转移可靠性、无模型奖励预测可靠性和有模型奖励预测可靠性，并将拟合得到的策略类型与强迫性、冲动性维度关联。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文发现：参与者综合三类可靠性信息分配控制；群体可呈现以无模型、有模型、混合或非强化学习为主的行为轮廓。更关键的是，部分人确实在有模型与无模型控制间切换，另一些人保持有模型控制，却在不同任务表征之间仲裁。各轮廓与强迫性、冲动性特征的关联不同。这里是维度关联和模型解释，不等同于临床诊断或因果机制。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把“策略权重多少”推进到“个体在什么表征之间仲裁”，可减少把所有强迫行为都解释为同一种习惯偏向。局限：计算模型可辨识性、任务理解和参数先验会影响分型；症状关联不能证明仲裁异常导致症状；线上或非临床样本对患者群体的外推有限。编辑分析：未来数字表型或干预研究应先跨任务复现个体类型，并用纵向、神经影像或扰动实验验证机制稳定性。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "人的决策控制不是一条“理性—习惯”连续轴。不同人可能依赖不同可靠性线索，而且表面相似的策略切换可能发生在不同内部模型之间；因此，同样的强迫性或冲动性评分未必对应同一计算机制。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Daw等（Neuron，2011）用两步任务分离有模型与无模型选择，是该范式的基础。② Lee等（Neuron，2014）提出并用行为/fMRI检验基于预测可靠性的仲裁，是本研究直接扩展的理论框架。③ Gillan等（eLife，2016）在大样本中将目标导向缺陷与强迫维度联系起来，为跨诊断维度分析提供先例。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications｜2026-10-24",
+              "url": "https://www.nature.com/articles/s41467-026-78185-6"
+            },
+            {
+              "title": "前期｜Model-Based Influences on Humans' Choices and Striatal Prediction Errors｜Neuron｜2011",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/21435563/"
+            },
+            {
+              "title": "前期｜Neural Computations Underlying Arbitration between Model-Based and Model-Free Learning｜Neuron｜2014",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24507199/"
+            },
+            {
+              "title": "前期｜Characterizing a psychiatric symptom dimension related to deficits in goal-directed control｜eLife｜2016",
+              "url": "https://elifesciences.org/articles/11305"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Nature Communications｜2026-10-24",
+          "url": "https://www.nature.com/articles/s41467-026-78547-0"
+        },
+        {
+          "title": "前期｜Involvement of GATOR complex genes in familial focal epilepsies and focal cortical dysplasia｜Epilepsia｜2016",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27173016/"
+        },
+        {
+          "title": "前期｜Functional screening of GATOR1 complex variants｜Neurobiology of Disease｜2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31639411/"
+        },
+        {
+          "title": "前期｜Optimization of interneuron function by direct coupling of cell migration and axonal targeting｜Nature Neuroscience｜2018",
+          "url": "https://www.nature.com/articles/s41593-018-0162-9"
+        },
+        {
+          "title": "前期｜Mafb and c-Maf Have Prenatal Compensatory and Postnatal Antagonistic Roles｜Cell Reports｜2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30699346/"
+        },
+        {
+          "title": "主文｜Nature Communications｜2026-10-24",
+          "url": "https://www.nature.com/articles/s41467-026-78869-z"
+        },
+        {
+          "title": "前期｜Docking of Axonal Mitochondria by Syntaphilin Controls Their Mobility and Affects Short-Term Facilitation｜Cell｜2008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18191227/"
+        },
+        {
+          "title": "前期｜Motile Axonal Mitochondria Contribute to the Variability of Presynaptic Strength｜Cell Reports｜2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23891000/"
+        },
+        {
+          "title": "前期｜The cross-talk of energy sensing and mitochondrial anchoring sustains synaptic efficacy｜Nature Metabolism｜2020",
+          "url": "https://www.nature.com/articles/s42255-020-00289-0"
+        },
+        {
+          "title": "前期｜Synaptic ribbons foster active zone stability and illumination-dependent active zone enrichment｜Scientific Reports｜2020",
+          "url": "https://www.nature.com/articles/s41598-020-62734-0"
+        },
+        {
+          "title": "主文｜Nature Communications｜2026-10-24",
+          "url": "https://www.nature.com/articles/s41467-026-78185-6"
+        },
+        {
+          "title": "前期｜Model-Based Influences on Humans' Choices and Striatal Prediction Errors｜Neuron｜2011",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/21435563/"
+        },
+        {
+          "title": "前期｜Neural Computations Underlying Arbitration between Model-Based and Model-Free Learning｜Neuron｜2014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24507199/"
+        },
+        {
+          "title": "前期｜Characterizing a psychiatric symptom dimension related to deficits in goal-directed control｜eLife｜2016",
+          "url": "https://elifesciences.org/articles/11305"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-24",
       "date": "2026-10-24",
