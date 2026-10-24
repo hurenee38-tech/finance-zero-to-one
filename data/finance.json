@@ -1,8 +1,1066 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-24T07:18:00+08:00",
+  "updatedAt": "2026-10-25T07:07:07+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-25",
+      "date": "2026-10-25",
+      "source": "scheduled",
+      "title": "医药金融与创新药简报｜PIPE稀释、DLL3生存突破与跨模态数据交易",
+      "summary": "从第一性原理拆解反向并购、PIPE、认股权证与现金跑道；覆盖DeLLphi-305、25价肺炎球菌疫苗、Awiqli儿科批准、Bolt/Prana、Pathos融资及Tempus/BMS数据合作。完成78个既有NCT全量核查，1条登记日期变化、2条数据纠错，新增5个登记。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Bolt以换股反向并购取得Prana，并同步按每股等价8.5743美元发行13,995,311股等价证券，获得1.20亿美元毛收入；另有可按同价购买6,997,655股的认股权证，若全部行权可再带来约6,000万美元。纯教学假设：交易前完全摊薄股数2,000万股、账上现金1,500万美元、未来年现金消耗7,500万美元，忽略费用与Prana原有现金。请计算：（1）PIPE交割后新投资者持股比例、现金及跑道；（2）权证全部行权后的持股比例、现金及跑道；（3）为什么不能把6,000万美元权证款当作当前现金？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：先分清当前已融资与未来或有融资，再分别更新股数和现金。交割后总股数=2,000万+1,399.5311万=3,399.5311万；新投资者占比=1,399.5311/3,399.5311=41.2%。现金=1,500万+1.20亿=1.35亿美元；静态跑道=1.35亿/7,500万=1.8年。若权证全部行权，总股数=3,399.5311万+699.7655万=4,099.2966万；两批融资证券合计占比=(1,399.5311+699.7655)/4,099.2966=51.2%。现金=1.35亿+0.60亿=1.95亿美元；静态跑道=2.6年。一种可行答案并非唯一估值结论，因为换股并购还会改变资产、费用和股东结构。必要证据：Prana换股数量、原股东锁定/归属、权证期限和行权条件、交易费用、合并后烧钱速度。支持证据：公司披露PIPE毛收入1.20亿美元、认股权证潜在0.60亿美元，并称资金预计支持至2028年。待验证假设：所有权证均行权、年烧钱不变、无额外里程碑或重组费用。常见误区：用融资股数除以交易前股数；把毛收入当净现金；把权证潜在款当已到账；用历史烧钱率机械外推。自查标准：股数、现金、条件和时间四栏分开；当前情景与完全行权情景分别计算；跑道用前瞻净现金消耗做敏感性分析。",
+          "collapsed": true
+        },
+        {
+          "heading": "核心概念：反向并购、PIPE、权证与现金跑道",
+          "body": "反向并购是私营资产或公司通过换股并入上市主体，使原私营业务成为上市公司的主要经营重心；它能缩短上市路径，但不自动创造现金。PIPE（private investment in public equity，上市公司定向私募）是在公开市场之外向特定投资者发行股票或可转换证券，通常与战略交易同时完成，为新管线补充资金。权证是未来按约定价格买股的选择权：行权前不会带来现金，却可能形成未来稀释。现金跑道≈可用现金÷未来年度净现金消耗；它是情景指标，不是承诺，临床试验扩大、并购整合、制造和商业准备都可能抬高烧钱速度。"
+        },
+        {
+          "heading": "1. DLL3双特异体把小细胞肺癌生存中位数推至21.1个月",
+          "body": "事实（2026-10-24）：DeLLphi-305在一线含durvalumab化疗后未进展的广泛期小细胞肺癌中，将tarlatamab加入durvalumab，使死亡风险相对降低58%（OS HR 0.42），中位OS 21.1个月对12.7个月；PFS 7.4个月对1.9个月（HR 0.34）。3级及以上治疗相关不良事件为20.9%对10.8%。登记NCT06211036为563人、PHASE3、ACTIVE_NOT_RECRUITING，尚未提交登记结果。[1][2] 分析：科学上，DLL3×CD3 T细胞衔接器与PD-L1抑制形成互补免疫机制，并在脑/肝转移亚组保持信号；仍需关注CRS、神经毒性及开放标签偏倚。商业上，若获一线维持标签，治疗线次和人群将明显前移，但输注与监测负担影响渗透。战略上，Amgen与AstraZeneca形成组合资产协同。财务上，大幅OS改善提高监管与峰值销售概率，但安全管理和真实世界持续治疗时间决定净收入。"
+        },
+        {
+          "heading": "2. Pfizer 25价婴儿肺炎球菌疫苗强化血清型3与增量覆盖",
+          "body": "事实（2026-10-24）：NCT06524414的605人II期中，四剂25vPnC在共同血清型上与PCV20具有可比免疫反应，并覆盖5个新增血清型；血清型3的几何平均抗体浓度在第3剂后高8.8倍、第4剂后约高15倍，未发现相关严重不良事件。Pfizer称这些血清型合计或覆盖美国5岁以下儿童约84%的侵袭性肺炎球菌病病例，III期项目已进行。[3] 分析：科学上，OPA功能杀菌反应与血清型3增强支持平台，但免疫原性并非感染事件的直接替代。商业上，公共卫生建议、采购和价差比单一抗体倍数更重要。战略上，这是Prevnar特许经营权的代际延伸。财务上，成功可延长疫苗现金流，但多价制造复杂度、血清型替代和竞争压低风险调整价值。"
+        },
+        {
+          "heading": "3. FDA批准Awiqli用于10岁及以上儿童2型糖尿病",
+          "body": "事实（2026-10-23）：FDA批准insulin icodec-abae每周一次基础胰岛素用于10岁及以上2型糖尿病儿童，是该人群首个每周一次胰岛素；FDA说明儿科支持包括18名患者的单剂量药代研究，并依赖成人已建立疗效证据。Novo称制剂为700 units/mL。[4][5] 分析：科学上，超长作用暴露可降低注射频率，但儿科直接疗效数据库有限，剂量错误和低血糖管理必须进入实际使用。商业上，便利性可能改善依从性，但儿科T2D人群较成人小，支付方会比较净价与日制剂。战略上，Novo扩展icodec生命周期。财务上，标签扩张带来增量而非完全新市场，安全标签、医生教育和处方转换速度决定贡献。"
+        },
+        {
+          "heading": "4. Bolt收购Prana并以1.20亿美元PIPE为PRA-216续航",
+          "body": "事实（2026-10-23）：Bolt以换股、签约即交割的反向并购收购Prana；同步PIPE毛收入1.20亿美元，认股权证全部行权可再带来最高0.60亿美元，公司预计支持运营至2028年。PRA-216为IL-4Rα×TSLP半衰期延长双特异抗体，登记显示哮喘NCT07245368正在招募，而特应性皮炎NCT07810777与COPD NCT07730281仍NOT_YET_RECRUITING。公司预期四项患者数据自2027年二季度起出现。[6] 分析：科学上，上游TSLP与下游IL-4/13双封锁可能扩大Type 2炎症抑制，但多病种同时推进放大执行和安全风险。商业上，每8–12周居家给药是目标差异点，尚需患者数据证明。战略上，Bolt完成管线重置。财务上，融资与资产注入同时解决“有什么可开发”和“靠什么开发”，但现有股东即时稀释高，权证现金不确定。"
+        },
+        {
+          "heading": "5. Pathos以2.37亿美元E轮把AI资产筛选推向注册性开发",
+          "body": "事实（2026-10-23）：Pathos完成2.37亿美元E轮，投后估值约30亿美元，由BMS领投；资金重点用于TROP2/HER3双特异ADC JSKN016的注册性研究，并推进pocenbrodib、AZD4241和DO-2。另与BMS、Tempus建立神经科学合作：Pathos以5年5,500万美元许可Tempus去标识纵向数据，BMS取得Pathos Foundry三年神经科学独家支持权及更广泛的非独家使用权。[7][8] 分析：科学上，AI可优化分层和试验决策，却不能替代随机临床因果证据。商业上，价值取决于数据可用性、模型迁移和资产权利，而非代理数量。战略上，BMS同时成为资本、数据使用和疾病开发伙伴。财务上，高估值降低本轮稀释，但也抬高未来临床里程碑的隐含预期；5,500万美元数据许可是成本/承诺，不应与股权融资重复视为资产价值。"
+        },
+        {
+          "heading": "6. Tempus与BMS把多模态肿瘤数据许可延长至2031年",
+          "body": "事实（2026-10-23）：BMS将许可Tempus去标识多模态肿瘤数据至2031年，并使用Lens平台进行靶点发现、试验设计和研发决策；经济条款未披露。[9] 分析：科学上，将病理、分子和纵向结局联结可提高假设生成与外部对照质量，但偏倚、缺失和站点漂移仍需治理。商业上，长期许可提高数据平台收入可见性。战略上，药企把数据能力外部化但保留研发决策。财务上，未披露合同金额时不能倒推收入；投资者应看剩余履约义务、续约率、毛利和客户集中度。"
+        },
+        {
+          "heading": "跨岗位洞察：如何阅读Bolt–Prana交易",
+          "body": "投行：关注换股比例、PIPE定价、权证稀释、股东表决/证券登记及合并后资本需求。FA顾问：验证独立价值、公允性、替代融资方案和交易后治理。BD：审查PRA-216全球权利、平台知识产权、CMC、竞争格局及各适应症开发优先级。投资者：把1.20亿美元已到账融资与0.60亿美元或有行权分开，建模临床成功率、烧钱和稀释。咨询顾问：设计哮喘/COPD/AD/EoE的患者分层、试验顺序、商业组织和退出标准。共同底层问题是：新增资本能否在下一次融资前生成足以提高资产价值的可验证数据。"
+        },
+        {
+          "heading": "迷你案例：PIPE的“便宜”要和里程碑价值一起看",
+          "body": "假设一家上市壳交易前市值1.7亿美元，PIPE按1.20亿美元买入41.2%的交割后股份，表面投后股权价值约2.91亿美元。若合并后项目风险调整价值仅1.0亿美元、净现金1.35亿美元、其他资产负债净额为零，则粗略股权价值约2.35亿美元，低于按发行价隐含的2.91亿美元；若项目rNPV为2.0亿美元，则粗略价值3.35亿美元。结论：PIPE价格是否有吸引力，不能只看对公告前股价的折价，而要看合并资产rNPV、现金烧钱、交易费用、里程碑与后续稀释。"
+        },
+        {
+          "heading": "数据库维护与数据缺口",
+          "body": "本次逐项核查78个既有NCT：成功78、失败0。NCT06585449仅登记发布日期由2026-09-16刷新为2026-10-15，阶段、状态、干预和主要终点未见实质变化；另纠正NCT05933577登记入组类型为ESTIMATED、NCT06564142登记申办方为Alpine Immune Sciences, Inc.（Vertex子公司），两者属于数据库清洗而非新临床事件。新增5个真实NCT后去重总数83。临床登记API曾短暂返回错误，重试后全部成功。公司对PRA-216“已启动”的表述与两个登记NOT_YET_RECRUITING并存，本库保留登记状态；预计完成日期不作为读出。公开检索不是全球穷尽式数据库。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "PIPE",
+          "zh": "上市公司定向私募",
+          "meaning": "向特定投资者发行公开公司证券以快速融资。"
+        },
+        {
+          "en": "reverse merger",
+          "zh": "反向并购",
+          "meaning": "私营业务通过与上市主体换股合并获得公开市场载体。"
+        },
+        {
+          "en": "warrant",
+          "zh": "认股权证",
+          "meaning": "未来按约定价格买股的权利；行权前不带来现金但可能造成稀释。"
+        },
+        {
+          "en": "cash runway",
+          "zh": "现金跑道",
+          "meaning": "按前瞻净现金消耗估算现有资金可支持运营的时长。"
+        },
+        {
+          "en": "T-cell engager",
+          "zh": "T细胞衔接器",
+          "meaning": "同时结合肿瘤抗原和T细胞分子，使T细胞靠近并杀伤肿瘤。"
+        },
+        {
+          "en": "OPA",
+          "zh": "调理吞噬活性检测",
+          "meaning": "衡量疫苗诱导抗体促进免疫细胞杀菌的功能性实验。"
+        },
+        {
+          "en": "serotype replacement",
+          "zh": "血清型替代",
+          "meaning": "疫苗压低已覆盖血清型后，未覆盖型别占比上升的生态现象。"
+        },
+        {
+          "en": "multimodal data",
+          "zh": "多模态数据",
+          "meaning": "联结基因组、病理影像、临床记录和纵向结局的数据体系。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Amgen：DeLLphi-305 III期详细结果，2026-10-24",
+          "url": "https://investors.amgen.com/news-releases/news-release-details/imdelltrar-combination-imfinzir-reduced-risk-death-unprecedented"
+        },
+        {
+          "title": "AstraZeneca：DeLLphi-305结果，2026-10-24",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/imfinzi-plus-imdelltra-reduced-the-risk-of-death-by-58-pct-in-1st-line-extensive-stage-small-cell-lung-cancer-in-the-dellphi-305-phase-iii-trial.html"
+        },
+        {
+          "title": "Pfizer：25vPnC II期详细结果，2026-10-24",
+          "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-25-valent-pediatric-pneumococcal-conjugate-vaccine"
+        },
+        {
+          "title": "FDA：儿童2型糖尿病首个每周一次胰岛素批准，2026-10-23",
+          "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-once-weekly-insulin-type-2-diabetes-mellitus-pediatric-patients"
+        },
+        {
+          "title": "Novo Nordisk：Awiqli儿科批准，2026-10-23",
+          "url": "https://www.novonordisk-us.com/media/news-archive/news-details.html?id=918803"
+        },
+        {
+          "title": "Bolt：收购Prana并完成1.20亿美元PIPE，2026-10-23",
+          "url": "https://boltbiotherapeutics.gcs-web.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+        },
+        {
+          "title": "Pathos AI：2.37亿美元E轮，2026-10-23",
+          "url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline"
+        },
+        {
+          "title": "Pathos AI：与BMS、Tempus神经科学合作，2026-10-23",
+          "url": "https://www.pathos.com/pathos-ai-announces-strategic-collaborations-with-bristol-myers-squibb-and-tempus-ai-to-advance-ai-driven-drug-development-beginning-with-alzheimers-disease-and-other-neurological-conditions"
+        },
+        {
+          "title": "Tempus：扩大与BMS肿瘤数据合作，2026-10-23",
+          "url": "https://www.tempus.com/news/pr/tempus-expands-strategic-collaboration-with-bristol-myers-squibb/"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06211036，核查于2026-10-25",
+          "url": "https://clinicaltrials.gov/study/NCT06211036"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06524414，核查于2026-10-25",
+          "url": "https://clinicaltrials.gov/study/NCT06524414"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT07245368，核查于2026-10-25",
+          "url": "https://clinicaltrials.gov/study/NCT07245368"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT07810777，核查于2026-10-25",
+          "url": "https://clinicaltrials.gov/study/NCT07810777"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT07730281，核查于2026-10-25",
+          "url": "https://clinicaltrials.gov/study/NCT07730281"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT06211036",
+          "title": "tarlatamab + durvalumab（DeLLphi-305）",
+          "company": "Amgen",
+          "target": "DLL3 / CD3；PD-L1",
+          "modality": "双特异T细胞衔接器 + 单克隆抗体",
+          "area": "肿瘤",
+          "indication": "一线含durvalumab、铂类和依托泊苷后未进展的广泛期小细胞肺癌",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Study Comparing Tarlatamab and Durvalumab Versus Durvalumab Alone in First-Line Extensive-Stage Small-Cell Lung Cancer (ES-SCLC) Following Platinum, Etoposide and Durvalumab",
+          "registryUpdated": "2025-12-17",
+          "checked": "2026-10-25",
+          "summary": "563人随机III期已停止招募并继续随访；2026-10-24公司报告OS HR 0.42、PFS HR 0.34。登记尚未发布结果，公告数据不等于登记结果提交。",
+          "endpoints": [
+            "Overall survival (OS), up to approximately 3 years"
+          ],
+          "primaryCompletion": {
+            "date": "2027-07-05",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-09-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 563,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06211036，核查于2026-10-25",
+              "url": "https://clinicaltrials.gov/study/NCT06211036"
+            },
+            {
+              "title": "Amgen DeLLphi-305详细结果，2026-10-24",
+              "url": "https://investors.amgen.com/news-releases/news-release-details/imdelltrar-combination-imfinzir-reduced-risk-death-unprecedented"
+            }
+          ],
+          "note": "登记阶段为PHASE3；公司公告称达到主要终点，但试验仍随访，预计完成日期不等于下一次读出或获批。",
+          "risks": "开放标签设计、细胞因子释放综合征与神经毒性、真实世界输注/监测负担、监管标签及竞争。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Tarlatamab"
+            },
+            {
+              "type": "DRUG",
+              "name": "Durvalumab"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06524414",
+          "title": "PF-07872412（25vPnC；登记干预名PG4）",
+          "company": "Pfizer",
+          "target": "25种肺炎球菌血清型荚膜多糖",
+          "modality": "多价结合疫苗",
+          "area": "感染 / 儿科疫苗",
+          "indication": "婴儿肺炎球菌疾病预防",
+          "stage": "Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Study to Learn About How a New Pneumococcal Vaccine Works in Infants",
+          "registryUpdated": "2026-10-19",
+          "checked": "2026-10-25",
+          "summary": "605名婴儿的II期已停止招募；四剂25vPnC与PCV20比较安全性和免疫原性。公司在IDWeek披露全部25个血清型均产生免疫反应，血清型3的GMC在第3剂后高8.8倍、第4剂后约高15倍。",
+          "endpoints": [
+            "Local reactions within 7 days after each dose",
+            "Systemic events within 7 days after each dose",
+            "Adverse events and serious adverse events through follow-up"
+          ],
+          "primaryCompletion": {
+            "date": "2027-05-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-05-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 605,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06524414，核查于2026-10-25",
+              "url": "https://clinicaltrials.gov/study/NCT06524414"
+            },
+            {
+              "title": "Pfizer 25vPnC II期详细结果，2026-10-24",
+              "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-25-valent-pediatric-pneumococcal-conjugate-vaccine"
+            }
+          ],
+          "note": "免疫原性支持继续III期，不等同临床感染终点获益或批准；登记预计完成不等于读出。",
+          "risks": "血清型替代、免疫桥接标准、批次一致性、真实世界有效性、公共采购价格与竞争。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "PG4 / PF-07872412 (25vPnC)"
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "20-valent pneumococcal conjugate vaccine (20vPnC)"
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "15-valent pneumococcal conjugate vaccine (PCV15)"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07245368",
+          "title": "PRA-216（哮喘）",
+          "company": "Prana Therapies Inc",
+          "target": "IL-4Rα / TSLP",
+          "modality": "半衰期延长双特异IgG抗体",
+          "area": "呼吸 / 自免炎症",
+          "indication": "轻中度哮喘",
+          "stage": "Phase 1 / Phase 2a",
+          "status": "RECRUITING",
+          "trialTitle": "Study of PRA-216 in Healthy Participants and Participants With Mild-to-Moderate Asthma",
+          "registryUpdated": "2026-08-06",
+          "checked": "2026-10-25",
+          "summary": "预计96人，正在招募；I期评价健康志愿者安全、药代和免疫原性，IIa期以第57天呼出气一氧化氮变化为主要药效学生物标志物。",
+          "endpoints": [
+            "Serious adverse events through Day 169 in SAD and MAD cohorts",
+            "Change in fractional exhaled nitric oxide (FeNO) through Day 57 in asthma participants"
+          ],
+          "primaryCompletion": {
+            "date": "2026-10-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-01-31",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 96,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07245368，核查于2026-10-25",
+              "url": "https://clinicaltrials.gov/study/NCT07245368"
+            },
+            {
+              "title": "Bolt收购Prana及PRA-216管线公告，2026-10-23",
+              "url": "https://boltbiotherapeutics.gcs-web.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+            }
+          ],
+          "note": "登记预计主要完成日期已到，但状态仍RECRUITING且无结果提交；不能据此宣称读出。",
+          "risks": "FeNO是替代性炎症标志物，需验证急性加重、症状和肺功能；双通路安全、皮下注射暴露与竞争差异化待证。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "PRA-216"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07810777",
+          "title": "PRA-216（特应性皮炎）",
+          "company": "Prana Therapies Inc",
+          "target": "IL-4Rα / TSLP",
+          "modality": "半衰期延长双特异IgG抗体",
+          "area": "皮肤 / 自免炎症",
+          "indication": "中重度特应性皮炎",
+          "stage": "Phase 2",
+          "status": "NOT_YET_RECRUITING",
+          "trialTitle": "PRA-216 Atopic Dermatitis Safety and Efficacy Study",
+          "registryUpdated": "2026-09-09",
+          "checked": "2026-10-25",
+          "summary": "预计39人的随机双盲安慰剂对照II期尚未开始招募；主要终点为28周内治疗期间不良事件和严重不良事件。",
+          "endpoints": [
+            "Treatment-emergent adverse events and serious adverse events through 28 weeks"
+          ],
+          "primaryCompletion": {
+            "date": "2027-06-30",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-10-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 39,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07810777，核查于2026-10-25",
+              "url": "https://clinicaltrials.gov/study/NCT07810777"
+            },
+            {
+              "title": "Bolt收购Prana及PRA-216管线公告，2026-10-23",
+              "url": "https://boltbiotherapeutics.gcs-web.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+            }
+          ],
+          "note": "登记写NOT_YET_RECRUITING；公司所称项目已启动不能替代登记状态，预计日期不等于实际开始或结果。",
+          "risks": "小样本、安全性为主、疗效信号解释、与dupilumab/tezepelumab等成熟机制竞争。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Active PRA-216"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07730281",
+          "title": "PRA-216（COPD）",
+          "company": "Prana Therapies Inc",
+          "target": "IL-4Rα / TSLP",
+          "modality": "半衰期延长双特异IgG抗体",
+          "area": "呼吸 / 自免炎症",
+          "indication": "慢性阻塞性肺疾病（COPD）",
+          "stage": "Phase 2",
+          "status": "NOT_YET_RECRUITING",
+          "trialTitle": "PRA-216 COPD Safety and Biomarker Study",
+          "registryUpdated": "2026-07-28",
+          "checked": "2026-10-25",
+          "summary": "预计40人的II期尚未开始招募；主要终点为40周内TEAE/SAE，并探索生物标志物。",
+          "endpoints": [
+            "Treatment-emergent adverse events and serious adverse events through 40 weeks"
+          ],
+          "primaryCompletion": {
+            "date": "2027-06-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-09-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 40,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT07730281，核查于2026-10-25",
+              "url": "https://clinicaltrials.gov/study/NCT07730281"
+            },
+            {
+              "title": "Bolt收购Prana及PRA-216管线公告，2026-10-23",
+              "url": "https://boltbiotherapeutics.gcs-web.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+            }
+          ],
+          "note": "登记状态优先；预计开始日期已过但仍NOT_YET_RECRUITING，不视为已给药。",
+          "risks": "COPD异质性、Type 2人群选择、急性加重终点不足、与现有生物制剂和吸入治疗竞争。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "PRA-216"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06585449",
+          "title": "brezosiran（ALN-HTT02）",
+          "company": "Alnylam Pharmaceuticals",
+          "target": "HTT / mutant huntingtin / HTT1a",
+          "modality": "鞘内给药siRNA",
+          "area": "神经退行性疾病 / 罕见病",
+          "indication": "Huntington disease, HD-ISS stage 2 or early stage 3",
+          "stage": "Phase 1（公司称Phase 1b）",
+          "status": "RECRUITING",
+          "trialTitle": "A Study to Evaluate ALN-HTT02 in Adult Patients With Huntington's Disease",
+          "registryUpdated": "2026-10-15",
+          "checked": "2026-10-25",
+          "summary": "预计66人、正在招募；登记最后发布日期刷新至2026-10-15，阶段、状态、干预、主要安全性终点和预计完成日期未见实质变化。公司此前披露的CSF mHTT降低仍属药效学结果而非临床获益。",
+          "endpoints": [
+            "Frequency of adverse events through 12 months in double-blind part",
+            "Frequency of adverse events through 12 months in open-label part",
+            "Frequency of adverse events through 36 months in OLE"
+          ],
+          "primaryCompletion": {
+            "date": "2028-07-05",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-07-05",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 66,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06585449，核查于2026-10-25",
+              "url": "https://clinicaltrials.gov/study/NCT06585449"
+            },
+            {
+              "title": "Alnylam brezosiran初步数据，2026-10-23",
+              "url": "https://investors.alnylam.com/press-release?id=0ea5d557-9f90-444e-9c30-3edf5dbdfe68"
+            }
+          ],
+          "note": "今日仅登记日期刷新，不是状态变化、临床读出或批准；登记阶段PHASE1，公司称Phase 1b。",
+          "risks": "神经功能和疾病进展获益、长期鞘内安全、非等位基因特异HTT降低、NfL与脑室体积变化及关键试验设计。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "ALN-HTT02 / brezosiran"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT05933577",
+          "title": "intismeran autogene（V940 / mRNA-4157）",
+          "company": "Merck Sharp & Dohme LLC / Moderna, Inc.",
+          "target": "患者特异性肿瘤新抗原",
+          "modality": "个体化mRNA新抗原疗法",
+          "area": "肿瘤",
+          "indication": "Completely resected high-risk stage IIB-IV melanoma",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Clinical Study of Intismeran Autogene (V940) Plus Pembrolizumab in People With High-Risk Melanoma (V940-001)",
+          "registryUpdated": "2025-09-24",
+          "checked": "2026-10-25",
+          "summary": "停止招募并继续随访；登记预计入组1,089人，而公司称实际随机1,137人，二者口径不同。RFS/DMFS阳性但OS仍未成熟。",
+          "endpoints": [
+            "Recurrence-free survival (RFS)",
+            "Distant metastasis-free survival (DMFS)",
+            "Overall survival (OS)"
+          ],
+          "enrollment": {
+            "count": 1089,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT05933577，核查于2026-10-25",
+              "url": "https://clinicaltrials.gov/study/NCT05933577"
+            },
+            {
+              "title": "Merck/Moderna INTerpath-001详细结果，2026-10-22",
+              "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+            }
+          ],
+          "note": "数据清洗纠正：登记的1,089人为ESTIMATED而非ACTUAL；公司随机人数另列，不覆盖登记值。",
+          "risks": "监管对RFS/DMFS的接受、OS成熟、个体化制造周转和成功率、净价、中心容量与跨瘤种复制。",
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Intismeran autogene"
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06564142",
+          "title": "povetacicept（RAINIER）",
+          "company": "Alpine Immune Sciences, Inc.（Vertex子公司）",
+          "target": "BAFF / APRIL",
+          "modality": "TACI-Fc融合蛋白",
+          "area": "肾脏 / 自免",
+          "indication": "Immunoglobulin A nephropathy",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "Evaluation of Efficacy of Povetacicept in Adults With Immunoglobulin A Nephropathy (IgAN)",
+          "registryUpdated": "2026-05-15",
+          "checked": "2026-10-25",
+          "summary": "605人关键性试验停止招募并继续盲法随访；本日按登记纠正申办方为Alpine Immune Sciences, Inc.（Vertex子公司），临床字段未变。",
+          "endpoints": [
+            "Percent change from baseline in 24-hour UPCR at Week 36",
+            "Total eGFR slope through Week 104"
+          ],
+          "primaryCompletion": {
+            "date": "2028-01-30",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-01-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 605,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06564142，核查于2026-10-25",
+              "url": "https://clinicaltrials.gov/study/NCT06564142"
+            },
+            {
+              "title": "Vertex RAINIER公告，2026-10-23",
+              "url": "https://investors.vrtx.com/news-releases/news-release-details/phase-3-rainier-results-supporting-best-class-potential"
+            }
+          ],
+          "note": "数据清洗纠正申办方；不代表所有权或临床状态发生新变化。36周蛋白尿为中期分析，104周eGFR仍待验证。",
+          "risks": "104周eGFR斜率、长期感染和免疫球蛋白影响、加速批准确认义务、竞争与净价。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Povetacicept"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-amgen",
+          "title": "Amgen",
+          "date": "2026-10-24",
+          "checked": "2026-10-25",
+          "summary": "DeLLphi-305显示tarlatamab加durvalumab显著改善广泛期小细胞肺癌OS。",
+          "sections": [
+            {
+              "heading": "平台与策略",
+              "body": "将已在后线获验证的DLL3×CD3双特异体前移至一线维持；全球监管沟通将决定标签和商业化节奏。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amgen：DeLLphi-305 III期详细结果，2026-10-24",
+              "url": "https://investors.amgen.com/news-releases/news-release-details/imdelltrar-combination-imfinzir-reduced-risk-death-unprecedented"
+            }
+          ]
+        },
+        {
+          "id": "company-astrazeneca",
+          "title": "AstraZeneca",
+          "date": "2026-10-24",
+          "checked": "2026-10-25",
+          "summary": "提供durvalumab并部分资助DeLLphi-305，组合强化Imfinzi在小细胞肺癌的一线骨架。",
+          "sections": [
+            {
+              "heading": "合作与风险",
+              "body": "Amgen为申办方；组合扩大durvalumab生命周期，但经济分配和申报安排公告未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AstraZeneca：DeLLphi-305结果，2026-10-24",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/imfinzi-plus-imdelltra-reduced-the-risk-of-death-by-58-pct-in-1st-line-extensive-stage-small-cell-lung-cancer-in-the-dellphi-305-phase-iii-trial.html"
+            }
+          ]
+        },
+        {
+          "id": "company-pfizer",
+          "title": "Pfizer",
+          "date": "2026-10-24",
+          "checked": "2026-10-25",
+          "summary": "25vPnC II期支持正在进行的儿科III期项目。",
+          "sections": [
+            {
+              "heading": "平台与产品化",
+              "body": "以新增血清型和血清型3免疫增强延伸Prevnar组合；公共卫生建议和制造一致性是商业关键。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pfizer：25vPnC II期详细结果，2026-10-24",
+              "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-25-valent-pediatric-pneumococcal-conjugate-vaccine"
+            }
+          ]
+        },
+        {
+          "id": "company-novo-nordisk",
+          "title": "Novo Nordisk A/S",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "Awiqli获FDA批准用于10岁及以上2型糖尿病儿童。",
+          "sections": [
+            {
+              "heading": "生命周期",
+              "body": "将每周一次基础胰岛素从成人扩展至儿科；直接儿科疗效证据较有限，风险管理与医生教育重要。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Novo Nordisk：Awiqli儿科批准，2026-10-23",
+              "url": "https://www.novonordisk-us.com/media/news-archive/news-details.html?id=918803"
+            },
+            {
+              "title": "FDA：儿童2型糖尿病首个每周一次胰岛素批准，2026-10-23",
+              "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-once-weekly-insulin-type-2-diabetes-mellitus-pediatric-patients"
+            }
+          ]
+        },
+        {
+          "id": "company-bolt-biotherapeutics",
+          "title": "Bolt Biotherapeutics, Inc.",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "通过换股反向并购取得Prana及PRA-216，并同步获得1.20亿美元PIPE。",
+          "sections": [
+            {
+              "heading": "融资与战略重置",
+              "body": "交易后转向半衰期延长多特异抗体；潜在0.60亿美元权证款不属于已到账现金。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Bolt：收购Prana并完成1.20亿美元PIPE，2026-10-23",
+              "url": "https://boltbiotherapeutics.gcs-web.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+            }
+          ]
+        },
+        {
+          "id": "company-prana-therapies",
+          "title": "Prana Therapies Inc",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "PRA-216覆盖哮喘、COPD、特应性皮炎和计划中的EoE，成为合并后核心管线。",
+          "sections": [
+            {
+              "heading": "平台与登记",
+              "body": "INSPIRE平台构建全IgG多特异体；当前三个公开NCT中仅哮喘项目登记为RECRUITING。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Bolt：收购Prana并完成1.20亿美元PIPE，2026-10-23",
+              "url": "https://boltbiotherapeutics.gcs-web.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT07245368",
+              "url": "https://clinicaltrials.gov/study/NCT07245368"
+            }
+          ]
+        },
+        {
+          "id": "company-pathos-ai",
+          "title": "Pathos AI, Inc.",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "完成2.37亿美元E轮并与BMS、Tempus拓展肿瘤和神经科学合作。",
+          "sections": [
+            {
+              "heading": "融资与资产",
+              "body": "投后估值约30亿美元；资本重点支持JSKN016注册性开发及三项其他临床资产。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pathos AI：2.37亿美元E轮，2026-10-23",
+              "url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline"
+            },
+            {
+              "title": "Pathos AI：与BMS、Tempus神经科学合作，2026-10-23",
+              "url": "https://www.pathos.com/pathos-ai-announces-strategic-collaborations-with-bristol-myers-squibb-and-tempus-ai-to-advance-ai-driven-drug-development-beginning-with-alzheimers-disease-and-other-neurological-conditions"
+            }
+          ]
+        },
+        {
+          "id": "company-tempus-ai",
+          "title": "Tempus AI, Inc.",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "向BMS提供至2031年的肿瘤数据许可，并参与构建神经科学纵向数据集。",
+          "sections": [
+            {
+              "heading": "商业模式",
+              "body": "数据许可期限提高可见性，但肿瘤协议金额未披露；神经科学数据由Pathos签订5年5,500万美元许可。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Tempus：扩大与BMS肿瘤数据合作，2026-10-23",
+              "url": "https://www.tempus.com/news/pr/tempus-expands-strategic-collaboration-with-bristol-myers-squibb/"
+            },
+            {
+              "title": "Pathos AI：与BMS、Tempus神经科学合作，2026-10-23",
+              "url": "https://www.pathos.com/pathos-ai-announces-strategic-collaborations-with-bristol-myers-squibb-and-tempus-ai-to-advance-ai-driven-drug-development-beginning-with-alzheimers-disease-and-other-neurological-conditions"
+            }
+          ]
+        },
+        {
+          "id": "company-bristol-myers-squibb",
+          "title": "Bristol Myers Squibb",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "领投Pathos E轮，并扩大肿瘤与神经科学的数据/AI合作。",
+          "sections": [
+            {
+              "heading": "战略",
+              "body": "以资本、数据和疾病专长绑定外部AI平台；临床决策质量仍需前瞻验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pathos AI：2.37亿美元E轮，2026-10-23",
+              "url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline"
+            },
+            {
+              "title": "Pathos AI：与BMS、Tempus神经科学合作，2026-10-23",
+              "url": "https://www.pathos.com/pathos-ai-announces-strategic-collaborations-with-bristol-myers-squibb-and-tempus-ai-to-advance-ai-driven-drug-development-beginning-with-alzheimers-disease-and-other-neurological-conditions"
+            },
+            {
+              "title": "Tempus：扩大与BMS肿瘤数据合作，2026-10-23",
+              "url": "https://www.tempus.com/news/pr/tempus-expands-strategic-collaboration-with-bristol-myers-squibb/"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-dll3-cd3-tarlatamab-pdl1",
+          "title": "DLL3 × CD3 T细胞衔接 + PD-L1阻断",
+          "date": "2026-10-24",
+          "checked": "2026-10-25",
+          "summary": "DeLLphi-305提供III期OS随机证据，支持DLL3双特异体前移一线维持。",
+          "sections": [
+            {
+              "heading": "人体验证与风险",
+              "body": "OS和PFS均阳性；必要风险证据包括CRS、神经毒性、脑转移管理和真实世界可实施性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amgen：DeLLphi-305 III期详细结果，2026-10-24",
+              "url": "https://investors.amgen.com/news-releases/news-release-details/imdelltrar-combination-imfinzir-reduced-risk-death-unprecedented"
+            },
+            {
+              "title": "AstraZeneca：DeLLphi-305结果，2026-10-24",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/imfinzi-plus-imdelltra-reduced-the-risk-of-death-by-58-pct-in-1st-line-extensive-stage-small-cell-lung-cancer-in-the-dellphi-305-phase-iii-trial.html"
+            }
+          ]
+        },
+        {
+          "id": "target-pneumococcal-25-serotypes",
+          "title": "25价肺炎球菌荚膜多糖组合",
+          "date": "2026-10-24",
+          "checked": "2026-10-25",
+          "summary": "PF-07872412试图在PCV20基础上增加5个血清型并增强血清型3免疫反应。",
+          "sections": [
+            {
+              "heading": "验证与竞争",
+              "body": "II期有免疫原性和OPA支持；临床保护、血清型生态、III期和公共卫生推荐仍待确认。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pfizer：25vPnC II期详细结果，2026-10-24",
+              "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-25-valent-pediatric-pneumococcal-conjugate-vaccine"
+            }
+          ]
+        },
+        {
+          "id": "target-insulin-receptor-icodec",
+          "title": "胰岛素受体 / insulin icodec",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "超长作用基础胰岛素将给药频率降至每周一次。",
+          "sections": [
+            {
+              "heading": "人体验证与安全",
+              "body": "成人疗效已建立，儿科批准包含药代桥接；低血糖、剂量错误和使用教育是关键风险。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA：儿童2型糖尿病首个每周一次胰岛素批准，2026-10-23",
+              "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-once-weekly-insulin-type-2-diabetes-mellitus-pediatric-patients"
+            },
+            {
+              "title": "Novo Nordisk：Awiqli儿科批准，2026-10-23",
+              "url": "https://www.novonordisk-us.com/media/news-archive/news-details.html?id=918803"
+            }
+          ]
+        },
+        {
+          "id": "target-il4ra-tslp-pra216",
+          "title": "IL-4Rα × TSLP双通路",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "PRA-216同时阻断上游TSLP和IL-4/IL-13下游信号，覆盖多种Type 2炎症疾病。",
+          "sections": [
+            {
+              "heading": "证据层级",
+              "body": "健康志愿者药效学是支持证据；各疾病的临床终点、长期免疫安全和剂量便利性仍待验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Bolt：收购Prana并完成1.20亿美元PIPE，2026-10-23",
+              "url": "https://boltbiotherapeutics.gcs-web.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+            },
+            {
+              "title": "ClinicalTrials.gov NCT07245368",
+              "url": "https://clinicaltrials.gov/study/NCT07245368"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-bolt-prana-reverse-merger-pipe-2026-10-23",
+          "title": "Bolt换股收购Prana并同步PIPE",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "换股反向并购将PRA-216和INSPIRE平台注入Bolt；PIPE毛收入1.20亿美元。",
+          "sections": [
+            {
+              "heading": "交易要素",
+              "body": "买方/上市主体：Bolt；卖方/标的：Prana；类型：stock-for-stock sign-and-close reverse merger；资产：PRA-216与INSPIRE；地区：未披露限制；前期现金对价：不适用/未披露；PIPE：1.20亿美元；权证潜在额外0.60亿美元；版税/里程碑：未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Bolt：收购Prana并完成1.20亿美元PIPE，2026-10-23",
+              "url": "https://boltbiotherapeutics.gcs-web.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+            }
+          ]
+        },
+        {
+          "id": "deal-pathos-series-e-2026-10-23",
+          "title": "Pathos AI 2.37亿美元E轮融资",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "BMS领投，投后估值约30亿美元，支持JSKN016注册性开发及平台扩张。",
+          "sections": [
+            {
+              "heading": "交易要素",
+              "body": "类型：私募股权融资；金额：2.37亿美元；货币：USD；领投：BMS；阶段：E轮；投后估值：约30亿美元；其他条款未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pathos AI：2.37亿美元E轮，2026-10-23",
+              "url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline"
+            }
+          ]
+        },
+        {
+          "id": "deal-pathos-tempus-bms-neuro-data-2026-10-23",
+          "title": "Pathos–Tempus–BMS神经科学数据与AI合作",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "Pathos以5年5,500万美元许可Tempus数据，BMS取得三年神经科学独家支持权。",
+          "sections": [
+            {
+              "heading": "交易要素",
+              "body": "数据方：Tempus；许可方/使用方：Pathos；战略方：BMS；领域：阿尔茨海默病及其他神经系统疾病；金额：Pathos向Tempus支付5年5,500万美元；BMS更广泛平台使用的经济条款未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pathos AI：与BMS、Tempus神经科学合作，2026-10-23",
+              "url": "https://www.pathos.com/pathos-ai-announces-strategic-collaborations-with-bristol-myers-squibb-and-tempus-ai-to-advance-ai-driven-drug-development-beginning-with-alzheimers-disease-and-other-neurological-conditions"
+            }
+          ]
+        },
+        {
+          "id": "deal-tempus-bms-oncology-data-2026-10-23",
+          "title": "Tempus扩大BMS肿瘤多模态数据许可",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "BMS许可Tempus肿瘤数据和Lens平台至2031年，金额未披露。",
+          "sections": [
+            {
+              "heading": "交易要素",
+              "body": "许可方：Tempus；被许可方：BMS；资产：去标识多模态肿瘤数据及Lens环境；期限：至2031年；地区、前期款、里程碑、版税：未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Tempus：扩大与BMS肿瘤数据合作，2026-10-23",
+              "url": "https://www.tempus.com/news/pr/tempus-expands-strategic-collaboration-with-bristol-myers-squibb/"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-tarlatamab-durvalumab-regulatory-undated",
+          "title": "Tarlatamab + durvalumab一线维持监管沟通",
+          "date": null,
+          "checked": "2026-10-25",
+          "summary": "Amgen称将向全球监管机构提交/沟通DeLLphi-305结果，未披露日期。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "监管；confirmed intent, timing unknown。阳性III期不等于已提交或已批准。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amgen：DeLLphi-305 III期详细结果，2026-10-24",
+              "url": "https://investors.amgen.com/news-releases/news-release-details/imdelltrar-combination-imfinzir-reduced-risk-death-unprecedented"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-pfizer-25vpnc-phase3-2027-estimated",
+          "title": "25vPnC儿科III期项目推进",
+          "date": "2027-12-31",
+          "checked": "2026-10-25",
+          "summary": "三项III期合计计划最多6,830人；具体读出日未披露。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床开发；ongoing/estimated。登记完成日期不自动等于公司读出。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pfizer：25vPnC II期详细结果，2026-10-24",
+              "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-25-valent-pediatric-pneumococcal-conjugate-vaccine"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-pra216-patient-data-2027",
+          "title": "PRA-216多适应症患者数据窗口",
+          "date": "2027-12-31",
+          "checked": "2026-10-25",
+          "summary": "公司预期自2027年二季度至四季度获得四项试验患者数据。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床读出窗口；company-estimated。两个登记仍NOT_YET_RECRUITING，故存在延期风险。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Bolt：收购Prana并完成1.20亿美元PIPE，2026-10-23",
+              "url": "https://boltbiotherapeutics.gcs-web.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-pathos-jskn016-registrational-undated",
+          "title": "JSKN016注册性研究启动",
+          "date": null,
+          "checked": "2026-10-25",
+          "summary": "Pathos称E轮资金将支持注册性研究，但未披露启动日期或登记号。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床启动；planned, timing unknown。不能把融资用途当作已启动。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Pathos AI：2.37亿美元E轮，2026-10-23",
+              "url": "https://www.pathos.com/pathos-ai-secures-237-million-in-series-e-financing-to-scale-agentic-ai-drug-development-platform-and-advance-oncology-pipeline"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-awiqli-pediatric-fda-approval-2026-10-23",
+          "title": "Awiqli儿童2型糖尿病FDA批准",
+          "date": "2026-10-23",
+          "checked": "2026-10-25",
+          "summary": "监管事件已完成；批准适用于10岁及以上儿童2型糖尿病。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "FDA批准；completed。商业采用仍取决于上市供应、支付与处方转换。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA：儿童2型糖尿病首个每周一次胰岛素批准，2026-10-23",
+              "url": "https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-first-once-weekly-insulin-type-2-diabetes-mellitus-pediatric-patients"
+            },
+            {
+              "title": "Novo Nordisk：Awiqli儿科批准，2026-10-23",
+              "url": "https://www.novonordisk-us.com/media/news-archive/news-details.html?id=918803"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-24",
       "date": "2026-10-24",
@@ -16272,18 +17330,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-24T07:18:00+08:00",
+    "checkedAt": "2026-10-25T07:07:07+08:00",
     "status": "success",
-    "checked": 74,
-    "changed": 2,
+    "checked": 78,
+    "changed": 1,
     "failed": 0,
-    "newPipelines": 4,
-    "companies": 8,
-    "targets": 5,
-    "deals": 2,
+    "corrected": 2,
+    "newPipelines": 5,
+    "totalPipelines": 83,
+    "companies": 9,
+    "targets": 4,
+    "deals": 4,
     "catalysts": 5,
-    "events": 5,
-    "summary": "74个既有NCT全部核查成功、0个失败；NCT07060807与NCT07863193仅登记日期刷新，0个实质字段变化；新增4个真实登记，数据库去重后覆盖78个NCT。公司8、靶点5、交易2、催化剂5；历史与全部根级归档记录均保留。"
+    "events": 6,
+    "summary": "78个既有NCT全部核查成功、0个失败；NCT06585449仅登记日期刷新，实质字段无变化；纠正2条旧字段（NCT05933577入组类型、NCT06564142登记申办方）；新增5个真实登记，去重后覆盖83个NCT。公司9、靶点4、交易/融资4、催化剂5；全部历史与根级归档保留。"
   },
   "archivedPapers": []
 }
