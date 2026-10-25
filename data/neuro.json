@@ -1,8 +1,308 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-24T23:04:31Z",
+  "updatedAt": "2026-10-25T23:00:18Z",
   "items": [
+    {
+      "id": "neuro-2026-10-26",
+      "date": "2026-10-26",
+      "source": "scheduled",
+      "title": "神经生物学简报｜HINT1抑郁通路、头方向吸引子与癫痫双轴网络",
+      "summary": "本期收录3篇2026-10-25发表的原始研究：腹侧海马GABA能HINT1通路与抑郁样行为、主动运动对头方向吸引子动力学的预测性恢复，以及局灶性癫痫的个体化系统完整性—整合双轴。影响因子均待官方可靠核实。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "HINT1过表达、敲低和TpGc抑制都能改变小鼠抑郁样行为。怎样设计证据链，证明真正关键的是“GABA能神经元中的HINT1–PKCβ1–ERK–CBX4–GluN2A通路”，而不是病毒表达量、一般性神经活动改变、运动能力或药物脱靶？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：需要依次证明脑区与细胞类型定位、通路各节点的因果顺序、行为效应的特异性，以及药理结果不是脱靶。\n\n1. 定位与时序：在成年小鼠中使用腹侧海马、GABA能神经元特异且可诱导的HINT1操作，避开发育期效应；同时比较兴奋性神经元、背侧海马和内侧前额叶对照。用内源水平范围内的表达量，记录操作前后神经活动和行为时间顺序。\n2. 必要性：CSDS后在SST+或PV+细胞中敲低HINT1，检验行为、细胞放电、PKCβ1/ERK活性、CBX4及GluN2A运输能否共同恢复。若只恢复行为而中间链条不恢复，机制解释仍不完整。\n3. 充分性：在未受压成年小鼠的同一细胞中适度提高HINT1，观察能否按顺序产生PKCβ1–ERK下降、CBX4升高、GluN2A SUMO化/运输改变和行为表型。\n4. 上位性与救援：分别表达持续活性的PKCβ1或MEK、敲低CBX4、表达不能被相应SUMO化的GluN2A突变体。若这些下游干预能在HINT1仍升高时逐级阻断表型，才支持通路顺序。反向在HINT1敲低背景中重新提高CBX4，测试是否把表型拉回。\n5. 排除非特异行为：同时检测开放场总运动、转棒、奖赏偏好、焦虑和社会接触；采用不依赖运动速度的情绪相关读数。核对病毒扩散、细胞损伤和炎症。\n6. 药物验证：测定TpGc在相关浓度下的全蛋白组/激酶或靶点结合谱，使用结构不同的第二种HINT1抑制工具，并检验TpGc效应是否在HINT1已敲低时消失。\n\n一种可行结论：如果成年期、腹侧海马GABA能细胞特异的HINT1干预按预测改变整条分子链；下游遗传救援能在HINT1仍异常时恢复细胞与行为表型；两种正交HINT1工具得到一致结果且不影响基础运动，才可较强地支持该机制。\n\n必要证据：细胞类型特异因果干预、逐级上位性/救援、正交工具和行为混杂控制。支持证据：蛋白互作、时间序列、患者组织相关性。待验证假设：该通路在人类抑郁症中是否存在、抑制HINT1是否具有可接受治疗窗。\n\n常见误区：把蛋白质组相关变化当成通路顺序；以过表达表型代替生理机制；只用强迫游泳等运动依赖读数；把单一抑制剂有效等同靶点已验证。\n\n自查标准：每一个箭头是否都有“阻断+救援”？效应是否限于目标细胞和脑区？药效是否在靶点缺失后消失？是否排除了运动、炎症和表达剂量混杂？开放问题可能有多条同样合理的证据链。",
+          "collapsed": true
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-26。本期3篇均为2026-10-25发表的原始研究；题名、日期、DOI、样本与主要结论由期刊页面核查。Nature Communications两篇为可引用的早期在线版本，后续可能有编辑更新。影响因子未通过官方Journal Citation Reports可靠核实，统一标注“影响因子待核实”。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "重点推荐HINT1论文：它同时具有脑区定位、细胞类型操作、遗传和药理干预及较完整的分子链条，最接近“新靶点开发”的机制模板。但三篇文章分别提醒：动物行为、吸引子模型和fMRI网络指标都不是临床因果性的直接证明。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Histidine triad nucleotide-binding protein 1 (HINT1)",
+          "zh": "组氨酸三联体核苷酸结合蛋白1",
+          "meaning": "可与多种受体和信号蛋白相互作用，本研究把它定位到腹侧海马GABA能抑郁相关通路。"
+        },
+        {
+          "en": "SUMOylation",
+          "zh": "SUMO化",
+          "meaning": "将小泛素样修饰蛋白共价连接到靶蛋白，改变其稳定性、定位或相互作用。"
+        },
+        {
+          "en": "Epistasis rescue",
+          "zh": "上位性救援",
+          "meaning": "通过下游节点的阻断或补回判断信号通路中各节点的因果顺序。"
+        },
+        {
+          "en": "Ring attractor",
+          "zh": "环形吸引子",
+          "meaning": "用环状状态空间和递归连接维持方向等连续变量的网络模型。"
+        },
+        {
+          "en": "Efference copy",
+          "zh": "传出副本",
+          "meaning": "运动指令的内部副本，可用于预测动作将带来的感觉反馈。"
+        },
+        {
+          "en": "Re-afference",
+          "zh": "再传入感觉",
+          "meaning": "由个体自身运动产生并返回感觉系统的输入。"
+        },
+        {
+          "en": "Network correspondence",
+          "zh": "网络对应度",
+          "meaning": "个体功能网络对经典脑系统边界和表达模式的保留程度。"
+        },
+        {
+          "en": "k-hubness",
+          "zh": "k-枢纽性",
+          "meaning": "一个脑区同时参与多个重叠网络的程度，用于刻画跨系统整合。"
+        },
+        {
+          "en": "Canonical network",
+          "zh": "经典功能网络",
+          "meaning": "在群体数据中稳定识别的默认、注意、感觉运动等大尺度系统。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41380-026-03941-5",
+          "title": "腹侧海马GABA能神经元中的HINT1通过PKCβ1–ERK–CBX4–GluN2A轴介导抑郁样行为",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "topic": "抑郁症 / GABA能神经元 / 新靶点开发",
+          "target": "HINT1–PKCβ1–MEK/ERK–CBX4–GluN2A",
+          "summary": "慢性社交挫败应激易感小鼠的海马和内侧前额叶HINT1升高。腹侧海马过表达、敲低和局部药理抑制结果共同支持HINT1调节抑郁相关表型；细胞类型实验与蛋白质组进一步提出GABA能神经元内HINT1抑制PKCβ1–ERK信号、提高CBX4并改变GluN2A SUMO化和运输的机制链。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Li等，Molecular Psychiatry，2026-10-25；DOI：10.1038/s41380-026-03941-5。影响因子待核实。标题可译为“腹侧海马GABA能神经元中的HINT1介导抑郁样行为”。HINT1曾被联系到情绪障碍以及GPCR–NMDA受体交叉调控，但其在特定脑区、细胞类型中的作用方向和下游机制并不清楚。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者在慢性社交挫败应激（CSDS）小鼠中比较易感和非易感个体，进行腹侧海马HINT1过表达、敲低与选择性抑制剂TpGc局部干预；再在SST+、PV+等GABA能神经元中实施细胞类型特异操作，并结合神经活动记录、蛋白质组、蛋白互作、磷酸化、SUMO化及受体运输实验。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文发现：应激易感小鼠海马和内侧前额叶HINT1升高；腹侧海马HINT1过表达可诱发抑郁样行为，敲低或TpGc处理则产生抗抑郁样效应并归一化神经活动。在腹侧海马GABA能神经元，尤其SST+和PV+亚型中过表达HINT1会加重表型。机制上，HINT1与PKCβ1相互作用并抑制其磷酸化，继而压低MEK1/2–ERK1/2信号、提高CBX4；CBX4促进GluN2A SUMO化并影响其磷酸化和运输。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：从脑区和细胞类型层面把HINT1连接到一条可被逐级扰动的受体运输通路，为抑郁症新靶点提供机制框架。局限：核心疗效仍来自小鼠抑郁样行为；局部过表达/敲低可能超出生理变化；TpGc的选择性、脑内暴露和脱靶谱需系统评估；尚无患者因果证据。编辑分析：HINT1可能比直接阻断NMDAR更具细胞通路选择性，但它也参与GPCR–NMDAR调控，长期抑制的认知、疼痛和成瘾相关风险不可忽略。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "压力易感状态伴随HINT1上调，而不是所有受压个体都同样变化。腹侧海马GABA能神经元中的HINT1通过PKCβ1–ERK–CBX4级联改变GluN2A翻译后修饰与运输，进而扰动局部神经活动和抑郁相关行为；遗传敲低与药理抑制能够部分逆转这些表型。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① HINT1缺失小鼠研究（2017）显示PKC活性和NMDAR亚基功能发生改变，为本研究的PKC–NMDAR链条提供遗传背景。② HINT1与CB1受体协同抑制NMDAR活性（2013），建立HINT1参与GPCR–NMDAR交叉调控的先例。③ 慢性温和应激大鼠研究（2021）把HINT1连接到前额叶PKCε/ALDH2/4-HNE通路，说明其作用可能具有脑区和PKC亚型差异。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Molecular Psychiatry｜2026-10-25",
+              "url": "https://www.nature.com/articles/s41380-026-03941-5"
+            },
+            {
+              "title": "前期｜Increased PKC activity and altered GSK3β/NMDAR function drive behavior cycling in HINT1-deficient mice｜2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28240305/"
+            },
+            {
+              "title": "前期｜HINT1 protein cooperates with cannabinoid 1 receptor to negatively regulate NMDA receptor activity｜2013",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24093505/"
+            },
+            {
+              "title": "前期｜HINT1 Is Involved in Chronic Mild Stress via PKCε/ALDH-2/4HNE｜2021",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34177485/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-79031-5",
+          "title": "主动运动在起步前恢复头方向环形吸引子动力学",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "topic": "空间导航 / 头方向细胞 / 感觉—运动整合",
+          "target": "Anterodorsal thalamic head-direction attractor",
+          "summary": "丘脑前背核群体记录显示，头部固定和前庭冲突会损害头方向编码，静止期的吸引子动力学尤其异常；网络状态在运动开始前数百毫秒恢复，提示运动指令副本或即将到来的再传入感觉预测参与维持内部指南针。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Pak等，Nature Communications，2026-10-25；DOI：10.1038/s41467-026-79031-5。影响因子待核实。标题可译为“主动运动以预测方式恢复头部固定小鼠的头方向吸引子动力学”。头方向细胞常被视为环形吸引子，但大量在体实验使用头部固定，可能制造与自然运动不同的感觉冲突。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者比较完全固定、仅限制头相对身体运动，以及真实/虚拟现实等条件下雄性小鼠丘脑前背核的单细胞和群体头方向编码；按运动与静止时期分析网络动力学，并用扰动头方向神经元侧向连接的计算模型复现实验现象。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文发现：造成前庭冲突的完全固定同时损害单细胞和群体编码；仅限制头—身体相对运动则特别损害群体活动。头部受限小鼠在静止期间的吸引子动力学异常，却在运动起始前数百毫秒恢复。模型表明改变HD神经元之间的侧向连接可复现该状态依赖现象。作者据此提出，运动指令副本或对即将产生的再传入信号的预测，有助于在限制条件下维持HD网络。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：说明行为状态不仅调节放电增益，也可能改变吸引子网络自身的稳定性；同时提醒头部固定范式可能系统性扭曲导航编码。局限：运动前恢复是对预测信号的间接证据；模型可复现不等于侧向连接就是唯一生物机制；研究仅报告雄性小鼠，且固定条件与自然三维导航存在差距。编辑分析：未来应直接扰动运动准备/传出副本通路，并在自由运动条件复核网络因果性。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "内部指南针并非在头部固定时简单保持不变：静止加感觉冲突会使群体吸引子失稳，而即将开始的主动运动在实际位移之前就恢复其动力学。这提示大脑用“准备移动”的内部信号预先校准方向网络。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Peyrache等（Nature Neuroscience，2015）证明头方向表征具有内部组织机制，为哺乳动物吸引子解释提供关键证据。② Kim等（Cell，2017）在果蝇中以成像和光遗传直接展示环形吸引子动力学。③ Laurens与Angelaki（Neuron，2018）综述并建模自运动如何更新头方向吸引子，明确提出固定/被动运动可能改变递归连接有效强度。④ 近期多模态线索研究（Nature Neuroscience，2025）显示视觉和非视觉方向线索可通过学习共同校准吸引子。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications｜2026-10-25",
+              "url": "https://www.nature.com/articles/s41467-026-79031-5"
+            },
+            {
+              "title": "前期｜Internally organized mechanisms of the head direction sense｜Nature Neuroscience｜2015",
+              "url": "https://www.nature.com/articles/nn.3968"
+            },
+            {
+              "title": "前期｜Ring attractor dynamics in the Drosophila central brain｜Cell｜2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28473639/"
+            },
+            {
+              "title": "前期｜The Brain Compass: How Self-Motion Updates the Head Direction Cell Attractor｜Neuron｜2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29346751/"
+            },
+            {
+              "title": "前期｜Multimodal cue integration and learning in a neural representation of head direction｜Nature Neuroscience｜2025",
+              "url": "https://www.nature.com/articles/s41593-024-01823-z"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-79018-2",
+          "title": "个体化双轴网络拓扑揭示局灶性癫痫的系统完整性与跨系统整合异常",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "topic": "局灶性癫痫 / 静息态fMRI / 个体化网络",
+          "target": "Network correspondence / k-hubness",
+          "summary": "研究从重叠的个体化静息态网络中提取“网络对应度”和“k-hubness”两条互补轴：前者衡量经典系统边界与表达的完整性，后者衡量脑区参与多个网络的整合程度。大规模术前队列和独立多综合征队列表明，两条轴对应不同的疾病异质性和临床关联。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Zhang等，Nature Communications，2026-10-25；DOI：10.1038/s41467-026-79018-2。影响因子待核实。标题可译为“系统完整性与整合的互补轴及其不同临床关联刻画局灶性癫痫”。局灶性癫痫可影响广泛脑系统，但群体平均网络常掩盖个体与综合征差异。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者使用静息态fMRI估计允许网络重叠的个体化功能网络，并定义两项指标：network correspondence衡量个体网络与经典系统的对应和边界完整性；k-hubness衡量一个位置同时参与多少网络。发现队列包括305名局灶性癫痫患者和224名健康对照；独立验证队列包含903名多类癫痫患者和666名健康对照。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文发现：网络对应度破坏在不同局灶性癫痫中较广泛共享，并体现明显个体异质性；k-hubness变化则呈现侧化和综合征依赖的跨系统整合重分配。两条轴并非同一异常的不同量表：系统完整性与认知关联略强，系统整合与临床特征的关系更突出，并在独立队列中获得验证。该研究描述的是系统级组织与临床变量的关联，不证明网络异常是发作或认知损害的原因。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把“网络是否仍像经典系统”和“脑区同时服务多少系统”分开，有利于个体化表型与术前研究。局限：静息态fMRI受运动、药物、发作间期状态和扫描协议影响；跨队列验证不能替代纵向因果证据；指标目前不能单独指导手术。编辑分析：若能证明术前双轴指标预测术后发作和认知结局，并优于标准临床变量，才更接近临床工具。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "局灶性癫痫不是单一的“连接增强或减弱”。一种变化是经典功能系统边界变得不清晰，另一种是特定脑区跨网络参与方式被重新分配；两种变化可以同时存在，却对应不同的认知和临床维度。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① 2014年的个体异常静息网络检测研究在小样本中展示患者级分析的可行性，是本研究个体化方向的早期基础。② 2019年新诊断局灶性癫痫研究显示疾病早期已存在大尺度静息网络改变。③ 2022年机器学习研究识别不同病因局灶性癫痫的共同连接特征，提供跨亚型共享异常背景。④ 2026年个体特异网络研究显示有限时长静息态fMRI可预测药物难治性癫痫的语言优势，为临床个体化网络提供相邻验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications｜2026-10-25",
+              "url": "https://www.nature.com/articles/s41467-026-79018-2"
+            },
+            {
+              "title": "前期｜Detection of abnormal resting-state networks in individual focal epilepsy patients｜2014",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25565949/"
+            },
+            {
+              "title": "前期｜Resting-state functional brain networks in adults with a new diagnosis of focal epilepsy｜2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30488645/"
+            },
+            {
+              "title": "前期｜Common functional connectivity alterations in focal epilepsies identified by machine learning｜2022",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34984672/"
+            },
+            {
+              "title": "前期｜Individual-specific resting-state networks predict language dominance in drug-resistant epilepsy｜2026",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13592479/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Molecular Psychiatry｜2026-10-25",
+          "url": "https://www.nature.com/articles/s41380-026-03941-5"
+        },
+        {
+          "title": "前期｜Increased PKC activity and altered GSK3β/NMDAR function drive behavior cycling in HINT1-deficient mice｜2017",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28240305/"
+        },
+        {
+          "title": "前期｜HINT1 protein cooperates with cannabinoid 1 receptor to negatively regulate NMDA receptor activity｜2013",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24093505/"
+        },
+        {
+          "title": "前期｜HINT1 Is Involved in Chronic Mild Stress via PKCε/ALDH-2/4HNE｜2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34177485/"
+        },
+        {
+          "title": "主文｜Nature Communications｜2026-10-25",
+          "url": "https://www.nature.com/articles/s41467-026-79031-5"
+        },
+        {
+          "title": "前期｜Internally organized mechanisms of the head direction sense｜Nature Neuroscience｜2015",
+          "url": "https://www.nature.com/articles/nn.3968"
+        },
+        {
+          "title": "前期｜Ring attractor dynamics in the Drosophila central brain｜Cell｜2017",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28473639/"
+        },
+        {
+          "title": "前期｜The Brain Compass: How Self-Motion Updates the Head Direction Cell Attractor｜Neuron｜2018",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29346751/"
+        },
+        {
+          "title": "前期｜Multimodal cue integration and learning in a neural representation of head direction｜Nature Neuroscience｜2025",
+          "url": "https://www.nature.com/articles/s41593-024-01823-z"
+        },
+        {
+          "title": "主文｜Nature Communications｜2026-10-25",
+          "url": "https://www.nature.com/articles/s41467-026-79018-2"
+        },
+        {
+          "title": "前期｜Detection of abnormal resting-state networks in individual focal epilepsy patients｜2014",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25565949/"
+        },
+        {
+          "title": "前期｜Resting-state functional brain networks in adults with a new diagnosis of focal epilepsy｜2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30488645/"
+        },
+        {
+          "title": "前期｜Common functional connectivity alterations in focal epilepsies identified by machine learning｜2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34984672/"
+        },
+        {
+          "title": "前期｜Individual-specific resting-state networks predict language dominance in drug-resistant epilepsy｜2026",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13592479/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-25",
       "date": "2026-10-25",
