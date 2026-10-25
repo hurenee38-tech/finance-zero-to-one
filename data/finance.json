@@ -1,8 +1,711 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-25T07:07:07+08:00",
+  "updatedAt": "2026-10-26T07:09:37+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-26",
+      "date": "2026-10-26",
+      "source": "scheduled",
+      "title": "医药金融与创新药数据库更新｜2026-10-26",
+      "summary": "本期聚焦ESMO关键临床数据：pumitamig二期早期信号、divarasib头对头III期、两款CLDN18.2 ADC的阈值与终点分化，以及Lycia IPO。学习模块讲解事件研究与异常收益；全量核查83个既有NCT成功83、失败0，新增4个真实登记后总计87个。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "假设某创新药公司在关键III期数据公布日下跌15%，同日可比生物科技指数下跌4%，该公司股票相对指数的历史β为1.5；数据公布前市值80亿美元。用简化市场模型估算：（1）市场因素解释的预期收益；（2）异常收益（abnormal return）；（3）按期初市值折算的异常市值变化。最后回答：这笔异常市值变化能否直接等同于该资产rNPV的变化？为什么？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先用β把行业波动换算成该股在“没有公司特有消息”时的预期波动，再以实际收益减去预期收益。公式：预期收益≈β×指数收益=1.5×(-4%)=-6%；异常收益=实际收益-预期收益=-15%-(-6%)=-9%；异常市值变化≈80亿美元×(-9%)=-7.2亿美元。一种可行解释是市场把临床成功概率、峰值销售、上市时间、安全性、融资需求或竞争格局中的一项或多项下调了，但不能直接断言资产rNPV恰好减少7.2亿美元。原因包括公司可能有多个资产、指数和β只是粗略控制、股价含流动性/仓位/预期差、税务与资本结构等因素。常见误区：把-15%全部归因于数据；把β当成固定真理；把市值变化当现金流变化。自查标准：符号是否正确、是否同时报告原始和异常收益、是否把结果称为估计而非事实。"
+        },
+        {
+          "heading": "核心概念：事件研究与异常收益",
+          "body": "事件研究的第一性原理是反事实：如果没有公司特有事件，这只股票当天大概会怎么走？最简模型用行业指数和β近似；更完整做法会在事件前估计市场模型，并检查多日事件窗。它适合衡量“市场意外程度”，不等于DCF或rNPV。算例见今日思考：原始跌幅15%，经行业与β调整后异常跌幅约9%，对应约7.2亿美元异常市值损失。"
+        },
+        {
+          "heading": "1. Pumitamig二期在免疫治疗后NSCLC显示早期活性",
+          "body": "事实：2026-10-25，BioNTech/BMS公布ROSETTA Lung-107（NCT06841055）首批数据。50例安全集、30例疗效可评估者中，确认ORR为36.7%、DCR为90.0%；总体中位PFS 6.9个月，但95%CI上限尚未达到，中位随访仅12.2周。3级及以上pumitamig相关不良事件18%，停药8%。登记显示该开放标签、单臂II期仍为RECRUITING，计划60人。分析：PD-L1×VEGF-A双特异体与多西他赛的信号支持在免疫化疗后继续开发，但跨试验与历史多西他赛比较不能替代随机对照；短随访和小样本使PFS成熟度、持续缓解与OS仍是关键。商业上，这是BioNTech/BMS广谱pumitamig项目的第二线扩张选项，也增加后续随机试验和资源优先级判断压力。"
+        },
+        {
+          "heading": "2. Divarasib头对头击败已获批KRAS G12C抑制剂",
+          "body": "事实：2026-10-25，Roche公布Krascendo 1（NCT06497556）III期。338例既往治疗KRAS G12C突变NSCLC中，divarasib对比sotorasib或adagrasib，中位OS 17.7对12.0个月（HR 0.56，p=0.0005），中位PFS 9.8对5.7个月（HR 0.58，p<0.0001），ORR 58%对32%。登记状态为ACTIVE_NOT_RECRUITING。分析：真正的同类头对头生存优势比单臂ORR更能改变处方与支付方谈判；若获批，Roche不仅争夺后线市场，还可把“best-in-class”证据外推到更早线联合开发，但外推仍需独立试验证据。财务上，商业替代速度、竞争者价格反应和一线研究成败将决定峰值销售。"
+        },
+        {
+          "heading": "3. Arcotatug tavatecan在高表达CLDN18.2胃癌同时改善OS和PFS",
+          "body": "事实：Takeda于2026-10-23披露G-HOPE-001（NCT06238843）III期：464例经2–4线治疗、CLDN18.2 IHC≥2+且≥75%肿瘤细胞阳性的胃/胃食管结合部癌患者中，arcotatug tavatecan（IBI343/TAK-921）对比医生选择治疗，中位OS 10.2对6.9个月（HR 0.57，p<0.0001），中位PFS 7.1对3.1个月（HR 0.45）。分析：OS和PFS方向一致降低了“影像终点与生存脱节”的担忧；但严格≥75%阈值压缩可及人群。Takeda拥有大中华区外权利、信达保留大中华区权益，数据提升合作资产价值并支持日本申报计划。"
+        },
+        {
+          "heading": "4. Sonesitatug vedotin拓宽CLDN18.2阈值，但PFS共主要终点未显著",
+          "body": "事实：2026-10-25，AstraZeneca公布CLARITY-Gastric01（NCT06346392）III期。入组阈值为CLDN18.2在≥25%肿瘤细胞表达；2线及以后总体中位OS 10.6对6.4个月（HR 0.58），3线及以后中位OS 10.0对5.0个月（HR 0.47）。然而2线及以后BICR-PFS为4.2对3.8个月，HR 0.77，p=0.053193，未达到统计显著。分析：较低阈值可扩大约定适用人群，是商业差异化；但双主要终点只成功一个会增加监管、标签与医生解释复杂度。与TAK-921的高阈值、双终点均阳性形成“人群宽度对疗效纯度”的直接战略对照。"
+        },
+        {
+          "heading": "5. Lycia IPO显示公开市场仍愿为平台型早期生物科技定价",
+          "body": "事实：Lycia的SEC文件显示其以LYTAC平台开发细胞外蛋白降解剂，LCA-0061正处I期并已报告首个健康特应性队列的IgE药效学信号；LCA-0321进入Graves病I期。2026-10-20拟议条款为1,470万股、每股16–18美元，随后市场报道其扩大并按18美元定价。分析：投资者买的是平台可重复性、早期人体靶点降解深度和后续资产期权，而非近期收入。核心风险是单次药效学变化能否转化为患者临床获益，以及公开市场融资后摊薄、锁定期和早期失败概率。"
+        },
+        {
+          "heading": "跨岗位洞察：同一CLDN18.2 ADC赛道如何被不同岗位拆解",
+          "body": "投行会关注AstraZeneca、Takeda/信达两套数据如何改变同类资产估值、融资窗口和潜在并购溢价；FA顾问会用表达阈值、线次、地区权利和payload差异为中国资产寻找最合适买方；BD会比较MMAE与exatecan载荷、伴随诊断、全球供应链及地区权利缺口；投资者会把OS、PFS、毒性和可治疗人群共同放入rNPV，特别惩罚PFS未显著与标签不确定性；咨询顾问会测算不同IHC阈值下的患者漏斗、检测渗透率、治疗路径和医生选择。"
+        },
+        {
+          "heading": "迷你案例：宽阈值还是高富集？",
+          "body": "教学假设：某CLDN18.2 ADC方案A可覆盖每年10万名候选患者，峰值渗透率20%，年净价8万美元；方案B只覆盖4万名高表达患者，但峰值渗透率35%，年净价9万美元。忽略治疗持续时间差异，A峰值销售=10万×20%×8万=16亿美元；B=4万×35%×9万=12.6亿美元。A看似更大，但若因疗效不确定使上市概率仅55%，B为75%，简单风险调整后分别约8.8亿和9.45亿美元。启示：人群更宽不自动等于价值更高；需要同时估计疗效、标签、诊断与上市概率。"
+        },
+        {
+          "heading": "数据库维护与数据缺口",
+          "body": "2026-10-26逐项核查既有83个去重NCT：成功83、失败0；状态、阶段、入组数和主要终点实质变化0，数据纠错0。另从本期原始披露新增4个真实登记，去重后总计87个。NCT06346392的登记预计完成日不等于结果公布日；公司公告数据尚不等于ClinicalTrials.gov结果模块。Lycia最终IPO定价以市场报道补充，SEC S-1/A用于核实业务、管线与拟议条款；未把未核实的影响因子、非公开信息或用户私人内容写入公开文件。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Abnormal return",
+          "zh": "异常收益",
+          "meaning": "实际收益减去市场模型估计的无事件预期收益。"
+        },
+        {
+          "en": "Beta (β)",
+          "zh": "贝塔",
+          "meaning": "股票对市场或行业指数波动的历史敏感度估计。"
+        },
+        {
+          "en": "Head-to-head trial",
+          "zh": "头对头试验",
+          "meaning": "在同一随机试验中直接比较两种主动治疗。"
+        },
+        {
+          "en": "BICR",
+          "zh": "盲态独立中心审评",
+          "meaning": "由不知道治疗分组的独立影像团队统一判定肿瘤终点。"
+        },
+        {
+          "en": "Companion diagnostic",
+          "zh": "伴随诊断",
+          "meaning": "用于识别适合某靶向药患者的监管配套检测。"
+        },
+        {
+          "en": "LYTAC",
+          "zh": "溶酶体靶向嵌合体",
+          "meaning": "借助细胞表面内吞受体把细胞外或膜蛋白送入溶酶体降解。"
+        },
+        {
+          "en": "Payload",
+          "zh": "载荷",
+          "meaning": "ADC递送到靶细胞附近的细胞毒小分子。"
+        },
+        {
+          "en": "Enrichment threshold",
+          "zh": "富集阈值",
+          "meaning": "以生物标志物表达水平筛选更可能获益人群的门槛。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "BioNTech/BMS：pumitamig二期ROSETTA Lung-107结果，2026-10-25",
+          "url": "https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2026/10/BioNTech-and-Bristol-Myers-Squibb-Report-Encouraging-Global-Phase-2-data-for-Pumitamig-in-Advanced-NSCLC-After-Progression-on-Immunotherapy-Plus-Chemotherapy.html"
+        },
+        {
+          "title": "Roche：divarasib III期Krascendo 1详细结果，2026-10-25",
+          "url": "https://www.roche.com/investors/updates/inv-update-2026-10-25"
+        },
+        {
+          "title": "Takeda：arcotatug tavatecan III期G-HOPE-001结果，2026-10-23",
+          "url": "https://www.takeda.com/newsroom/newsreleases/2026/arcotatug-tavatecan-phase-3-study/"
+        },
+        {
+          "title": "AstraZeneca：sonesitatug vedotin III期CLARITY-Gastric01结果，2026-10-25",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sonesitatug-vedotin-reduced-the-risk-of-death-by-42-pct-in-2nd-and-later-line-cldn182-positive-advanced-gastricgej-cancers-in-clarity-gastric01.html"
+        },
+        {
+          "title": "SEC：Lycia Therapeutics S-1/A，2026-10-19",
+          "url": "https://www.sec.gov/Archives/edgar/data/1806540/000162828026066381/lyciatherapeutics-sx1a.htm"
+        },
+        {
+          "title": "Reuters：Lycia拟议IPO条款，2026-10-20",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/drug-developer-lycia-therapeutics-targets-938-million-valuation-us-ipo-2026-10-20/"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06841055，核查于2026-10-26",
+          "url": "https://clinicaltrials.gov/study/NCT06841055"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06497556，核查于2026-10-26",
+          "url": "https://clinicaltrials.gov/study/NCT06497556"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06238843，核查于2026-10-26",
+          "url": "https://clinicaltrials.gov/study/NCT06238843"
+        },
+        {
+          "title": "ClinicalTrials.gov NCT06346392，核查于2026-10-26",
+          "url": "https://clinicaltrials.gov/study/NCT06346392"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT06841055",
+          "title": "pumitamig + docetaxel（ROSETTA Lung-107）",
+          "company": "BioNTech / Bristol Myers Squibb",
+          "target": "PD-L1 × VEGF-A",
+          "modality": "双特异性免疫调节抗体 + 化疗",
+          "area": "肿瘤",
+          "indication": "一线免疫化疗后进展的转移性非小细胞肺癌",
+          "stage": "Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "Safety and Preliminary Efficacy of Pumitamig (BNT327), an Investigational Therapy for Patients With Non-small Cell Lung Cancer in Combination With Chemotherapy as First-line or Second-line Treatment",
+          "registryUpdated": "2026-04-24",
+          "checked": "2026-10-26",
+          "summary": "登记计划60人、开放标签单臂II期；公司于2026-10-25公布早期ORR/PFS数据，登记无结果模块。",
+          "endpoints": [
+            "DLT（首剂后21天）",
+            "治疗期间安全性/停药",
+            "Objective response rate（约2年）"
+          ],
+          "primaryCompletion": {
+            "date": "2028-10",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-10",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 60,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06841055，核查于2026-10-26",
+              "url": "https://clinicaltrials.gov/study/NCT06841055"
+            },
+            {
+              "title": "BioNTech/BMS：pumitamig二期ROSETTA Lung-107结果，2026-10-25",
+              "url": "https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2026/10/BioNTech-and-Bristol-Myers-Squibb-Report-Encouraging-Global-Phase-2-data-for-Pumitamig-in-Advanced-NSCLC-After-Progression-on-Immunotherapy-Plus-Chemotherapy.html"
+            }
+          ],
+          "note": "公司新闻稿中的50例安全集/30例疗效可评估分析不等于登记计划样本或完成。",
+          "risks": "单臂、短随访、小样本、历史对照偏差及VEGF相关出血/高血压风险。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Pumitamig"
+            },
+            {
+              "type": "DRUG",
+              "name": "Docetaxel"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06497556",
+          "title": "divarasib（Krascendo 1）",
+          "company": "Hoffmann-La Roche",
+          "target": "KRAS G12C",
+          "modality": "小分子抑制剂",
+          "area": "肿瘤",
+          "indication": "既往治疗KRAS G12C阳性晚期或转移性NSCLC",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Study Evaluating the Efficacy and Safety of Divarasib Versus Sotorasib or Adagrasib in Participants With Previously Treated KRAS G12C-positive Advanced or Metastatic Non-Small Cell Lung Cancer",
+          "registryUpdated": "2026-09-16",
+          "checked": "2026-10-26",
+          "summary": "338人随机头对头III期已停止招募；公司报告OS、PFS及ORR均优于sotorasib/adagrasib。",
+          "endpoints": [
+            "Progression-free survival，约4年"
+          ],
+          "primaryCompletion": {
+            "date": "2026-05-19",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2029-11-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 338,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06497556，核查于2026-10-26",
+              "url": "https://clinicaltrials.gov/study/NCT06497556"
+            },
+            {
+              "title": "Roche：divarasib III期Krascendo 1详细结果，2026-10-25",
+              "url": "https://www.roche.com/investors/updates/inv-update-2026-10-25"
+            }
+          ],
+          "note": "登记主要终点为PFS；公司披露OS为关键次要终点阳性，不代表已获批。",
+          "risks": "开放标签、后续治疗影响OS、商业替代取决于监管标签/定价/毒性。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Divarasib"
+            },
+            {
+              "type": "DRUG",
+              "name": "Sotorasib"
+            },
+            {
+              "type": "DRUG",
+              "name": "Adagrasib"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06238843",
+          "title": "arcotatug tavatecan / IBI343 / TAK-921（G-HOPE-001）",
+          "company": "Innovent Biologics / Takeda",
+          "target": "CLDN18.2",
+          "modality": "ADC（exatecan载荷）",
+          "area": "肿瘤",
+          "indication": "经2–4线治疗、CLDN18.2高表达、HER2阴性胃/胃食管结合部腺癌",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Multicenter, Phase 3 Study of IBI343 Monotherapy Versus Treatment of Investigator's Choice in Subjects With Previously Treated, Claudin (CLDN) 18.2-positive, HER2-negative, Gastric or Gastroesophageal Junction Adenocarcinoma (G-HOPE-001)",
+          "registryUpdated": "2026-05-13",
+          "checked": "2026-10-26",
+          "summary": "464人实际入组，双主要终点OS和PFS；公司披露两者均显著改善。",
+          "endpoints": [
+            "Progression-free survival（约20个月）",
+            "Overall survival（约26个月）"
+          ],
+          "primaryCompletion": {
+            "date": "2026-12-30",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-12-31",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 464,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06238843，核查于2026-10-26",
+              "url": "https://clinicaltrials.gov/study/NCT06238843"
+            },
+            {
+              "title": "Takeda：arcotatug tavatecan III期G-HOPE-001结果，2026-10-23",
+              "url": "https://www.takeda.com/newsroom/newsreleases/2026/arcotatug-tavatecan-phase-3-study/"
+            }
+          ],
+          "note": "公司数据截止2026-09-03；登记预计日期不应解释为下一次读出。",
+          "risks": "仅高表达富集人群、地区外推、ADC血液学/胃肠道毒性和伴随诊断执行。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "IBI343"
+            },
+            {
+              "type": "DRUG",
+              "name": "Irinotecan / Paclitaxel / FTD-TPI"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06346392",
+          "title": "sonesitatug vedotin / AZD0901（CLARITY-Gastric01）",
+          "company": "AstraZeneca",
+          "target": "CLDN18.2",
+          "modality": "ADC（MMAE载荷）",
+          "area": "肿瘤",
+          "indication": "CLDN18.2≥25%表达的二线及以后晚期胃/胃食管结合部癌",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "AZD0901 Compared With Investigator's Choice of Therapy in Participants With Second- or Later-line Advanced or Metastatic Gastric or Gastroesophageal Junction Adenocarcinoma Expressing Claudin18.2",
+          "registryUpdated": "2026-10-15",
+          "checked": "2026-10-26",
+          "summary": "594人实际入组；公司报告OS显著改善，但2L+人群BICR-PFS共主要终点p=0.053193未显著。",
+          "endpoints": [
+            "PFS in all randomized participants（约3年）",
+            "OS for 3L+ participants（约3年）"
+          ],
+          "primaryCompletion": {
+            "date": "2026-05-31",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2026-10-14",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 594,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov NCT06346392，核查于2026-10-26",
+              "url": "https://clinicaltrials.gov/study/NCT06346392"
+            },
+            {
+              "title": "AstraZeneca：sonesitatug vedotin III期CLARITY-Gastric01结果，2026-10-25",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sonesitatug-vedotin-reduced-the-risk-of-death-by-42-pct-in-2nd-and-later-line-cldn182-positive-advanced-gastricgej-cancers-in-clarity-gastric01.html"
+            }
+          ],
+          "note": "登记预计完成日期已过但状态仍ACTIVE_NOT_RECRUITING；不推断试验完成或监管状态。",
+          "risks": "一项共主要终点未显著、开放标签、多种对照方案、低表达阈值下获益与毒性权衡。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "AZD0901"
+            },
+            {
+              "type": "DRUG",
+              "name": "Investigator's choice therapy"
+            }
+          ],
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-biontech",
+          "title": "BioNTech",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "summary": "与BMS共同开发pumitamig；ROSETTA Lung-107新增免疫化疗后NSCLC早期人体信号。",
+          "sections": [
+            {
+              "heading": "平台与策略",
+              "body": "PD-L1×VEGF-A平台已铺设多项全球III期；当前二线数据用于决定是否再开注册性研究。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech/BMS：pumitamig二期ROSETTA Lung-107结果，2026-10-25",
+              "url": "https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2026/10/BioNTech-and-Bristol-Myers-Squibb-Report-Encouraging-Global-Phase-2-data-for-Pumitamig-in-Advanced-NSCLC-After-Progression-on-Immunotherapy-Plus-Chemotherapy.html"
+            }
+          ]
+        },
+        {
+          "id": "company-bristol-myers-squibb",
+          "title": "Bristol Myers Squibb",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "summary": "与BioNTech共同推进pumitamig，已形成覆盖肺癌多线次的广泛项目。",
+          "sections": [
+            {
+              "heading": "组合价值",
+              "body": "可将pumitamig与自身免疫肿瘤、化疗及其他新药资产组合，主要风险是开发资源重叠。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech/BMS：pumitamig二期ROSETTA Lung-107结果，2026-10-25",
+              "url": "https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2026/10/BioNTech-and-Bristol-Myers-Squibb-Report-Encouraging-Global-Phase-2-data-for-Pumitamig-in-Advanced-NSCLC-After-Progression-on-Immunotherapy-Plus-Chemotherapy.html"
+            }
+          ]
+        },
+        {
+          "id": "company-roche",
+          "title": "Roche",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "summary": "Divarasib在KRAS G12C NSCLC主动对照III期取得OS与PFS优势。",
+          "sections": [
+            {
+              "heading": "战略影响",
+              "body": "具备头对头替代证据，可支持监管申报与对现有KRAS抑制剂的商业换药。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roche：divarasib III期Krascendo 1详细结果，2026-10-25",
+              "url": "https://www.roche.com/investors/updates/inv-update-2026-10-25"
+            }
+          ]
+        },
+        {
+          "id": "company-takeda",
+          "title": "Takeda",
+          "date": "2026-10-23",
+          "checked": "2026-10-26",
+          "summary": "大中华区外开发arcotatug tavatecan，G-HOPE-001支持日本申报与全球开发。",
+          "sections": [
+            {
+              "heading": "地区权利",
+              "body": "Takeda持大中华区外权利；信达保留大中华区，开发与商业价值需按地区拆分。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Takeda：arcotatug tavatecan III期G-HOPE-001结果，2026-10-23",
+              "url": "https://www.takeda.com/newsroom/newsreleases/2026/arcotatug-tavatecan-phase-3-study/"
+            }
+          ]
+        },
+        {
+          "id": "company-innovent-biologics",
+          "title": "Innovent Biologics",
+          "date": "2026-10-23",
+          "checked": "2026-10-26",
+          "summary": "IBI343的全球III期结果验证CLDN18.2-exatecan ADC资产。",
+          "sections": [
+            {
+              "heading": "平台价值",
+              "body": "人体验证可提升同平台后续ADC及区域商业化价值，但高表达阈值限制可及人群。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Takeda：arcotatug tavatecan III期G-HOPE-001结果，2026-10-23",
+              "url": "https://www.takeda.com/newsroom/newsreleases/2026/arcotatug-tavatecan-phase-3-study/"
+            }
+          ]
+        },
+        {
+          "id": "company-astrazeneca",
+          "title": "AstraZeneca",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "summary": "Sone-Ve在更宽CLDN18.2人群显示OS优势，但2L+ BICR-PFS未显著。",
+          "sections": [
+            {
+              "heading": "策略权衡",
+              "body": "宽人群标签潜力与终点不一致性并存；CLARITY-Gastric02继续向一线推进。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AstraZeneca：sonesitatug vedotin III期CLARITY-Gastric01结果，2026-10-25",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sonesitatug-vedotin-reduced-the-risk-of-death-by-42-pct-in-2nd-and-later-line-cldn182-positive-advanced-gastricgej-cancers-in-clarity-gastric01.html"
+            }
+          ]
+        },
+        {
+          "id": "company-lycia-therapeutics",
+          "title": "Lycia Therapeutics",
+          "date": "2026-10-20",
+          "checked": "2026-10-26",
+          "summary": "以LYTAC细胞外蛋白降解平台和IgE/Graves病I期项目进入IPO窗口。",
+          "sections": [
+            {
+              "heading": "资本与平台",
+              "body": "融资价值依赖人体药效学能否转化为临床获益，以及多个受体/靶点组合的可复制性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "SEC：Lycia Therapeutics S-1/A，2026-10-19",
+              "url": "https://www.sec.gov/Archives/edgar/data/1806540/000162828026066381/lyciatherapeutics-sx1a.htm"
+            },
+            {
+              "title": "Reuters：Lycia拟议IPO条款，2026-10-20",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/drug-developer-lycia-therapeutics-targets-938-million-valuation-us-ipo-2026-10-20/"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-pdl1-vegfa-pumitamig",
+          "title": "PD-L1 × VEGF-A双特异免疫调节",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "summary": "Pumitamig加多西他赛在免疫化疗后NSCLC显示早期ORR/PFS信号。",
+          "sections": [
+            {
+              "heading": "必要证据与假设",
+              "body": "必要证据：随机对照PFS/OS和可管理的出血/高血压；支持证据：跨PD-L1表达均见缓解；待验证：局部VEGF封锁是否改善治疗窗。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "BioNTech/BMS：pumitamig二期ROSETTA Lung-107结果，2026-10-25",
+              "url": "https://www.biontech.com/int/en/home/mediaroom/news/press-releases/2026/10/BioNTech-and-Bristol-Myers-Squibb-Report-Encouraging-Global-Phase-2-data-for-Pumitamig-in-Advanced-NSCLC-After-Progression-on-Immunotherapy-Plus-Chemotherapy.html"
+            }
+          ]
+        },
+        {
+          "id": "target-kras-g12c-divarasib",
+          "title": "KRAS G12C直接抑制",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "summary": "Divarasib在III期主动对照中同时改善OS与PFS，强化同类最佳潜力。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "头对头OS是强支持证据；早线联合、脑转移控制和耐药机制仍需分别验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roche：divarasib III期Krascendo 1详细结果，2026-10-25",
+              "url": "https://www.roche.com/investors/updates/inv-update-2026-10-25"
+            }
+          ]
+        },
+        {
+          "id": "target-cldn182-adc",
+          "title": "CLDN18.2靶向ADC",
+          "date": "2026-10-25",
+          "checked": "2026-10-26",
+          "summary": "Exatecan与MMAE两种载荷在胃癌III期均产生OS信号，但阈值与PFS表现分化。",
+          "sections": [
+            {
+              "heading": "赛道判断",
+              "body": "必要比较包括IHC阈值、payload、旁观者效应、胃肠道/血液学毒性和伴随诊断；不能仅比较跨试验HR。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Takeda：arcotatug tavatecan III期G-HOPE-001结果，2026-10-23",
+              "url": "https://www.takeda.com/newsroom/newsreleases/2026/arcotatug-tavatecan-phase-3-study/"
+            },
+            {
+              "title": "AstraZeneca：sonesitatug vedotin III期CLARITY-Gastric01结果，2026-10-25",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sonesitatug-vedotin-reduced-the-risk-of-death-by-42-pct-in-2nd-and-later-line-cldn182-positive-advanced-gastricgej-cancers-in-clarity-gastric01.html"
+            }
+          ]
+        },
+        {
+          "id": "target-extracellular-protein-degradation-lytac",
+          "title": "LYTAC介导的细胞外蛋白降解",
+          "date": "2026-10-19",
+          "checked": "2026-10-26",
+          "summary": "Lycia报告LCA-0061早期人体IgE下降，提供平台机制验证但尚非临床获益。",
+          "sections": [
+            {
+              "heading": "证据层级",
+              "body": "必要证据是患者症状/发作等临床终点；支持证据是总/游离IgE持续下降；待验证是假设降解优于中和阻断。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "SEC：Lycia Therapeutics S-1/A，2026-10-19",
+              "url": "https://www.sec.gov/Archives/edgar/data/1806540/000162828026066381/lyciatherapeutics-sx1a.htm"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-lycia-ipo-2026-10-22",
+          "title": "Lycia Therapeutics IPO",
+          "date": "2026-10-22",
+          "checked": "2026-10-26",
+          "summary": "拟议文件披露1,470万股、每股16–18美元；市场报道随后扩大并按18美元定价。",
+          "sections": [
+            {
+              "heading": "融资要素",
+              "body": "类型：美国IPO；发行人：Lycia；用途：LCA-0061、LCA-0062、LCA-0321及平台研发/营运资金；最终发行规模以最终招股文件和交易所记录为准，本条对最终定价采用市场报道补充。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "SEC：Lycia Therapeutics S-1/A，2026-10-19",
+              "url": "https://www.sec.gov/Archives/edgar/data/1806540/000162828026066381/lyciatherapeutics-sx1a.htm"
+            },
+            {
+              "title": "Reuters：Lycia拟议IPO条款，2026-10-20",
+              "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/drug-developer-lycia-therapeutics-targets-938-million-valuation-us-ipo-2026-10-20/"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-divarasib-regulatory-undated",
+          "title": "Divarasib监管申报/沟通",
+          "date": null,
+          "checked": "2026-10-26",
+          "summary": "Roche称正与监管机构合作推进，未披露具体提交日期。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "监管；confirmed intent, timing unknown。III期阳性不等于已提交或获批。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Roche：divarasib III期Krascendo 1详细结果，2026-10-25",
+              "url": "https://www.roche.com/investors/updates/inv-update-2026-10-25"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-arcotatug-japan-filing-2027",
+          "title": "Arcotatug tavatecan日本申报计划",
+          "date": "2027",
+          "checked": "2026-10-26",
+          "summary": "Takeda称G-HOPE-001结果将支持计划中的日本申报。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "监管；company guidance。仅记录年份，不推断月份或批准时间。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Takeda：arcotatug tavatecan III期G-HOPE-001结果，2026-10-23",
+              "url": "https://www.takeda.com/newsroom/newsreleases/2026/arcotatug-tavatecan-phase-3-study/"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-soneve-regulatory-undated",
+          "title": "Sonesitatug vedotin监管路径",
+          "date": null,
+          "checked": "2026-10-26",
+          "summary": "CLARITY-Gastric01提供OS证据，但PFS共主要终点未显著；具体申报时间未披露。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "监管；inference pending company guidance。关键变量是终点层级、标签线次及CLDN18.2阈值。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AstraZeneca：sonesitatug vedotin III期CLARITY-Gastric01结果，2026-10-25",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sonesitatug-vedotin-reduced-the-risk-of-death-by-42-pct-in-2nd-and-later-line-cldn182-positive-advanced-gastricgej-cancers-in-clarity-gastric01.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-lycia-lca0061-data-2027",
+          "title": "LCA-0061追加早期人体数据",
+          "date": "2027",
+          "checked": "2026-10-26",
+          "summary": "SEC文件预计2027年获得高IgE健康参与者及食物过敏患者追加数据。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床；company estimate。预计时间不是读出承诺，不视为已完成。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "SEC：Lycia Therapeutics S-1/A，2026-10-19",
+              "url": "https://www.sec.gov/Archives/edgar/data/1806540/000162828026066381/lyciatherapeutics-sx1a.htm"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-lycia-lca0321-data-2027",
+          "title": "LCA-0321 Graves病初步数据",
+          "date": "2027",
+          "checked": "2026-10-26",
+          "summary": "SEC文件预计2027年获得Graves病I期初步数据。",
+          "sections": [
+            {
+              "heading": "类型与状态",
+              "body": "临床；company estimate。需同时看TRAb降解、甲状腺功能与安全性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "SEC：Lycia Therapeutics S-1/A，2026-10-19",
+              "url": "https://www.sec.gov/Archives/edgar/data/1806540/000162828026066381/lyciatherapeutics-sx1a.htm"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-25",
       "date": "2026-10-25",
@@ -17330,20 +18033,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-25T07:07:07+08:00",
+    "checkedAt": "2026-10-26T07:09:37+08:00",
     "status": "success",
-    "checked": 78,
-    "changed": 1,
+    "checked": 83,
+    "changed": 0,
     "failed": 0,
-    "corrected": 2,
-    "newPipelines": 5,
-    "totalPipelines": 83,
-    "companies": 9,
+    "corrected": 0,
+    "newPipelines": 4,
+    "totalPipelines": 87,
+    "companies": 7,
     "targets": 4,
-    "deals": 4,
+    "deals": 1,
     "catalysts": 5,
-    "events": 6,
-    "summary": "78个既有NCT全部核查成功、0个失败；NCT06585449仅登记日期刷新，实质字段无变化；纠正2条旧字段（NCT05933577入组类型、NCT06564142登记申办方）；新增5个真实登记，去重后覆盖83个NCT。公司9、靶点4、交易/融资4、催化剂5；全部历史与根级归档保留。"
+    "events": 5,
+    "summary": "83个既有NCT全部核查成功、0个失败；状态、阶段、入组数与主要终点实质变化0，纠错0；新增4个真实登记，去重后覆盖87个NCT。公司7、靶点4、融资1、催化剂5；20期历史及全部根级归档保留，未触发90期裁剪。"
   },
   "archivedPapers": []
 }
