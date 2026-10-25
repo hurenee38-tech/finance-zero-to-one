@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-26T07:09:37+08:00",
+  "updatedAt": "2026-10-26T07:12:30+08:00",
   "items": [
     {
       "id": "finance-2026-10-26",
@@ -41,7 +41,7 @@
         },
         {
           "heading": "5. Lycia IPO显示公开市场仍愿为平台型早期生物科技定价",
-          "body": "事实：Lycia的SEC文件显示其以LYTAC平台开发细胞外蛋白降解剂，LCA-0061正处I期并已报告首个健康特应性队列的IgE药效学信号；LCA-0321进入Graves病I期。2026-10-20拟议条款为1,470万股、每股16–18美元，随后市场报道其扩大并按18美元定价。分析：投资者买的是平台可重复性、早期人体靶点降解深度和后续资产期权，而非近期收入。核心风险是单次药效学变化能否转化为患者临床获益，以及公开市场融资后摊薄、锁定期和早期失败概率。"
+          "body": "事实：Lycia的SEC文件显示其以LYTAC平台开发细胞外蛋白降解剂，LCA-0061正处I期并已报告首个健康特应性队列的IgE药效学信号；LCA-0321进入Graves病I期。SEC拟议条款为1,470万股、每股16–18美元；Renaissance Capital随后报道最终扩大至1,764万股并按18美元定价，毛募资约3.18亿美元。分析：投资者买的是平台可重复性、早期人体靶点降解深度和后续资产期权，而非近期收入。核心风险是单次药效学变化能否转化为患者临床获益，以及公开市场融资后摊薄、锁定期和早期失败概率。"
         },
         {
           "heading": "跨岗位洞察：同一CLDN18.2 ADC赛道如何被不同岗位拆解",
@@ -53,7 +53,7 @@
         },
         {
           "heading": "数据库维护与数据缺口",
-          "body": "2026-10-26逐项核查既有83个去重NCT：成功83、失败0；状态、阶段、入组数和主要终点实质变化0，数据纠错0。另从本期原始披露新增4个真实登记，去重后总计87个。NCT06346392的登记预计完成日不等于结果公布日；公司公告数据尚不等于ClinicalTrials.gov结果模块。Lycia最终IPO定价以市场报道补充，SEC S-1/A用于核实业务、管线与拟议条款；未把未核实的影响因子、非公开信息或用户私人内容写入公开文件。"
+          "body": "2026-10-26逐项核查既有83个去重NCT：成功83、失败0；状态、阶段、入组数和主要终点实质变化0，数据纠错0。另从本期原始披露新增4个真实登记，去重后总计87个。NCT06346392的登记预计完成日不等于结果公布日；公司公告数据尚不等于ClinicalTrials.gov结果模块。Lycia业务与拟议条款由SEC文件核实，最终定价由IPO市场来源补充；未把未核实的影响因子、非公开信息或用户私人内容写入公开文件。"
         }
       ],
       "terms": [
@@ -122,6 +122,10 @@
         {
           "title": "Reuters：Lycia拟议IPO条款，2026-10-20",
           "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/drug-developer-lycia-therapeutics-targets-938-million-valuation-us-ipo-2026-10-20/"
+        },
+        {
+          "title": "Renaissance Capital：Lycia扩大IPO并按18美元定价，2026-10-22",
+          "url": "https://www.renaissancecapital.com/IPO-Center/News/122368/lycia-therapeutics-prices-upsized-ipo-at-18-the-high-end-of-the-range"
         },
         {
           "title": "ClinicalTrials.gov NCT06841055，核查于2026-10-26",
@@ -589,11 +593,11 @@
           "title": "Lycia Therapeutics IPO",
           "date": "2026-10-22",
           "checked": "2026-10-26",
-          "summary": "拟议文件披露1,470万股、每股16–18美元；市场报道随后扩大并按18美元定价。",
+          "summary": "SEC拟议条款为1,470万股、每股16–18美元；随后扩大至1,764万股并按18美元定价，毛募资约3.18亿美元。",
           "sections": [
             {
               "heading": "融资要素",
-              "body": "类型：美国IPO；发行人：Lycia；用途：LCA-0061、LCA-0062、LCA-0321及平台研发/营运资金；最终发行规模以最终招股文件和交易所记录为准，本条对最终定价采用市场报道补充。"
+              "body": "类型：美国IPO；发行人：Lycia；最终发行1,764万股、每股18美元，毛募资约3.18亿美元；用途包括LCA-0061、LCA-0062、LCA-0321、平台研发及营运资金。SEC文件核实业务/拟议条款，最终定价由IPO市场来源补充。"
             }
           ],
           "sources": [
@@ -604,6 +608,10 @@
             {
               "title": "Reuters：Lycia拟议IPO条款，2026-10-20",
               "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/drug-developer-lycia-therapeutics-targets-938-million-valuation-us-ipo-2026-10-20/"
+            },
+            {
+              "title": "Renaissance Capital：Lycia扩大IPO并按18美元定价，2026-10-22",
+              "url": "https://www.renaissancecapital.com/IPO-Center/News/122368/lycia-therapeutics-prices-upsized-ipo-at-18-the-high-end-of-the-range"
             }
           ]
         }
@@ -18033,7 +18041,7 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-26T07:09:37+08:00",
+    "checkedAt": "2026-10-26T07:12:30+08:00",
     "status": "success",
     "checked": 83,
     "changed": 0,
