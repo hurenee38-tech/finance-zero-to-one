@@ -1,8 +1,239 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-25T23:00:18Z",
+  "updatedAt": "2026-10-26T23:07:00Z",
   "items": [
+    {
+      "id": "neuro-2026-10-27",
+      "date": "2026-10-27",
+      "source": "scheduled",
+      "title": "神经生物学简报｜迷走神经重塑胰腺肿瘤免疫与自闭症结构—功能层级",
+      "summary": "本期收录2篇2026-10-26发表并由期刊页面核实的原始研究：一篇以动态自适应软体生物电子装置刺激膈下迷走神经并在小鼠胰腺癌模型中改善肿瘤免疫，另一篇揭示自闭症结构—功能耦合沿感觉—联合皮层层级的重组。未找到第三篇同等新鲜度且信息足以可靠核查的研究，因此不凑数；两刊影响因子均待官方可靠核实。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "软体迷走神经刺激器在小鼠中同时改变肿瘤生长、神经支配和免疫细胞组成。怎样设计一条因果证据链，证明抗肿瘤效应主要来自“膈下迷走神经刺激→特定神经信号→免疫重塑”，而不是装置材料炎症、局部加热、全身应激或对肿瘤细胞的直接损伤？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：需要分别证明刺激确实作用于目标神经、免疫变化位于肿瘤控制的因果链中，并排除装置和非特异生理效应。\n\n1. 基础对照：设置无植入、植入但不刺激、假刺激、同等温升/功率但无有效神经激活，以及材料形状相同但不导电的对照；连续监测温度、心率、活动、体重和应激激素。\n2. 靶向确认：记录膈下迷走神经复合动作电位或下游器官反应，建立刺激强度—神经反应—免疫效应的剂量关系；用局部神经阻断、选择性切断或化学遗传抑制测试效应是否消失。\n3. 必要性：分别耗竭CD8+T/NK细胞、抑制关键巨噬细胞状态转换或阻断候选递质受体；若肿瘤控制随之消失，才支持免疫环节必需。需要同时确认阻断本身没有改变刺激递送。\n4. 充分性与救援：不用电极而以化学遗传/光遗传激活同一神经亚群，检验能否复制免疫和肿瘤表型；在神经阻断背景下补回候选递质或转移相应免疫细胞，观察是否救援。\n5. 时序和空间：在肿瘤缩小前做多时间点单细胞、空间转录和细胞因子测定，确认神经活动先变、免疫状态随后改变、最后才出现肿瘤控制；比较肿瘤、脾脏和外周血，区分局部与全身作用。\n6. 排除直接效应：在无神经和免疫细胞的肿瘤细胞培养中复现同等电场、温度与材料浸提物；若不发生细胞毒性，且免疫缺陷小鼠中刺激失效，神经—免疫解释更可信。\n\n一种可行结论：只有当目标神经被特异激活；阻断神经或关键免疫细胞可消除疗效；正交激活能复制效应；材料、温升、应激和直接细胞毒性对照均为阴性，才可较强支持“神经刺激通过免疫重塑抑瘤”。\n\n必要证据：靶神经依赖性、免疫环节必要性、正交复制和混杂控制。支持证据：时序、单细胞/空间图谱、递质变化。待验证假设：人类胰腺癌中同一回路是否存在、长期刺激是否安全、与抗PD-1联用是否有临床增益。\n\n常见误区：把M1/M2标志物变化当作完整机制；把联合组更好直接称为协同而不做交互统计；只用切断神经而忽略手术炎症；把单一小鼠模型等同患者疗效。\n\n自查标准：每个箭头是否都有阻断和救援？神经、免疫、肿瘤三层读数是否有正确时序？是否有等温、假刺激和材料对照？开放问题允许多条可辩护的证据链。"
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-27。本期仅选择2篇2026-10-26发表的原始研究；题名、日期、DOI和摘要核心结论由期刊页面核查。Nature Communications论文为可引用的早期在线版本，后续可能有编辑更新。未通过官方Journal Citation Reports可靠核实影响因子，统一标注“影响因子待核实”。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "重点推荐软体生物电子论文：它把神经调控、肿瘤免疫和可植入材料连接起来，是“装置—靶神经—免疫—疗效”证据链的好案例。自闭症论文则展示如何用结构—功能耦合和皮层层级把宏观影像与递质、基因图谱连接；但两篇都必须严格区分实验发现、空间关联与临床推断。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Subdiaphragmatic vagus nerve",
+          "zh": "膈下迷走神经",
+          "meaning": "迷走神经穿过膈肌后支配腹腔脏器的分支，是近器官自主神经调节靶点。"
+        },
+        {
+          "en": "Dynamically adaptive neural interface",
+          "zh": "动态自适应神经界面",
+          "meaning": "能随软组织运动和形变保持贴合、电耦合与机械兼容的电极界面。"
+        },
+        {
+          "en": "Anti-fatigue adhesive conductive hydrogel",
+          "zh": "抗疲劳黏附导电水凝胶",
+          "meaning": "兼具组织黏附、导电和反复形变耐受性的软材料。"
+        },
+        {
+          "en": "Tumor-associated macrophage (TAM)",
+          "zh": "肿瘤相关巨噬细胞",
+          "meaning": "肿瘤微环境中的巨噬细胞群，状态连续且功能多样，不能被简单二分为M1/M2。"
+        },
+        {
+          "en": "Orthotopic tumor model",
+          "zh": "原位肿瘤模型",
+          "meaning": "将肿瘤建立在其来源器官中，比皮下模型更接近局部组织和神经环境。"
+        },
+        {
+          "en": "Structure–function coupling",
+          "zh": "结构—功能耦合",
+          "meaning": "解剖连接模式对脑区间功能协同的约束或对应程度。"
+        },
+        {
+          "en": "Cortical hierarchy",
+          "zh": "皮层层级",
+          "meaning": "从初级感觉区到跨模态联合区的连续组织轴。"
+        },
+        {
+          "en": "Spatial autocorrelation",
+          "zh": "空间自相关",
+          "meaning": "相邻脑区数值天然相似的现象，若不控制会夸大两张脑图的相关性。"
+        },
+        {
+          "en": "Polysynaptic propagation",
+          "zh": "多突触传播",
+          "meaning": "信号通过多个中继连接扩散，而非仅依赖直接结构连接。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41467-026-79002-w",
+          "title": "自适应软体生物电子装置以膈下迷走神经刺激重塑胰腺肿瘤免疫",
+          "date": "2026-10-26",
+          "checked": "2026-10-27",
+          "topic": "癌症神经科学 / 迷走神经 / 神经免疫调节 / 生物电子药物",
+          "target": "Subdiaphragmatic vagus nerve–TAM–cytotoxic immune axis",
+          "summary": "研究团队构建可注射抗疲劳黏附导电水凝胶、可形变液态金属电极与无电池无铅无线供能模块组成的微型膈下迷走神经刺激器。在小鼠原位胰腺肿瘤模型中，慢性刺激与肿瘤生长和转移减少、肿瘤神经支配改变、M1样肿瘤相关巨噬细胞偏移及细胞毒性免疫细胞浸润增加相关，并增强抗PD-1治疗效果。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Liu等，Nature Communications，2026-10-26；DOI：10.1038/s41467-026-79002-w。影响因子待核实。标题可译为“用于神经—免疫调节癌症治疗的动态自适应软体生物电子学”。胰腺肿瘤免疫抑制强，迷走神经可能调节免疫，但贴合食管旁膈下迷走神经并长期稳定刺激仍是工程瓶颈。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者问：能否构建可微创植入、长期稳定且靠近器官的膈下迷走神经刺激平台，并借此改善胰腺肿瘤免疫？装置采用可注射抗疲劳黏附导电水凝胶与可变形液态金属电极形成动态界面，配合无电池、无铅无线供能模块和可卷曲结构；随后在小鼠原位胰腺肿瘤中进行慢性刺激，并评估肿瘤负荷、转移、神经支配和免疫组成，以及与抗PD-1联用。"
+            },
+            {
+              "heading": "原文发现与机制边界",
+              "body": "原文发现：该界面实现膈下迷走神经的稳定电耦合；慢性刺激组出现肿瘤生长和转移减少、肿瘤神经支配重塑、M1样TAM比例偏移和细胞毒性免疫细胞浸润增强，抗PD-1联合组效果进一步提高。作者据此提出近器官迷走神经调节可重塑肿瘤免疫微环境。需要强调：这些结果来自原位小鼠模型；摘要所示关联尚不能单独排除刺激导致的全身应激、局部材料反应或其他自主神经通路。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值在于把柔性材料、无线供能和神经免疫治疗整合为系统级平台，并把“刺激哪条神经”推进到“能否在运动器官附近长期稳定刺激”。局限包括单一动物模型、装置植入本身的免疫影响、刺激参数与人类解剖尺度差异，以及M1/M2二分法对TAM状态的简化。编辑分析：临床转化前应证明免疫细胞或关键神经通路的必要性，开展长期生物相容性和剂量—反应研究，并验证与标准治疗的增益是否可重复。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "研究不是简单把电极缩小，而是让界面随软组织动态形变：水凝胶负责黏附和导电，液态金属负责顺应变形，无线模块避免电池。小鼠结果提示，稳定刺激膈下迷走神经可能把免疫抑制型胰腺肿瘤微环境推向更有利于细胞毒性免疫和抗PD-1反应的状态。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Partecke等（Oncotarget，2017）发现膈下迷走神经切断在小鼠胰腺癌中促进肿瘤并降低生存，效应依赖TNFα，为迷走神经具有抑瘤作用提供前期因果线索。② Greten等相关团队的Nature研究（2026）揭示肺肿瘤经迷走感觉—交感输出轴抑制抗肿瘤免疫，说明肿瘤—脑回路方向具有情境依赖性。③ Boilly等综述/研究框架总结外周神经—肿瘤微环境可药性，强调不同神经亚型和肿瘤阶段可能产生相反效应。④ 既往经皮迷走刺激肺癌小鼠研究增强CD8+T细胞活化却未显著抑制肿瘤，提醒免疫标志物改善不等于肿瘤控制。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications｜2026-10-26",
+              "url": "https://www.nature.com/articles/s41467-026-79002-w"
+            },
+            {
+              "title": "前期｜Subdiaphragmatic vagotomy promotes tumor growth and reduces survival via TNFα｜2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28160574/"
+            },
+            {
+              "title": "前期｜Tumour–brain crosstalk restrains cancer immunity via a sensory–sympathetic axis｜Nature｜2026",
+              "url": "https://www.nature.com/articles/s41586-025-10028-8"
+            },
+            {
+              "title": "前期｜Targeting the peripheral neural–tumour microenvironment for cancer therapy｜Nature Reviews Cancer｜2025",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12123372/"
+            },
+            {
+              "title": "前期｜Transcutaneous vagal nerve stimulation stimulates lung tumour-infiltrating lymphocytes but fails to suppress growth｜2021",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34925341/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s42003-026-11305-6",
+          "title": "自闭症中的结构—功能耦合沿感觉—联合皮层层级发生扭曲",
+          "date": "2026-10-26",
+          "checked": "2026-10-27",
+          "topic": "自闭症 / 多模态连接组 / 皮层层级",
+          "target": "Structure–function coupling / sensory–association hierarchy",
+          "summary": "该研究联合脑结构与功能网络评估自闭症的结构—功能耦合，发现差异并非均匀分布，而更集中在感觉系统与高级联合系统的层级组织。空间模式进一步与兴奋/抑制相关特征、神经递质分布、基因表达和多感觉加工图谱相关联。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Kim、Namgung与Park，Communications Biology，2026-10-26；DOI：10.1038/s42003-026-11305-6。影响因子待核实。标题可译为“自闭症结构—功能耦合的层级性扭曲及其多尺度神经生物学关联”。以往研究常分别报告结构或功能连接差异，但解剖通路怎样约束功能协同、这种关系是否沿感觉到联合皮层的层级发生变化，仍不清楚。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者将结构连接与功能连接整合为区域性的结构—功能耦合指标，比较自闭症与典型发育参与者，并把组间空间差异投射到皮层层级及多尺度参考图谱，包括兴奋/抑制相关特征、神经递质受体/转运体分布、脑区基因表达和功能解码。方法属于多模态人类神经影像与空间关联分析，不是细胞或分子干预实验。"
+            },
+            {
+              "heading": "原文发现与机制边界",
+              "body": "原文发现：自闭症与改变的结构—功能耦合相关，差异尤其涉及感觉与联合系统之间的层级组织；这些空间变化与兴奋/抑制特征、神经递质分布、基因表达及多感觉加工图谱存在统计关联。该结果支持“自闭症连接组异常沿皮层层级组织”的框架，但不能证明某种递质、基因或E/I失衡导致个体症状；规范脑图谱的空间共变也可能受到共同梯度和空间自相关影响。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值在于把结构和功能网络放到同一层级坐标中，并用跨尺度图谱产生可检验的分子假设。局限包括多中心扫描与年龄异质性、静态耦合指标对动态状态的压缩、空间关联不等于机制，以及群体平均模式不能直接用于个人诊断。编辑分析：更有价值的下一步是纵向发育复现、外部队列验证，并用PET/MRS或遗传/细胞模型对具体递质和E/I假设做正交检验。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "自闭症并不是所有脑区的结构与功能都以同样方式“脱耦”。偏差更像沿着从初级感觉处理到高级联合认知的皮层层级重新分布，而且其空间位置与多种分子和功能图谱重叠。这为机制分层提供线索，但目前仍是关联性地图。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Hong等（Nature Communications，2019）描述自闭症功能连接组层级异常，建立“感觉—跨模态梯度”框架。② Park等（NeuroImage，2023）用全连接组模型指出多突触传播机制可解释自闭症结构—功能耦合异常，是本研究直接方法学前身。③ 白质结构—功能耦合研究（Molecular Autism，2024）在ABIDE II及独立队列报告白质低耦合并关联症状，扩展了耦合分析的组织尺度。④ Cortical gene expression architecture研究（Nature Communications，2024）把健康皮层转录层级与自闭症影像、转录和遗传信号联系起来，为跨尺度空间映射提供分子背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Communications Biology｜2026-10-26",
+              "url": "https://www.nature.com/articles/s42003-026-11305-6"
+            },
+            {
+              "title": "前期｜Atypical functional connectome hierarchy in autism｜Nature Communications｜2019",
+              "url": "https://www.nature.com/articles/s41467-019-08944-1"
+            },
+            {
+              "title": "前期｜Connectome-wide structure-function coupling models implicate polysynaptic alterations in autism｜NeuroImage｜2023",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38043839/"
+            },
+            {
+              "title": "前期｜Structure-function coupling in white matter uncovers hypoconnectivity in autism｜Molecular Autism｜2024",
+              "url": "https://link.springer.com/article/10.1186/s13229-024-00620-6"
+            },
+            {
+              "title": "前期｜Cortical gene expression architecture links neurodevelopment to autism and schizophrenia｜Nature Communications｜2024",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11156586/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Nature Communications｜2026-10-26",
+          "url": "https://www.nature.com/articles/s41467-026-79002-w"
+        },
+        {
+          "title": "前期｜Subdiaphragmatic vagotomy promotes tumor growth and reduces survival via TNFα｜2017",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28160574/"
+        },
+        {
+          "title": "前期｜Tumour–brain crosstalk restrains cancer immunity via a sensory–sympathetic axis｜Nature｜2026",
+          "url": "https://www.nature.com/articles/s41586-025-10028-8"
+        },
+        {
+          "title": "前期｜Targeting the peripheral neural–tumour microenvironment for cancer therapy｜Nature Reviews Cancer｜2025",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12123372/"
+        },
+        {
+          "title": "前期｜Transcutaneous vagal nerve stimulation stimulates lung tumour-infiltrating lymphocytes but fails to suppress growth｜2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34925341/"
+        },
+        {
+          "title": "主文｜Communications Biology｜2026-10-26",
+          "url": "https://www.nature.com/articles/s42003-026-11305-6"
+        },
+        {
+          "title": "前期｜Atypical functional connectome hierarchy in autism｜Nature Communications｜2019",
+          "url": "https://www.nature.com/articles/s41467-019-08944-1"
+        },
+        {
+          "title": "前期｜Connectome-wide structure-function coupling models implicate polysynaptic alterations in autism｜NeuroImage｜2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38043839/"
+        },
+        {
+          "title": "前期｜Structure-function coupling in white matter uncovers hypoconnectivity in autism｜Molecular Autism｜2024",
+          "url": "https://link.springer.com/article/10.1186/s13229-024-00620-6"
+        },
+        {
+          "title": "前期｜Cortical gene expression architecture links neurodevelopment to autism and schizophrenia｜Nature Communications｜2024",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11156586/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-26",
       "date": "2026-10-26",
