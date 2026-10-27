@@ -1,8 +1,239 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-26T23:07:00Z",
+  "updatedAt": "2026-10-27T23:12:00Z",
   "items": [
+    {
+      "id": "neuro-2026-10-28",
+      "date": "2026-10-28",
+      "source": "scheduled",
+      "title": "神经生物学简报｜胶质瘤劫持GABA能刹车与PVT–CRHR1早期逆境印记",
+      "summary": "本期收录2篇近期原始研究：Neuron论文揭示胶质母细胞瘤通过GAT-1、DBI及瘤周抑制性神经元操纵GABA能网络并促进肿瘤；Cell Reports论文以活动依赖标记、翻译组和细胞特异CRISPR定位早期逆境后成年奖赏异常所需的PVT–CRHR1机制。第三篇候选仅为10月27日编入期刊、早在9月已在线发表，故不计入今日新文献；影响因子均待官方可靠核实。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "新Neuron研究中，增强GABA信号的洛拉西泮在胶质母细胞瘤小鼠模型里降低肿瘤增殖；但2025年Nature研究显示，洛拉西泮可增强弥漫性中线胶质瘤细胞的去极化性GABAA突触并促进生长。怎样设计实验，判断GABA增强在某位患者的胶质瘤中究竟是“刹车”还是“油门”？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：两项结果未必矛盾，因为药物可能主要作用于不同细胞，GABAA电流方向取决于氯离子梯度，不同胶质瘤亚型和解剖位置也可能具有不同的神经—肿瘤回路。\n\n1. 先分层：按胶质母细胞瘤、弥漫性中线胶质瘤、分子亚型和解剖位置分别建立患者来源模型，不能把所有高级别胶质瘤合并。\n2. 测定电流方向：在肿瘤细胞和瘤周神经元分别做gramicidin穿孔膜片钳，避免全细胞记录破坏胞内Cl−；测GABA反转电位EGABA，并与静息膜电位比较。若EGABA高于静息电位，GABA可能去极化；低于则更可能抑制。\n3. 检查氯稳态：定量NKCC1、KCC2及其膜定位和功能，配合Cl−传感器。必要证据不是单纯“表达了GABAA受体”，而是药物确实改变了目标细胞的膜电位和放电/钙信号。\n4. 分开细胞靶点：用神经元特异或肿瘤细胞特异的GABAA受体亚基、GAT-1和DBI操作，判断洛拉西泮主要是增强瘤周抑制性神经元的刹车，还是直接去极化肿瘤细胞。\n5. 建立因果链：同时测瘤周网络活动、癫痫样放电、肿瘤细胞增殖和动物生存；若网络活动下降但肿瘤仍增长，说明神经症状改善不能替代抗肿瘤终点。\n6. 药物正交验证：比较洛拉西泮、亚基选择性正变构调节剂、丙戊酸及直接调节NKCC1/KCC2的工具。若不同机制得到一致方向，才更可信。\n7. 患者预测：在患者切片或类器官—神经元共培养中先测EGABA和短期增殖反应，再决定是否进入体内验证；建立“亚型+氯稳态+受体亚基+网络效应”的伴随标志物组合。\n\n一种可行答案：只有当患者来源模型显示瘤周神经元中的GABA为超极化性、药物主要增强神经元抑制、肿瘤细胞本身没有去极化性GABAA电流，并且网络降噪与肿瘤控制同步出现时，才支持GABA增强是“刹车”。相反，若肿瘤细胞高NKCC1/低KCC2、EGABA去极化且药物直接促进其钙信号和增殖，则可能是“油门”。\n\n必要证据：保留Cl−梯度的电生理、细胞类型特异操作、肿瘤与网络双终点、患者来源模型复现。支持证据：转录组、受体亚基表达、癫痫改善。待验证假设：这些指标能否预测患者对GABA药物的真实肿瘤学结局。\n\n常见误区：把GABA天然等同于抑制；只看癫痫减少就推断抗肿瘤；用全细胞膜片钳测EGABA却忽略透析效应；把不同胶质瘤亚型的结果直接合并。\n\n自查标准：是否分别测了神经元和肿瘤细胞？是否直接测量EGABA而非只看受体表达？是否同时记录网络活动、增殖和生存？是否有亚型与解剖位置分层？开放问题可能存在多种合理实验路径。"
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-28。Neuron主文于2026-10-27发表；Cell Reports主文于2026-10-14在线发表并于10月27日编入第45卷第10期。题名、日期、DOI、核心方法与主要结论经期刊、PubMed和作者机构资料交叉核查。未通过官方Journal Citation Reports可靠核实影响因子，统一标注“影响因子待核实”。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "重点推荐Neuron论文，因为它与既有“GABA能突触促进弥漫性中线胶质瘤”的结果形成真正有价值的张力：关键不是GABA本身好或坏，而是细胞靶点、氯稳态和肿瘤亚型。PVT–CRHR1论文则展示了如何把早期经历、细胞集合记忆和GPCR因果机制连接起来。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "GABA transporter 1 (GAT-1/SLC6A1)",
+          "zh": "GABA转运体1",
+          "meaning": "从细胞外清除GABA的膜转运蛋白；在肿瘤与神经元中可能产生不同网络效应。"
+        },
+        {
+          "en": "Diazepam-binding inhibitor (DBI)",
+          "zh": "地西泮结合抑制蛋白",
+          "meaning": "可产生调节GABAA受体的内源性肽类信号，本研究将其与瘤周高兴奋联系起来。"
+        },
+        {
+          "en": "Gramicidin-perforated patch",
+          "zh": "短杆菌肽穿孔膜片钳",
+          "meaning": "保持细胞内氯离子环境，适合测定GABAA电流真实反转电位。"
+        },
+        {
+          "en": "GABA reversal potential (EGABA)",
+          "zh": "GABA反转电位",
+          "meaning": "GABAA电流净方向改变的膜电位，决定GABA在特定细胞中倾向超极化还是去极化。"
+        },
+        {
+          "en": "Chloride homeostasis",
+          "zh": "氯离子稳态",
+          "meaning": "由NKCC1、KCC2等维持的胞内外Cl−梯度，是GABAA信号方向的核心决定因素。"
+        },
+        {
+          "en": "Paraventricular thalamus (PVT)",
+          "zh": "丘脑室旁核",
+          "meaning": "连接应激、唤醒和奖赏网络的中线丘脑结构。"
+        },
+        {
+          "en": "Corticotropin-releasing hormone receptor 1 (CRHR1)",
+          "zh": "促肾上腺皮质激素释放激素受体1",
+          "meaning": "CRH激活的Gs偶联GPCR，参与应激与奖赏调节。"
+        },
+        {
+          "en": "Translating ribosome affinity purification (TRAP)",
+          "zh": "翻译核糖体亲和纯化",
+          "meaning": "从特定细胞中富集正在被核糖体翻译的mRNA，以读取状态相关翻译程序。"
+        },
+        {
+          "en": "Activity-dependent genetic labeling",
+          "zh": "活动依赖遗传标记",
+          "meaning": "在限定时间窗内永久标记被激活的细胞，以便成年后追踪和操纵。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1016-j-neuron-2026-10-001",
+          "title": "胶质母细胞瘤通过GAT-1与DBI削弱GABA能抑制，推动神经网络高兴奋与肿瘤进展",
+          "date": "2026-10-27",
+          "checked": "2026-10-28",
+          "topic": "胶质母细胞瘤 / GABA能递质 / 癫痫 / 新靶点开发",
+          "target": "GAT-1–DBI–GABAergic inhibition axis",
+          "summary": "研究在胶质母细胞瘤动物模型中发现，肿瘤可同时操纵GABA清除与GABAA受体调节：肿瘤细胞GAT-1缺失加快生长，肿瘤分泌DBI增强局部网络高兴奋；激活瘤周抑制性神经元则抑制肿瘤。洛拉西泮和丙戊酸在该模型中降低肿瘤增殖，提示恢复神经网络抑制可能成为辅助治疗方向。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "McDonald等，Neuron，2026-10-27；DOI：10.1016/j.neuron.2026.10.001。影响因子待核实。标题可译为“胶质瘤调控GABA能信号以驱动神经网络高兴奋和肿瘤进展”。既往癌症神经科学主要强调兴奋性神经元、谷氨酸突触与NLGN3；本研究转而询问，肿瘤是否也会破坏脑内天然的GABA能“刹车”。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者首先筛查在胶质母细胞瘤中发生改变的癫痫相关基因，识别GABA转运体GAT-1；随后结合动物肿瘤模型、肿瘤细胞遗传操作和对瘤周抑制性神经元的选择性激活/抑制，评估神经活动及肿瘤生长。研究还检测肿瘤来源的diazepam-binding inhibitor（DBI），并在小鼠中测试增强GABA信号的洛拉西泮和丙戊酸。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文发现：从肿瘤细胞移除GAT-1会加速肿瘤生长；激活瘤周抑制性神经元降低生长，而阻断其抑制作用进一步促进肿瘤。胶质母细胞瘤产生较多DBI，伴随局部网络高兴奋及肿瘤进展。两种已获批抗癫痫药洛拉西泮和丙戊酸在所用小鼠模型中降低肿瘤细胞增殖。作者提出，肿瘤通过削弱GABA能抑制制造有利于自身生长的高兴奋微环境。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把肿瘤细胞、抑制性神经元、癫痫样高兴奋和肿瘤生长放进同一因果框架，并提出GAT-1与DBI两个可药节点。局限：动物模型结果不能直接证明患者获益；丙戊酸具有广泛表观遗传和代谢作用，洛拉西泮还会改变全脑状态；不同胶质瘤亚型的GABA电位和受体表达可能相反。编辑分析：这不是“所有胶质瘤都应增强GABA”的结论，临床前开发必须先按肿瘤部位、分子亚型和氯稳态分层。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "胶质母细胞瘤不仅利用兴奋性输入，还会关闭周围脑组织的抑制性制动系统。GAT-1和DBI共同参与这种操纵；恢复瘤周GABA能抑制在小鼠中同时降低神经网络高兴奋和肿瘤增殖，提示治疗可以瞄准“肿瘤—神经回路”而不只瞄准肿瘤细胞。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Venkatesh等（Cell，2015）发现神经活动通过NLGN3促进高级别胶质瘤生长，建立活动依赖型肿瘤生物学框架。② Venkataramani与Venkatesh团队（Nature，2019）分别证明谷氨酸能神经元可与胶质瘤形成电突触。③ Barron等（Nature，2025）发现弥漫性中线胶质瘤具有促进生长的GABA能神经元—胶质瘤突触；洛拉西泮在该亚型反而促进生长，是理解本研究亚型差异的关键反例。④ NLGN3–CSPG4–PIEZO1研究（Nature Neuroscience，2026）把神经来源信号连接到OPC样状态与机械转导，扩展了可药的神经—胶质瘤界面。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Glioma regulates GABAergic signaling to drive hyperactivity and tumor progression｜Neuron｜2026-10-27",
+              "url": "https://doi.org/10.1016/j.neuron.2026.10.001"
+            },
+            {
+              "title": "前期｜Neuronal activity promotes glioma growth through neuroligin-3 secretion｜Cell｜2015",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25913192/"
+            },
+            {
+              "title": "前期｜Targeting neuronal activity-regulated neuroligin-3 dependency in high-grade glioma｜Nature｜2017",
+              "url": "https://www.nature.com/articles/nature24014"
+            },
+            {
+              "title": "关键反例｜GABAergic neuron-to-glioma synapses in diffuse midline gliomas｜Nature｜2025",
+              "url": "https://www.nature.com/articles/s41586-024-08579-3"
+            },
+            {
+              "title": "前期｜Neuroligin-3–CSPG4 interaction maintains OPC progenitor state and promotes glioma proliferation｜Nature Neuroscience｜2026",
+              "url": "https://www.nature.com/articles/s41593-026-02397-8"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1016-j-celrep-2026-118142",
+          "title": "早期逆境激活的丘脑室旁核神经元通过CRHR1维持成年奖赏行为异常",
+          "date": "2026-10-14",
+          "checked": "2026-10-28",
+          "topic": "早期生活逆境 / 奖赏 / PVT / 神经肽GPCR",
+          "target": "CRH–CRHR1 signaling in early-life-activated PVT neurons",
+          "summary": "研究用活动依赖遗传标记锁定早期逆境期间被激活的丘脑室旁核神经元，并结合翻译核糖体亲和纯化分析其成年期奖赏相关翻译程序。CRHR1在饲养条件、奖赏和性别之间呈差异调节；仅在这群早期激活的PVT神经元中用CRISPR删除Crhr1，即可分别改善雄性和雌性成年小鼠的异常奖赏行为。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Floriou-Servou等，Cell Reports，在线发表于2026-10-14，收录于2026-10-27第45卷第10期；DOI：10.1016/j.celrep.2026.118142。影响因子待核实。标题可译为“丘脑室旁核中的肽类信号是早期逆境导致成年奖赏行为异常所必需的”。早期生活逆境与快感缺失和成瘾风险相关，但短暂新生期经历怎样在特定细胞中留下长期、且具有性别差异的分子痕迹仍不明确。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者使用活动依赖遗传标记捕获早期逆境期间激活的PVT神经元，成年后在静息或奖赏任务条件下，用翻译核糖体亲和纯化分析其正在翻译的基因；再结合解剖定位和CRISPR–Cas9，仅在早期被激活的PVT细胞中删除Crhr1。基于既往回路结果，雄性主要干预前PVT，雌性主要干预后PVT，并评估动机和奖赏相关行为。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文发现：早期逆境与对照小鼠在成年PVT细胞中呈现不同的奖赏诱导翻译程序，且具有明显性别差异。CRH受体1编码基因Crhr1在饲养条件、奖赏刺激和性别之间差异调节。仅在早期逆境期间被标记的PVT神经元中删除Crhr1，可使成年雄性和雌性逆境小鼠的奖赏行为分别趋于正常。因此作者把成年PVT中的CRHR1信号定位为早期逆境长期效应的必要机制之一。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：它没有在整个脑或整个PVT中删除受体，而是把时间窗口、细胞记忆和GPCR信号结合起来，因果精度较高。局限：小鼠早期逆境范式不能完整对应人类童年经历；雌雄干预脑区不同，不能简单把性别差异解释为单一分子效应；删除受体证明必要性，不等同于药理拮抗具有安全治疗窗。编辑分析：若要开发CRHR1治疗，应优先探索细胞/回路定向递送或状态依赖调节，避免全身CRHR1阻断干扰HPA轴。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "早期逆境会在一群PVT神经元中留下可持续到成年的分子“痕迹”。这些细胞在面对奖赏时启动的翻译程序会因性别和早期环境而不同；其中CRHR1是必要节点。把Crhr1只从这群细胞中删除，就能纠正成年奖赏行为异常。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Kooiker等（Biological Psychiatry Global Open Science，2023）首先用遗传标记证明PVT选择性编码早期不良经历。② 同团队2024年研究显示，早期激活的PVT神经元集合介导成年期、性别依赖的奖赏异常，为本研究提供细胞群基础。③ CRH输入与PVT CRHR1综述/研究（2026）提出母体—早期应激信息可能通过CRH信号写入PVT。④ 人类影像研究（Biological Psychiatry，2024）把早期逆境与成年奖赏网络预期价值信号降低联系起来，提供跨物种相关背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Peptide signaling in the paraventricular thalamus is essential for disrupted adult reward behaviors consequent to early-life adversity｜Cell Reports｜2026-10-14",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42873641/"
+            },
+            {
+              "title": "前期｜Genetic Tagging Uncovers a Robust, Selective Activation of the PVT by Adverse Experiences Early in Life｜2023",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37881549/"
+            },
+            {
+              "title": "前期｜PVT neuronal ensembles encode early-life adversity and mediate sex-dependent disruptions of adult reward behavior｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38746198/"
+            },
+            {
+              "title": "前期｜Corticotropin releasing hormone-expressing inputs to the PVT: pathways from mother to memory?｜2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41853066/"
+            },
+            {
+              "title": "人类相关研究｜Early-Life Adversities Are Associated With Lower Expected Value Signaling in the Adult Brain｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38636886/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Glioma regulates GABAergic signaling to drive hyperactivity and tumor progression｜Neuron｜2026-10-27",
+          "url": "https://doi.org/10.1016/j.neuron.2026.10.001"
+        },
+        {
+          "title": "前期｜Neuronal activity promotes glioma growth through neuroligin-3 secretion｜Cell｜2015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25913192/"
+        },
+        {
+          "title": "前期｜Targeting neuronal activity-regulated neuroligin-3 dependency in high-grade glioma｜Nature｜2017",
+          "url": "https://www.nature.com/articles/nature24014"
+        },
+        {
+          "title": "关键反例｜GABAergic neuron-to-glioma synapses in diffuse midline gliomas｜Nature｜2025",
+          "url": "https://www.nature.com/articles/s41586-024-08579-3"
+        },
+        {
+          "title": "前期｜Neuroligin-3–CSPG4 interaction maintains OPC progenitor state and promotes glioma proliferation｜Nature Neuroscience｜2026",
+          "url": "https://www.nature.com/articles/s41593-026-02397-8"
+        },
+        {
+          "title": "主文｜Peptide signaling in the paraventricular thalamus is essential for disrupted adult reward behaviors consequent to early-life adversity｜Cell Reports｜2026-10-14",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42873641/"
+        },
+        {
+          "title": "前期｜Genetic Tagging Uncovers a Robust, Selective Activation of the PVT by Adverse Experiences Early in Life｜2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37881549/"
+        },
+        {
+          "title": "前期｜PVT neuronal ensembles encode early-life adversity and mediate sex-dependent disruptions of adult reward behavior｜2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38746198/"
+        },
+        {
+          "title": "前期｜Corticotropin releasing hormone-expressing inputs to the PVT: pathways from mother to memory?｜2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41853066/"
+        },
+        {
+          "title": "人类相关研究｜Early-Life Adversities Are Associated With Lower Expected Value Signaling in the Adult Brain｜2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38636886/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-27",
       "date": "2026-10-27",
