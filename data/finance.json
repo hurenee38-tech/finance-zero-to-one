@@ -1,8 +1,853 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-27T07:03:50+08:00",
+  "updatedAt": "2026-10-27T23:18:00Z",
   "items": [
+    {
+      "id": "finance-2026-10-28",
+      "date": "2026-10-28",
+      "source": "scheduled",
+      "title": "从早期基因纠正到三期自身免疫：资本确定性与临床证据分层",
+      "summary": "本期覆盖BEAM-301早期人体概念验证、etentamig BLA、dazodalibep三期、Corxel SPAC融资和velinotamig自身免疫启动。核心训练是把SPAC headline拆成可用净现金，并严格区分登记状态、公司结果和监管里程碑。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Corxel与Amanat公布的headline是约3.77亿美元毛收入，其中SPAC信托约7,500万美元、PIPE约3亿美元。教学假设：SPAC股东赎回40%，交易费用3,000万美元，交割后年现金消耗1.2亿美元。\n\n问题：①不考虑PIPE调整时，预计净新增现金与静态跑道是多少？②若PIPE因约定机制减少20%，结果如何？③为什么不能把3.77亿美元直接当作可用于研发的现金？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先做资金来源桥接，再减交易费用，最后用净现金除以未来现金消耗。这里不讨论公司原有现金。\n\n情景A：信托可交割现金＝7,500万×(1−40%)＝4,500万美元；PIPE＝3亿美元；净新增现金＝4,500万＋3亿−3,000万＝3.15亿美元；静态跑道＝3.15亿÷1.2亿＝2.63年。\n\n情景B：PIPE减少20%后为2.4亿美元；净新增现金＝4,500万＋2.4亿−3,000万＝2.55亿美元；静态跑道＝2.55亿÷1.2亿＝2.13年。\n\n一种可行结论：SPAC交易的资金确定性取决于赎回、PIPE履约/调整、费用和成交条件。3.77亿美元只是“无赎回、交易费用前”的毛口径，不等于银行账户里可支出的现金。\n\n常见误区：忽略赎回；把PIPE承诺视为已到账；不扣承销、法律和上市费用；假定烧钱速度不随三期试验扩大。\n\n自查标准：每个数字是否标明毛额/净额、承诺/到账、无赎回/实际赎回，以及是否与同一交割时点匹配。"
+        },
+        {
+          "heading": "核心概念：SPAC资金桥接与Sources & Uses",
+          "body": "SPAC合并不是“公布估值＝公司拿到同等现金”。交易模型必须把资金来源（Sources）与用途（Uses）分开。\n\nSources通常包括：SPAC信托账户扣除赎回后的现金、PIPE、公司原有现金及必要时的债务融资。Uses通常包括：交易费用、偿债、股东现金对价和交割后经营资金。\n\n最小模型：可用净现金＝信托现金×(1−赎回率)＋实际交割PIPE＋其他融资−交易费用−偿债/现金对价。对临床期公司，还应把三期试验、CMC放大、上市准备和营运资本分别建模；“资金支持至某年”是管理层情景，不是保证。"
+        },
+        {
+          "heading": "进展1｜BEAM-301首次人体数据：基因纠正产生药效概念验证",
+          "body": "事实：截至2026-08-17，开放标签I/II期共有6名GSDIa患者接受一次静脉输注（20 mg和40 mg各3人）。40 mg组2人达到协议上限15小时的受控禁食，并在最新评估时停止淀粉补充；中位随访7.6个月。安全方面，6人中4人发生公司判定与治疗相关的严重不良事件，其中包括3例3级输注反应；均已处理或恢复。登记NCT06735755仍为RECRUITING，计划36人，主要终点是24个月安全性。\n\n分析：科学上，这是肝靶向LNP递送碱基编辑、修复G6PC1 R83C突变后恢复内源性葡萄糖生成的早期人体信号。商业上，一次治疗可能替代高频淀粉管理，但适用人群目前受基因型限制。战略上，Beam可把递送、编辑和制造平台复用于其他肝病。财务上，小样本和输注反应意味着只能提高后续成功概率，不能按成熟产品峰值销售估值。"
+        },
+        {
+          "heading": "进展2｜Etentamig向FDA提交BLA：BCMA双抗争夺社区用药场景",
+          "body": "事实：AbbVie于2026-10-27提交etentamig的BLA，用于至少两线治疗且三类药物暴露后的复发/难治多发性骨髓瘤。公司披露CERVINO三期ORR为74.0%对45.7%，PFS风险降低60%；单次阶梯剂量后从起始阶段每4周给药。登记NCT06158841记录421例实际入组，而新闻稿描述393例随机，故数据库保留登记值并注明口径差异。\n\n分析：科学上，低亲和CD3结合域旨在降低非特异T细胞激活，但3/4级感染仍为27.7%。商业上，月度给药和较轻CRS管理可能扩展至社区，但仍需感染预防与输注能力。战略上，AbbVie正在建立多线次骨髓瘤组合。财务上，BLA提交降低时间风险，却不等同于获批；应继续计入审评、标签、竞争与真实世界采用风险。"
+        },
+        {
+          "heading": "进展3｜Dazodalibep三期阳性：Sjögren病首次形成系统病活动与干燥症状双证据",
+          "body": "事实：OASIZ-301在Week 48达到主要终点。ESSDAI最小二乘均值较基线变化分别为每4周组−5.6、每12周组−5.2、安慰剂−3.8；对安慰剂差值分别−1.8（调整p<0.001）和−1.4（调整p=0.010）。每4周方案的患者报告干燥也显著改善。登记NCT06104124显示651例、状态COMPLETED，主要完成日2026-07-23为实际日期。\n\n分析：科学上，CD40L阻断同时影响T细胞、B细胞和抗原呈递细胞互作，结果覆盖系统活动与症状两个维度。商业上，Sjögren病目前缺乏FDA批准的疾病修饰药，首个标签具有先发优势。战略上，剂量频率将影响差异化和患者便利性。财务上，阳性三期显著提高成功率，但还要看第二个人群试验、长期安全、监管要求及支付方对ESSDAI差异的评价。"
+        },
+        {
+          "heading": "进展4｜Corxel以SPAC＋PIPE筹资推进口服GLP-1三期",
+          "body": "事实：Corxel US与Amanat签署业务合并协议。披露的约3.77亿美元毛收入由约7,500万美元SPAC信托和约3亿美元PIPE组成，均为交易费用前且假设无赎回；PIPE还存在减额机制。交易预计2027年上半年完成，所得款计划支持至2029年并推进CX11全球三期。交易只包含Corxel US及肥胖相关资产，不含Corxel HK和卒中资产JX10。NCT07652047是90人的I期b，仍RECRUITING；预计完成日期不能当成数据读出承诺。\n\n分析：科学上，口服小分子GLP-1受体激动剂的核心问题是高剂量下疗效、胃肠耐受和依从性。商业上，口服便利性可能扩大肥胖治疗覆盖。战略上，资产边界决定投资者究竟买到了什么。财务上，净现金对赎回、PIPE履约、费用和交割条件高度敏感，headline不可直接用于跑道模型。"
+        },
+        {
+          "heading": "进展5｜Velinotamig获准进入全球自身免疫性血细胞减少试验",
+          "body": "事实：FDA和澳大利亚TGA允许启动velinotamig在复发/难治ITP及温抗体型自身免疫性溶血性贫血中的I期b/II期a研究。方案为4次皮下注射，目标是通过BCMA×CD3 T细胞衔接器清除产生致病抗体的浆细胞。登记NCT07738822计划72人，但核查时仍为NOT_YET_RECRUITING，因此“监管获准”不能写成“已经招募”。Cullinan拥有大中华区外全球独家权利，Genrix保留大中华区。\n\n分析：科学上，这是把已在肿瘤验证的BCMA机制迁移至自身抗体驱动疾病。商业上，有限疗程若能产生持久缓解，可降低慢性用药负担。战略上，地区权利和中国SLE数据构成跨项目读穿。财务上，IND/CTA获准只是早期价值节点，感染、CRS、免疫球蛋白下降和疗效持续性仍是主要折价项。"
+        },
+        {
+          "heading": "跨岗位洞察｜如何阅读Corxel SPAC交易",
+          "body": "投行：搭建赎回率、PIPE减额、费用、交割条件和完全摊薄股数的资金桥接。\nFA顾问：核对交易资产边界、估值、公允性、替代融资方案与治理。\nBD：确认CX11/CX12的全球权利、原料药与制剂供应、专利寿命及关联方安排。\n投资者：把“3.77亿美元毛收入”拆成到账概率和净现金，并判断是否足以完成三期而不再融资。\n咨询：测算口服GLP-1在疗效、耐受、价格、渠道与患者路径上相对注射剂的定位。\n\n共同问题：交割后的净资本能否在下一次融资前产生足够有区分度的三期数据。"
+        },
+        {
+          "heading": "迷你案例｜Dazodalibep患者漏斗",
+          "body": "教学假设：某市场有20万名确诊Sjögren病患者；40%属于中重度系统疾病；符合标签并可接受生物制剂者70%；峰值渗透率25%；年净价6万美元。\n\n峰值销售＝200,000×40%×70%×25%×60,000＝8.4亿美元。\n\n若监管成功概率75%、商业执行概率70%，简单风险调整销售＝8.4×75%×70%＝4.41亿美元。\n\n该练习不是估值。真正DCF还需加入上市时间、治疗持续期、毛利、销售费用、研发和税，并考虑ESSDAI门槛、给药频率与竞争。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "全部既有89个NCT均尝试核查：85个成功、4个失败；失败项为NCT07810777、NCT07811089、NCT07863193、NCT07890909，旧值已保留且未标记为今日新核实。NCT07012395仅登记最后更新日期刷新至2026-10-27，状态、阶段、入组、干预、主要终点及完成日期均无实质变化，因此实质变化计0。\n\n新增5个经登记核实项目：NCT06735755、NCT06158841、NCT06104124、NCT07652047、NCT07738822。去重后覆盖94个NCT。历史22期和全部根级归档保留，未触发90期裁剪。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Sources & Uses",
+          "zh": "资金来源与用途",
+          "meaning": "交易模型中分别列明资金从哪里来、最终用于什么以及扣除哪些费用。"
+        },
+        {
+          "en": "Redemption",
+          "zh": "SPAC赎回",
+          "meaning": "SPAC股东在交易前取回信托资金，使合并公司实际获得的现金减少。"
+        },
+        {
+          "en": "Base editing",
+          "zh": "碱基编辑",
+          "meaning": "在不制造DNA双链断裂的前提下定点改变单个碱基的基因编辑方法。"
+        },
+        {
+          "en": "ESSDAI",
+          "zh": "EULAR Sjögren综合征疾病活动指数",
+          "meaning": "衡量Sjögren病多器官系统活动的临床评分。"
+        },
+        {
+          "en": "BLA",
+          "zh": "生物制品许可申请",
+          "meaning": "向FDA申请生物制品上市许可的正式监管申报。"
+        },
+        {
+          "en": "Step-up dose",
+          "zh": "阶梯起始剂量",
+          "meaning": "先用较低剂量再升至治疗剂量，以降低CRS等急性风险。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Beam Therapeutics：BEAM-301 I/II期初始数据，2026-10-27",
+          "url": "https://beamtherapeutics.gcs-web.com/news-releases/news-release-details/beam-therapeutics-reports-initial-clinical-data-phase-12-trial"
+        },
+        {
+          "title": "ClinicalTrials.gov：BEAM-301，NCT06735755",
+          "url": "https://clinicaltrials.gov/study/NCT06735755"
+        },
+        {
+          "title": "AbbVie：Etentamig BLA提交，2026-10-27",
+          "url": "https://news.abbvie.com/2026-10-27-AbbVie-Submits-Biologics-License-Application-BLA-for-Etentamig-to-U-S-FDA-for-Adults-Living-With-Relapsed-Refractory-Multiple-Myeloma"
+        },
+        {
+          "title": "ClinicalTrials.gov：CERVINO，NCT06158841",
+          "url": "https://clinicaltrials.gov/study/NCT06158841"
+        },
+        {
+          "title": "Amgen：Dazodalibep OASIZ-301三期结果，2026-10-27",
+          "url": "https://www.amgen.com/newsroom/press-releases/2026/10/amgen-to-present-new-data-across-rare-and-other-serious-autoimmune-diseases-at-acr-convergence-2026"
+        },
+        {
+          "title": "ClinicalTrials.gov：OASIZ-301，NCT06104124",
+          "url": "https://clinicaltrials.gov/study/NCT06104124"
+        },
+        {
+          "title": "Amanat SEC附件：Corxel业务合并与PIPE，2026-10-26",
+          "url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112239/ea030895401ex99-1.htm"
+        },
+        {
+          "title": "ClinicalTrials.gov：CX11 I期b，NCT07652047",
+          "url": "https://clinicaltrials.gov/study/NCT07652047"
+        },
+        {
+          "title": "Cullinan：Velinotamig全球I期b/II期a获准启动，2026-10-27",
+          "url": "https://rss.globenewswire.com/news-release/2026/10/27/3388808/0/en/cullinan-therapeutics-advances-velinotamig-into-global-clinical-development-for-autoimmune-cytopenias-following-ind-clearance-by-the-u-s-fda.html"
+        },
+        {
+          "title": "ClinicalTrials.gov：Velinotamig，NCT07738822",
+          "url": "https://clinicaltrials.gov/study/NCT07738822"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT06735755",
+          "title": "BEAM-301",
+          "company": "Beam Therapeutics Inc.",
+          "target": "G6PC1 R83C",
+          "modality": "肝靶向LNP递送碱基编辑",
+          "area": "罕见病/代谢",
+          "indication": "Glycogen Storage Disease Type Ia",
+          "stage": "Phase 1/Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "A Phase 1/2, Dose-Exploration Study to Evaluate the Safety and Efficacy of BEAM-301 in Patients With GSDIa",
+          "registryUpdated": "2025-12-15",
+          "checked": "2026-10-28",
+          "summary": "登记计划36人；公司披露6人初始数据，40 mg组2人达到15小时受控禁食。",
+          "endpoints": [
+            "24个月治疗期间不良事件、严重不良事件和剂量限制性毒性"
+          ],
+          "primaryCompletion": {
+            "date": "2027-12-30",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-12-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 36,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "Beam Therapeutics：BEAM-301 I/II期初始数据，2026-10-27",
+              "url": "https://beamtherapeutics.gcs-web.com/news-releases/news-release-details/beam-therapeutics-reports-initial-clinical-data-phase-12-trial"
+            },
+            {
+              "title": "ClinicalTrials.gov：BEAM-301，NCT06735755",
+              "url": "https://clinicaltrials.gov/study/NCT06735755"
+            }
+          ],
+          "note": "公司初始分析不等于登记结果模块；登记无结果模块。",
+          "risks": "仅6人、开放标签、基因型受限；输注反应、长期脱靶和耐久性待验证。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "BEAM-301: Single dose administered by IV"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06158841",
+          "title": "Etentamig（ABBV-383）",
+          "company": "AbbVie",
+          "target": "BCMA × CD3",
+          "modality": "双特异性T细胞衔接器",
+          "area": "肿瘤/血液",
+          "indication": "三类药物暴露后的复发或难治多发性骨髓瘤",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "CERVINO: Etentamig Versus Standard Available Therapies in RRMM",
+          "registryUpdated": "2026-08-27",
+          "checked": "2026-10-28",
+          "summary": "登记421例实际入组；AbbVie已提交BLA，公司披露ORR和PFS双主要终点阳性。",
+          "endpoints": [
+            "Progression-free survival，最长约5年",
+            "Objective response rate，最长约5年"
+          ],
+          "primaryCompletion": {
+            "date": "2027-12",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-12",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 421,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "AbbVie：Etentamig BLA提交，2026-10-27",
+              "url": "https://news.abbvie.com/2026-10-27-AbbVie-Submits-Biologics-License-Application-BLA-for-Etentamig-to-U-S-FDA-for-Adults-Living-With-Relapsed-Refractory-Multiple-Myeloma"
+            },
+            {
+              "title": "ClinicalTrials.gov：CERVINO，NCT06158841",
+              "url": "https://clinicaltrials.gov/study/NCT06158841"
+            }
+          ],
+          "note": "新闻稿称393例随机，与登记421例实际入组口径不同；保留登记原值。BLA提交不等于获批。",
+          "risks": "感染、CRS、神经毒性、竞争BCMA疗法、审评和社区实施风险。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Etentamig"
+            },
+            {
+              "type": "DRUG",
+              "name": "Standard available therapies"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT06104124",
+          "title": "Dazodalibep",
+          "company": "Amgen",
+          "target": "CD40L",
+          "modality": "拮抗性融合蛋白",
+          "area": "自身免疫",
+          "indication": "中重度系统疾病活动的Sjögren病",
+          "stage": "Phase 3",
+          "status": "COMPLETED",
+          "trialTitle": "OASIZ-301",
+          "registryUpdated": "2026-09-14",
+          "checked": "2026-10-28",
+          "summary": "651例三期已完成；公司披露Week 48 ESSDAI主要终点及干燥症状关键次要终点阳性。",
+          "endpoints": [
+            "Week 48 ESSDAI较基线变化"
+          ],
+          "primaryCompletion": {
+            "date": "2026-07-23",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2026-08-17",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 651,
+            "type": "ACTUAL"
+          },
+          "sources": [
+            {
+              "title": "Amgen：Dazodalibep OASIZ-301三期结果，2026-10-27",
+              "url": "https://www.amgen.com/newsroom/press-releases/2026/10/amgen-to-present-new-data-across-rare-and-other-serious-autoimmune-diseases-at-acr-convergence-2026"
+            },
+            {
+              "title": "ClinicalTrials.gov：OASIZ-301，NCT06104124",
+              "url": "https://clinicaltrials.gov/study/NCT06104124"
+            }
+          ],
+          "note": "登记完成代表试验状态，不自动等同于获批；结果来自公司披露，登记无结果模块。",
+          "risks": "监管对临床意义的判断、长期安全、不同人群复现和支付准入。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Dazodalibep"
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07652047",
+          "title": "CX11",
+          "company": "Corxel Pharmaceuticals",
+          "target": "GLP-1R",
+          "modality": "口服小分子受体激动剂",
+          "area": "代谢",
+          "indication": "肥胖或超重伴相关合并症",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "A Phase 1b Study of Different Doses of CX11 Tablets",
+          "registryUpdated": "2026-06-17",
+          "checked": "2026-10-28",
+          "summary": "90人I期b探索更高剂量；SPAC交易所得计划支持全球三期，但三期登记尚未作为本记录核实。",
+          "endpoints": [
+            "Week 26体重较基线百分比变化"
+          ],
+          "primaryCompletion": {
+            "date": "2027-03",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-06",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 90,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "Amanat SEC附件：Corxel业务合并与PIPE，2026-10-26",
+              "url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112239/ea030895401ex99-1.htm"
+            },
+            {
+              "title": "ClinicalTrials.gov：CX11 I期b，NCT07652047",
+              "url": "https://clinicaltrials.gov/study/NCT07652047"
+            }
+          ],
+          "note": "预计完成日期不是读出承诺；交易交割也仍受赎回和成交条件影响。",
+          "risks": "高剂量耐受、疗效持久性、三期设计、竞争和融资执行。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "CX11"
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo"
+            }
+          ],
+          "hasResults": false
+        },
+        {
+          "id": "NCT07738822",
+          "title": "Velinotamig（CLN-803/GR1803）",
+          "company": "Cullinan Therapeutics Inc.",
+          "target": "BCMA × CD3",
+          "modality": "皮下双特异性T细胞衔接器",
+          "area": "自身免疫/血液",
+          "indication": "复发或难治ITP及温抗体型自身免疫性溶血性贫血",
+          "stage": "Phase 1/Phase 2",
+          "status": "NOT_YET_RECRUITING",
+          "trialTitle": "A Phase 1b/2a Study of Velinotamig in Adults With Relapsed/Refractory ITP and wAIHA",
+          "registryUpdated": "2026-07-31",
+          "checked": "2026-10-28",
+          "summary": "美澳监管允许启动，登记计划72人、4次皮下注射；核查时尚未开始招募。",
+          "endpoints": [
+            "48周安全性与耐受性"
+          ],
+          "primaryCompletion": {
+            "date": "2029-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2031-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 72,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "Cullinan：Velinotamig全球I期b/II期a获准启动，2026-10-27",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/27/3388808/0/en/cullinan-therapeutics-advances-velinotamig-into-global-clinical-development-for-autoimmune-cytopenias-following-ind-clearance-by-the-u-s-fda.html"
+            },
+            {
+              "title": "ClinicalTrials.gov：Velinotamig，NCT07738822",
+              "url": "https://clinicaltrials.gov/study/NCT07738822"
+            }
+          ],
+          "note": "监管清除不等于已经入组；状态严格按登记保留为NOT_YET_RECRUITING。",
+          "risks": "CRS、感染、低免疫球蛋白、浆细胞耗竭持久性和小人群招募。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Velinotamig specified dose on specified days"
+            }
+          ],
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-beam-therapeutics",
+          "title": "Beam Therapeutics Inc.",
+          "date": "2026-10-28",
+          "checked": "2026-10-28",
+          "summary": "碱基编辑公司，BEAM-301在GSDIa取得早期人体概念验证。",
+          "sections": [
+            {
+              "heading": "平台",
+              "body": "碱基编辑、LNP递送和内部制造。"
+            },
+            {
+              "heading": "战略变化",
+              "body": "推进60 mg队列并计划与FDA讨论潜在批准路径；时间未披露。"
+            },
+            {
+              "heading": "风险",
+              "body": "样本极小、输注反应、长期安全及基因型市场限制。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Beam Therapeutics：BEAM-301 I/II期初始数据，2026-10-27",
+              "url": "https://beamtherapeutics.gcs-web.com/news-releases/news-release-details/beam-therapeutics-reports-initial-clinical-data-phase-12-trial"
+            },
+            {
+              "title": "ClinicalTrials.gov：BEAM-301，NCT06735755",
+              "url": "https://clinicaltrials.gov/study/NCT06735755"
+            }
+          ]
+        },
+        {
+          "id": "company-abbvie",
+          "title": "AbbVie",
+          "date": "2026-10-28",
+          "checked": "2026-10-28",
+          "summary": "向FDA提交etentamig BLA，扩展多发性骨髓瘤组合。",
+          "sections": [
+            {
+              "heading": "核心资产",
+              "body": "Etentamig为BCMA×CD3双特异体，登记申办方为AbbVie。"
+            },
+            {
+              "heading": "战略",
+              "body": "以月度给药和较低CRS负担争取社区治疗场景。"
+            },
+            {
+              "heading": "风险",
+              "body": "感染、竞争和审评标签。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AbbVie：Etentamig BLA提交，2026-10-27",
+              "url": "https://news.abbvie.com/2026-10-27-AbbVie-Submits-Biologics-License-Application-BLA-for-Etentamig-to-U-S-FDA-for-Adults-Living-With-Relapsed-Refractory-Multiple-Myeloma"
+            },
+            {
+              "title": "ClinicalTrials.gov：CERVINO，NCT06158841",
+              "url": "https://clinicaltrials.gov/study/NCT06158841"
+            }
+          ]
+        },
+        {
+          "id": "company-amgen",
+          "title": "Amgen",
+          "date": "2026-10-28",
+          "checked": "2026-10-28",
+          "summary": "Dazodalibep三期同时改善Sjögren系统活动和患者报告干燥。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "CD40L通路拮抗融合蛋白。"
+            },
+            {
+              "heading": "战略",
+              "body": "覆盖高系统活动和高症状低系统活动两个人群。"
+            },
+            {
+              "heading": "风险",
+              "body": "第二人群验证、长期安全和监管临床意义。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amgen：Dazodalibep OASIZ-301三期结果，2026-10-27",
+              "url": "https://www.amgen.com/newsroom/press-releases/2026/10/amgen-to-present-new-data-across-rare-and-other-serious-autoimmune-diseases-at-acr-convergence-2026"
+            },
+            {
+              "title": "ClinicalTrials.gov：OASIZ-301，NCT06104124",
+              "url": "https://clinicaltrials.gov/study/NCT06104124"
+            }
+          ]
+        },
+        {
+          "id": "company-corxel-pharmaceuticals",
+          "title": "Corxel Pharmaceuticals",
+          "date": "2026-10-28",
+          "checked": "2026-10-28",
+          "summary": "拟通过Amanat SPAC合并与PIPE获得肥胖管线资金。",
+          "sections": [
+            {
+              "heading": "资产边界",
+              "body": "交易纳入Corxel US肥胖业务，不含Corxel HK及JX10。"
+            },
+            {
+              "heading": "融资",
+              "body": "无赎回、费用前毛收入约3.77亿美元，其中PIPE约3亿美元。"
+            },
+            {
+              "heading": "风险",
+              "body": "赎回、PIPE减额、交割条件和三期执行。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amanat SEC附件：Corxel业务合并与PIPE，2026-10-26",
+              "url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112239/ea030895401ex99-1.htm"
+            },
+            {
+              "title": "ClinicalTrials.gov：CX11 I期b，NCT07652047",
+              "url": "https://clinicaltrials.gov/study/NCT07652047"
+            }
+          ]
+        },
+        {
+          "id": "company-cullinan-therapeutics",
+          "title": "Cullinan Therapeutics Inc.",
+          "date": "2026-10-28",
+          "checked": "2026-10-28",
+          "summary": "推进velinotamig全球自身免疫性血细胞减少开发。",
+          "sections": [
+            {
+              "heading": "权利",
+              "body": "持有大中华区外全球、全适应症独家权利；Genrix保留大中华区。"
+            },
+            {
+              "heading": "战略",
+              "body": "用CD19和BCMA T细胞衔接器覆盖不同自身免疫驱动细胞。"
+            },
+            {
+              "heading": "风险",
+              "body": "登记尚未招募，早期安全和持久缓解未证实。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Cullinan：Velinotamig全球I期b/II期a获准启动，2026-10-27",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/27/3388808/0/en/cullinan-therapeutics-advances-velinotamig-into-global-clinical-development-for-autoimmune-cytopenias-following-ind-clearance-by-the-u-s-fda.html"
+            },
+            {
+              "title": "ClinicalTrials.gov：Velinotamig，NCT07738822",
+              "url": "https://clinicaltrials.gov/study/NCT07738822"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-g6pc1-r83c",
+          "title": "G6PC1 R83C",
+          "date": "2026-10-28",
+          "checked": "2026-10-28",
+          "summary": "GSDIa致病突变，BEAM-301尝试原位碱基纠正。",
+          "sections": [
+            {
+              "heading": "人类验证",
+              "body": "遗传病因明确；本期仅6人初始人体信号。"
+            },
+            {
+              "heading": "可成药性",
+              "body": "肝脏LNP递送适配，但基因型范围有限。"
+            },
+            {
+              "heading": "安全",
+              "body": "长期脱靶、免疫和肝毒性需随访。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Beam Therapeutics：BEAM-301 I/II期初始数据，2026-10-27",
+              "url": "https://beamtherapeutics.gcs-web.com/news-releases/news-release-details/beam-therapeutics-reports-initial-clinical-data-phase-12-trial"
+            },
+            {
+              "title": "ClinicalTrials.gov：BEAM-301，NCT06735755",
+              "url": "https://clinicaltrials.gov/study/NCT06735755"
+            }
+          ]
+        },
+        {
+          "id": "target-bcma-cd3",
+          "title": "BCMA × CD3",
+          "date": "2026-10-28",
+          "checked": "2026-10-28",
+          "summary": "通过T细胞清除BCMA阳性浆细胞，既用于骨髓瘤也探索自身抗体疾病。",
+          "sections": [
+            {
+              "heading": "验证",
+              "body": "骨髓瘤临床验证充分；自身免疫仍处早期。"
+            },
+            {
+              "heading": "竞争",
+              "body": "双抗、CAR-T和其他浆细胞耗竭方案并存。"
+            },
+            {
+              "heading": "安全",
+              "body": "CRS、感染、低免疫球蛋白和神经毒性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AbbVie：Etentamig BLA提交，2026-10-27",
+              "url": "https://news.abbvie.com/2026-10-27-AbbVie-Submits-Biologics-License-Application-BLA-for-Etentamig-to-U-S-FDA-for-Adults-Living-With-Relapsed-Refractory-Multiple-Myeloma"
+            },
+            {
+              "title": "Cullinan：Velinotamig全球I期b/II期a获准启动，2026-10-27",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/27/3388808/0/en/cullinan-therapeutics-advances-velinotamig-into-global-clinical-development-for-autoimmune-cytopenias-following-ind-clearance-by-the-u-s-fda.html"
+            }
+          ]
+        },
+        {
+          "id": "target-cd40l",
+          "title": "CD40L",
+          "date": "2026-10-28",
+          "checked": "2026-10-28",
+          "summary": "阻断T细胞与B细胞/抗原呈递细胞互作，目标是抑制Sjögren系统性免疫激活。",
+          "sections": [
+            {
+              "heading": "人类验证",
+              "body": "OASIZ-301三期ESSDAI达到主要终点。"
+            },
+            {
+              "heading": "待验证",
+              "body": "长期疾病修饰、器官结局和不同患者亚型。"
+            },
+            {
+              "heading": "安全",
+              "body": "免疫抑制及潜在血栓等同类机制风险需持续监测。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amgen：Dazodalibep OASIZ-301三期结果，2026-10-27",
+              "url": "https://www.amgen.com/newsroom/press-releases/2026/10/amgen-to-present-new-data-across-rare-and-other-serious-autoimmune-diseases-at-acr-convergence-2026"
+            },
+            {
+              "title": "ClinicalTrials.gov：OASIZ-301，NCT06104124",
+              "url": "https://clinicaltrials.gov/study/NCT06104124"
+            }
+          ]
+        },
+        {
+          "id": "target-glp1r-oral-small-molecule",
+          "title": "GLP-1R口服小分子激动",
+          "date": "2026-10-28",
+          "checked": "2026-10-28",
+          "summary": "以口服小分子激活GLP-1受体，争取注射疗法之外的可扩展肥胖治疗。",
+          "sections": [
+            {
+              "heading": "验证",
+              "body": "同靶点生物学已验证，但CX11高剂量差异化仍待临床。"
+            },
+            {
+              "heading": "商业",
+              "body": "便利性、生产和渠道可能更优。"
+            },
+            {
+              "heading": "风险",
+              "body": "胃肠耐受、肝安全、疗效强度和激烈竞争。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amanat SEC附件：Corxel业务合并与PIPE，2026-10-26",
+              "url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112239/ea030895401ex99-1.htm"
+            },
+            {
+              "title": "ClinicalTrials.gov：CX11 I期b，NCT07652047",
+              "url": "https://clinicaltrials.gov/study/NCT07652047"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-corxel-amanat-spac-2026-10-26",
+          "title": "Corxel US–Amanat业务合并及PIPE",
+          "date": "2026-10-26",
+          "checked": "2026-10-28",
+          "summary": "拟议SPAC交易；约3.77亿美元为无赎回、交易费用前毛额，尚未交割。",
+          "sections": [
+            {
+              "heading": "参与方",
+              "body": "Corxel US与Amanat Acquisition Corp。"
+            },
+            {
+              "heading": "资产与范围",
+              "body": "Corxel US肥胖业务、CX11和CX12；Corxel HK及JX10不在交易内。"
+            },
+            {
+              "heading": "资金",
+              "body": "信托约7,500万美元；PIPE约3亿美元且存在减额机制。"
+            },
+            {
+              "heading": "条件",
+              "body": "预计2027年上半年完成，受股东、监管、注册声明和Nasdaq条件约束。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amanat SEC附件：Corxel业务合并与PIPE，2026-10-26",
+              "url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112239/ea030895401ex99-1.htm"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-etentamig-bla-submitted-2026-10-27",
+          "title": "Etentamig美国BLA已提交",
+          "date": "2026-10-27",
+          "checked": "2026-10-28",
+          "summary": "AbbVie已向FDA提交BLA；状态为completed submission，不代表受理或获批。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "监管申报"
+            },
+            {
+              "heading": "状态",
+              "body": "completed"
+            },
+            {
+              "heading": "下一步",
+              "body": "等待FDA受理、审评和行动日期。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "AbbVie：Etentamig BLA提交，2026-10-27",
+              "url": "https://news.abbvie.com/2026-10-27-AbbVie-Submits-Biologics-License-Application-BLA-for-Etentamig-to-U-S-FDA-for-Adults-Living-With-Relapsed-Refractory-Multiple-Myeloma"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-dazodalibep-acr-presentation-2026-11-11",
+          "title": "Dazodalibep OASIZ-301完整报告",
+          "date": "2026-11-11",
+          "checked": "2026-10-28",
+          "summary": "Amgen确认将在ACR Convergence 2026报告三期晚破摘要。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "会议数据"
+            },
+            {
+              "heading": "状态",
+              "body": "confirmed"
+            },
+            {
+              "heading": "窗口",
+              "body": "2026-11-11 08:45–09:00 ET。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amgen：Dazodalibep OASIZ-301三期结果，2026-10-27",
+              "url": "https://www.amgen.com/newsroom/press-releases/2026/10/amgen-to-present-new-data-across-rare-and-other-serious-autoimmune-diseases-at-acr-convergence-2026"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-corxel-spac-close-h1-2027",
+          "title": "Corxel–Amanat预计交割",
+          "date": "2027-H1",
+          "checked": "2026-10-28",
+          "summary": "公司预计2027年上半年完成，但受多项成交条件影响。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "资本市场交易"
+            },
+            {
+              "heading": "状态",
+              "body": "estimated"
+            },
+            {
+              "heading": "风险",
+              "body": "赎回、PIPE调整、股东和监管审批。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Amanat SEC附件：Corxel业务合并与PIPE，2026-10-26",
+              "url": "https://www.sec.gov/Archives/edgar/data/2112457/000121390026112239/ea030895401ex99-1.htm"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-beam301-fda-path-discussion",
+          "title": "BEAM-301与FDA讨论潜在批准路径",
+          "date": "日期未披露",
+          "checked": "2026-10-28",
+          "summary": "Beam称计划与FDA沟通；未披露会议日期或监管结论。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "监管互动"
+            },
+            {
+              "heading": "状态",
+              "body": "planned"
+            },
+            {
+              "heading": "注意",
+              "body": "不得把计划沟通写成已获得加速批准路径。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Beam Therapeutics：BEAM-301 I/II期初始数据，2026-10-27",
+              "url": "https://beamtherapeutics.gcs-web.com/news-releases/news-release-details/beam-therapeutics-reports-initial-clinical-data-phase-12-trial"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-velinotamig-global-study-initiation",
+          "title": "Velinotamig全球I期b/II期a启动",
+          "date": "日期未披露",
+          "checked": "2026-10-28",
+          "summary": "美澳已允许启动，但ClinicalTrials.gov核查时仍为尚未招募。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "临床启动"
+            },
+            {
+              "heading": "状态",
+              "body": "regulatory-cleared / not yet recruiting"
+            },
+            {
+              "heading": "注意",
+              "body": "首例入组尚未核实。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Cullinan：Velinotamig全球I期b/II期a获准启动，2026-10-27",
+              "url": "https://rss.globenewswire.com/news-release/2026/10/27/3388808/0/en/cullinan-therapeutics-advances-velinotamig-into-global-clinical-development-for-autoimmune-cytopenias-following-ind-clearance-by-the-u-s-fda.html"
+            },
+            {
+              "title": "ClinicalTrials.gov：Velinotamig，NCT07738822",
+              "url": "https://clinicaltrials.gov/study/NCT07738822"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-27",
       "date": "2026-10-27",
@@ -18751,20 +19596,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-27T07:03:50+08:00",
-    "status": "success",
-    "checked": 87,
-    "changed": 1,
-    "failed": 0,
+    "checkedAt": "2026-10-28T07:18:00+08:00",
+    "status": "partial",
+    "checked": 85,
+    "changed": 0,
+    "failed": 4,
     "corrected": 0,
-    "newPipelines": 2,
-    "totalPipelines": 89,
-    "companies": 7,
+    "newPipelines": 5,
+    "totalPipelines": 94,
+    "companies": 5,
     "targets": 4,
-    "deals": 2,
-    "catalysts": 4,
-    "events": 4,
-    "summary": "87个既有NCT全部核查成功、0个失败；实质变化1（NCT07046494更新为COMPLETED）、纠错0；新增2个真实三期登记，去重后覆盖89个NCT。公司7、靶点4、交易2、催化剂4；21期历史及全部根级归档保留，未触发90期裁剪。"
+    "deals": 1,
+    "catalysts": 5,
+    "events": 5,
+    "summary": "既有89个NCT全部尝试核查：85个成功、4个来源访问失败并保留旧值；实质变化0、纠错0，NCT07012395仅登记日期刷新。新增5个真实登记，去重后覆盖94个NCT。公司5、靶点4、交易1、催化剂5；22期历史及全部根级归档保留，未触发90期裁剪。"
   },
   "archivedPapers": []
 }
