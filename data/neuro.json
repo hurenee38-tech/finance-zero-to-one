@@ -1,8 +1,265 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-27T23:12:00Z",
+  "updatedAt": "2026-10-28T23:04:16.882Z",
   "items": [
+    {
+      "id": "neuro-2026-10-29",
+      "date": "2026-10-29",
+      "source": "scheduled",
+      "title": "神经生物学简报｜5‑HT2B重塑卒中后清除、VAMP7突触稳态与ADP‑核糖铁死亡",
+      "summary": "本期收录3篇2026-10-28发表并由期刊页面核实的原始研究：Nature Neuroscience揭示5‑HT2B–TFE3轴增强卒中后单核细胞来源巨噬细胞的溶酶体与吞噬功能；Nature发现VAMP7随高频活动递送至突触前膜并抑制P/Q型钙通道，形成突触前稳态；Nature Chemical Biology解析ADP‑核糖抑制ENT2、重编程核苷酸代谢并触发神经元铁死亡。影响因子均待官方可靠核实。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "5‑HT2B激动剂能在小鼠卒中模型中增强单核细胞来源巨噬细胞清除并改善结局，但5‑HT2B也表达于其他细胞并具有已知外周安全风险。怎样设计一条证据链，判断“靶向脑内Htr2b⁺巨噬细胞”是否比全身给药更有转化价值？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先判断疗效是否由单核细胞来源巨噬细胞（MDM）中的Htr2b介导，再区分改善清除与一般性免疫抑制，最后比较局部递送和全身暴露的收益—风险。\n\n1. 必要性：在Ms4a3谱系中条件性删除Htr2b，比较激动剂是否失去缩小梗死、改善神经行为和促进碎屑清除的作用；同时设置微胶质、神经元和血管细胞特异删除对照。\n2. 充分性与机制：在MDM中特异激活Htr2b或TFE3，检查是否复制溶酶体生成、吞噬和炎症消退；再删除Tfe3或阻断溶酶体酸化，判断Htr2b疗效是否随之消失。\n3. 时间窗：分别在急性炎症期、清除期和修复期给药。过早增强吞噬可能扩大活组织损伤，过晚则可能错过有效窗口。\n4. 递送比较：在等效脑内靶点占有率下，比较鼻内靶向、纳米载体/抗体偶联和全身给药；同时测脑、心脏、肺血管和血小板暴露。\n5. 终点：不能只看吞噬标志物；应同时测活神经元误吞噬、髓鞘/细胞碎片清除、梗死体积、长期运动与认知、感染风险以及心肺安全。\n6. 人体可转化性：在人卒中组织或患者来源单核细胞中确认Htr2b⁺MDM及TFE3反应，并建立可测的药效标志物。\n\n一种可行判断：若MDM特异Htr2b缺失使药效消失、MDM特异激活可以复制药效、TFE3阻断可打断机制链，而脑靶向递送在相近疗效下显著降低外周暴露和心肺风险，才支持细胞定向方案优于全身给药。\n\n必要证据：谱系特异因果操作、TFE3上位性、长期功能终点和递送暴露—效应比较。支持证据：单细胞/空间图谱、患者样本中的Htr2b⁺MDM、溶酶体标志物。待验证假设：人的治疗窗口、卒中亚型差异和重复给药安全性。\n\n常见误区：把更多吞噬等同于更好修复；只报告短期梗死体积；忽略微胶质与MDM差异；用鼻内给药便直接宣称“脑特异”。\n\n自查标准：是否证明了作用细胞、机制必要性、长期获益和外周安全优势？若只具其中一两项，应表述为候选策略而非已验证疗法。开放问题允许多种合理递送方案。"
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-29（Asia/Shanghai）。三篇主文均于2026-10-28在线发表，题名、日期、DOI、方法与核心结论经期刊页面核实。未通过官方Journal Citation Reports可靠核实影响因子，统一标注“影响因子待核实”。全部转化判断均与原文发现分开表述。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "三篇论文形成一条从细胞外信号到突触与代谢稳态的主线：5‑HT2B把递质信号转为免疫细胞清除程序；VAMP7把高频活动转为突触前负反馈；ADP‑核糖则把NAD⁺过度消耗转为致死性核苷酸代谢重编程。共同启示是：同一分子通路的价值取决于细胞类型、时序与剂量，而不能只按“促炎/抑炎”或“兴奋/抑制”二分。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Monocyte-derived macrophage (MDM)",
+          "zh": "单核细胞来源巨噬细胞",
+          "meaning": "由外周单核细胞进入受损脑组织后分化的吞噬细胞，与常驻微胶质来源不同。"
+        },
+        {
+          "en": "Htr2b / 5-HT2B receptor",
+          "zh": "5‑羟色胺2B受体",
+          "meaning": "Gq偶联的血清素GPCR；本期研究将其与卒中后巨噬细胞溶酶体生成和吞噬联系起来。"
+        },
+        {
+          "en": "TFE3 nuclear translocation",
+          "zh": "TFE3核转位",
+          "meaning": "TFE3进入细胞核并启动溶酶体和自噬相关转录程序。"
+        },
+        {
+          "en": "Presynaptic homeostasis",
+          "zh": "突触前稳态",
+          "meaning": "神经末梢根据既往活动调整递质释放概率，以维持网络稳定和响应范围。"
+        },
+        {
+          "en": "Metaplasticity",
+          "zh": "元可塑性",
+          "meaning": "先前活动改变突触随后发生可塑性的规则或阈值。"
+        },
+        {
+          "en": "VAMP7",
+          "zh": "囊泡相关膜蛋白7",
+          "meaning": "非经典v‑SNARE；可随AP‑3来源囊泡外排至膜上并抑制Cav2.1。"
+        },
+        {
+          "en": "P/Q-type calcium channel (Cav2.1)",
+          "zh": "P/Q型钙通道",
+          "meaning": "中央突触递质释放的重要突触前电压门控钙通道。"
+        },
+        {
+          "en": "Nucleotide salvage",
+          "zh": "核苷酸补救合成",
+          "meaning": "回收核苷或碱基生成核苷酸，相比从头合成通常更节能。"
+        },
+        {
+          "en": "ENT2 / SLC29A2",
+          "zh": "平衡型核苷转运体2",
+          "meaning": "跨膜转运核苷的蛋白；主文提出细胞外ADP‑核糖可直接抑制它。"
+        },
+        {
+          "en": "Ferroptosis",
+          "zh": "铁死亡",
+          "meaning": "由铁依赖脂质过氧化驱动、区别于凋亡的调控性细胞死亡。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41593-026-02482-y",
+          "title": "5‑HT2B–TFE3轴增强卒中后脑巨噬细胞清除并缓解缺血损伤",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "topic": "缺血性卒中 / 血清素GPCR / 神经免疫 / 新靶点开发",
+          "target": "Htr2b–TFE3 lysosomal axis in monocyte-derived macrophages",
+          "summary": "单细胞测序、空间分析和Ms4a3谱系追踪识别出卒中半暗带富集的Htr2b⁺单核细胞来源巨噬细胞。MDM特异Htr2b缺失削弱碎屑清除并加重炎症和损伤；激动Htr2b促进TFE3核转位、溶酶体生成和吞噬，鼻内给药在小鼠中改善卒中结局。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Zhang等，Nature Neuroscience，2026-10-28；DOI：10.1038/s41593-026-02482-y。影响因子待核实。标题可译为“血清素通过Htr2b增强脑巨噬细胞吞噬，并缓解卒中后脑损伤”。卒中后的髓系细胞既可能放大炎症，也负责清除坏死碎屑；关键问题是能否选择性增强有益清除程序。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者结合单细胞RNA测序、空间转录组和Ms4a3creERT2-Ai14谱系追踪区分外周单核细胞来源巨噬细胞与常驻微胶质；采用MDM特异Htr2b敲除、鼠和人巨噬细胞吞噬实验、多组学、TFE3操作及鼻内Htr2b激动剂干预。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文发现：Htr2b⁺MDM在梗死周边富集，并具有较强吞噬和炎症消退特征。MDM特异删除Htr2b使碎屑清除受损、炎症和缺血损伤加重。Htr2b激活促进TFE3进入细胞核，增加溶酶体生成与吞噬；药理激动Htr2b或激活TFE3可恢复这一程序。鼻内给予Htr2b激动剂在小鼠中改善神经结局。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把血清素GPCR、髓系细胞谱系、溶酶体转录程序和卒中结局连成因果链。局限：主要疗效证据来自小鼠；鼻内给药不等于MDM特异递送；5‑HT2B在外周组织的作用和安全窗必须系统评估。编辑分析：更可行的转化方向可能是短时、脑内或髓系定向激活Htr2b–TFE3，而不是慢性全身激动。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "卒中后并非所有脑内巨噬细胞功能相同。一群来自外周单核细胞、表达Htr2b的细胞通过TFE3启动溶酶体生成，更有效地清除损伤碎屑并帮助炎症消退；增强该程序在动物中具有保护作用。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Distinguishing features of microglia- and monocyte-derived macrophages after stroke（2018）用命运追踪区分两类髓系细胞，为本研究的谱系归因奠基。② TFEB and TFE3 cooperate in activated macrophages（2016）证明MiT/TFE家族调控巨噬细胞溶酶体和免疫转录。③ Multimodal single-cell profiling of MDM dynamics following ischemic stroke（2026）描述卒中后MDM向溶酶体富集、清除型状态转变，与本研究的Htr2b⁺亚群相互支持。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Serotonin signaling enhances phagocytosis by brain macrophages through Htr2b and alleviates brain injury after stroke｜Nature Neuroscience｜2026-10-28",
+              "url": "https://www.nature.com/articles/s41593-026-02482-y"
+            },
+            {
+              "title": "前期｜Distinguishing features of microglia- and monocyte-derived macrophages after stroke｜2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29249001/"
+            },
+            {
+              "title": "前期｜TFEB and TFE3 cooperate in the regulation of the innate immune response in activated macrophages｜2016",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27171064/"
+            },
+            {
+              "title": "前期｜Multimodal Single-Cell Transcriptomic and Chromatin Accessibility Profiling Reveals Monocyte-Derived Macrophage Dynamics Following Ischemic Stroke｜2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42074294/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41586-026-11201-3",
+          "title": "VAMP7把高频神经活动转化为抑制递质释放的突触前稳态反馈",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "topic": "突触稳态 / 神经递质释放 / 钙通道 / 学习可塑性",
+          "target": "AP-3–VAMP7–syntaxin–Cav2.1 axis",
+          "summary": "高频刺激促使AP‑3来源突触囊泡将VAMP7递送到突触前膜；膜上VAMP7借助syntaxin抑制P/Q型钙通道，降低后续释放概率。Vamp7缺失消除多类兴奋性突触的这一负反馈，并使小鼠海马FOS阳性神经元比例增加。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Xu、Rao与Edwards，Nature，2026-10-28；DOI：10.1038/s41586-026-11201-3。影响因子待核实。标题可译为“SNARE蛋白外排介导突触前稳态”。学习需要突触改变，但网络也必须防止持续高活动导致失稳；此前对活动如何在突触前端被感知并转成负反馈了解不足。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "研究结合培养神经元pHluorin囊泡外排成像、钙成像、Vamp7和Atp8a1敲除小鼠、海马及多个脑区切片电生理、钙通道药理、共免疫沉淀和结构域突变，比较低频与高频刺激后释放概率。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "50 Hz高频刺激降低后续初始释放概率并减轻突触耗竭，该效应不依赖突触后受体，却依赖VAMP7和AP‑3来源囊泡。高频活动将VAMP7递送至质膜；VAMP7通过syntaxin稳定与Cav2.1的复合物，主要抑制P/Q型钙通道和钙内流。Vamp7缺失在海马、内嗅—齿状回、皮层—丘脑和小脑突触中消除该稳态，并使体内FOS阳性细胞增加约数倍。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：提供“活动频率—特殊囊泡—钙通道—释放概率”的分子传感链，并赋予VAMP7独立于膜融合的新功能。局限：FOS只能间接表示网络活动；全身敲除可能带来发育补偿；尚未直接证明该机制如何改变具体学习或疾病行为。编辑分析：Cav2.1/VAMP7轴可能解释某些兴奋性失衡或突触疲劳表型，但药物干预必须避免普遍压低正常递质释放。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "强烈活动会动员一小群特殊突触囊泡，把VAMP7送到突触前膜。VAMP7随后像活动依赖的变阻器一样抑制Cav2.1和递质释放，使突触在高负荷后降低增益并保持网络稀疏。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Synaptic Vesicle Recycling Pathway Determines Neurotransmitter Content and Release Properties（Neuron，2019）证明AP‑3回收路线可产生释放性质不同的囊泡。② Adaptor protein‑3 produces synaptic vesicles that release phasic dopamine（PNAS，2023）显示AP‑3/VPS41囊泡偏好高频刺激并参与强化学习。③ Selective molecular impairment of spontaneous neurotransmission（Nature Communications，2017）把VAMP7与自发释放和突触效能联系起来。④ Reelin mobilizes a VAMP7-dependent synaptic vesicle pool（Neuron，2013）提供VAMP7囊泡可受信号选择性动员的早期证据。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Presynaptic homeostasis mediated by exocytosis of a SNARE protein｜Nature｜2026-10-28",
+              "url": "https://www.nature.com/articles/s41586-026-11201-3"
+            },
+            {
+              "title": "前期｜Synaptic Vesicle Recycling Pathway Determines Neurotransmitter Content and Release Properties｜Neuron｜2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31003725/"
+            },
+            {
+              "title": "前期｜Adaptor protein-3 produces synaptic vesicles that release phasic dopamine｜PNAS｜2023",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37812725/"
+            },
+            {
+              "title": "前期｜Selective molecular impairment of spontaneous neurotransmission modulates synaptic efficacy｜2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28186166/"
+            },
+            {
+              "title": "前期｜Reelin mobilizes a VAMP7-dependent synaptic vesicle pool｜Neuron｜2013",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/24210904/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41589-026-02355-2",
+          "title": "ADP‑核糖抑制ENT2并重编程核苷酸代谢，驱动神经元铁死亡",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "topic": "神经退行性损伤 / 铁死亡 / NAD⁺代谢 / 新靶点开发",
+          "target": "PARP1–PARG–ADP-ribose–ENT2–XO/DHODH axis",
+          "summary": "研究发现NAD⁺过度消耗产生的细胞外ADP‑核糖可直接结合并抑制ENT2，压低核苷酸补救合成，迫使从头嘌呤/嘧啶合成过度活化；XO和DHODH由此产生超氧阴离子，推动脂质过氧化和神经元铁死亡。清除ADP‑核糖或联合抑制XO/DHODH改善小鼠脑出血后的迟发认知缺陷。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Ni等，Nature Chemical Biology，2026-10-28；DOI：10.1038/s41589-026-02355-2。影响因子待核实。标题可译为“ADP‑核糖通过ENT2介导的核苷酸重编程诱导神经元铁死亡”。NAD⁺补充在神经疾病中的效果有限，提示问题可能不只是NAD⁺不足，还包括其分解产物的毒性。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者使用代谢组学、原代皮层/海马神经元、核苷转运测定、蛋白结合和代谢通量实验、多种神经损伤模型、果蝇tau模型及小鼠脑出血模型；并通过PARP1敲低、NUDT9水解、ENT2操作以及XO/DHODH抑制检验因果链。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "氧化应激激活PARP1–PARG并产生/释放ADP‑核糖。细胞外ADP‑核糖直接结合ENT2并抑制核苷摄取，使补救合成受阻，从而补偿性增强从头嘌呤和嘧啶合成；XO与DHODH释放超氧阴离子，造成脂质过氧化与铁死亡。ADP‑核糖在多种神经疾病模型中累积。PARP1敲低、NUDT9清除ADP‑核糖或联合抑制XO/DHODH均可干预该链，在脑出血小鼠中改善迟发认知表现。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把NAD⁺过度消耗与铁死亡连接到一个可测、可清除的细胞外代谢物，并提出ENT2和XO/DHODH组合节点。局限：外源ADP‑核糖给药浓度与人脑真实局部暴露仍需比较；XO/DHODH抑制会影响广泛代谢与免疫；认知改善主要来自脑出血动物模型。编辑分析：这项工作提醒NAD⁺补充可能无法解决分解产物毒性，未来应同时测定NAD⁺代谢物流量和ADP‑核糖清除能力。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "NAD⁺被大量消耗后，ADP‑核糖不是无害废物。它在细胞外阻断ENT2，使神经元从节能的核苷酸回收转向高活性的从头合成；随之产生的超氧阴离子和脂质过氧化将细胞推向铁死亡。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Inhibition of neuronal ferroptosis protects hemorrhagic brain（2017）证明铁死亡抑制剂可减少脑出血后的神经元死亡，是本研究疾病模型的基础。② Neuronal death after hemorrhagic stroke shares features of ferroptosis and necroptosis（2017）说明脑出血后存在并行死亡机制，提醒当前通路并非唯一解释。③ Inhibition of neuronal ferroptosis in the acute phase of ICH shows long-term cerebroprotection（2019）把急性铁死亡抑制与长期结局连接起来。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜ADP-ribose induces neuronal ferroptosis through ENT2-mediated nucleotide rewiring｜Nature Chemical Biology｜2026-10-28",
+              "url": "https://www.nature.com/articles/s41589-026-02355-2"
+            },
+            {
+              "title": "前期｜Inhibition of neuronal ferroptosis protects hemorrhagic brain｜2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28405617/"
+            },
+            {
+              "title": "前期｜Neuronal Death After Hemorrhagic Stroke In Vitro and In Vivo Shares Features of Ferroptosis and Necroptosis｜2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28250197/"
+            },
+            {
+              "title": "前期｜Inhibition of neuronal ferroptosis in the acute phase of intracerebral hemorrhage shows long-term cerebroprotective effects｜2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31442590/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜5‑HT2B–TFE3脑巨噬细胞清除｜Nature Neuroscience｜2026-10-28",
+          "url": "https://www.nature.com/articles/s41593-026-02482-y"
+        },
+        {
+          "title": "主文｜VAMP7介导突触前稳态｜Nature｜2026-10-28",
+          "url": "https://www.nature.com/articles/s41586-026-11201-3"
+        },
+        {
+          "title": "主文｜ADP‑核糖–ENT2驱动神经元铁死亡｜Nature Chemical Biology｜2026-10-28",
+          "url": "https://www.nature.com/articles/s41589-026-02355-2"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-28",
       "date": "2026-10-28",
