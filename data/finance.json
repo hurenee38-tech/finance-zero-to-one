@@ -1,8 +1,879 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-27T23:18:00Z",
+  "updatedAt": "2026-10-28T23:08:20.134Z",
   "items": [
+    {
+      "id": "finance-2026-10-29",
+      "date": "2026-10-29",
+      "source": "scheduled",
+      "title": "从三期失败到期权许可：研发会计、风险分配与监管平台化",
+      "summary": "本期覆盖Geron三期停止、Astellas–Audax期权许可、FDA个体化基因编辑草案、Novartis减值、Biogen并购后利润分化及三个首次人体项目。核心训练是区分会计利润、现金成本和资本配置，并把交易headline还原成概率加权的风险分配。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Biogen第三季度披露：GAAP摊薄每股亏损0.14美元，非GAAP摊薄EPS为2.62美元；季度内另有2.84亿美元收购中在研研发（acquired IPR&D）、首付款和里程碑费用。教学假设：某公司在扣除此项目之前的税前利润为5亿美元，项目费用3亿美元，可抵税，税率20%，摊薄股数1亿股。\n\n问题：①计入项目费用后的GAAP净利润和EPS是多少？②若分析师把该费用全部调整掉，调整后净利润和EPS是多少？③为什么“非经常性”不等于“与估值无关”？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先从税前利润扣除费用，再算税；调整口径则把费用连同其税后影响加回。注意，本题假设费用可抵税，现实中需查税务处理；Biogen本季还披露RayThera股票收购相关IPR&D费用不可抵税，不能机械套用本题税盾。\n\nGAAP：税前利润＝5.0−3.0＝2.0亿美元；所得税＝2.0×20%＝0.4亿美元；净利润＝1.6亿美元；EPS＝1.6亿÷1亿股＝1.60美元。\n\n调整后：净利润＝5.0×(1−20%)＝4.0亿美元；EPS＝4.0亿÷1亿股＝4.00美元。也可从GAAP净利润加回税后费用：1.6＋3.0×(1−20%)＝4.0亿美元。\n\n一种可行判断：调整后EPS有助于观察存量业务经营，但若公司反复用并购、授权和里程碑补充管线，这些支出具有经济上的经常性。估值时可把单笔费用从当期利润中调整掉，却应在现金流、资本配置回报或未来研发投入中重新计入。\n\n常见误区：把所有IPR&D都当作非现金；忽略不可抵税；同时在EPS和现金流中重复加回；因“非经常”而完全无视并购成本。\n\n自查标准：能否回答四个问题——费用是否现金、是否可抵税、是否会反复发生、是否已在企业价值/净债务或现金流中另行体现。"
+        },
+        {
+          "heading": "核心概念｜收购中在研研发、减值与调整后利润",
+          "body": "收购中在研研发（acquired IPR&D）是通过交易取得、尚未完成的研发项目。不同交易结构和会计准则下，它可能当期费用化或先资本化；资产后来达不到原先现金流预期时，还可能确认减值。\n\n从第一性原理看，利润表在回答“本期按会计规则赚了多少”，而估值在回答“未来可分配现金值多少”。当期IPR&D费用或减值可造成GAAP与调整后利润巨幅分化。减值通常不在当期再次流出现金，却是过去资本配置假设被下调的信号；收购首付款则常是真实现金流。分析时应同时看：经营增长、自由现金流、净债务、资产账面价值和历史并购回报。"
+        },
+        {
+          "heading": "进展1｜Geron停止IMpactMF三期：机制获批不代表适应症可复制",
+          "body": "事实：2026-10-28，Geron依据独立数据监查委员会建议决定停止IMpactMF。委员会认为imetelstat在JAK抑制剂后复发/难治骨髓纤维化中难以达到总生存期主要终点；公司称未发现改变已知安全性的新增信号。试验共327人、2:1随机，对照为最佳可用治疗。核查时NCT04576156仍显示Phase 3、ACTIVE_NOT_RECRUITING，说明公司公告领先于登记更新。\n\n分析：科学上，这否定的是特定人群、剂量和终点下的生存获益前景，而非端粒酶机制在所有疾病中无效。商业上，骨髓纤维化扩展收入机会显著下降，Rytelo价值更集中于已获批的低危MDS。战略上，Geron需在商业放量、后续管线与成本之间重排资本。财务上，扩展适应症rNPV应大幅下调，同时关注终止费用、研发节省和资产集中风险。"
+        },
+        {
+          "heading": "进展2｜Astellas以期权许可锁定DAX-044：用交易结构分配临床前风险",
+          "body": "事实：2026-10-28，Astellas获得Audax的DAX-044全球独家期权；Audax继续把资产推进至预计2027年启动的一期。首付款加潜在行权款合计2.85亿美元，研发及商业里程碑最高10.5亿美元，另有分级两位数销售提成。DAX-044是肿瘤靶向IL-12抗体-细胞因子融合，仍在IND/CTN准备阶段。\n\n分析：科学上，核心命题是能否把IL-12免疫激活集中到肿瘤、避免历史上的系统毒性。商业上，若治疗窗成立，可能覆盖对现有免疫疗法反应不足的实体瘤。战略上，期权让Astellas提前锁权、但把早期执行风险留给Audax。财务上，13.4亿美元是潜在总额，不是当前对价；应按各里程碑触发概率、时间和提成后利润逐层建模。"
+        },
+        {
+          "heading": "进展3｜FDA发布个体化基因编辑BLA草案：从“一人一药”走向平台申报",
+          "body": "事实：FDA于2026-10-27发布草案，讨论包含多个产品变体的个体化基因组编辑产品如何在单一BLA下申报、获批后如何增加变体，以及体外安全/效力、工艺验证、标签、适应症和命名。草案非约束、未实施，评论截止2026-11-27。\n\n分析：科学上，监管焦点从单个序列延伸到平台边界、变体可比性和效力测定。商业上，单一BLA框架可能摊薄极罕见突变的重复申报成本。战略上，平台公司需要更早设计模块化CMC与变更控制。财务上，若最终落地，单位患者监管固定成本可能下降，但质量体系、长期随访和上市后变体管理成本会上升。"
+        },
+        {
+          "heading": "进展4｜Novartis管线失败与19亿美元减值：生物标志物不等于临床结局",
+          "body": "事实：Novartis于2026-10-27披露，del-desiran在DM1三期HARBOR未达视频手张开时间主要终点，并确认19亿美元部分减值、剩余账面价值55亿美元；pelacarsen在HORIZON中降低Lp(a)，但未降低心血管事件。公司Q3销售增长4%、核心营业利润增长10%。\n\n分析：科学上，两项结果分别提醒终点可解释性和替代生物标志物的局限。商业上，失败压缩相关罕见病和心血管增长期权。战略上，公司仍可基于次要终点、亚组和平台资产评估后续路径，但不能把“生物学有作用”写成获批概率不变。财务上，减值不等同当期现金流出，却是收购资产未来现金流预期下修，应回看最初交易假设和剩余55亿美元账面风险。"
+        },
+        {
+          "heading": "进展5｜Biogen收入重返增长，但GAAP与非GAAP利润分化",
+          "body": "事实：Biogen于2026-10-28报告Q3收入28.04亿美元，同比增长11%；增长组合收入12.64亿美元，同比增长49%，包含Apellis产品首个完整季度。GAAP摊薄EPS为−0.14美元，非GAAP为2.62美元；季度内收购IPR&D、首付款及里程碑费用2.84亿美元，期末净债务约64亿美元。\n\n分析：科学与产品层面，增长来自罕见病、阿尔茨海默病合作和Apellis资产组合，而传统MS收入仍承压。商业上，并购迅速补上收入，但整合和产品集中度仍需观察。战略上，未来12个月三期读出将决定增长能否从并购转为内部/合作管线驱动。财务上，不能只选更好看的EPS口径；应把收入协同、利息负担、一次性交易费用与反复发生的BD投入放进同一现金流框架。"
+        },
+        {
+          "heading": "进展6｜TCG Labs Soleil三个首次人体项目：venture-biotech进入临床验证期",
+          "body": "事实：TCG Labs Soleil于2026-10-28披露三个一期项目：ALPP/ALPPL2×CD3的DBC-664、KLK2×CD3的JUR-003，以及Factor XI抗体ARG-397。NCT07705035和NCT07824349均为RECRUITING、Phase 1、计划各210人。JUR-003新闻稿称设计为皮下给药，但当前登记写静脉给药，数据库保留登记口径并记录差异。ARG-397在澳洲登记为48名健康成人的一期，本期未将其误写成NCT。\n\n分析：科学上，两个实体瘤T细胞衔接器要证明靶点选择性和可控CRS，Factor XI抑制则追求抗凝与出血风险分离。商业上，独立单资产公司便于按项目融资和合作。战略上，集中式研发平台提高复用效率，但项目风险仍独立存在。财务上，价值主要来自一期安全、剂量和早期活性去风险，而非“进入临床”本身。"
+        },
+        {
+          "heading": "跨岗位洞察｜如何看Astellas–Audax期权交易",
+          "body": "投行：拆分2.85亿美元中的已付首款与行权款、里程碑概率、提成和会计处理，避免用13.4亿美元headline估值。\nFA顾问：比较立即许可、期权、收购和分期股权投资，检验控制权、反垄断、终止权与澳新共同推广安排。\nBD：重点做IL-12平台、靶向构型、CMC、毒理、知识产权、行权触发条件和后续资产权利尽调。\n投资者：估算Astellas为“观察一期前证据”支付了多少期权溢价，并判断潜在收益是否覆盖失败概率。\n咨询：定义最有可能受益的肿瘤人群、伴随诊断、临床路径和竞争定位。\n\n共同核心：交易价值不是最高里程碑，而是风险在双方之间如何被定价和转移。"
+        },
+        {
+          "heading": "迷你案例｜DAX-044期权交易的概率加权",
+          "body": "教学假设：首款1.0亿美元、行权款1.85亿美元；研发/商业里程碑10.5亿美元分为一期后2.0亿、注册成功3.5亿、销售里程碑5.0亿。假设对应触发概率分别40%、12%、6%，忽略时间价值和提成。\n\n概率加权名义对价＝1.0＋1.85×40%＋2.0×40%＋3.5×12%＋5.0×6%＝3.26亿美元。\n\n这不是资产估值：它没有折现、开发成本、销售提成、税、失败相关性和行权决策选择权。真正模型应先做资产rNPV，再从买方价值中扣除各类对价。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "既有94个唯一NCT全部尝试核查：82个成功、12个因登记接口访问失败而保留旧值；实质变化1个、纠错0个。NCT04534205的主要完成及研究完成预计日期由2028-08延至2029-04；另有3个项目仅登记日期刷新、核心字段未变。失败项为NCT07494305、NCT07524348、NCT07652047、NCT07661056、NCT07730281、NCT07738822、NCT07795814、NCT07805356、NCT07810777、NCT07811089、NCT07863193、NCT07890909；NCT07491445通过公开检索补核成功。\n\n新增3个经公开登记核实的NCT：NCT04576156、NCT07705035、NCT07824349，去重后覆盖97个NCT。公司停试与登记状态差异、JUR-003给药路线差异均已明确标注。现有23期历史和全部根级归档保留，未触发90期裁剪。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Acquired IPR&D",
+          "zh": "收购中在研研发",
+          "meaning": "通过交易取得、尚未完成且存在研发不确定性的项目；具体费用化或资本化取决于交易结构和会计准则。"
+        },
+        {
+          "en": "Impairment",
+          "zh": "资产减值",
+          "meaning": "资产账面价值高于可收回金额时确认的损失，通常反映未来现金流预期下修。"
+        },
+        {
+          "en": "Data Monitoring Committee (DMC)",
+          "zh": "独立数据监查委员会",
+          "meaning": "在试验进行中独立审阅疗效和安全数据，并可建议继续、修改或停止试验。"
+        },
+        {
+          "en": "Option-to-license",
+          "zh": "期权许可",
+          "meaning": "买方先购买未来取得许可的选择权，达到条件后再决定是否行权并支付后续对价。"
+        },
+        {
+          "en": "Surrogate endpoint",
+          "zh": "替代终点",
+          "meaning": "用于预测临床获益的生物标志物或中间指标，但必须验证其与患者结局的关系。"
+        },
+        {
+          "en": "BLA",
+          "zh": "生物制品许可申请",
+          "meaning": "向FDA申请生物制品上市许可的正式申报。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Geron：停止IMpactMF三期试验，2026-10-28",
+          "url": "https://ir.geron.com/news-releases/news-release-details/geron-corporation-provides-update-phase-3-impactmf-clinical"
+        },
+        {
+          "title": "ClinicalTrials.gov：IMpactMF，NCT04576156（核查于2026-10-29）",
+          "url": "https://clinicaltrials.gov/study/NCT04576156"
+        },
+        {
+          "title": "Astellas与Audax：DAX-044期权许可协议，2026-10-28",
+          "url": "https://newsroom.astellas.com/2026-10-28-astellas-and-audax-biosciences-enter-exclusive-option-and-license-agreement-for-dax-044-a-novel-immune-targeted-il-12-antibody-cytokine-fusion-for-immuno-oncology"
+        },
+        {
+          "title": "FDA：个体化人类基因组编辑产品BLA与上市后管理草案，2026-10-27",
+          "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval"
+        },
+        {
+          "title": "Novartis：2026年第三季度业绩与管线更新，2026-10-27",
+          "url": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-and-core-margin-expansion-q3-raised-fy-core-operating-income-guidance"
+        },
+        {
+          "title": "Novartis：2026年第三季度投资者演示，2026-10-27",
+          "url": "https://www.novartis.com/sites/novartis_com/files/q3-2026-investor-presentation.pdf"
+        },
+        {
+          "title": "Biogen：2026年第三季度业绩，2026-10-28",
+          "url": "https://investors.biogen.com/news-releases/news-release-details/biogen-reports-third-quarter-2026-results"
+        },
+        {
+          "title": "TCG Labs Soleil：三个首次人体项目进入一期，2026-10-28",
+          "url": "https://www.globenewswire.com/news-release/2026/10/28/3390110/0/en/tcg-labs-soleil-highlights-portfolio-momentum-with-three-programs-entering-first-in-human-clinical-trials-across-oncology-and-cardiovascular-disease.html"
+        },
+        {
+          "title": "ClinicalTrials.gov：DBC-664，NCT07705035（核查于2026-10-29）",
+          "url": "https://clinicaltrials.gov/study/NCT07705035"
+        },
+        {
+          "title": "ClinicalTrials.gov：JUR-003，NCT07824349（核查于2026-10-29）",
+          "url": "https://clinicaltrials.gov/study/NCT07824349"
+        },
+        {
+          "title": "ClinicalTrials.gov：BNT113，NCT04534205（核查于2026-10-29）",
+          "url": "https://clinicaltrials.gov/study/NCT04534205"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT04534205",
+          "title": "BNT113",
+          "company": "BioNTech SE",
+          "target": "HPV16 E6/E7抗原",
+          "modality": "mRNA癌症免疫疗法",
+          "area": "肿瘤",
+          "indication": "HPV16阳性、PD-L1阳性的复发/转移或不可切除头颈鳞癌",
+          "stage": "Phase 2/Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Clinical Trial Investigating the Safety, Tolerability, and Therapeutic Effects of BNT113 in Combination With Pembrolizumab Versus Pembrolizumab Alone for Patients With a Form of Head and Neck Cancer Positive for Human Papilloma Virus 16 and Expressing the Protein PD-L1",
+          "registryUpdated": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "登记仍为Phase 2/3、ACTIVE_NOT_RECRUITING、实际入组358；主要完成和研究完成预计日期由2028-08延至2029-04。",
+          "endpoints": [
+            "Part A - Occurrence of treatment-emergent adverse event (TEAE) - BNT113 in combination with pembrolizumab（up to 27 months）",
+            "Part B - Overall survival (OS)（up to 48 months）",
+            "Part B - Progression-free survival (PFS)（up to 48 months）"
+          ],
+          "completion": {
+            "date": "2029-04",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 358,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "BNT113",
+              "description": "IV injection",
+              "armGroupLabels": [
+                "Part A (Safety Run-In) - BNT113 + Pembrolizumab",
+                "Part B (Randomized phase) - BNT113 + Pembrolizumab"
+              ]
+            },
+            {
+              "type": "BIOLOGICAL",
+              "name": "Pembrolizumab",
+              "description": "IV infusion",
+              "armGroupLabels": [
+                "Part A (Safety Run-In) - BNT113 + Pembrolizumab",
+                "Part B (Randomized phase) - BNT113 + Pembrolizumab",
+                "Part B (Randomized phase) - Pembrolizumab monotherapy"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov：BNT113，NCT04534205（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT04534205"
+            },
+            {
+              "title": "BioNTech AHEAD-MERIT公告，2026-10-13",
+              "url": "https://www.biospace.com/press-releases/biontech-provides-update-on-phase-2-3-clinical-trial-for-mrna-cancer-immunotherapy-candidate-bnt113-in-metastatic-hpv16-positive-head-and-neck-cancer"
+            }
+          ],
+          "note": "登记于2026-10-28更新：主要完成和研究完成预计时间由2028-08延至2029-04，阶段、状态、干预、主要终点和实际入组358人未变。预计完成日期不是读出承诺；PFS失败不等于OS必然失败；本登记的Phase 2/3不代表获批状态。",
+          "risks": "完成时间延后增加资金占用和OS成熟等待期；完整PFS效应量、OS成熟度、亚组一致性、安全性与监管可接受性待披露。",
+          "primaryCompletion": {
+            "date": "2029-04",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT04576156",
+          "title": "Imetelstat（Rytelo）",
+          "company": "Geron Corporation",
+          "target": "端粒酶",
+          "modality": "脂质偶联寡核苷酸端粒酶抑制剂",
+          "area": "肿瘤/血液",
+          "indication": "JAK抑制剂治疗后复发或难治的中危-2或高危骨髓纤维化",
+          "stage": "Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Randomized Open-Label, Phase 3 Study to Evaluate Imetelstat Versus Best Available Therapy in JAK-Inhibitor Relapsed/Refractory Myelofibrosis",
+          "registryUpdated": "2026-07-08",
+          "checked": "2026-10-29",
+          "summary": "登记显示327例实际入组且仍为ACTIVE_NOT_RECRUITING；Geron于2026-10-28依据独立DMC建议宣布停止试验，因其难以达到总生存期主要终点。",
+          "endpoints": [
+            "Overall survival（约3年）"
+          ],
+          "primaryCompletion": {
+            "date": "2028-06-30",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-06-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 327,
+            "type": "ACTUAL"
+          },
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Imetelstat (GRN163L)"
+            },
+            {
+              "type": "DRUG",
+              "name": "Best Available Therapy"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Geron：停止IMpactMF三期试验，2026-10-28",
+              "url": "https://ir.geron.com/news-releases/news-release-details/geron-corporation-provides-update-phase-3-impactmf-clinical"
+            },
+            {
+              "title": "ClinicalTrials.gov：IMpactMF，NCT04576156（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT04576156"
+            }
+          ],
+          "note": "公司停试公告先于登记状态更新；因此严格保留核查时登记状态ACTIVE_NOT_RECRUITING，并在摘要中注明公司已决定停止。预计完成日期不是新的读出承诺。",
+          "risks": "尚无完整效应量和亚组数据；失败可能削弱骨髓纤维化扩展价值，但不改变其已获批的特定低危MDS标签。",
+          "hasResults": false
+        },
+        {
+          "id": "NCT07705035",
+          "title": "DBC-664",
+          "company": "Duboce Biopharmaceuticals, Inc.",
+          "target": "ALPP/ALPPL2 × CD3",
+          "modality": "双特异性T细胞衔接器",
+          "area": "肿瘤/实体瘤",
+          "indication": "ALPP或ALPPL2表达的复发/难治、不可切除局部晚期或转移性实体瘤",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "A Phase 1a/1b Study of DBC-664 in Adult Patients With Locally Advanced or Metastatic Solid Tumors",
+          "registryUpdated": "2026-10-27",
+          "checked": "2026-10-29",
+          "summary": "首次人体I期a/b开放标签研究，计划210人，评估安全、剂量、药代/药效和初步抗肿瘤活性。",
+          "endpoints": [
+            "安全性与耐受性（2年）",
+            "推荐扩展剂量（1年）",
+            "药代动力学（2年）"
+          ],
+          "primaryCompletion": {
+            "date": "2030-04-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2030-04-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 210,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "DBC-664"
+            }
+          ],
+          "sources": [
+            {
+              "title": "TCG Labs Soleil：三个首次人体项目进入一期，2026-10-28",
+              "url": "https://www.globenewswire.com/news-release/2026/10/28/3390110/0/en/tcg-labs-soleil-highlights-portfolio-momentum-with-three-programs-entering-first-in-human-clinical-trials-across-oncology-and-cardiovascular-disease.html"
+            },
+            {
+              "title": "ClinicalTrials.gov：DBC-664，NCT07705035（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT07705035"
+            }
+          ],
+          "note": "一期阶段用于剂量与安全探索，不代表已证明临床疗效；预计完成日期不是读出承诺。",
+          "risks": "靶抗原异质性、肿瘤浸润、CRS、脱靶组织表达和大样本扩展前疗效不确定。",
+          "hasResults": false
+        },
+        {
+          "id": "NCT07824349",
+          "title": "JUR-003",
+          "company": "Juri Biosciences, Inc.",
+          "target": "KLK2 × CD3",
+          "modality": "双特异性T细胞衔接器",
+          "area": "肿瘤/前列腺癌",
+          "indication": "转移性去势抵抗、寡转移或转移性激素敏感前列腺癌",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "A Phase 1a/1b Study of JUR-003 in Adult Patients With Metastatic Prostate Cancer",
+          "registryUpdated": "2026-10-15",
+          "checked": "2026-10-29",
+          "summary": "首次人体I期a/b研究，计划210名男性受试者；公司称资产设计为皮下给药，但登记干预描述为静脉给药，数据库以登记为准并标记差异。",
+          "endpoints": [
+            "安全性与耐受性（2年）",
+            "推荐扩展剂量（1年）",
+            "药代动力学（2年）"
+          ],
+          "primaryCompletion": {
+            "date": "2030-06-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2030-06-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 210,
+            "type": "ESTIMATED"
+          },
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "JUR-003",
+              "description": "登记记录为静脉给药"
+            }
+          ],
+          "sources": [
+            {
+              "title": "TCG Labs Soleil：三个首次人体项目进入一期，2026-10-28",
+              "url": "https://www.globenewswire.com/news-release/2026/10/28/3390110/0/en/tcg-labs-soleil-highlights-portfolio-momentum-with-three-programs-entering-first-in-human-clinical-trials-across-oncology-and-cardiovascular-disease.html"
+            },
+            {
+              "title": "ClinicalTrials.gov：JUR-003，NCT07824349（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT07824349"
+            }
+          ],
+          "note": "新闻稿的拟议皮下制剂描述与当前登记的静脉给药存在差异；未自行消解，后续以登记修订或申办方澄清为准。",
+          "risks": "CRS、KLK2表达异质性、给药路线差异、早期疗效及与现有前列腺癌疗法组合的可行性待验证。",
+          "hasResults": false
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-geron-corporation",
+          "title": "Geron Corporation",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "IMpactMF三期因DMC判断总生存期终点难以达标而停止；商业重心回到Rytelo低危MDS放量。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "端粒酶抑制剂imetelstat；已在美国和欧盟获批用于特定低危MDS患者。"
+            },
+            {
+              "heading": "战略变化",
+              "body": "停止骨髓纤维化三期并分析完整数据；不把该失败外推为现有标签失效。"
+            },
+            {
+              "heading": "财务关注",
+              "body": "扩展适应症价值下调，研发支出可下降，但增长集中度和商业执行风险上升。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Geron：停止IMpactMF三期试验，2026-10-28",
+              "url": "https://ir.geron.com/news-releases/news-release-details/geron-corporation-provides-update-phase-3-impactmf-clinical"
+            },
+            {
+              "title": "ClinicalTrials.gov：IMpactMF，NCT04576156（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT04576156"
+            }
+          ]
+        },
+        {
+          "id": "company-astellas-pharma",
+          "title": "Astellas Pharma Inc.",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "通过期权许可锁定Audax的靶向IL-12融合蛋白DAX-044，降低临床前资产立即全额接管的风险。",
+          "sections": [
+            {
+              "heading": "资产与权利",
+              "body": "行权后取得DAX-044全球开发、制造和商业化权利；Audax可在澳大利亚和新西兰共同出资及推广。"
+            },
+            {
+              "heading": "经济条款",
+              "body": "首付款加潜在期权行权款合计2.85亿美元；研发和商业里程碑最高10.5亿美元；另有分级两位数销售提成。"
+            },
+            {
+              "heading": "风险",
+              "body": "资产仍处IND/CTN准备阶段；系统性IL-12毒性、肿瘤靶向性和是否行权均未验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Astellas与Audax：DAX-044期权许可协议，2026-10-28",
+              "url": "https://newsroom.astellas.com/2026-10-28-astellas-and-audax-biosciences-enter-exclusive-option-and-license-agreement-for-dax-044-a-novel-immune-targeted-il-12-antibody-cytokine-fusion-for-immuno-oncology"
+            }
+          ]
+        },
+        {
+          "id": "company-audax-biosciences",
+          "title": "Audax Biosciences Pty Ltd",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "继续出资把DAX-044推进至预计2027年启动的一期，并保留澳新共同开发商业化选择权。",
+          "sections": [
+            {
+              "heading": "平台",
+              "body": "AVIKINE抗体-细胞因子融合平台，目标是在肿瘤微环境集中IL-12活性。"
+            },
+            {
+              "heading": "融资与合作",
+              "body": "获得首付款及潜在行权款，但2.85亿美元的具体分拆未披露。"
+            },
+            {
+              "heading": "风险",
+              "body": "临床前治疗窗不能替代人体安全性与有效性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Astellas与Audax：DAX-044期权许可协议，2026-10-28",
+              "url": "https://newsroom.astellas.com/2026-10-28-astellas-and-audax-biosciences-enter-exclusive-option-and-license-agreement-for-dax-044-a-novel-immune-targeted-il-12-antibody-cytokine-fusion-for-immuno-oncology"
+            }
+          ]
+        },
+        {
+          "id": "company-novartis",
+          "title": "Novartis",
+          "date": "2026-10-27",
+          "checked": "2026-10-29",
+          "summary": "Q3销售和核心利润增长，但del-desiran三期失败导致19亿美元部分减值，pelacarsen心血管结局三期亦未达主要终点。",
+          "sections": [
+            {
+              "heading": "财务",
+              "body": "Q3销售同比增长4%，核心营业利润增长10%；del-desiran部分减值19亿美元，剩余账面价值55亿美元。"
+            },
+            {
+              "heading": "管线",
+              "body": "del-desiran未达vHOT主要终点；pelacarsen虽降低Lp(a)但未降低心血管事件。"
+            },
+            {
+              "heading": "战略含义",
+              "body": "生物标志物变化与临床结局必须分开；减值是对资产未来现金流预期的会计重估。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Novartis：2026年第三季度业绩与管线更新，2026-10-27",
+              "url": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-and-core-margin-expansion-q3-raised-fy-core-operating-income-guidance"
+            },
+            {
+              "title": "Novartis：2026年第三季度投资者演示，2026-10-27",
+              "url": "https://www.novartis.com/sites/novartis_com/files/q3-2026-investor-presentation.pdf"
+            }
+          ]
+        },
+        {
+          "id": "company-biogen",
+          "title": "Biogen Inc.",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "Apellis产品首个完整季度推动增长组合收入增49%，但并购及IPR&D相关费用令GAAP每股亏损0.14美元。",
+          "sections": [
+            {
+              "heading": "经营",
+              "body": "Q3收入28.04亿美元，同比增长11%；增长组合收入12.64亿美元。"
+            },
+            {
+              "heading": "会计与资本结构",
+              "body": "收购IPR&D、首付款及里程碑费用2.84亿美元；期末净债务约64亿美元。"
+            },
+            {
+              "heading": "战略",
+              "body": "Apellis整合带来收入增长，但利息、交易和研发资产投入使GAAP与非GAAP利润显著分化。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Biogen：2026年第三季度业绩，2026-10-28",
+              "url": "https://investors.biogen.com/news-releases/news-release-details/biogen-reports-third-quarter-2026-results"
+            }
+          ]
+        },
+        {
+          "id": "company-tcg-labs-soleil",
+          "title": "TCG Labs Soleil",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "以独立单资产公司承载项目的venture-biotech模式已有三个项目进入首次人体一期。",
+          "sections": [
+            {
+              "heading": "模式",
+              "body": "专用资本加集中式研发平台，项目在独立公司中推进至早期临床概念验证，再寻求合作。"
+            },
+            {
+              "heading": "临床资产",
+              "body": "DBC-664、JUR-003以及澳洲登记的Factor XI抗体ARG-397均进入一期。"
+            },
+            {
+              "heading": "风险",
+              "body": "早期组合分散科学风险，但每个项目仍面临一期安全、剂量、融资及合作退出不确定性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "TCG Labs Soleil：三个首次人体项目进入一期，2026-10-28",
+              "url": "https://www.globenewswire.com/news-release/2026/10/28/3390110/0/en/tcg-labs-soleil-highlights-portfolio-momentum-with-three-programs-entering-first-in-human-clinical-trials-across-oncology-and-cardiovascular-disease.html"
+            },
+            {
+              "title": "ClinicalTrials.gov：DBC-664，NCT07705035（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT07705035"
+            },
+            {
+              "title": "ClinicalTrials.gov：JUR-003，NCT07824349（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT07824349"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-telomerase-imetelstat",
+          "title": "端粒酶抑制",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "通过抑制恶性祖细胞端粒酶产生疾病修饰效应；不同血液肿瘤的临床可迁移性有限。",
+          "sections": [
+            {
+              "heading": "人类验证",
+              "body": "Imetelstat已在特定低危MDS获批，但IMpactMF未能显示足够的OS前景。"
+            },
+            {
+              "heading": "失败信号",
+              "body": "DMC认为三期总生存期终点难以达标；完整效应量尚未披露。"
+            },
+            {
+              "heading": "投资含义",
+              "body": "同一机制在一个适应症获批，不自动证明另一适应症成功。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Geron：停止IMpactMF三期试验，2026-10-28",
+              "url": "https://ir.geron.com/news-releases/news-release-details/geron-corporation-provides-update-phase-3-impactmf-clinical"
+            },
+            {
+              "title": "ClinicalTrials.gov：IMpactMF，NCT04576156（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT04576156"
+            }
+          ]
+        },
+        {
+          "id": "target-il12-tumor-targeted",
+          "title": "肿瘤靶向IL-12",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "把强效免疫刺激细胞因子定向至肿瘤微环境，试图扩大传统IL-12受系统毒性限制的治疗窗。",
+          "sections": [
+            {
+              "heading": "生物学",
+              "body": "IL-12可激活NK和T细胞，但全身暴露可能带来严重炎症毒性。"
+            },
+            {
+              "heading": "可成药性",
+              "body": "DAX-044以抗体-细胞因子融合实现定位；目前仅临床前证据。"
+            },
+            {
+              "heading": "待验证",
+              "body": "人体肿瘤富集、系统暴露、剂量窗口和耐药机制。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Astellas与Audax：DAX-044期权许可协议，2026-10-28",
+              "url": "https://newsroom.astellas.com/2026-10-28-astellas-and-audax-biosciences-enter-exclusive-option-and-license-agreement-for-dax-044-a-novel-immune-targeted-il-12-antibody-cytokine-fusion-for-immuno-oncology"
+            }
+          ]
+        },
+        {
+          "id": "target-individualized-genome-editing",
+          "title": "个体化基因组编辑产品",
+          "date": "2026-10-27",
+          "checked": "2026-10-29",
+          "summary": "FDA草案提出多个个体化产品变体可在单一BLA下申报及获批后扩展的监管框架。",
+          "sections": [
+            {
+              "heading": "监管验证",
+              "body": "草案讨论变体范围、体外安全与效力、工艺验证、标签和命名。"
+            },
+            {
+              "heading": "商业意义",
+              "body": "若最终实施，可降低每个罕见变体分别申报的重复成本，但CMC和可比性门槛仍高。"
+            },
+            {
+              "heading": "不确定性",
+              "body": "草案非约束、尚未实施，意见期截至2026-11-27。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA：个体化人类基因组编辑产品BLA与上市后管理草案，2026-10-27",
+              "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval"
+            }
+          ]
+        },
+        {
+          "id": "target-lpa-lowering",
+          "title": "Lp(a)降低",
+          "date": "2026-10-27",
+          "checked": "2026-10-29",
+          "summary": "Pelacarsen降低Lp(a)但三期未降低心血管事件，提示替代终点与患者结局之间存在可转化缺口。",
+          "sections": [
+            {
+              "heading": "人类验证",
+              "body": "HORIZON主要临床结局失败；完整数据待AHA 2026披露。"
+            },
+            {
+              "heading": "必要证据",
+              "body": "需要事件终点、亚组、治疗暴露与基线风险分析，而非仅看Lp(a)下降幅度。"
+            },
+            {
+              "heading": "竞争",
+              "body": "该结果会影响整个Lp(a)赛道的患者选择、终点设计和风险溢价。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Novartis：2026年第三季度业绩与管线更新，2026-10-27",
+              "url": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-and-core-margin-expansion-q3-raised-fy-core-operating-income-guidance"
+            },
+            {
+              "title": "Novartis：2026年第三季度投资者演示，2026-10-27",
+              "url": "https://www.novartis.com/sites/novartis_com/files/q3-2026-investor-presentation.pdf"
+            }
+          ]
+        },
+        {
+          "id": "target-alpp-alppl2-klk2-tce",
+          "title": "ALPP/ALPPL2与KLK2 T细胞衔接",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "两个实体瘤T细胞衔接靶点进入首次人体试验，分别聚焦妇科/多种实体瘤和前列腺癌。",
+          "sections": [
+            {
+              "heading": "选择性逻辑",
+              "body": "ALPP/ALPPL2在部分实体瘤高表达；KLK2相对局限于前列腺组织。"
+            },
+            {
+              "heading": "药物形式",
+              "body": "DBC-664和JUR-003均为CD3双特异体。"
+            },
+            {
+              "heading": "风险",
+              "body": "靶点异质性、正常组织表达、CRS和实体瘤免疫抑制微环境。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "TCG Labs Soleil：三个首次人体项目进入一期，2026-10-28",
+              "url": "https://www.globenewswire.com/news-release/2026/10/28/3390110/0/en/tcg-labs-soleil-highlights-portfolio-momentum-with-three-programs-entering-first-in-human-clinical-trials-across-oncology-and-cardiovascular-disease.html"
+            },
+            {
+              "title": "ClinicalTrials.gov：DBC-664，NCT07705035（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT07705035"
+            },
+            {
+              "title": "ClinicalTrials.gov：JUR-003，NCT07824349（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT07824349"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-astellas-audax-dax044-2026-10-28",
+          "title": "Astellas–Audax DAX-044独家期权与许可",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "临床前肿瘤靶向IL-12资产的全球期权交易；最高披露交易价值13.35亿美元，另加销售提成。",
+          "sections": [
+            {
+              "heading": "参与方与资产",
+              "body": "Astellas取得DAX-044独家期权；Audax继续把资产推进至一期。"
+            },
+            {
+              "heading": "权利与地域",
+              "body": "行权后Astellas取得全球开发、制造和商业化；Audax可在澳大利亚和新西兰共同出资及推广。"
+            },
+            {
+              "heading": "阶段与时间",
+              "body": "IND/CTN准备阶段；一期预计2027年启动，该时间为计划而非已登记读出。"
+            },
+            {
+              "heading": "经济条款",
+              "body": "首付款与潜在行权款合计2.85亿美元（分拆未披露）；研发及商业里程碑最高10.5亿美元；分级两位数全球净销售提成。"
+            },
+            {
+              "heading": "结构逻辑",
+              "body": "期权把临床前到一期的主要执行风险留给Audax，同时让Astellas提前锁定权利。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Astellas与Audax：DAX-044期权许可协议，2026-10-28",
+              "url": "https://newsroom.astellas.com/2026-10-28-astellas-and-audax-biosciences-enter-exclusive-option-and-license-agreement-for-dax-044-a-novel-immune-targeted-il-12-antibody-cytokine-fusion-for-immuno-oncology"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-impactmf-discontinued-2026-10-28",
+          "title": "IMpactMF三期停止",
+          "date": "2026-10-28",
+          "checked": "2026-10-29",
+          "summary": "DMC判断总生存期主要终点难以达到，Geron决定停止；登记尚未同步为终止。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "三期失败/停止"
+            },
+            {
+              "heading": "状态",
+              "body": "cancelled（公司决定）；登记仍ACTIVE_NOT_RECRUITING"
+            },
+            {
+              "heading": "下一步",
+              "body": "完整数据分析及未来科学会议披露，日期未公布。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Geron：停止IMpactMF三期试验，2026-10-28",
+              "url": "https://ir.geron.com/news-releases/news-release-details/geron-corporation-provides-update-phase-3-impactmf-clinical"
+            },
+            {
+              "title": "ClinicalTrials.gov：IMpactMF，NCT04576156（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT04576156"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-fda-individualized-ge-comments-2026-11-27",
+          "title": "FDA个体化基因编辑草案意见期截止",
+          "date": "2026-11-27",
+          "checked": "2026-10-29",
+          "summary": "FDA明确2026-11-27为本草案优先纳入最终化工作的评论截止日。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "监管意见期"
+            },
+            {
+              "heading": "状态",
+              "body": "confirmed"
+            },
+            {
+              "heading": "注意",
+              "body": "草案非约束、尚未实施。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "FDA：个体化人类基因组编辑产品BLA与上市后管理草案，2026-10-27",
+              "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/individualized-human-genome-editing-products-considerations-bla-submission-and-postapproval"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-dax044-phase1-2027",
+          "title": "DAX-044预计启动一期",
+          "date": "2027",
+          "checked": "2026-10-29",
+          "summary": "Audax计划在2027年启动一期；尚无本期核实到的NCT登记。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "首次人体试验"
+            },
+            {
+              "heading": "状态",
+              "body": "estimated"
+            },
+            {
+              "heading": "条件",
+              "body": "完成IND/CTN准备及监管、伦理和运营条件。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Astellas与Audax：DAX-044期权许可协议，2026-10-28",
+              "url": "https://newsroom.astellas.com/2026-10-28-astellas-and-audax-biosciences-enter-exclusive-option-and-license-agreement-for-dax-044-a-novel-immune-targeted-il-12-antibody-cytokine-fusion-for-immuno-oncology"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-bnt113-completion-delayed-2029-04",
+          "title": "BNT113登记完成时间延后",
+          "date": "2029-04",
+          "checked": "2026-10-29",
+          "summary": "NCT04534205主要完成及研究完成预计日期由2028-08延至2029-04。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "登记时间变更"
+            },
+            {
+              "heading": "状态",
+              "body": "delayed / estimated"
+            },
+            {
+              "heading": "注意",
+              "body": "预计完成日期不是数据读出承诺。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov：BNT113，NCT04534205（核查于2026-10-29）",
+              "url": "https://clinicaltrials.gov/study/NCT04534205"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-biogen-litifilimab-topaz-dec2026",
+          "title": "Litifilimab SLE三期TOPAZ-1/2顶线数据",
+          "date": "2026-12",
+          "checked": "2026-10-29",
+          "summary": "Biogen预计2026年12月上半月公布两项SLE三期顶线数据。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "三期数据"
+            },
+            {
+              "heading": "状态",
+              "body": "estimated（公司指引）"
+            },
+            {
+              "heading": "注意",
+              "body": "公司窗口不等于登记预计完成日，也不是结果保证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "Biogen：2026年第三季度业绩，2026-10-28",
+              "url": "https://investors.biogen.com/news-releases/news-release-details/biogen-reports-third-quarter-2026-results"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-28",
       "date": "2026-10-28",
@@ -19596,20 +20467,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-28T07:18:00+08:00",
+    "checkedAt": "2026-10-29T07:08:20.134+08:00",
     "status": "partial",
-    "checked": 85,
-    "changed": 0,
-    "failed": 4,
+    "checked": 82,
+    "changed": 1,
+    "failed": 12,
     "corrected": 0,
-    "newPipelines": 5,
-    "totalPipelines": 94,
-    "companies": 5,
-    "targets": 4,
+    "newPipelines": 3,
+    "totalPipelines": 97,
+    "companies": 6,
+    "targets": 5,
     "deals": 1,
     "catalysts": 5,
-    "events": 5,
-    "summary": "既有89个NCT全部尝试核查：85个成功、4个来源访问失败并保留旧值；实质变化0、纠错0，NCT07012395仅登记日期刷新。新增5个真实登记，去重后覆盖94个NCT。公司5、靶点4、交易1、催化剂5；22期历史及全部根级归档保留，未触发90期裁剪。"
+    "events": 6,
+    "summary": "既有94个唯一NCT全部尝试核查：82个成功、12个登记来源访问失败并保留旧值；实质变化1、纠错0，另有3个仅登记日期刷新。新增3个真实NCT，去重后覆盖97个。公司6、靶点5、交易1、催化剂5；24期历史及全部根级归档保留，未触发90期裁剪。"
   },
   "archivedPapers": []
 }
