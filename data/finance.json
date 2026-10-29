@@ -1,8 +1,1133 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-28T23:08:20.134Z",
+  "updatedAt": "2026-10-30T07:04:30.106+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-30",
+      "date": "2026-10-30",
+      "source": "scheduled",
+      "title": "事件驱动三期与组合风险：从TRITON-CM扩样到Fabry授权",
+      "summary": "本期用TRITON-CM扩样解释事件驱动试验如何连接统计效能、研发预算和rNPV，并追踪Fabry授权、RNAi组合迭代、呼吸产品放量、女性生殖技术并购及独家谈判。全量核查97个既有NCT，成功97、失败0，新增4个真实登记后覆盖101项。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Alnylam把TRITON-CM目标入组从1,750人扩大到约2,250人。假设设计需要约525个主要终点事件：若原来预计事件率为30%，原样本量能否满足？若新的保守事件率为23.3%，需要多少人？若每增加一名受试者的全周期增量成本为5万美元，新增500人会增加多少试验成本？最后判断：扩样本是否必然说明药物疗效变差？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：事件驱动试验的统计信息量主要取决于发生多少个终点事件，而不仅是总入组人数。\n\n计算：原假设事件数＝1,750×30%＝525个，恰好满足设计需要。若事件率降至23.3%，所需样本量＝525÷23.3%≈2,253人，与扩大至约2,250人的规模接近。新增成本＝500×5万美元＝2,500万美元。\n\n一种可行判断：扩样本可能是因为患者更早期、背景治疗改善或总体事件率低于原假设，并不必然意味着试验组疗效变差。若事件率下降同时发生在两组，扩样本主要是在保护统计效能。\n\n必要证据：方案修订、盲态总体事件率、目标事件数及统计假设。支持证据：患者构成、标准治疗变化、入组速度。待验证假设：两组事件率是否等比例下降，以及扩样本是否影响最终分析时间。\n\n常见误区：把入组人数当成事件数；看到扩样本便直接判断试验失败；忽略新增中心、药品、随访和数据管理成本。\n\n自查标准：是否先固定目标事件数；是否区分总体事件率和组间效应；是否把管理层的2030年上市目标当成有条件预测而非承诺。"
+        },
+        {
+          "heading": "核心概念｜事件驱动试验、统计效能与研发预算",
+          "body": "事件驱动试验在达到预先规定的死亡、住院或疾病进展事件数后进行主要分析。样本量只是获得足够事件的手段。若患者病情更早、背景治疗更好或事件发生更慢，同样人数可能产生更少事件，申办方可扩样本或延长随访。\n\n从财务角度，扩样本会增加中心启动、患者管理、药品供应、影像/实验室、数据和随访成本，并推迟部分现金流；但若它降低统计失败风险，可能提高资产rNPV。分析时应同时调整研发成本、读出时间和成功概率，而不能只改其中一项。"
+        },
+        {
+          "heading": "进展1｜BioMarin以4.75亿美元封顶交易补强Fabry组合",
+          "body": "事实：BioMarin于10月29日取得HM15421/GC1134A在韩国以外的全球权利，支付7,000万美元预付款，另有最高4.05亿美元开发和商业里程碑及分级销售提成。该长效重组α-半乳糖苷酶A正处Phase 1/2，拟支持皮下给药。[1][7]\n\n科学：Fabry病的关键是补充缺失酶并减少GL-3累积；皮下长效化必须证明暴露、器官底物清除和免疫原性。\n商业：若降低静脉输注负担，可扩大ERT接受度，但仍要与Galafold及现有ERT竞争。\n战略：BioMarin在收购Amicus后继续围绕同一疾病构建多机制、多患者亚群组合。\n财务：预付款约占4.75亿美元封顶对价的14.7%，多数价值取决于后续成功；这体现卖方保留上行、买方控制早期现金风险。"
+        },
+        {
+          "heading": "进展2｜Alnylam扩充TRITON-CM入组，同时RNAi商业收入高速增长",
+          "body": "事实：Alnylam第三季度产品净收入12.92亿美元，同比增长52%；TTR产品收入11.50亿美元。公司把nucresiran的TRITON-CM三期目标入组从1,750人扩大至约2,250人，理由是纳入更多早期患者并在更保守事件率下保持统计效能；仍以2030年潜在上市为目标。[2][8]\n\n科学：nucresiran试图以更持久TTR沉默巩固ATTR-CM治疗。扩样本本身不是盲态疗效读出。\n商业：现有TTR收入证明市场需求，但下一代产品还需体现给药间隔、效果或成本优势。\n战略：这是对自身成功产品的主动迭代，旨在延长TTR特许经营寿命。\n财务：样本扩张提高近期开支，却可能保护后期成功概率；估值应同时提高成本并重新评估失败风险。"
+        },
+        {
+          "heading": "进展3｜Merck仍高度依赖Keytruda，但新产品和免疫管线开始分担增长",
+          "body": "事实：Merck第三季度销售181亿美元，其中Keytruda/Qlex销售86亿美元、Winrevair销售6.94亿美元；Keytruda约占总销售47.5%。公司同时披露tulisokibart在中重度化脓性汗腺炎二期b取得阳性结果。[3][10]\n\n科学：TL1A是炎症和纤维化通路，跨适应症可复制性仍需三期验证。\n商业：Keytruda仍是现金流核心，Winrevair和免疫资产提供第二增长曲线。\n战略：通过制剂升级、适应症扩展和外部BD降低单一产品专利周期风险。\n财务：47.5%的收入集中度意味着Keytruda增速、专利和竞争假设会显著影响整体估值；新资产的价值不仅在单品销售，也在降低组合风险。"
+        },
+        {
+          "heading": "进展4｜Insmed把临床成功转化为商业放量",
+          "body": "事实：Insmed第三季度收入5.244亿美元，其中Brinsupri为4.001亿美元、环比增长29%，公司把2026年Brinsupri收入指引上调至13.5亿—14亿美元；Arikayce收入1.244亿美元。日本已于10月启动Brinsupri用于非囊性纤维化支气管扩张症的销售。[4]\n\n科学：DPP1抑制通过降低中性粒细胞丝氨酸蛋白酶活化来干预气道炎症。\n商业：快速放量验证支气管扩张症的未满足需求和专科推广效率。\n战略：成熟商业平台可为Arikayce扩标签及TPIP三期组合提供现金和渠道。\n财务：收入增速要进一步拆分为患者启动、持续治疗、净价和地区扩张；季度年化不能机械等同于长期峰值销售。"
+        },
+        {
+          "heading": "进展5｜Ferring拟以最高13.825亿美元收购Gameto",
+          "body": "事实：Ferring与Gameto于10月27日签署拟议并购协议，总交易价值最高13.825亿美元，付款取决于开发、监管和商业里程碑；预付款及各档里程碑分配未披露，交割仍受条件约束。Gameto的Fertilo在美国处于研究阶段。[5][9]\n\n科学：Fertilo利用iPSC衍生卵巢支持细胞促进卵母细胞体外成熟，目标是减少激素刺激负担。\n商业：若持续妊娠率、流程和成本具备优势，可改变部分IVF路径。\n战略：Ferring把生殖医学渠道与细胞工程平台结合。\n财务：13.825亿美元不是成交日现金支出；缺少预付款和概率分层时，不能据此反推Gameto当前企业价值。"
+        },
+        {
+          "heading": "进展6｜TME的“独家谈判”不是最终许可交易",
+          "body": "事实：TME Pharma获得TMS支付15万欧元，以换取NOX-A12六个月独家谈判期。当前约1,000万欧元近期支付、超过1亿欧元里程碑和8%—10%提成仍属于非约束性条款表内容，需等待最终协议。[6]\n\n科学：NOX-A12通过CXCL12通路调节胶质母细胞瘤微环境，但仍需更大规模对照证据。\n商业：新设子公司融资能否支持GLORIA二期重启是核心执行变量。\n战略：独家期让双方降低竞标干扰并完成融资、尽调和合同谈判。\n财务：目前确定现金仅15万欧元；把非约束条款计作已签许可收入会严重高估确定性。"
+        },
+        {
+          "heading": "跨岗位洞察｜如何看BioMarin的Fabry授权",
+          "body": "投行：建立预付款、里程碑、提成和后续研发费用的现金流桥，分析对BioMarin资本配置的影响。\nFA顾问：比较全球许可、区域许可、并购和联合开发，确认韩国权利保留及交接责任。\nBD：重点尽调皮下暴露、抗药抗体、制造放大、专利寿命和Phase 1/2移交标准。\n投资者：评估7,000万美元前置风险与获得Fabry组合协同之间是否匹配。\n咨询：测算现有ERT、Galafold和新方案在不同基因型、输注条件和支付体系下的患者分层。\n\n共同结论：交易的核心不是4.75亿美元标题数字，而是BioMarin用多少不可追回现金买到了哪些权利、证据和未来选择。"
+        },
+        {
+          "heading": "迷你案例｜Merck收入集中度与情景冲击",
+          "body": "教学假设：Merck季度总销售181亿美元，Keytruda/Qlex为86亿美元。\n\n收入集中度＝86÷181＝47.5%。\n\n若下一年Keytruda收入下降10%，其他业务不变，则季度销售减少8.6亿美元，总销售降至172.4亿美元，降幅约4.75%。若其他业务同期增长8%，其他业务基数为95亿美元，增长7.6亿美元，可将总销售恢复至180.0亿美元左右。\n\n启示：高集中度公司需要观察第二增长曲线能否在核心产品放缓前达到足够规模。该算例未考虑价格、汇率、利润率和费用变化，不是盈利预测。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "本次对既有97个唯一NCT全部调用ClinicalTrials.gov公开登记核查：成功97、失败0。发现3项明确实质变化：NCT07730281与NCT07810777由尚未招募变为招募中，其中后者完成时间延后；NCT07524348新增/明确预计主要完成时间。另有6项登记日期刷新但所比较的核心字段未发现变化。新增4项真实登记：NCT06858397、NCT07052903、NCT06858111、NCT06956235；去重后覆盖101项。预计完成时间均不当作读出承诺。历史24期与全部归档保留，未触发90期裁剪。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Event-driven trial",
+          "zh": "事件驱动试验",
+          "meaning": "达到预设临床事件数后进行主要分析的试验。"
+        },
+        {
+          "en": "Statistical power",
+          "zh": "统计效能",
+          "meaning": "在真实差异存在时正确检出差异的概率。"
+        },
+        {
+          "en": "Enrollment expansion",
+          "zh": "扩充入组",
+          "meaning": "为获得足够事件、提高精度或应对脱落而增加受试者数量。"
+        },
+        {
+          "en": "Revenue concentration",
+          "zh": "收入集中度",
+          "meaning": "单一产品或业务占公司收入的比例及由此产生的组合风险。"
+        },
+        {
+          "en": "Contingent consideration",
+          "zh": "或有对价",
+          "meaning": "只有达到开发、监管或销售条件后才支付的交易款项。"
+        },
+        {
+          "en": "Exclusivity fee",
+          "zh": "独家谈判费",
+          "meaning": "为在限定期限内排除其他竞购者并进行谈判而支付的费用。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "[1] BioMarin：HM15421/GC1134A全球许可，2026-10-29",
+          "url": "https://www.biomarin.com/news/press-releases/biomarin-enters-into-exclusive-worldwide-license-agreement-with-gc-biopharma-and-hanmi-pharm-for-investigational-next-generation-enzyme-replacement-therapy-adding-a-second-potential-treatment-for-fab/"
+        },
+        {
+          "title": "[2] Alnylam：2026年第三季度业绩与TRITON-CM更新，2026-10-29",
+          "url": "https://investors.alnylam.com/press-release?id=db6ecd67-f517-425f-ab01-177f9e4aab44"
+        },
+        {
+          "title": "[3] Merck：2026年第三季度业绩与管线更新，2026-10-29",
+          "url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline/"
+        },
+        {
+          "title": "[4] Insmed：2026年第三季度业绩与业务更新，2026-10-29",
+          "url": "https://investor.insmed.com/2026-10-29-Insmed-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+        },
+        {
+          "title": "[5] Ferring与Gameto拟议并购公告，2026-10-27",
+          "url": "https://www.gametogen.com/news/ferring-pharmaceuticals-and-gameto-sign-agreement-for-proposed-acquisition/"
+        },
+        {
+          "title": "[6] TME Pharma与TMS独家谈判公告，2026-10-29",
+          "url": "https://www.globenewswire.com/news-release/2026/10/29/3390960/0/en/tme-pharma-signs-binding-exclusive-negotiation-agreement-with-japanese-tms-co-ltd.html"
+        },
+        {
+          "title": "[7] ClinicalTrials.gov：HM15421/GC1134A，NCT06858397",
+          "url": "https://clinicaltrials.gov/study/NCT06858397"
+        },
+        {
+          "title": "[8] ClinicalTrials.gov：TRITON-CM，NCT07052903",
+          "url": "https://clinicaltrials.gov/study/NCT07052903"
+        },
+        {
+          "title": "[9] ClinicalTrials.gov：Fertilo FIRST，NCT06858111",
+          "url": "https://clinicaltrials.gov/study/NCT06858111"
+        },
+        {
+          "title": "[10] ClinicalTrials.gov：Tulisokibart，NCT06956235",
+          "url": "https://clinicaltrials.gov/study/NCT06956235"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT07524348",
+          "title": "SBE303（E303）",
+          "company": "Samsung Bioepis Co., Ltd.",
+          "target": "Nectin-4",
+          "modality": "抗体药物偶联物（拓扑异构酶I抑制载荷）",
+          "area": "肿瘤",
+          "indication": "Advanced refractory solid tumors, including urothelial cancer",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "A Phase I, Open-Label, Multi-Center, First-in-Human Trial to Investigate E303, in Participants With Advanced Refractory Solid Tumors",
+          "registryUpdated": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "SBE303一期登记于2026-10-29更新；状态与阶段未变，当前登记新增/明确预计主要完成时间为2030年7月。",
+          "endpoints": [
+            "Incidence of adverse events and serious adverse events（Until trial completion (estimated 3 years)）",
+            "Incidence of dose limiting toxicity（For the first cycle of treatment, through pre-dose Cycle 2 Day 1）",
+            "Confirmed objective response rate（32 weeks）"
+          ],
+          "completion": {
+            "date": "2030-07",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 149,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov：NCT07524348（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT07524348"
+            }
+          ],
+          "note": "该日期是预计主要完成时间，不是数据读出承诺；一期仍以安全、剂量和初步缓解率探索为主。",
+          "risks": "早期样本量、剂量选择、耐受性及实体瘤缓解持续性仍不确定。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "E303",
+              "description": "All participants will receive an intravenous (IV) infusion of E303",
+              "armGroupLabels": [
+                "E303"
+              ]
+            }
+          ],
+          "hasResults": false,
+          "whyStopped": null,
+          "primaryCompletion": {
+            "date": "2030-07",
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT07730281",
+          "title": "PRA-216（COPD）",
+          "company": "Prana Therapies Inc",
+          "target": "IL-4Rα / TSLP",
+          "modality": "半衰期延长双特异IgG抗体",
+          "area": "呼吸 / 自免炎症",
+          "indication": "慢性阻塞性肺疾病（COPD）",
+          "stage": "Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "A Phase 2 Randomized, Double-blind, Placebo-Controlled, Parallel-Group, Multi-Center Study to Evaluate the Safety and Efficacy of PRA-216 in Participants With Chronic Obstructive Pulmonary Disease (COPD) With Type 2 Inflammation",
+          "registryUpdated": "2026-10-28",
+          "checked": "2026-10-30",
+          "summary": "PRA-216用于COPD的二期研究状态由NOT_YET_RECRUITING变为RECRUITING。",
+          "endpoints": [
+            "Incidence, nature, and severity of treatment emergent adverse events (TEAEs) and serious adverse events (SAEs)（40 weeks）"
+          ],
+          "primaryCompletion": {
+            "date": "2027-06-01",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-09-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 40,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov：NCT07730281（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT07730281"
+            }
+          ],
+          "note": "登记启动招募只代表试验执行进入下一阶段，不代表疗效已得到验证。",
+          "risks": "入组速度、长期安全、与现有吸入治疗的增量获益及后续终点选择待验证。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "PRA-216",
+              "description": "biologic",
+              "armGroupLabels": [
+                "Active PRA-216"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "matching placebo for PRA-216",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "hasResults": false,
+          "whyStopped": null
+        },
+        {
+          "id": "NCT07810777",
+          "title": "PRA-216（特应性皮炎）",
+          "company": "Prana Therapies Inc",
+          "target": "IL-4Rα / TSLP",
+          "modality": "半衰期延长双特异IgG抗体",
+          "area": "皮肤 / 自免炎症",
+          "indication": "中重度特应性皮炎",
+          "stage": "Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "A Phase 2 Randomized, Double-blind, Placebo-Controlled, Parallel-Group, Multi-Center Study to Evaluate the Safety and Efficacy of PRA-216 in Participants With Moderate to Severe Atopic Dermatitis",
+          "registryUpdated": "2026-10-28",
+          "checked": "2026-10-30",
+          "summary": "PRA-216特应性皮炎二期研究由尚未招募变为招募中；预计主要完成时间延至2027年9月30日，整体完成延至2028年5月16日。",
+          "endpoints": [
+            "Incidence, nature, and severity of treatment emergent adverse events (TEAEs) and serious adverse events (SAEs)（Up to 28 weeks）"
+          ],
+          "primaryCompletion": {
+            "date": "2027-09-30",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-05-16",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 39,
+            "type": "ESTIMATED"
+          },
+          "sources": [
+            {
+              "title": "ClinicalTrials.gov：NCT07810777（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT07810777"
+            }
+          ],
+          "note": "时间变化来自登记更新；预计完成日不自动等于数据披露日。",
+          "risks": "开发周期延长增加资金占用；安全性、剂量与临床改善幅度仍待试验。",
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Active PRA-216",
+              "description": "biologic",
+              "armGroupLabels": [
+                "Active PRA-216"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "matching placebo for PRA-216",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "hasResults": false,
+          "whyStopped": null
+        },
+        {
+          "id": "NCT06858397",
+          "title": "HM15421/GC1134A",
+          "company": "GC Biopharma Corp",
+          "target": "α-半乳糖苷酶A缺乏",
+          "modality": "长效重组酶替代疗法",
+          "area": "罕见病/肾脏/心血管",
+          "indication": "法布雷病",
+          "stage": "Phase 1/Phase 2",
+          "status": "RECRUITING",
+          "trialTitle": "An Open Label, Dose Range, Proof-of-Concept Study to Assess the Safety and Efficacy of HM15421/GC1134A in Patients With Fabry Disease",
+          "registryUpdated": "2025-11-04",
+          "checked": "2026-10-30",
+          "summary": "18人的首次人体Phase 1/2研究，评估长效皮下酶替代疗法的安全、药代、药效及早期疗效。",
+          "endpoints": [
+            "Incidences and characteristics of adverse events（Up to 48 weeks）"
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "HM15421/GC1134A",
+              "description": "SC",
+              "armGroupLabels": [
+                "Cohort 1",
+                "Cohort 2",
+                "Cohort 3"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "BioMarin授权公告，2026-10-29",
+              "url": "https://www.biomarin.com/news/press-releases/biomarin-enters-into-exclusive-worldwide-license-agreement-with-gc-biopharma-and-hanmi-pharm-for-investigational-next-generation-enzyme-replacement-therapy-adding-a-second-potential-treatment-for-fab/"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT06858397（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT06858397"
+            }
+          ],
+          "note": "BioMarin取得韩国以外全球权利；登记阶段仅代表该具体试验，不代表全球最高阶段或获批。",
+          "risks": "抗药抗体、皮下吸收、长期器官结局、与现有静脉ERT和口服伴侣疗法的差异化待验证。",
+          "primaryCompletion": {
+            "date": "2028-08-30",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-08-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 18,
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT07052903",
+          "title": "Nucresiran（TRITON-CM）",
+          "company": "Alnylam Pharmaceuticals",
+          "target": "TTR",
+          "modality": "GalNAc偶联RNAi",
+          "area": "心血管/罕见病",
+          "indication": "转甲状腺素蛋白淀粉样变性心肌病",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "TRITON-CM: A Phase 3 Global, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Nucresiran in Patients With Transthyretin-Mediated Amyloidosis With Cardiomyopathy (ATTR Amyloidosis With Cardiomyopathy)",
+          "registryUpdated": "2026-10-20",
+          "checked": "2026-10-30",
+          "summary": "事件驱动的全球Phase 3研究；Alnylam将目标入组由1,750人扩大至约2,250人，以在更保守事件率假设下维持统计效能。",
+          "endpoints": [
+            "Composite outcome of all-cause mortality and recurrent cardiovascular [CV] events (CV hospitalizations and urgent heart failure [HF] visits)（Baseline to end of double-blind period (estimated 32 months, maximum 5 years)）"
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Nucresiran",
+              "description": "Nucresiran 300 mg administered SC q6M",
+              "armGroupLabels": [
+                "Nucresiran 300 mg",
+                "Placebo"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Sterile Normal Saline (0.9% NaCl)",
+              "description": "Sterile Normal Saline (0.9% NaCl) administered SC once q6M",
+              "armGroupLabels": [
+                "Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "Alnylam三季度更新，2026-10-29",
+              "url": "https://investors.alnylam.com/press-release?id=db6ecd67-f517-425f-ab01-177f9e4aab44"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT07052903（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT07052903"
+            }
+          ],
+          "note": "扩大样本量不等于疗效信号变差；公司仍以2030年潜在上市为目标，但该时间取决于阳性结果与监管批准。",
+          "risks": "事件累积速度、标准治疗变化、背景tafamidis/vutrisiran使用和长期随访可能影响分析。",
+          "primaryCompletion": {
+            "date": "2030-05-28",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2032-11-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 1750,
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT06858111",
+          "title": "Fertilo（FIRST）",
+          "company": "Gameto, Inc.",
+          "target": "卵母细胞体外成熟微环境",
+          "modality": "iPSC衍生卵巢支持细胞/辅助生殖技术",
+          "area": "女性健康/生殖医学",
+          "indication": "卵母细胞体外成熟与不孕治疗",
+          "stage": "Phase 3",
+          "status": "RECRUITING",
+          "trialTitle": "Phase III Randomized Control Trial to Investigate the Safety and Efficacy of Fertilo Versus Medicult In Vitro Maturation (IVM)",
+          "registryUpdated": "2026-10-07",
+          "checked": "2026-10-30",
+          "summary": "500人的Phase 3研究比较Fertilo与常规IVM培养方案，主要关注持续妊娠等结局。",
+          "endpoints": [
+            "Demonstration of the superiority of Fertilo compared to the currently approved MediCult IVM® for infertility treatment via IVF procedures.（12 weeks gestation）"
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "Fertilo",
+              "description": "Fertilo is an engineered line of ovarian support cells that aid egg maturation.",
+              "armGroupLabels": [
+                "Fertilo"
+              ]
+            },
+            {
+              "type": "DEVICE",
+              "name": "Medicult IVM",
+              "description": "MediCult IVM is a system of culture media designed for the in vitro maturation of immature oocytes.",
+              "armGroupLabels": [
+                "Medicult IVM®"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "Ferring–Gameto拟议并购公告，2026-10-27",
+              "url": "https://www.gametogen.com/news/ferring-pharmaceuticals-and-gameto-sign-agreement-for-proposed-acquisition/"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT06858111（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT06858111"
+            }
+          ],
+          "note": "Ferring与Gameto签署并购协议，但交易仍待交割；Fertilo在美国仍属研究性项目。",
+          "risks": "生殖结局、长期母婴安全、制造一致性、监管分类及诊所采用路径仍待确认。",
+          "primaryCompletion": {
+            "date": "2027-05",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2028-01",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 500,
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT06956235",
+          "title": "Tulisokibart（MK-7240）",
+          "company": "Merck Sharp & Dohme LLC",
+          "target": "TL1A",
+          "modality": "单克隆抗体",
+          "area": "自免/炎症/皮肤",
+          "indication": "中重度化脓性汗腺炎",
+          "stage": "Phase 2",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "A Phase 2b, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Tulisokibart in Participants With Moderate to Severe Hidradenitis Suppurativa",
+          "registryUpdated": "2026-10-02",
+          "checked": "2026-10-30",
+          "summary": "Phase 2b研究已完成主要分析期；Merck披露阳性结果，但完整效应量和后续开发方案仍需进一步披露。",
+          "endpoints": [
+            "Percentage of Participants Achieving Hidradenitis Suppurativa Clinical Response (HiSCR) 50 at Week 16（Week 16）"
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Tulisokibart",
+              "description": "Solution in autoinjector for subcutaneous (SC) injection",
+              "armGroupLabels": [
+                "Arm 1: High Dose",
+                "Arm 2: Medium Dose",
+                "Arm 3: Low Dose"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Solution in autoinjector for SC injection",
+              "armGroupLabels": [
+                "Arm 4: Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "Merck三季度及管线更新，2026-10-29",
+              "url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline/"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT06956235（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT06956235"
+            }
+          ],
+          "note": "登记显示ACTIVE_NOT_RECRUITING；公司阳性公告不应被写成监管批准。",
+          "risks": "剂量选择、感染和免疫安全、长期疗效以及与已上市生物制剂的差异化待验证。",
+          "primaryCompletion": {
+            "date": "2026-04-02",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2028-06-06",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 149,
+            "type": "ACTUAL"
+          }
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-biomarin",
+          "title": "BioMarin Pharmaceutical Inc.",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "以7,000万美元预付款取得HM15421/GC1134A韩国以外权利，继续构建Fabry组合。",
+          "sections": [
+            {
+              "heading": "平台与资产",
+              "body": "罕见病商业平台；Fabry组合包括收购Amicus所得资产及新增长效ERT。"
+            },
+            {
+              "heading": "交易与权利",
+              "body": "韩国由GC Biopharma与Hanmi保留；BioMarin在当前Phase 1/2后承担后续开发、制造与商业化。"
+            },
+            {
+              "heading": "财务关注",
+              "body": "固定前置现金低于封顶金额，多数支付随开发和商业成功触发。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[1] BioMarin：HM15421/GC1134A全球许可，2026-10-29",
+              "url": "https://www.biomarin.com/news/press-releases/biomarin-enters-into-exclusive-worldwide-license-agreement-with-gc-biopharma-and-hanmi-pharm-for-investigational-next-generation-enzyme-replacement-therapy-adding-a-second-potential-treatment-for-fab/"
+            },
+            {
+              "title": "[7] ClinicalTrials.gov：HM15421/GC1134A，NCT06858397",
+              "url": "https://clinicaltrials.gov/study/NCT06858397"
+            }
+          ]
+        },
+        {
+          "id": "company-alnylam-pharmaceuticals",
+          "title": "Alnylam Pharmaceuticals, Inc.",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "RNAi商业收入增长，同时扩充nucresiran心肌病三期样本。",
+          "sections": [
+            {
+              "heading": "平台",
+              "body": "GalNAc和其他递送方式的RNAi平台。"
+            },
+            {
+              "heading": "领先资产",
+              "body": "TTR商业组合及下一代nucresiran。"
+            },
+            {
+              "heading": "战略变化",
+              "body": "TRITON-CM目标入组扩至约2,250人。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[2] Alnylam：2026年第三季度业绩与TRITON-CM更新，2026-10-29",
+              "url": "https://investors.alnylam.com/press-release?id=db6ecd67-f517-425f-ab01-177f9e4aab44"
+            },
+            {
+              "title": "[8] ClinicalTrials.gov：TRITON-CM，NCT07052903",
+              "url": "https://clinicaltrials.gov/study/NCT07052903"
+            }
+          ]
+        },
+        {
+          "id": "company-merck-co",
+          "title": "Merck & Co., Inc.",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "Keytruda仍占近半季度销售，Winrevair和免疫管线承担多元化任务。",
+          "sections": [
+            {
+              "heading": "商业组合",
+              "body": "Keytruda/Qlex季度销售86亿美元；Winrevair 6.94亿美元。"
+            },
+            {
+              "heading": "管线",
+              "body": "tulisokibart在化脓性汗腺炎Phase 2b获得公司披露的阳性结果。"
+            },
+            {
+              "heading": "财务关注",
+              "body": "核心产品集中度与BD支出共同决定盈利质量和长期估值。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[3] Merck：2026年第三季度业绩与管线更新，2026-10-29",
+              "url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline/"
+            },
+            {
+              "title": "[10] ClinicalTrials.gov：Tulisokibart，NCT06956235",
+              "url": "https://clinicaltrials.gov/study/NCT06956235"
+            }
+          ]
+        },
+        {
+          "id": "company-insmed",
+          "title": "Insmed Incorporated",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "Brinsupri季度销售4.001亿美元并上调全年指引。",
+          "sections": [
+            {
+              "heading": "商业资产",
+              "body": "Brinsupri用于非囊性纤维化支气管扩张症；Arikayce用于MAC肺病。"
+            },
+            {
+              "heading": "管线",
+              "body": "TPIP在多个肺血管和纤维化适应症推进三期。"
+            },
+            {
+              "heading": "战略变化",
+              "body": "日本启动Brinsupri销售，扩大地域覆盖。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[4] Insmed：2026年第三季度业绩与业务更新，2026-10-29",
+              "url": "https://investor.insmed.com/2026-10-29-Insmed-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+            }
+          ]
+        },
+        {
+          "id": "company-gameto",
+          "title": "Gameto, Inc.",
+          "date": "2026-10-27",
+          "checked": "2026-10-30",
+          "summary": "与Ferring签署拟议并购协议，Fertilo成为交易核心临床资产。",
+          "sections": [
+            {
+              "heading": "平台",
+              "body": "利用iPSC衍生卵巢支持细胞开发生殖健康方案。"
+            },
+            {
+              "heading": "领先资产",
+              "body": "Fertilo/FIRST三期研究。"
+            },
+            {
+              "heading": "所有权变化",
+              "body": "交易交割前仍独立运营；最高交易额包含大量或有付款。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[5] Ferring与Gameto拟议并购公告，2026-10-27",
+              "url": "https://www.gametogen.com/news/ferring-pharmaceuticals-and-gameto-sign-agreement-for-proposed-acquisition/"
+            },
+            {
+              "title": "[9] ClinicalTrials.gov：Fertilo FIRST，NCT06858111",
+              "url": "https://clinicaltrials.gov/study/NCT06858111"
+            }
+          ]
+        },
+        {
+          "id": "company-tme-pharma",
+          "title": "TME Pharma N.V.",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "以15万欧元换取NOX-A12六个月独家谈判期，尚未签署最终许可。",
+          "sections": [
+            {
+              "heading": "领先资产",
+              "body": "CXCL12抑制剂NOX-A12，用于胶质母细胞瘤等。"
+            },
+            {
+              "heading": "融资结构",
+              "body": "拟由TMS设立子公司融资并推进开发。"
+            },
+            {
+              "heading": "交易状态",
+              "body": "独家谈判协议具约束力，但主要经济条款仍为非约束性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[6] TME Pharma与TMS独家谈判公告，2026-10-29",
+              "url": "https://www.globenewswire.com/news-release/2026/10/29/3390960/0/en/tme-pharma-signs-binding-exclusive-negotiation-agreement-with-japanese-tms-co-ltd.html"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-alpha-galactosidase-a",
+          "title": "α-半乳糖苷酶A",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "补充Fabry病缺失酶以降低溶酶体底物累积。",
+          "sections": [
+            {
+              "heading": "生物学依据",
+              "body": "GLA变异导致酶活不足及GL-3等底物累积。"
+            },
+            {
+              "heading": "人体验证",
+              "body": "现有ERT和伴侣疗法已验证该疾病机制，但新产品差异化仍需临床证明。"
+            },
+            {
+              "heading": "开发风险",
+              "body": "免疫原性、组织分布、给药便利性和器官结局。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[1] BioMarin：HM15421/GC1134A全球许可，2026-10-29",
+              "url": "https://www.biomarin.com/news/press-releases/biomarin-enters-into-exclusive-worldwide-license-agreement-with-gc-biopharma-and-hanmi-pharm-for-investigational-next-generation-enzyme-replacement-therapy-adding-a-second-potential-treatment-for-fab/"
+            },
+            {
+              "title": "[7] ClinicalTrials.gov：HM15421/GC1134A，NCT06858397",
+              "url": "https://clinicaltrials.gov/study/NCT06858397"
+            }
+          ]
+        },
+        {
+          "id": "target-ttr",
+          "title": "TTR",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "通过RNAi降低肝源性TTR，减少淀粉样沉积。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "vutrisiran等已验证TTR沉默的临床价值。"
+            },
+            {
+              "heading": "竞争",
+              "body": "小分子稳定剂、RNAi和反义寡核苷酸并存。"
+            },
+            {
+              "heading": "开发重点",
+              "body": "下一代产品需证明更持久给药或更优临床/经济价值。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[2] Alnylam：2026年第三季度业绩与TRITON-CM更新，2026-10-29",
+              "url": "https://investors.alnylam.com/press-release?id=db6ecd67-f517-425f-ab01-177f9e4aab44"
+            },
+            {
+              "title": "[8] ClinicalTrials.gov：TRITON-CM，NCT07052903",
+              "url": "https://clinicaltrials.gov/study/NCT07052903"
+            }
+          ]
+        },
+        {
+          "id": "target-tl1a",
+          "title": "TL1A",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "炎症与纤维化相关配体，在肠病和皮肤炎症中被开发。",
+          "sections": [
+            {
+              "heading": "生物学依据",
+              "body": "TL1A-DR3轴可调节T细胞和组织炎症。"
+            },
+            {
+              "heading": "人体信号",
+              "body": "tulisokibart在HS Phase 2b由公司披露达到研究目标。"
+            },
+            {
+              "heading": "待验证",
+              "body": "三期效应量、长期安全及跨适应症可复制性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[3] Merck：2026年第三季度业绩与管线更新，2026-10-29",
+              "url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline/"
+            },
+            {
+              "title": "[10] ClinicalTrials.gov：Tulisokibart，NCT06956235",
+              "url": "https://clinicaltrials.gov/study/NCT06956235"
+            }
+          ]
+        },
+        {
+          "id": "target-dpp1",
+          "title": "DPP1/组织蛋白酶C",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "抑制中性粒细胞丝氨酸蛋白酶成熟，降低炎症性组织损伤。",
+          "sections": [
+            {
+              "heading": "人体验证",
+              "body": "brensocatib已实现商业化并出现快速销售放量。"
+            },
+            {
+              "heading": "安全",
+              "body": "需持续关注感染和中性粒细胞相关风险。"
+            },
+            {
+              "heading": "商业意义",
+              "body": "机制可延展至其他中性粒细胞驱动疾病，但需逐适应症验证。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[4] Insmed：2026年第三季度业绩与业务更新，2026-10-29",
+              "url": "https://investor.insmed.com/2026-10-29-Insmed-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+            }
+          ]
+        },
+        {
+          "id": "target-cxcl12",
+          "title": "CXCL12",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "调节肿瘤免疫排斥和微环境，NOX-A12拟通过阻断该通路改善胶质母细胞瘤治疗。",
+          "sections": [
+            {
+              "heading": "生物学依据",
+              "body": "CXCL12可影响免疫细胞迁移及肿瘤基质。"
+            },
+            {
+              "heading": "临床状态",
+              "body": "NOX-A12仍需更大规模对照试验确认。"
+            },
+            {
+              "heading": "交易风险",
+              "body": "融资、试验重启和最终许可协议均未完成。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[6] TME Pharma与TMS独家谈判公告，2026-10-29",
+              "url": "https://www.globenewswire.com/news-release/2026/10/29/3390960/0/en/tme-pharma-signs-binding-exclusive-negotiation-agreement-with-japanese-tms-co-ltd.html"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-29-biomarin-gc-hanmi-hm15421",
+          "title": "BioMarin–GC Biopharma/Hanmi：HM15421/GC1134A许可",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "韩国以外全球独家许可；7,000万美元预付款、最高4.05亿美元里程碑及分级提成。",
+          "sections": [
+            {
+              "heading": "资产与阶段",
+              "body": "Fabry长效皮下ERT，Phase 1/2。"
+            },
+            {
+              "heading": "权利与地域",
+              "body": "BioMarin取得韩国以外权利；韩国由原合作方保留。"
+            },
+            {
+              "heading": "经济条款",
+              "body": "币种美元；预付款70M，或有里程碑最高405M，提成比例未披露。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[1] BioMarin：HM15421/GC1134A全球许可，2026-10-29",
+              "url": "https://www.biomarin.com/news/press-releases/biomarin-enters-into-exclusive-worldwide-license-agreement-with-gc-biopharma-and-hanmi-pharm-for-investigational-next-generation-enzyme-replacement-therapy-adding-a-second-potential-treatment-for-fab/"
+            },
+            {
+              "title": "[7] ClinicalTrials.gov：HM15421/GC1134A，NCT06858397",
+              "url": "https://clinicaltrials.gov/study/NCT06858397"
+            }
+          ]
+        },
+        {
+          "id": "deal-2026-10-27-ferring-gameto-acquisition",
+          "title": "Ferring拟收购Gameto",
+          "date": "2026-10-27",
+          "checked": "2026-10-30",
+          "summary": "最高13.825亿美元的拟议并购，金额取决于开发、监管和商业里程碑。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "Fertilo及女性生殖健康细胞工程平台。"
+            },
+            {
+              "heading": "经济条款",
+              "body": "预付款和里程碑分拆未披露。"
+            },
+            {
+              "heading": "状态",
+              "body": "已签署协议但尚待交割条件完成。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[5] Ferring与Gameto拟议并购公告，2026-10-27",
+              "url": "https://www.gametogen.com/news/ferring-pharmaceuticals-and-gameto-sign-agreement-for-proposed-acquisition/"
+            },
+            {
+              "title": "[9] ClinicalTrials.gov：Fertilo FIRST，NCT06858111",
+              "url": "https://clinicaltrials.gov/study/NCT06858111"
+            }
+          ]
+        },
+        {
+          "id": "deal-2026-10-29-tme-tms-noxa12-negotiation",
+          "title": "TME Pharma–TMS：NOX-A12独家谈判",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "15万欧元购买六个月独家谈判期；主要许可条款尚未形成最终约束协议。",
+          "sections": [
+            {
+              "heading": "资产与地域",
+              "body": "NOX-A12全球权利。"
+            },
+            {
+              "heading": "经济条款",
+              "body": "当前确定付款150K欧元；拟议近期支付约10M欧元、里程碑超过100M欧元、提成8%—10%。"
+            },
+            {
+              "heading": "状态",
+              "body": "独家谈判协议有效，条款表非约束，最终交易存在不确定性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[6] TME Pharma与TMS独家谈判公告，2026-10-29",
+              "url": "https://www.globenewswire.com/news-release/2026/10/29/3390960/0/en/tme-pharma-signs-binding-exclusive-negotiation-agreement-with-japanese-tms-co-ltd.html"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-nct07052903-triton-cm-events",
+          "title": "TRITON-CM三期主要分析与潜在申报",
+          "date": "2030前（公司目标，具体读出未知）",
+          "checked": "2026-10-30",
+          "summary": "目标入组约2,250人；分析取决于事件累积，2030年上市仅为有条件公司目标。",
+          "status": "estimated",
+          "sections": [
+            {
+              "heading": "事件类型",
+              "body": "Phase 3事件驱动分析/潜在监管申报。"
+            },
+            {
+              "heading": "关键变量",
+              "body": "事件率、背景治疗、入组患者严重程度和随访成熟度。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[2] Alnylam：2026年第三季度业绩与TRITON-CM更新，2026-10-29",
+              "url": "https://investors.alnylam.com/press-release?id=db6ecd67-f517-425f-ab01-177f9e4aab44"
+            },
+            {
+              "title": "[8] ClinicalTrials.gov：TRITON-CM，NCT07052903",
+              "url": "https://clinicaltrials.gov/study/NCT07052903"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-nct06858397-hm15421-phase12",
+          "title": "HM15421/GC1134A Phase 1/2完成",
+          "date": "2028-08-30",
+          "checked": "2026-10-30",
+          "summary": "登记预计完成时间；不是已确认数据读出日。",
+          "status": "estimated",
+          "sections": [
+            {
+              "heading": "事件类型",
+              "body": "早期安全、PK/PD与初步疗效。"
+            },
+            {
+              "heading": "风险",
+              "body": "免疫原性、暴露和器官生物标志物。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[1] BioMarin：HM15421/GC1134A全球许可，2026-10-29",
+              "url": "https://www.biomarin.com/news/press-releases/biomarin-enters-into-exclusive-worldwide-license-agreement-with-gc-biopharma-and-hanmi-pharm-for-investigational-next-generation-enzyme-replacement-therapy-adding-a-second-potential-treatment-for-fab/"
+            },
+            {
+              "title": "[7] ClinicalTrials.gov：HM15421/GC1134A，NCT06858397",
+              "url": "https://clinicaltrials.gov/study/NCT06858397"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-nct06858111-fertilo-first",
+          "title": "Fertilo FIRST三期主要完成",
+          "date": "2027-05",
+          "checked": "2026-10-30",
+          "summary": "登记预计主要完成时间，不等于结果发布日期。",
+          "status": "estimated",
+          "sections": [
+            {
+              "heading": "事件类型",
+              "body": "Phase 3持续妊娠等主要结局。"
+            },
+            {
+              "heading": "风险",
+              "body": "生殖结局、长期安全和监管分类。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[5] Ferring与Gameto拟议并购公告，2026-10-27",
+              "url": "https://www.gametogen.com/news/ferring-pharmaceuticals-and-gameto-sign-agreement-for-proposed-acquisition/"
+            },
+            {
+              "title": "[9] ClinicalTrials.gov：Fertilo FIRST，NCT06858111",
+              "url": "https://clinicaltrials.gov/study/NCT06858111"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-tme-tms-definitive-agreement",
+          "title": "TME与TMS最终许可协议谈判",
+          "date": "2027-04前后（六个月独家期）",
+          "checked": "2026-10-30",
+          "summary": "是否签署最终协议及子公司融资仍未确定。",
+          "status": "estimated",
+          "sections": [
+            {
+              "heading": "事件类型",
+              "body": "最终许可/融资。"
+            },
+            {
+              "heading": "注意",
+              "body": "当前非约束经济条款不能视为已成交。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[6] TME Pharma与TMS独家谈判公告，2026-10-29",
+              "url": "https://www.globenewswire.com/news-release/2026/10/29/3390960/0/en/tme-pharma-signs-binding-exclusive-negotiation-agreement-with-japanese-tms-co-ltd.html"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-arikayce-pdufa-2027-01-28",
+          "title": "Arikayce扩大MAC肺病标签PDUFA",
+          "date": "2027-01-28",
+          "checked": "2026-10-30",
+          "summary": "FDA已接受补充NDA并给予优先审评；目标行动日不保证批准。",
+          "status": "confirmed",
+          "sections": [
+            {
+              "heading": "事件类型",
+              "body": "监管决定。"
+            },
+            {
+              "heading": "商业意义",
+              "body": "若获批可覆盖新诊断或复发MAC肺病患者。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[4] Insmed：2026年第三季度业绩与业务更新，2026-10-29",
+              "url": "https://investor.insmed.com/2026-10-29-Insmed-Reports-Third-Quarter-2026-Financial-Results-and-Provides-Business-Update"
+            }
+          ]
+        },
+        {
+          "id": "catalyst-tulisokibart-hs-next-step",
+          "title": "Tulisokibart化脓性汗腺炎后续开发方案",
+          "date": "未披露",
+          "checked": "2026-10-30",
+          "summary": "Phase 2b阳性后仍待完整数据与三期/监管路径。",
+          "status": "estimated",
+          "sections": [
+            {
+              "heading": "事件类型",
+              "body": "完整数据/后续试验设计。"
+            },
+            {
+              "heading": "注意",
+              "body": "阳性公司披露不等于监管批准。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[3] Merck：2026年第三季度业绩与管线更新，2026-10-29",
+              "url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline/"
+            },
+            {
+              "title": "[10] ClinicalTrials.gov：Tulisokibart，NCT06956235",
+              "url": "https://clinicaltrials.gov/study/NCT06956235"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-29",
       "date": "2026-10-29",
@@ -20467,20 +21592,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-29T07:08:20.134+08:00",
-    "status": "partial",
-    "checked": 82,
-    "changed": 1,
-    "failed": 12,
+    "checkedAt": "2026-10-30T07:04:30.106+08:00",
+    "status": "success",
+    "checked": 97,
+    "changed": 3,
+    "failed": 0,
     "corrected": 0,
-    "newPipelines": 3,
-    "totalPipelines": 97,
+    "newPipelines": 4,
+    "totalPipelines": 101,
     "companies": 6,
     "targets": 5,
-    "deals": 1,
-    "catalysts": 5,
+    "deals": 3,
+    "catalysts": 6,
     "events": 6,
-    "summary": "既有94个唯一NCT全部尝试核查：82个成功、12个登记来源访问失败并保留旧值；实质变化1、纠错0，另有3个仅登记日期刷新。新增3个真实NCT，去重后覆盖97个。公司6、靶点5、交易1、催化剂5；24期历史及全部根级归档保留，未触发90期裁剪。"
+    "summary": "既有97个唯一NCT全部核查成功、失败0；明确实质变化3项，另有6项仅登记日期刷新。新增4个真实NCT，去重后覆盖101项。公司6、靶点5、交易3、催化剂6；保留全部历史与根级归档，未触发90期裁剪。"
   },
   "archivedPapers": []
 }
