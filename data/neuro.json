@@ -1,8 +1,265 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-28T23:04:16.882Z",
+  "updatedAt": "2026-10-29T22:58:12.961Z",
   "items": [
+    {
+      "id": "neuro-2026-10-30",
+      "date": "2026-10-30",
+      "source": "scheduled",
+      "title": "神经生物学简报｜GPR35脂质瘙痒回路、强化学习的时间压缩与口服TREM2激动剂",
+      "summary": "本期收录3篇原始研究：两篇于2026-10-29发表，分别揭示EKODE–GPR35–NPPB神经代谢瘙痒轴和海兔强化学习中B52–B64回路对动作选择及时间压缩的协同塑性；另纳入2026-10-14发表于Science Translational Medicine、10月29日被Nature Medicine重点评论的VG‑3927/SAR448851研究，覆盖口服小分子TREM2激动剂的临床前证据与115人一期试验。未可靠核实期刊影响因子，统一标注“影响因子待核实”。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "VG‑3927能够进入中枢、降低脑脊液sTREM2并在临床前模型中重塑斑块周围微胶质；但另一种TREM2激动抗体AL002虽然也显示靶点结合，二期试验并未改善认知终点。如何判断VG‑3927的一期“靶点参与”是否真的提高了二期成功概率，而不只是说明药物进入了脑并作用于TREM2？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：靶点参与回答“药物是否碰到了靶点”，机制药效回答“是否把微胶质推向预期状态”，临床有效性回答“这种状态是否改善患者结局”。三者不能互相替代。\n\n1. 先定义生物学假设：VG‑3927应在特定疾病阶段促进斑块周围微胶质聚集、Aβ压实或清除、减轻神经突营养不良，并最终减慢认知下降。每个箭头都需要独立指标。\n2. 解释sTREM2：CSF sTREM2下降可以支持受体结合或剪切改变，却不能单独证明细胞内TREM2–DAP12信号朝有益方向增强。必须配合磷酸化、转录状态、影像或可溶性药效标志物。\n3. 建立剂量链：比较血浆/CSF暴露、受体占有、sTREM2变化、微胶质状态指标和临床终点，确认所选剂量处于机制有效而非仅“最大生物标志物变化”的区间。\n4. 处理时序：TREM2可能在早期淀粉样种植阶段更有保护作用，在晚期或不同病理背景下效应不同。二期应按病期、Aβ/tau负荷、APOE和TREM2基因型预分层。\n5. 从AL002失败中学习：比较小分子与抗体在脑分布、斑块微环境、可溶性TREM2截留、受体聚簇方式和ARIA风险上的差异；只有机制差异与可测标志物对应，才能合理预期不同结果。\n6. 选择能证伪的二期设计：设置安慰剂、足够随访时间、临床认知终点，并预设PET/CSF/血液机制标志物。若机制指标改变但认知不变，应允许得出“靶点参与不足以产生临床获益”。\n\n一种可行答案：VG‑3927的一期数据提高了“具有可用PK、可穿脑并能接触TREM2”的置信度，但只小幅提高疗效成功率。只有当二期剂量同时引起预先定义的微胶质功能改变、下游病理改善，并在正确病期与临床结局方向一致时，才能跨越从靶点参与到疾病修饰的证据鸿沟。\n\n必要证据：剂量—暴露—机制药效链、疾病阶段分层、随机对照临床结局。支持证据：iPSC三培养、斑块周围微胶质单细胞图谱、脑代谢影像。待验证假设：小分子聚簇机制是否优于抗体、sTREM2下降是否能预测长期获益。\n\n常见误区：把CSF浓度等同于脑实质有效暴露；把sTREM2下降称为疾病改善；只因给药方式不同就假定能绕过AL002失败；事后按基因型寻找阳性亚组。\n\n自查标准：是否分别回答“到达、结合、功能改变、病理改变、临床获益”？是否预设可证伪的阈值和亚组？开放问题没有唯一答案，但不能省略负向临床对照。"
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-30（Asia/Shanghai）。GPR35和Aplysia论文均于2026-10-29在线发表。VG‑3927主文于2026-10-14发表，10月29日Nature Medicine发布研究亮点评述，因其兼有临床前机制与首次人体一期数据、且尚未在本库收录，本期作为“近期转化重点”纳入，不冒充当日新发表。所有影响因子均待官方可靠核实；Communications Biology论文未被假定满足>8门槛。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "今天三篇文章从三个尺度回答“信号如何变成行为或疾病状态”：外周脂质通过GPR35进入专一瘙痒通路；强化信号通过B52–B64回路同时改变动作类别和持续时间；TREM2小分子则尝试把微胶质遗传学转化为可口服药物。对你的GPCR研究尤其值得注意的是：配体识别、受体信号、细胞类型和行为终点必须形成同一条可证伪的链。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "EKODE (9-keto-12,13-epoxy octadecenoic acid)",
+          "zh": "9‑酮‑12,13‑环氧十八碳烯酸",
+          "meaning": "由亚油酸衍生的氧化脂质，本期研究提出其是感觉神经元GPR35的内源性配体。"
+        },
+        {
+          "en": "GPR35",
+          "zh": "G蛋白偶联受体35",
+          "meaning": "代谢物感受型GPCR；在特定DRG感觉神经元中把EKODE信号转为瘙痒与神经源性炎症。"
+        },
+        {
+          "en": "Labeled-line pathway",
+          "zh": "标记线通路",
+          "meaning": "由相对专一的感受器和神经元链路传递特定感觉类别的组织原则。"
+        },
+        {
+          "en": "Natriuretic peptide B (NPPB)",
+          "zh": "B型利钠肽",
+          "meaning": "在感觉系统中作为瘙痒选择性神经肽，把外周感觉输入传向脊髓回路。"
+        },
+        {
+          "en": "Temporal compression",
+          "zh": "时间压缩",
+          "meaning": "学习后动作序列保持功能但持续时间缩短，从而提高执行效率。"
+        },
+        {
+          "en": "Plateau potential",
+          "zh": "平台电位",
+          "meaning": "可使神经元在短暂输入后保持较长去极化和放电的内在膜电位状态。"
+        },
+        {
+          "en": "Phase-switch interneuron",
+          "zh": "相位切换中间神经元",
+          "meaning": "决定节律运动从一个阶段转入下一阶段的回路节点。"
+        },
+        {
+          "en": "TREM2–DAP12 complex",
+          "zh": "TREM2–DAP12受体复合物",
+          "meaning": "微胶质表面TREM2与含ITAM的适配蛋白DAP12组成的信号单元。"
+        },
+        {
+          "en": "Target engagement",
+          "zh": "靶点参与",
+          "meaning": "证明药物到达并作用于靶点，但不等同于产生疾病修饰或临床疗效。"
+        },
+        {
+          "en": "Soluble TREM2 (sTREM2)",
+          "zh": "可溶性TREM2",
+          "meaning": "TREM2胞外结构域剪切后进入体液的形式，可作药效标志物但含义依赖机制。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s42003-026-11087-x",
+          "title": "膳食脂质代谢物EKODE通过感觉神经元GPR35驱动慢性瘙痒与炎症",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "topic": "GPCR / 感觉神经 / 神经免疫 / 慢性瘙痒",
+          "target": "EKODE–GPR35–NPPB sensory axis",
+          "summary": "研究确认亚油酸衍生物EKODE是GPR35配体，并在一类Gpr35⁺/Nppb⁺背根神经节感觉神经元中引发兴奋、瘙痒和神经源性炎症。感觉神经元特异删除Gpr35或药理抑制GPR35可减轻EKODE以及银屑病、特应性皮炎模型中的瘙痒表型。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Wheeler等，Communications Biology，2026-10-29；DOI：10.1038/s42003-026-11087-x。影响因子待核实，未确认达到>8。标题可译为“代谢感受器GPR35把膳食脂质连接到瘙痒神经回路”。既往已知EKODE在银屑病皮损中升高并可诱发抓挠，但负责感受它的受体和完整回路不清楚。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者结合GPCR筛选、钙成像、电生理、RNAscope/原位杂交、感觉神经元特异Gpr35条件敲除、Nppb敲除、药理拮抗，以及咪喹莫特银屑病和特应性皮炎小鼠模型，验证从脂质配体到感觉神经元和行为的因果链。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "EKODE可激活GPR35，并兴奋一群与Nppb重叠的DRG感觉神经元。感觉神经元中特异删除Gpr35减弱EKODE诱导的抓挠、炎症和热超敏；GPR35药理抑制也减轻银屑病及特应性皮炎模型中的瘙痒。Nppb缺失降低抓挠和皮肤增厚，却未消除IL‑17A/IL‑23表达，提示该神经代谢通路可与经典免疫轴并行。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：以配体—GPCR—特定感觉神经元—神经肽—疾病行为的完整链条解释膳食脂质如何转化为慢性瘙痒。局限：主要是小鼠疾病模型；GPR35在人鼠之间药理差异较大；拮抗剂选择性及皮肤局部暴露仍需优化。编辑分析：局部GPR35或NPPB/NPRA干预可能比全身阻断更有机会减少免疫和代谢副作用。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "皮肤并非只被动承受炎症。亚油酸代谢物EKODE可被感觉神经元上的GPR35直接识别，随后通过NPPB标记的瘙痒线路放大抓挠和神经源性炎症，解释了部分患者在经典抗炎治疗后仍持续瘙痒的可能原因。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① The cells and circuitry for itch responses in mice（Science，2013）确定Nppb是瘙痒选择性神经肽，建立本研究的标记线框架。② Nppb neurons are sensors of mast cell-induced itch（Cell Reports，2019）进一步定义Nppb⁺感觉神经元的外周感受功能。③ Pamoic acid-induced peripheral GPR35 activation improves pruritus and dermatitis（2023）显示另一GPR35配体在部分模型中反而减轻瘙痒，提示GPR35可能存在配体偏向性、物种差异或细胞背景依赖。④ Sensory neurons shape γδ T-cell programs（2026）证明不同感觉神经亚群可双向塑造银屑病样炎症，是本研究神经—免疫并行机制的重要背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Metabolic sensor Gpr35 links dietary lipids to itch mediating neural circuits｜Communications Biology｜2026-10-29",
+              "url": "https://www.nature.com/articles/s42003-026-11087-x"
+            },
+            {
+              "title": "前期｜The cells and circuitry for itch responses in mice｜Science｜2013",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23704570/"
+            },
+            {
+              "title": "前期｜Nppb Neurons Are Sensors of Mast Cell-Induced Itch｜2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30917312/"
+            },
+            {
+              "title": "机制对照｜Pamoic acid-induced peripheral GPR35 activation improves pruritus and dermatitis｜2023",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37501600/"
+            },
+            {
+              "title": "前期｜Sensory neurons shape γδ T cell effector programs to control psoriasiform inflammation｜2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42551506/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s42003-026-11274-w",
+          "title": "强化学习通过B52–B64回路同时优化动作选择并压缩执行时间",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "topic": "学习记忆 / 操作性条件作用 / 中央模式发生器 / 回路可塑性",
+          "target": "B52–B64 phase-switch circuit",
+          "summary": "海兔离体摄食回路的操作性条件化不仅提高摄入型运动程序的选择概率，还通过提前从前伸相转入后缩相而缩短动作持续时间。其机制包括B52兴奋性下降、对B64的抑制减弱，以及B64平台电位触发阈值降低；相位限定的双节点操纵可复制时间压缩。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Momohara、Neveu与Byrne，Communications Biology，2026-10-29；DOI：10.1038/s42003-026-11274-w。影响因子待核实，未确认达到>8。标题可译为“回路可塑性在海兔操作性条件作用中协调动作选择与时间压缩”。强化学习不仅决定做哪个动作，也会优化动作的速度和阶段结构，但二者怎样在同一已知回路中协调仍不清楚。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者使用海兔离体摄食中央模式发生器进行操作性条件化，记录摄入型/排斥型运动程序及前伸、后缩相时序；对已鉴定神经元B52和B64进行细胞内电生理，测量内在兴奋性、突触抑制和平台电位阈值，并在限定运动相位共同操纵两类神经元。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "强化使回路更偏向选择摄入型运动，并缩短前伸相。训练后B52内在兴奋性下降，因此其对启动后缩的B64抑制减弱；与此同时B64平台电位更容易被触发。只在适当相位同时降低B52活动并促进B64，即可复制前伸相缩短，支持两处协同可塑性共同产生时间压缩。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：在单细胞可识别回路中把强化、动作类别和动作时序放入同一因果模型，避免只用行为相关性推断。局限：离体海兔摄食网络远比哺乳动物自然行为简单；回路操纵复制表型不等于两节点是唯一机制；记忆保持时间及体内泛化仍待检验。编辑分析：其概念可用于理解技能学习为何同时变得更准确和更流畅，但不能直接外推到人类基底节或运动康复。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "奖励训练不仅让回路更常选择正确的摄食动作，还重新调整“换挡”神经元：B52减少刹车，B64更容易进入持续放电，从而更早结束前伸相并提高整套动作效率。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Feeding behavior of Aplysia: a model system for classical and operant conditioning（Learning & Memory，2006）总结海兔摄食回路、食管神经强化通路及多巴胺强化信号，是当前范式的基础。② Classical conditioning of feeding in Aplysia: neurophysiological correlates（2000）绘制摄食CPG的前伸、后缩和闭合神经元组织，明确B64等相位节点。③ Byrne团队既往关于奖励操作性条件作用的研究确立同一摄食回路可被多巴胺强化，本研究在此基础上加入动作时序维度。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Circuit plasticity coordinates action selection and temporal compression during operant conditioning in Aplysia｜Communications Biology｜2026-10-29",
+              "url": "https://www.nature.com/articles/s42003-026-11274-w"
+            },
+            {
+              "title": "前期｜Feeding behavior of Aplysia: a model system for comparing cellular mechanisms of classical and operant conditioning｜2006",
+              "url": "https://learnmem.cshlp.org/content/13/6/669.full"
+            },
+            {
+              "title": "前期｜Classical conditioning of feeding in Aplysia: II. Neurophysiological correlates｜2000",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/10777800/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1126-scitranslmed-aec5740",
+          "title": "口服小分子TREM2激动剂VG‑3927跨越临床前机制与首次人体靶点参与",
+          "date": "2026-10-14",
+          "checked": "2026-10-30",
+          "topic": "阿尔茨海默病 / 微胶质 / 小分子药物 / 一期临床",
+          "target": "TREM2–DAP12 receptor clustering",
+          "summary": "VG‑3927/SAR448851结合TREM2及DAP12跨膜区并促进高阶受体复合物形成，可与内源性配体协同并恢复部分疾病相关TREM2变体信号。在iPSC三培养和5xFAD人源TREM2模型中出现有益微胶质及神经损伤指标变化；115人随机双盲一期试验显示最高140 mg给药总体耐受、CSF/游离血浆比0.91，并剂量依赖降低CSF sTREM2。",
+          "sections": [
+            {
+              "heading": "论文信息、日期与纳入理由",
+              "body": "Dejanovic等，Science Translational Medicine，2026-10-14；DOI：10.1126/scitranslmed.aec5740。2026-10-29被Nature Medicine研究亮点评述，因此作为本期近期转化重点收录；不是10月29日新发表。影响因子待核实。标题可译为“口服小分子TREM2激动剂VG‑3927/SAR448851的临床前与首次人体评价”。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "研究询问能否用可口服、可穿脑的小分子聚簇TREM2–DAP12，从而克服抗体脑暴露和可溶性TREM2截留等限制。方法包括受体突变与细胞信号、iPSC神经元—微胶质—星形胶质细胞三培养、5xFAD人源TREM2小鼠及随机双盲安慰剂对照一期试验NCT06343636（n=115，单次/多次递增剂量）。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "VG‑3927及工具分子VG‑3909具有亚纳摩尔至纳摩尔效力，通过结合TREM2和DAP12跨膜区促进高阶受体复合物；可与Aβ等内源配体协同，并恢复部分疾病相关变体信号。三培养中炎症因子和神经损伤标志物下降；5xFAD模型中斑块周围微胶质发生保护性转录重编程、Aβ吞噬和脑葡萄糖代谢增加。一期试验最高至140 mg总体耐受，PK支持每日一次，CSF/游离血浆比为0.91，CSF sTREM2随剂量下降。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把遗传靶点、跨膜聚簇机制、多种临床前模型与人体PK/靶点参与放进同一研究。局限：一期样本量和时长不能评价认知疗效；sTREM2下降不等于微胶质功能改善；动物淀粉样模型不能覆盖人类AD的tau、血管和长期免疫复杂性。尤其重要的是，TREM2抗体AL002虽有靶点参与，却在381人二期未改善CDR‑SB并出现ARIA样影像事件。编辑分析：VG‑3927能否因脑暴露和聚簇方式不同而获得疗效，必须由机制标志物和随机二期临床结局共同回答。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "VG‑3927试图把TREM2从“遗传学上可信但难以药物化”的微胶质靶点变成口服药：它进入中枢并聚簇TREM2–DAP12，在模型中改变斑块微环境，一期也证明人体暴露与靶点参与；但尚无证据证明它可以减慢阿尔茨海默病认知下降。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① TREM2 R47H variant associated with AD risk（NEJM，2013）提供强人类遗传学依据。② TREM2 lipid sensing sustains the microglial response（Cell，2015）说明TREM2维持斑块周围微胶质生存和反应。③ TREM2-mediated early microglial response limits plaque toxicity（2016）提出微胶质包围并压实斑块的保护机制。④ AL002 phase 2 trial（2026）显示抗体靶点参与未转化为认知获益，是评价本研究最重要的负向临床对照。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Preclinical and first-in-human evaluation of VG-3927/SAR448851｜Science Translational Medicine｜2026-10-14",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42873892/"
+            },
+            {
+              "title": "前期｜Variant of TREM2 associated with the risk of Alzheimer's disease｜NEJM｜2013",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/23150908/"
+            },
+            {
+              "title": "前期｜TREM2 lipid sensing sustains the microglial response in an Alzheimer's disease model｜Cell｜2015",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25728668/"
+            },
+            {
+              "title": "前期｜TREM2-mediated early microglial response limits diffusion and toxicity of amyloid plaques｜2016",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27091843/"
+            },
+            {
+              "title": "关键临床对照｜The TREM2 agonistic antibody AL002 in early Alzheimer's disease: a phase 2 randomized trial｜2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41787076/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜EKODE–GPR35神经代谢瘙痒轴｜Communications Biology｜2026-10-29",
+          "url": "https://www.nature.com/articles/s42003-026-11087-x"
+        },
+        {
+          "title": "主文｜海兔操作性学习的动作选择与时间压缩｜Communications Biology｜2026-10-29",
+          "url": "https://www.nature.com/articles/s42003-026-11274-w"
+        },
+        {
+          "title": "近期转化重点｜VG‑3927/SAR448851口服TREM2激动剂｜Science Translational Medicine｜2026-10-14",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42873892/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-29",
       "date": "2026-10-29",
