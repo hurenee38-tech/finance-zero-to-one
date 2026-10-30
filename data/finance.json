@@ -1,8 +1,980 @@
 {
   "schemaVersion": 1,
   "channel": "finance",
-  "updatedAt": "2026-10-30T07:04:30.106+08:00",
+  "updatedAt": "2026-10-31T07:10:00.375+08:00",
   "items": [
+    {
+      "id": "finance-2026-10-31",
+      "date": "2026-10-31",
+      "source": "scheduled",
+      "title": "从Voceryq加速批准到双IPO：监管路径、临床风险与融资跑道",
+      "summary": "本期用Bambusa IPO解释募资总额、净募资和超额配售，追踪质粒DNA免疫疗法加速批准、DPP1三期、硬纤维瘤监管、AstraZeneca管线产出及两家生物科技IPO。既有101个NCT全部核查成功，0失败、0项核心字段实质变化；新增5个登记后覆盖106项。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "Bambusa以每股16美元发行10,555,555股，承销商另有1,583,333股超额配售选择权。教学假设：承销折扣为募资总额的7%，其他固定发行费用为300万美元。请计算：（1）不行使超额配售时的募资总额与预计净募资；（2）全额行使时新增募资总额与新增净募资；（3）为什么这些数字不能直接等同于公司可支撑的临床现金跑道？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先区分募资总额（股数×发行价）和净募资（扣除承销折扣及其他费用）；超额配售部分通常只再扣比例承销折扣，本算例不重复扣固定费用。\n\n公式与代入：初始总额＝10,555,555×16＝168,888,880美元，约1.689亿美元。初始净额＝168.88888×(1－7%)－3＝154.0667百万美元，约1.541亿美元。超额配售总额＝1,583,333×16＝25.3333百万美元；新增净额＝25.3333×(1－7%)＝23.56百万美元。若全额行使，总净额约177.63百万美元。\n\n一种可行答案：headline应写“募资总额约1.689亿美元”，而现金规划使用约1.541亿美元的教学净额；全额行使后教学净额约1.776亿美元。\n\n常见误区：把募资总额当现金；忽略固定费用；把超额配售当确定发行；仅用IPO现金除以当前年度烧钱速度。\n\n自查标准：是否写清假设；是否区分初始发行与选择权；跑道模型是否加入期初现金、研发里程碑、营运资金、烧钱速度上升及融资交割不确定性。实际净募资应以最终招股书/交割文件为准。"
+        },
+        {
+          "heading": "核心概念｜IPO募资总额、净募资与超额配售",
+          "body": "募资总额（gross proceeds）是发行股数乘发行价；净募资（net proceeds）还要扣承销折扣和发行费用，才更接近公司实际拿到的现金。超额配售选择权（greenshoe）允许承销商在约定期限内额外购买股份，既可覆盖超额分配、辅助价格稳定，也可能为公司带来额外一级资本。\n\n分析生物科技IPO时，还要把净募资放进完整资金桥：期初现金＋净募资－研发/商业化/营运资金支出。募到钱本身不创造临床价值；关键是能否跨过下一个价值拐点，同时控制稀释和再融资风险。"
+        },
+        {
+          "heading": "进展1｜FDA加速批准首个质粒DNA免疫疗法Voceryq",
+          "body": "事实：FDA于10月30日加速批准Voceryq用于成人复发性呼吸道乳头状瘤病。32人研究中，基线至少接受3次手术的26人里有7人（27%）在治疗后首年无需手术；批准基于手术减少，仍需确证性研究。[1]\n\n科学：质粒编码HPV6/11抗原并配合IL-12免疫刺激，目标是诱导针对致病病毒的T细胞反应。\n商业：罕见病患者反复手术负担高，首个药物路径可能形成专科市场，但真实持续用药和定价仍待观察。\n战略：这是DNA药物平台的监管里程碑，可提高同类平台外部合作关注度。\n财务：加速批准提前收入机会，却把确证性研究、标签维持和商业教育成本留在后续现金流中。"
+        },
+        {
+          "heading": "进展2｜Boehringer启动verducatib COPD三期布局",
+          "body": "事实：Boehringer于10月30日登记AIRWARD；ClinicalTrials.gov显示NCT07907991为Phase 3、尚未招募，计划1,800人，主要终点是76周中重度急性加重年化率。[2]\n\n科学：DPP1抑制减少中性粒细胞丝氨酸蛋白酶成熟，试图从炎症源头降低急性加重。\n商业：COPD人群巨大，但需要在充分吸入治疗背景上证明有临床意义的增量获益。\n战略：把已在人类呼吸疾病验证的机制扩展至COPD，可复用开发和商业能力。\n财务：大样本、长随访的事件试验昂贵；成功则市场上限高，失败则可能暴露机制外推风险。"
+        },
+        {
+          "heading": "进展3｜EMA受理varegacestat硬纤维瘤上市申请",
+          "body": "事实：Immunome于10月30日宣布EMA验证varegacestat的MAA完整性并启动审评。RINGSIDE三期此前披露PFS风险比0.16、客观缓解率56%对9%；美国PDUFA日期为2027年4月28日。[3][4]\n\n科学：γ-分泌酶抑制调节Notch相关信号，在硬纤维瘤中已出现强效随机证据。\n商业：罕见肿瘤患者数有限，但高未满足需求和口服给药可支持专科模式。\n战略：欧洲受理与美国审评并行，要求公司同步准备生产、医学事务与定价准入。\n财务：MAA受理降低“文件不完整”风险，却没有消除效益风险、标签风险或商业执行风险；估值不能按已批准处理。"
+        },
+        {
+          "heading": "进展4｜AstraZeneca以管线产出支撑增长叙事",
+          "body": "事实：AstraZeneca披露九个月收入同比增长7%，核心营业利润和核心EPS均增长14%；年内已有12项三期阳性读出。公司称这些资产合计峰值年收入潜力超过100亿美元，2027年读出组合潜力超过200亿美元。[5]\n\n科学：读出覆盖多治疗领域，降低单一机制风险，但“阳性”仍需逐项目核查效应量、安全和终点质量。\n商业：多资产接力有助对冲成熟品种增速放缓。\n战略：密集三期产出考验注册、上市排序和制造资源配置。\n财务：峰值销售是管理层情景，不是风险调整估值；应乘成功概率、折现并扣除研发和商业投入。"
+        },
+        {
+          "heading": "进展5｜Bambusa与Aspen同日定价IPO，窗口仍偏选择性",
+          "body": "事实：Bambusa以每股16美元发行10,555,555股，初始募资总额约1.689亿美元；Aspen以每股15美元发行9,375,000股，初始募资总额约1.406亿美元。两者均于10月30日开始交易，计划11月2日交割，并分别设有超额配售选择权。[6][7]\n\n科学：资金分别支持双特异性抗体与iPSC神经元替代等高风险平台，临床证据仍处早期。\n商业：资本市场愿意为差异化机制提供资金，但定价、基石订单和后市表现决定窗口能否扩散。\n战略：IPO将私营公司转为持续披露和季度资本配置体系。\n财务：比较时应看净募资、完全稀释估值、现金跑道和下个催化剂，而非只看headline总额。"
+        },
+        {
+          "heading": "跨岗位洞察｜同一场生物科技IPO的五种视角",
+          "body": "投资银行：关注簿记需求、发行价、订单质量、超额配售与上市后稳定性。\nFA顾问：比较IPO、私募、授权和并购，测算稀释、控制权与跑道。\nBD：判断融资后是否仍需用区域权利换现金，以及现金能否跨过关键临床拐点。\n投资者：看完全稀释后估值、内部人参与、锁定期、临床概率和再融资时间。\n咨询：审视目标市场、开发资源配置、上市能力与组织扩张。\n\n共同结论：募资总额只是交易起点；“每一美元能否换来更高质量证据”才决定长期价值。"
+        },
+        {
+          "heading": "迷你案例｜两家IPO的静态现金跑道",
+          "body": "教学假设：Bambusa初始净募资154.1百万美元、期初现金40百万美元、年烧钱70百万美元；Aspen净募资126百万美元、期初现金35百万美元、年烧钱60百万美元。\n\nBambusa静态跑道＝(154.1＋40)÷70＝2.77年；Aspen＝(126＋35)÷60＝2.68年。若临床推进使年烧钱上升25%，跑道分别约2.22年与2.15年。\n\n结论不是哪家公司更值钱，而是两者可能都需在两年左右规划下一次融资或合作。模型未计里程碑、营运资金、利息、一次性资本开支和实际净募资，不是预测。"
+        },
+        {
+          "heading": "数据库维护结果",
+          "body": "本次逐项调用ClinicalTrials.gov核查既有101个唯一NCT：成功101、失败0。10项登记日期刷新，但所比较的阶段、状态、申办方、入组、干预、主要完成及完成时间等核心字段未发现实质变化，因此本期结构化更新记为0项实质变化。新增5个真实登记：NCT04398433、NCT07907991、NCT04871282、NCT06808477、NCT06344026；去重后覆盖106项。预计完成时间不当作读出或批准承诺。历史记录与全部根级归档保留，未触发90期裁剪。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Gross proceeds",
+          "zh": "募资总额",
+          "meaning": "发行股数乘发行价，尚未扣除费用。"
+        },
+        {
+          "en": "Net proceeds",
+          "zh": "净募资",
+          "meaning": "扣除承销折扣和发行费用后公司预计获得的现金。"
+        },
+        {
+          "en": "Underwriting discount",
+          "zh": "承销折扣",
+          "meaning": "发行人为承销服务支付、通常按发行总额比例计取的费用。"
+        },
+        {
+          "en": "Greenshoe",
+          "zh": "超额配售选择权",
+          "meaning": "允许承销商在约定期限内额外购买股份以覆盖超额分配并辅助稳定交易。"
+        },
+        {
+          "en": "Accelerated approval",
+          "zh": "加速批准",
+          "meaning": "基于合理预测临床获益的替代终点提前批准，并要求确证性研究。"
+        },
+        {
+          "en": "MAA validation",
+          "zh": "上市许可申请完整性验证",
+          "meaning": "EMA确认申请足以进入审评，不代表疗效、安全或批准结论。"
+        }
+      ],
+      "sources": [
+        {
+          "title": "[1] FDA：Voceryq加速批准，2026-10-30",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
+        },
+        {
+          "title": "[2] Boehringer Ingelheim：AIRWARD三期登记，2026-10-30",
+          "url": "https://www.boehringer-ingelheim.com/human-health/lung-diseases/copd-asthma/boehringer-registers-phase-3-trial-verducatib-copd"
+        },
+        {
+          "title": "[3] Immunome：varegacestat MAA获EMA受理，2026-10-30",
+          "url": "https://investors.immunome.com/news-releases/"
+        },
+        {
+          "title": "[4] Immunome：RINGSIDE三期数据，2026-10-20",
+          "url": "https://investors.immunome.com/immunome-presents-additional-clinical-data-for-varegacestat-in-desmoid-tumors-at-esmo-2026/"
+        },
+        {
+          "title": "[5] AstraZeneca：2026年九个月及第三季度业绩，2026-10-29",
+          "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/9m-and-q3-2026-results.html"
+        },
+        {
+          "title": "[6] Bambusa：IPO定价，2026-10-29",
+          "url": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html"
+        },
+        {
+          "title": "[7] Aspen Neuroscience：IPO定价，2026-10-29",
+          "url": "https://ir.aspenneuroscience.com/news-releases/news-release-details/aspen-neuroscience-announces-pricing-initial-public-offering"
+        }
+      ],
+      "pipelineUpdates": [
+        {
+          "id": "NCT04398433",
+          "title": "Voceryq（INO-3107）",
+          "company": "Inovio Pharmaceuticals",
+          "target": "HPV6/11抗原+IL-12",
+          "modality": "质粒DNA免疫疗法",
+          "area": "感染/呼吸/罕见病",
+          "indication": "成人复发性呼吸道乳头状瘤病",
+          "stage": "Phase 1/Phase 2",
+          "status": "COMPLETED",
+          "trialTitle": "An Open-label Multi-center Study of INO-3107 With Electroporation (EP) in Subjects With HPV-6- and/or HPV-11-associated Recurrent Respiratory Papillomatosis (RRP)",
+          "registryUpdated": "2026-04-14",
+          "checked": "2026-10-30",
+          "summary": "已完成的32人Phase 1/2研究主要评估安全性，并以手术频率下降支持美国加速批准。",
+          "endpoints": [
+            "Percentage of Participants With at Least One Treatment-Emergent Adverse Events (TEAEs) and Serious TEAEs（From first dose of study drug through 30 days following the last dose (approximately up to Week 13)）"
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "INO-3107",
+              "description": "INO-3107 administered by IM injection.",
+              "armGroupLabels": [
+                "INO-3107: Group 1",
+                "INO-3107: Group 2",
+                "INO-3107: Group 3"
+              ]
+            },
+            {
+              "type": "DEVICE",
+              "name": "CELLECTRA® 2000",
+              "description": "CELLECTRA® 2000 device used for EP following IM delivery of INO-3107.",
+              "armGroupLabels": [
+                "INO-3107: Group 1",
+                "INO-3107: Group 2",
+                "INO-3107: Group 3"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "[1] FDA：Voceryq加速批准，2026-10-30",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT04398433（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT04398433"
+            }
+          ],
+          "note": "2026-10-30获FDA加速批准；本条阶段严格写该登记的Phase 1/2，获批状态单独说明，不把登记阶段当全球最高阶段。",
+          "risks": "加速批准依赖替代终点；确证性研究必须验证持续临床获益、手术减少及长期安全。",
+          "primaryCompletion": {
+            "date": "2022-12-15",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2022-12-15",
+            "type": "ACTUAL"
+          },
+          "enrollment": {
+            "count": 32,
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT07907991",
+          "title": "verducatib（AIRWARD）",
+          "company": "Boehringer Ingelheim",
+          "target": "DPP1/组织蛋白酶C",
+          "modality": "口服小分子抑制剂",
+          "area": "呼吸",
+          "indication": "慢性阻塞性肺疾病（COPD）",
+          "stage": "Phase 3",
+          "status": "NOT_YET_RECRUITING",
+          "trialTitle": "The AIRWARD Study: A Phase III, Double-blind, Randomised, Placebo-controlled, Multicentre Trial to Evaluate the Efficacy and Safety of Verducatib in Participants With COPD",
+          "registryUpdated": "2026-10-30",
+          "checked": "2026-10-30",
+          "summary": "计划入组1,800人的Phase 3研究，主要终点为76周内中重度COPD急性加重年化率。",
+          "endpoints": [
+            "Annualised rate of moderate or severe acute exacerbation of chronic obstructive pulmonary disease (AECOPD) (number of events per person per year)（Up to week 76）"
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Verducatib",
+              "description": "Verducatib",
+              "armGroupLabels": [
+                "Verducatib treatment group"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo matching verducatib",
+              "description": "Placebo matching verducatib",
+              "armGroupLabels": [
+                "Placebo group"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "[2] Boehringer Ingelheim：AIRWARD三期登记，2026-10-30",
+              "url": "https://www.boehringer-ingelheim.com/human-health/lung-diseases/copd-asthma/boehringer-registers-phase-3-trial-verducatib-copd"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT07907991（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT07907991"
+            }
+          ],
+          "note": "登记为NOT_YET_RECRUITING；Phase 3仅指AIRWARD这项研究，不代表全球批准或已证实疗效。",
+          "risks": "事件率、背景吸入治疗、感染与中性粒细胞相关安全性以及DPP1机制跨疾病可复制性待验证。",
+          "primaryCompletion": {
+            "date": "2029-12-12",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2030-01-09",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 1800,
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT04871282",
+          "title": "varegacestat（AL102，RINGSIDE）",
+          "company": "Immunome, Inc.",
+          "target": "γ-分泌酶/Notch通路",
+          "modality": "口服小分子抑制剂",
+          "area": "肿瘤/罕见病",
+          "indication": "进展性硬纤维瘤",
+          "stage": "Phase 2/Phase 3",
+          "status": "ACTIVE_NOT_RECRUITING",
+          "trialTitle": "RINGSIDE: A Phase 2/3, Randomized, Multicenter Study to Evaluate AL102 in Patients With Progressing Desmoid Tumors",
+          "registryUpdated": "2026-06-08",
+          "checked": "2026-10-30",
+          "summary": "Phase 2/3 RINGSIDE登记为ACTIVE_NOT_RECRUITING；三期部分以无进展生存期为关键终点。",
+          "endpoints": [
+            "Part A: Safety and Tolerability - Adverse Events（Approximately 1.5 years）",
+            "Part B: Progression free survival (PFS)（Approximately 2 years）"
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "AL102",
+              "description": "AL102 is an inhibitor of gamma secretase-mediated Notch signaling.",
+              "armGroupLabels": [
+                "Open Label Extension",
+                "Part A Main Study 1.2 mg daily",
+                "Part A Main Study 2 mg Intermittent",
+                "Part A Main Study 4 mg Intermittent",
+                "Part B AL102"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "Placebo",
+              "description": "Placebo to match AL102",
+              "armGroupLabels": [
+                "Part B Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "[3] Immunome：varegacestat MAA获EMA受理，2026-10-30",
+              "url": "https://investors.immunome.com/news-releases/"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT04871282（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT04871282"
+            }
+          ],
+          "note": "EMA已验证MAA完整性并启动审评；MAA受理不是批准。美国PDUFA为2027-04-28。",
+          "risks": "长期毒性、停药后持续性、影像终点与症状改善一致性，以及监管标签范围待确认。",
+          "primaryCompletion": {
+            "date": "2025-12-03",
+            "type": "ACTUAL"
+          },
+          "completion": {
+            "date": "2026-12",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 198,
+            "type": "ACTUAL"
+          }
+        },
+        {
+          "id": "NCT06808477",
+          "title": "BBT001",
+          "company": "Bambusa Therapeutics",
+          "target": "IL-4Rα×IL-31",
+          "modality": "双特异性抗体",
+          "area": "自免/炎症/皮肤",
+          "indication": "健康受试者与特应性皮炎",
+          "stage": "Phase 1",
+          "status": "RECRUITING",
+          "trialTitle": "A Randomized, Blinded, Placebo-controlled, Single- and Multiple-ascending Dose Study to Evaluate Safety, Tolerability, Pharmacokinetics, Immunogenicity, Pharmacodynamics and Clinical Activity of BBT001 in HVs and Adult Patients With AD",
+          "registryUpdated": "2026-09-29",
+          "checked": "2026-10-30",
+          "summary": "计划237人的Phase 1研究，评估安全、耐受、药代、免疫原性及早期药效。",
+          "endpoints": [
+            "Number of participants with adverse events following single and multiple administration of BBT001（Parts A and D - Up to Day 141; Parts B, C, and E - Up to Day 169 post first dose administration）",
+            "Number of participants with change in serum blood parameters（Parts A and D - Up to Day 141; Parts B, C, and E - Up to Day 169 post first dose administration）",
+            "Number of participants with change in vital sign measurements following treatment administration.（Parts A and D - Up to Day 141; Parts B, C, and E - Up to Day 169 post first dose administration）",
+            "Number of participants with change in physical examination following treatment administration.（Parts A and D - Up to Day 141; Parts B, C, and E - Up to Day 169 post first dose administration）",
+            "Number of participants with change in 12-lead ECG readings（Parts A and D - Up to Day 141; Parts B, C, and E - Up to Day 169 post first dose administration）"
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "BBT001",
+              "description": "BBT001 will be administered",
+              "armGroupLabels": [
+                "Part A Single Ascending Dose BBT001",
+                "Part B Multiple Ascending Dose BBT001",
+                "Part C Multiple Ascending Dose BBT001",
+                "Part D Single Ascending Dose BBT001",
+                "Part E Multiple Ascending Dose BBT001 - Dose Level 1",
+                "Part E Multiple Ascending Dose BBT001 - Dose Level 2"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Placebo",
+              "description": "Placebo will be administered",
+              "armGroupLabels": [
+                "Part A Single Ascending Dose Placebo",
+                "Part B Multiple Ascending Dose Placebo",
+                "Part C Multiple Ascending Dose Placebo",
+                "Part D Single Ascending Dose Placebo",
+                "Part E Multiple Ascending Dose Placebo"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "[6] Bambusa：IPO定价，2026-10-29",
+              "url": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT06808477（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT06808477"
+            }
+          ],
+          "note": "Bambusa完成IPO定价，但该融资不改变BBT001的临床阶段或疗效证据等级。",
+          "risks": "双通路抑制的剂量窗、感染/免疫安全、差异化疗效及制造一致性待验证。",
+          "primaryCompletion": {
+            "date": "2027-02-28",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2027-02-28",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 237,
+            "type": "ESTIMATED"
+          }
+        },
+        {
+          "id": "NCT06344026",
+          "title": "sasineprocel（ANPD001，ASPIRO）",
+          "company": "Aspen Neuroscience",
+          "target": "多巴胺能神经元替代",
+          "modality": "同种异体iPSC衍生细胞疗法",
+          "area": "神经退行性疾病",
+          "indication": "中重度帕金森病",
+          "stage": "Phase 1",
+          "status": "ENROLLING_BY_INVITATION",
+          "trialTitle": "Phase 1/2a Dose Escalation Study of ANPD001 in Sporadic Parkinson Disease",
+          "registryUpdated": "2026-05-14",
+          "checked": "2026-10-30",
+          "summary": "ClinicalTrials.gov将ASPIRO登记为Phase 1，主要评估移植安全性，计划长期随访。",
+          "endpoints": [
+            "Incidence and severity of treatment emergent adverse events (Safety and Tolerability)（1 year (primary follow up)）"
+          ],
+          "interventions": [
+            {
+              "type": "BIOLOGICAL",
+              "name": "ANPD001",
+              "description": "Biologic: ANPD001 is an experimental product derived from the patient's own skin cells converted to induced pluripotent stem cells. The stem cells were differentiated into precursors for brain cells that produce dopamine.",
+              "armGroupLabels": [
+                "ANPD001"
+              ]
+            },
+            {
+              "type": "DEVICE",
+              "name": "Custom Device",
+              "description": "A custom device to facilitate slow injection of small volumes of investigational drugs (including cell therapies), under MRI guidance",
+              "armGroupLabels": [
+                "ANPD001"
+              ]
+            }
+          ],
+          "whyStopped": null,
+          "sources": [
+            {
+              "title": "[7] Aspen Neuroscience：IPO定价，2026-10-29",
+              "url": "https://ir.aspenneuroscience.com/news-releases/news-release-details/aspen-neuroscience-announces-pricing-initial-public-offering"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT06344026（核查于2026-10-30）",
+              "url": "https://clinicaltrials.gov/study/NCT06344026"
+            }
+          ],
+          "note": "公司可称其为Phase 1/2a，但结构化阶段严格采用登记的Phase 1；IPO定价不是临床验证。",
+          "risks": "移植物存活、异常增殖、免疫抑制、长期运动获益、手术标准化及规模化制造待验证。",
+          "primaryCompletion": {
+            "date": "2027-03-30",
+            "type": "ESTIMATED"
+          },
+          "completion": {
+            "date": "2030-04-30",
+            "type": "ESTIMATED"
+          },
+          "enrollment": {
+            "count": 9,
+            "type": "ESTIMATED"
+          }
+        }
+      ],
+      "companies": [
+        {
+          "id": "company-inovio",
+          "title": "Inovio Pharmaceuticals, Inc.",
+          "date": "2026-10-30",
+          "checked": "2026-10-30",
+          "summary": "Voceryq获FDA加速批准，为首个美国获批质粒DNA免疫疗法。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "Voceryq/INO-3107，用于成人RRP。"
+            },
+            {
+              "heading": "商业化",
+              "body": "罕见病专科模式；仍须完成确证性研究。"
+            },
+            {
+              "heading": "财务关注",
+              "body": "上市准备与确证性试验并行，现金消耗和市场渗透决定价值。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[1] FDA：Voceryq加速批准，2026-10-30",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
+            },
+            {
+              "title": "NCT04398433",
+              "url": "https://clinicaltrials.gov/study/NCT04398433"
+            }
+          ]
+        },
+        {
+          "id": "company-boehringer-ingelheim",
+          "title": "Boehringer Ingelheim",
+          "date": "2026-10-30",
+          "checked": "2026-10-30",
+          "summary": "登记verducatib COPD三期AIRWARD。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "口服DPP1抑制剂verducatib。"
+            },
+            {
+              "heading": "阶段",
+              "body": "AIRWARD登记Phase 3、尚未招募。"
+            },
+            {
+              "heading": "战略",
+              "body": "把中性粒细胞炎症机制扩展至COPD。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[2] Boehringer Ingelheim：AIRWARD三期登记，2026-10-30",
+              "url": "https://www.boehringer-ingelheim.com/human-health/lung-diseases/copd-asthma/boehringer-registers-phase-3-trial-verducatib-copd"
+            },
+            {
+              "title": "NCT07907991",
+              "url": "https://clinicaltrials.gov/study/NCT07907991"
+            }
+          ]
+        },
+        {
+          "id": "company-immunome",
+          "title": "Immunome, Inc.",
+          "date": "2026-10-30",
+          "checked": "2026-10-30",
+          "summary": "varegacestat MAA获EMA验证并进入审评。",
+          "sections": [
+            {
+              "heading": "资产",
+              "body": "γ-分泌酶抑制剂varegacestat。"
+            },
+            {
+              "heading": "证据",
+              "body": "RINGSIDE三期达到PFS主要终点。"
+            },
+            {
+              "heading": "执行",
+              "body": "欧美监管、制造和商业准备并行。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[3] Immunome：varegacestat MAA获EMA受理，2026-10-30",
+              "url": "https://investors.immunome.com/news-releases/"
+            },
+            {
+              "title": "[4] Immunome：RINGSIDE三期数据，2026-10-20",
+              "url": "https://investors.immunome.com/immunome-presents-additional-clinical-data-for-varegacestat-in-desmoid-tumors-at-esmo-2026/"
+            }
+          ]
+        },
+        {
+          "id": "company-astrazeneca",
+          "title": "AstraZeneca plc",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "九个月收入增长7%，强调高密度三期读出。",
+          "sections": [
+            {
+              "heading": "业绩",
+              "body": "核心营业利润和核心EPS均增长14%。"
+            },
+            {
+              "heading": "管线",
+              "body": "年内12项三期阳性读出。"
+            },
+            {
+              "heading": "估值",
+              "body": "管理层峰值销售口径需风险调整。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[5] AstraZeneca：2026年九个月及第三季度业绩，2026-10-29",
+              "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/9m-and-q3-2026-results.html"
+            }
+          ]
+        },
+        {
+          "id": "company-bambusa-therapeutics",
+          "title": "Bambusa Therapeutics, Inc.",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "完成上调规模的IPO定价，初始募资总额约1.689亿美元。",
+          "sections": [
+            {
+              "heading": "平台",
+              "body": "炎症与免疫双特异性抗体。"
+            },
+            {
+              "heading": "领先资产",
+              "body": "IL-4Rα×IL-31双抗BBT001。"
+            },
+            {
+              "heading": "资本",
+              "body": "发行价16美元，另有超额配售选择权。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[6] Bambusa：IPO定价，2026-10-29",
+              "url": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html"
+            },
+            {
+              "title": "NCT06808477",
+              "url": "https://clinicaltrials.gov/study/NCT06808477"
+            }
+          ]
+        },
+        {
+          "id": "company-aspen-neuroscience",
+          "title": "Aspen Neuroscience, Inc.",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "IPO定价，初始募资总额约1.406亿美元。",
+          "sections": [
+            {
+              "heading": "平台",
+              "body": "iPSC衍生细胞疗法。"
+            },
+            {
+              "heading": "领先资产",
+              "body": "帕金森病多巴胺神经元替代sasineprocel。"
+            },
+            {
+              "heading": "阶段",
+              "body": "ASPIRO登记Phase 1。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[7] Aspen Neuroscience：IPO定价，2026-10-29",
+              "url": "https://ir.aspenneuroscience.com/news-releases/news-release-details/aspen-neuroscience-announces-pricing-initial-public-offering"
+            },
+            {
+              "title": "NCT06344026",
+              "url": "https://clinicaltrials.gov/study/NCT06344026"
+            }
+          ]
+        }
+      ],
+      "targets": [
+        {
+          "id": "target-hpv6-11-il12",
+          "title": "HPV6/11抗原＋IL-12免疫激活",
+          "date": "2026-10-30",
+          "checked": "2026-10-30",
+          "summary": "通过质粒DNA诱导针对致病HPV的细胞免疫。",
+          "sections": [
+            {
+              "heading": "依据",
+              "body": "RRP主要与HPV6/11相关。"
+            },
+            {
+              "heading": "人体证据",
+              "body": "手术频率下降支持加速批准。"
+            },
+            {
+              "heading": "待验证",
+              "body": "确证性临床获益和长期持续性。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[1] FDA：Voceryq加速批准，2026-10-30",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
+            }
+          ]
+        },
+        {
+          "id": "target-dpp1-copd",
+          "title": "DPP1/组织蛋白酶C（COPD）",
+          "date": "2026-10-30",
+          "checked": "2026-10-30",
+          "summary": "抑制中性粒细胞丝氨酸蛋白酶成熟以减少气道炎症。",
+          "sections": [
+            {
+              "heading": "人体状态",
+              "body": "AIRWARD进入Phase 3登记。"
+            },
+            {
+              "heading": "终点",
+              "body": "中重度急性加重年化率。"
+            },
+            {
+              "heading": "风险",
+              "body": "事件率、感染安全与背景治疗。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[2] Boehringer Ingelheim：AIRWARD三期登记，2026-10-30",
+              "url": "https://www.boehringer-ingelheim.com/human-health/lung-diseases/copd-asthma/boehringer-registers-phase-3-trial-verducatib-copd"
+            }
+          ]
+        },
+        {
+          "id": "target-gamma-secretase-notch",
+          "title": "γ-分泌酶/Notch",
+          "date": "2026-10-30",
+          "checked": "2026-10-30",
+          "summary": "硬纤维瘤中已有随机三期PFS验证。",
+          "sections": [
+            {
+              "heading": "依据",
+              "body": "Notch相关信号参与肿瘤生物学。"
+            },
+            {
+              "heading": "证据",
+              "body": "RINGSIDE三期HR 0.16。"
+            },
+            {
+              "heading": "风险",
+              "body": "长期耐受、症状获益和标签。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[3] Immunome：varegacestat MAA获EMA受理，2026-10-30",
+              "url": "https://investors.immunome.com/news-releases/"
+            },
+            {
+              "title": "[4] Immunome：RINGSIDE三期数据，2026-10-20",
+              "url": "https://investors.immunome.com/immunome-presents-additional-clinical-data-for-varegacestat-in-desmoid-tumors-at-esmo-2026/"
+            }
+          ]
+        },
+        {
+          "id": "target-il4ra-il31",
+          "title": "IL-4Rα×IL-31",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "同时干预2型炎症与瘙痒信号的双抗策略。",
+          "sections": [
+            {
+              "heading": "阶段",
+              "body": "BBT001 Phase 1。"
+            },
+            {
+              "heading": "潜力",
+              "body": "兼顾皮损和瘙痒。"
+            },
+            {
+              "heading": "风险",
+              "body": "剂量窗、安全及相对单通路药物的增量价值。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[6] Bambusa：IPO定价，2026-10-29",
+              "url": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html"
+            }
+          ]
+        },
+        {
+          "id": "target-dopaminergic-neuron-replacement",
+          "title": "多巴胺能神经元替代",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "以iPSC衍生神经元恢复帕金森病纹状体多巴胺功能。",
+          "sections": [
+            {
+              "heading": "阶段",
+              "body": "ASPIRO登记Phase 1。"
+            },
+            {
+              "heading": "必要证据",
+              "body": "细胞存活、安全及长期运动获益。"
+            },
+            {
+              "heading": "风险",
+              "body": "手术、免疫、制造和异常增殖。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[7] Aspen Neuroscience：IPO定价，2026-10-29",
+              "url": "https://ir.aspenneuroscience.com/news-releases/news-release-details/aspen-neuroscience-announces-pricing-initial-public-offering"
+            }
+          ]
+        }
+      ],
+      "deals": [
+        {
+          "id": "deal-2026-10-29-bambusa-ipo",
+          "title": "Bambusa IPO",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "10,555,555股、每股16美元，初始募资总额168,888,880美元。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "首次公开发行/股权融资。"
+            },
+            {
+              "heading": "超额配售",
+              "body": "承销商可额外购买1,583,333股。"
+            },
+            {
+              "heading": "状态",
+              "body": "计划2026-11-02交割，仍受惯常条件约束。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[6] Bambusa：IPO定价，2026-10-29",
+              "url": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html"
+            }
+          ]
+        },
+        {
+          "id": "deal-2026-10-29-aspen-ipo",
+          "title": "Aspen Neuroscience IPO",
+          "date": "2026-10-29",
+          "checked": "2026-10-30",
+          "summary": "9,375,000股、每股15美元，初始募资总额约140.6百万美元。",
+          "sections": [
+            {
+              "heading": "类型",
+              "body": "首次公开发行/股权融资。"
+            },
+            {
+              "heading": "超额配售",
+              "body": "承销商可额外购买1,406,250股。"
+            },
+            {
+              "heading": "状态",
+              "body": "计划2026-11-02交割，仍受惯常条件约束。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[7] Aspen Neuroscience：IPO定价，2026-10-29",
+              "url": "https://ir.aspenneuroscience.com/news-releases/news-release-details/aspen-neuroscience-announces-pricing-initial-public-offering"
+            }
+          ]
+        }
+      ],
+      "catalysts": [
+        {
+          "id": "catalyst-voceryq-confirmatory-study",
+          "title": "Voceryq确证性研究",
+          "date": "方案拟于2026年底前确定；最终结果拟于2027年中",
+          "checked": "2026-10-30",
+          "summary": "加速批准后的临床获益确认；公司时间表不是监管保证。",
+          "sections": [
+            {
+              "heading": "状态",
+              "body": "confirmed/公司披露计划。"
+            },
+            {
+              "heading": "关注",
+              "body": "手术频率、持续性、安全与标签维持。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[1] FDA：Voceryq加速批准，2026-10-30",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
+            }
+          ],
+          "status": "confirmed"
+        },
+        {
+          "id": "catalyst-nct07907991-airward-primary",
+          "title": "AIRWARD主要完成",
+          "date": "2029-12-12",
+          "checked": "2026-10-30",
+          "summary": "ClinicalTrials.gov预计主要完成日，不是数据读出承诺。",
+          "sections": [
+            {
+              "heading": "事件",
+              "body": "Phase 3主要终点完成。"
+            },
+            {
+              "heading": "风险",
+              "body": "事件率、招募和背景治疗变化。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[2] Boehringer Ingelheim：AIRWARD三期登记，2026-10-30",
+              "url": "https://www.boehringer-ingelheim.com/human-health/lung-diseases/copd-asthma/boehringer-registers-phase-3-trial-verducatib-copd"
+            }
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "catalyst-varegacestat-ema-decision",
+          "title": "varegacestat EMA审评结果",
+          "date": "未披露",
+          "checked": "2026-10-30",
+          "summary": "MAA已受理，最终审评结果与时间仍不确定。",
+          "sections": [
+            {
+              "heading": "事件",
+              "body": "欧洲监管决定。"
+            },
+            {
+              "heading": "注意",
+              "body": "受理不等于批准。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[3] Immunome：varegacestat MAA获EMA受理，2026-10-30",
+              "url": "https://investors.immunome.com/news-releases/"
+            }
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "catalyst-varegacestat-pdufa-2027-04-28",
+          "title": "varegacestat美国PDUFA",
+          "date": "2027-04-28",
+          "checked": "2026-10-30",
+          "summary": "FDA目标行动日，不保证批准。",
+          "sections": [
+            {
+              "heading": "事件",
+              "body": "美国监管决定。"
+            },
+            {
+              "heading": "关注",
+              "body": "标签、风险管理及商业准备。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[4] Immunome：RINGSIDE三期数据，2026-10-20",
+              "url": "https://investors.immunome.com/immunome-presents-additional-clinical-data-for-varegacestat-in-desmoid-tumors-at-esmo-2026/"
+            }
+          ],
+          "status": "confirmed"
+        },
+        {
+          "id": "catalyst-bambusa-ipo-close-2026-11-02",
+          "title": "Bambusa IPO交割",
+          "date": "2026-11-02",
+          "checked": "2026-10-30",
+          "summary": "计划交割日，受惯常条件约束。",
+          "sections": [
+            {
+              "heading": "事件",
+              "body": "股权融资交割。"
+            },
+            {
+              "heading": "关注",
+              "body": "净募资与超额配售。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[6] Bambusa：IPO定价，2026-10-29",
+              "url": "https://www.prnewswire.com/news-releases/bambusa-therapeutics-announces-pricing-of-upsized-initial-public-offering-302924376.html"
+            }
+          ],
+          "status": "estimated"
+        },
+        {
+          "id": "catalyst-aspen-ipo-close-2026-11-02",
+          "title": "Aspen IPO交割",
+          "date": "2026-11-02",
+          "checked": "2026-10-30",
+          "summary": "计划交割日，受惯常条件约束。",
+          "sections": [
+            {
+              "heading": "事件",
+              "body": "股权融资交割。"
+            },
+            {
+              "heading": "关注",
+              "body": "净募资、跑道与ASPIRO推进。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "[7] Aspen Neuroscience：IPO定价，2026-10-29",
+              "url": "https://ir.aspenneuroscience.com/news-releases/news-release-details/aspen-neuroscience-announces-pricing-initial-public-offering"
+            }
+          ],
+          "status": "estimated"
+        }
+      ]
+    },
     {
       "id": "finance-2026-10-30",
       "date": "2026-10-30",
@@ -21592,20 +22564,20 @@
   "archivedDeals": [],
   "archivedCatalysts": [],
   "syncStatus": {
-    "checkedAt": "2026-10-30T07:04:30.106+08:00",
+    "checkedAt": "2026-10-31T07:10:00.375+08:00",
     "status": "success",
-    "checked": 97,
-    "changed": 3,
+    "checked": 101,
+    "changed": 0,
     "failed": 0,
     "corrected": 0,
-    "newPipelines": 4,
-    "totalPipelines": 101,
+    "newPipelines": 5,
+    "totalPipelines": 106,
     "companies": 6,
     "targets": 5,
-    "deals": 3,
+    "deals": 2,
     "catalysts": 6,
-    "events": 6,
-    "summary": "既有97个唯一NCT全部核查成功、失败0；明确实质变化3项，另有6项仅登记日期刷新。新增4个真实NCT，去重后覆盖101项。公司6、靶点5、交易3、催化剂6；保留全部历史与根级归档，未触发90期裁剪。"
+    "events": 5,
+    "summary": "既有101个唯一NCT全部核查成功、失败0、核心字段实质变化0；10项仅登记日期刷新。新增5个真实NCT，去重后覆盖106项。公司6、靶点5、交易2、催化剂6；历史与根级归档全部保留，未触发90期裁剪。"
   },
   "archivedPapers": []
 }
