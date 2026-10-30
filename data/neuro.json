@@ -1,8 +1,273 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-29T22:58:12.961Z",
+  "updatedAt": "2026-10-30T23:06:40.909Z",
   "items": [
+    {
+      "id": "neuro-2026-10-31",
+      "date": "2026-10-31",
+      "source": "scheduled",
+      "title": "神经生物学简报｜杏仁核记忆选择、海马快速泛化与NUS1–LCN2铁死亡轴",
+      "summary": "本期收录3篇Nature Neuroscience原始研究：人类杏仁核类别选择神经元与海马同步预测情景记忆编码；小鼠海马用解耦的群体几何支持跨环境快速泛化；微胶质NUS1缺失通过载铁LCN2–SLC22A17轴诱发多巴胺神经元铁死亡。三篇均于2026年10月26–27日正式发表，未可靠核实影响因子，统一标注“影响因子待核实”。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "杏仁核类别选择细胞的放电可以预测一幅中性图像是否会形成情景记忆，而且成功编码伴随杏仁核–海马同步增强。如果要把这一发现发展成“闭环记忆增强”技术，怎样证明刺激是在加强目标记忆，而不是提高一般唤醒、制造错误联结或干扰其他记忆？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先区分相关信号与因果靶点，再确定刺激内容、时间与相位，最后评估记忆特异性和安全边界。\n\n1. 必要证据：用只在偏好类别细胞高活动时触发的闭环刺激，比较真实时序、随机时序、错误类别和假刺激。若只有内容匹配且时相正确的刺激提高隔日回想，才支持内容特异机制。\n2. 区分一般唤醒：同步测瞳孔、心率、皮电、反应时和主观情绪；若这些整体唤醒指标改变，应把记忆提升视为可能的间接效应。\n3. 检验跨区机制：刺激时测杏仁核尖峰–海马场电位相干；再在动物模型中选择性打乱杏仁核–海马相位关系。如果记忆增益随相干破坏而消失，才支持同步的必要性。\n4. 检查记忆质量：除命中率，还要测来源记忆、细节回想、错误警报、相似刺激混淆、记忆置信度与一周后保持。提高“熟悉感”但同时增加错误警报，不等于改善情景记忆。\n5. 检查竞争与干扰：同时呈现目标与非目标材料，评估强化一个类别是否削弱其他类别、扩大情绪偏向或造成顺行/逆行干扰。\n6. 个体化与安全：在人类中先采用低能量、临床电极覆盖范围内的短期研究；预设癫痫放电、焦虑、错误记忆和情绪变化停止标准。\n\n一种可行答案：只有当内容匹配、相位锁定的闭环刺激在不改变一般唤醒的情况下，提高目标材料的延迟回想和来源记忆，同时不增加错误警报、不损害非目标记忆，并且其效果依赖杏仁核–海马同步，才能初步称为“特异性记忆增强”。\n\n必要证据：随机对照闭环刺激、目标/非目标和错误记忆终点、跨区同步因果检验。支持证据：放电解码准确度、瞳孔与自主神经指标、长期保持。待验证假设：类别细胞能否在个体内稳定追踪、同一机制能否用于老年或记忆障碍患者。\n\n常见误区：把预测性放电当作因果；只看正确率不看错误警报；把癫痫患者的电极位置直接推广到所有人；刺激整个杏仁核却宣称作用于特定类别细胞。\n\n自查标准：你的设计能否分别排除唤醒、熟悉感、错误联结和竞争性遗忘？是否有可以推翻机制假设的对照？开放问题可以有不同刺激方案，但必须保留这些证伪条件。"
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-10-31（Asia/Shanghai）。当日未发现足够多同时满足主题、原始研究和高质量来源条件的新论文，因此纳入10月26–27日正式发表、尚未收录的3篇Nature Neuroscience研究，不以低质量论文凑数。题名、日期、DOI和核心结论均由期刊或PubMed页面核实；影响因子未通过官方Journal Citation Reports可靠核实，统一标注“影响因子待核实”。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "三篇研究共同回答“复杂经历怎样被选择、组织并在疾病中失稳”：杏仁核为具体内容提供早期记忆增益，海马把位置、时间和选择拆分成可迁移的群体几何，而微胶质则可通过载铁蛋白把代谢应激传给脆弱神经元。它们提醒我们：神经系统的关键单位常不是单个分子或平均放电，而是细胞类型、跨区耦合与跨细胞物质流的组合。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Subsequent memory effect",
+          "zh": "随后记忆效应",
+          "meaning": "编码期神经活动在日后被记住与被遗忘项目之间的差异。"
+        },
+        {
+          "en": "Category-selective neuron",
+          "zh": "类别选择神经元",
+          "meaning": "对面孔、动物、物体等特定刺激类别反应更强的单神经元。"
+        },
+        {
+          "en": "Spike–field coherence",
+          "zh": "尖峰–场相干",
+          "meaning": "单神经元放电与局部场电位在特定频率和相位上的一致程度。"
+        },
+        {
+          "en": "Recollection",
+          "zh": "情景回想",
+          "meaning": "能恢复事件细节和来源的记忆过程，区别于只有熟悉感。"
+        },
+        {
+          "en": "Disentangled representation",
+          "zh": "解耦表征",
+          "meaning": "不同任务变量由近似独立的群体活动方向编码，减少相互干扰。"
+        },
+        {
+          "en": "Neural manifold",
+          "zh": "神经流形",
+          "meaning": "高维神经群体活动实际占据的低维几何结构。"
+        },
+        {
+          "en": "Cross-condition generalization performance",
+          "zh": "跨条件泛化性能",
+          "meaning": "在一个条件训练的解码器能否在新条件读出同一变量。"
+        },
+        {
+          "en": "Holo-LCN2",
+          "zh": "载铁脂质运载蛋白2",
+          "meaning": "结合铁的LCN2形式，可通过受体把铁输送到其他细胞。"
+        },
+        {
+          "en": "SLC22A17 / 24p3R",
+          "zh": "溶质载体22家族成员17",
+          "meaning": "LCN2受体；本研究中介导多巴胺神经元摄入载铁LCN2。"
+        },
+        {
+          "en": "Ferroptosis",
+          "zh": "铁死亡",
+          "meaning": "由铁依赖性脂质过氧化驱动的调控性细胞死亡。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41593-026-02493-9",
+          "title": "人类杏仁核类别选择神经元预示情景记忆能否形成",
+          "date": "2026-10-27",
+          "checked": "2026-10-31",
+          "topic": "情景记忆 / 人类单神经元 / 杏仁核–海马网络",
+          "target": "stimulus-specific amygdala–hippocampus coupling",
+          "summary": "对癫痫患者的两套独立颅内单神经元数据分析显示，杏仁核类别选择细胞在编码日后被记住的偏好类别图像时放电更强；该信号早于且强于海马，不依赖刺激效价或唤醒度，并伴随杏仁核尖峰与海马场电位相干增强。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Xiao、Daume与Rutishauser等，Nature Neuroscience，2026-10-27；DOI：10.1038/s41593-026-02493-9。影响因子待官方可靠核实。标题可译为“人类杏仁核对特定刺激表征的招募可以预测情景记忆编码成功”。传统观点多强调杏仁核增强情绪记忆，研究则追问：对中性新刺激，杏仁核是否直接选择要被写入长期记忆的内容。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者在接受侵入性监测的癫痫患者中记录杏仁核、海马及腹侧颞叶单神经元和局部场电位；参与者观看新图像，随后完成带置信度评分的再认任务。研究在两套任务不同、彼此独立的数据集中检验“随后记住/遗忘效应”，并用双过程信号检测模型区分回想与熟悉感。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "类别选择性杏仁核神经元只在图像属于自身偏好类别时，对后来被记住的刺激表现出更强放电；信号约在刺激后350–1850毫秒出现，且不由效价或唤醒解释。放电差异与模型估计的回想成分相关，而与熟悉感不显著相关；成功编码同时伴随杏仁核类别细胞与海马场电位的尖峰–场相干增强。原文支持的是预测性细胞与跨区同步机制，并未证明这些细胞单独决定记忆。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把杏仁核从“情绪增益器”扩展为刺激内容特异的记忆选择节点，并在人脑单细胞尺度复现。局限：受试者均为癫痫患者，电极位置由临床需要决定；观察性放电与相干不能单独证明因果；刺激材料主要为视觉类别，尚不清楚能否推广到自然事件。编辑分析：未来闭环刺激应识别内容选择细胞和正确相位，而非对整个杏仁核非选择性刺激，但安全性、个体化定位和虚假记忆风险都需先验证。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "能否记住一幅新图像，不仅取决于整体注意或情绪。杏仁核中代表该图像类别的特定神经元会在编码早期被更强地招募，并与海马节律更协调；这种内容特异的协同更接近“回想”而非单纯熟悉感。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Direct electrical stimulation of the amygdala enhances declarative memory in humans（PNAS，2018）：证明低强度杏仁核刺激可改善中性图像隔日记忆，是当前细胞机制研究的直接因果背景。② Memory-enhancing amygdala stimulation elicits gamma synchrony in the hippocampus（2015）：动物研究把杏仁核刺激的记忆增强连接到海马γ同步。③ Aversive memory formation in humans involves an amygdala–hippocampus phase code（2022）：在人脑情绪记忆中发现跨区相位编码，本研究把范围扩展到中性刺激与内容选择细胞。④ Representation of retrieval confidence by single neurons（2015）：界定检索阶段的熟悉度/置信度神经元，本研究则定位编码阶段的类别细胞。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Stimulus-specific recruitment of human amygdala neurons predicts episodic memory encoding success｜Nature Neuroscience｜2026-10-27",
+              "url": "https://www.nature.com/articles/s41593-026-02493-9"
+            },
+            {
+              "title": "前期｜Direct electrical stimulation of the amygdala enhances declarative memory in humans｜PNAS｜2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29255054/"
+            },
+            {
+              "title": "前期｜Memory-enhancing amygdala stimulation elicits gamma synchrony in the hippocampus｜2015",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26030426/"
+            },
+            {
+              "title": "前期｜Aversive memory formation in humans involves an amygdala–hippocampus phase code｜2022",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36302909/"
+            },
+            {
+              "title": "前期｜Representation of retrieval confidence by single neurons in the human medial temporal lobe｜2015",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/26053402/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02491-x",
+          "title": "海马用解耦的群体几何同时保存情境差异并快速迁移既有知识",
+          "date": "2026-10-27",
+          "checked": "2026-10-31",
+          "topic": "海马 / 记忆泛化 / 神经群体几何 / 回路可塑性",
+          "target": "CA3–CA1 cell-assembly dynamics and local inhibition",
+          "summary": "小鼠多迷宫任务与高密度CA1/CA3记录显示，位置、试次进程和选择可位于近正交的群体编码子空间；局部抑制主要控制时间漂移，跨区细胞集合主要支持情境变化。解耦几何使选择规则能跨新环境快速泛化。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Tang、Chang、Liu等，Nature Neuroscience，2026-10-27；DOI：10.1038/s41593-026-02491-x。影响因子待官方可靠核实。标题可译为“海马解耦表征与泛化的回路机制”。单个海马神经元会同时受位置、时间、选择和情境影响，看似漂移混乱；关键问题是群体层面是否仍具有可读、可迁移的结构。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者让小鼠在多个不同迷宫执行记忆引导交替任务，以超高密度探针记录CA1，并进行CA1–CA3双区记录；结合神经流形、表示相异矩阵、子空间夹角、跨条件泛化性能、细胞集合分析及局部抑制相关分析，区分位置、时间进程、选择和情境维度。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "位置、试次进程和选择信号在群体活动中形成大体解耦的方向，因此情境重映射不必破坏任务变量读出。时间维度的变化更受局部抑制性相互作用控制，而不同环境中的情境分量与输入驱动的CA3–CA1细胞集合重组相关。解耦程度越高，线性读出越能把在一个迷宫学到的选择规则迁移到另一个迷宫。原文提供了回路相关与几何分析；部分机制仍来自模型和群体统计，而非所有节点的直接因果操纵。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：统一了“单细胞漂移”“全局重映射”和“稳定认知变量”三类看似矛盾现象，并解释记忆区分与泛化为何可共存。局限：仅6只左右小鼠的多日记录，任务结构和迷宫有限；子空间正交是分析层面的近似，未证明大脑下游一定使用同一线性解码器；局部抑制与跨区集合的因果必要性仍需细胞类型特异操纵。编辑分析：疾病研究可询问AD、精神障碍或衰老是否优先破坏子空间几何，而非只看平均放电或位置场。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "单个海马细胞可以一边漂移、一边混合编码多个变量，但整个群体把空间、时间和选择组织在相对独立的几何方向上。这样，环境改变时“场景标签”可以变化，而任务规则仍能被保留并快速迁移。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① The Tolman–Eichenbaum Machine（Cell，2020）：提出海马–内嗅系统通过结构化表征实现空间与关系泛化，是本研究的重要计算框架。② Abstract representations emerge in human hippocampal neurons during inference（Nature，2024）：在人类单神经元层面显示学习后出现解耦的可观察与潜变量。③ Neural geometry in the human hippocampus enables generalization across spatial position and gaze（2026）：在人脑中显示相关但近正交的几何支持跨主体/视角迁移，为跨物种对照。④ Context relevance influences hippocampal remapping（2025）：说明情境任务意义会改变重映射幅度，与本研究的情境维度组织互补。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Circuit mechanisms for disentangled representations and generalization in the hippocampus｜Nature Neuroscience｜2026-10-27",
+              "url": "https://www.nature.com/articles/s41593-026-02491-x"
+            },
+            {
+              "title": "前期｜The Tolman-Eichenbaum Machine｜Cell｜2020",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/33181068/"
+            },
+            {
+              "title": "前期｜Abstract representations emerge in human hippocampal neurons during inference｜Nature｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39143207/"
+            },
+            {
+              "title": "跨物种对照｜Neural geometry in the human hippocampus enables generalization across spatial position and gaze｜2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42716015/"
+            },
+            {
+              "title": "前期｜The relevance of context in memory tasks influences hippocampal remapping｜2025",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41385363/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02499-3",
+          "title": "微胶质NUS1缺失经LCN2–SLC22A17搬运铁并诱发多巴胺神经元铁死亡",
+          "date": "2026-10-26",
+          "checked": "2026-10-31",
+          "topic": "帕金森病 / 微胶质 / 铁稳态 / 铁死亡 / 新靶点",
+          "target": "NgBR–PERK–ATF4–NUPR1–LCN2–SLC22A17 axis",
+          "summary": "小鼠与人微胶质模型显示，NUS1编码的NgBR缺失触发内质网应激和PERK–ATF4–NUPR1程序，优先增加载铁LCN2外排；SLC22A17高表达的多巴胺神经元摄入Holo-LCN2后发生铁过载、脂质过氧化与铁死亡。阻断LCN2–SLC22A17或铁死亡可缓解模型表型。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Liu、Hong、Wang等，Nature Neuroscience，2026-10-26；DOI：10.1038/s41593-026-02499-3。影响因子待官方可靠核实。标题可译为“微胶质NUS1缺失通过细胞间铁失衡推动帕金森病模型中的多巴胺神经退变”。NUS1变异与PD风险相关，但为何会选择性伤害黑质多巴胺神经元此前不清楚。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者构建微胶质特异Nus1/NgBR缺失小鼠，结合运动行为、黑质多巴胺神经元计数、原代鼠和人微胶质、转录组、内质网应激通路操作、铁转运/脂质过氧化检测，以及LCN2–SLC22A17和铁死亡的药理干预，追踪铁从微胶质到神经元的跨细胞路径。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "NgBR缺失激活PERK–ATF4–NUPR1，较少以经典细胞因子为主，而优先诱导LCN2介导的铁外排。载铁Holo-LCN2而非无铁Apo-LCN2被多巴胺神经元上高表达的SLC22A17摄取，导致铁过载、脂质过氧化和铁死亡。阻断LCN2–SLC22A17轴或抑制铁死亡，在体外和小鼠中减轻神经元丢失与运动表型。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把PD风险基因、微胶质应激、跨细胞铁运输和选择性神经元脆弱性串成可干预机制链。局限：核心疗效来自基因缺失及小鼠模型，尚未证明常见人类NUS1风险变异产生同等强度机制；SLC22A17与LCN2参与全身免疫和铁代谢，长期阻断可能有代价；改善运动表型不等于改变散发性PD病程。编辑分析：更可行的策略或许是脑内、阶段特异地阻断载铁LCN2进入脆弱神经元，并用CSF/影像铁与脂质过氧化标志物筛选人群。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "微胶质不是只靠炎症因子伤害神经元：当NgBR不足时，它们会把铁装入LCN2并输出；黑质多巴胺神经元借助SLC22A17将载铁复合物摄入，最终因铁和脂质过氧化负荷而发生铁死亡。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Coding mutations in NUS1 contribute to Parkinson’s disease（2018）：提供NUS1与PD的人类遗传学起点。② Low-frequency and rare coding variants of NUS1 contribute to PD（2021）：在更大样本中支持部分罕见变异与风险及表型关联。③ Pathogenic upregulation of glial LCN2 in the parkinsonian dopaminergic system（2016）：显示患者及毒素模型中胶质LCN2升高、铁依赖神经毒性增强，是当前跨细胞机制的直接前序。④ Ferroptosis in Parkinson’s disease（2024）：总结铁稳态和脂质过氧化的既有证据，为本研究的细胞间铁搬运机制提供背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Microglial NUS1 deficiency drives dopaminergic neurodegeneration through intercellular iron dysregulation｜Nature Neuroscience｜2026-10-26",
+              "url": "https://www.nature.com/articles/s41593-026-02499-3"
+            },
+            {
+              "title": "前期｜Coding mutations in NUS1 contribute to Parkinson’s disease｜2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30348779/"
+            },
+            {
+              "title": "前期｜Low-frequency and rare coding variants of NUS1 contribute to susceptibility and phenotype of Parkinson's disease｜2021",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34635350/"
+            },
+            {
+              "title": "前期｜Pathogenic Upregulation of Glial Lipocalin-2 in the Parkinsonian Dopaminergic System｜2016",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27194339/"
+            },
+            {
+              "title": "综述背景｜Ferroptosis in Parkinson's disease—The iron-related degenerative disease｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39218077/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Stimulus-specific recruitment of human amygdala neurons predicts episodic memory encoding success｜Nature Neuroscience｜2026-10-27",
+          "url": "https://www.nature.com/articles/s41593-026-02493-9"
+        },
+        {
+          "title": "主文｜Circuit mechanisms for disentangled representations and generalization in the hippocampus｜Nature Neuroscience｜2026-10-27",
+          "url": "https://www.nature.com/articles/s41593-026-02491-x"
+        },
+        {
+          "title": "主文｜Microglial NUS1 deficiency drives dopaminergic neurodegeneration through intercellular iron dysregulation｜Nature Neuroscience｜2026-10-26",
+          "url": "https://www.nature.com/articles/s41593-026-02499-3"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-30",
       "date": "2026-10-30",
