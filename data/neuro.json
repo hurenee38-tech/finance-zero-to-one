@@ -1,8 +1,261 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-30T23:06:40.909Z",
+  "updatedAt": "2026-10-31T23:02:43.918Z",
   "items": [
+    {
+      "id": "neuro-2026-11-01",
+      "date": "2026-11-01",
+      "source": "scheduled",
+      "title": "神经生物学简报｜ABCA1胆固醇错配、FAM193B重复风险与β‑突触核蛋白预后",
+      "summary": "本期选择3篇尚未收录的近期原始研究：Nature Neuroscience揭示ABCA1介导的星形胶质细胞—神经元胆固醇错配如何促进帕金森病理；另一项Nature Neuroscience研究发现FAM193B启动子CCG重复是AD结构变异风险因素；Brain队列研究评估血清β‑突触核蛋白对痴呆转化、认知下降和死亡的增量预后信息。未可靠核实期刊影响因子，均标注“影响因子待核实”。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "ABCA1在星形胶质细胞中促进胆固醇外排，在神经元溶酶体中却被提出促进胆固醇输入；两种细胞特异沉默Abca1都能改善小鼠PD表型。面对这样“同一靶点、不同细胞、不同运输方向”的结果，怎样判断ABCA1是否适合做药，以及全身抑制还是细胞定向调节更合理？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先确认两个细胞中的作用方向，再判断它们是否属于同一病理通量，最后比较全身、脑内和细胞定向干预的收益—风险。\n\n1. 画出质量守恒链：星形胶质细胞外排多少胆固醇、神经元摄入多少、溶酶体积累多少，必须用同位素或可追踪胆固醇测量真实通量，不能只用染色强度代替。\n2. 做细胞类型因果矩阵：分别沉默星形胶质细胞ABCA1、神经元ABCA1和双重沉默；再进行细胞特异回补。如果双重沉默没有叠加作用，支持它们位于同一运输链；若明显叠加，可能存在平行机制。\n3. 区分表达量与定位：神经元中的问题可能不是ABCA1总量，而是异常进入溶酶体。比较抑制表达、阻断溶酶体定位和恢复膜循环，判断是否能只纠正病理功能而保留正常胆固醇稳态。\n4. 建立时间窗：在α‑突触核蛋白病理形成前、形成中和神经元丢失后分别干预，判断ABCA1上调是驱动因素还是后期补偿。\n5. 比较递送策略：在相近脑内药效下，比较全身抑制剂、脑穿透抑制剂以及星形胶质细胞或多巴胺神经元定向载体；同步测血脂、肝脏、外周巨噬细胞、髓鞘和突触功能。\n6. 验证柠檬酸镁的靶点归因：需要直接结合或转运实验、ABCA1缺失后的药效消失、暴露—效应关系和其他镁盐/柠檬酸盐对照。否则不能把小鼠保护作用完全归因于ABCA1。\n\n一种可行答案：目前证据支持ABCA1是值得继续验证的机制节点，但不足以支持长期全身抑制。若神经元溶酶体定位是主要病理事件，优先开发纠正定位或脑内细胞定向调节；只有当全身给药在保留外周和脑内正常胆固醇功能的剂量下仍有明确治疗窗，才考虑系统性抑制。\n\n必要证据：细胞特异回补与双敲矩阵、胆固醇通量测量、疾病阶段干预和长期安全性。支持证据：患者脑空间表达、CSF/影像胆固醇标志物、α‑突触核蛋白清除指标。待验证假设：ABCA1上调在人类PD中是驱动还是补偿、柠檬酸镁是否在可达浓度下直接抑制ABCA1。\n\n常见误区：把ABCA1表达升高直接等同于活性增强；把细胞染色当作跨细胞通量；因两种细胞敲低都有效就假定全身抑制更好；用已上市或常见成分推断临床安全有效。\n\n自查标准：是否解释了胆固醇从哪里来、到哪里去？是否保留ABCA1的正常功能？是否有能否定“同一通量链”和“柠檬酸镁通过ABCA1起效”的实验？开放问题允许不同开发路线，但不能省略这些证伪条件。"
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-11-01（Asia/Shanghai）。10月31日公开的新研究中没有足够多同时满足主题、原始研究和高质量来源条件的论文，因此不以Scientific Reports等较低优先级文章凑数，改选10月12–21日正式发表、尚未入库的3篇高质量研究。标题、日期、DOI、样本和核心结果经期刊或PubMed核实；影响因子未通过官方Journal Citation Reports可靠核实，统一标注“影响因子待核实”。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "本期从三个层次理解神经退行性疾病：ABCA1研究关注细胞之间如何错误分配胆固醇；FAM193B研究关注常规SNP分析遗漏的重复序列风险；β‑突触核蛋白研究则尝试把突触损伤转化为可测的血液预后指标。三者分别对应机制靶点、遗传分层和临床监测，不能相互替代。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Cholesterol trafficking",
+          "zh": "胆固醇运输/转运",
+          "meaning": "胆固醇在细胞之间及细胞器之间的定向移动，而非单纯总量变化。"
+        },
+        {
+          "en": "ABCA1",
+          "zh": "ATP结合盒转运体A1",
+          "meaning": "调控胆固醇和磷脂外排的膜蛋白；本期研究还提出其神经元溶酶体定位与胆固醇输入相关。"
+        },
+        {
+          "en": "Lysosomal trapping",
+          "zh": "溶酶体滞留",
+          "meaning": "蛋白或脂质异常积聚于溶酶体，可能破坏降解和膜运输。"
+        },
+        {
+          "en": "Structural variant",
+          "zh": "结构变异",
+          "meaning": "通常大于50个碱基的插入、缺失、重复或重排，短读长和SNP芯片可能漏检。"
+        },
+        {
+          "en": "Tandem repeat",
+          "zh": "串联重复",
+          "meaning": "相同短DNA序列首尾相接重复，其长度变化可影响染色质和基因表达。"
+        },
+        {
+          "en": "Pleiotropy",
+          "zh": "多效性",
+          "meaning": "同一遗传因素同时影响多个分子表型或疾病相关性状。"
+        },
+        {
+          "en": "β-synuclein",
+          "zh": "β‑突触核蛋白",
+          "meaning": "突触前蛋白；释放到血液中的水平被研究为突触损伤标志物。"
+        },
+        {
+          "en": "Hazard ratio",
+          "zh": "风险比",
+          "meaning": "随访期内两组瞬时事件发生率之比，不等同于绝对患病概率。"
+        },
+        {
+          "en": "Effect attenuation",
+          "zh": "效应衰减",
+          "meaning": "加入另一变量后关联效应减弱的程度，用于判断信息是否独立或重叠。"
+        },
+        {
+          "en": "Incremental prognostic value",
+          "zh": "增量预后价值",
+          "meaning": "新指标在现有模型基础上能否进一步提高未来结局预测。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41593-026-02487-7",
+          "title": "ABCA1驱动星形胶质细胞—神经元胆固醇错配并加剧帕金森病理",
+          "date": "2026-10-20",
+          "checked": "2026-11-01",
+          "topic": "帕金森病 / 胆固醇代谢 / 星形胶质细胞 / 自噬 / 靶点开发",
+          "target": "ABCA1-dependent astrocyte-to-neuron cholesterol trafficking",
+          "summary": "PD患者黑质和小鼠模型中ABCA1升高。研究提出星形胶质细胞ABCA1过度外排胆固醇，而神经元溶酶体ABCA1促进胆固醇输入，造成神经元胆固醇积累、自噬障碍和α-突触核蛋白病理；细胞类型特异沉默Abca1及柠檬酸镁干预均改善小鼠表型。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Ma、Zhao、Wang等，Nature Neuroscience，2026-10-20；DOI：10.1038/s41593-026-02487-7。影响因子待官方可靠核实。标题可译为“ABCA1介导的胆固醇运输失调推动帕金森病神经退变”。既往从胆固醇合成端干预PD效果有限，作者转而追问细胞间运输和溶酶体分配是否才是关键。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者分析PD患者死后黑质和小鼠PD模型，结合区域及细胞类型表达、星形胶质细胞与多巴胺神经元特异Abca1沉默、胆固醇示踪、溶酶体定位、自噬和α-突触核蛋白检测、运动行为与神经元计数，并筛选ABCA1药理抑制剂。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "PD黑质和模型中ABCA1升高，改变主要集中在黑质–纹状体系统。星形胶质细胞ABCA1促进过量胆固醇外排，增加神经元负荷；神经元内ABCA1异常定位于溶酶体并促进胆固醇输入，继而导致溶酶体胆固醇积累、自噬受损和α-突触核蛋白病理。星形胶质细胞或多巴胺神经元特异沉默Abca1均减轻神经退变和行为异常。作者还将柠檬酸镁鉴定为ABCA1抑制剂，并在小鼠中观察到保护效应。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文支持：ABCA1在不同细胞中共同构成异常胆固醇流，而不只是简单的“总胆固醇升高”。局限：患者组织主要提供关联，因果和疗效来自小鼠；ABCA1对外周脂质稳态及脑内正常胆固醇输出十分重要，长期全身抑制可能有风险；柠檬酸镁的有效暴露、选择性和直接结合方式仍需独立验证。编辑分析：更合理的开发路线可能是脑区、细胞类型和疾病阶段限定的ABCA1调节，而非长期全身完全抑制。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "PD中的问题可能不是胆固醇制造太多，而是运输方向错误：星形胶质细胞把过量胆固醇送出，神经元溶酶体又将其收进来，最终堵塞自噬系统并促进α-突触核蛋白病理。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Cellular senescence induced by cholesterol accumulation is mediated by lysosomal ABCA1 in APOE4 and AD（2024）：此前已显示溶酶体ABCA1滞留可连接胆固醇、mTOR和细胞衰老，为本研究的溶酶体机制提供跨疾病背景。② Astrocytic lysosome deficits reduce α-synuclein degradation and induce pathology spread（2026）：说明星形胶质细胞溶酶体能力会影响α-突触核蛋白清除和传播，与ABCA1运输机制互补。③ 既往PD脂质研究多强调合成或总量，本研究把问题推进到细胞间胆固醇通量和亚细胞定位。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Dysregulated cholesterol trafficking through ABCA1 drives neurodegeneration in Parkinson’s disease｜Nature Neuroscience｜2026-10-20",
+              "url": "https://www.nature.com/articles/s41593-026-02487-7"
+            },
+            {
+              "title": "前期｜Cellular senescence induced by cholesterol accumulation is mediated by lysosomal ABCA1 in APOE4 and AD｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38798644/"
+            },
+            {
+              "title": "前期｜Astrocytic lysosome deficits reduce alpha-synuclein degradation and induce the spread of pathology｜2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41558574/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02481-z",
+          "title": "FAM193B启动子CCG重复扩增揭示阿尔茨海默病被SNP分析遗漏的结构变异风险",
+          "date": "2026-10-12",
+          "checked": "2026-11-01",
+          "topic": "阿尔茨海默病 / 结构变异 / 重复序列 / 人类遗传学",
+          "target": "FAM193B promoter CCG repeat",
+          "summary": "在中国人群长读长参考集与3,190例短读长数据中，研究发现FAM193B启动子CCG重复长度与AD风险呈全基因组显著关联，每增加10个重复对应风险比约2.20。重复扩增提高FAM193B表达；死后脑和神经元实验将其进一步连接至DNA损伤和细胞死亡通路。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Cao、Fu、Zhou等，Nature Neuroscience，2026-10-12；DOI：10.1038/s41593-026-02481-z。影响因子待官方可靠核实。标题可译为“阿尔茨海默病常见结构变异的全基因组分析发现FAM193B调控性CCG重复风险位点”。多数AD遗传研究聚焦SNP，重复序列和较大结构变异可能因短读长比对困难而被遗漏。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "研究以11个中国人群长读长基因组建立结构变异参考，再分析3,190例短读长测序数据进行关联；结合遗传力、表达数量性状和多效性分析、患者死后脑组织，以及培养神经元中的FAM193B表达操纵，检验从重复长度到基因表达和细胞损伤的链条。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "常见结构变异可解释SNP之外的一部分AD遗传风险。FAM193B启动子CCG重复达到全基因组显著性：每增加10个重复，AD风险比约为2.20；较长重复与FAM193B表达升高相关。脑组织与神经元实验进一步显示，FAM193B升高与DNA损伤和细胞死亡程序相关。原文支持风险关联和表达方向，但尚不能把效应量直接解释为个体绝对患病概率。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：提示AD“缺失遗传力”部分可能藏在重复序列与结构变异中，并提出FAM193B这一此前关注较少的候选机制。局限：长读长参考仅11人，主要关联样本来自中国人群，跨族群重复性、测序平台误差和重复长度阈值仍需验证；细胞实验不能完整模拟几十年病程。编辑分析：近期价值首先是改进遗传分层和测序设计，而不是立刻把FAM193B称为已验证药物靶点。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "普通SNP芯片看不到的启动子重复长度，也可能显著影响AD风险。FAM193B前方的CCG重复越长，基因表达越高，并与神经元DNA损伤相关；这把“难测的基因组区域”带入AD遗传学。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Structural variation detection and association analysis of 16,543 ADSP subjects（2025）：在大规模全基因组数据中系统识别AD结构变异，为本研究提供人群遗传框架。② Nanopore long-read sequencing unveils genomic disruptions in AD（2024）：证明长读长能够解析重复和基因组暗区，是当前研究采用长读长参考的技术基础。③ The impact of structural variation on AD in ADSP（2026）：在多样化样本中同时发现常见与罕见SV，支持结构变异是AD遗传架构的重要组成。④ Repeat expansion diseases（2019）：总结调控区GC富集重复可改变基因表达，为解释启动子CCG重复提供机制背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Genome-wide analysis of common structural variants in Alzheimer’s disease identifies a risk-associated regulatory CCG repeat in FAM193B｜Nature Neuroscience｜2026-10-12",
+              "url": "https://www.nature.com/articles/s41593-026-02481-z"
+            },
+            {
+              "title": "前期｜Structural variation detection and association analysis of whole-genome-sequence data from 16,543 ADSP subjects｜2025",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40528303/"
+            },
+            {
+              "title": "前期｜Nanopore Long-Read Sequencing Unveils Genomic Disruptions in Alzheimer’s Disease｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38370753/"
+            },
+            {
+              "title": "前期｜The impact of structural variation on Alzheimer’s disease in the ADSP｜2026",
+              "url": "https://link.springer.com/article/10.1186/s13059-026-04206-8"
+            },
+            {
+              "title": "机制背景｜Repeat expansion diseases｜2019",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6485936/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1093-brain-awag361",
+          "title": "血清β‑突触核蛋白补充Aβ和p‑tau，预测痴呆转化、认知下降与死亡风险",
+          "date": "2026-10-21",
+          "checked": "2026-11-01",
+          "topic": "阿尔茨海默病 / 突触损伤 / 血液生物标志物 / 队列研究",
+          "target": "serum β-synuclein",
+          "summary": "单中心记忆门诊259名非痴呆参与者研究显示，血清β‑突触核蛋白在Aβ阳性且pTau181阳性组升高；每升高1个标准差与痴呆转化HR 1.40、死亡HR 1.33及更快认知下降相关，并补充了CSF Aβ和部分p‑tau信息，但认知轨迹关联受到pTau181明显衰减。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Oberstein、Schwarz、Rudtke等，Brain，2026-10-21在线发表；DOI：10.1093/brain/awag361。影响因子待官方可靠核实。标题可译为“血清β‑突触核蛋白在Aβ和磷酸化tau之外预测痴呆转化与死亡”。突触功能障碍与认知最密切相关，但目前血液标志物仍主要围绕Aβ、tau、胶质和轴突损伤。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "研究纳入单中心记忆门诊259名主观或轻度认知障碍、尚未痴呆的参与者，按CSF Aβ42/Aβ40与pTau181分组。主要分析包括185人的痴呆转化（中位4.1年）、258人的死亡（中位7.0年）、纵向MMSE及137人的脑区体积，并系统评估加入Aβ和pTau181后的效应衰减。"
+            },
+            {
+              "heading": "原文发现与统计解释",
+              "body": "β‑突触核蛋白在A+T1+组升高。每增加1个标准差，痴呆转化HR为1.40（95%CI 1.11–1.77），死亡HR为1.33（1.07–1.65），并与每年约额外0.20分MMSE下降相关。它还与双侧内侧颞叶体积较低相关。调整Aβ后多数关联保留；认知下降关联在调整连续pTau181后衰减58.5%且不再显著，说明它与tau相关神经退变共享较多信息。HR是相对风险指标，不能直接转换成个人绝对患病概率。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：β‑突触核蛋白可能补充“突触损伤”维度，并比单纯诊断分类更接近预后。局限：单中心、样本量有限且存在转诊选择偏倚；检测分析标准化和跨实验室阈值尚未确定；观察性关联不能证明β‑突触核蛋白本身促病；死亡终点也可能受非神经系统因素影响。编辑分析：最有价值的下一步是外部多中心验证、重复测量及检验它能否改善现有风险模型和临床试验样本量，而不只是报告显著P值。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "血清β‑突触核蛋白可被理解为一种突触损伤读数：它与未来痴呆、认知下降和死亡相关，并提供部分独立于Aβ的信息；但它与p‑tau尤其在认知轨迹上高度重叠，因此更可能是补充标志物而非替代者。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Serum β-synuclein across AD and other dementias（2025）：在探索和验证队列中显示β‑突触核蛋白沿AD连续体升高，并可区分部分AD与非AD疾病。② Diagnostic and prognostic utility of serum β-synuclein（2026）：ADNI 475人研究显示其预测痴呆转化和神经退变，为本研究的独立队列前序。③ Early increase in asymptomatic autosomal dominant AD（2025）：显示β‑突触核蛋白可能在症状前约11年上升，支持其作为早期突触损伤标志物。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Serum β-synuclein predicts dementia conversion and mortality beyond amyloid-β and phospho-tau｜Brain｜2026-10-21",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42904923/"
+            },
+            {
+              "title": "前期｜Serum level changes of the synaptic marker beta-synuclein in Alzheimer’s disease continuum and other dementias｜2025",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40571405/"
+            },
+            {
+              "title": "前期｜Diagnostic and prognostic utility of serum β-synuclein in Alzheimer’s disease｜2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41763014/"
+            },
+            {
+              "title": "前期｜Early increase of the synaptic blood marker β-synuclein in asymptomatic autosomal dominant AD｜2025",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40207431/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Dysregulated cholesterol trafficking through ABCA1 drives neurodegeneration in Parkinson’s disease｜Nature Neuroscience｜2026-10-20",
+          "url": "https://www.nature.com/articles/s41593-026-02487-7"
+        },
+        {
+          "title": "主文｜Genome-wide analysis of common structural variants in Alzheimer’s disease identifies a risk-associated regulatory CCG repeat in FAM193B｜Nature Neuroscience｜2026-10-12",
+          "url": "https://www.nature.com/articles/s41593-026-02481-z"
+        },
+        {
+          "title": "主文｜Serum β-synuclein predicts dementia conversion and mortality beyond amyloid-β and phospho-tau｜Brain｜2026-10-21",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42904923/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-10-31",
       "date": "2026-10-31",
