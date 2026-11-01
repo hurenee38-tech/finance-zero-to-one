@@ -1,8 +1,269 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-10-31T23:02:43.918Z",
+  "updatedAt": "2026-11-01T23:00:58.663Z",
   "items": [
+    {
+      "id": "neuro-2026-11-02",
+      "date": "2026-11-02",
+      "source": "scheduled",
+      "title": "神经生物学简报｜GPR139胆碱能回路、5‑HT2A偏向信号与SIK3–GluN1突触定位",
+      "summary": "本期收录3篇原始研究：11月1日正式刊期的Neuropharmacology研究解析GPR139调节内侧隔—腹侧CA3胆碱能回路与AD模型记忆；Nature Neuroscience揭示5‑HT2A受体β‑arrestin偏向及慢解离动力学与持续抗抑郁样效应的关系；另一项Nature Neuroscience研究发现SIK3通过单个位点磷酸化控制GluN1进入突触。影响因子均待官方可靠核实，其中Neuropharmacology未确认达到>8。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "5‑HT2A研究把持续抗抑郁样效应归因于β‑arrestin偏向和LSD慢解离动力学，同时尝试用重复低剂量降低强Gq–Ca2+峰值。如果一个化合物在终点BRET实验中显示“β‑arrestin偏向”，怎样判断这是真正的配体偏向，而不是受体储备、检测放大、观察时间或慢解离造成的表观偏向？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：配体偏向是“同一受体构象更偏好某条效应通路”，但实验读数还会同时受到细胞系统、信号放大、动力学和受体占有率影响。\n\n1. 统一实验背景：在相同细胞、相同受体表达量和相近时间分辨率下同时测Gq、β‑arrestin及其他通路；不要把不同实验室、不同细胞或不同标签的Emax直接相除。\n2. 做受体表达梯度：降低和提高5‑HT2A表达。如果偏向方向随受体储备明显变化，说明它至少部分来自系统放大，而非稳定的配体属性。\n3. 做完整时间曲线：同时比较早期峰值、积分面积、持续时间和洗脱后的信号。慢解离配体可能在晚时间点显得更偏向β‑arrestin，却在早期并不偏向。\n4. 控制受体占有率：用结合动力学或占有率校正功能读数。在等占有率、等暴露时间下比较通路，避免把“β‑arrestin积累更慢但更持久”误作构象偏向。\n5. 使用操作模型：以共同参考激动剂计算各通路的转导系数Δlog(τ/KA)，再求ΔΔlog(τ/KA)及置信区间；不能只看Emax或EC50单项。\n6. 用正交方法验证：BRET之外再用无标签或不同原理的G蛋白、钙和arrestin测定，并检查标签位置是否改变受体内吞或动力学。\n7. 验证生物学必要性：在诱导型而非发育性Arrb缺失、Gq选择性阻断或关键受体位点突变条件下，观察持续效应是否按预测消失。\n\n一种可行答案：只有当偏向在多种受体表达量、多个时间点、等占有率和两种以上检测方法中保持同一方向，并且操作模型置信区间排除无偏向，同时相应通路的急性干预能够选择性消除体内效应，才可较有把握地称为真正的配体偏向。若偏向只在晚时间点出现，应更准确地称为“动力学偏向”。\n\n公式示意：偏向因子 = ΔΔlog(τ/KA) = [log(τ/KA)配体−log(τ/KA)参考]β‑arrestin − [log(τ/KA)配体−log(τ/KA)参考]Gq。结果必须给置信区间；跨过0则不能确认显著偏向。\n\n必要证据：同系统多通路时间曲线、受体表达梯度、等占有率操作模型及体内通路必要性。支持证据：结构、突变、内吞和转录读数。待验证假设：动物无明显行为扰动能否预测人类无主观致幻体验。\n\n常见误区：用β‑arrestin Emax较高就称为偏向；忽略慢解离导致的信号积累；跨细胞系比较EC50；把小鼠头部抖动缺失等同于人类不致幻。\n\n自查标准：是否把“构象偏向、动力学偏向和系统偏向”分别排查？是否有共同参考配体、置信区间和体内可证伪实验？"
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-11-02（Asia/Shanghai）。周末高影响力期刊新增较少，本期纳入1篇11月1日正式刊期论文和2篇10月21–23日、尚未收录的Nature Neuroscience研究。GPR139论文已于6月1日在线发表，11月1日为卷期日期，未冒充新在线发表。影响因子未通过官方Journal Citation Reports可靠核实；Neuropharmacology未确认达到>8。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "三篇文章分别从回路、受体和突触三个尺度解释认知与药效：GPR139改变隔–海马胆碱能输出，5‑HT2A的时间依赖偏向把结合动力学转成长期行为效应，SIK3则用单个位点磷酸化决定NMDAR是否进入突触。共同启示是，药理效应不仅取决于“结合哪个靶点”，还取决于细胞位置、时间尺度和亚细胞运输。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "GPR139",
+          "zh": "G蛋白偶联受体139",
+          "meaning": "脑富集的孤儿GPCR，在内侧隔胆碱能神经元中参与兴奋性和认知调节。"
+        },
+        {
+          "en": "Spatial temporal order memory",
+          "zh": "时空顺序记忆",
+          "meaning": "记住事件发生地点及先后顺序的复合情景记忆能力。"
+        },
+        {
+          "en": "Ligand bias",
+          "zh": "配体偏向",
+          "meaning": "不同配体稳定不同受体构象，从而相对偏好不同下游通路。"
+        },
+        {
+          "en": "Kinetic bias",
+          "zh": "动力学偏向",
+          "meaning": "因结合、解离或信号持续时间不同，在特定观察窗口呈现的表观通路偏好。"
+        },
+        {
+          "en": "Receptor reserve",
+          "zh": "受体储备",
+          "meaning": "超过产生最大效应所需数量的受体，会放大某些通路并改变EC50/Emax。"
+        },
+        {
+          "en": "Operational model",
+          "zh": "操作模型",
+          "meaning": "联合效能与亲和参数计算转导效率，用于量化药理偏向。"
+        },
+        {
+          "en": "SIK3",
+          "zh": "盐诱导激酶3",
+          "meaning": "丝氨酸/苏氨酸激酶，既调节睡眠需要，本期研究又将其连接到NMDAR定位。"
+        },
+        {
+          "en": "GluN1",
+          "zh": "NMDA受体1亚基",
+          "meaning": "所有功能性NMDA受体都必需的核心亚基。"
+        },
+        {
+          "en": "Synaptic recruitment",
+          "zh": "突触招募",
+          "meaning": "受体从细胞内或突触外池进入突触后致密区的过程。"
+        },
+        {
+          "en": "Phosphosite",
+          "zh": "磷酸化位点",
+          "meaning": "蛋白质上被激酶添加磷酸基团并改变功能的特定氨基酸。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1016-j-neuropharm-2026-111043",
+          "title": "GPR139通过内侧隔—腹侧CA3胆碱能回路调节阿尔茨海默病模型的时空顺序记忆",
+          "date": "2026-11-01",
+          "checked": "2026-11-02",
+          "topic": "阿尔茨海默病 / 孤儿GPCR / 胆碱能回路 / 海马记忆",
+          "target": "GPR139 in medial septum→ventral CA3 cholinergic circuit",
+          "summary": "GPR139在内侧隔胆碱能神经元中表达。敲低会加重早期APP/PS1小鼠认知、凋亡和突触毒性；激动剂提高内侧隔胆碱能神经元兴奋性并改善Aβ模型记忆。化学遗传学提示MS→vCA3投射参与时空顺序记忆，但药物疗效是否完全依赖该投射仍需更严格验证。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Li、Hou、Qin等，Neuropharmacology，2026-11-01正式刊期，已于2026-06-01在线发表；DOI：10.1016/j.neuropharm.2026.111043。影响因子待核实，未确认达到>8。标题可译为“GPR139介导的内侧隔至腹侧海马CA3胆碱能回路调节阿尔茨海默病认知障碍”。GPR139是脑富集孤儿GPCR，作者此前已发现增强内侧隔GPR139可改善AD模型认知，本研究进一步追踪其输出回路。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者使用6月龄和9月龄APP/PS1小鼠及ICV-Aβ1–42模型，结合病毒敲低、GPR139激动剂、免疫与ELISA、TUNEL、Golgi染色、切片电生理、光纤记录、化学遗传学和时空顺序记忆等行为测试，分析内侧隔胆碱能神经元及其vCA3投射。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "内侧隔胆碱能神经元中敲低GPR139加重早期APP/PS1小鼠认知下降、基底前脑凋亡和突触毒性。激动GPR139提高内侧隔胆碱能神经元放电与兴奋性，并改善Aβ模型记忆。示踪显示内侧隔广泛投射vCA3；抑制这条胆碱能投射损害早期AD模型的时空顺序记忆。作者据此提出GPR139激活可能通过MS→vCA3回路改善晚期模型记忆。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文支持GPR139、胆碱能神经元兴奋性和MS→vCA3回路均与记忆表型有关。局限：GPR139激动剂的行为效应与投射因果操作并未完全构成“阻断该投射即消除药效”的上位性证据；Aβ注射和APP/PS1模型不能覆盖人类AD全部病理；腹侧CA3与其他投射支路的贡献仍需区分。编辑分析：下一步应在投射特异条件下验证药效必要性，并比较GPR139激动与胆碱酯酶抑制的疗效、耐受和网络副作用。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "GPR139像是内侧隔胆碱能神经元的兴奋性调节器：降低它会使AD模型记忆和细胞损伤恶化，激活它则增强放电并改善记忆；其中通向腹侧CA3的投射可能是关键输出通道。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Up-regulation of GPR139 in the medial septum ameliorates cognitive impairment（2024）：同一团队证明内侧隔胆碱能细胞GPR139上调可改善两类AD模型，是本研究的直接前序。② Medial septal cholinergic neurons are necessary for context–place memory（2010）：奠定隔–海马胆碱能输入参与情境与位置记忆的基础。③ Septal cholinergic neurons gate hippocampal output（2018）：说明胆碱能输入可经海马中间神经元调节输出和记忆，为回路机制提供背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜GPR139-mediated cholinergic circuit from the medial septum to the ventral hippocampal CA3 modulates cognitive impairment in AD｜Neuropharmacology｜2026-11-01刊期",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42218995/"
+            },
+            {
+              "title": "前期｜Up-regulation of GPR139 in the medial septum ameliorates cognitive impairment in two mouse models of AD｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38447415/"
+            },
+            {
+              "title": "前期｜Medial septal cholinergic neurons are necessary for context-place memory｜2010",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20842629/"
+            },
+            {
+              "title": "前期｜Septal cholinergic neurons gate hippocampal output to entorhinal cortex｜2018",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5828580/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02497-5",
+          "title": "5‑HT2A受体β‑arrestin偏向与慢解离动力学支持持续抗抑郁样效应",
+          "date": "2026-10-23",
+          "checked": "2026-11-02",
+          "topic": "GPCR偏向信号 / 迷幻药 / 抗抑郁药物开发 / β-arrestin",
+          "target": "5-HT2AR–β-arrestin versus Gαq signaling",
+          "summary": "结构导向的5‑HT2A受体偏向激动剂和遗传学实验指向β‑arrestin信号参与小鼠持续抗抑郁样效应。LSD的慢解离使重复低剂量逐步累积受体占有，在限制峰值Gq–Ca2+信号的同时维持β‑arrestin；小鼠和猕猴实验未检测到所测迷幻样行为，但不能等同于已证明人类无致幻性。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "He、Tang、Wang等，Nature Neuroscience，2026-10-23；DOI：10.1038/s41593-026-02497-5。影响因子待官方可靠核实。标题可译为“迷幻药通过5‑HT2A受体–β‑arrestin信号产生持续抗抑郁样效应”。核心问题是能否把持续疗效与强烈Gq/Ca2+峰值及致幻样效应部分分离。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者进行受体结构导向化合物设计，以BRET和钙通量比较β‑arrestin2与Gαq信号；使用Htr2a及Arrb相关遗传模型、受体结合与解离动力学、重复低剂量LSD/裸盖菇素方案、多个小鼠抑郁样和迷幻样行为，并在食蟹猴中监测所定义的行为扰动。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "β‑arrestin偏向化合物在小鼠中产生持续抗抑郁样效应。LSD从5‑HT2A受体解离缓慢，重复低剂量可逐步累积受体占有率，接近急性高剂量水平，却避免高峰血药浓度；研究据此提出持续β‑arrestin信号可以与强Gq–Ca2+峰值部分分离。重复低剂量LSD，以及低剂量裸盖菇素预处理后再挑战的方案，在所测小鼠和猴行为中未发现明显迷幻相关扰动。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把偏向激动、结合动力学、给药节律和跨物种行为放进同一药理框架。局限：动物中的头部抖动或行为扰动不能充分代表人类主观致幻体验；重复低剂量后再高剂量挑战的方案并非简单的临床微剂量；β‑arrestin遗传操作可能存在发育补偿。另有近期研究发现β‑arrestin2敲除并不明显改变多种迷幻药的头部抖动或部分即刻早期基因反应，只对树突生长有较清楚影响，说明不同终点的信号分工仍有争议。编辑分析：临床开发应同时测量占有率、时间依赖偏向、耐受、心血管与主观效应，而不能仅凭单个细胞偏向因子宣称“非致幻”。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "LSD的特殊之处不仅是亲和力高，还在于离开受体很慢。重复低剂量可把受体占有率逐步累积起来，使较持久的β‑arrestin信号出现，同时避免一次高剂量产生的强Gq/Ca2+峰值；这为把治疗样效应与急性行为扰动分开提供了药理思路。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Crystal structure of an LSD-bound human serotonin receptor（Cell，2017）：发现受体胞外环形成“盖子”导致LSD慢解离，并连接到时间依赖β‑arrestin招募，是本研究动力学模型的结构基础。② Discovery of β-arrestin-biased 5‑HT2A agonists（2022）：建立相关偏向配体化学系列。③ Identification of 5‑HT2A signaling pathways responsible for psychedelic potential（2023）：比较Gq与β‑arrestin偏向配体，为疗效/致幻分离假设提供前期数据。④ Layer 5 pyramidal neuron 5‑HT2A receptors mediate neuroplastic but not hallucinogenic effects of psilocybin（2026）：从细胞类型角度提出可塑性与致幻样效应可分离，与本研究的信号通路分离互补。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Sustained antidepressant-like effects of psychedelics through 5-HT2AR–β-arrestin signaling｜Nature Neuroscience｜2026-10-23",
+              "url": "https://www.nature.com/articles/s41593-026-02497-5"
+            },
+            {
+              "title": "前期｜Crystal Structure of an LSD-Bound Human Serotonin Receptor｜Cell｜2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28129538/"
+            },
+            {
+              "title": "前期｜Discovery of β-Arrestin-Biased 25CN-NBOH-Derived 5-HT2A Receptor Agonists｜2022",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36099411/"
+            },
+            {
+              "title": "机制对照｜Role of β-Arrestin2 Signaling in Neuropharmacological Effects of Psychedelic Drugs｜2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42554671/"
+            },
+            {
+              "title": "细胞类型对照｜5-HT2A receptors in layer 5 pyramidal neurons mediate neuroplastic but not hallucinogenic effects｜2026",
+              "url": "https://www.nature.com/articles/s41593-026-02490-y"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02469-9",
+          "title": "SIK3通过单个位点磷酸化GluN1控制NMDA受体进入突触",
+          "date": "2026-10-21",
+          "checked": "2026-11-02",
+          "topic": "谷氨酸递质 / NMDA受体 / 突触可塑性 / 睡眠",
+          "target": "SIK3 phosphorylation of GluN1",
+          "summary": "SIK3定位于突触并磷酸化NMDAR必需亚基GluN1的单个位点。删除SIK3使突触GluN1下降约60%，而AMPA受体和整体转录变化较小；药理抑制45分钟内降低NMDAR反应，磷酸化位点突变阻止招募，Sleepy增益突变则增加突触NMDAR。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Lu、Morishita、Han等，Nature Neuroscience，2026-10-21；DOI：10.1038/s41593-026-02469-9。影响因子待官方可靠核实。标题可译为“SIK3通过磷酸化GluN1控制NMDA受体的突触定位”。NMDAR是学习、可塑性和兴奋毒性的核心受体，但不同突触为何维持不同NMDAR水平一直缺少简洁的招募信号。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者以蛋白互作筛选发现SIK3，结合CRISPR/基因删除、带标签GluN1敲入小鼠、磷酸化位点突变、定量免疫和突触分离、培养神经元及急性脑片电生理、SIK3药理抑制和Sleepy增益突变，测试单个位点磷酸化的必要性与充分性。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "SIK3位于突触并磷酸化GluN1的单个位点。删除SIK3使突触GluN1约下降60%，但AMPA受体水平和整体转录改变不明显；药理抑制SIK3后45分钟内NMDAR突触反应下降。将该磷酸化位点突变可阻止GluN1招募，而增加睡眠需要的Sleepy增益突变则通过增强GluN1磷酸化提高突触NMDAR水平。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文支持SIK3–GluN1是快速调节突触NMDAR数量的关键轴，并意外连接睡眠激酶与谷氨酸突触。局限：研究主要聚焦受体定位和基础电生理，尚未直接证明该位点如何影响具体学习、睡眠依赖巩固或疾病行为；广泛抑制SIK3会同时改变睡眠和其他磷酸化底物；GluN1标签造成轻度NMDAR反应下降，虽不影响所测LTP，仍需注意。编辑分析：更适合开发的是位点或蛋白互作层面的精细调节，而非简单系统性SIK3抑制。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "一个磷酸化事件就像NMDAR的“突触入场券”：SIK3给GluN1加上该标记后，受体更容易被招募到突触；去掉SIK3或该位点，NMDAR显著减少，而Sleepy突变则把这条轴推向相反方向。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Forward-genetics analysis of sleep in mutagenized mice（Nature，2016）：发现SIK3 Sleepy突变显著增加睡眠需要。② Quantitative phosphoproteomic analysis of molecular substrates of sleep need（Nature，2018）：将SIK3和广泛突触蛋白磷酸化连接到睡眠压力。③ A single phosphorylation site of SIK3 regulates sleep amount（2018）：界定SIK3自身PKA位点对睡眠的控制。④ Regulation of synaptic NMDAR activity by post-translational modifications（2025）：总结GluN1/GluN2磷酸化和运输背景，本研究新增直接的SIK3–GluN1招募机制。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜SIK3 controls synaptic localization of NMDA receptors by phosphorylating GluN1｜Nature Neuroscience｜2026-10-21",
+              "url": "https://www.nature.com/articles/s41593-026-02469-9"
+            },
+            {
+              "title": "前期｜Forward-genetics analysis of sleep in randomly mutagenized mice｜Nature｜2016",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27806374/"
+            },
+            {
+              "title": "前期｜Quantitative phosphoproteomic analysis of the molecular substrates of sleep need｜Nature｜2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29899451/"
+            },
+            {
+              "title": "前期｜A single phosphorylation site of SIK3 regulates daily sleep amounts and sleep need｜2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/30254177/"
+            },
+            {
+              "title": "背景综述｜Regulation of Synaptic NMDA Receptor Activity by Post-Translational Modifications｜2025",
+              "url": "https://link.springer.com/article/10.1007/s11064-025-04346-6"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜GPR139-mediated cholinergic circuit from the medial septum to the ventral hippocampal CA3 modulates cognitive impairment in AD｜Neuropharmacology｜2026-11-01刊期",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42218995/"
+        },
+        {
+          "title": "主文｜Sustained antidepressant-like effects of psychedelics through 5-HT2AR–β-arrestin signaling｜Nature Neuroscience｜2026-10-23",
+          "url": "https://www.nature.com/articles/s41593-026-02497-5"
+        },
+        {
+          "title": "主文｜SIK3 controls synaptic localization of NMDA receptors by phosphorylating GluN1｜Nature Neuroscience｜2026-10-21",
+          "url": "https://www.nature.com/articles/s41593-026-02469-9"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-11-01",
       "date": "2026-11-01",
