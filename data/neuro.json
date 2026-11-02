@@ -1,8 +1,266 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-11-01T23:00:58.663Z",
+  "updatedAt": "2026-11-02T22:57:31.141Z",
   "items": [
+    {
+      "id": "neuro-2026-11-03",
+      "date": "2026-11-03",
+      "source": "scheduled",
+      "title": "神经生物学简报｜裸盖菇素跨实验室复现、GPR88跨突触复合体与AD遗传新图谱",
+      "summary": "本期收录3篇已核实原始研究：Nature Neuroscience五实验室协作研究显示裸盖菇素的急性行为效应可稳定复现，但多项24小时持续效应较弱或不一致；Science Advances研究提出C1ql1是孤儿受体GPR88的内源性配体，并与突触后BAI3组成跨突触复合体；Nature多祖源遗传学研究发现48个新的阿尔茨海默病风险位点并将风险进一步聚焦到微胶质和神经元失调。影响因子均待官方可靠核实。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "同一剂量裸盖菇素在五个实验室都能稳定诱发急性头部抖动、回避增加和恐惧表达下降，却不能稳定复制24小时后的抗抑郁样、抗焦虑样或恐惧消退促进作用。面对这种“急性效应可复现、长期效应不稳定”的结果，怎样判断问题出在药物机制本身、动物模型灵敏度、实验条件异质性，还是此前研究的效应量被高估？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：先区分药物暴露是否一致、急性靶点作用是否成立、持续行为终点是否可靠，再判断研究间异质性和发表偏倚。\n\n1. 先验证共同起点：测定药物制剂、血浆/脑暴露和5‑HT2A相关急性读数。若五个实验室的急性头部抖动均出现，说明给药和基本受体作用大体成立，但不能据此推出长期可塑性一定发生。\n2. 估计效应量而不只看P值：对每个实验室报告标准化效应量和置信区间，并用随机效应模型估计总体效应与实验室间异质性。一个实验室显著、四个不显著不自动等于“有一个成功复制”。\n3. 检查终点可靠性：先获得测试—重测可靠度、基线变异和阳性对照表现。若强阳性对照也无法稳定改变该终点，结论应是模型灵敏度不足，而不是裸盖菇素无持续作用。\n4. 预先设定调节因素：比较性别、昼夜时间、实验者、应激史、饲养条件、给药到测试间隔和测试顺序。事后从大量亚组中挑显著结果只能生成假设。\n5. 把“无显著差异”升级为等效性判断：预先定义最小有意义效应δ，并进行等效性检验。若90%置信区间完全落在[−δ,+δ]内，才支持“没有达到有意义效应”；若区间很宽，只能说证据不确定。\n6. 连接机制层：同时测树突棘、即时早期基因、转录/表观变化或5‑HT2A依赖性。若生物学可塑性稳定但行为不稳定，问题更可能在行为映射；若二者都不稳定，机制的普遍性需要下调。\n7. 检查既往证据：比较预注册、多实验室研究与小样本单中心研究的效应量，并检验小样本效应、选择性报告和分析自由度。\n\n一种可行答案：当前结果最可靠地支持“2 mg/kg裸盖菇素具有稳健急性效应”，同时降低对多个24小时小鼠行为效应普遍性的置信度；它不能否定人类临床疗效，也不能否定其他剂量、疾病模型或治疗情境下的持续效应。下一步应采用预注册的剂量×时间×应激状态因子设计，加入暴露和机制读数，并对长期终点做等效性检验。\n\n公式示意：随机效应模型中，观察效应 yi = μ + ui + ei；μ为总体效应，ui为实验室间真实差异，ei为抽样误差。I²较高提示异质性，但不说明异质性的原因。等效性检验要求效应置信区间落入预设的无临床/生物学意义区间，而不是简单得到P>0.05。\n\n必要证据：预注册、多中心效应量、可靠的阳性对照、PK/脑暴露和等效性界值。支持证据：5‑HT2A阻断、可塑性标志物及跨性别复现。待验证假设：长期效应是否依赖疾病状态、心理/环境情境或不同剂量时间窗。\n\n常见误区：把不显著当成无效；因临床有效就要求健康小鼠所有行为都改变；只汇报合并样本而隐藏实验室差异；在结果出来后反复切分亚组。\n\n自查标准：是否区分了“靶点没作用、模型没测到、效应很小和研究功效不足”？是否预先定义了最小有意义效应及可证伪条件？"
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-11-03（Asia/Shanghai）。纳入1篇11月2日正式发表的新研究，以及2篇10月28日发表、此前尚未进入独立研究库的高质量原始研究。裸盖菇素研究与昨日5‑HT2A机制论文主题相邻，但因其多实验室复现结果对解释临床前药效具有重要校准价值而保留；其余两篇分别轮换至孤儿GPCR突触机制和AD多祖源遗传学。影响因子未通过官方Journal Citation Reports可靠核实，全部标注待核实。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "三篇研究共同提醒：发现一个显著现象只是起点。药物效应要跨实验室成立，孤儿受体机制要连接配体、信号、突触与行为，遗传关联要从位点走到细胞类型和可成药靶点。证据链越长，越需要把“原文直接证明”与“编辑推断及转化设想”分开。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Multi-institutional replication",
+          "zh": "多机构重复验证",
+          "meaning": "由多个独立实验室按协调方案检验同一效应，评估其稳健性和可推广性。"
+        },
+        {
+          "en": "Equivalence test",
+          "zh": "等效性检验",
+          "meaning": "检验效应是否小到落入预设的无实际意义区间，而非仅观察P值是否大于0.05。"
+        },
+        {
+          "en": "Between-laboratory heterogeneity",
+          "zh": "实验室间异质性",
+          "meaning": "不同实验室真实效应量的差异，可来自环境、操作或样本等因素。"
+        },
+        {
+          "en": "Head-twitch response",
+          "zh": "头部抖动反应",
+          "meaning": "小鼠5‑HT2A激活常用的急性行为代理指标，但不能等同于人类主观致幻体验。"
+        },
+        {
+          "en": "Orphan GPCR",
+          "zh": "孤儿G蛋白偶联受体",
+          "meaning": "生理功能或内源配体尚未完全确定的GPCR。"
+        },
+        {
+          "en": "C1ql1",
+          "zh": "补体C1q样蛋白1",
+          "meaning": "由小脑爬行纤维分泌的突触组织蛋白，本期研究提出其也是GPR88配体。"
+        },
+        {
+          "en": "Trans-synaptic complex",
+          "zh": "跨突触复合体",
+          "meaning": "横跨突触前后膜并协调连接稳定或信号传递的分子组合。"
+        },
+        {
+          "en": "Climbing fiber",
+          "zh": "爬行纤维",
+          "meaning": "下橄榄核投向小脑浦肯野细胞、对误差信号和关联学习关键的强兴奋性输入。"
+        },
+        {
+          "en": "Multi-ancestry GWAS",
+          "zh": "多祖源全基因组关联研究",
+          "meaning": "联合不同遗传祖源人群寻找疾病相关变异并提高结果的适用范围。"
+        },
+        {
+          "en": "Proxy case",
+          "zh": "代理病例",
+          "meaning": "依据参与者亲属疾病史推断的病例信息，可扩大样本但表型精度低于临床确诊。"
+        },
+        {
+          "en": "SNP heritability",
+          "zh": "SNP遗传力",
+          "meaning": "由常见单核苷酸变异在特定统计模型中解释的表型差异比例。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41593-026-02500-z",
+          "title": "五实验室联合检验裸盖菇素小鼠行为效应的可重复性",
+          "date": "2026-11-02",
+          "checked": "2026-11-03",
+          "topic": "迷幻药 / 5‑HT2A / 行为药理 / 可重复性",
+          "target": "psilocybin / 5‑HT2A-associated behavioral effects",
+          "summary": "五个独立实验室使用统一的2 mg/kg腹腔注射方案，每项实验合计约200只雌雄小鼠。急性头部抖动、回避增加和恐惧表达下降较稳定，但24小时后的抗焦虑样、抗抑郁样、恐惧消退和社会行为效应未能稳定复现。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Lu、White、Raymond等，Nature Neuroscience，2026-11-02；DOI：10.1038/s41593-026-02500-z。影响因子待官方可靠核实。标题可译为“裸盖菇素对小鼠行为影响的多机构联合研究”。既往小鼠研究常报告迷幻药产生快速且持续的情绪和可塑性效应，但不同实验室能否重复这些行为结论一直缺少系统检验。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "五个独立实验室协调裸盖菇素剂量（2 mg/kg，腹腔注射）、C57BL/6J小鼠年龄、雌雄纳入和主要时间点，同时保留装置尺寸、测试时段等现实差异。各实验室检验急性头部抖动、旷场/回避、恐惧表达，以及至少24小时后的焦虑样、抑郁样、恐惧消退、社会偏好和社会奖赏学习；每项实验跨实验室约200只小鼠。"
+            },
+            {
+              "heading": "原文发现与机制边界",
+              "body": "原文直接发现：裸盖菇素在五个实验室都引发显著头部抖动，急性期一致减少旷场中央停留、增加回避，并降低恐惧表达；这些变化不能完全由运动减少解释。相反，24小时后减少焦虑/抑郁样行为、促进恐惧消退以及改变社会偏好或社会奖赏的结果较小或不一致。研究主要回答行为可重复性，并未系统解析这些差异的细胞机制，也不等同于否定人类治疗效果。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：以接近临床前多中心试验的方式估计效应可推广性，提示开发者应把急性5‑HT2A代理读数和持续治疗样效应分开。局限：只测试单一剂量、特定品系与健康小鼠；行为范式未覆盖心理支持和疾病状态；实验室保留部分差异，既增强外部效度也增加机制定位难度。编辑分析：药物开发应在进入昂贵机制研究前预注册关键行为、报告实验室分层效应，并将PK、受体占有与长期可塑性读数纳入同一证据链。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "裸盖菇素对小鼠并非“完全无效”：其急性药理和部分即时行为效应很稳健。真正需要下调的是对多个持续行为效应普遍性的确信；这些效应可能较小、依赖条件，或需要更贴近疾病与治疗情境的模型。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Psilocybin induces rapid and persistent growth of dendritic spines（Neuron，2021）：报告额叶树突棘在24小时内增加并持续，是长期可塑性假说的重要基础。② Prolonged epigenomic and synaptic plasticity alterations following a psychedelic（Cell Reports，2021）：以DOI显示5‑HT2A依赖的表观和突触改变。③ Psilocybin facilitates fear extinction in mice（2023）：报告单中心的持续恐惧消退效应，是本研究重点检验的结论之一。④ Psilocybin promotes neuroplasticity and sustained antidepressant-like effects（2024）：报告慢性应激和健康小鼠中的持续抗抑郁样效应，为本次不一致结果提供直接对照。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜A multi-institutional investigation of psilocybin’s effects on mouse behavior｜Nature Neuroscience｜2026-11-02",
+              "url": "https://www.nature.com/articles/s41593-026-02500-z"
+            },
+            {
+              "title": "前期｜Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo｜Neuron｜2021",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34228959/"
+            },
+            {
+              "title": "前期｜Prolonged epigenomic and synaptic plasticity alterations following single exposure to a psychedelic in mice｜2021",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34686347/"
+            },
+            {
+              "title": "前期｜Psilocybin facilitates fear extinction in mice by promoting hippocampal neuroplasticity｜2023",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37000971/"
+            },
+            {
+              "title": "前期｜Psilocybin promotes neuroplasticity and induces rapid and sustained antidepressant-like effects in mice｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38680011/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1126-sciadv-aec0867",
+          "title": "C1ql1连接突触前GPR88与突触后BAI3以维持小脑突触完整性",
+          "date": "2026-10-28",
+          "checked": "2026-11-03",
+          "topic": "孤儿GPCR / 小脑突触 / 关联学习 / 配体偏向",
+          "target": "GPR88–C1ql1–BAI3 trans-synaptic complex",
+          "summary": "研究支持爬行纤维分泌的C1ql1是GPR88内源性配体，可激活偏向Gq信号，并由突触前GPR88锚定后连接突触后黏附GPCR BAI3；该轴调节爬行纤维–浦肯野细胞突触和关联学习。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Han、Meng、Li等，Science Advances，2026-10-28在线发表；DOI：10.1126/sciadv.aec0867。影响因子待官方可靠核实。标题可译为“孤儿GPCR GPR88与黏附GPCR BAI3通过C1ql1跨突触相互作用维持突触完整性”。GPR88与多种神经精神表型相关，但其内源配体和突触层面的作用方式长期不明确。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者围绕小脑下橄榄核爬行纤维—浦肯野细胞突触，结合GPR88遗传操纵、突触形态与功能分析、关联学习行为、细胞信号测定、蛋白相互作用和体外复合物验证，询问GPR88是否感受爬行纤维分泌的C1ql1，以及它如何与浦肯野细胞表面的BAI3协同。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "原文支持：爬行纤维定位的GPR88参与维持爬行纤维–浦肯野细胞突触及关联学习；分泌蛋白C1ql1可作为GPR88配体，并偏向激活Gq信号以增强突触；GPR88还能锚定C1ql1，使其在体外与突触后BAI3形成三元复合体。机制模型是“突触前GPCR—分泌桥梁—突触后黏附GPCR”，但跨突触三元结构在原位的动态组装和原子级构象仍未完全解决。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：为GPR88去孤儿化，并把GPCR信号与突触黏附统一起来；C1ql1诱导的Gq偏向也提示天然蛋白配体可选择特定信号。局限：主要证据来自小鼠小脑和体外系统；GPR88在纹状体等区域是否使用同一配体/复合体未知；系统性调节GPR88可能同时影响多条环路。编辑分析：成药前应建立人GPR88的配体结合和多通路偏向谱，并区分激动、阻断C1ql1锚定及干预跨突触复合体三种策略。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "C1ql1不只是黏附桥梁，它还可被突触前GPR88识别并触发偏向Gq信号；随后同一分子连接突触后BAI3。由此，一个分泌蛋白把两个不同类别的GPCR组织成跨突触功能单元，帮助维持突触和学习。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Anterograde C1ql1 signaling is required to maintain a single-winner climbing fiber（Neuron，2015）：确定C1ql1–BAI3对爬行纤维竞争、维持和运动学习的重要性，本研究在其突触前端加入GPR88。② C1ql1–Bai3 signaling is necessary for climbing fiber synapse formation in mature Purkinje cells（Molecular Brain，2023）：显示该轴与神经活动协同促进成熟突触形成，为三元复合体模型提供功能背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Trans-synaptic interaction of orphan GPCR GPR88 and adhesion GPCR BAI3 through C1ql1 maintains synapse integrity｜Science Advances｜2026-10-28",
+              "url": "https://www.science.org/doi/10.1126/sciadv.aec0867"
+            },
+            {
+              "title": "前期｜Anterograde C1ql1 signaling is required to determine and maintain a single-winner climbing fiber｜Neuron｜2015",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/25611509/"
+            },
+            {
+              "title": "前期｜C1ql1-Bai3 signaling is necessary for climbing fiber synapse formation in mature Purkinje cells｜2023",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37488606/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41586-026-11206-y",
+          "title": "多祖源遗传学把阿尔茨海默病风险聚焦到微胶质和神经元失调",
+          "date": "2026-10-28",
+          "checked": "2026-11-03",
+          "topic": "阿尔茨海默病 / 多祖源GWAS / 微胶质 / 靶点发现",
+          "target": "AD common-variant loci and prioritized genes",
+          "summary": "覆盖确诊、代理病例与数百万对照的多祖源分析识别118个共享风险位点和9个祖源特异位点，其中48个为新发现；风险信号富集于病例中上调的微胶质基因和下调的神经元基因，并将常见SNP遗传力估计提高至16%。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Uffelmann、Wightman、Charney等，Nature，2026-10-28；DOI：10.1038/s41586-026-11206-y。影响因子待官方可靠核实。标题可译为“阿尔茨海默病遗传风险汇聚于微胶质和神经元失调”。此前大型GWAS已发现约75–80个风险位点，但较低的SNP遗传力估计让人怀疑常见变异空间是否接近饱和。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "研究整合多祖源数据，包括109,479例病例、74,141例代理病例、2,131,799名对照和499,708名代理对照，开展共享与祖源特异关联分析；随后结合基因优先排序、病例/对照表达变化、细胞类型富集、多基因风险预测和SNP遗传力估计，寻找风险位点背后的细胞和潜在靶点。"
+            },
+            {
+              "heading": "原文发现与机制边界",
+              "body": "研究在多祖源分析中识别118个风险位点，并在祖源特异分析中增加9个，合计包含48个新位点；常见SNP遗传力估计约16%，接近先前估计的三倍。遗传风险富集于AD病例中上调的微胶质基因和下调的神经元基因，并优先排序出若干潜在药物靶点。原文证明的是统计遗传关联和多组学汇聚，而不是每个候选基因已经具有因果机制或可成药性。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：扩大祖源覆盖，说明AD常见变异贡献此前被明显低估，并把免疫细胞与神经元两个方向放入同一遗传框架。局限：代理病例降低表型精度；样本量仍可能由欧洲祖源主导；位点到基因、基因到方向性药理之间存在长距离；多基因风险分数不能直接作为跨祖源临床诊断。编辑分析：药物优先级应同时要求精细定位、表达/蛋白数量性状共定位、方向一致的人类证据和细胞模型因果验证，而不能仅凭GWAS邻近基因立项。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "AD的常见遗传风险并未接近挖掘完毕。更大、更多祖源的数据新增了大量位点，并显示风险一方面与微胶质程序增强相关，另一方面与神经元功能程序下降相关；这为超越单一Aβ路径的靶点发现提供人类遗传入口。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① New insights into the genetic etiology of AD and related dementias（Nature Genetics，2022）：在约11万确诊/代理病例中识别75个位点和42个新位点，是本次扩大样本与祖源的直接前序。② Genetics of the human microglia regulome refines AD risk loci（Nature Genetics，2022）：以150名供体原代微胶质的转录和染色质数据把21个风险位点细化到调控机制，支持当前微胶质富集解释。③ FAM193B启动子CCG重复研究（Nature Neuroscience，2026）：从结构变异角度补充SNP GWAS难以覆盖的遗传风险，提醒常见SNP遗传力并非全部遗传贡献。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Alzheimer’s disease genetics converges on microglial and neuronal dysregulation｜Nature｜2026-10-28",
+              "url": "https://www.nature.com/articles/s41586-026-11206-y"
+            },
+            {
+              "title": "前期｜New insights into the genetic etiology of Alzheimer’s disease and related dementias｜Nature Genetics｜2022",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35379992/"
+            },
+            {
+              "title": "前期｜Genetics of the human microglia regulome refines Alzheimer’s disease risk loci｜Nature Genetics｜2022",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35931864/"
+            },
+            {
+              "title": "相关｜Genome-wide analysis of common structural variants in Alzheimer’s disease identifies a regulatory CCG repeat in FAM193B｜2026",
+              "url": "https://www.nature.com/articles/s41593-026-02481-z"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜A multi-institutional investigation of psilocybin’s effects on mouse behavior｜Nature Neuroscience｜2026-11-02",
+          "url": "https://www.nature.com/articles/s41593-026-02500-z"
+        },
+        {
+          "title": "主文｜Trans-synaptic interaction of orphan GPCR GPR88 and adhesion GPCR BAI3 through C1ql1 maintains synapse integrity｜Science Advances｜2026-10-28",
+          "url": "https://www.science.org/doi/10.1126/sciadv.aec0867"
+        },
+        {
+          "title": "主文｜Alzheimer’s disease genetics converges on microglial and neuronal dysregulation｜Nature｜2026-10-28",
+          "url": "https://www.nature.com/articles/s41586-026-11206-y"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-11-02",
       "date": "2026-11-02",
