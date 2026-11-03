@@ -1,8 +1,270 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-11-02T22:57:31.141Z",
+  "updatedAt": "2026-11-03T23:03:09.900Z",
   "items": [
+    {
+      "id": "neuro-2026-11-04",
+      "date": "2026-11-04",
+      "source": "scheduled",
+      "title": "神经生物学简报｜Bglap3⁺空间编码、视紫红质突变图谱与早期逆境社交焦虑",
+      "summary": "本期收录3篇11月3日发表的原始研究：Nature Communications发现衰老小鼠内嗅皮层网格细胞减少、空间编码稳定性下降，并提出Bglap3⁺第三层神经元是易损细胞群；PNAS用深度突变扫描同时测量约2,000种视紫红质替换的基础活性、光依赖信号和受体丰度；Communications Biology揭示新生期隔离产生选择性、性别依赖的社交焦虑样与认知表型。影响因子均待官方可靠核实，其中Communications Biology未确认达到>8。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "衰老小鼠的MEC中Bglap3⁺第三层神经元数量下降；在年轻小鼠中急性抑制这群细胞又会损害MEC空间调谐。怎样判断“Bglap3⁺神经元丢失”是衰老空间记忆下降的因果驱动，而不只是与其他衰老变化同时出现的标志？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "collapsed": true,
+          "body": "问题拆解：现有结果包含两类证据——衰老时Bglap3⁺细胞减少是相关性；年轻动物急性抑制后空间编码变差说明这群细胞对正常编码有贡献。二者相加仍不能自动证明“衰老导致细胞丢失，细胞丢失再导致记忆下降”。\n\n1. 先确认真正发生了什么：用立体计数、原位杂交、谱系追踪和细胞死亡标志区分真实神经元死亡、Bglap3表达下调、细胞状态改变及组织取样偏差。\n2. 建立时间顺序：在青年、中年和老年连续测量Bglap3⁺细胞、网格细胞稳定性与空间行为。若细胞变化晚于行为下降，就不支持其为早期驱动。\n3. 在年轻动物中模拟“慢性且部分”的衰老改变：按衰老幅度选择性消融或长期抑制Bglap3⁺细胞，而不是只做强烈急性沉默；比较网格编码、MEC–海马耦合和空间记忆。\n4. 在老年动物中做救援：恢复剩余Bglap3⁺细胞的兴奋性或功能，或保护其存活。若空间编码和行为随细胞特异救援改善，因果链显著增强。\n5. 做必要性与充分性矩阵：年轻动物模拟表型检验“是否足以”，老年动物救援检验“是否必要”；还需用相邻MEC细胞群、非空间任务和运动/视觉指标作为对照。\n6. 排除共同上游因素：炎症、血管、髓鞘、抑制性网络及代谢衰老可能同时导致Bglap3下降和编码不稳。应测这些因素，并检验Bglap3救援能否在上游衰老环境仍存在时恢复功能。\n7. 检查分子身份：Bglap3可能只是细胞标签而不是作用分子。分别比较“操纵Bglap3基因”和“操纵Bglap3标记的细胞”，避免把标志物误当成靶点。\n\n一种可行答案：目前最稳妥的结论是Bglap3标记了一类参与MEC空间编码、并在衰老中数量或状态下降的第三层神经元。只有在确认真实细胞丢失、变化先于功能障碍、年轻动物的渐进性细胞减少能够复制衰老表型，且老年动物细胞特异救援可以逆转编码与记忆缺陷后，才能较有把握地称其为因果驱动。\n\n必要证据：细胞命运确认、纵向时间顺序、剂量匹配的模拟和老年动物救援。支持证据：MEC–海马投射功能、单细胞多组学、跨物种人脑验证。待验证假设：Bglap3本身是否具有功能，还是仅为易损细胞群标签。\n\n常见误区：把标记基因表达下降当作神经元死亡；用年轻动物急性强抑制模拟几十年的衰老；行为改善但未排除运动或视觉变化；因细胞带有Bglap3标签就直接开发Bglap3药物。\n\n自查标准：你的实验是否同时回答“真的丢失了吗、先发生吗、足以造成吗、救回来能恢复吗”？是否区分细胞身份与分子靶点？"
+        },
+        {
+          "heading": "本期范围与核查边界",
+          "body": "检索截至2026-11-04（Asia/Shanghai）。三篇均为2026-11-03正式发表或进入卷期的原始研究，且未在既往结构化研究库出现。主题分别轮换到神经衰老/空间记忆、GPCR构效关系和早期逆境/社交焦虑。期刊影响因子未通过官方Journal Citation Reports可靠核实；Communications Biology未确认达到>8，因其直接命中社交焦虑和性别差异主题而作为补充纳入。"
+        },
+        {
+          "heading": "编辑导读",
+          "body": "本期三篇文章从不同层面讨论“一个表型如何被正确归因”：Bglap3⁺细胞研究需要从易损标记走向衰老因果链；视紫红质突变扫描显示一个突变可能同时改变表达、基础活性和刺激响应；早期隔离研究则提醒传统旷场或高架十字迷宫可能漏掉选择性的社交焦虑。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Grid cell",
+          "zh": "网格细胞",
+          "meaning": "在环境中呈六角周期性放电、为导航提供坐标框架的内嗅皮层神经元。"
+        },
+        {
+          "en": "Spatial stability",
+          "zh": "空间稳定性",
+          "meaning": "同一神经元的空间放电图在时间或重复环境中保持一致的程度。"
+        },
+        {
+          "en": "Bglap3+ neuron",
+          "zh": "Bglap3阳性神经元",
+          "meaning": "以Bglap3表达为标记的MEC第三层神经元亚群，本期研究显示其随衰老减少。"
+        },
+        {
+          "en": "Visium spatial transcriptomics",
+          "zh": "Visium空间转录组",
+          "meaning": "在保留组织空间位置的同时测量局部基因表达的技术。"
+        },
+        {
+          "en": "Deep mutational scanning",
+          "zh": "深度突变扫描",
+          "meaning": "并行构建和检测大量蛋白变体，以获得序列—功能图谱。"
+        },
+        {
+          "en": "Biophysical pleiotropy",
+          "zh": "生物物理多效性",
+          "meaning": "同一突变同时改变蛋白丰度、稳定性、基础活性或刺激响应等多个性质。"
+        },
+        {
+          "en": "Basal activity",
+          "zh": "基础活性",
+          "meaning": "无外源刺激时受体自发产生的信号水平。"
+        },
+        {
+          "en": "Inverse agonist",
+          "zh": "反向激动剂",
+          "meaning": "稳定受体非活化状态并把基础活性压低的配体。"
+        },
+        {
+          "en": "Neonatal isolation",
+          "zh": "新生期隔离",
+          "meaning": "在发育早期短暂或重复分离幼仔，用于模拟早期社会逆境。"
+        },
+        {
+          "en": "Social anxiety-like phenotype",
+          "zh": "社交焦虑样表型",
+          "meaning": "对陌生同伴的互动选择性减少，但未必伴随普遍焦虑指标升高。"
+        },
+        {
+          "en": "Sex-dependent effect",
+          "zh": "性别依赖效应",
+          "meaning": "干预在雌雄动物中的方向或强度不同，提示机制和风险不能简单合并。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41467-026-78673-9",
+          "title": "Bglap3⁺内嗅皮层神经元易损性连接脑衰老与空间编码下降",
+          "date": "2026-11-03",
+          "checked": "2026-11-04",
+          "topic": "神经衰老 / 空间记忆 / 内嗅皮层 / 细胞类型",
+          "target": "Bglap3+ layer III MEC neurons",
+          "summary": "老年小鼠MEC网格细胞比例减少、空间放电稳定性下降；空间转录组发现1,664个年龄相关差异基因，并将Bglap3定位为随年龄减少的第三层神经元亚群标记。年轻动物中化学遗传学抑制该群细胞会削弱MEC空间调谐。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Cao、Suri、Cheng等，Nature Communications，2026-11-03；DOI：10.1038/s41467-026-78673-9。影响因子待官方可靠核实。标题可译为“衰老相关的细胞与分子变化揭示Bglap3⁺神经元参与内侧内嗅皮层空间认知”。MEC与海马共同支持导航和空间记忆，但衰老时究竟哪类MEC细胞优先受损仍不清楚。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者比较年轻和老年小鼠的MEC空间放电，评估网格细胞比例与空间稳定性；采用10x Genomics Visium空间转录组比较年龄相关表达变化，并结合细胞定位确认Bglap3标记的第三层神经元亚群；随后在年轻小鼠中化学遗传学抑制Bglap3⁺神经元，检测MEC神经元空间调谐。"
+            },
+            {
+              "heading": "原文发现与机制边界",
+              "body": "老年小鼠的网格细胞比例下降，空间编码稳定性变差。空间转录组识别1,664个差异表达基因；Bglap3标记的第三层神经元数量或可检测比例随年龄下降。抑制年轻小鼠Bglap3⁺神经元会损害MEC空间调谐，支持该细胞群参与正常空间编码。原文尚未证明老年动物中的变化一定是真实细胞死亡，也未通过老年细胞特异救援证明其是认知下降的必要原因。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把MEC衰老从群体平均表达推进到候选易损细胞类型，并用功能干预连接空间编码。局限：空间转录组分辨率和标志物下调可能影响细胞数量推断；年轻动物急性抑制并不等同于慢性衰老；目前主要是小鼠证据。编辑分析：下一步应进行谱系追踪、老年动物Bglap3⁺细胞救援和MECIII→CA1投射测定，再判断它是细胞标志还是可干预靶点。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "衰老不仅让MEC整体活动变差，还可能优先影响承担空间编码的一类第三层神经元。Bglap3可帮助定位这群细胞；当它们在年轻小鼠中被抑制时，MEC空间地图随之失真。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Spatial coding dysfunction and network instability in the aging MEC（Nature Communications，2025）：发现老年网格细胞环境特异性稳定和网络一致性下降，是本研究的直接功能背景。② Compromised grid-cell-like representations in old age（Current Biology，2018）：在人类中把网格样表征减弱与导航缺陷联系起来，提供跨物种意义。③ A consistent map in the MEC supports spatial memory（Nature Communications，2024）：长期成像和扰动显示稳定的MEC地图支持空间记忆，解释为何空间稳定性下降可能具有行为后果。④ Grid scale drives the scale and long-term stability of place maps（Nature Neuroscience，2018）：证明MEC网格尺度影响海马位置图及空间记忆。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Aging-related cellular and molecular changes reveal a role for Bglap3+ neurons in MEC spatial cognition｜Nature Communications｜2026-11-03",
+              "url": "https://www.nature.com/articles/s41467-026-78673-9"
+            },
+            {
+              "title": "前期｜Spatial coding dysfunction and network instability in the aging medial entorhinal cortex｜2025",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41044154/"
+            },
+            {
+              "title": "前期｜Compromised Grid-Cell-like Representations in Old Age｜Current Biology｜2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29551413/"
+            },
+            {
+              "title": "前期｜A consistent map in the medial entorhinal cortex supports spatial memory｜2024",
+              "url": "https://www.nature.com/articles/s41467-024-45853-4"
+            },
+            {
+              "title": "前期｜Grid scale drives the scale and long-term stability of place maps｜2018",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/29335607/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1073-pnas-2624087123",
+          "title": "视紫红质深度突变扫描揭示GPCR表达、基础活性与光信号的多效性约束",
+          "date": "2026-11-03",
+          "checked": "2026-11-04",
+          "topic": "GPCR / 深度突变扫描 / 构效关系 / 视网膜疾病",
+          "target": "rhodopsin",
+          "summary": "细胞多表型测定结合深度突变扫描评估约2,000种视紫红质单残基替换，同时得到基础活性、光依赖信号和细胞受体丰度约6,000个读数。视黄醛口袋与G蛋白界面的突变容忍度受到多表型联合约束。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Chen、Liu、Chang，PNAS，2026-11-03卷期（2026-10-30在线）；DOI：10.1073/pnas.2624087123。影响因子待官方可靠核实。标题可译为“GPCR视紫红质的深度突变扫描揭示多效性突变及其调节受体信号的作用”。多数GPCR突变研究只测表达或单一信号，但同一突变可能同时改变折叠、基础活性和刺激效能。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者建立细胞多表型测定，将其与深度突变扫描结合，检测约2,000种单残基替换对细胞受体丰度、暗态基础活性和配体/光依赖信号的影响，形成约6,000个功能读数；随后结合结构位置和剂量—反应分析，解释视黄醛结合口袋及G蛋白相互作用界面的进化约束。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "许多变体呈现生物物理多效性，即同时改变多个受体性质，而这些效应并非对称独立。视黄醛口袋和G蛋白界面受到最强联合约束。剂量—反应结果提示约束来自视黄醛的双重角色：光异构化后作为激动因素促进信号，暗态11-cis视黄醛又像反向激动剂压低噪声。因此突变可在增强光响应的同时抬高暗态活性，或保持表达却损害信号。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：提供一种适合GPCR的多维突变扫描框架，避免把低信号一律解释为低表达；也可用于解析疾病变异和工程受体。局限：细胞系统与视杆细胞环境不同；约2,000个替换并非全部6,612种理论错义变体；高通量读数不能替代动力学、偏向性和体内视觉验证。编辑分析：对D1R PAM位点等研究，类似框架应同时测表面表达、基础活性、激动剂剂量反应和多条G蛋白/β‑arrestin通路，才能区分结合位点效应与构象/表达副作用。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "视紫红质进化出的高灵敏度不是单一指标最优，而是在“暗处低噪声、光照强响应、足够表达”之间折中。一个突变通常同时移动多个指标，因此GPCR构效关系需要多维读数，而不能只看一个Emax或一个表达值。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Comprehensive map of missense trafficking variants in rhodopsin（2025）：覆盖6,612种错义变体并聚焦膜运输，是本研究加入信号与基础活性的直接互补。② G-protein activation of dark-state rhodopsin by releasing structural constraints（2026）：通过微开关突变解析暗态活性与疾病联系，为多效性结果提供结构机制。③ 经典视黄醛药理框架：11-cis视黄醛在暗态稳定非活化构象，光异构化后启动转导，本研究把这一双重作用量化为突变容忍约束。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Deep mutational scanning of the GPCR rhodopsin reveals pleiotropic mutational effects｜PNAS｜2026-11-03",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/42961938/"
+            },
+            {
+              "title": "前期｜A comprehensive map of missense trafficking variants in rhodopsin and their response to pharmacologic correction｜2025",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40093169/"
+            },
+            {
+              "title": "前期｜G-protein activation of the dark-state conformation of rhodopsin by releasing critical structural constraints｜2026",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/41775964/"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s42003-026-11279-5",
+          "title": "新生期隔离产生选择性、性别依赖的社交焦虑样和认知表型",
+          "date": "2026-11-03",
+          "checked": "2026-11-04",
+          "topic": "早期逆境 / 社交焦虑 / 认知 / 性别差异",
+          "target": "developmental social experience–mPFC/septal circuits",
+          "summary": "Long Evans大鼠的新生期隔离减少幼年期与陌生同伴的玩耍，却不明显影响与笼友互动；成年后合作减少、攻击增加，传统普遍焦虑测试并未显示一致升高。雌性还表现出更明显的认知和动机缺陷，并伴随mPFC树突棘及代谢变化。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Ham、Hong、Slobodian等，Communications Biology，2026-11-03；DOI：10.1038/s42003-026-11279-5。影响因子待核实，未确认达到>8。标题可译为“早期生活逆境在大鼠中引发社交焦虑、认知缺陷及神经生物学改变”。早期逆境常用成年期旷场或高架十字迷宫评估，但这些终点可能遗漏社会情境特异和发育阶段特异的改变。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者对Long Evans大鼠实施新生期隔离，并跨幼年到成年评估与陌生或熟悉同伴的玩耍、合作、攻击、传统焦虑测试、学习记忆及动机；同时分析mPFC和背外侧隔区神经元结构，以及血液葡萄糖和氨基酸代谢物，并比较雌雄差异。"
+            },
+            {
+              "heading": "原文发现与机制边界",
+              "body": "幼年隔离组与陌生同伴玩耍减少，但与笼友互动近似正常，更符合情境选择性的社交焦虑样表型，而非普遍社交退缩。成年后合作减少、攻击增加；传统焦虑范式未显示广泛焦虑。雌性出现更明显的认知和动机缺陷。隔离还伴随mPFC树突棘密度下降、背外侧隔区性别特异的神经元改变及代谢偏移。原文展示跨域关联，但尚未证明哪项结构或代谢变化直接导致行为。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把熟悉度、发育阶段和性别纳入社交行为，说明“旷场正常”不能排除社交焦虑；也把行为、神经结构和代谢放在同一模型中。局限：动物社交焦虑样不能完全对应人类社交恐惧；多终点增加偶然显著风险；缺少针对mPFC或隔区改变的救援实验。编辑分析：后续应预注册核心终点，并用回路特异操纵或环境干预验证陌生同伴回避是否可逆。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "早期社会剥夺并没有造成所有场景下的“普遍焦虑”，而是改变对陌生同伴的选择、成年合作和攻击，并以性别依赖方式影响认知。社会情境特异测试可能比传统焦虑范式更接近该模型的核心缺陷。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Neonatal isolation augments social dominance by altering actin dynamics in mPFC（PNAS，2016）：把新生期隔离连接到mPFC棘突肌动蛋白和社会支配，是当前结构发现的重要前序。② Social play is critical for prefrontal inhibitory synapses and cognitive flexibility（2022）：显示缺少同伴玩耍会改变mPFC抑制性突触和策略选择。③ Decreased dendritic spine density after postweaning isolation（2003）：奠定社会隔离与mPFC/海马棘突减少的形态学联系。④ Sex differences after prolonged adolescent isolation（2024）：显示Long Evans雌性在焦虑与海马GABA指标上更敏感，支持本研究单独分析性别。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Early-life adversity induces social anxiety and cognitive deficits alongside neurobiological changes in rats｜Communications Biology｜2026-11-03",
+              "url": "https://www.nature.com/articles/s42003-026-11279-5"
+            },
+            {
+              "title": "前期｜Neonatal isolation augments social dominance by altering actin dynamics in the medial prefrontal cortex｜PNAS｜2016",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/27791080/"
+            },
+            {
+              "title": "前期｜Social Play Behavior Is Critical for the Development of Prefrontal Inhibitory Synapses and Cognitive Flexibility in Rats｜2022",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/36253083/"
+            },
+            {
+              "title": "前期｜Decreased dendritic spine density on prefrontal cortical and hippocampal pyramidal neurons in postweaning social isolation rats｜2003",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/12914973/"
+            },
+            {
+              "title": "前期｜Sex differences in behavior and glutamic acid decarboxylase after prolonged social isolation｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38780586/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Aging-related cellular and molecular changes reveal a role for Bglap3+ neurons in MEC spatial cognition｜Nature Communications｜2026-11-03",
+          "url": "https://www.nature.com/articles/s41467-026-78673-9"
+        },
+        {
+          "title": "主文｜Deep mutational scanning of the GPCR rhodopsin reveals pleiotropic mutational effects｜PNAS｜2026-11-03",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42961938/"
+        },
+        {
+          "title": "主文｜Early-life adversity induces social anxiety and cognitive deficits alongside neurobiological changes in rats｜Communications Biology｜2026-11-03",
+          "url": "https://www.nature.com/articles/s42003-026-11279-5"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-11-03",
       "date": "2026-11-03",
