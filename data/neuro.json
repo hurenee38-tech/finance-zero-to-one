@@ -1,8 +1,248 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-11-03T23:03:09.900Z",
+  "updatedAt": "2026-11-04T23:00:00.000Z",
   "items": [
+    {
+      "id": "neuro-2026-11-05",
+      "date": "2026-11-05",
+      "source": "scheduled",
+      "title": "神经生物学简报｜快速视觉学习的单神经元时序与裸盖菇素多实验室复现",
+      "summary": "本期精选2篇Nature Neuroscience原始研究：人类单神经元记录揭示快速视觉学习后的识别先在枕叶皮层通过额外复发处理形成，再延迟到达内侧颞叶；五实验室协作显示裸盖菇素的急性行为效应稳健，但常被报道的持久治疗样效应在既定小鼠范式中有限且不一致。未为凑数加入较低质量文献。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "一项多实验室研究发现：同一剂量裸盖菇素在五个实验室都能复现急性回避增加和恐惧表达下降，却不能稳定复现24小时后的“抗焦虑/抗抑郁样”效应。面对这种结果，你会怎样判断：是药物没有持久效应，还是现有小鼠行为范式没有测到它？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：\n1. 先分清“未复现”与“证明不存在”。多实验室结果强烈削弱了“该剂量在这些范式中产生稳定、普遍持久效应”的命题，但不能排除其他剂量、时窗、环境或更贴近机制的终点。\n2. 看必要证据：预注册的主要终点、足够样本量、实验室×处理的层级模型、阳性对照、给药/代谢暴露确认，以及能证明行为测定本身灵敏的操控。\n3. 看支持证据：急性效应在五个实验室一致，说明药物制备、给药和基本药效大概率有效；持久效应跨实验室波动且总体接近零，则支持“效应较小或依赖条件”。\n4. 待验证假设：24小时以后也许存在突触或回路改变，但常用开放场、强迫游泳、恐惧消退或社交偏好未能捕捉；也可能只有特定应激背景、剂量或个体亚群有行为获益。\n\n一种可行答案：\n我不会写成“裸盖菇素没有持久作用”，而会写成“在2 mg/kg、C57BL/6J小鼠和本研究所用行为范式/时窗下，未发现可跨实验室复现的持久行为效应”。下一步可把药代暴露、5-HT2A占有率、树突棘/回路可塑性和行为终点放在同一动物或同一方案中，检验“生物学改变存在但行为读出不敏感”的解释。\n\n常见误区：\n- 把P>0.05直接当成“零效应已证实”；\n- 只看合并均值，不看实验室间异质性和置信区间；\n- 因为人类临床信号存在，就反推所有小鼠范式都必须阳性；\n- 看到急性回避增加就把它简单译成临床“焦虑恶化”。\n\n自查标准：\n结论是否限定了剂量、物种、时间窗和范式？是否报告效应大小与不确定性，而不只报告显著性？是否提出能区分“真无持久效应”和“测量失灵”的后续实验？开放问题允许多种答案，但每个答案都应对应可证伪的预测。",
+          "collapsed": true
+        },
+        {
+          "heading": "本期选文说明",
+          "body": "仅纳入2篇已核实原始研究，不凑足3篇。两篇均为Nature Neuroscience近期正式文章；期刊影响因子本期未从可确认的官方来源核实，因此统一标注“影响因子待核实”。事实陈述来自论文；涉及开发建议和后续实验的内容明确标为编辑分析。"
+        },
+        {
+          "heading": "论文一｜快速知觉学习",
+          "body": "重点推荐。学习后的Mooney图识别需要额外处理时间；OC群体约300 ms可解码物体身份，MTL约425 ms出现可泛化身份表征。时序支持“新皮层复发处理先完成识别”的模型，但尚不能单靠先后顺序证明因果方向。"
+        },
+        {
+          "heading": "论文二｜裸盖菇素复现边界",
+          "body": "五实验室在统一核心方案下复现了急性回避增加和恐惧表达下降，却未稳定复现24小时后的抗焦虑/抗抑郁样、恐惧消退或社交奖励效应。结论应限定于剂量、品系、时窗与范式，不能外推为临床无效。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Mooney image",
+          "zh": "Mooney双调图像",
+          "meaning": "由高对比黑白区域组成、缺少纹理和灰度线索，常需先验知识才能识别的图像。"
+        },
+        {
+          "en": "Recurrent processing",
+          "zh": "复发处理",
+          "meaning": "神经信号在皮层层级之间或区域内部反复传播，用于逐步消歧和补全知觉。"
+        },
+        {
+          "en": "Population decoding",
+          "zh": "群体解码",
+          "meaning": "利用多个神经元的联合活动预测刺激身份或行为变量的方法。"
+        },
+        {
+          "en": "Cross-condition generalization",
+          "zh": "跨条件泛化",
+          "meaning": "在一种条件训练解码器、到另一条件测试，用于判断两者是否共享表征。"
+        },
+        {
+          "en": "Few-shot learning",
+          "zh": "少样本学习",
+          "meaning": "只凭极少示例形成可泛化识别能力的学习方式。"
+        },
+        {
+          "en": "Multi-site replication",
+          "zh": "多中心复现",
+          "meaning": "多个独立实验室按协调方案检验同一效应，评估稳健性与情境依赖。"
+        },
+        {
+          "en": "Hierarchical model",
+          "zh": "层级模型",
+          "meaning": "同时估计总体处理效应和实验室/个体差异的统计模型。"
+        },
+        {
+          "en": "Fear extinction",
+          "zh": "恐惧消退",
+          "meaning": "反复呈现不再伴随威胁的条件线索，使恐惧反应逐渐下降的学习过程。"
+        },
+        {
+          "en": "Critical-period reopening",
+          "zh": "关键期重开",
+          "meaning": "使成年神经系统暂时恢复发育期样的高可塑性窗口。"
+        },
+        {
+          "en": "Publication bias",
+          "zh": "发表偏倚",
+          "meaning": "阳性结果比阴性结果更易发表，导致文献中的效应被系统性高估。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41593-026-02496-6",
+          "title": "快速学会“看懂”模糊图像后，人类视觉皮层单神经元如何重塑知觉",
+          "date": "2026-11-04",
+          "checked": "2026-11-05",
+          "topic": "快速知觉学习 / 记忆 / 人类单神经元 / 视觉识别",
+          "target": "枕叶皮层—内侧颞叶时序与复发处理",
+          "summary": "癫痫监测患者在一次接触清晰图像后学会识别Mooney双调图；枕叶皮层与内侧颞叶单神经元均出现学习相关编码，但可泛化的物体身份信息先在枕叶皮层约300 ms出现，内侧颞叶约425 ms才出现，支持新皮层复发处理先解决识别、而非必须依赖内侧颞叶反馈的模型。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Armendariz、Blumberg、Singer等，Nature Neuroscience，2026-11-04；DOI：10.1038/s41593-026-02496-6，开放获取。影响因子待官方可靠核实。标题可译为“快速学习视觉信息的单神经元编码重塑人类知觉”。Mooney图像在未提示时通常难以辨认，但看过对应灰度图后可被迅速识别，适合检验一次学习如何改变视觉表征。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "研究问题是：一次学习后，人脑在哪些区域、以什么时序把贫乏视觉输入转化为可识别物体？作者在接受临床颅内监测的参与者中，同时记录枕叶皮层（OC）和内侧颞叶（MTL）单神经元活动；比较学习前后Mooney图与对应灰度图的行为识别、神经元选择性、响应潜伏期和群体解码/跨条件泛化。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "学习后，参与者对Mooney图的识别接近全或无式改善。OC与MTL神经元均调制放电并编码新学到的视觉信息；OC对已学Mooney图的物体身份解码约在300 ms出现，MTL约在425 ms出现。相较灰度图，OC与MTL均需额外约100 ms处理。作者据此提出：OC及其他高级新皮层区域的复发处理先完成图像补全，信息随后到达MTL；本数据不要求MTL向视觉皮层反馈才能解释快速识别。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：在人类单细胞尺度把“一次看懂”连接到跨区域时间动力学，并为少样本学习的生物模型提供约束。局限：受试者是临床患者、记录覆盖受电极位置限制；时序先后不能证明因果方向；注意、决策与短时记忆可能参与刺激后解码；研究针对Mooney图，未必推广到所有快速学习。编辑分析：可用闭环刺激或皮层—MTL方向性干预验证OC复发处理是否必要，并据此优化视觉康复和类脑少样本识别模型。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "人类只看一次清晰版本，就可能学会从极度贫乏的图像中认出物体。神经元记录显示，学习后的识别并非瞬时读取：视觉皮层需要更长的复发计算来补全身份，随后较抽象的信息才进入记忆相关的MTL。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Dolan等（Nature，1997）用脑成像研究贫乏情境中的物体/人脸识别，是Mooney范式的重要先导。② Kreiman等（Nature，2000）发现人MTL单神经元对视觉类别和个体的选择性，奠定抽象视觉表征基础。③ Ison等（Neuron，2015）显示人MTL单神经元可快速建立新的概念关联，代表另一类依赖MTL的单次学习。④ Armendariz等（bioRxiv，2025）是本研究预印本，可用于核对版本演进。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Neuroscience｜2026-11-04",
+              "url": "https://www.nature.com/articles/s41593-026-02496-6"
+            },
+            {
+              "title": "前期｜How the brain learns to see objects and faces in an impoverished context｜Nature｜1997",
+              "url": "https://doi.org/10.1038/37584"
+            },
+            {
+              "title": "前期｜Category-specific visual responses of single neurons in the human medial temporal lobe｜Nature｜2000",
+              "url": "https://doi.org/10.1038/35020009"
+            },
+            {
+              "title": "前期｜Rapid Encoding of New Memories by Individual Neurons in the Human Brain｜Neuron｜2015",
+              "url": "https://doi.org/10.1016/j.neuron.2015.06.016"
+            },
+            {
+              "title": "预印本｜bioRxiv｜2025",
+              "url": "https://doi.org/10.1101/2025.08.04.668333"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02500-z",
+          "title": "五实验室协作检验裸盖菇素小鼠行为效应：急性效应稳健，持久效应有限且不一致",
+          "date": "2026-11-02",
+          "checked": "2026-11-05",
+          "topic": "裸盖菇素 / 5-HT2A相关药理 / 行为复现 / 药物开发",
+          "target": "psilocybin（2 mg/kg，腹腔注射）及其跨实验室可重复行为效应",
+          "summary": "五个独立实验室在统一核心方案下测试裸盖菇素。约给药10分钟时，回避/焦虑相关行为增加、恐惧表达下降可重复；但24小时至4天的抗焦虑样、抗抑郁样、恐惧消退及社交奖励关键期效应未能稳定复现，提示前临床持久效应可能较小或高度依赖条件。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Lu、White、Ly等，Nature Neuroscience，2026-11-02；DOI：10.1038/s41593-026-02500-z，开放获取。影响因子待官方可靠核实。标题可译为“裸盖菇素小鼠行为效应的多机构研究”。迷幻药前临床研究常由单实验室、小样本完成，持久行为获益的稳健性尚不确定。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "研究问题是：裸盖菇素哪些急性或持续行为效应能跨实验室复现？五个实验室预先统一2 mg/kg腹腔注射、C57BL/6J、雌雄均纳入及主要范式，同时保留设备尺寸、昼夜周期等现实差异。各实验测试急性（约10分钟）与持续（至少24小时）效应，覆盖接近—回避、探索、社交、抑郁相关行为、恐惧消退和社交奖励学习；单项实验总样本约200只。"
+            },
+            {
+              "heading": "原文发现与机制边界",
+              "body": "急性增加回避/焦虑相关行为和降低恐惧表达在实验室间较稳健；24小时后未观察到可重复的抗焦虑样、抗抑郁样或恐惧消退促进，也未复现社交偏好改变或成人社交奖励关键期重开。研究证明的是特定剂量、品系、时窗和范式下的可重复性边界；它没有直接测定5-HT2A占有率、神经回路或结构可塑性，因此不能据此断言裸盖菇素不存在持久神经生物学效应。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：以多实验室、约200只/实验的协作设计估计真实效应及异质性，为迷幻药前临床开发建立更高复现门槛。局限：单一剂量与给药途径；健康C57BL/6J小鼠不等同于患者或疾病模型；常用“焦虑/抑郁样”范式的临床对应性有限；实验室差异既提升外部效度，也可能稀释条件依赖效应。编辑分析：后续应把药代/受体占有、突触与回路指标、行为终点和层级统计预注册整合，明确哪些生物标志能预测持久获益。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "裸盖菇素在小鼠中确有容易复现的急性行为作用，但许多被广泛讨论的隔日或更久“治疗样”效应，在五个实验室中并不稳定。对开发者而言，这不是简单否定药物，而是要求把剂量、背景、终点和机制标志说清楚。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Ly等（Cell Reports，2018）显示经典迷幻药促进神经突起与突触可塑性，构成持久效应的细胞机制背景。② Shao等（Neuron，2021）报告单次裸盖菇素促进额叶树突棘生长，为结构可塑性提供体内证据。③ Nardou等（Nature，2023）提出迷幻药可重开社交奖励学习关键期；本研究直接检验但未在其条件下复现该行为现象。④ 2025年预印本/PMC版本记录了本多实验室项目的早期公开结果。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Neuroscience｜2026-11-02",
+              "url": "https://www.nature.com/articles/s41593-026-02500-z"
+            },
+            {
+              "title": "前期｜Psychedelics Promote Structural and Functional Neural Plasticity｜Cell Reports｜2018",
+              "url": "https://doi.org/10.1016/j.celrep.2018.05.022"
+            },
+            {
+              "title": "前期｜Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo｜Neuron｜2021",
+              "url": "https://doi.org/10.1016/j.neuron.2021.06.008"
+            },
+            {
+              "title": "前期｜Psychedelics reopen the social reward learning critical period｜Nature｜2023",
+              "url": "https://doi.org/10.1038/s41586-023-06204-3"
+            },
+            {
+              "title": "早期公开版本｜PMC",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12027077/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Nature Neuroscience｜2026-11-04",
+          "url": "https://www.nature.com/articles/s41593-026-02496-6"
+        },
+        {
+          "title": "前期｜How the brain learns to see objects and faces in an impoverished context｜Nature｜1997",
+          "url": "https://doi.org/10.1038/37584"
+        },
+        {
+          "title": "前期｜Category-specific visual responses of single neurons in the human medial temporal lobe｜Nature｜2000",
+          "url": "https://doi.org/10.1038/35020009"
+        },
+        {
+          "title": "前期｜Rapid Encoding of New Memories by Individual Neurons in the Human Brain｜Neuron｜2015",
+          "url": "https://doi.org/10.1016/j.neuron.2015.06.016"
+        },
+        {
+          "title": "预印本｜bioRxiv｜2025",
+          "url": "https://doi.org/10.1101/2025.08.04.668333"
+        },
+        {
+          "title": "主文｜Nature Neuroscience｜2026-11-02",
+          "url": "https://www.nature.com/articles/s41593-026-02500-z"
+        },
+        {
+          "title": "前期｜Psychedelics Promote Structural and Functional Neural Plasticity｜Cell Reports｜2018",
+          "url": "https://doi.org/10.1016/j.celrep.2018.05.022"
+        },
+        {
+          "title": "前期｜Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo｜Neuron｜2021",
+          "url": "https://doi.org/10.1016/j.neuron.2021.06.008"
+        },
+        {
+          "title": "前期｜Psychedelics reopen the social reward learning critical period｜Nature｜2023",
+          "url": "https://doi.org/10.1038/s41586-023-06204-3"
+        },
+        {
+          "title": "早期公开版本｜PMC",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12027077/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-11-04",
       "date": "2026-11-04",
