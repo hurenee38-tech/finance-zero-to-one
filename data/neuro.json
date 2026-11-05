@@ -1,8 +1,235 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-11-04T23:00:00.000Z",
+  "updatedAt": "2026-11-05T23:00:44.000Z",
   "items": [
+    {
+      "id": "neuro-2026-11-06",
+      "date": "2026-11-06",
+      "source": "scheduled",
+      "title": "神经生物学简报｜GBS脑脊液T细胞图谱与tau相关慢波传播障碍",
+      "summary": "本期精选2篇原始研究：Brain新文用单细胞RNA和TCR测序揭示GBS促炎T细胞在脑脊液中的区室化激活及IVIg后探索性变化；Nature Neuroscience研究把额叶tau负荷、NREM慢波传播破坏和隔夜记忆下降连接起来。未以低影响或低相关论文凑足3篇。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "GBS研究发现，IVIg治疗后脑脊液中的Th1和活化效应记忆T细胞减少，Th2与调节性T细胞增加；但治疗后脑脊液样本只有3例，而且所有患者都接受了治疗。怎样判断这些变化是IVIg真正造成的免疫重塑，而不是疾病自然缓解、重复腰穿选择偏倚或统计波动？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：\n1. 先明确现有设计能回答什么：同一患者治疗前后发生了变化，但“时间变化”和“治疗效应”完全重合，所以只能形成治疗相关线索，不能单独建立因果。\n2. 必要证据：最好设置同期、疾病严重度匹配的对照轨迹，例如因临床安排而延迟给药的极短时间窗、另一种标准治疗（血浆置换）或独立队列；同时固定发病—采样间隔，并进行重复采样。不能为了研究目的延误必要治疗。\n3. 统计上应使用患者配对模型，并把细胞数当作患者内重复，而不是把数千个细胞误当成数千个独立样本。最基本的层级形式可写为：\n   细胞状态 ~ 时间/治疗 + 病情严重度 + 发病天数 + (1|患者)\n   其中“(1|患者)”表示每位患者有自己的基线。\n4. 支持证据：血清/脑脊液IVIg暴露、Fc受体或补体通路变化与细胞状态同步；体外用IVIg处理患者细胞能部分复制转录变化；临床改善幅度与Th1下降相关。\n5. 待验证假设：IVIg可能通过直接抑制致病克隆、改变抗原呈递或调节髓系细胞，间接推动T细胞由Th1向调节状态转变。不同机制需要不同实验验证。\n\n一种可行答案：\n目前最稳妥的结论是“治疗后CSF免疫状态出现探索性变化，与IVIg作用相容”，而不是“IVIg已被证明重塑CSF T细胞”。若独立队列中变化在给药后快速出现、超过未经同等时间观察的自然病程变化，并且与IVIg暴露和临床改善呈剂量—反应关系，因果可信度才会明显提高。\n\n常见误区：\n- 把3名患者的数千个细胞当作数千个独立生物学重复；\n- 把前后差异自动归因于治疗；\n- 只保留成功完成二次腰穿的人，忽略其与未复查患者可能不同；\n- 因TCR序列“预测”病原体特异性，就称其已经被功能实验证实。\n\n自查标准：\n结论是否明确写出患者数而非只写细胞数？是否区分配对变化、自然病程和治疗效应？是否给出可伦理实施的对照方案？是否把序列预测、相关性和功能验证分别表述？",
+          "collapsed": true
+        },
+        {
+          "heading": "本期选文说明",
+          "body": "本期纳入2篇经核实原始研究，不凑数。GBS论文于2026-11-05在线发表；tau论文最初在线于2026-09-11、现进入2026年11月卷期，日期已明确区分。期刊影响因子未从本期可确认的官方来源核实，统一标注“影响因子待核实”。"
+        },
+        {
+          "heading": "论文一｜GBS神经免疫区室",
+          "body": "重点推荐。GBS的关键变化不是血液T细胞简单全面扩增，而是Th1样CD4+、活化/驻留记忆CD8+等群体在CSF内呈更强激活状态。IVIg后的CSF变化具有机制启发，但样本极小且缺少同期未治疗对照。"
+        },
+        {
+          "heading": "论文二｜tau、慢波传播与记忆",
+          "body": "额叶tau负荷与慢波群体同步和皮层传播受损相关，后者又连接隔夜记忆保持下降。研究提出可干预的睡眠动力学表型，但统计中介不能替代因果实验。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Compartmentalized immune response",
+          "zh": "区室化免疫反应",
+          "meaning": "免疫细胞在CSF等特定解剖区室呈现不同于外周血的组成或活化状态。"
+        },
+        {
+          "en": "Paired TCR sequencing",
+          "zh": "配对T细胞受体测序",
+          "meaning": "同时读取单个T细胞的转录组和TCR序列，用于连接细胞状态与克隆身份。"
+        },
+        {
+          "en": "Clonotype",
+          "zh": "克隆型",
+          "meaning": "具有相同或高度相似TCR序列、通常来源于共同克隆扩增的一组T细胞。"
+        },
+        {
+          "en": "Effector-memory T cell",
+          "zh": "效应记忆T细胞",
+          "meaning": "能够快速产生效应功能、并保留既往抗原经历的记忆T细胞亚群。"
+        },
+        {
+          "en": "Pseudoreplication",
+          "zh": "伪重复",
+          "meaning": "把同一患者的许多细胞误当成彼此独立样本，从而夸大统计证据。"
+        },
+        {
+          "en": "Traveling slow wave",
+          "zh": "传播性慢波",
+          "meaning": "NREM睡眠中从额叶等起点沿皮层有组织传播的低频电活动。"
+        },
+        {
+          "en": "Slow-wave unity",
+          "zh": "慢波群体同步性",
+          "meaning": "多个慢波事件是否成群、协调出现，而非彼此孤立的特征。"
+        },
+        {
+          "en": "Mediation analysis",
+          "zh": "中介分析",
+          "meaning": "检验一个变量是否在统计上连接暴露与结局；它本身不能证明生物学因果。"
+        },
+        {
+          "en": "Overnight memory consolidation",
+          "zh": "隔夜记忆巩固",
+          "meaning": "睡眠期间新记忆被稳定和重组，使次日保持更好的过程。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1093-brain-awag379",
+          "title": "GBS脑脊液T细胞的区室化激活及IVIg治疗后变化",
+          "date": "2026-11-05",
+          "checked": "2026-11-06",
+          "topic": "Guillain–Barré综合征 / 神经免疫 / 单细胞转录组 / TCR克隆",
+          "target": "CSF Th1、效应记忆CD8+ T细胞与IVIg相关免疫变化",
+          "summary": "前瞻性队列对治疗前后的血液和脑脊液进行单细胞RNA及配对TCR测序。GBS脑脊液富集Th1样CD4+、活化/组织驻留记忆CD8+细胞和炎性巨噬细胞；IVIg后CSF而非外周血出现较明显的免疫状态变化，但治疗后CSF仅3例，结论属于探索性关联。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Morrison等，Brain，2026-11-05在线发表；DOI：10.1093/brain/awag379。影响因子待官方可靠核实。标题可译为“Guillain–Barré综合征中失调的脑脊液T细胞反应及其在静脉注射免疫球蛋白治疗后的演变”。GBS常由感染触发，但致病T细胞究竟在外周血还是神经系统邻近区室中保持活化，以及IVIg如何改变这些细胞，仍不清楚。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "研究纳入未经治疗的GBS患者，治疗前获得9份血液和8份CSF；IVIg后获得6份血液、3份CSF，并调用既往健康对照单细胞数据。作者开展scRNA-seq与配对TCR测序，比较血液—CSF的细胞组成、转录状态、TCR克隆性及治疗前后克隆变化；还用序列方法预测部分扩增克隆的病原体特异性。"
+            },
+            {
+              "heading": "原文发现与机制边界",
+              "body": "相对配对血液，GBS的CSF富集Th1极化CD4+细胞、活化及组织驻留记忆CD8+细胞和巨噬细胞；这种区室差异在部分群体中强于健康对照。总体T细胞克隆扩增程度并未显著普遍增加，提示关键可能是CSF内状态激活而非单纯克隆数量。IVIg后，外周血变化有限，CSF中Th1/活化效应记忆状态下降、Th2和Treg增加并伴随克隆谱变化。原文数据与IVIg相关免疫重塑相容，但没有无治疗的同期对照，且治疗后CSF仅3例，不能排除自然病程。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把GBS免疫学从外周血推进到CSF区室，并将转录状态与TCR克隆身份连接，为疗效标志物和致病克隆追踪提供候选。局限：队列小、复查CSF尤其有限；健康对照来自既往数据，批次和人群差异可能影响比较；病原体特异性主要为序列预测；观察性前后比较不能确证IVIg机制。编辑分析：应在独立队列中进行患者层级统计、固定发病—采样窗口，并用抗原刺激和单克隆TCR功能实验验证候选克隆。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "GBS并非简单表现为血液中T细胞全面扩增；更突出的现象是某些促炎T细胞在CSF内进入更活跃状态。治疗后CSF免疫图谱可能向较少Th1、更多调节性状态移动，但这一线索仍需要更大规模纵向验证。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Autoreactive T cells target peripheral nerves in GBS（Nature，2024）：以抗原筛选、单细胞和TCR测序发现识别周围神经髓鞘抗原的Th1样记忆T细胞，是本研究追踪CSF克隆的直接机制基础。② Single cell transcriptome profiling of PBMCs in GBS（Scientific Data，2026）：描绘外周血T细胞—趋化因子轴，和本研究强调的CSF区室化形成互补。③ 经典GBS免疫治疗证据确立IVIg与血浆置换为标准治疗背景，但本研究进一步追问其细胞层作用。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Dysregulated CSF T-cell responses and their evolution after IVIg in GBS｜Brain｜2026-11-05",
+              "url": "https://academic.oup.com/brain/advance-article/doi/10.1093/brain/awag379/9012882"
+            },
+            {
+              "title": "前期｜Autoreactive T cells target peripheral nerves in Guillain–Barré syndrome｜Nature｜2024",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/38233524/"
+            },
+            {
+              "title": "前期｜Single cell transcriptome profiling of PBMCs in GBS｜Scientific Data｜2026",
+              "url": "https://www.nature.com/articles/s41597-026-07489-5"
+            },
+            {
+              "title": "临床背景｜Guillain–Barré syndrome review｜Nature Reviews Disease Primers",
+              "url": "https://doi.org/10.1038/s41572-019-0106-9"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41593-026-02415-9",
+          "title": "额叶tau病理与“孤立、不能传播”的睡眠慢波共同指向记忆受损",
+          "date": "2026-09-11",
+          "checked": "2026-11-06",
+          "topic": "阿尔茨海默病 / tau / 睡眠慢波 / 记忆巩固",
+          "target": "额叶tau—NREM慢波传播—隔夜记忆通路",
+          "summary": "两个人体队列结合睡眠EEG、tau PET或CSF病理标志物与隔夜记忆测试，发现额叶tau负荷与慢波群体同步及皮层传播受损相关；慢波传播异常在统计上连接tau与记忆保持下降。研究支持一种中介模型，但观察性数据不能证明改善慢波会降低tau或逆转记忆损伤。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与日期说明",
+              "body": "Sharon、Chen、Dude等，Nature Neuroscience；最初在线发表日期为2026-09-11，收录于2026年11月卷期；DOI：10.1038/s41593-026-02415-9。影响因子待官方可靠核实。标题可译为“人类tau病理与孤立、无法传播的慢波有关，并与记忆损害相联系”。本期纳入是因其进入11月卷期且尚未在知识库收录，未将卷期日期冒充首发日期。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "研究检验：tau病理是否与NREM慢波不能在皮层形成大规模同步和旅行传播有关，以及这种睡眠动力学异常是否连接隔夜记忆下降。作者在一组老年受试者中结合临床EEG、tau PET和记忆保持测试，并在独立临床队列中用CSF AD病理标志物进行复制和扩展；分析慢波是否成群出现、是否从额叶向后部皮层传播及其与记忆的关系。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "额叶tau负荷较高者更常出现“孤立”的慢波，慢波跨皮层传播能力也较差；异常主要指向额叶。较差的慢波传播与隔夜记忆保持下降相关，中介分析提示tau与记忆的关系部分通过慢波组织受损体现；独立CSF标志物队列支持方向一致的结果。原文证明的是人体关联及统计中介，而不是tau直接破坏慢波传播的细胞机制。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：不再只计算慢波总量或功率，而把空间传播与群体协同作为AD相关睡眠表型，并在两种病理测量框架中复制。局限：观察性横断面/队列分析仍可能受年龄、脑萎缩、药物和睡眠呼吸障碍混杂；统计中介不等于生物学因果；头皮EEG空间分辨率有限。编辑分析：闭环慢波增强实验若能改善传播并提高隔夜记忆，可验证功能可塑性；但要证明疾病修饰，还需长期观察tau累积而非只看短期记忆。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "正常慢波不是各电极独立起伏，而会成群并在皮层上传播。额叶tau较多的人，这种协同和传播被打散，慢波更像彼此孤立的局部事件；这种异常又与记忆保留较差相关。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Sleep as a potential biomarker of tau and Aβ burden（Journal of Neuroscience，2019）：把慢振荡—睡眠纺锤耦合与内侧颞叶tau联系起来，提供生物标志物基础。② Timely coupling of sleep spindles and slow waves linked to early Aβ burden（Nature Communications，2022）：显示睡眠微结构耦合与Aβ及随后记忆下降有关。③ Slow-wave sleep disruption increases CSF Aβ（Brain，2017）：实验性扰乱慢波后CSF Aβ升高，为睡眠—蛋白病理双向关系提供干预证据。④ Sleep reduces CSF Aβ and tau（2025随机交叉研究）：支持睡眠状态会影响CSF蛋白水平，但样本小且尚不能证明长期疾病修饰。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Human tau pathology is associated with lonely, nontraveling slow waves linked to memory impairment｜Nature Neuroscience｜2026-09-11",
+              "url": "https://www.nature.com/articles/s41593-026-02415-9"
+            },
+            {
+              "title": "前期｜Sleep as a Potential Biomarker of Tau and β-Amyloid Burden｜J Neurosci｜2019",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/31209175/"
+            },
+            {
+              "title": "前期｜Timely coupling of sleep spindles and slow waves linked to early amyloid-β burden｜Nature Communications｜2022",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/35638265/"
+            },
+            {
+              "title": "前期｜Slow wave sleep disruption increases CSF amyloid-β levels｜Brain｜2017",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/28899014/"
+            },
+            {
+              "title": "前期｜Sleep reduces CSF concentrations of beta-amyloid and tau｜2025",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40830882/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜Dysregulated CSF T-cell responses and their evolution after IVIg in GBS｜Brain｜2026-11-05",
+          "url": "https://academic.oup.com/brain/advance-article/doi/10.1093/brain/awag379/9012882"
+        },
+        {
+          "title": "前期｜Autoreactive T cells target peripheral nerves in Guillain–Barré syndrome｜Nature｜2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38233524/"
+        },
+        {
+          "title": "前期｜Single cell transcriptome profiling of PBMCs in GBS｜Scientific Data｜2026",
+          "url": "https://www.nature.com/articles/s41597-026-07489-5"
+        },
+        {
+          "title": "临床背景｜Guillain–Barré syndrome review｜Nature Reviews Disease Primers",
+          "url": "https://doi.org/10.1038/s41572-019-0106-9"
+        },
+        {
+          "title": "主文｜Human tau pathology is associated with lonely, nontraveling slow waves linked to memory impairment｜Nature Neuroscience｜2026-09-11",
+          "url": "https://www.nature.com/articles/s41593-026-02415-9"
+        },
+        {
+          "title": "前期｜Sleep as a Potential Biomarker of Tau and β-Amyloid Burden｜J Neurosci｜2019",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/31209175/"
+        },
+        {
+          "title": "前期｜Timely coupling of sleep spindles and slow waves linked to early amyloid-β burden｜Nature Communications｜2022",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35638265/"
+        },
+        {
+          "title": "前期｜Slow wave sleep disruption increases CSF amyloid-β levels｜Brain｜2017",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28899014/"
+        },
+        {
+          "title": "前期｜Sleep reduces CSF concentrations of beta-amyloid and tau｜2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40830882/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-11-05",
       "date": "2026-11-05",
