@@ -1,8 +1,297 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-11-05T23:00:44.000Z",
+  "updatedAt": "2026-11-06T22:55:58.000Z",
   "items": [
+    {
+      "id": "neuro-2026-11-07",
+      "date": "2026-11-07",
+      "source": "scheduled",
+      "title": "神经生物学简报｜α‑突触核蛋白回路补偿、海马干扰维度转换与卒中后抑郁网络",
+      "summary": "本期收录3篇11月6日发表的原始研究：Lewy样皮层病理在单细胞层面造成低活动却未立即损害行为；CA3/DG按当前记忆干扰维度动态推开相似表征；四国多队列研究把卒中后抑郁较稳定地定位到右额叶—皮层下断连网络。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "在早期Lewy样病理模型中，含α‑突触核蛋白胞体包涵体的V1神经元活动下降，邻近无包涵体神经元活动反而升高，但小鼠的运动方向辨别行为仍正常。怎样判断行为被保留是因为局部回路发生了“补偿”，而不是病理负荷太轻、任务太简单或行为检测不够灵敏？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：\n1. “行为正常”并不自动等于“回路成功补偿”。至少存在四种解释：真正的网络补偿、病理尚未达到阈值、任务存在天花板效应、或者受损功能并非该任务所依赖的关键变量。\n2. 必要证据：先证明邻近神经元活动增强发生在功能保持之前，并且与个体病理负荷和表现存在定量关系；再选择性阻断这部分增强，观察行为是否暴露缺陷。只有“阻断候选补偿→行为变差”才能较强支持必要性。\n3. 支持证据：提高任务难度、降低刺激相干度或加入噪声后，PFF组比对照更早失效；群体解码仍能保持方向信息；增强活动集中在能恢复编码几何的细胞，而不是无选择性的高兴奋。\n4. 待验证假设：局部无包涵体神经元可能通过突触重加权、抑制性网络变化或输入增强维持输出，也可能只是病理导致的失稳/过度兴奋，并非有益适应。\n5. 一个可操作的判别设计：\n   - 建立病理负荷×任务难度矩阵；\n   - 同时记录单细胞、群体解码和行为；\n   - 用闭环抑制选择性压低“高活动无包涵体神经元”；\n   - 检验行为及方向选择性是否特异下降；\n   - 再用增强同类活动的救援实验检验充分性。\n\n一种可行答案：\n目前可称为“与补偿相符的回路变化”，不能直接写成“补偿已经证明”。若邻近神经元活动增强能预测行为保持，阻断增强后才出现视觉缺陷，而恢复该活动又能救援表现，补偿解释才具有必要性和充分性证据。\n\n常见误区：\n- 以无显著差异证明两组行为完全等价；\n- 用单一、低难度任务排除认知缺陷；\n- 把邻近神经元高活动预设为有益，而不检查它是否降低选择性或增加噪声；\n- 忽略PFF模型的稀疏病理与人类广泛皮层病理并不等价。\n\n自查标准：\n是否检验了任务灵敏度和等效性界值？是否同时分析信息编码而非仅看平均钙信号？是否用干预证明候选补偿对行为是必要的？开放问题可以有不同答案，但每种解释都应给出可区分的实验预测。",
+          "collapsed": true
+        },
+        {
+          "heading": "本期选文说明",
+          "body": "纳入3篇均于2026-11-06发表的原始研究，覆盖神经退行性疾病、记忆机制和卒中后情绪障碍。期刊影响因子本期未从可确认的官方来源可靠核实，因此均标注“影响因子待核实”；未以推测数字替代。事实来自论文，补偿、转化与后续实验建议均标为编辑分析。"
+        },
+        {
+          "heading": "论文一｜α‑突触核蛋白与早期皮层回路",
+          "body": "重点推荐。含Lewy样胞体包涵体的V1神经元视觉反应下降，邻近无包涵体细胞出现相反活动变化，行为暂时保持。现阶段只能称“与补偿相符”，尚未通过选择性干预证明。"
+        },
+        {
+          "heading": "论文二｜海马动态解决记忆干扰",
+          "body": "CA3/DG并非固定地分离所有相似输入，而是在某个视觉相似维度当前造成干扰时，暂时反转该维度的表征结构；干扰焦点随学习转移，海马转换的维度也随之改变。"
+        },
+        {
+          "heading": "论文三｜卒中后抑郁的网络定位",
+          "body": "四个队列共1,864例的贝叶斯分析最支持右额叶病灶和右优势额叶—皮层下结构断连，同时对大片左半球和其他区域给出支持无关联的证据。病灶网络只是风险因素之一，不能替代临床诊断。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Pre-formed fibril (PFF)",
+          "zh": "预成纤维",
+          "meaning": "体外制备的聚集蛋白纤维，可在组织内诱导内源蛋白播种和聚集。"
+        },
+        {
+          "en": "Cell-autonomous hypoactivity",
+          "zh": "细胞自主性低活动",
+          "meaning": "病理所在神经元自身活动下降，而非仅由周围网络间接造成。"
+        },
+        {
+          "en": "Coherent motion discrimination",
+          "zh": "相干运动辨别",
+          "meaning": "从含噪点阵中判断整体运动方向，用于检测视觉整合能力。"
+        },
+        {
+          "en": "Compensatory circuit change",
+          "zh": "回路补偿性改变",
+          "meaning": "在局部损伤后可能维持网络输出的适应性活动变化，需干预证明其有益作用。"
+        },
+        {
+          "en": "Memory interference",
+          "zh": "记忆干扰",
+          "meaning": "相似经验相互竞争，导致学习或提取错误。"
+        },
+        {
+          "en": "Representational repulsion",
+          "zh": "表征排斥",
+          "meaning": "神经系统把高度相似的输入编码得比原始输入更不相似。"
+        },
+        {
+          "en": "Pattern separation",
+          "zh": "模式分离",
+          "meaning": "将重叠输入转换为较少重叠的神经表征，以减少记忆混淆。"
+        },
+        {
+          "en": "Bayes factor mapping",
+          "zh": "贝叶斯因子映射",
+          "meaning": "逐位置比较数据对“有关联”和“无关联”假设的相对支持强度。"
+        },
+        {
+          "en": "Structural disconnection",
+          "zh": "结构断连",
+          "meaning": "病灶切断白质通路，使远隔脑区间的解剖通信受损。"
+        },
+        {
+          "en": "Diaschisis",
+          "zh": "远隔效应",
+          "meaning": "局灶病变通过网络连接引起远端脑区功能下降。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41531-026-01619-x",
+          "title": "早期Lewy样皮层病理：包涵体神经元低活动、邻近回路重排而行为暂时保留",
+          "date": "2026-11-06",
+          "checked": "2026-11-07",
+          "topic": "Lewy体痴呆 / α-突触核蛋白 / 视觉皮层 / 回路补偿",
+          "target": "α-synuclein PFF与V1 L2/3回路",
+          "summary": "作者向小鼠V1注射α-syn PFF并纵向进行双光子钙成像。含胞体Lewy样包涵体的神经元视觉诱发活动下降，邻近无包涵体细胞活动随局部病理负荷升高；群体方向选择性下降，但运动方向辨别行为至6个月仍保持，提示早期病理存在回路重排而非立即产生可测行为缺陷。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Theint、Cazares、Zhang等，npj Parkinson’s Disease，2026-11-06；DOI：10.1038/s41531-026-01619-x，开放获取。影响因子待官方可靠核实。标题可译为“皮层α‑突触核蛋白病理导致神经元低活动与回路变化，但在早期Lewy体痴呆模型中尚未造成行为功能损害”。LBD后部皮层病理与视觉空间障碍相关，但单个包涵体如何影响活体回路及何时跨越行为阈值仍不清楚。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者在小鼠初级视觉皮层注射α-syn预成纤维（PFF），诱导稀疏Lewy样病理；持续6个月用清醒双光子钙成像追踪L2/3锥体神经元的自发和视觉诱发活动。聚集α-syn由荧光配体C05-05定位，并用头固定相干运动辨别任务测试视觉知觉。"
+            },
+            {
+              "heading": "原文发现与机制边界",
+              "body": "4–5个月时，PFF组视觉响应细胞比例增加，但方向选择性下降。带较大胞体包涵体的神经元活动低于邻近无包涵体细胞；无包涵体细胞活动反而随局部病理负荷升高。至6个月，相干运动辨别未出现显著损害。事实支持“细胞自主低活动＋局部群体反向变化”；把后者解释为补偿是合理但尚未经干预证明的推断。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：在同一活体细胞层面把可视化α-syn聚集、长期钙活动和行为连接起来，显示病理—回路—行为并非同步恶化。局限：病理稀疏且由V1局部PFF诱导；钙信号不是放电的直接等价物；单一视觉任务可能不够敏感；未选择性干预高活动邻近细胞。编辑分析：未来应建立病理负荷和任务难度梯度，并以闭环操控验证所谓补偿是否维持群体解码与行为。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "α-syn包涵体能直接压低所在神经元的视觉反应，但局部网络并非整体沉默：未形成胞体包涵体的邻近神经元出现相反的活动变化。早期阶段行为仍可正常，说明细胞病理出现并不必然立即转化为可见认知缺陷。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Cortical circuit dysfunction in a mouse model of alpha-synucleinopathy in vivo（2021）：纹状体PFF后在体感皮层发现高活动、同步增强和抑制细胞减少，为皮层网络失衡提供早期证据。② 本研究2025年bioRxiv版本记录了正式发表前的分析。③ 人体LBD研究长期把后部皮层α-syn病理与视觉空间症状相联系，本研究提供单细胞因果模型入口。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜npj Parkinson’s Disease｜2026-11-06",
+              "url": "https://www.nature.com/articles/s41531-026-01619-x"
+            },
+            {
+              "title": "前期｜Cortical circuit dysfunction in a mouse model of alpha-synucleinopathy in vivo｜2021",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34877534/"
+            },
+            {
+              "title": "预印本｜bioRxiv｜2025",
+              "url": "https://doi.org/10.1101/2025.07.31.668024"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-79331-w",
+          "title": "海马CA3/DG按当前干扰维度动态“推开”相似记忆",
+          "date": "2026-11-06",
+          "checked": "2026-11-07",
+          "topic": "海马 / 记忆干扰 / 模式分离 / 高分辨率fMRI",
+          "target": "CA3与齿状回的维度选择性表征排斥",
+          "summary": "研究用神经网络、AI模型和人类判断分解自然场景的视觉相似性，再以高分辨率fMRI观察海马亚区。两个正交相似维度在学习不同阶段分别引发干扰；CA3/DG只在某一维度当前导致干扰时反转该维度的相似性结构，而在其不相关时保留相似性。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Mirjalili、Guo、Grätz等，Nature Communications，2026-11-06；DOI：10.1038/s41467-026-79331-w，开放获取。影响因子待官方可靠核实。标题可译为“海马表征沿记忆干扰的相关维度发生转换”。传统模式分离理论强调把相似输入变得不相似，但既往人类研究的输入—输出曲线并不一致。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者创建两类自然场景，并用多种神经网络、生成式/表征AI模型以及人类知觉和记忆判断，提取两个相互正交的视觉相似维度。行为实验确定两个维度分别在学习早期和后期预测记忆干扰；随后以高分辨率fMRI测量CA3/DG、CA1及视觉区的模式相似性，检验各维度在不同学习阶段如何被转换。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "两个相似维度依次而非同时主导记忆干扰。当某一维度正在造成干扰时，CA3/DG对该维度呈负向输入—输出关系，即相似输入被表征为更不相似的“repulsion”；当该维度不再影响行为时，CA3/DG保留正向相似性。CA1未呈现相同模式。结果支持CA3/DG并非固定执行全局模式分离，而是选择性放大当前最易混淆的差异。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：把相互矛盾的海马相似性结果统一到“学习阶段×相关维度”框架，并说明记忆干扰可能一次解决一个维度。局限：fMRI不能区分DG与CA3的细胞机制；视觉场景任务未必推广到情景记忆全部成分；AI相似度维度是数据驱动表征，生物学解释仍需验证。编辑分析：老龄化或早期AD是否失去这种动态维度选择，可能比单一模式分离分数更敏感。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "海马并不会把所有相似信息一概推开。它似乎先识别当前真正造成记忆混淆的维度，只对该维度扩大表征距离；随着学习推进，干扰焦点转移，海马转换的维度也随之改变。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Pattern separation in human CA3/DG（Science，2008）：用高分辨率fMRI确立人类CA3/DG的模式分离偏向，是本研究的奠基工作。② Abrupt hippocampal remapping signals resolution of memory interference（2021）：显示CA3/DG表征突变与干扰解决同步，本研究进一步解释其可能针对当前相关维度。③ 经典计算模型提出DG稀疏编码与CA3竞争性动力学支持相似记忆正交化。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications｜2026-11-06",
+              "url": "https://www.nature.com/articles/s41467-026-79331-w"
+            },
+            {
+              "title": "前期｜Pattern separation in the human hippocampal CA3 and dentate gyrus｜Science｜2008",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/18356518/"
+            },
+            {
+              "title": "前期｜Abrupt hippocampal remapping signals resolution of memory interference｜2021",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8355182/"
+            },
+            {
+              "title": "预印本｜bioRxiv｜2025",
+              "url": "https://doi.org/10.1101/2025.10.13.682242"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1093-brain-awag387",
+          "title": "卒中后抑郁更接近右侧额叶—皮层下网络破坏，而非单一“抑郁中枢”",
+          "date": "2026-11-06",
+          "checked": "2026-11-07",
+          "topic": "卒中后抑郁 / 病灶网络 / 贝叶斯推断 / 多队列",
+          "target": "右侧额叶及额叶—皮层下结构断连",
+          "summary": "研究重分析法国、韩国、德国和美国四个队列共1,864例卒中患者，结合病灶位置、结构断连及规范连接组病灶网络图。贝叶斯证据最一致地指向右额叶病灶和右优势额叶—皮层下结构断连，同时在大片区域获得支持“无关联”的证据。",
+          "sections": [
+            {
+              "heading": "论文信息、标题译述与背景",
+              "body": "Brain，2026-11-06在线发表；DOI：10.1093/brain/awag387。影响因子待官方可靠核实。标题可译为“卒中后抑郁症状中的网络破坏：一项贝叶斯多队列研究”。既往病灶定位结果常互相矛盾，部分原因是小样本研究只能报告阳性区域，难以区分“没检出”与“有证据表明无关联”。"
+            },
+            {
+              "heading": "研究问题与方法",
+              "body": "作者重分析法国、韩国、德国和美国四个既有观察性队列，共1,864名有抑郁症状评估的卒中患者。采用逐体素贝叶斯因子映射检验病灶位置，同时以规范连接组估计结构断连和功能病灶网络；贝叶斯框架既量化支持关联的证据，也量化支持无关联的证据。"
+            },
+            {
+              "heading": "原文发现与机制",
+              "body": "较稳定的病灶关联位于右侧额叶、岛叶、顶叶及纹状体、杏仁核、海马和邻近白质；大部分左半球区域出现支持无贡献的证据。结构断连集中于双侧额叶白质，尤其胼胝体和丘脑前辐射，并总体呈右侧优势。功能网络关联涉及左后扣带/楔前叶及较不一致的双侧前岛。综合结果最支持右额叶病灶及右优势额叶—皮层下断连。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "价值：多队列和贝叶斯方法不仅寻找候选网络，也明确排除许多区域，减少“全脑哪里都可能”的模糊结论。局限：观察性队列的抑郁量表、评估时间和康复背景存在异质性；规范连接组不等于患者个体连接；病灶位置只能解释部分症状，社会心理因素和既往抑郁同样重要。编辑分析：模型更适合风险分层和机制假设，而不能单独诊断抑郁或决定刺激靶点。"
+            },
+            {
+              "heading": "摘要要点中文译述",
+              "body": "卒中后抑郁并非由一个固定脑区决定。跨四个队列后，最可信的信号是右额叶及其与皮层下、边缘系统连接受损；许多以往被怀疑的脑区反而获得了“缺乏贡献”的贝叶斯证据。"
+            },
+            {
+              "heading": "相关前期文献",
+              "body": "① Strategic infarct locations for poststroke depressive symptoms（2021）：在发现与验证队列中指向右杏仁核、苍白球和右侧断连，是本研究的重要先导。② Associations of lesion location, structural disconnection, and functional diaschisis（2023）：270例研究支持右岛叶、壳核、额下回和杏仁核及右侧结构断连。③ Lesion-network mapping of poststroke depressive symptoms（2025）：用两个前瞻性缺血性卒中队列继续检验功能网络解释。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Network disruption in post-stroke depressive symptoms｜Brain｜2026-11-06",
+              "url": "https://academic.oup.com/brain/advance-article/doi/10.1093/brain/awag387/9014888"
+            },
+            {
+              "title": "前期｜Strategic Infarct Locations for Poststroke Depressive Symptoms｜2021",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/34547548/"
+            },
+            {
+              "title": "前期｜Associations of lesion location, structural disconnection, and functional diaschisis｜2023",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/37265471/"
+            },
+            {
+              "title": "前期｜Lesion-Network Mapping of Poststroke Depressive Symptoms｜2025",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/40620229/"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜npj Parkinson’s Disease｜2026-11-06",
+          "url": "https://www.nature.com/articles/s41531-026-01619-x"
+        },
+        {
+          "title": "前期｜Cortical circuit dysfunction in a mouse model of alpha-synucleinopathy in vivo｜2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34877534/"
+        },
+        {
+          "title": "预印本｜bioRxiv｜2025",
+          "url": "https://doi.org/10.1101/2025.07.31.668024"
+        },
+        {
+          "title": "主文｜Nature Communications｜2026-11-06",
+          "url": "https://www.nature.com/articles/s41467-026-79331-w"
+        },
+        {
+          "title": "前期｜Pattern separation in the human hippocampal CA3 and dentate gyrus｜Science｜2008",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18356518/"
+        },
+        {
+          "title": "前期｜Abrupt hippocampal remapping signals resolution of memory interference｜2021",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8355182/"
+        },
+        {
+          "title": "预印本｜bioRxiv｜2025",
+          "url": "https://doi.org/10.1101/2025.10.13.682242"
+        },
+        {
+          "title": "主文｜Network disruption in post-stroke depressive symptoms｜Brain｜2026-11-06",
+          "url": "https://academic.oup.com/brain/advance-article/doi/10.1093/brain/awag387/9014888"
+        },
+        {
+          "title": "前期｜Strategic Infarct Locations for Poststroke Depressive Symptoms｜2021",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/34547548/"
+        },
+        {
+          "title": "前期｜Associations of lesion location, structural disconnection, and functional diaschisis｜2023",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37265471/"
+        },
+        {
+          "title": "前期｜Lesion-Network Mapping of Poststroke Depressive Symptoms｜2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40620229/"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-11-06",
       "date": "2026-11-06",
