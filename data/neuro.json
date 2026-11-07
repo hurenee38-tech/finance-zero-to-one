@@ -1,8 +1,336 @@
 {
   "schemaVersion": 1,
   "channel": "neuro",
-  "updatedAt": "2026-11-06T22:55:58.000Z",
+  "updatedAt": "2026-11-07T23:06:03.000Z",
   "items": [
+    {
+      "id": "neuro-2026-11-08",
+      "date": "2026-11-08",
+      "source": "scheduled",
+      "title": "神经生物学简报｜自闭症微外显子、动态视觉皮层拓扑与联想记忆信息论学习",
+      "summary": "本期收录3篇已核实原始研究：Nature研究扩展神经微外显子图谱并建立剪接调控序列模型，帮助解释自闭症相关非编码变异；Nature Communications两篇11月6日研究分别用视频基础模型刻画高阶视觉皮层的空间功能组织，以及提出以局部信息冗余最大化提高Hopfield联想记忆网络容量。后两篇均为计算研究，不能直接视为已证实的生物学机制。",
+      "sections": [
+        {
+          "heading": "今日思考",
+          "body": "一项Hopfield网络研究报告：以每个神经元的“信息冗余最大化”作为学习目标，可把模型记忆容量从经典Hebbian网络的约0.14提高到约1.59。怎样判断这只是一个有效的计算优化目标，还是可能反映真实神经回路中的记忆编码原则？从模型复现、神经记录和因果干预三个层面，分别需要什么证据？"
+        },
+        {
+          "heading": "参考思路（先作答，再展开）",
+          "body": "问题拆解：先区分三个层次：模型是否真的更好；这一计算原则是否能解释神经活动；它是否对生物记忆具有因果作用。前一层成立，不会自动推出后两层。\\n\\n推理步骤与依据：\\n1. 模型层面：独立复现容量提升，并检查不同网络规模、随机种子、噪声水平、存储模式相关性、权重约束和初始化下是否稳健。比较时应使用相同的容量定义、训练数据和检索条件；尤其要报告自连接/对角权重约束、训练时是否使用目标提示，以及测试时的迭代收敛规则。\\n2. 神经数据层面：在海马或相关皮层回路中，分别估计外部线索、局部递归输入与神经元输出所携带的独有信息、共享冗余信息和协同信息；比较成功提取、错误提取和干扰条件下这些信息成分是否按模型预测变化。\\n3. 因果层面：先找到与冗余信息变化相关的突触或细胞类型机制，再选择性扰动候选通路。如果扰动降低模型所预测的共享信息，并选择性损害联想提取，而非普遍降低兴奋性或运动能力，才更支持其因果作用。\\n4. 跨任务验证：用不同线索强度、部分线索补全、相似记忆干扰和延迟提取任务检验原则是否泛化，而不是只在一个模型或一种任务中成立。\\n\\n必要证据：计算结果可独立复现；容量定义和训练/测试流程透明；生物神经活动中能测得与模型一致的信息结构；针对候选机制的干预会按预测改变记忆表现。\\n支持证据：成功提取时冗余信息上升、失败前冗余下降；不同脑区或任务中出现相似的局部信息组织；模型能预测未参与训练的数据。\\n待验证假设：突触可塑性可能在局部回路中偏向保留对目标记忆有用的共享信息；但真实神经元未必显式计算信息论意义上的冗余。\\n\\n一种可行答案：目前可以把“冗余最大化”视为有启发性的联想记忆网络学习规则。要把它提升为生物学原则，至少还需要在真实神经数据中验证其信息结构，并通过选择性回路干预建立因果联系。\\n\\n常见误区：把模型容量α直接等同于人类记忆容量；把网络性能提高当作神经机制被发现；忽略训练目标可能使用了生物回路中不可直接获得的提示信息；只看相关性而不排除总体兴奋性或任务难度变化。\\n\\n自查标准：模型结论是否可复现？生物数据是否独立于模型训练？是否有针对候选回路的干预？是否排除了更简单的替代解释？开放问题可以有不同答案，但每个答案都应提出可证伪的实验预测。",
+          "collapsed": true
+        },
+        {
+          "heading": "本期选文与核查说明",
+          "body": "本期纳入3篇原始研究，原始发表日期分别为2026-10-14和2026-11-06。Nature官方Journal Metrics列出的2025年JIF为56.1；Nature Communications为18.1，均高于本简报原则阈值8。影响因子是期刊层面指标，不代表单篇论文质量。选文轮换至RNA剪接、自主视觉皮层组织和计算联想记忆；未重复近期已收录的GPCR定向降解、C9ORF72星形胶质细胞线粒体运输或近期AD/Tau主题。"
+        },
+        {
+          "heading": "论文一｜神经微外显子与自闭症相关变异",
+          "body": "Nature研究通过人和小鼠大规模转录组分析发现此前未注释的神经微外显子，并用机器学习建立序列调控模型。模型可帮助优先筛选可能影响剪接的非编码变异；预测分数和队列关联不能单独证明某个变异致病。"
+        },
+        {
+          "heading": "论文二｜视频基础模型重建高阶视觉皮层拓扑",
+          "body": "Nature Communications研究将预训练视频基础模型的单元映射到模拟皮层表面，在保留任务表现和脑数据对齐的同时，重现腹侧与背侧高阶视觉区域的若干空间功能簇。该结果提供可检验的计算框架，不证明大脑实际采用同一算法。"
+        },
+        {
+          "heading": "论文三｜信息冗余最大化与Hopfield联想记忆",
+          "body": "Nature Communications研究使用部分信息分解分析经典Hopfield网络，发现成功存储时外部目标输入与内部递归输入之间的冗余信息较高，并据此设计逐神经元冗余最大化学习目标。作者报告模型容量约1.59，高于经典Hebbian网络约0.14；该结果来自计算模型，不是动物或人类记忆实验。"
+        }
+      ],
+      "terms": [
+        {
+          "en": "Microexon",
+          "zh": "微外显子",
+          "meaning": "通常只有数个至数十个核苷酸的短外显子，在神经系统中常具有细胞类型或发育阶段特异性剪接。"
+        },
+        {
+          "en": "Alternative splicing",
+          "zh": "可变剪接",
+          "meaning": "同一前体mRNA通过不同外显子组合形成不同转录本和蛋白异构体。"
+        },
+        {
+          "en": "Percentage spliced in (PSI)",
+          "zh": "外显子包含率",
+          "meaning": "表示某个可变外显子在所有相关转录本中被包含的比例。"
+        },
+        {
+          "en": "Nonsense-mediated mRNA decay (NMD)",
+          "zh": "无义介导的mRNA降解",
+          "meaning": "识别并清除含提前终止密码子的异常mRNA的转录后质量控制机制。"
+        },
+        {
+          "en": "Cis-regulatory element",
+          "zh": "顺式调控元件",
+          "meaning": "位于同一DNA或RNA分子上的序列，可影响邻近基因或剪接事件的调控。"
+        },
+        {
+          "en": "RNA-binding protein (RBP)",
+          "zh": "RNA结合蛋白",
+          "meaning": "通过识别RNA序列或结构调节剪接、稳定性、定位或翻译的蛋白质。"
+        },
+        {
+          "en": "AUPRC",
+          "zh": "精确率—召回率曲线下面积",
+          "meaning": "在类别不平衡的分类任务中综合评价模型精确率和召回率的指标。"
+        },
+        {
+          "en": "Saturation mutagenesis",
+          "zh": "饱和突变扫描",
+          "meaning": "系统替换目标区域的碱基或氨基酸，以评估每个位置对功能的影响。"
+        },
+        {
+          "en": "Topographic organization",
+          "zh": "拓扑组织",
+          "meaning": "功能相似的神经元或区域在皮层表面形成有空间规律的聚集或连续梯度。"
+        },
+        {
+          "en": "Video foundation model",
+          "zh": "视频基础模型",
+          "meaning": "在大规模视频数据上预训练、可迁移到多种动态视觉任务的模型。"
+        },
+        {
+          "en": "Dorsal/ventral visual streams",
+          "zh": "背侧/腹侧视觉通路",
+          "meaning": "分别偏重空间—动作处理与物体身份等视觉信息处理的皮层通路。"
+        },
+        {
+          "en": "Hopfield network",
+          "zh": "Hopfield网络",
+          "meaning": "通过递归连接形成稳定吸引子状态、可由部分或带噪线索恢复完整模式的联想记忆模型。"
+        },
+        {
+          "en": "Associative memory",
+          "zh": "联想记忆",
+          "meaning": "根据部分线索或关联信息提取完整记忆表征的能力。"
+        },
+        {
+          "en": "Partial information decomposition (PID)",
+          "zh": "部分信息分解",
+          "meaning": "把多个输入对输出的信息贡献拆分为独有、冗余和协同成分的分析框架。"
+        },
+        {
+          "en": "Redundancy",
+          "zh": "信息冗余",
+          "meaning": "多个输入各自携带、且彼此共享的关于同一输出的信息。"
+        },
+        {
+          "en": "Synergy",
+          "zh": "协同信息",
+          "meaning": "只有同时知道多个输入时才出现、单独观察任一输入都无法获得的信息。"
+        },
+        {
+          "en": "Memory capacity (α)",
+          "zh": "记忆容量参数",
+          "meaning": "在Hopfield模型中常用存储模式数与网络单元数之比表示负载水平。"
+        }
+      ],
+      "papers": [
+        {
+          "id": "doi-10-1038-s41586-026-11119-w",
+          "title": "扩展神经微外显子图谱并建立剪接调控序列模型，定位自闭症相关遗传变异",
+          "date": "2026-10-14",
+          "checked": "2026-11-08",
+          "topic": "自闭症 / RNA可变剪接 / 非编码变异",
+          "target": "神经微外显子调控网络；SRRM4、QKI等RNA结合蛋白",
+          "summary": "研究整合大规模人和小鼠转录组，识别此前未注释的神经微外显子，并用机器学习建立神经特异性剪接序列模型。该模型用于预测自闭症相关基因组变异对微外显子剪接的影响，为非编码变异解释提供新工具；预测与队列关联仍需逐位点功能验证。",
+          "sections": [
+            {
+              "heading": "论文信息、标题与摘要译述",
+              "body": "Parada、Bretschneider、Li等，Nature，2026-10-14在线发表，原始研究，DOI：10.1038/s41586-026-11119-w。标题可译为“微外显子调控序列密码揭示与自闭症相关的遗传变异”。摘要要点：研究发现数百种此前未注释的神经微外显子，其中一些具有神经元亚型特异性或可触发无义介导的mRNA降解；机器学习模型提取其剪接调控序列特征，并用于评估自闭症个体中的变异。Nature官方页面列出的2025年JIF为56.1。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "微外显子通常只有数个至数十个核苷酸，却能改变蛋白质相互作用结构域或调节转录本稳定性。既往研究已发现自闭症脑组织中神经微外显子剪接异常，但完整目录和邻近非编码变异的功能影响仍未充分解析。本研究要回答：还有多少神经微外显子未被注释？哪些序列特征控制其剪接？遗传变异是否可能通过破坏这些序列影响自闭症相关基因？"
+            },
+            {
+              "heading": "核心方法",
+              "body": "研究分析4,790份人类组织RNA-seq数据及47,380个皮层单核转录组，另整合小鼠bulk RNA-seq、TRAP-seq和单细胞数据。作者使用MicroExonator进行de novo检测，建立包含剪接位点、分支位点、序列组成和RNA结合蛋白结合特征的机器学习模型；再结合饱和计算突变、QKI敲低、剪接报告系统、PsychENCODE配对全基因组测序与脑RNA-seq数据，评估变异对剪接的预测影响。"
+            },
+            {
+              "heading": "原文主要发现",
+              "body": "在人类数据中识别出1,514个此前未注释微外显子，其中292个显示神经组织/细胞偏好性剪接；小鼠数据中另发现1,115个新微外显子。模型使用梯度提升决策树整合剪接和RNA结合蛋白特征，区分神经微外显子的AUPRC为0.72，显著高于随机基线。研究还发现QKI相关序列基序可抑制部分微外显子包含；在276名PsychENCODE BrainGVEX个体的配对基因组与脑RNA数据中，预测变异影响与实测ΔPSI呈统计相关。自闭症队列分析提示部分罕见变异的预测影响较大，并与自闭症状态相关。"
+            },
+            {
+              "heading": "机制解释与证据边界",
+              "body": "微外显子剪接由顺式调控序列与反式RNA结合蛋白共同决定。模型提示SRRM4、SRSF11、RBFOX等促进剪接的基序，以及QKI等抑制性基序参与调控；部分微外显子包含后产生提前终止密码子，可能通过NMD降低宿主基因mRNA。研究通过QKI敲低和minigene实验验证了部分调控逻辑，但并非每个自闭症相关变异都完成了等位基因特异性功能验证。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文价值：扩大了神经微外显子资源，并把非编码序列变异、RNA剪接变化和自闭症遗传背景连接起来。局限：模型预测依赖训练数据与细胞类型覆盖；部分变异效应的实测相关度有限；自闭症高度异质，队列关联不能证明某个变异单独致病。编辑分析：该模型可作为非编码变异优先级排序工具，帮助选择后续minigene、iPSC神经元或CRISPR等位基因编辑实验；将来是否可用ASO或其他剪接调节策略干预，仍是待验证假设。"
+            },
+            {
+              "heading": "相关前期文献与关系",
+              "body": "[1] Irimia等，Cell，2014，A highly conserved program of neuronal microexons is misregulated in autistic brains，DOI: 10.1016/j.cell.2014.11.035。首次系统描述神经微外显子程序及其在自闭症脑组织中的异常，是本研究扩展微外显子图谱的基础。\\n[2] Quesnel-Vallières等，Molecular Cell，2016，Misregulation of an activity-dependent splicing network as a common mechanism underlying autism spectrum disorders，DOI: 10.1016/j.molcel.2016.11.033。通过降低SRRM4并建立小鼠模型，连接微外显子剪接异常、突触变化和社交行为表型。\\n[3] Gonatopoulos-Pournatzis等，Molecular Cell，2020，Autism-misregulated eIF4G microexons control synaptic translation and higher order cognitive functions，DOI: 10.1016/j.molcel.2020.01.006。进一步说明特定微外显子可影响突触蛋白翻译和高级认知功能，为新研究提出的变异解释提供功能背景。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature，2026-10-14",
+              "url": "https://www.nature.com/articles/s41586-026-11119-w"
+            },
+            {
+              "title": "前期｜神经微外显子在自闭症脑中的异常，Cell 2014",
+              "url": "https://doi.org/10.1016/j.cell.2014.11.035"
+            },
+            {
+              "title": "前期｜SRRM4依赖的活动相关剪接网络与自闭症，Molecular Cell 2016",
+              "url": "https://doi.org/10.1016/j.molcel.2016.11.033"
+            },
+            {
+              "title": "前期｜eIF4G微外显子、突触翻译与认知功能，Molecular Cell 2020",
+              "url": "https://doi.org/10.1016/j.molcel.2020.01.006"
+            },
+            {
+              "title": "期刊指标｜Nature官方Journal Metrics，2025 JIF",
+              "url": "https://www.nature.com/nature/journal-impact"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-78948-1",
+          "title": "视频基础模型映射高阶视觉皮层，重建动态视觉表征的空间功能拓扑",
+          "date": "2026-11-06",
+          "checked": "2026-11-08",
+          "topic": "计算神经科学 / 高阶视觉皮层 / 视频基础模型 / 皮层拓扑",
+          "target": "腹侧与背侧高阶视觉皮层的空间功能组织",
+          "summary": "研究提出一种把预训练视频基础模型单元映射到模拟皮层表面的拓扑方法，在保留任务性能和脑数据对齐的同时，重现高阶视觉皮层中的面孔、身体和运动选择性空间簇，并刻画静态/动态内容、物体大小和生命性等选择性分布。该工作是计算框架，不证明大脑采用相同算法。",
+          "sections": [
+            {
+              "heading": "论文信息、标题与摘要译述",
+              "body": "Tang、Shah、Kolly等，Nature Communications，2026-11-06在线发表，原始研究，DOI：10.1038/s41467-026-78948-1。标题可译为“视频拓扑模型预测人类视觉系统的空间—功能组织”。摘要要点：作者将视频基础模型中的单元组织到模拟皮层表面，得到空间结构化的响应相关性，同时保持任务表现和脑数据对齐；模型呈现腹侧与背侧视觉皮层的面孔、身体和运动选择性区域。Nature Communications官方页面列出的2025年JIF为18.1。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "高阶视觉皮层不是均匀组织：功能相近的神经元会形成空间簇，腹侧和背侧通路也呈现不同的功能偏向。既有拓扑模型较多针对静态图像或腹侧视觉区域。本研究要检验，能否把动态视频表征也映射为具有空间组织的模型，并同时解释人脑高阶视觉区域的功能选择性。"
+            },
+            {
+              "heading": "核心方法",
+              "body": "作者提出将预训练视频基础模型的计算单元重新空间排列并变换到一个模拟皮层表面的方法。模型在维持视频任务表现的同时，引入空间组织约束，并与人类高阶视觉皮层的功能组织数据进行对齐和比较，分析面孔、身体、运动、生命性、物体大小以及静态与动态内容的选择性分布。"
+            },
+            {
+              "heading": "原文主要发现",
+              "body": "拓扑视频模型形成了空间结构化的响应相关性，并保留原模型任务表现和脑对齐。模型能够呈现腹侧和背侧视觉皮层中的若干功能簇，包括面孔、身体和运动选择性区域；生命性、物体大小以及静态/动态内容的选择性分布也与人类视觉系统的组织特征相呼应。作者还观察到功能选择性在模型和人脑组织中呈连续变化，而非完全由离散模块构成。"
+            },
+            {
+              "heading": "机制解释与证据边界",
+              "body": "模型结果支持一种计算解释：通用视频表征经过空间拓扑约束后，可以同时产生连续梯度和局部功能簇。它并未证明皮层发育过程真实使用了相同优化目标，也没有通过神经干预验证空间拓扑对视觉行为的必要性。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文价值：把静态图像拓扑模型推进到动态视频表征，并同时覆盖腹侧和背侧高阶视觉组织。局限：这是计算模型与脑数据的匹配，不是直接记录或干预神经元的实验；结果依赖预训练模型、空间映射和评价数据。编辑分析：可用该模型提出新的刺激设计和区域选择性预测，再用fMRI、颅内记录或动物电生理检验；也可用于评估视觉AI模型是否只匹配平均反应，还是同时匹配皮层空间组织。"
+            },
+            {
+              "heading": "相关前期文献与关系",
+              "body": "[1] Margalit等，Neuron，2024，A unifying framework for functional organization in early and higher ventral visual cortex，DOI: 10.1016/j.neuron.2024.04.018。建立TDANN框架，将任务通用表征与皮层表面响应平滑度结合，是本研究拓扑模型的直接前期基础。\\n[2] Blauch、Behrmann与Plaut，PNAS，2022，A connectivity-constrained computational account of topographic organization in primate high-level visual cortex，DOI: 10.1073/pnas.2112566119。强调连接距离约束如何塑造高阶视觉皮层拓扑，为空间组织机制提供另一种计算解释。\\n[3] Yamins等，PNAS，2014，Performance-optimized hierarchical models predict neural responses in higher visual cortex，DOI: 10.1073/pnas.1403112111。奠定任务优化深度网络预测V4/IT神经反应的目标驱动建模思路；新研究进一步加入动态视频和皮层空间拓扑。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications，2026-11-06",
+              "url": "https://www.nature.com/articles/s41467-026-78948-1"
+            },
+            {
+              "title": "前期｜TDANN统一腹侧视觉皮层功能组织框架，Neuron 2024",
+              "url": "https://doi.org/10.1016/j.neuron.2024.04.018"
+            },
+            {
+              "title": "前期｜连接约束的高阶视觉皮层拓扑模型，PNAS 2022",
+              "url": "https://doi.org/10.1073/pnas.2112566119"
+            },
+            {
+              "title": "前期｜任务优化层级模型预测高阶视觉皮层反应，PNAS 2014",
+              "url": "https://doi.org/10.1073/pnas.1403112111"
+            },
+            {
+              "title": "期刊指标｜Nature Communications官方Journal Metrics，2025 JIF",
+              "url": "https://www.nature.com/ncomms/journal-impact"
+            }
+          ]
+        },
+        {
+          "id": "doi-10-1038-s41467-026-78777-2",
+          "title": "以神经元局部信息冗余最大化训练Hopfield网络，提高联想记忆模型容量",
+          "date": "2026-11-06",
+          "checked": "2026-11-08",
+          "topic": "计算神经科学 / 联想记忆 / 信息论 / Hopfield网络",
+          "target": "逐神经元信息冗余最大化学习目标",
+          "summary": "研究用部分信息分解分析Hopfield网络中外部目标输入、内部递归输入与神经元输出之间的信息关系，并把冗余信息最大化作为逐神经元学习目标。作者报告，在其模型设定下，记忆容量约为1.59，相比经典Hebbian网络约0.14显著提高；这是计算模型结果，尚不能直接解释生物记忆机制。",
+          "sections": [
+            {
+              "heading": "论文信息、标题与摘要译述",
+              "body": "Blümel、Schneider、Neuhaus等，Nature Communications，2026-11-06在线发表，原始计算研究，DOI：10.1038/s41467-026-78777-2。标题可译为“冗余最大化是联想记忆学习的一项原则”。摘要要点：作者用部分信息分解分析神经元输出中来自外部模式输入和网络递归输入的信息，发现成功存储时冗余信息占主导；据此设计逐神经元冗余最大化目标，模型容量达到约1.59，超过经典Hebbian网络约0.14。Nature Communications官方页面列出的2025年JIF为18.1。"
+            },
+            {
+              "heading": "背景与研究问题",
+              "body": "Hopfield网络可从部分或带噪线索恢复完整模式，是经典联想记忆模型。传统Hebbian学习的容量有限，而局部神经元究竟应优化何种信息处理目标仍有争论。本研究关注：成功检索时，外部目标模式与内部递归输入分别向单个神经元输出提供了多少独有、冗余和协同信息？能否把其中一种信息成分转化为学习规则？"
+            },
+            {
+              "heading": "核心方法",
+              "body": "作者先对经典Hopfield网络逐神经元进行部分信息分解（PID），把外部目标输入和网络递归输入对神经元输出的信息贡献拆分为独有信息、冗余信息和协同信息。随后把每个神经元的冗余信息作为优化目标，通过梯度学习更新网络连接，并在模式检索任务中评估存储容量，与经典Hebbian规则及其他网络学习方案比较。"
+            },
+            {
+              "heading": "原文主要发现",
+              "body": "在经典Hopfield网络的容量阈值以下，神经元输出中的外部目标输入与递归输入共享信息较高，而独有和协同信息接近零；当网络负载超过容量、检索性能明显下降时，这种信息结构发生变化。以冗余最大化训练的网络，作者报告容量参数α约为1.59，相比经典Hebbian网络约0.14提升超过十倍，并优于文中比较的若干近期模型。"
+            },
+            {
+              "heading": "机制解释与证据边界",
+              "body": "在该模型框架中，冗余表示两个输入都携带、且彼此共享的关于神经元输出的信息。作者提出，让每个单元最大化这部分共享信息，可以使内部递归活动更稳定地支持目标模式的恢复。该解释针对模型中的信息结构和学习目标；它并未证明生物突触可塑性直接计算PID，也未证明海马神经元采用相同目标。"
+            },
+            {
+              "heading": "价值、局限与转化启发",
+              "body": "原文价值：把信息论分解从描述性分析转化为可优化的网络学习目标，为联想记忆模型设计提供新方向。局限：结果来自计算模拟；容量α是模型负载指标，不能等同人类记忆容量；学习目标、网络规模、权重约束、初始化及检索动力学都可能影响结果。编辑分析：后续复现应明确报告自连接/对角权重约束、有限规模效应、训练阶段是否使用目标提示及测试时的迭代收敛条件；若要提出生物学机制，还需神经记录显示相应信息成分，并用回路干预验证其因果作用。"
+            },
+            {
+              "heading": "相关前期文献与关系",
+              "body": "[1] Hopfield，PNAS，1982，Neural networks and physical systems with emergent collective computational abilities，DOI: 10.1073/pnas.79.8.2554。提出经典联想记忆网络，是本研究的模型基础。\\n[2] Amit、Gutfreund与Sompolinsky，Physical Review A，1985，Spin-glass models of neural networks，DOI: 10.1103/PhysRevA.32.1007。用统计物理分析Hopfield类网络的稳定态和存储行为，为经典容量分析提供理论基础。\\n[3] Williams与Beer，2010，Nonnegative Decomposition of Multivariate Information，DOI: 10.48550/arXiv.1004.2515。提出部分信息分解框架，是本研究区分独有、冗余和协同信息的理论基础。"
+            }
+          ],
+          "sources": [
+            {
+              "title": "主文｜Nature Communications，2026-11-06",
+              "url": "https://www.nature.com/articles/s41467-026-78777-2"
+            },
+            {
+              "title": "前期｜Hopfield联想记忆网络，PNAS 1982",
+              "url": "https://doi.org/10.1073/pnas.79.8.2554"
+            },
+            {
+              "title": "前期｜Spin-glass models of neural networks，Physical Review A 1985",
+              "url": "https://doi.org/10.1103/PhysRevA.32.1007"
+            },
+            {
+              "title": "前期｜Nonnegative Decomposition of Multivariate Information，2010",
+              "url": "https://doi.org/10.48550/arXiv.1004.2515"
+            },
+            {
+              "title": "期刊指标｜Nature Communications官方Journal Metrics，2025 JIF",
+              "url": "https://www.nature.com/ncomms/journal-impact"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "主文｜A microexon regulatory code reveals autism-linked genetic variation，Nature，2026-10-14",
+          "url": "https://www.nature.com/articles/s41586-026-11119-w"
+        },
+        {
+          "title": "主文｜A topographic video model predicts the spatio-functional organization of the human visual system，Nature Communications，2026-11-06",
+          "url": "https://www.nature.com/articles/s41467-026-78948-1"
+        },
+        {
+          "title": "主文｜Redundancy maximization as a principle of associative memory learning in Hopfield networks，Nature Communications，2026-11-06",
+          "url": "https://www.nature.com/articles/s41467-026-78777-2"
+        },
+        {
+          "title": "Nature官方Journal Metrics，2025 JIF 56.1",
+          "url": "https://www.nature.com/nature/journal-impact"
+        },
+        {
+          "title": "Nature Communications官方Journal Metrics，2025 JIF 18.1",
+          "url": "https://www.nature.com/ncomms/journal-impact"
+        }
+      ]
+    },
     {
       "id": "neuro-2026-11-07",
       "date": "2026-11-07",
